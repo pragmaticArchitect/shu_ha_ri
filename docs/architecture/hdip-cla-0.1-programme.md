@@ -20,6 +20,8 @@ The [M15-V02 Architecture Authority & Jurisdiction View](/docs/architecture/cla/
 
 The [M15-V03 Product Development & Evolution (PDEP) View](/docs/architecture/cla/views/hdip-cla-0.1-m15-v03-product-development-evolution) illustrates **Symbiant-led governed self-service creation**, canonical cross-Plane responsibilities, the **Data-specific Stage 0–10 lifecycle**, continuous evolution and economically informed decision support without prescribing enterprise investment governance.
 
+The [M15-V04 Registry, Resolution, Projection & Compilation View](/docs/architecture/cla/views/hdip-cla-0.1-m15-v04-registry-resolution-projection-compilation) shows how an **externally governed Enterprise Semantic Corpus**, canonical logical Registries and P1/P2 responsibilities ground Product intent, resolve reference context and produce the distinct M09 operational projections and compilation artifacts. HPD remains the HDIP Product projection; applicable PROD/PDS/DPP family or trust artifacts retain their separate authorities.
+
 ## Programme stages
 
 | Stage | Purpose |

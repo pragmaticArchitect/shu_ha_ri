@@ -52,6 +52,16 @@ The complementary **M15-V02 Architecture Authority & Jurisdiction View** shows h
 
 The **Data Product Stage 0–10** sequence is a family-specific canonical specialization, **not a universal lifecycle**. Indicative cost visibility enables informed choices, but HDIP **does not impose any enterprise funding or investment governance model**.
 
+### Enterprise semantic grounding, registries and compilation (M15-V04)
+
+**M15-V04 — Registry, Resolution, Projection & Compilation** illustrates the authoritative **Enterprise Semantic Corpus** that gives business-native intent governed meaning, the **five core HDIP Registries** (plus the separate Data-profile ADS Registry), and P1/P2 semantic grounding, dependency resolution and compilation. It distinguishes **RRG, HPD, RGB, conditional SYNCTX, Realization Plan, Blueprint Binding and Compilation Record** from family-authoritative **PROD/PDS/DPP** artifacts, and avoids equating Intelligence Products with ML Model Products.
+
+[![HDIP M15-V04 semantic corpus, registration, resolution and compilation overview](/img/hdip/cla/hdip-cla-0.1-m15-v04-registry-resolution-projection-compilation-preview.png)](/img/hdip/cla/hdip-cla-0.1-m15-v04-registry-resolution-projection-compilation.svg)
+
+[Read the M15-V04 companion page](/docs/architecture/cla/views/hdip-cla-0.1-m15-v04-registry-resolution-projection-compilation) · [Open full-size SVG](/img/hdip/cla/hdip-cla-0.1-m15-v04-registry-resolution-projection-compilation.svg) · [Editable draw.io source](/diagrams/hdip-cla/0.1/hdip-cla-0.1-m15-v04-registry-resolution-projection-compilation.drawio.xml)
+
+The semantic corpus **remains outside HDIP's source authority**; Registry entries, projections and compilation results do not create Product qualification or assurance. PROD, PDS and DPP are only applicable where their family/trust specifications require or define them.
+
 ### Earlier HDIP and supporting illustrations
 
 The following illustrations are retained to explain earlier HDIP concepts and related Product/Platform ideas. In particular, the **2017–2019 HDIP architecture illustration** uses historical PDEP/CEP/COVP and governance terminology; it is **not** the canonical five-Plane model established by HDIP-CLA 0.1.
