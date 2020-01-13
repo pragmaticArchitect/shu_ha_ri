@@ -13,6 +13,9 @@ const sidebars: SidebarsConfig = {
         'architecture/cla/hdip-cla-0.1-m03-existing-hdip-construct-inventory',
         'architecture/cla/hdip-cla-0.1-m04-principles-design-invariants',
         'architecture/cla/hdip-cla-0.1-m05-responsibility-convergence-separation',
+        'architecture/cla/hdip-cla-0.1-m06-canonical-logical-plane-derivation',
+        'architecture/cla/hdip-cla-0.1-m07-cross-cutting-overlay-derivation',
+        'architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue',
       ],
     },
     {

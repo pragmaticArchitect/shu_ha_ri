@@ -42,7 +42,10 @@ The programme is responsibility-first and deliberately avoids freezing logical p
 | **M03 — Existing HDIP Construct Inventory & Disposition** | **Complete** |
 | **M04 — Canonical Architecture Principles & Design Invariants** | **Complete** |
 | **M05 — Responsibility Convergence & Separation Analysis** | **Complete** |
-| **M06 — Canonical Logical Plane Derivation** | Next |
+| **M06 — Canonical Logical Plane Derivation** | **Complete** |
+| **M07 — Cross-Cutting Overlay Derivation** | **Complete** |
+| **M08 — Canonical Logical ABB Catalogue** | **Complete** |
+| **M09 — Registry, Descriptor, Projection & Compilation Architecture** | Next |
 
 ## Foundational proposition
 
