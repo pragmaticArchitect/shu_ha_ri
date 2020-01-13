@@ -59,11 +59,12 @@ export default function Home(): React.JSX.Element {
         <section className={styles.wormholeSection} aria-labelledby="dii-wormhole-heading">
           <div className="container">
             <div className={styles.wormholeHeading}>
-              <h2 id="dii-wormhole-heading">The DII Wormhole Concept</h2>
-              <p>
-                HDIP is conceived as a trusted shortcut between Product Owner Symbiants and consumers across Data, Information and Intelligence — reducing interaction distance while preserving the governed path.
+              <h2 id="dii-wormhole-heading">The Data–Info–Intel (DII) Wormhole</h2>
+              <p className={styles.wormholeTagline}>
+                <strong>Short-circuiting interaction distance. Realising intrinsic product value with evidencable trust.</strong>
               </p>
             </div>
+
             <figure className={styles.wormholeFigure}>
               <img
                 src="/img/hdip/dii-wormhole-concept.png"
@@ -71,7 +72,34 @@ export default function Home(): React.JSX.Element {
                 className={styles.wormholeImage}
                 loading="eager"
               />
+              <figcaption className={styles.wormholeCaption}>
+                Figure: The long conventional interaction route (red) is contrasted with the shorter, trusted HDIP interaction route (green) through the conceptual wormhole (blue).
+              </figcaption>
             </figure>
+
+            <div className={styles.wormholeProse}>
+              <p>
+                The DII Wormhole is a conceptual representation of the interaction paradigm enabled by HDIP (Holistic Data, Information and Intelligence Platform), a specialised logical architecture of the Universal Product Operating System (UPOS).
+              </p>
+              <p>
+                Inspired by the theoretical concept of a spacetime wormhole, HDIP creates an architectural shortcut between Data, Information and Intelligence Product Owner Symbiants and their consumers.
+              </p>
+              <p>
+                In conventional enterprise environments, consumers must often traverse extensive organisational, technological, semantic and governance boundaries to obtain useful product capabilities. This introduces avoidable friction, dependencies, coordination effort and delivery delays.
+              </p>
+              <p>
+                HDIP reduces this effective interaction distance through discoverable and independently governed products, explicit product contracts, authoritative registries, interoperable interfaces, policy-aware consumption and evidencable trust.
+              </p>
+              <p>
+                The objective is not merely the exchange of products, but the <strong>realisation of their intrinsic utility in the consumer&apos;s context</strong>. Product owners preserve ownership and accountability, while consumers gain direct, governed access to the capabilities they need.
+              </p>
+              <p>
+                As a specialised embodiment of UPOS within the wider Productverse, HDIP enables the DII Wormhole experience: bridging formerly distant product participants, reducing unnecessary intermediaries and allowing useful product capabilities to be consumed at the <em>speed of need</em>.
+              </p>
+              <p className={styles.wormholePrinciple}>
+                <strong>The DII Wormhole does not eliminate the distance between independent participants; it makes that distance substantially less consequential to their ability to interact and realise value.</strong>
+              </p>
+            </div>
           </div>
         </section>
 
