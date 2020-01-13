@@ -16,6 +16,10 @@ The [HDIP-CLA 0.1 M15-V01 Canonical Logical Platform View](/docs/architecture/cl
 
 This is a presentation-only projection of the [M15 Reference Views](/docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views) and [M17 frozen baseline](/docs/architecture/cla/hdip-cla-0.1-m17-cross-artifact-reconciliation-freeze), not an amendment to either.
 
+The [M15-V02 Architecture Authority & Jurisdiction View](/docs/architecture/cla/views/hdip-cla-0.1-m15-v02-architecture-authority-jurisdiction) complements that overview by showing how HDIP composes GEDRA, GEARA and GEAIRA while semantic, Product, source, policy and consequential Decision/Action authorities remain independently governed.
+
+The [M15-V03 Product Development & Evolution (PDEP) View](/docs/architecture/cla/views/hdip-cla-0.1-m15-v03-product-development-evolution) illustrates **Symbiant-led governed self-service creation**, canonical cross-Plane responsibilities, the **Data-specific Stage 0–10 lifecycle**, continuous evolution and economically informed decision support without prescribing enterprise investment governance.
+
 ## Programme stages
 
 | Stage | Purpose |

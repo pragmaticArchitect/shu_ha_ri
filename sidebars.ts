@@ -28,6 +28,8 @@ const sidebars: SidebarsConfig = {
           label: 'Canonical Architecture Visuals',
           items: [
             'architecture/cla/views/hdip-cla-0.1-m15-v01-canonical-logical-platform',
+            'architecture/cla/views/hdip-cla-0.1-m15-v02-architecture-authority-jurisdiction',
+            'architecture/cla/views/hdip-cla-0.1-m15-v03-product-development-evolution',
           ],
         },
         'architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model',

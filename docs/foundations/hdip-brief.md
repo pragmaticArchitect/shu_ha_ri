@@ -34,6 +34,24 @@ The diagram below is the current **M15-V01 Canonical Logical Platform View**: on
 
 [View the detailed M15-V01 companion page](/docs/architecture/cla/views/hdip-cla-0.1-m15-v01-canonical-logical-platform) · [Open full-size SVG](/img/hdip/cla/hdip-cla-0.1-m15-v01-canonical-logical-platform.svg) · [Editable draw.io source](/diagrams/hdip-cla/0.1/hdip-cla-0.1-m15-v01-canonical-logical-platform.drawio.xml)
 
+### Composition and authority boundaries (M15-V02)
+
+The complementary **M15-V02 Architecture Authority & Jurisdiction View** shows how GEDRA, GEARA and GEAIRA responsibilities can be composed within HDIP without transferring their independently governed semantic, Product or enterprise authorities. M15-V01 remains the **primary canonical platform overview**; M15-V02 explains its jurisdiction context.
+
+[![HDIP M15-V02 view of composition with GEDRA, GEARA and GEAIRA](/img/hdip/cla/hdip-cla-0.1-m15-v02-architecture-authority-jurisdiction-preview.png)](/img/hdip/cla/hdip-cla-0.1-m15-v02-architecture-authority-jurisdiction.svg)
+
+[Read the M15-V02 companion page](/docs/architecture/cla/views/hdip-cla-0.1-m15-v02-architecture-authority-jurisdiction) · [Open full-size SVG](/img/hdip/cla/hdip-cla-0.1-m15-v02-architecture-authority-jurisdiction.svg) · [Editable draw.io source](/diagrams/hdip-cla/0.1/hdip-cla-0.1-m15-v02-architecture-authority-jurisdiction.drawio.xml)
+
+### Product Owner self-service development and evolution (M15-V03)
+
+**M15-V03 — Product Development & Evolution (PDEP)** illustrates how an accountable Product Owner (Symbiant) can create and evolve governed Products through a **self-service HDIP experience** instead of commissioning each Product through a mandatory Business-requester/Delivery-implementer project. HDIP supports discovery, validation, compilation, realization and publication while preserving independent Product/semantic/policy authority and appropriate accountable judgement.
+
+[![M15-V03: Symbiant-led self-service Product development and evolution](/img/hdip/cla/hdip-cla-0.1-m15-v03-product-development-evolution-preview.png)](/img/hdip/cla/hdip-cla-0.1-m15-v03-product-development-evolution.svg)
+
+[Read the M15-V03 companion page](/docs/architecture/cla/views/hdip-cla-0.1-m15-v03-product-development-evolution) · [Open full-size SVG](/img/hdip/cla/hdip-cla-0.1-m15-v03-product-development-evolution.svg) · [Editable draw.io source](/diagrams/hdip-cla/0.1/hdip-cla-0.1-m15-v03-product-development-evolution.drawio.xml)
+
+The **Data Product Stage 0–10** sequence is a family-specific canonical specialization, **not a universal lifecycle**. Indicative cost visibility enables informed choices, but HDIP **does not impose any enterprise funding or investment governance model**.
+
 ### Earlier HDIP and supporting illustrations
 
 The following illustrations are retained to explain earlier HDIP concepts and related Product/Platform ideas. In particular, the **2017–2019 HDIP architecture illustration** uses historical PDEP/CEP/COVP and governance terminology; it is **not** the canonical five-Plane model established by HDIP-CLA 0.1.

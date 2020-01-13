@@ -1,0 +1,555 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2840" height="2046" viewBox="0 0 1420 1023" role="img" aria-label="HDIP-CLA M15-V03 PDEP Symbiant self-service governed product development lifecycle infographic">
+  <title>HDIP-CLA 0.1 M15-V03 — Product Development and Evolution (PDEP)</title>
+  <desc>Editable-vector view of Symbiant-led self-service Product development and evolution, separate Data Product Stage 0–10 specialization, cross-cutting governance, enterprise-specific funding boundary and HDIP Foundation.</desc>
+  <rect id="canvas" x="0" y="0" width="1420" height="1023" rx="0" fill="#061322" stroke="none" stroke-width="0" />
+  <rect id="header" x="5" y="5" width="1410" height="60" rx="5" fill="#062A49" stroke="#02B5FF" stroke-width="1.2" />
+  <text id="main-title" fill="#9BC9F4" font-size="20" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="710.0" y="29.0">HDIP-CLA 0.1 — M15-V03: Product Development &amp; Evolution (PDEP)</tspan>
+  </text>
+  <text id="main-sub" fill="#64CCFF" font-size="12.5" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="710.0" y="47.3125">Canonical Reference View • Governed Self-Service across HDIP Planes</tspan>
+  </text>
+  <text id="main-tag" fill="#B7CFE4" font-size="8.9" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="710.0" y="58.7825">Product Owners / Symbiants create and evolve Products with governed engineering, compilation, validation and publication automation provided by HDIP.</tspan>
+  </text>
+  <rect id="authority-section" x="5" y="70" width="1100" height="94" rx="4" fill="#031B30" stroke="#02B5FF" stroke-width="1.3" />
+  <text id="authority-section-title" fill="#F4F9FF" font-size="12" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="555.0" y="86.1">Authorities, Context and Operating Model</tspan>
+  </text>
+  <rect id="auth-0" x="12" y="95" width="337" height="61" rx="4" fill="#092135" stroke="#02B5FF" stroke-width="1.1" />
+  <text id="auth-0-title" fill="#F4F9FF" font-size="10.6" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="180.5" y="111.005">SEMANTIC AUTHORITIES</tspan>
+  </text>
+  <text id="auth-0-detail" fill="#B7CFE4" font-size="8.9" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="180.5" y="128.0475">GEDRM · Data</tspan>
+    <tspan x="180.5" y="138.28250000000003">GEARM · Information / Analytics</tspan>
+    <tspan x="180.5" y="148.5175">GEAIRM · Intelligence / AI</tspan>
+  </text>
+  <rect id="auth-1" x="355" y="95" width="356" height="61" rx="4" fill="#092135" stroke="#F6B900" stroke-width="1.1" />
+  <text id="auth-1-title" fill="#F4F9FF" font-size="10.6" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="533.0" y="111.005">PRODUCT AUTHORITIES</tspan>
+  </text>
+  <text id="auth-1-detail" fill="#B7CFE4" font-size="8.9" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="533.0" y="128.0475">Product Owner / Symbiant — creation &amp; evolution</tspan>
+    <tspan x="533.0" y="138.28250000000003">BPS/PIN and applicable Product-family specifications</tspan>
+    <tspan x="533.0" y="148.5175">Qualification ≠ registration ≠ deployment</tspan>
+  </text>
+  <rect id="auth-2" x="717" y="95" width="382" height="61" rx="4" fill="#092135" stroke="#02B5FF" stroke-width="1.1" />
+  <text id="auth-2-title" fill="#F4F9FF" font-size="10.6" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="908.0" y="111.005">ENTERPRISE &amp; ADJACENT</tspan>
+  </text>
+  <text id="auth-2-detail" fill="#B7CFE4" font-size="8.9" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="908.0" y="128.0475">Enterprise policy / legal / source authority</tspan>
+    <tspan x="908.0" y="138.28250000000003">Identity, entitlement and consequential Decision / Action</tspan>
+    <tspan x="908.0" y="148.5175">Independent enterprise-specific funding governance</tspan>
+  </text>
+  <rect id="pdep-main" x="5" y="171" width="1100" height="420" rx="4" fill="#031B30" stroke="#02B5FF" stroke-width="1.2" />
+  <text id="pdep-heading" fill="#9BC9F4" font-size="14" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="555.0" y="191.95">PDEP — Governed Self-Service Product Development &amp; Evolution (Family-Neutral)</tspan>
+  </text>
+  <rect id="shift-creation-power" x="17" y="204" width="1075" height="46" rx="3" fill="#9BC9F4" stroke="#02B5FF" stroke-width="0.9" />
+  <text id="shift-title" fill="#061322" font-size="14" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="554.5" y="224.45">Shift Creation Power Left — From Requesting Products to Creating Products</tspan>
+  </text>
+  <text id="shift-sub" fill="#061322" font-size="9.5" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="555.0" y="240.5375">Product Owners / Symbiants create and evolve Products using governed HDIP capabilities across applicable Planes.</tspan>
+  </text>
+  <rect id="self-service-container" x="18" y="260" width="1075" height="240" rx="4" fill="#031B30" stroke="#02B5FF" stroke-width="1" />
+  <text id="self-service-title" fill="#9BC9F4" font-size="12.5" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="555.0" y="281.3125">PDEP Self-Service Experience — Continuous Lifecycle (Cross-Plane)</tspan>
+  </text>
+  <text id="steps-nonnormative" fill="#B7CFE4" font-size="8.1" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="555.0" y="295.4425">The seven experience groupings below are illustrative — not an independent canonical lifecycle or numbered Product-family stage model.</tspan>
+  </text>
+  <rect id="symbiant-owner" x="27" y="305" width="116" height="151" rx="4" fill="#092135" stroke="#79CC39" stroke-width="1.6" />
+  <text id="symbiant-title" fill="#F4F9FF" font-size="11" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="85.0" y="324.85">Product Owner /</tspan>
+    <tspan x="85.0" y="337.5">Symbiant</tspan>
+  </text>
+  <path id="symbiant-divider" d="M 29,346 L 141,346" fill="none" stroke="#79CC39" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+  <text id="symbiant-desc" fill="#B7CFE4" font-size="9.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="84.5" y="368.33">Creates, owns</tspan>
+    <tspan x="84.5" y="378.90999999999997">and continuously</tspan>
+    <tspan x="84.5" y="389.49">evolves the Product</tspan>
+  </text>
+  <rect id="symbiant-outcomes" x="32" y="410" width="106" height="35" rx="3" fill="#062A49" stroke="#02B5FF" stroke-width="0.8" />
+  <text id="symbiant-outcomes-txt" fill="#F4F9FF" font-size="8.8" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="85.0" y="426.18">Sets intent, value</tspan>
+    <tspan x="85.0" y="436.3">and outcomes</tspan>
+  </text>
+  <rect id="experience-1" x="157" y="306" width="131" height="151" rx="4" fill="#09528B" stroke="#02B5FF" stroke-width="1.3" />
+  <text id="experience-1-head" fill="#F4F9FF" font-size="10" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="222.5" y="329.0">1. Intent &amp;</tspan>
+    <tspan x="222.5" y="340.5">Proposition</tspan>
+  </text>
+  <path id="experience-1-sep" d="M 160,352 L 285,352" fill="none" stroke="#02B5FF" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" />
+  <text id="experience-1-body" fill="#F4F9FF" font-size="8.4" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="162" y="392.9">• Purpose and value</tspan>
+    <tspan x="162" y="403.4">• Problem / opportunity</tspan>
+    <tspan x="162" y="413.9">• Initial scope</tspan>
+    <tspan x="162" y="424.4">• Success measures</tspan>
+  </text>
+  <path id="experience-arrow-1" d="M 289,387 L 292,387" fill="none" stroke="#64CCFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <polygon points="292,387 285.0,383.4 285.0,390.6" fill="#64CCFF" />
+  <rect id="experience-2" x="292" y="306" width="131" height="151" rx="4" fill="#075887" stroke="#02B5FF" stroke-width="1.3" />
+  <text id="experience-2-head" fill="#F4F9FF" font-size="10" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="357.5" y="329.0">2. Guided Design</tspan>
+    <tspan x="357.5" y="340.5">&amp; Definition</tspan>
+  </text>
+  <path id="experience-2-sep" d="M 295,352 L 420,352" fill="none" stroke="#02B5FF" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" />
+  <text id="experience-2-body" fill="#F4F9FF" font-size="8.4" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="297" y="387.65">• Select Product family</tspan>
+    <tspan x="297" y="398.15">• Define characteristics</tspan>
+    <tspan x="297" y="408.65">• Specify metadata</tspan>
+    <tspan x="297" y="419.15">• Model structure</tspan>
+    <tspan x="297" y="429.65">• Quality expectations</tspan>
+  </text>
+  <path id="experience-arrow-2" d="M 424,387 L 427,387" fill="none" stroke="#64CCFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <polygon points="427,387 420.0,383.4 420.0,390.6" fill="#64CCFF" />
+  <rect id="experience-3" x="427" y="306" width="131" height="151" rx="4" fill="#07486C" stroke="#02B5FF" stroke-width="1.3" />
+  <text id="experience-3-head" fill="#F4F9FF" font-size="10" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="492.5" y="329.0">3. Dependency / Policy</tspan>
+    <tspan x="492.5" y="340.5">/ Compatibility</tspan>
+  </text>
+  <path id="experience-3-sep" d="M 430,352 L 555,352" fill="none" stroke="#02B5FF" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" />
+  <text id="experience-3-body" fill="#F4F9FF" font-size="8.0" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="432" y="393.5">• Resolve dependencies</tspan>
+    <tspan x="432" y="403.5">• Policy and compliance</tspan>
+    <tspan x="432" y="413.5">• Compatibility checks</tspan>
+    <tspan x="432" y="423.5">• Applicable authorities</tspan>
+  </text>
+  <path id="experience-arrow-3" d="M 559,387 L 562,387" fill="none" stroke="#64CCFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <polygon points="562,387 555.0,383.4 555.0,390.6" fill="#64CCFF" />
+  <rect id="experience-4" x="562" y="306" width="131" height="151" rx="4" fill="#075B73" stroke="#02B5FF" stroke-width="1.3" />
+  <text id="experience-4-head" fill="#F4F9FF" font-size="10" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="627.5" y="329.0">4. Automated Assembly</tspan>
+    <tspan x="627.5" y="340.5">&amp; Compilation</tspan>
+  </text>
+  <path id="experience-4-sep" d="M 565,352 L 690,352" fill="none" stroke="#02B5FF" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" />
+  <text id="experience-4-body" fill="#F4F9FF" font-size="8.4" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="567" y="392.9">• Assemble components</tspan>
+    <tspan x="567" y="403.4">• Compile and validate</tspan>
+    <tspan x="567" y="413.9">• Generate artifacts</tspan>
+    <tspan x="567" y="424.4">• Prepare for publication</tspan>
+  </text>
+  <path id="experience-arrow-4" d="M 694,387 L 697,387" fill="none" stroke="#64CCFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <polygon points="697,387 690.0,383.4 690.0,390.6" fill="#64CCFF" />
+  <rect id="experience-5" x="697" y="306" width="131" height="151" rx="4" fill="#0A4971" stroke="#02B5FF" stroke-width="1.3" />
+  <text id="experience-5-head" fill="#F4F9FF" font-size="10" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="762.5" y="329.0">5. Governed Readiness</tspan>
+    <tspan x="762.5" y="340.5">&amp; Decision Support</tspan>
+  </text>
+  <path id="experience-5-sep" d="M 700,352 L 825,352" fill="none" stroke="#02B5FF" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" />
+  <text id="experience-5-body" fill="#F4F9FF" font-size="8.0" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="702" y="388.5">• Qualification evidence</tspan>
+    <tspan x="702" y="398.5">• Assurance evidence</tspan>
+    <tspan x="702" y="408.5">• Outstanding decisions</tspan>
+    <tspan x="702" y="418.5">• Indicative cost &amp; impact</tspan>
+    <tspan x="702" y="428.5">• Realization readiness</tspan>
+  </text>
+  <path id="experience-arrow-5" d="M 829,387 L 832,387" fill="none" stroke="#64CCFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <polygon points="832,387 825.0,383.4 825.0,390.6" fill="#64CCFF" />
+  <rect id="experience-6" x="832" y="306" width="131" height="151" rx="4" fill="#064A72" stroke="#02B5FF" stroke-width="1.3" />
+  <text id="experience-6-head" fill="#F4F9FF" font-size="10" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="897.5" y="329.0">6. Publish /</tspan>
+    <tspan x="897.5" y="340.5">Realize</tspan>
+  </text>
+  <path id="experience-6-sep" d="M 835,352 L 960,352" fill="none" stroke="#02B5FF" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" />
+  <text id="experience-6-body" fill="#F4F9FF" font-size="8.4" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="837" y="392.9">• Register and publish</tspan>
+    <tspan x="837" y="403.4">• Deploy applicable parts</tspan>
+    <tspan x="837" y="413.9">• Enable governed use</tspan>
+    <tspan x="837" y="424.4">• Make discoverable</tspan>
+  </text>
+  <path id="experience-arrow-6" d="M 964,387 L 967,387" fill="none" stroke="#64CCFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <polygon points="967,387 960.0,383.4 960.0,390.6" fill="#64CCFF" />
+  <rect id="experience-7" x="967" y="306" width="131" height="151" rx="4" fill="#261449" stroke="#9E45DE" stroke-width="1.3" />
+  <text id="experience-7-head" fill="#F4F9FF" font-size="10" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="1032.5" y="329.0">7. Feedback / Evolution</tspan>
+    <tspan x="1032.5" y="340.5">/ Re-entry</tspan>
+  </text>
+  <path id="experience-7-sep" d="M 970,352 L 1095,352" fill="none" stroke="#02B5FF" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" />
+  <text id="experience-7-body" fill="#F4F9FF" font-size="8.4" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="972" y="392.9">• Observe usage</tspan>
+    <tspan x="972" y="403.4">• Capture outcomes</tspan>
+    <tspan x="972" y="413.9">• Evolve and improve</tspan>
+    <tspan x="972" y="424.4">• Re-enter as needed</tspan>
+  </text>
+  <path id="symbiant-to-experience" d="M 145,388 L 154,388" fill="none" stroke="#64CCFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+  <polygon points="154,388 147.0,384.4 147.0,391.6" fill="#64CCFF" />
+  <path id="re-entry-feedback" d="M 1033,461 L 1033,478 L 85,478 L 85,458" fill="none" stroke="#64CCFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <polygon points="85,458 81.4,465.0 88.6,465.0" fill="#64CCFF" />
+  <rect id="reentry-band" x="346" y="466" width="390" height="23" rx="4" fill="#031B30" stroke="#64CCFF" stroke-width="1.0" />
+  <text id="reentry-band-text" fill="#F4F9FF" font-size="9.8" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="541.0" y="481.165">Continuous Improvement — Re-enter at Earliest Materially Affected Stage</tspan>
+  </text>
+  <rect id="outcomes-container" x="18" y="507" width="1075" height="64" rx="4" fill="#49B9BF" stroke="#02B5FF" stroke-width="1" />
+  <text id="outcomes-title" fill="#061322" font-size="11.5" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="555.0" y="522.8875">Outcome, Value and Evolution (Continuous)</tspan>
+  </text>
+  <rect id="outcome-0" x="26" y="527" width="347" height="34" rx="3" fill="#092135" stroke="#02B5FF" stroke-width="0.8" />
+  <text id="outcome-0-txt" fill="#F4F9FF" font-size="8.9" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="199.5" y="542.665">Realized Outcomes</tspan>
+    <tspan x="199.5" y="552.9">Usage · performance · trust signals</tspan>
+  </text>
+  <rect id="outcome-1" x="381" y="527" width="347" height="34" rx="3" fill="#092135" stroke="#02B5FF" stroke-width="0.8" />
+  <text id="outcome-1-txt" fill="#F4F9FF" font-size="8.9" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="554.5" y="542.665">Value &amp; Economic Impact</tspan>
+    <tspan x="554.5" y="552.9">Indicative and observed economic evidence</tspan>
+  </text>
+  <rect id="outcome-2" x="736" y="527" width="347" height="34" rx="3" fill="#092135" stroke="#02B5FF" stroke-width="0.8" />
+  <text id="outcome-2-txt" fill="#F4F9FF" font-size="8.9" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="909.5" y="542.665">Evolution &amp; Re-entry</tspan>
+    <tspan x="909.5" y="552.9">Enhancements · new versions · extended scope</tspan>
+  </text>
+  <text id="pdep-safeguard" fill="#F4F9FF" font-size="9.3" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="554.5" y="584.9525">PDEP is a governed cross-Plane self-service experience — NOT a mandatory project or delivery pipeline.</tspan>
+  </text>
+  <rect id="data-profile" x="5" y="598" width="1100" height="192" rx="4" fill="#031B30" stroke="#02B5FF" stroke-width="1.2" />
+  <text id="data-profile-title" fill="#9BC9F4" font-size="13.2" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="555.0" y="619.11">DATA PRODUCT PROFILE — Canonical Specialization: Stage 0 to Stage 10</tspan>
+  </text>
+  <rect id="data-stage-0" x="15" y="633" width="177" height="49" rx="3" fill="#092135" stroke="#02B5FF" stroke-width="0.9" />
+  <text id="data-stage-0-txt" fill="#F4F9FF" font-size="9.3" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="103.5" y="656.1049999999999">STAGE 0</tspan>
+    <tspan x="103.5" y="666.8">Preconditions</tspan>
+  </text>
+  <rect id="data-stage-1" x="196" y="633" width="177" height="49" rx="3" fill="#092135" stroke="#02B5FF" stroke-width="0.9" />
+  <text id="data-stage-1-txt" fill="#F4F9FF" font-size="9.3" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="284.5" y="656.1049999999999">STAGE 1</tspan>
+    <tspan x="284.5" y="666.8">Intent Record</tspan>
+  </text>
+  <rect id="data-stage-2" x="377" y="633" width="177" height="49" rx="3" fill="#092135" stroke="#02B5FF" stroke-width="0.9" />
+  <text id="data-stage-2-txt" fill="#F4F9FF" font-size="9.3" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="465.5" y="656.1049999999999">STAGE 2</tspan>
+    <tspan x="465.5" y="666.8">Authority Confirmation</tspan>
+  </text>
+  <rect id="data-stage-3" x="558" y="633" width="177" height="49" rx="3" fill="#092135" stroke="#02B5FF" stroke-width="0.9" />
+  <text id="data-stage-3-txt" fill="#F4F9FF" font-size="9.3" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="646.5" y="656.1049999999999">STAGE 3</tspan>
+    <tspan x="646.5" y="666.8">Policy Intent</tspan>
+  </text>
+  <rect id="data-stage-4" x="739" y="633" width="177" height="49" rx="3" fill="#092135" stroke="#02B5FF" stroke-width="0.9" />
+  <text id="data-stage-4-txt" fill="#F4F9FF" font-size="9.3" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="827.5" y="650.7574999999999">STAGE 4</tspan>
+    <tspan x="827.5" y="661.4525">Semantic Descriptor</tspan>
+    <tspan x="827.5" y="672.1474999999999">(DPROD Draft)</tspan>
+  </text>
+  <rect id="data-stage-5" x="920" y="633" width="177" height="49" rx="3" fill="#092135" stroke="#02B5FF" stroke-width="0.9" />
+  <text id="data-stage-5-txt" fill="#F4F9FF" font-size="9.3" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="1008.5" y="650.7574999999999">STAGE 5</tspan>
+    <tspan x="1008.5" y="661.4525">Business Assertions /</tspan>
+    <tspan x="1008.5" y="672.1474999999999">Evidence Rules</tspan>
+  </text>
+  <rect id="data-stage-6" x="15" y="688" width="213" height="49" rx="3" fill="#092135" stroke="#02B5FF" stroke-width="0.9" />
+  <text id="data-stage-6-txt" fill="#F4F9FF" font-size="9.0" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="121.5" y="711.15">STAGE 6</tspan>
+    <tspan x="121.5" y="721.5">Usage Contract</tspan>
+  </text>
+  <rect id="data-stage-7" x="232" y="688" width="213" height="49" rx="3" fill="#092135" stroke="#02B5FF" stroke-width="0.9" />
+  <text id="data-stage-7-txt" fill="#F4F9FF" font-size="9.0" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="338.5" y="705.975">STAGE 7</tspan>
+    <tspan x="338.5" y="716.325">Product Preview</tspan>
+    <tspan x="338.5" y="726.6750000000001">(Abstract)</tspan>
+  </text>
+  <rect id="data-stage-8" x="449" y="688" width="213" height="49" rx="3" fill="#092135" stroke="#02B5FF" stroke-width="0.9" />
+  <text id="data-stage-8-txt" fill="#F4F9FF" font-size="9.0" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="555.5" y="711.15">STAGE 8</tspan>
+    <tspan x="555.5" y="721.5">Compilation</tspan>
+  </text>
+  <rect id="data-stage-9" x="666" y="688" width="213" height="49" rx="3" fill="#092135" stroke="#02B5FF" stroke-width="0.9" />
+  <text id="data-stage-9-txt" fill="#F4F9FF" font-size="9.0" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="772.5" y="705.975">STAGE 9</tspan>
+    <tspan x="772.5" y="716.325">Deployment</tspan>
+    <tspan x="772.5" y="726.6750000000001">(DPDS Generation &amp; Execution)</tspan>
+  </text>
+  <rect id="data-stage-10" x="883" y="688" width="213" height="49" rx="3" fill="#092135" stroke="#02B5FF" stroke-width="0.9" />
+  <text id="data-stage-10-txt" fill="#F4F9FF" font-size="9.0" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="989.5" y="705.975">STAGE 10</tspan>
+    <tspan x="989.5" y="716.325">DPROD Finalization</tspan>
+    <tspan x="989.5" y="726.6750000000001">&amp; Registration</tspan>
+  </text>
+  <rect id="stage8-outputs" x="15" y="744" width="1073" height="29" rx="4" fill="#092135" stroke="#02B5FF" stroke-width="0.7" />
+  <text id="stage8-outputs-text" fill="#F4F9FF" font-size="8.9" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="start">
+    <tspan x="22" y="757.2825">Stage 8 compilation outputs: RRG · HPD · SYNCTX (conditional) · RGB · Realization Plan · Blueprint Binding · Compilation Record</tspan>
+  </text>
+  <text id="data-profile-disclaimer" fill="#B7CFE4" font-size="8.6" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="22" y="772.155">Data Stage 0–10 is NOT the universal lifecycle for Information, Intelligence/AI or Compound Products.</tspan>
+  </text>
+  <rect id="overlay-section" x="5" y="799" width="1100" height="117" rx="4" fill="#9BC9F4" stroke="#02B5FF" stroke-width="1.3" />
+  <text id="overlay-title" fill="#061322" font-size="11.5" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="555.0" y="816.3875">X1–X9 — Cross-Cutting Overlays (Applicable Across All PDEP Responsibilities)</tspan>
+  </text>
+  <rect id="overlay-X1" x="16" y="825" width="353" height="26" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.7" />
+  <text id="overlay-X1-id" fill="#F4F9FF" font-size="9" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="37.5" y="841.825">X1</tspan>
+  </text>
+  <text id="overlay-X1-txt" fill="#B7CFE4" font-size="7.9" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="211.0" y="836.8149999999999">Governance, Policy,</tspan>
+    <tspan x="211.0" y="845.9">Control &amp; Compliance</tspan>
+  </text>
+  <rect id="overlay-X2" x="377" y="825" width="353" height="26" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.7" />
+  <text id="overlay-X2-id" fill="#F4F9FF" font-size="9" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="398.5" y="841.825">X2</tspan>
+  </text>
+  <text id="overlay-X2-txt" fill="#B7CFE4" font-size="7.9" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="572.0" y="836.8149999999999">Security, Privacy,</tspan>
+    <tspan x="572.0" y="845.9">Identity &amp; Entitlement</tspan>
+  </text>
+  <rect id="overlay-X3" x="738" y="825" width="353" height="26" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.7" />
+  <text id="overlay-X3-id" fill="#F4F9FF" font-size="9" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="759.5" y="841.825">X3</tspan>
+  </text>
+  <text id="overlay-X3-txt" fill="#B7CFE4" font-size="7.9" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="933.0" y="836.8149999999999">Provenance, Evidence</tspan>
+    <tspan x="933.0" y="845.9">&amp; Traceability</tspan>
+  </text>
+  <rect id="overlay-X4" x="16" y="854" width="353" height="26" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.7" />
+  <text id="overlay-X4-id" fill="#F4F9FF" font-size="9" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="37.5" y="870.825">X4</tspan>
+  </text>
+  <text id="overlay-X4-txt" fill="#B7CFE4" font-size="7.9" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="211.0" y="865.8149999999999">Observability, Telemetry</tspan>
+    <tspan x="211.0" y="874.9">&amp; Auditability</tspan>
+  </text>
+  <rect id="overlay-X5" x="377" y="854" width="353" height="26" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.7" />
+  <text id="overlay-X5-id" fill="#F4F9FF" font-size="9" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="398.5" y="870.825">X5</tspan>
+  </text>
+  <text id="overlay-X5-txt" fill="#B7CFE4" font-size="7.9" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="572.0" y="865.8149999999999">Quality, Fitness</tspan>
+    <tspan x="572.0" y="874.9">&amp; Trust Evidence</tspan>
+  </text>
+  <rect id="overlay-X6" x="738" y="854" width="353" height="26" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.7" />
+  <text id="overlay-X6-id" fill="#F4F9FF" font-size="9" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="759.5" y="870.825">X6</tspan>
+  </text>
+  <text id="overlay-X6-txt" fill="#B7CFE4" font-size="7.9" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="933.0" y="865.8149999999999">Evaluation</tspan>
+    <tspan x="933.0" y="874.9">&amp; Assurance</tspan>
+  </text>
+  <rect id="overlay-X7" x="16" y="883" width="353" height="26" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.7" />
+  <text id="overlay-X7-id" fill="#F4F9FF" font-size="9" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="37.5" y="899.825">X7</tspan>
+  </text>
+  <text id="overlay-X7-txt" fill="#B7CFE4" font-size="7.9" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="211.0" y="894.8149999999999">Lifecycle, Version,</tspan>
+    <tspan x="211.0" y="903.9">Currentness &amp; Change</tspan>
+  </text>
+  <rect id="overlay-X8" x="377" y="883" width="353" height="26" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.7" />
+  <text id="overlay-X8-id" fill="#F4F9FF" font-size="9" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="398.5" y="899.825">X8</tspan>
+  </text>
+  <text id="overlay-X8-txt" fill="#B7CFE4" font-size="7.9" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="572.0" y="894.8149999999999">Resilience, Safety,</tspan>
+    <tspan x="572.0" y="903.9">Failure &amp; Recovery</tspan>
+  </text>
+  <rect id="overlay-X9" x="738" y="883" width="353" height="26" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.7" />
+  <text id="overlay-X9-id" fill="#F4F9FF" font-size="9" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="759.5" y="899.825">X9</tspan>
+  </text>
+  <text id="overlay-X9-txt" fill="#B7CFE4" font-size="7.9" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="933.0" y="894.8149999999999">Economic &amp; Cost</tspan>
+    <tspan x="933.0" y="903.9">Accountability</tspan>
+  </text>
+  <rect id="foundation" x="5" y="922" width="1100" height="64" rx="4" fill="#49B9BF" stroke="#02B5FF" stroke-width="1.2" />
+  <text id="foundation-head" fill="#061322" font-size="12" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="555.0" y="937.6">HDIP-FND — Shared Platform / Utility Foundation</tspan>
+  </text>
+  <rect id="foundation-0" x="16" y="946" width="103" height="20" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.6" />
+  <text id="foundation-0-txt" fill="#F4F9FF" font-size="8.6" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="67.5" y="959.655">Compute</tspan>
+  </text>
+  <rect id="foundation-1" x="124" y="946" width="103" height="20" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.6" />
+  <text id="foundation-1-txt" fill="#F4F9FF" font-size="8.6" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="175.5" y="959.655">Storage</tspan>
+  </text>
+  <rect id="foundation-2" x="232" y="946" width="103" height="20" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.6" />
+  <text id="foundation-2-txt" fill="#F4F9FF" font-size="8.6" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="283.5" y="959.655">Network</tspan>
+  </text>
+  <rect id="foundation-3" x="340" y="946" width="103" height="20" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.6" />
+  <text id="foundation-3-txt" fill="#F4F9FF" font-size="8.6" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="391.5" y="959.655">IAM</tspan>
+  </text>
+  <rect id="foundation-4" x="448" y="946" width="103" height="20" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.6" />
+  <text id="foundation-4-txt" fill="#F4F9FF" font-size="8.6" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="499.5" y="959.655">Messaging</tspan>
+  </text>
+  <rect id="foundation-5" x="556" y="946" width="103" height="20" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.6" />
+  <text id="foundation-5-txt" fill="#F4F9FF" font-size="8.6" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="607.5" y="959.655">CI/CD</tspan>
+  </text>
+  <rect id="foundation-6" x="664" y="946" width="103" height="20" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.6" />
+  <text id="foundation-6-txt" fill="#F4F9FF" font-size="8.6" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="715.5" y="959.655">Hosting</tspan>
+  </text>
+  <rect id="foundation-7" x="772" y="946" width="103" height="20" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.6" />
+  <text id="foundation-7-txt" fill="#F4F9FF" font-size="8.6" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="823.5" y="959.655">Backup / DR</tspan>
+  </text>
+  <rect id="foundation-8" x="880" y="946" width="103" height="20" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.6" />
+  <text id="foundation-8-txt" fill="#F4F9FF" font-size="8.6" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="931.5" y="959.655">Platform Runtime</tspan>
+  </text>
+  <rect id="foundation-9" x="988" y="946" width="103" height="20" rx="1" fill="#092135" stroke="#02B5FF" stroke-width="0.6" />
+  <text id="foundation-9-txt" fill="#F4F9FF" font-size="8.6" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="1039.5" y="959.655">Orchestration</tspan>
+  </text>
+  <text id="foundation-note" fill="#061322" font-size="8.9" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="555.0" y="979.2825">Enables realization; does not establish semantics, Product qualification, policy authority or enterprise accountability.</tspan>
+  </text>
+  <rect id="side-distinctions" x="1110" y="70" width="305" height="195" rx="4" fill="#031B30" stroke="#02B5FF" stroke-width="1.2" />
+  <rect id="side-distinctions-head" x="1115" y="75" width="295" height="23" rx="1" fill="#4B9418" stroke="none" stroke-width="0" />
+  <text id="side-distinctions-head-txt" fill="#F4F9FF" font-size="10.3" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="1262.5" y="90.3775">Key Distinctions</tspan>
+  </text>
+  <text id="side-distinctions-bullet-0" fill="#F4F9FF" font-size="8.1" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="114.11133333333333">• Product development is a governed self-service</tspan>
+    <tspan x="1122" y="123.18333333333334">experience led by the Product Owner / Symbiant.</tspan>
+  </text>
+  <text id="side-distinctions-bullet-1" fill="#F4F9FF" font-size="8.1" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="140.278">• HDIP provides engineering, compilation, validation,</tspan>
+    <tspan x="1122" y="149.35">realization and publication automation.</tspan>
+  </text>
+  <text id="side-distinctions-bullet-2" fill="#F4F9FF" font-size="8.1" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="166.44466666666668">• Not a requester-to-delivery-team model; no</tspan>
+    <tspan x="1122" y="175.51666666666668">mandatory intermediary.</tspan>
+  </text>
+  <text id="side-distinctions-bullet-3" fill="#F4F9FF" font-size="8.1" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="197.14733333333334">• PDEP spans HDIP Planes; it is not another Plane.</tspan>
+  </text>
+  <text id="side-distinctions-bullet-4" fill="#F4F9FF" font-size="8.1" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="223.31400000000002">• Product qualification remains externally governed.</tspan>
+  </text>
+  <text id="side-distinctions-bullet-5" fill="#F4F9FF" font-size="8.1" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="244.94466666666668">• A lifecycle is not a mandatory synchronous runtime</tspan>
+    <tspan x="1122" y="254.01666666666668">pipeline.</tspan>
+  </text>
+  <rect id="side-symbiant" x="1110" y="270" width="305" height="137" rx="4" fill="#031B30" stroke="#02B5FF" stroke-width="1.2" />
+  <rect id="side-symbiant-head" x="1115" y="275" width="295" height="23" rx="1" fill="#4B9418" stroke="none" stroke-width="0" />
+  <text id="side-symbiant-head-txt" fill="#F4F9FF" font-size="10.3" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="1262.5" y="290.3775">Product Owner / Symbiant Role</tspan>
+  </text>
+  <text id="side-symbiant-bullet-0" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="315.508">• Initiates, creates and evolves Products.</tspan>
+  </text>
+  <text id="side-symbiant-bullet-1" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="335.308">• Defines intent, value, scope and success measures.</tspan>
+  </text>
+  <text id="side-symbiant-bullet-2" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="350.516">• Uses self-service capabilities with guided</tspan>
+    <tspan x="1122" y="359.70000000000005">governance.</tspan>
+  </text>
+  <text id="side-symbiant-bullet-3" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="374.90799999999996">• Makes decisions within applicable authority.</tspan>
+  </text>
+  <text id="side-symbiant-bullet-4" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="394.70799999999997">• Collaborates with authorities where required.</tspan>
+  </text>
+  <rect id="side-hdip-role" x="1110" y="412" width="305" height="153" rx="4" fill="#031B30" stroke="#02B5FF" stroke-width="1.2" />
+  <rect id="side-hdip-role-head" x="1115" y="417" width="295" height="23" rx="1" fill="#4B9418" stroke="none" stroke-width="0" />
+  <text id="side-hdip-role-head-txt" fill="#F4F9FF" font-size="10.3" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="1262.5" y="432.3775">HDIP Role in PDEP</tspan>
+  </text>
+  <text id="side-hdip-role-bullet-0" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="459.108">• Governed self-service across applicable Planes.</tspan>
+  </text>
+  <text id="side-hdip-role-bullet-1" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="477.51599999999996">• Engineering, compilation, validation, realization</tspan>
+    <tspan x="1122" y="486.7">and publication automation.</tspan>
+  </text>
+  <text id="side-hdip-role-bullet-2" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="505.108">• Policy, compliance and compatibility guidance.</tspan>
+  </text>
+  <text id="side-hdip-role-bullet-3" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="523.5160000000001">• Indicative cost and economic impact decision</tspan>
+    <tspan x="1122" y="532.7">support.</tspan>
+  </text>
+  <text id="side-hdip-role-bullet-4" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="551.1080000000001">• Enables ongoing evolution and consumption hand-off.</tspan>
+  </text>
+  <rect id="side-family" x="1110" y="570" width="305" height="126" rx="4" fill="#031B30" stroke="#02B5FF" stroke-width="1.2" />
+  <rect id="side-family-head" x="1115" y="575" width="295" height="23" rx="1" fill="#4B9418" stroke="none" stroke-width="0" />
+  <text id="side-family-head-txt" fill="#F4F9FF" font-size="10.3" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="1262.5" y="590.3774999999999">Family-Neutral / Profile Specialization</tspan>
+  </text>
+  <text id="side-family-bullet-0" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="614.408">• PDEP experience is family-neutral.</tspan>
+  </text>
+  <text id="side-family-bullet-1" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="632.008">• Data: detailed canonical Stage 0–10 profile.</tspan>
+  </text>
+  <text id="side-family-bullet-2" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="645.0160000000001">• Information / Intelligence: family-authoritative</tspan>
+    <tspan x="1122" y="654.2">obligations.</tspan>
+  </text>
+  <text id="side-family-bullet-3" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="662.616">• Compound: applicable constituents and Product</tspan>
+    <tspan x="1122" y="671.8">authority.</tspan>
+  </text>
+  <text id="side-family-bullet-4" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="684.808">• Do not impose Data stages on other families.</tspan>
+  </text>
+  <rect id="side-economics" x="1110" y="701" width="305" height="148" rx="4" fill="#031B30" stroke="#02B5FF" stroke-width="1.2" />
+  <rect id="side-economics-head" x="1115" y="706" width="295" height="23" rx="1" fill="#4B9418" stroke="none" stroke-width="0" />
+  <text id="side-economics-head-txt" fill="#F4F9FF" font-size="10.3" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="1262.5" y="721.3774999999999">Economic Transparency &amp; Funding Model</tspan>
+  </text>
+  <text id="side-economics-bullet-0" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="745.7660000000001">• Indicative cost and economic impact support</tspan>
+    <tspan x="1122" y="754.95">decisions throughout the lifecycle.</tspan>
+  </text>
+  <text id="side-economics-bullet-1" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="773.2660000000001">• Funding, budget authority, approval workflows and</tspan>
+    <tspan x="1122" y="782.45">investment automation are enterprise-specific.</tspan>
+  </text>
+  <text id="side-economics-bullet-2" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="800.7660000000001">• HDIP prescribes no funding or investment governance</tspan>
+    <tspan x="1122" y="809.95">model.</tspan>
+  </text>
+  <text id="side-economics-bullet-3" fill="#F4F9FF" font-size="8.2" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="832.8580000000001">• Self-service is not self-authorization.</tspan>
+  </text>
+  <rect id="side-context" x="1110" y="854" width="305" height="132" rx="4" fill="#031B30" stroke="#02B5FF" stroke-width="1.2" />
+  <rect id="side-context-head" x="1115" y="859" width="295" height="23" rx="1" fill="#4B9418" stroke="none" stroke-width="0" />
+  <text id="side-context-head-txt" fill="#F4F9FF" font-size="10.3" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="1262.5" y="874.3774999999999">View Context &amp; Modelling Rules</tspan>
+  </text>
+  <text id="side-context-bullet-0" fill="#F4F9FF" font-size="8.1" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="896.2782857142857">• M15-V03 · HDIP-CLA 0.1 (M17 frozen).</tspan>
+  </text>
+  <text id="side-context-bullet-1" fill="#F4F9FF" font-size="8.1" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="909.7068571428572">• Source: M10 PDEP and M15 Reference Views.</tspan>
+  </text>
+  <text id="side-context-bullet-2" fill="#F4F9FF" font-size="8.1" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="923.1354285714286">• P1–P5 participation varies by family and change.</tspan>
+  </text>
+  <text id="side-context-bullet-3" fill="#F4F9FF" font-size="8.1" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="932.028">• P3 Data, Information and Intelligence stay</tspan>
+    <tspan x="1122" y="941.1">distinct.</tspan>
+  </text>
+  <text id="side-context-bullet-4" fill="#F4F9FF" font-size="8.1" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="949.9925714285714">• Overlays orthogonal; Foundation enabling.</tspan>
+  </text>
+  <text id="side-context-bullet-5" fill="#F4F9FF" font-size="8.1" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="963.4211428571429">• G0 / Spec A / Spec C are presentation projections.</tspan>
+  </text>
+  <text id="side-context-bullet-6" fill="#F4F9FF" font-size="8.1" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="start">
+    <tspan x="1122" y="976.8497142857143">• No universal topology or automatic conformance.</tspan>
+  </text>
+  <rect id="footer" x="5" y="990" width="1410" height="29" rx="4" fill="#062A49" stroke="#02B5FF" stroke-width="1.1" />
+  <text id="footer-main" fill="#F4F9FF" font-size="9.9" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="566.0" y="1003.7075">From governed Product intent to realization, publication, outcomes and continuous evolution</tspan>
+  </text>
+  <text id="footer-guard" fill="#B7CFE4" font-size="8" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="566.0" y="1013.9">Independent semantic, Product, source, policy and consequential Decision authorities remain preserved.</tspan>
+  </text>
+  <text id="footer-id" fill="#9BC9F4" font-size="9" font-family="Arial, sans-serif" font-weight="bold" font-style="normal" text-anchor="middle">
+    <tspan x="1262.5" y="1000.325">M15-V03 | HDIP-CLA 0.1</tspan>
+  </text>
+  <text id="copyright" fill="#B7CFE4" font-size="7.3" font-family="Arial, sans-serif" font-weight="normal" font-style="normal" text-anchor="middle">
+    <tspan x="1260.5" y="1013.1025">Copyrighted material 2017-2019 kivanura.org Kaizen</tspan>
+  </text>
+</svg>
