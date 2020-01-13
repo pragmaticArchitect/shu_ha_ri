@@ -1,0 +1,29 @@
+{
+  "package": "INFOPS-0.1-IPCH-Maturity-Checklist-EXPERIMENTAL-CODE-OVERLAY",
+  "characteristics": 16,
+  "criteria_total": 116,
+  "source": "D40 owner-accepted IPCH01\u201316 Section 7; BPS DPChecklist.tsx reference",
+  "release": "not authorized",
+  "files": {
+    "shu_ha_ri/docusaurus.config.js": {
+      "sha256": "2e4a0a21308c8c38ee9298449f72bf23958975ae4f54ab68ade733165a53f9f5",
+      "bytes": 2333
+    },
+    "shu_ha_ri/src/pages/ip-maturity-checklist.tsx": {
+      "sha256": "7ea8b41b8b22f8167078e6fe0d354b932756e88bf6a4ad15c8e46b39252af539",
+      "bytes": 630
+    },
+    "shu_ha_ri/src/components/IPChecklist.css": {
+      "sha256": "b9561180f8a1aaefaff6c0ec7be2f7670a9a8d8725566562dfbbf45fef741ed9",
+      "bytes": 2701
+    },
+    "shu_ha_ri/src/components/IPChecklist.tsx": {
+      "sha256": "a90fff0974c24cf9bba6094058f217bc46d1ce23ff79c0cc61ceb08bdcadd03c",
+      "bytes": 14028
+    },
+    "shu_ha_ri/src/components/IPChecklistData.ts": {
+      "sha256": "ef69874c2bcd1fc7215c82a36b69dbbecdc666e0ab681e4f24e7fd859d6b8160",
+      "bytes": 36745
+    }
+  }
+}
