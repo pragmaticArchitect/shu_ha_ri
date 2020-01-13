@@ -20,6 +20,7 @@ register=js('research/p01-s04/owner-decision-register.json')
 holds=js('research/p01-s04/normative-release-holds.json')
 historical=js('research/p01-s04/g04-proposed-owner-review-sequence.json')
 checkpoint={v['path']:v['sha256'] for v in base['files']}
+g05_base=js('research/p01-s04/g05-preclosure-baseline-integrity.json')
 need(len(checkpoint)==82,'G04 checkpoint must contain 82 prior source files')
 need(approved['normative'] is False and approved['normativeReleaseAuthorized'] is False,'G04 approvals cannot be normative')
 need(approved['ownerReviewedCount']==9 and approved['approvedCount']==9,'Expected nine G04 owner approvals')
@@ -83,11 +84,13 @@ need(all(q[f'Q{i}'].endswith('NOT_ESTABLISHED') for i in range(1,5)),'Universal 
 need(q['Q0_Q4_jointSufficiency']=='NOT_ESTABLISHED' and q['conjunctionFormallyRefuted'] is False,'Q0-Q4 sufficiency status incorrect')
 need(q['Q5']=='PROCEDURAL_ADJUDICATION_NOT_INTRINSIC_PRODUCT_PROPERTY','Q5 must be procedural')
 need(state['gates']['G04']=='CLOSED_CONDITIONAL_RESEARCH' and register['gates'][3]['state']=='CLOSED_CONDITIONAL_RESEARCH','G04 gate status inconsistent')
-need(state['ownerReviewedResearchDecisionsTotal']==41 and register['ownerReviewedResearchCount']==41,'Owner decision counts wrong')
+need(state['ownerReviewedResearchDecisionsTotal']==49 and register['ownerReviewedResearchCount']==49,'Owner decision counts wrong after G05 projection')
 need(state['g04ClosureDecision']=='G04-D09-F01' and state['stageS04Closed'] is False,'Gate closure is not stage closure')
 need(register['gates'][3]['approvedCount']==9 and register['gates'][3]['decisions'][-1]['id']=='G04-D09-F01','G04 approved register missing closure')
-for g in ['G05','G06','G07']:
+need(state['gates']['G05']=='CLOSED_CONDITIONAL_RESEARCH','G05 must reflect later owner-approved conditional closure')
+for g in ['G06','G07']:
     need(state['gates'][g]=='PENDING' and approved['subsequentGates'][g]=='PENDING',g+' must be pending')
+need(approved['subsequentGates']['G05']=='PENDING', 'Original G04 record must preserve its historical not-started G05 fact')
 need(all(not v['resolved'] for v in holds['holds']) and len(holds['holds'])==12,'All 12 G03 source/release blockers must remain open')
 need(all(not v['approved'] and v['ownerDisposition']=='NOT_REQUESTED' for v in historical['dispositions']), 'Historical G04 proposed snapshot changed')
 need(historical['status']=='PROPOSED_NOT_APPROVED','Historical G04 programme source rewritten')
@@ -104,15 +107,26 @@ need({v['path'] for v in manifest['payload']}==(added|modified)-{'research/p01-s
 siteCustomizations={'docusaurus.config.js','src/css/custom.css','src/pages/index.module.css',
                     'static/img/favicon.svg','static/img/infops-mark.svg'}
 for p,h in checkpoint.items():
+    if not (ROOT/p).is_file():
+        known={x['path']:x for x in g05_base.get('legacyHistoricalAttestationDiscrepancies',[])}.get(p)
+        need(known is not None and known['missingFromOwnerSource'] is True and p not in g05_base.get('fileHashes',{}), 'NEW missing original pre-G04 historical file: '+p)
+        continue
     if p not in modified and p not in siteCustomizations:
-        need(sha(p)==h,'Undeclared change to original G01-G03 research/spec source: '+p)
-    elif p in modified and (ROOT/p).is_file(): need(sha(p)!=h,'Manifest claims modified but unchanged: '+p)
+        need(sha(p)==h or (g05_base['fileHashes'].get(p)==sha(p)), 'Undeclared change relative to original owner G04 baseline: '+p)
+    elif p in modified:
+        need(sha(p)!=h,'G04 modified path unexpectedly equals pre-G04 archived file: '+p)
+g05_base=js('research/p01-s04/g05-preclosure-baseline-integrity.json')
+g05_changes=set(js('research/p01-s04/g05-overlay-manifest.json')['modifiedPaths'])
 for v in manifest['payload']:
     need((ROOT/v['path']).is_file(),'Missing G04 payload file: '+v['path'])
-    if (ROOT/v['path']).is_file():
+    if v['path'] in g05_changes:
+        need(g05_base['fileHashes'].get(v['path'])==v['sha256'],'G04 source hash differs from G05 preclosure checkpoint: '+v['path'])
+    elif (ROOT/v['path']).is_file():
         need(sha(v['path'])==v['sha256'],'Changed G04 payload hash: '+v['path'])
         need((ROOT/v['path']).stat().st_size==v['sizeBytes'],'Changed G04 payload size: '+v['path'])
 need(len(added)==manifest['addedCount'] and len(modified)==manifest['modifiedCount'],'Manifest counts wrong')
+if g05_base.get('legacyHistoricalAttestationDiscrepancies'):
+    print('INHERITED BASELINE ATTESTATION WARNING: historic missing merge notes / G01-G03 checkpoint differences are recorded, not remediated by G05.')
 need(manifest['baseArchiveSha256']==base['sourceArchiveSha256'],'Wrong prior G01-G03 baseline archive hash')
 need(manifest['normative'] is False and manifest['releaseAuthorized'] is False,'G04 overlay manifest cannot release standards')
 need(manifest['gateClosureStatus']=='CLOSED_CONDITIONAL_RESEARCH','G04 closure manifest status wrong')

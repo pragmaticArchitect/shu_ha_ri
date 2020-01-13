@@ -32,6 +32,10 @@ module.exports = {
       'ontology/p01-stage-04-g04-plan',
       'ontology/p01-stage-04-g04-owner-approved-decisions',
       'ontology/p01-stage-04-g04-closure-record',
+      'ontology/p01-stage-04-g05-plan',
+      'ontology/p01-stage-04-g05-owner-approved-decisions',
+      'ontology/p01-stage-04-g05-adversarial-probes',
+      'ontology/p01-stage-04-g05-closure-record',
     ]},
     {type: 'category', label: 'Information Product characteristics', items: [
       'infopch/overview',

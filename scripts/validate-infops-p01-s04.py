@@ -33,8 +33,8 @@ for tag,x in [('state',state),('decisions',decisions),('sources',sources)]:
     need(x.get('project')=='INFOPS',tag+' wrong project')
     need(x.get('normative') is False,tag+' must remain non-normative')
 need(state.get('stage')=='P01-S04','wrong S04 stage')
-need(state.get('ownerReviewedResearchDecisionsTotal')==41,'wrong reviewed S04 decision count')
-need(state.get('explicitApprovalsWithResearchSummaryAvailable')==41,'S02/S03 and G04 approval summaries not recorded for all 41 S04 owner-reviewed decisions')
+need(state.get('ownerReviewedResearchDecisionsTotal')==49,'wrong reviewed S04 decision count')
+need(state.get('explicitApprovalsWithResearchSummaryAvailable')==49,'Owner-approved summaries not recorded for all 49 S04 decisions')
 need(state.get('s02OwnerApprovedResearchDecisions')==6 and state.get('s03OwnerApprovedResearchDecisions')==9,'S02/S03 approval counts must be 6+9')
 need(state.get('g01OwnerApprovedAntecedentDecisions')==15 and state.get('g01ClosureBasisVerifiedFromOwnerRegister') is True,'G01 closure must be supported by explicitly approved S02/S03 decisions')
 need(state.get('actualProductsQualified')==0,'S04 cannot qualify real Products')
@@ -42,6 +42,8 @@ for marker in ['normative','upstreamSourcePinsAdopted','informationFamilyNecessa
     need(state.get(marker) is False,marker+' must be false')
 need(state.get('gates',{}).get('G03')=='CLOSED_CONDITIONAL_RESEARCH','G03 must have conditional research closure')
 need(state.get('gates',{}).get('G04')=='CLOSED_CONDITIONAL_RESEARCH','G04 must be closed conditional research')
+need(state.get('gates',{}).get('G05')=='CLOSED_CONDITIONAL_RESEARCH','G05 must be closed conditional research')
+need(state.get('gates',{}).get('G06')=='PENDING' and state.get('gates',{}).get('G07')=='PENDING','G06/G07 must remain not started')
 
 G=decisions.get('gates',[])
 need([x.get('gate') for x in G]==['G01','G02','G03','G04','G05','G06','G07'],'Unexpected S04 gate order')
@@ -67,6 +69,12 @@ if len(G)==7:
     need([v.get('id') for v in g4.get('decisions',[])]==[f'G04-D{x:02d}-F01' for x in range(1,10)],'G04 D01-D09 missing from owner decision register')
     need([v.get('id') for v in approvedG04.get('decisions',[])]==[v.get('id') for v in g4.get('decisions',[])], 'G04 approved findings do not match S04 owner decision register')
     need(all(v.get('ownerDisposition')=='APPROVED' and v.get('normative') is False for v in g4.get('decisions',[])),'G04 decisions must all be approved research-only')
+    g5=G[4]; approvedG05=read('g05-owner-approved-decisions.json')
+    need(g5.get('state')=='CLOSED_CONDITIONAL_RESEARCH' and g5.get('closureDecisionId')=='G05-D08-F01','G05 closure missing')
+    need(g5.get('ownerReviewedCount')==8 and g5.get('approvedCount')==8,'G05 must have eight approved decisions')
+    need([d.get('id') for d in g5.get('decisions',[])]==[f'G05-D{x:02d}-F01' for x in range(1,9)],'G05 D01..D08 missing')
+    need(g5.get('decisions')==approvedG05.get('decisions'),'G05 main register diverges from detailed approval register')
+    need(G[5].get('state')=='PENDING' and G[6].get('state')=='PENDING','G06 and G07 must be pending')
 
 # Subsequent owner-approved research dispositions over historical proposed S02/S03 snapshots.
 need(upstream.get('project')=='INFOPS' and upstream.get('normative') is False, 'Owner approval ledger must be INFOPS research only')
@@ -81,7 +89,7 @@ need(all(v.get('disposition')=='APPROVED' and v.get('normative') is False and v.
 need(all(v.get('ownerApprovedResearchPosition') and v.get('originalResearchProposal') for v in approvals), 'Approved summaries and historic proposals must be retained')
 need([v.get('id') for v in G[0].get('ownerApprovedAntecedentDecisions',[])]==expectedIDs, 'G01 owner register must agree with S02/S03 approval ledger')
 need([v.get('ownerApprovedResearchPosition') for v in G[0].get('ownerApprovedAntecedentDecisions',[])]==[v.get('ownerApprovedResearchPosition') for v in approvals], 'G01 owner summary provenance mismatch')
-need(decisions.get('ownerReviewedResearchCount')==41 and decisions.get('explicitApprovalsWithResearchSummaryAvailable')==41, 'S04 aggregate review count mismatch')
+need(decisions.get('ownerReviewedResearchCount')==49 and decisions.get('explicitApprovalsWithResearchSummaryAvailable')==49, 'S04 aggregate review count mismatch')
 for stage,src in [('S02','research/p01-s02/research-decisions.json'),('S03','research/p01-s03/review-decisions.json')]:
     doc=json.loads((ROOT/src).read_text(encoding='utf-8'))
     need(doc.get('ownerAccepted') is False and all(v.get('state')=='PROPOSED' for v in doc.get('decisions',[])), f'Historical {stage} proposal snapshot must remain unchanged')
@@ -155,14 +163,26 @@ need(manifest.get('baselineFileCount')==60,'S04 manifest wrong original file cou
 preG04=read('g04-preclosure-baseline-integrity.json')
 checkpoint={x['path']:x['sha256'] for x in preG04.get('files',[])}
 need(len(checkpoint)==82 and preG04.get('sourceArchiveFileCount')==82,'Pre-G04 archive checkpoint incomplete')
+g05_baseline=read('g05-preclosure-baseline-integrity.json')
+legacy_discrepancies={x['path']:x for x in g05_baseline.get('legacyHistoricalAttestationDiscrepancies',[])}
+legacy_reported=[]
 need(preG04.get('sourceArchive')=='INFOPS-P01-S04-G01-G03-owner-approvals-complete.zip','Unexpected pre-G04 source archive')
 newfiles=manifest.get('payloadFilesExcludingThisManifest',[])
 need(len(newfiles)==manifest.get('addedFiles',0)+manifest.get('modifiedFiles',0)-1,'Historic G01-G03 manifest payload count inconsistent')
 for item in newfiles:
     path=item['path']
     need(path in checkpoint,'Historical G01-G03 path not in frozen pre-G04 archive: '+path)
-    need(checkpoint.get(path)==item['sha256'], 'Historical G01-G03 payload hash mismatch in frozen checkpoint: '+path)
-    need((ROOT/path).is_file(), 'Historical G01-G03 path missing in current repository: '+path)
+    if checkpoint.get(path)!=item['sha256']:
+        legacy_reported.append(path)
+        known=legacy_discrepancies.get(path)
+        need(known is not None and known['legacyOverlayExpectedHash']==item['sha256'] and known['g04CheckpointHash']==checkpoint.get(path), 'NEW historical G01-G03 attestation discrepancy: '+path)
+    if not (ROOT/path).is_file():
+        known=legacy_discrepancies.get(path)
+        need(known is not None and known['missingFromOwnerSource'] is True and path not in g05_baseline.get('fileHashes',{}),'NEW missing historical G01-G03 file: '+path)
+
+need(set(legacy_reported)==set(legacy_discrepancies), 'Historic discrepancy set changed from owner G04 baseline')
+if legacy_reported:
+    print('INHERITED BASELINE ATTESTATION WARNING: '+str(len(legacy_reported))+' G01-G03 overlay/checkpoint discrepancies found in the original owner-supplied G04 archive; see g05-preclosure-baseline-integrity.json. They are not introduced by this overlay.')
 
 
 original=read('s03-protected-file-hashes.json')
@@ -177,6 +197,6 @@ old=json.loads((ROOT/'static/spec/infops/0.1/scaffold-state.json').read_text(enc
 need(old.get('releaseStatus')=='P01_STAGE_03_DRAFT' and old.get('stageAccepted') is False, 'Historical S03 scaffold release marker must remain unmodified')
 need(old.get('normative') is False,'Historical stage cannot become normative')
 
-print(f'INFOPS P01-S04 current owner approvals: G01 15, G02 7, G03 10, G04 9 = 41 research decisions; {len(S)} source entries, {len(H)} unresolved release holds, historical G04 proposal preserved ({len(P)} entries), {len(F)} protected prior files; {len(ISSUES)} issue(s)')
+print(f'INFOPS P01-S04 current owner approvals: G01 15, G02 7, G03 10, G04 9, G05 8 = 49 research decisions; {len(S)} source entries, {len(H)} unresolved release holds, historical G04 proposal preserved ({len(P)} entries), {len(F)} protected prior files; {len(ISSUES)} issue(s)')
 for i in ISSUES:print('ERROR:',i)
 sys.exit(1 if ISSUES else 0)

@@ -27,10 +27,11 @@ title: INFOPS Development Roadmap
 | **S04-G02** | Owner-reviewed conditional research closed; seven findings (Q0-Q5 and X01) |
 | **S04-G03** | **Closed - conditional research** through G03-D10; normative source adoption not ready |
 | **S04-G04** | **CLOSED - CONDITIONAL RESEARCH**; nine owner-approved decisions D01-D09, original cases and 12 source blockers preserved |
-| S04-G05-G07 | Pending qualification/realization separation, evidence, release governance and handoff |
+| **S04-G05** | **CLOSED_CONDITIONAL_RESEARCH** (8/8) — determination, evidence, conformance, DPP, maturity, fitness and authorization independence; no normative adoption |
+| S04-G06/G07 | Pending, not started; executable formalization and normative-release governance require separate instruction |
 
 See [S04 overview](../ontology/p01-stage-04-overview.md), [owner decisions](../ontology/p01-stage-04-owner-decisions.md), [upstream authority](../ontology/p01-stage-04-source-authorities.md), [normative holds](../ontology/p01-stage-04-release-holds.md), and [G04 approved findings](../ontology/p01-stage-04-g04-owner-approved-decisions.md) and [closure record](../ontology/p01-stage-04-g04-closure-record.md).
 
 The previous [S03 rules](../ontology/p01-stage-03-candidate-qualification-rules.md), [boundary casework](../ontology/p01-stage-03-boundary-casework.md), [S02 dispositions](../ontology/p01-stage-02-case-disposition-ledger.md) and [informative analogy](../foundations/crude-oil-to-driver-teaching-analogy.md) are retained as original research sources.
 
-No G04 closure or previous owner-reviewed gate authorizes Product certification, a mandatory execution engine, a global funding/approval arrangement, or an INFOPS 0.1 normative release.
+Neither G04 nor G05 closure authorizes Product certification, a mandatory execution engine, a global funding/approval arrangement, or an INFOPS 0.1 normative release. G06/G07 remain unstarted.

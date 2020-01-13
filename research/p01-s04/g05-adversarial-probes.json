@@ -1,0 +1,266 @@
+{
+  "project": "INFOPS",
+  "gate": "G05",
+  "approvedBy": "G05-D07-F01",
+  "asOf": "2026-10-20",
+  "normative": false,
+  "count": 16,
+  "empiricalExecutionCompleted": false,
+  "empiricalClassifierMetricsEstablished": false,
+  "originalS02S03CaseSourcesModified": false,
+  "unresolvedOriginalFalsifications": [
+    "F06",
+    "F14",
+    "F16"
+  ],
+  "probes": [
+    {
+      "probeId": "D07-X01",
+      "title": "Information without generic Productness",
+      "sourceCaseIds": [
+        "C03",
+        "C04",
+        "C11",
+        "C14",
+        "C29"
+      ],
+      "sourceTestIds": [
+        "F06"
+      ],
+      "expectedConditionalInterpretation": "Semantic coherence and an Information Proposition alone do not establish BPS Productness.",
+      "status": "OWNER_APPROVED_RESEARCH_DESIGN_NOT_EMPIRICALLY_EXECUTED",
+      "conclusiveProductQualification": false,
+      "changesOriginalDispositions": false
+    },
+    {
+      "probeId": "D07-X02",
+      "title": "Rich Data versus Information",
+      "sourceCaseIds": [
+        "C02",
+        "C21"
+      ],
+      "sourceTestIds": [
+        "F03",
+        "F16"
+      ],
+      "expectedConditionalInterpretation": "A qualified enriched Data Product may have Information semantics while its intrinsically constituted Family remains disputed.",
+      "status": "OWNER_APPROVED_RESEARCH_DESIGN_NOT_EMPIRICALLY_EXECUTED",
+      "conclusiveProductQualification": false,
+      "changesOriginalDispositions": false
+    },
+    {
+      "probeId": "D07-X03",
+      "title": "General analytic capability versus promised Information",
+      "sourceCaseIds": [
+        "C01",
+        "C07",
+        "C09",
+        "C20"
+      ],
+      "sourceTestIds": [
+        "F05"
+      ],
+      "expectedConditionalInterpretation": "A tool or computation service does not inherit Information Product Family from its outputs.",
+      "status": "OWNER_APPROVED_RESEARCH_DESIGN_NOT_EMPIRICALLY_EXECUTED",
+      "conclusiveProductQualification": false,
+      "changesOriginalDispositions": false
+    },
+    {
+      "probeId": "D07-X04",
+      "title": "Static and human Information formation",
+      "sourceCaseIds": [
+        "C05",
+        "C06",
+        "C19",
+        "C30"
+      ],
+      "sourceTestIds": [
+        "F02"
+      ],
+      "expectedConditionalInterpretation": "Absence of continuous/owned analytics engines does not independently disqualify a static or editorial Information candidate.",
+      "status": "OWNER_APPROVED_RESEARCH_DESIGN_NOT_EMPIRICALLY_EXECUTED",
+      "conclusiveProductQualification": false,
+      "changesOriginalDispositions": false
+    },
+    {
+      "probeId": "D07-X05",
+      "title": "AI participation and changed Product Promise",
+      "sourceCaseIds": [
+        "C08",
+        "C09",
+        "C13",
+        "C23",
+        "C24",
+        "C33"
+      ],
+      "sourceTestIds": [
+        "F04"
+      ],
+      "expectedConditionalInterpretation": "AI dependencies do not automatically confer AI Family; materially changed Promise requires independent assessment.",
+      "status": "OWNER_APPROVED_RESEARCH_DESIGN_NOT_EMPIRICALLY_EXECUTED",
+      "conclusiveProductQualification": false,
+      "changesOriginalDispositions": false
+    },
+    {
+      "probeId": "D07-X06",
+      "title": "Multi-promise and Compound ambiguity",
+      "sourceCaseIds": [
+        "C12",
+        "C18",
+        "C31"
+      ],
+      "sourceTestIds": [
+        "F14"
+      ],
+      "expectedConditionalInterpretation": "Aggregated propositions do not establish one Information Product or independently approved BPS Compound status.",
+      "status": "OWNER_APPROVED_RESEARCH_DESIGN_NOT_EMPIRICALLY_EXECUTED",
+      "conclusiveProductQualification": false,
+      "changesOriginalDispositions": false
+    },
+    {
+      "probeId": "D07-X07",
+      "title": "Correct definition with incorrect execution",
+      "sourceCaseIds": [
+        "C15",
+        "C27",
+        "C34"
+      ],
+      "sourceTestIds": [
+        "F09",
+        "F10"
+      ],
+      "expectedConditionalInterpretation": "Correctly declared VWAP with arithmetic-mean realization violates fidelity despite successful deployment.",
+      "status": "OWNER_APPROVED_RESEARCH_DESIGN_NOT_EMPIRICALLY_EXECUTED",
+      "conclusiveProductQualification": false,
+      "changesOriginalDispositions": false
+    },
+    {
+      "probeId": "D07-X08",
+      "title": "Different golden paths, common governing Promise",
+      "sourceCaseIds": [
+        "C22",
+        "C26",
+        "C32",
+        "C36"
+      ],
+      "sourceTestIds": [
+        "F08",
+        "F09"
+      ],
+      "expectedConditionalInterpretation": "Different realizations do not automatically change Family or prove semantic equivalence.",
+      "status": "OWNER_APPROVED_RESEARCH_DESIGN_NOT_EMPIRICALLY_EXECUTED",
+      "conclusiveProductQualification": false,
+      "changesOriginalDispositions": false
+    },
+    {
+      "probeId": "D07-X09",
+      "title": "Versions, parameters, instances and occurrences",
+      "sourceCaseIds": [
+        "C16",
+        "C25",
+        "C28",
+        "C35"
+      ],
+      "sourceTestIds": [
+        "F11",
+        "F12"
+      ],
+      "expectedConditionalInterpretation": "Occurrence/parameter change does not automatically create Product identity or Family change.",
+      "status": "OWNER_APPROVED_RESEARCH_DESIGN_NOT_EMPIRICALLY_EXECUTED",
+      "conclusiveProductQualification": false,
+      "changesOriginalDispositions": false
+    },
+    {
+      "probeId": "D07-X10",
+      "title": "Valid signature and disputed substantive passport claim",
+      "sourceCaseIds": [
+        "C15",
+        "C17",
+        "C34"
+      ],
+      "sourceTestIds": [],
+      "expectedConditionalInterpretation": "DPP authenticity/integrity can coexist with unsupported or false fidelity claims.",
+      "status": "OWNER_APPROVED_RESEARCH_DESIGN_NOT_EMPIRICALLY_EXECUTED",
+      "conclusiveProductQualification": false,
+      "changesOriginalDispositions": false
+    },
+    {
+      "probeId": "D07-X11",
+      "title": "Maturity-like characteristics without qualification",
+      "sourceCaseIds": [
+        "C17",
+        "C29"
+      ],
+      "sourceTestIds": [
+        "F13"
+      ],
+      "expectedConditionalInterpretation": "High score/registry presence cannot establish Productness; no Information PMDD scoring is adopted.",
+      "status": "OWNER_APPROVED_RESEARCH_DESIGN_NOT_EMPIRICALLY_EXECUTED",
+      "conclusiveProductQualification": false,
+      "changesOriginalDispositions": false
+    },
+    {
+      "probeId": "D07-X12",
+      "title": "Fitness changes with consumer purpose",
+      "sourceCaseIds": [
+        "C10",
+        "C27"
+      ],
+      "sourceTestIds": [],
+      "expectedConditionalInterpretation": "Same Product/Information may be fit for education but not real-time trading.",
+      "status": "OWNER_APPROVED_RESEARCH_DESIGN_NOT_EMPIRICALLY_EXECUTED",
+      "conclusiveProductQualification": false,
+      "changesOriginalDispositions": false
+    },
+    {
+      "probeId": "D07-X13",
+      "title": "Consumption access without consequential authority",
+      "sourceCaseIds": [
+        "C10",
+        "C31"
+      ],
+      "sourceTestIds": [
+        "F15"
+      ],
+      "expectedConditionalInterpretation": "Entitlement to read does not confer permission to decide or trade.",
+      "status": "OWNER_APPROVED_RESEARCH_DESIGN_NOT_EMPIRICALLY_EXECUTED",
+      "conclusiveProductQualification": false,
+      "changesOriginalDispositions": false
+    },
+    {
+      "probeId": "D07-X14",
+      "title": "Usage and favorable outcomes without demonstrated value",
+      "sourceCaseIds": [],
+      "sourceTestIds": [],
+      "expectedConditionalInterpretation": "Consumption/association do not establish causal Value.",
+      "status": "OWNER_APPROVED_RESEARCH_DESIGN_NOT_EMPIRICALLY_EXECUTED",
+      "conclusiveProductQualification": false,
+      "changesOriginalDispositions": false
+    },
+    {
+      "probeId": "D07-X15",
+      "title": "Historical semantics and evidence uncertainty",
+      "sourceCaseIds": [
+        "C15",
+        "C16",
+        "C27",
+        "C34"
+      ],
+      "sourceTestIds": [],
+      "expectedConditionalInterpretation": "Later change cannot rewrite historical decision; inaccessible evidence is not proven conformance or violation.",
+      "status": "OWNER_APPROVED_RESEARCH_DESIGN_NOT_EMPIRICALLY_EXECUTED",
+      "conclusiveProductQualification": false,
+      "changesOriginalDispositions": false
+    },
+    {
+      "probeId": "D07-X16",
+      "title": "Research coherence without normative source adoption",
+      "sourceCaseIds": [],
+      "sourceTestIds": [],
+      "expectedConditionalInterpretation": "Internal coherence does not discharge G03 normative-release holds or certify Product qualification.",
+      "status": "OWNER_APPROVED_RESEARCH_DESIGN_NOT_EMPIRICALLY_EXECUTED",
+      "conclusiveProductQualification": false,
+      "changesOriginalDispositions": false
+    }
+  ]
+}

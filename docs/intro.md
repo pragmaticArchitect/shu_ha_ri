@@ -6,7 +6,7 @@ sidebar_label: Introduction
 
 # Information Product Specification (INFOPS)
 
-> **Status - INFOPS-P01 Stage 4 OWNER-REVIEWED CONDITIONAL RESEARCH (NON-NORMATIVE).** G01-G04 research gates are closed; G04-D09-F01 approved **CONDITIONAL RESEARCH** closure (9/9) on 20 October 2026. The G03-R01-R12 normative blockers remain open and G05-G07 are not started. This is **not** an approved INFOPS 0.1 specification, Product classifier, conformance standard, or maturity catalogue.
+> **Status - INFOPS-P01 Stage 4 OWNER-REVIEWED CONDITIONAL RESEARCH (NON-NORMATIVE).** G01-G05 research gates are closed; G05-D08-F01 approved **CONDITIONAL RESEARCH** closure (8/8) on 20 October 2026. The G03-R01-R12 normative blockers remain open and G06/G07 are not started. This is **not** an approved INFOPS 0.1 specification, Product classifier, conformance standard, or maturity catalogue.
 
 INFOPS investigates what intrinsically qualifies as an **Information Product**. It preserves **BPS/PIN** as generic Productness authority and **GEARM** as the authority for Information and Information Proposition semantics. Independent Data, AI, Service, Creative and Compound Product authorities remain applicable where relevant.
 

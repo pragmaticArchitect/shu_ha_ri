@@ -4,7 +4,7 @@ title: Status & Release Posture
 
 # Status and release posture
 
-> **CURRENT OWNER-REVIEWED POSITION (20 October 2026): G01-G04 CLOSED AT RESEARCH LEVEL; NOT NORMATIVE.** G04-D09-F01 approved conditional research closure. G05-G07 have not started. None of the twelve G03 source/release holds is discharged.
+> **CURRENT OWNER-REVIEWED POSITION (20 October 2026): G01-G05 CLOSED AT RESEARCH LEVEL; NOT NORMATIVE.** G05-D08-F01 approved conditional research closure (8/8). G06/G07 have not started. None of the twelve G03 source/release holds is discharged.
 
 | Area | State |
 |---|---|
@@ -16,7 +16,8 @@ title: Status & Release Posture
 | S04 G02 | CLOSED - CONDITIONAL RESEARCH (7/7) |
 | S04 G03 | CLOSED - CONDITIONAL RESEARCH (10/10) |
 | **S04 G04** | **CLOSED - CONDITIONAL RESEARCH (9/9; G04-D09-F01 approved 2026-10-20)** |
-| S04 G05-G07 | PENDING; NOT STARTED |
+| **S04 G05** | **CLOSED_CONDITIONAL_RESEARCH (8/8; G05-D08-F01 approved)** |
+| S04 G06/G07 | PENDING; NOT STARTED |
 | P01 S04 overall | NOT CLOSED |
 | BPS Productness | Independent Product qualification precondition; normative source pin open |
 | Q1-Q4 necessity | NOT ESTABLISHED |
@@ -27,6 +28,6 @@ title: Status & Release Posture
 | INFOPROD/INFOPDS/Information DPP Profile | NOT NORMATIVELY ISSUED |
 | Normative INFOPS 0.1 release/publication | NOT AUTHORIZED |
 
-Review [S04 owner research](../ontology/p01-stage-04-overview.md), [the G04 owner-approved findings](../ontology/p01-stage-04-g04-owner-approved-decisions.md), [G04 gate closure](../ontology/p01-stage-04-g04-closure-record.md), [G01-G04 decision register](../ontology/p01-stage-04-owner-decisions.md) and [unresolved G03 release holds](../ontology/p01-stage-04-release-holds.md).
+Review [S04 owner research](../ontology/p01-stage-04-overview.md), [G05 approved findings](../ontology/p01-stage-04-g05-owner-approved-decisions.md), [G05 gate closure](../ontology/p01-stage-04-g05-closure-record.md), [G04 historical closure](../ontology/p01-stage-04-g04-closure-record.md), [G01-G05 owner register](../ontology/p01-stage-04-owner-decisions.md) and [unresolved G03 release holds](../ontology/p01-stage-04-release-holds.md).
 
 The original S02/S03 research snapshots and historical `static/spec/infops/0.1/scaffold-state.json` remain preserved. The current owner-review projection is `research/p01-s04/research-state.json` and is explicitly non-normative. Neither state file constitutes an approved Information Product qualification or deployed conformance evidence.

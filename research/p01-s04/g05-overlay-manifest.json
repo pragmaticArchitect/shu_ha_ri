@@ -1,0 +1,207 @@
+{
+  "project": "INFOPS",
+  "programme": "INFOPS-P01-S04",
+  "overlayId": "INFOPS-P01-S04-G05-D01-D08-OWNER-APPROVED-CLOSURE",
+  "asOf": "2026-10-20",
+  "normative": false,
+  "releaseAuthorized": false,
+  "gateClosureStatus": "CLOSED_CONDITIONAL_RESEARCH",
+  "appliesTo": "INFOPS(1).zip",
+  "baseArchiveSha256": "ad2fc1aea6d0c218352173f915391328a7a398aa7869567a17e02e131200379a",
+  "sourceArchiveFileCount": 89,
+  "sourceZipRoot": "shu_ha_ri/",
+  "archiveOverlayRoot": "",
+  "modifiedPaths": [
+    "README.md",
+    "docs/intro.md",
+    "docs/ontology/overview.md",
+    "docs/ontology/p01-stage-04-overview.md",
+    "docs/ontology/p01-stage-04-owner-decisions.md",
+    "docs/ontology/p01-stage-04-release-holds.md",
+    "docs/specification/overview.md",
+    "docs/specification/roadmap.md",
+    "docs/specification/status.md",
+    "package.json",
+    "research/p01-s04/owner-decision-register.json",
+    "research/p01-s04/research-state.json",
+    "scripts/validate-infops-p01-s04-g04.py",
+    "scripts/validate-infops-p01-s04.py",
+    "sidebars.js",
+    "src/pages/index.js"
+  ],
+  "addedPaths": [
+    "docs/ontology/p01-stage-04-g05-adversarial-probes.md",
+    "docs/ontology/p01-stage-04-g05-closure-record.md",
+    "docs/ontology/p01-stage-04-g05-owner-approved-decisions.md",
+    "docs/ontology/p01-stage-04-g05-plan.md",
+    "research/p01-s04/g05-adversarial-probes.json",
+    "research/p01-s04/g05-closure-record.json",
+    "research/p01-s04/g05-overlay-manifest.json",
+    "research/p01-s04/g05-owner-approved-decisions.json",
+    "research/p01-s04/g05-preclosure-baseline-integrity.json",
+    "scripts/validate-infops-p01-s04-g05.py"
+  ],
+  "modifiedCount": 16,
+  "addedCount": 10,
+  "payload": [
+    {
+      "path": "README.md",
+      "kind": "MODIFIED",
+      "sha256": "4b41f41f7bbbd406eec6cdc778f46f9ffe3f419084b2385153bb5e38a7de0b7a",
+      "sizeBytes": 10807
+    },
+    {
+      "path": "docs/intro.md",
+      "kind": "MODIFIED",
+      "sha256": "228a3b5235041a7e75a5f2c4d3ce0835a1d1f7173bb7f2d5e6e1f4427c4c702c",
+      "sizeBytes": 2379
+    },
+    {
+      "path": "docs/ontology/overview.md",
+      "kind": "MODIFIED",
+      "sha256": "d5f592e053d44fb94e1e4ce82cd251a74265d78dc3315736bbc72e03752f8656",
+      "sizeBytes": 4307
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-g05-adversarial-probes.md",
+      "kind": "ADDED",
+      "sha256": "efd70f0e24c0ca64fbff68ba7054748974fa342b6e32a14486772afacca40656",
+      "sizeBytes": 4000
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-g05-closure-record.md",
+      "kind": "ADDED",
+      "sha256": "8054427a381bad954f034dcfe445c432f7fe59c5b8ceaeaa176a46f0be1d78a7",
+      "sizeBytes": 5878
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-g05-owner-approved-decisions.md",
+      "kind": "ADDED",
+      "sha256": "9b0b7399781fa595ab3858752fa45fae9d1b83c158b1e647c1a701cd987c95df",
+      "sizeBytes": 27637
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-g05-plan.md",
+      "kind": "ADDED",
+      "sha256": "eb749448ff59b2d03d4d1c16b76ef72c48afd59918c50d19ef21eea58cc8b19b",
+      "sizeBytes": 2119
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-overview.md",
+      "kind": "MODIFIED",
+      "sha256": "1bd6485667b27198b5216b8011f7b32f542de7fbb81ccfa3e6319b89d12d86db",
+      "sizeBytes": 4477
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-owner-decisions.md",
+      "kind": "MODIFIED",
+      "sha256": "38e6a5f7f7a290ee4c4c8187a2c86132ca46eec1d7b79230e5c9a26c269dff1f",
+      "sizeBytes": 70256
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-release-holds.md",
+      "kind": "MODIFIED",
+      "sha256": "34303edfa09b02253543d498c97475a8a1b661b4c4ef0309ea500024249a0424",
+      "sizeBytes": 4117
+    },
+    {
+      "path": "docs/specification/overview.md",
+      "kind": "MODIFIED",
+      "sha256": "cfff694cd2bd876be6636b104faa1feb8386e5fec1ca69c8c3345de89ce50552",
+      "sizeBytes": 2624
+    },
+    {
+      "path": "docs/specification/roadmap.md",
+      "kind": "MODIFIED",
+      "sha256": "2a03320d765e7f22e12885abc3519515504b9f19e3025a4156dd3fb2496c1a11",
+      "sizeBytes": 3379
+    },
+    {
+      "path": "docs/specification/status.md",
+      "kind": "MODIFIED",
+      "sha256": "c30afc9c27c7a4821baa594db300732ede61607678f457c91afc132e301ebdb6",
+      "sizeBytes": 2460
+    },
+    {
+      "path": "package.json",
+      "kind": "MODIFIED",
+      "sha256": "42cef283876962556c459ec1e455ce6d9fd1985c4cce6a6a3f3541b3768fda84",
+      "sizeBytes": 921
+    },
+    {
+      "path": "research/p01-s04/g05-adversarial-probes.json",
+      "kind": "ADDED",
+      "sha256": "f3554c202de48664b2d62a1bd823d001ecd1db0202e7da3a20e8a7f1c2310c4c",
+      "sizeBytes": 8923
+    },
+    {
+      "path": "research/p01-s04/g05-closure-record.json",
+      "kind": "ADDED",
+      "sha256": "a6a0d5ad5482f486f3a6137eae4937d3af4e10bf4446d526b6249c1db54ab87a",
+      "sizeBytes": 1665
+    },
+    {
+      "path": "research/p01-s04/g05-owner-approved-decisions.json",
+      "kind": "ADDED",
+      "sha256": "878e8b7a84059bf68d4b955d19dfdfa4e3b85791024dc990f4207e9042de53cf",
+      "sizeBytes": 34753
+    },
+    {
+      "path": "research/p01-s04/g05-preclosure-baseline-integrity.json",
+      "kind": "ADDED",
+      "sha256": "4967843cddc5613f40a7b063a61852536acd175ec26eae1c638d06f83d65c155",
+      "sizeBytes": 14156
+    },
+    {
+      "path": "research/p01-s04/owner-decision-register.json",
+      "kind": "MODIFIED",
+      "sha256": "631d844fb9cc0635793dc0d17ad13f5fd07baf4ddea32bde987bcd77795dee96",
+      "sizeBytes": 55797
+    },
+    {
+      "path": "research/p01-s04/research-state.json",
+      "kind": "MODIFIED",
+      "sha256": "d332fbd8fb9bd5c4b41d04d760af66ae700216239d112b7d5471e3782a9c44fb",
+      "sizeBytes": 2094
+    },
+    {
+      "path": "scripts/validate-infops-p01-s04-g04.py",
+      "kind": "MODIFIED",
+      "sha256": "d1b7bc7a4f63def2f13ffae9bef89fa049e7186851f745162b8275c5210017fe",
+      "sizeBytes": 11524
+    },
+    {
+      "path": "scripts/validate-infops-p01-s04-g05.py",
+      "kind": "ADDED",
+      "sha256": "5150142f66409efb433d03c5fd60db6dc9399fa5eefaabd2584b42e1517c31f3",
+      "sizeBytes": 16370
+    },
+    {
+      "path": "scripts/validate-infops-p01-s04.py",
+      "kind": "MODIFIED",
+      "sha256": "6b90e85a6b8b784c730ba0fbec6ae427ee38c5e0530079cc5bf3f5176d25f340",
+      "sizeBytes": 17045
+    },
+    {
+      "path": "sidebars.js",
+      "kind": "MODIFIED",
+      "sha256": "4a94d76f4bf54842a88b296d4be2b1b17c72b99db4b9a39552b623e4d91bdc0b",
+      "sizeBytes": 2620
+    },
+    {
+      "path": "src/pages/index.js",
+      "kind": "MODIFIED",
+      "sha256": "fa867e8c91002277c25096dcffc326de1d4f3ee338944117ee3dda30014a9ce7",
+      "sizeBytes": 3050
+    }
+  ],
+  "manifestSelfChecksumExcluded": true,
+  "ownerApprovedDecisions": 8,
+  "approvedResearchDecisionsTotal": 49,
+  "normativeReleaseHoldsOpen": 12,
+  "subsequentGatesNotStarted": [
+    "G06",
+    "G07"
+  ],
+  "inheritedBaselineAttestationWarning": "G01-G03 legacy checkpoint mismatches present in original owner ZIP; see g05-preclosure-baseline-integrity.json"
+}

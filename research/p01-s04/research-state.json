@@ -10,7 +10,7 @@
     "G02": "CLOSED_CONDITIONAL_RESEARCH",
     "G03": "CLOSED_CONDITIONAL_RESEARCH",
     "G04": "CLOSED_CONDITIONAL_RESEARCH",
-    "G05": "PENDING",
+    "G05": "CLOSED_CONDITIONAL_RESEARCH",
     "G06": "PENDING",
     "G07": "PENDING"
   },
@@ -26,9 +26,9 @@
   "publicationAuthorized": false,
   "historicalS03ScaffoldStatePreserved": true,
   "ownerApprovalIsNotNormativeRelease": true,
-  "nextDecision": "G05_NOT_STARTED_PENDING_SEPARATE_OWNER_INSTRUCTION",
-  "ownerReviewedResearchDecisionsTotal": 41,
-  "explicitApprovalsWithResearchSummaryAvailable": 41,
+  "nextDecision": "G06_NOT_STARTED_PENDING_SEPARATE_OWNER_INSTRUCTION",
+  "ownerReviewedResearchDecisionsTotal": 49,
+  "explicitApprovalsWithResearchSummaryAvailable": 49,
   "s02OwnerApprovedResearchDecisions": 6,
   "s03OwnerApprovedResearchDecisions": 9,
   "g01OwnerApprovedAntecedentDecisions": 15,
@@ -41,5 +41,12 @@
   "g04ClosureDate": "2026-10-20",
   "g04CaseReconciliation": "research/p01-s04/g04-case-reconciliation.json",
   "informationFamilyUniversalNecessityProven": false,
-  "stageS04Closed": false
+  "stageS04Closed": false,
+  "g05OwnerDecisions": 8,
+  "g05OwnerApprovalRegister": "research/p01-s04/g05-owner-approved-decisions.json",
+  "g05ClosureDecision": "G05-D08-F01",
+  "g05ClosureDate": "2026-10-20",
+  "g05AdversarialResearchProbes": "research/p01-s04/g05-adversarial-probes.json",
+  "g05ProbesEmpiricallyExecuted": false,
+  "g05ReleaseHoldsAllOpen": true
 }

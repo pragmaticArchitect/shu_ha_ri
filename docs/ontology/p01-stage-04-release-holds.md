@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - Release Holds
 
 # G03 conditional closure: normative release blockers
 
-> **G03 AND G04 RESEARCH GATES CLOSED; NORMATIVE ADOPTION NOT READY (20 October 2026).** G04-D09-F01 conditionally closed the G04 research review, but none of the twelve G03-R01-R12 source/adoption blockers is resolved. The original Follow-up entries reflect G03 planning references and do NOT imply G04 has satisfied those holds. Certification and normative publication remain blocked.
+> **G03, G04 AND G05 RESEARCH GATES CLOSED; NORMATIVE ADOPTION NOT READY (20 October 2026).** G05-D08-F01 conditionally closed the G05 owner-review research after eight approvals, but none of the twelve G03-R01-R12 source/adoption blockers is resolved. Historical Follow-up values reflect their earlier planning scope and do NOT imply G04 or G05 discharged those holds. G06/G07 have not begun; Product certification and normative publication remain blocked.
 
 ## Tracked release holds
 
@@ -26,7 +26,7 @@ sidebar_label: P01-S04 - Release Holds
 
 ## Exact gating semantics
 
-- Blocking status applies to **the stated normative claim**, not automatically to exploratory classification or hypothetical casework.
+- Blocking status applies to **the stated normative claim**, not automatically to exploratory classification or hypothetical casework. The G05 owner closure adds conceptual findings without changing the hold IDs, open states or original source-adoption requirements.
 - Missing BPS/PIN or GEARM adoption bars definitive adopted INFOPS Product-family rules, but does not prevent G04 from attempting their falsification under named research baselines.
 - Missing BPS DPP Core adoption bars normative DPP Profile compliance claims; it does not automatically prove an otherwise constituted Product lacks intrinsic Productness.
 - Missing INFOPROD/INFOPDS specifications bars corresponding descriptor/realization conformance claims, not conceptual research into Information Product intrinsic nature.
@@ -39,6 +39,7 @@ sidebar_label: P01-S04 - Release Holds
 |---|---|
 | G01-G03 owner-reviewed research | **CLOSED** (G03 conditional) |
 | G04 competing-family adjudication | **CLOSED - CONDITIONAL RESEARCH (9/9 approved)** |
+| G05 independent determination/trust/maturity review | **CLOSED - CONDITIONAL RESEARCH (8/8 approved)** |
 | Exact normative source pinning | **INCOMPLETE** |
 | Definitive family necessary/sufficient proof | **NOT ESTABLISHED** |
 | INFOPROD / INFOPDS / Information DPP Profile | **NOT NORMATIVELY SPECIFIED** |

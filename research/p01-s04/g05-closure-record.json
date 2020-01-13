@@ -1,0 +1,71 @@
+{
+  "project": "INFOPS",
+  "programme": "INFOPS-P01-S04",
+  "gate": "G05",
+  "closureDecisionId": "G05-D08-F01",
+  "decisionDate": "2026-10-20",
+  "closureStatus": "CLOSED_CONDITIONAL_RESEARCH",
+  "normative": false,
+  "releaseAuthorized": false,
+  "approvedDecisions": [
+    "G05-D01-F01",
+    "G05-D02-F01",
+    "G05-D03-F01",
+    "G05-D04-F01",
+    "G05-D05-F01",
+    "G05-D06-F01",
+    "G05-D07-F01",
+    "G05-D08-F01"
+  ],
+  "totalApprovedInG05": 8,
+  "allProgrammeResearchApprovedCount": 49,
+  "previousG04ApprovedCount": 41,
+  "originalResearch": {
+    "S02Cases": 36,
+    "S02Tests": 16,
+    "S03Cases": 20,
+    "preserved": true,
+    "unresolved": [
+      "F06",
+      "F14",
+      "F16"
+    ]
+  },
+  "adversarialProbes": {
+    "count": 16,
+    "empiricallyExecuted": false,
+    "path": "research/p01-s04/g05-adversarial-probes.json"
+  },
+  "qualificationResearchLimits": {
+    "Q0": "BPS_PRODUCTNESS_INDEPENDENT",
+    "Q1_Q4UniversalNecessity": "NOT_ESTABLISHED",
+    "Q0_Q4JointSufficiency": "NOT_ESTABLISHED",
+    "jointSufficiencyFormallyRefuted": false,
+    "Q5": "PROCEDURAL_ONLY"
+  },
+  "releaseHolds": [
+    "G03-R01",
+    "G03-R02",
+    "G03-R03",
+    "G03-R04",
+    "G03-R05",
+    "G03-R06",
+    "G03-R07",
+    "G03-R08",
+    "G03-R09",
+    "G03-R10",
+    "G03-R11",
+    "G03-R12"
+  ],
+  "allHoldsOpen": true,
+  "actualProductsCertified": 0,
+  "sourcePinsAdopted": false,
+  "schemasNormative": false,
+  "subsequentGates": {
+    "G06": "PENDING_NOT_STARTED",
+    "G07": "PENDING_NOT_STARTED"
+  },
+  "stageS04Closed": false,
+  "repositoryProjectionIsIndependentOfApproval": true,
+  "repositoryChangeAuthorizedAfterOwnerConversationClosure": true
+}

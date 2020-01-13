@@ -1,0 +1,569 @@
+{
+  "project": "INFOPS",
+  "programme": "INFOPS-P01-S04",
+  "gate": "G05",
+  "recordType": "CONVERSATION_OWNER_APPROVED_CONDITIONAL_RESEARCH_REPOSITORY_PROJECTION",
+  "asOf": "2026-10-20",
+  "status": "CLOSED_CONDITIONAL_RESEARCH",
+  "normative": false,
+  "normativeReleaseAuthorized": false,
+  "actualProductsQualified": 0,
+  "ownerReviewedCount": 8,
+  "approvedCount": 8,
+  "closureDecisionId": "G05-D08-F01",
+  "basis": "Eight individually recorded owner APPROVE dispositions for G05-D01-F01 through G05-D08-F01 on 2026-10-20, with D08 explicitly closing G05 as conditional research. This repository file is a later user-authorized projection of those conversation decisions.",
+  "decisions": [
+    {
+      "id": "G05-D01-F01",
+      "gate": "G05",
+      "title": "Independent Qualification, Evidence, Conformance, Maturity and Authorization Boundaries",
+      "ownerDisposition": "APPROVED",
+      "ownerReviewedResearch": true,
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "researchOnly": true,
+      "qualificationIssued": false,
+      "publicationAuthorized": false,
+      "summary": "Nine independent conceptual determination categories A1-A9; legitimate shared evidence but no cross-authority substitution.",
+      "clauses": [
+        {
+          "id": "F01.1",
+          "topic": "Generic BPS Productness",
+          "position": "A1 examines whether an exact subject qualifies as a Product under independent BPS/PIN authority. INFOPS evidence, labels, API exposure, registry entry or analytics cannot independently award generic Productness."
+        },
+        {
+          "id": "F01.2",
+          "topic": "Intrinsic Family qualification",
+          "position": "A2 concerns qualified Product Family/Kind and is distinct from generic Productness. Independent Data, AI, Service, Creative and BPS Compound Product authority cannot be replaced by INFOPS family precedence."
+        },
+        {
+          "id": "F01.3",
+          "topic": "Semantic conformity",
+          "position": "A3 examines whether declared analytical and Information meaning conforms to applicable authoritative GEARM and family semantics. It does not prove Productness, family membership or actual runtime fidelity."
+        },
+        {
+          "id": "F01.4",
+          "topic": "Realization conformance",
+          "position": "A4 examines whether an eligible concrete realization meets its own applicable specifications and control obligations. Deployment, compilation and API success do not establish correct declared meaning or intrinsic Product nature."
+        },
+        {
+          "id": "F01.5",
+          "topic": "Passport verification and trust evidence",
+          "position": "A5 concerns bounded DPP/attestation verification and trust evidence. A validly signed, intact DPP does not automatically prove a represented claim, a qualified Product or universal trust."
+        },
+        {
+          "id": "F01.6",
+          "topic": "Fitness and assurance",
+          "position": "A6 examines whether evidence is adequate for an intended use, claim or assurance concern. Fitness and assurance remain context- and authority-dependent, not unconditional consequences of qualification."
+        },
+        {
+          "id": "F01.7",
+          "topic": "Maturity",
+          "position": "A7 is future INFOPCH/PMDD maturity characterization. Neither a high score nor a low score creates, negates or reclassifies intrinsic Product identity."
+        },
+        {
+          "id": "F01.8",
+          "topic": "Consumption and consequential authorization",
+          "position": "A8 examines consumer access and applicable point-of-use consequential Decision/Action authority; entitlement to read Information is not blanket permission to decide or act."
+        },
+        {
+          "id": "F01.9",
+          "topic": "Normative adoption and non-prescriptive organization",
+          "position": "A9 concerns explicit authorization of specification adoption and normative release. A1-A9 are nine conceptual categories, not nine mandatory committees, services, fixed statuses or a universal sequential pipeline; common evidence may support several independent assessments."
+        }
+      ],
+      "conversationApprovalOnlyBeforeThisOverlay": true
+    },
+    {
+      "id": "G05-D02-F01",
+      "gate": "G05",
+      "title": "Assessment Subjects, Evidence Provenance, Evaluation Decisions and Currentness",
+      "ownerDisposition": "APPROVED",
+      "ownerReviewedResearch": true,
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "researchOnly": true,
+      "qualificationIssued": false,
+      "publicationAuthorized": false,
+      "summary": "Exact subject/Version/context discipline and claim/evidence/provenance/verification/evaluation/decision/attestation/issuance/currentness separation.",
+      "clauses": [
+        {
+          "id": "F01.1",
+          "topic": "Exact assessment subjects",
+          "position": "Distinguish Product identity and Version, semantic definition and Version, Product Port, realization/deployment, Information occurrence, dependency, evidence item, decision, DPP instance, consumer/purpose context, and the precise claim scope."
+        },
+        {
+          "id": "F01.2",
+          "topic": "Distinct epistemic and governance operations",
+          "position": "Keep claim/assertion, evidence, provenance, authenticity/integrity verification, substantive evaluation, scoped finding, accountable decision, attestation, passport publication and currentness distinguishable. Structural or signature success is not proof of truth."
+        },
+        {
+          "id": "F01.3",
+          "topic": "Typed provenance",
+          "position": "Keep semantic/definition provenance, runtime/execution/occurrence provenance, assessment-process provenance and trust/issuance provenance separate; GEARM retains authority over meaning and Definition-versus-Occurrence distinctions."
+        },
+        {
+          "id": "F01.4",
+          "topic": "Non-transference across scope",
+          "position": "Evidence for one Product Version, realization, Information occurrence, semantic definition, assessment time, authority or consumer context cannot automatically establish a different claim. Reuse requires justified correspondence and applicable criteria."
+        },
+        {
+          "id": "F01.5",
+          "topic": "Accountable decisions",
+          "position": "Every substantive decision must remain traceable to the exact subject, governing criteria, assessor/issuer authority, evidence, Version, scope, timing, assumptions, limitations and material unresolved conditions."
+        },
+        {
+          "id": "F01.6",
+          "topic": "Contextual currentness",
+          "position": "Currentness depends on concern, target, source authority, Version, time, consumer purpose and evidence. No universal current Boolean or imported AIPS status taxonomy is approved for INFOPS."
+        },
+        {
+          "id": "F01.7",
+          "topic": "Material change and historical truth",
+          "position": "An upstream change prompts impact/currentness assessment where material; it does not automatically invalidate all dependencies or rewrite historical records. The fact of an earlier assessment is distinct from the continuing truth or applicability of its conclusions."
+        },
+        {
+          "id": "F01.8",
+          "topic": "Insufficiency and conflict",
+          "position": "Absent, inaccessible, stale, ambiguous or contradictory evidence must be honestly recorded as insufficient, conflicting or indeterminate as warranted; absence of proof is neither proof of conformance nor proof of a violation."
+        },
+        {
+          "id": "F01.9",
+          "topic": "Proportional evidence architecture",
+          "position": "Support references, proportional evidence depth, restricted access and appropriate confidentiality. No mandatory centralized evidence store, graph database, single universal workflow or indiscriminate evidence replication is adopted."
+        },
+        {
+          "id": "F01.10",
+          "topic": "Product, semantic, trust and authorization independence",
+          "position": "BPS DPP issuance and integrity, GEARM semantic truth, BPS Productness, proposed INFOPS family assessment, INFOPROD/INFOPDS/HPD evidence, maturity, fitness and downstream authorization remain separate; no normative schema, status or certification adopted."
+        }
+      ],
+      "conversationApprovalOnlyBeforeThisOverlay": true
+    },
+    {
+      "id": "G05-D03-F01",
+      "gate": "G05",
+      "title": "Generic Productness, Information Product-family Qualification and Semantic Conformance Boundaries",
+      "ownerDisposition": "APPROVED",
+      "ownerReviewedResearch": true,
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "researchOnly": true,
+      "qualificationIssued": false,
+      "publicationAuthorized": false,
+      "summary": "Generic Productness, Information-family candidature, governed semantic conformance, realization and other families do not substitute for one another.",
+      "clauses": [
+        {
+          "id": "F01.1",
+          "topic": "Independent Productness",
+          "position": "BPS/PIN alone governs generic Productness, Product identity, Promise, Version and PIN. Assertions, semantics, analytics, runtime, registry entries and APIs are not independent proof of Productness."
+        },
+        {
+          "id": "F01.2",
+          "topic": "Provisional Information-family qualification",
+          "position": "Information-family research is distinct from generic Productness. Q0 remains upstream; Q1-Q4 universal necessity and joint sufficiency have not been established, and Q5 remains a procedural cross-family/Compound review, not an intrinsic predicate. Candidate assessment is not certification."
+        },
+        {
+          "id": "F01.3",
+          "topic": "GEARM semantic authority",
+          "position": "GEARM owns Information Proposition, analytical meaning, definitions, method and context semantics. Conformance of a declaration to those authorities is separate from Productness and Family membership."
+        },
+        {
+          "id": "F01.4",
+          "topic": "Runtime semantic fidelity separate",
+          "position": "Correctly declared analytics must still be tested against applicable realized execution and occurrences; VWAP declared correctly but computed as arithmetic mean illustrates failure. Detailed realization boundaries are approved separately in D04."
+        },
+        {
+          "id": "F01.5",
+          "topic": "Other families and Compound authority",
+          "position": "Data, AI, Service, Creative and other Product Families retain independent authorities; BPS independently governs Compound. No family precedence, automatic inheritance or universal exclusivity is imposed by INFOPS."
+        },
+        {
+          "id": "F01.6",
+          "topic": "Exact evidence, subject and change",
+          "position": "Bind semantic/qualification findings to exact subjects, Versions and contexts, preserve provenance and historical truth, and assess material change without automatically inheriting or invalidating another Version."
+        },
+        {
+          "id": "F01.7",
+          "topic": "Artifact non-substitution",
+          "position": "INFOPROD, INFOPDS, HDIP HPD, BPS DPP, future profile and future maturity guidance cannot manufacture generic Productness, intrinsic Family classification or semantic correctness."
+        },
+        {
+          "id": "F01.8",
+          "topic": "Research-only determination",
+          "position": "No certified Information Product, mandatory classifier, universal conformance algorithm/status, adopted workflow, evidence schema or normative release follows from this finding."
+        }
+      ],
+      "conversationApprovalOnlyBeforeThisOverlay": true
+    },
+    {
+      "id": "G05-D04-F01",
+      "gate": "G05",
+      "title": "INFOPDS Realization, Semantic Fidelity, Operational Conformance and HPD Projection Boundaries",
+      "ownerDisposition": "APPROVED",
+      "ownerReviewedResearch": true,
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "researchOnly": true,
+      "qualificationIssued": false,
+      "publicationAuthorized": false,
+      "summary": "Realization accountability without Product/semantic authority transfer; semantic fidelity, deployment conformance and HPD projection distinct.",
+      "clauses": [
+        {
+          "id": "F01.1",
+          "topic": "INFOPDS realization jurisdiction",
+          "position": "Future INFOPDS concerns governed implementation, deployment, provision and operation of an intentionally constituted Information Product; it does not define generic Productness, Family, GEARM meaning or identity. It may reference relevant Product Versions, declarations, contracts and obligations without replacing source authority."
+        },
+        {
+          "id": "F01.2",
+          "topic": "Information formation plurality",
+          "position": "Information may be constituted, dynamically formed or combined using human/editorial, rule-based, statistical, AI-assisted, materialized or external methods. There is no universal owned engine, perpetual computation, physical topology or single PFI golden path."
+        },
+        {
+          "id": "F01.3",
+          "topic": "PFI semantic preservation",
+          "position": "PFI/golden paths may compile or bind eligible realizations, implementations, external capabilities and deployment assets only while preserving governing Product Promise, semantic definitions and contract obligations. Compilation or eligible Blueprint binding is not semantic certification."
+        },
+        {
+          "id": "F01.4",
+          "topic": "Definition-to-realization fidelity",
+          "position": "Realization fidelity must be evidenced against applicable semantic definitions, context, methods, parameters, Product requirements and Information occurrences. A correct declaration or selected numerical agreement does not prove general execution correctness; evidence must suit the actual formation method."
+        },
+        {
+          "id": "F01.5",
+          "topic": "Independent conformance dimensions",
+          "position": "Semantic declaration, execution fidelity, configuration/deployment, runtime operation, HDIP Core/Profile conformance and fitness/assurance are different. Healthy infrastructure may generate wrong Information, and correct meaning may be delivered late."
+        },
+        {
+          "id": "F01.6",
+          "topic": "HPD operational projection",
+          "position": "HDIP HPD remains an operational projection for an applicable Product Version. It may reference governance, ports, dependencies, lifecycle and realization but cannot become BPS/PIN, INFOPROD, INFOPDS, DPP, a semantic authority or a Product certificate."
+        },
+        {
+          "id": "F01.7",
+          "topic": "Subject, occurrence and currentness",
+          "position": "Claims distinguish Product/Version, semantic definition/Version, realization, deployment, provider, Information occurrence, consumer purpose and evidence context. Material changes require impact assessment, not automatic retroactive truth rewriting or universal invalidation."
+        },
+        {
+          "id": "F01.8",
+          "topic": "Independent authority continuity",
+          "position": "BPS/PIN, GEARM/GEARA, other families, Compound, BPS DPP, HDIP and downstream risk/trust/action authorities retain their respective jurisdictions; deployment does not confer maturity, assurance, fitness or permission to act."
+        },
+        {
+          "id": "F01.9",
+          "topic": "Non-prescriptive conditional research",
+          "position": "No INFOPDS schema, mandatory conformance algorithm/status, CI/CD topology, execution engine, approval workflow, family qualification or normative release is adopted."
+        }
+      ],
+      "conversationApprovalOnlyBeforeThisOverlay": true
+    },
+    {
+      "id": "G05-D05-F01",
+      "gate": "G05",
+      "title": "BPS DPP Core, Information Product DPP Profile, Claim Verification, Issuance and Trust Boundaries",
+      "ownerDisposition": "APPROVED",
+      "ownerReviewedResearch": true,
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "researchOnly": true,
+      "qualificationIssued": false,
+      "publicationAuthorized": false,
+      "summary": "Cross-family BPS DPP Core source, possible Information-specific profile, claims, verification, evaluation, issuance and trust separated.",
+      "clauses": [
+        {
+          "id": "F01.1",
+          "topic": "BPS DPP Core parent authority",
+          "position": "BPS DPP Core is the intended generic cross-family passport authority. Its exact canonical release, namespace, schema and issuing governance must be independently pinned; historical example URIs do not establish an INFOPS normative dependency."
+        },
+        {
+          "id": "F01.2",
+          "topic": "Future Information DPP specialization",
+          "position": "A future Information Product DPP Profile may extend an adopted BPS Core for appropriately scoped analytical definition, formation, provenance, fidelity, qualification and currentness claims without replacing common Core obligations or adopting a mandatory field set now."
+        },
+        {
+          "id": "F01.3",
+          "topic": "Passport and claim subject distinction",
+          "position": "The passport instance, Product/Version it describes, claim subject and assessed subject may differ. Material claims about semantic definitions, realizations, occurrences, evidence, dependencies and assessment contexts must retain explicit applicable scope."
+        },
+        {
+          "id": "F01.4",
+          "topic": "Claims versus verification and evaluation",
+          "position": "Claims, evidence, provenance, integrity/authenticity verification, accountable substantive evaluation and attestation remain distinct. Correct signatures or hashes do not by themselves establish signatory authority or truth of assertions."
+        },
+        {
+          "id": "F01.5",
+          "topic": "Accountable issuance",
+          "position": "Creation, signing, issuance, publication, supersession and withdrawal are distinguishable. Technical signing capability does not confer authority to attest every assertion; issuance cannot invent missing independent determinations."
+        },
+        {
+          "id": "F01.6",
+          "topic": "Contextual, claim-specific trust",
+          "position": "Passport integrity, issuer identity, evidence authenticity/sufficiency, individual assessment validity and currentness may diverge. Historical validly made statements need not remain currently applicable or correct in all consumer contexts."
+        },
+        {
+          "id": "F01.7",
+          "topic": "Evidence references and confidentiality",
+          "position": "Evidence may be inline or by reference with proportional integrity, controlled disclosure, privacy, licensing and redaction safeguards. Inaccessible evidence cannot be presumed substantively sufficient; no centralized passport/evidence architecture is required."
+        },
+        {
+          "id": "F01.8",
+          "topic": "Artifact and authority non-substitution",
+          "position": "BPS/PIN, GEARM, INFOPROD, INFOPDS, HDIP HPD, BPS DPP Core, a future Information Profile and qualification/conformance decisions remain distinct in identity and authority."
+        },
+        {
+          "id": "F01.9",
+          "topic": "Currentness and downstream reliance",
+          "position": "DPP issuance/currentness differs from the applicability of each represented claim, fitness, entitlement and consequential action authorization; material change requires scoped impact assessment, not universal revocation or automatic history revision."
+        },
+        {
+          "id": "F01.10",
+          "topic": "Conditional research only",
+          "position": "No BPS DPP Core source pin, normative Information DPP Profile, universal validator, authorized issuer, qualification certificate, trust certification or normative INFOPS release is granted."
+        }
+      ],
+      "conversationApprovalOnlyBeforeThisOverlay": true
+    },
+    {
+      "id": "G05-D06-F01",
+      "gate": "G05",
+      "title": "INFOPCH/PMDD Maturity, Assurance, Fitness, Consumption Authorization and Consequential Action Boundaries",
+      "ownerDisposition": "APPROVED",
+      "ownerReviewedResearch": true,
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "researchOnly": true,
+      "qualificationIssued": false,
+      "publicationAuthorized": false,
+      "summary": "Maturity after independent qualification; assurance, fitness, Product access, decision/action authorization and value distinct.",
+      "clauses": [
+        {
+          "id": "F01.1",
+          "topic": "Qualification before family maturity",
+          "position": "Proposed INFOPCH/PMDD Information Product maturity applies to independently qualified Product/Version under appropriate authority; if qualification is unresolved, a legitimate qualified-family maturity finding cannot be manufactured by scores. Prequalification progress may still be studied separately."
+        },
+        {
+          "id": "F01.2",
+          "topic": "Characteristic applicability and evidence",
+          "position": "Future INFOPCH maturity must respect a Product constitution, Promise, formation method, lifecycle and obligations. No universal continuous runtime, characteristic set, scoring thresholds, weights, state vocabulary or AIPS L0/L1/L2 bands are adopted."
+        },
+        {
+          "id": "F01.3",
+          "topic": "Analytical quality versus assurance",
+          "position": "GEARM analytical quality includes applicable correctness, method fitness, consistency, timeliness, uncertainty and related properties; independent assurance evaluates specified claims and control/evidence sufficiency. Neither proves the other automatically."
+        },
+        {
+          "id": "F01.4",
+          "topic": "Purpose-dependent fitness",
+          "position": "Information/Product/occurrence suitability is specific to declared consumer purpose, context, uncertainty, freshness, risk and policy, and may change without intrinsic Product Family change. Fitness does not confer entitlement."
+        },
+        {
+          "id": "F01.5",
+          "topic": "Product consumption entitlement",
+          "position": "Access through HDIP SSCF or other governed consumption remains consumer-, Product/Port-, purpose-, policy- and time-scoped. Publication, maturity, DPP and fitness do not themselves grant access, and approved access is not universal downstream authority."
+        },
+        {
+          "id": "F01.6",
+          "topic": "Recommendation, Decision and Action distinction",
+          "position": "GEARM Information and Recommendation are not automatically operative Decisions, consequential Authorization or Actions. Decision/Action authority remains independently governed by applicable enterprise/regulatory and GEAIRA responsibilities where relevant."
+        },
+        {
+          "id": "F01.7",
+          "topic": "Automation and oversight applicability",
+          "position": "Automation does not establish autonomous decision authority. Applicable delegated authority, oversight, human intervention and point-of-use controls must be respected without universal human-in-loop mandates or mandatory decision pipelines."
+        },
+        {
+          "id": "F01.8",
+          "topic": "Use, outcome, attribution and value",
+          "position": "Consumption, delivery, engagement, decisions, actions, outcomes, feedback and beneficial value remain distinguishable; adoption or favorable correlation does not demonstrate causal value or permit ungoverned Product evolution."
+        },
+        {
+          "id": "F01.9",
+          "topic": "Scoped evidence and historical currentness",
+          "position": "Maturity, assurance, fitness and authorization determinations identify exact subject, Version, evidence, criteria, authority, context and time; they do not transfer automatically across Versions/occurrences or rewrite historical truth."
+        },
+        {
+          "id": "F01.10",
+          "topic": "No maturity or authorization adoption",
+          "position": "No INFOPCH catalogue, PMDD scoring/bands, general assurance certification, fitness stamp, entitlement framework, consequential action system or normative release is adopted."
+        }
+      ],
+      "conversationApprovalOnlyBeforeThisOverlay": true
+    },
+    {
+      "id": "G05-D07-F01",
+      "gate": "G05",
+      "title": "Cross-Case Falsification, Determination Independence and Dependency Tests",
+      "ownerDisposition": "APPROVED",
+      "ownerReviewedResearch": true,
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "researchOnly": true,
+      "qualificationIssued": false,
+      "publicationAuthorized": false,
+      "summary": "Six prior G05 findings challenged with controlled adverse cases while preserving legitimate dependencies, original case/test dispositions and epistemic limits.",
+      "clauses": [
+        {
+          "id": "F01.1",
+          "topic": "Conceptual determination non-substitution",
+          "position": "A1-A9 are independently meaningful; signatures, scores, deployment results, discovery and authorization cannot establish another determination without its governing criteria and authority. They are not nine disjoint infrastructures or mandatory approval steps."
+        },
+        {
+          "id": "F01.2",
+          "topic": "Legitimate dependencies",
+          "position": "Independent decision jurisdictions may rely on common evidence or logically prior independent qualification. Family qualification presupposes BPS Productness; maturity, fitness and authorization may reference validated upstream findings without substituting for them."
+        },
+        {
+          "id": "F01.3",
+          "topic": "Controlled adversarial method",
+          "position": "Define exact subject/Version, applicable criteria, changed factor, challenged inference, evidence, meaning-affecting context and expected result. Changes to governing Promise/semantics/constitution are not pure implementation invariance."
+        },
+        {
+          "id": "F01.4",
+          "topic": "Competing-family and Compound restraint",
+          "position": "Data/Information, Service/Information, AI/Information, Creative/Information and Compound ambiguities remain governed externally; do not force unresolved cases into a family or invent precedence."
+        },
+        {
+          "id": "F01.5",
+          "topic": "Semantic and realization independence",
+          "position": "Semantic correctness of a declaration, actual execution fidelity and operational conformance are distinct. A failure in one may influence fitness without automatically changing Product family."
+        },
+        {
+          "id": "F01.6",
+          "topic": "Passport, assurance, maturity non-substitution",
+          "position": "Verified DPP, assurance evidence and maturity scores do not create qualification or override material conformance failures, mandatory controls, incomplete evidence or contextual restrictions."
+        },
+        {
+          "id": "F01.7",
+          "topic": "Consumption/consequential independence",
+          "position": "Product access, Information use, Recommendation, operative Decision, Authorization, Action, Outcome and Value remain distinct, including for agents; no mandatory universal HITL workflow."
+        },
+        {
+          "id": "F01.8",
+          "topic": "Version/evidence/historical consistency",
+          "position": "Exact assessed subject, Product/semantic Version, runtime/occurrence, purpose, evidence, authority and time must be distinguished; later change cannot rewrite historical decision records."
+        },
+        {
+          "id": "F01.9",
+          "topic": "Conflict versus insufficiency",
+          "position": "Distinguish genuine incompatible, adequately evidenced decisions under the same relevant scope/criteria from different-scoped outcomes or missing evidence. Escalate actual conflicts without algorithmic forced precedence."
+        },
+        {
+          "id": "F01.10",
+          "topic": "Preservation and epistemic limits",
+          "position": "S02 C01-C36, S02 F01-F16, S03-T01-T20 remain exactly as authored; D07-X01-X16 are additional accepted but not empirically executed probes. F06/F14/F16 stay unresolved. Neither universal necessity/sufficiency nor classifier accuracy is proven."
+        },
+        {
+          "id": "F01.11",
+          "topic": "Research-only adversarial acceptance",
+          "position": "No universal classifier, DPP, maturity, evidence status model, certification, adoption, test-execution completion or normative release follows from accepting the adversarial research design."
+        }
+      ],
+      "conversationApprovalOnlyBeforeThisOverlay": true
+    },
+    {
+      "id": "G05-D08-F01",
+      "gate": "G05",
+      "title": "Consolidated G05 Conditional Research Findings, Residual Obligations and Gate Closure Assessment",
+      "ownerDisposition": "APPROVED",
+      "ownerReviewedResearch": true,
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "researchOnly": true,
+      "qualificationIssued": false,
+      "publicationAuthorized": false,
+      "summary": "Reconcile G05-D01-D07 and close G05 as CLOSED_CONDITIONAL_RESEARCH with every qualification/source/release hold intact.",
+      "clauses": [
+        {
+          "id": "F01.1",
+          "topic": "G05 consolidation",
+          "position": "D01-D07 form the complete approved G05 substantive research baseline, with their original meaning retained and nine conceptual categories A1-A9 distinguishable but legitimately dependent."
+        },
+        {
+          "id": "F01.2",
+          "topic": "Productness and Family independence",
+          "position": "BPS/PIN retains Productness/identity/Promise and Compound; Q0 remains independent, Q1-Q4 universal necessity and Q0-Q4 joint sufficiency remain unproven (not disproven), Q5 stays procedural; no certified Information Product."
+        },
+        {
+          "id": "F01.3",
+          "topic": "GEARM semantics versus realization",
+          "position": "GEARM/GEARA Information, context and analytical meaning remain authoritative; semantic declaration, realized execution and operational conformance separate; eligible golden-path variation does not automatically alter Product nature."
+        },
+        {
+          "id": "F01.4",
+          "topic": "Assessment/evidence/currentness independence",
+          "position": "Keep exact subjects, Versions, authority, provenance, evidence, verification, evaluation, decision and time distinct; history is preserved; insufficiency must not be forced into positive/negative certainty."
+        },
+        {
+          "id": "F01.5",
+          "topic": "Descriptor/projection/passport boundaries",
+          "position": "Proposed INFOPROD semantic descriptor, INFOPDS realization spec, HDIP HPD projection, BPS DPP Core and future Information Profile remain distinct; none is adopted or empowered to manufacture intrinsic qualification."
+        },
+        {
+          "id": "F01.6",
+          "topic": "Maturity/fitness/authorization separation",
+          "position": "INFOPCH/PMDD, analytical quality, assurance, purpose fitness, Product access and consequential Decision/Action authority remain independently governed; automated agents do not gain authority through consumption."
+        },
+        {
+          "id": "F01.7",
+          "topic": "Other family and Compound jurisdiction",
+          "position": "Independent Data, AI, Service, Creative and BPS Compound authority remains intact; unresolved enriched Data and multi-promise cases cannot be forcibly reclassified."
+        },
+        {
+          "id": "F01.8",
+          "topic": "Original research and D07 probes",
+          "position": "C01-C36, F01-F16, S03-T01-T20 dispositions and assumptions are preserved; D07-X01-X16 remain approved supplemental hypothetical probes, not empirical completions. F06, F14 and F16 remain unresolved."
+        },
+        {
+          "id": "F01.9",
+          "topic": "All normative-release holds remain open",
+          "position": "Every G03-R01-R12 obligation remains OPEN and prevents the respective normative claims; none is discharged by G05 research closure."
+        },
+        {
+          "id": "F01.10",
+          "topic": "Conditional G05 closure",
+          "position": "Owner explicitly approved G05-D08-F01; G05 closes at conversation-level as CLOSED_CONDITIONAL_RESEARCH, not S04 closure or normative release. G06/G07 remain PENDING NOT STARTED."
+        },
+        {
+          "id": "F01.11",
+          "topic": "Conversation-level closure and later repository reconciliation",
+          "position": "G05-D08 closure was authorized at conversation level only and did not itself authorize any repository edit or deployment. A later separately instructed overlay must preserve full substantive decision parity and historical G04 records without authorizing Product qualification, source adoption or normative release."
+        }
+      ],
+      "conversationApprovalOnlyBeforeThisOverlay": true
+    }
+  ],
+  "qStatus": {
+    "Q0": "INHERITED_INDEPENDENT_BPS_PRODUCTNESS_PREREQUISITE",
+    "Q1": "CANDIDATE_UNIVERSAL_NECESSITY_NOT_ESTABLISHED",
+    "Q2": "CANDIDATE_UNIVERSAL_NECESSITY_NOT_ESTABLISHED",
+    "Q3": "CANDIDATE_UNIVERSAL_NECESSITY_NOT_ESTABLISHED",
+    "Q4": "CANDIDATE_UNIVERSAL_NECESSITY_NOT_ESTABLISHED",
+    "Q5": "PROCEDURAL_ADJUDICATION_NOT_INTRINSIC_PRODUCT_PROPERTY",
+    "Q0_Q4_jointSufficiency": "NOT_ESTABLISHED",
+    "conjunctionFormallyRefuted": false,
+    "empiricalFalsePositiveNegativeRatesEstablished": false
+  },
+  "allG03ReleaseHoldsRemainOpen": true,
+  "unresolvedOriginalFalsifications": [
+    "F06",
+    "F14",
+    "F16"
+  ],
+  "d07AdversarialProbeRegister": "research/p01-s04/g05-adversarial-probes.json",
+  "d07ProbesResearchOnlyNotEmpiricallyExecuted": true,
+  "priorG05ApprovalsRecordedInConversationOnlyUntilThisOverlay": true,
+  "sourceAuthorityAdoptionCompleted": false,
+  "artifactsAdopted": {
+    "INFOPROD": false,
+    "INFOPDS": false,
+    "BPS_DPP_CORE": false,
+    "INFORMATION_DPP_PROFILE": false,
+    "INFOPCH_PMDD": false
+  },
+  "subsequentGates": {
+    "G06": "PENDING_NOT_STARTED",
+    "G07": "PENDING_NOT_STARTED"
+  },
+  "stageS04Closed": false,
+  "releaseOrCertificationNotAuthorized": true
+}

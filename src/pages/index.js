@@ -27,7 +27,7 @@ export default function Home() {
               <Link className="button button--primary button--lg" to="/docs/intro">Explore the project</Link>
               <Link className="button button--secondary button--lg" to="/docs/ontology/p01-stage-04-overview">S04 review status</Link>
             </div>
-            <div className={styles.status}>P01 Stage 4: G01-G04 conditional research closed (9/9 G04 approved) · G05-G07 pending · No normative qualification published</div>
+            <div className={styles.status}>P01 Stage 4: G01-G05 conditional research closed (8/8 G05 approved; 49 total decisions) · G06/G07 pending · No normative qualification published</div>
           </div>
         </header>
         <section className={styles.section}>

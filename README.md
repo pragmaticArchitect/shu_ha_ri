@@ -10,11 +10,11 @@ The original P01 Stage 1 baseline and review remain preserved. Stage 2 (`docs/on
 
 ## Owner-reviewed Stage 4 consolidation (20 October 2026)
 
-**G01 (15/15), G02 (7/7), G03 (10/10), and G04 (9/9) have completed conditional owner-reviewed research.** G04-D09-F01 approved `CLOSED_CONDITIONAL_RESEARCH` closure on 20 October 2026. This gives **41 distinct approved research decisions**, counting the fifteen S02/S03 antecedents once as the G01 closure basis. **G05-G07 are PENDING and NOT STARTED.** INFOPS 0.1 is NOT a normative qualification standard and all G03-R01-R12 release holds remain open.
+**G01 (15/15), G02 (7/7), G03 (10/10), G04 (9/9) and G05 (8/8) have completed owner-reviewed research.** G05-D08-F01 approved `CLOSED_CONDITIONAL_RESEARCH` closure on 20 October 2026. This gives **49 distinct approved research decisions**, counting the fifteen S02/S03 antecedents once as the G01 closure basis. **G06/G07 are PENDING and NOT STARTED.** INFOPS 0.1 is NOT a normative qualification standard and all G03-R01-R12 release holds remain open.
 
 Primary source and decision pages:
 
-- [S04 overview](docs/ontology/p01-stage-04-overview.md), [G01-G04 owner decision register](docs/ontology/p01-stage-04-owner-decisions.md).
+- [S04 overview](docs/ontology/p01-stage-04-overview.md), [G01-G05 owner decision register](docs/ontology/p01-stage-04-owner-decisions.md), [G05 full approved decisions](docs/ontology/p01-stage-04-g05-owner-approved-decisions.md) and [G05 closure](docs/ontology/p01-stage-04-g05-closure-record.md).
 - [G04 owner-approved decisions D01-D09](docs/ontology/p01-stage-04-g04-owner-approved-decisions.md) - full reviewed research findings.
 - [G04 final closure record](docs/ontology/p01-stage-04-g04-closure-record.md) - approval, case/test reconciliation, Q0-Q5, normative holds and next-gate limits.
 - [Source authority](docs/ontology/p01-stage-04-source-authorities.md), [artifact boundaries](docs/ontology/p01-stage-04-artifact-boundaries.md), [release holds](docs/ontology/p01-stage-04-release-holds.md).
