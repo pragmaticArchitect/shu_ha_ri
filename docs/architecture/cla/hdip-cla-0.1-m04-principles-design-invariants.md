@@ -196,7 +196,7 @@ Domain, Product-family, industry and enterprise profiles may tighten, contextual
 
 # 5. Canonical M04 Design Invariants
 
-M04 establishes forty design invariants grouped into seven families.
+M04 establishes forty design invariants grouped into six families.
 
 ## 5.1 Authority, semantics and jurisdiction
 

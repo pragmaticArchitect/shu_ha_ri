@@ -52,7 +52,8 @@ The programme is responsibility-first and deliberately avoids freezing logical p
 | **M13 — External & Adjacent-System Boundary Model** | **Complete** |
 | **M14 — HDIP Realization / Profile Patterns** | **Complete** |
 | **M15 — Canonical Reference Views** | **Complete** |
-| **M16 — Architecture Invariants & Conformance Model** | Next |
+| **M16 — Architecture Invariants & Conformance Model** | **Complete** |
+| **M17 — Cross-Artifact Reconciliation & HDIP-CLA 0.1 Freeze** | **Complete — 0.1 Frozen** |
 
 ## Foundational proposition
 
@@ -74,3 +75,12 @@ The programme is responsibility-first and deliberately avoids freezing logical p
 ## Initial repository state
 
 The repository begins with reconciled HDIP concept and lifecycle material migrated from BPS. Formal HDIP-CLA stage outputs will be added incrementally as the programme proceeds.
+
+
+## HDIP-CLA 0.1 freeze state
+
+**M17 is complete. The HDIP-CLA 0.1 human-readable architecture baseline is frozen.**
+
+The frozen baseline comprises the canonical P1-P5 Plane model, X1-X9 Overlays, HDIP-FND, 22 logical ABBs, Registry/projection/compilation architecture, PDEP, SSCF/CEP, 21 M12 interactions, 12 M13 Boundary Families, 8 M14 Realization Patterns, 6 M14 Profile Patterns, 10 M15 Reference Views, 10 representative flows and 48 M16 Architecture Invariants.
+
+Subsequent machine-readable or executable formalization is downstream representation of this baseline and must not silently redesign it. Material changes to frozen 0.1 meaning require governed amendment/versioning; non-semantic errata remain permitted under M17.
