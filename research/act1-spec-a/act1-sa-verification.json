@@ -1,0 +1,96 @@
+{
+  "syntax": {
+    "src/data/IPSpecAFlow.ts": {
+      "pass": true,
+      "errors": []
+    },
+    "src/components/IPFlowPlayerSpecA.tsx": {
+      "pass": true,
+      "errors": []
+    },
+    "src/pages/hdip-ip-flow-sa.tsx": {
+      "pass": true,
+      "errors": []
+    }
+  },
+  "graph": {
+    "nodes": 35,
+    "edges": 36,
+    "moments_per_path": 10,
+    "paths": [
+      "consume",
+      "evolve",
+      "create"
+    ],
+    "lanes": 4,
+    "typed_relationships": 5
+  },
+  "tests": [
+    {
+      "name": "four approved lanes",
+      "status": "PASS"
+    },
+    {
+      "name": "five distinct typed edge relationships",
+      "status": "PASS"
+    },
+    {
+      "name": "three approved paths",
+      "status": "PASS"
+    },
+    {
+      "name": "ten moments per path",
+      "status": "PASS"
+    },
+    {
+      "name": "SA-P01 to SA-P10 identities per path",
+      "status": "PASS"
+    },
+    {
+      "name": "unique node ids",
+      "status": "PASS"
+    },
+    {
+      "name": "unique edge ids",
+      "status": "PASS"
+    },
+    {
+      "name": "all graph edge endpoints exist",
+      "status": "PASS"
+    },
+    {
+      "name": "all moment ids reference declared nodes and edges",
+      "status": "PASS"
+    },
+    {
+      "name": "branch visible edges have visible endpoints",
+      "status": "PASS"
+    },
+    {
+      "name": "moment edges belong to the selected path",
+      "status": "PASS"
+    },
+    {
+      "name": "consume path no new INFOPROD/INFOPDS/compilation nodes",
+      "status": "PASS"
+    },
+    {
+      "name": "SSCF outcome visible all paths",
+      "status": "PASS"
+    },
+    {
+      "name": "all independent authorities differentiated",
+      "status": "PASS"
+    },
+    {
+      "name": "economic and P5 nodes present",
+      "status": "PASS"
+    },
+    {
+      "name": "source states non-normative and external authority",
+      "status": "PASS"
+    }
+  ],
+  "build": "NOT_VERIFIED",
+  "browser": "NOT_EXECUTED"
+}

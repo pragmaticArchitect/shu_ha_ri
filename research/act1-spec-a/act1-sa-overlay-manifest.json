@@ -1,0 +1,57 @@
+{
+  "program": "INFOPS-0.1-ACT1",
+  "activity": "ACT1-SA-D03",
+  "classification": "EXPERIMENTAL_E0",
+  "owner_authorization": "APPROVED_FOR_ISOLATED_IMPLEMENTATION_PREPARATION",
+  "implementation_acceptance": "PENDING_SEPARATE_OWNER_DECISION",
+  "integration": "NOT_AUTHORIZED",
+  "deployment": "NOT_AUTHORIZED",
+  "source_reference": [
+    "BPS FlowPlayer.tsx",
+    "INFOPS G0 overlay",
+    "HDIP-CLA M15-V03"
+  ],
+  "verification": {
+    "syntax_and_static_graph": "PASSED",
+    "full_docusaurus_build": "NOT_VERIFIED",
+    "browser_interactions": "NOT_EXECUTED",
+    "SA-AC01-SA-AC14": "NOT_COMPLETED"
+  },
+  "files": [
+    {
+      "path": "shu_ha_ri/src/data/IPSpecAFlow.ts",
+      "bytes": 20125,
+      "sha256": "5949e7ab9953e506cec610bcfe6f9f47fa0da951ec9666aa5599101369f68ef7"
+    },
+    {
+      "path": "shu_ha_ri/src/components/IPFlowPlayerSpecA.tsx",
+      "bytes": 9933,
+      "sha256": "09fac917ebeb83d7141474055ab7e6bc79130857507521748c112cd3c2f55df1"
+    },
+    {
+      "path": "shu_ha_ri/src/components/IPFlowPlayerSpecA.css",
+      "bytes": 5958,
+      "sha256": "85e8090badc00f5f07e31a7be6455dcaed04b9a1b143ebdd30b6c87297be1e4e"
+    },
+    {
+      "path": "shu_ha_ri/src/pages/hdip-ip-flow-sa.tsx",
+      "bytes": 595,
+      "sha256": "f4935463f40718c7ae727e5f2ed1faabf0d7ad8c0bef66458cc14157f36a25ee"
+    },
+    {
+      "path": "shu_ha_ri/research/act1-spec-a/act1-sa-verification.json",
+      "bytes": 1939,
+      "sha256": "e40c6c4311aab962e884977cc2de0a38b002545936e518c6243a4b866ef6ae34"
+    },
+    {
+      "path": "README-APPLY-OVERLAY.md",
+      "bytes": 3597,
+      "sha256": "916fdaf0918af931b7a22f455cb2bb4bf837055c776bda9ae42fa4c24b8a9fb4"
+    },
+    {
+      "path": "NAVBAR-MERGE-INSTRUCTIONS.md",
+      "bytes": 834,
+      "sha256": "694fc3533879f8a5fbe0387b69ff5b25416788fe9b7d37567bd0fb0a3be9c6b5"
+    }
+  ]
+}
