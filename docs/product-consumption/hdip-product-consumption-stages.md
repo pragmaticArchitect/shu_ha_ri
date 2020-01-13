@@ -1,10 +1,10 @@
 ---
 id: hdip-product-consumption-stages
-title: HDIP Product Consumption Stages Spec C
+title: HDIP SSCF Product Consumption Stages Spec C
 sidebar_label: HDIP © Product Consumption Stages
 ---
 
-# 🧭 HDIP ©: Product Consumption CEP stages
+# 🧭 HDIP ©: SSCF Product Consumption Stages
 
 ![Diagram](/img/hdip/hdip-ap-dp-cep-specC.png)
 
@@ -12,7 +12,7 @@ sidebar_label: HDIP © Product Consumption Stages
 
 # 🧭 HDIP ©: Product Consumption Stages - Detailed Stage by Stage
 
-This page defines the **HDIP Self-Service Product Consumption Flow (SSCF)** for the **Product Consumer (PCON)**.
+This page defines the **HDIP Self-Service Consumption Flow (SSCF)** for governed **Product consumption** by a **Product Consumer (PCON)**.
 
 The flow applies to **any HDIP-supported product type**, including:
 
@@ -24,7 +24,41 @@ The flow applies to **any HDIP-supported product type**, including:
 
 The core principle is:
 
-> **PCON consumes products through governed, purpose-bound, observable, and value-measurable consumption paths.**
+> **PCON consumes Products through governed, purpose-bound, evidence-producing consumption paths while Product access, downstream authorization, cost, usage, outcome, value, trust and assurance remain distinct.**
+
+
+## M11 Architecture Alignment
+
+This detailed SSCF page is synchronized with **HDIP-CLA 0.1 M11**.
+
+Canonical interpretation:
+
+```text
+SSCF = Self-Service Consumption Flow
+     = logical Product-consumption lifecycle
+     != Plane / Overlay / ABB
+
+CEP  = Consumer Experience Projection
+     = governed consumer-facing projection/composition
+     != Consumer Experience Plane in the canonical P1-P5 model
+```
+
+The principal lifecycle mapping is:
+
+```text
+Stage 1  -> P1 governed intent/use context
+Stage 2  -> P2 discovery/resolution
+Stage 3  -> P2 fit context + P4 Product-access decision
+Stage 4  -> P4 access provisioning / Product Port binding
+Stage 5  -> P4 consumption / CEP (+ typed P3 runtime where invoked)
+Stage 6  -> X4 usage telemetry + X3 evidence correlation
+Stage 7  -> P5 outcome/value + X4/X5/X6/X9 evidence
+Stage 8  -> P5 feedback/evolution + governed PDEP handoff
+```
+
+**Runtime note:** established consumers MAY reuse current governed CIR/access/contract/entitlement state. The eight stages are not a synchronous per-call runtime pipeline.
+
+**Legacy diagram note:** the retained Spec C image predates M11 terminology and may display historical `Consumer Experience Plane`/service-style labels. Interpret it as an experience projection only; the Markdown specification and HDIP-CLA M11 are canonical for architecture semantics.
 
 ---
 
@@ -46,7 +80,7 @@ Therefore:
 
 > **Browse-first is a convenience entry mode; intent-first is the canonical HDIP mode.**
 
-The eight SSCF stages define a **logical consumption lifecycle**, not a requirement that every Product interaction physically execute eight synchronous runtime steps. Existing subscriptions, automated consumers, or previously established governed access MAY reuse current CIR, access, contract, and entitlement state where applicable.
+The eight SSCF stages define a **logical consumption lifecycle**, not a requirement that every Product interaction physically execute eight synchronous runtime steps. Existing subscriptions, automated consumers, or previously established governed access MAY reuse current CIR, Access Decision, Access Descriptor, Usage Contract, entitlement and Product/Port state where those remain governed-current. Material change MAY require re-evaluation or lifecycle re-entry.
 
 > **Diagram note:** The Spec C diagram presents nine consumer-facing interaction steps as an experience-oriented projection of the eight canonical SSCF stages. The nine interaction steps are not a second competing lifecycle.
 
@@ -64,7 +98,7 @@ The eight SSCF stages define a **logical consumption lifecycle**, not a requirem
 | **Context** | First stage of the canonical HDIP SSCF flow; assumes **Intent-First mode** |
 | **Scope** | Business or operational intent; not technical product selection, access provisioning, or implementation details |
 | **Primary Inputs** | PCON intent, purpose, context, expected outcome, consumption need |
-| **External Dependencies** | Intent Interpreter, consumption archetype model, optional persona/context registry |
+| **External Dependencies** | HDIP-P1 governed intent/use-context capabilities; consumer/persona context where applicable |
 | **Core Activities** | PCON declares intent; platform interprets and normalizes intent; CIR is generated |
 | **Processing Type** | Human- or agent-driven declaration with platform normalization |
 | **Output Artifacts** | CIR — Consumption Intent Record |
@@ -72,7 +106,7 @@ The eight SSCF stages define a **logical consumption lifecycle**, not a requirem
 | **Governance Controls** | Intent completeness, purpose clarity, governed consumption framing; declared purpose does not itself grant Product access or downstream action authorization |
 | **Validation Mechanisms** | Intent structure validation, archetype alignment, missing-context checks |
 | **PCON Responsibility** | Express the consumption need clearly in business, analytical, system, AI, or agentic terms |
-| **Platform Responsibility (HDIP)** | Normalize intent, enrich with archetype classification, create CIR |
+| **Platform Responsibility (HDIP)** | Use `HDIP-P1-ABB-01` to normalize governed intent/use context and create/version the CIR; use `HDIP-P1-ABB-03` where consumer/accountability context is material |
 | **Dependency Treatment** | No products have been selected yet; dependencies are not resolved at this stage |
 | **Quality Sensitivity** | Very high — weak intent leads to poor product resolution and inappropriate access decisions |
 | **Failure Modes / Risks** | Vague intent, missing purpose, over-technical expression, incorrect archetype inference |
@@ -94,15 +128,15 @@ The eight SSCF stages define a **logical consumption lifecycle**, not a requirem
 | **Context** | Follows CIR creation; product resolution is driven by intent rather than manual search alone |
 | **Scope** | Candidate product discovery, matching, ranking, and fit explanation |
 | **Primary Inputs** | CIR, Product Catalog metadata, Marketplace listings, product semantics, trust metadata |
-| **External Dependencies** | Product Catalog / Registry, Product Marketplace, Product Resolution Engine |
-| **Core Activities** | Query catalog, inspect marketplace availability, evaluate fit against intent, construct ranked resolution set |
+| **External Dependencies** | Product Registry authoritative references, Product Catalog projections, Product Marketplace where applicable, Product evidence/semantics |
+| **Core Activities** | Query Catalog projections, resolve Product/Version identities through governed references, inspect Marketplace availability where applicable, evaluate fit against intent/evidence, construct explainable Product Resolution Set |
 | **Processing Type** | Platform-driven with optional PCON exploration |
 | **Output Artifacts** | Product Resolution Set |
 | **State Transition** | From “Computable intent” → “Candidate product set” |
 | **Governance Controls** | Product eligibility pre-checks, availability filtering, trust metadata visibility; catalog or marketplace presence does not itself establish Product qualification |
 | **Validation Mechanisms** | Fit scoring, semantic matching, catalog lookup, marketplace availability checks |
 | **PCON Responsibility** | Review candidate products if needed |
-| **Platform Responsibility (HDIP)** | Resolve products using CIR, catalog, marketplace, semantics, and trust metadata |
+| **Platform Responsibility (HDIP)** | Use `HDIP-P2-ABB-01/02` to discover/resolve candidate Products while preserving typed Product identity, compatibility context, currentness and evidence references |
 | **Dependency Treatment** | Product dependencies become visible as part of resolution, but are not yet provisioned |
 | **Quality Sensitivity** | High — poor resolution may lead to irrelevant, unsafe, or unusable product selection |
 | **Failure Modes / Risks** | Missing catalog metadata, poor semantic alignment, stale marketplace listing, over-reliance on keyword search |
@@ -123,7 +157,7 @@ The eight SSCF stages define a **logical consumption lifecycle**, not a requirem
 | **Context** | Follows product resolution; candidate products are assessed for meaning, trust, suitability, and permitted use |
 | **Scope** | Product evaluation, trust review, selection, policy evaluation, entitlement decision |
 | **Primary Inputs** | CIR, Product Resolution Set, Product Catalog metadata, DPP/trust signals, PCON identity/context |
-| **External Dependencies** | Policy Service, Access & Entitlements, Product Catalog, DPP/trust metadata |
+| **External Dependencies** | X1 governance/policy/control, X2 identity/entitlement, Product Catalog/evidence projections, X5/X6 evidence where applicable |
 | **Core Activities** | Evaluate product fit, review trust metadata, select/request products, evaluate policy, produce access decision |
 | **Processing Type** | PCON-driven selection with platform-governed policy evaluation |
 | **Output Artifacts** | Access Decision |
@@ -131,7 +165,7 @@ The eight SSCF stages define a **logical consumption lifecycle**, not a requirem
 | **Governance Controls** | Purpose-bound Product-access policies, entitlement rules, compliance constraints, Product-level access posture; downstream consequential action authorization remains separately governed where applicable |
 | **Validation Mechanisms** | Policy checks against CIR, selected product set, PCON identity, and entitlement rules |
 | **PCON Responsibility** | Select products and request access for the declared intent |
-| **Platform Responsibility (HDIP)** | Evaluate access request against policy, entitlements, purpose, and selected product set |
+| **Platform Responsibility (HDIP)** | Coordinate fit context through P2 and produce the purpose-bound Product-access decision through `HDIP-P4-ABB-02` with applicable X1/X2/X5/X6/X7 obligations |
 | **Dependency Treatment** | Selected products are treated as requested consumption targets; downstream access is not yet provisioned |
 | **Quality Sensitivity** | Critical — access must reflect both the product and the declared purpose |
 | **Failure Modes / Risks** | Access granted without purpose validation, entitlement mismatch, trust metadata ignored, inappropriate product use |
@@ -154,7 +188,7 @@ The eight SSCF stages define a **logical consumption lifecycle**, not a requirem
 | **Context** | Follows access approval or conditional approval |
 | **Scope** | Access binding, entitlement materialization, Product Port access provisioning, usage contract generation |
 | **Primary Inputs** | CIR, Product Resolution Set, Access Decision, Entitlements |
-| **External Dependencies** | Access Provisioning Service, Entitlements Service, Product Port access infrastructure |
+| **External Dependencies** | `HDIP-P4-ABB-01/02`, X2 identity/entitlement mechanisms, Product Port access infrastructure, current Product/Port contract state |
 | **Core Activities** | Bind entitlements, provision access descriptors, expose governed access to applicable Product Ports, create usage contract |
 | **Processing Type** | Platform-driven |
 | **Output Artifacts** | Access Descriptor, Usage Contract, Product Port access binding / entitlement context |
@@ -162,7 +196,7 @@ The eight SSCF stages define a **logical consumption lifecycle**, not a requirem
 | **Governance Controls** | Purpose-bound access, policy-shaped provisioning, entitlement enforcement, port-level controls |
 | **Validation Mechanisms** | Entitlement binding checks, port exposure validation, access descriptor validation |
 | **PCON Responsibility** | None beyond accepting or initiating provisioned access |
-| **Platform Responsibility (HDIP)** | Provision product access safely through governed ports and usage constraints |
+| **Platform Responsibility (HDIP)** | Bind approved consumer state to already-defined Product Ports through `HDIP-P4-ABB-01/02`, producing Access Descriptor and consumer-specific Usage Contract conditions |
 | **Dependency Treatment** | Selected products are bound through governed ports; internal implementation is not exposed |
 | **Quality Sensitivity** | Very high — incorrect provisioning can bypass governance or block legitimate use |
 | **Failure Modes / Risks** | Incorrect entitlement binding, over-broad access, missing usage contract, broken product ports |
@@ -178,21 +212,21 @@ The eight SSCF stages define a **logical consumption lifecycle**, not a requirem
 | **Stage Number** | 5 |
 | **Stage Name** | Consume Through CEP |
 | **Lifecycle Phase** | Consumption & Experience |
-| **Purpose** | Enable the PCON to consume products through the Consumer Experience Plane using governed product ports |
+| **Purpose** | Enable the PCON to consume Products through the **Consumer Experience Projection (CEP)** using governed Product Ports |
 | **Outcome** | Persona-appropriate consumption views or experiences |
 | **Context** | Follows access provisioning; product ports, usage contract, and access descriptor are available |
 | **Scope** | Product consumption through dashboards, SQL, APIs, streams, feature pipelines, or agentic workflows |
 | **Primary Inputs** | Product Ports, Access Descriptor, Usage Contract |
-| **External Dependencies** | CEP Renderer, Consumer Experience Plane |
-| **Core Activities** | Invoke governed product ports, render persona-specific experience, generate consumption views |
+| **External Dependencies** | `HDIP-P4-ABB-01/02`; `HDIP-P4-ABB-03` where downstream integration is material; typed P3 runtime where the Product invocation requires it |
+| **Core Activities** | Invoke governed Product Ports, select/present persona-appropriate experience projections, mediate downstream integration where applicable, generate consumption views without silently creating new Product semantics |
 | **Processing Type** | PCON-initiated, platform-mediated |
 | **Output Artifacts** | Consumption Views |
 | **State Transition** | From “Access ready” → “Product actively consumed through CEP” |
 | **Governance Controls** | Port-level controls, usage contract enforcement, access descriptor constraints |
 | **Validation Mechanisms** | Port invocation checks, CEP rendering checks, access enforcement at runtime |
 | **PCON Responsibility** | Consume product through the appropriate experience mode |
-| **Platform Responsibility (HDIP)** | Render product experience through CEP without exposing internal product implementation |
-| **Dependency Treatment** | Product dependencies remain hidden behind product ports and CEP views |
+| **Platform Responsibility (HDIP)** | Project/mediate Product consumption through P4 while preserving Product/Port contracts, access conditions and applicable evidence; no standalone CEP Renderer ABB is implied |
+| **Dependency Treatment** | Internal deployment mechanics remain encapsulated behind Product Ports; contractually/governance-relevant dependency, provenance, quality and currentness evidence MAY still be exposed |
 | **Quality Sensitivity** | High — poor experience weakens adoption even when product is technically valid |
 | **Failure Modes / Risks** | Broken CEP rendering, inaccessible ports, unclear views, persona mismatch |
 | **Observability Signals** | View interactions, port usage, CEP rendering events |
@@ -211,18 +245,18 @@ The eight SSCF stages define a **logical consumption lifecycle**, not a requirem
 | **Outcome** | Usage Signals artifact |
 | **Context** | Occurs automatically as products are consumed through product ports and CEP |
 | **Scope** | Port usage, CEP interaction, view interaction, contract-contextualized consumption telemetry |
-| **Primary Inputs** | Product Ports, CEP Renderer, Consumption Views, Usage Contract |
-| **External Dependencies** | Usage Tracking Service |
-| **Core Activities** | Track port usage, capture CEP telemetry, capture view interactions, contextualize usage against usage contract |
+| **Primary Inputs** | Product Ports, CEP interaction/Consumption Views, Usage Contract |
+| **External Dependencies** | X4 observability/telemetry capability, X3 evidence/correlation where material, Product Port/CEP instrumentation |
+| **Core Activities** | Capture Product Port usage and CEP interaction telemetry, correlate material consumption events to Product/Port/CIR/access/contract context where required, apply privacy/minimization obligations |
 | **Processing Type** | Automated platform instrumentation |
 | **Output Artifacts** | Usage Signals |
 | **State Transition** | From “Consumption activity” → “Measured product usage” |
 | **Governance Controls** | Usage contract context, privacy controls, telemetry minimization policies |
 | **Validation Mechanisms** | Telemetry completeness checks, usage-event validation, contract-context binding |
 | **PCON Responsibility** | None; usage capture is automatic |
-| **Platform Responsibility (HDIP)** | Capture usage signals without requiring manual reporting by the PCON |
+| **Platform Responsibility (HDIP)** | Capture X4 Usage Signals and applicable X3 correlation evidence without requiring manual reporting by the PCON |
 | **Dependency Treatment** | Consumption dependencies are reflected in usage signals only at governed product boundary level |
-| **Quality Sensitivity** | High — inaccurate usage signals distort cost, value, PMDD, and feedback loops |
+| **Quality Sensitivity** | High — inaccurate usage signals distort cost attribution, outcome/value interpretation, observability and feedback loops |
 | **Failure Modes / Risks** | Missing telemetry, double counting, unbound usage events, privacy leakage |
 | **Observability Signals** | Usage event count, port usage metrics, view interaction metrics |
 | **Feedback Loop** | Usage signals feed cost, value, observability, and product signal bundle generation |
@@ -236,25 +270,25 @@ The eight SSCF stages define a **logical consumption lifecycle**, not a requirem
 | **Stage Number** | 7 |
 | **Stage Name** | Compute and Observe Product Signals |
 | **Lifecycle Phase** | Value Realization & Observability |
-| **Purpose** | Compute economic, value, and product-level signals from usage and make them observable |
-| **Outcome** | Cost Records, Value Signals, Product Signal Bundle, Product Consumption Observability |
-| **Context** | Follows usage signal capture; transforms raw consumption telemetry into governed Product consumption insights and economic/value signals |
-| **Scope** | Cost computation, value computation, signal aggregation, product observability |
+| **Purpose** | Derive and expose distinct economic, outcome/value, quality/fitness/trust and assurance evidence from governed consumption signals where applicable |
+| **Outcome** | Cost Records, Value/Outcome Signals, Product Signal Bundle, Product Consumption Observability, plus typed X5/X6 evidence where applicable |
+| **Context** | Follows usage signal capture; interprets consumption evidence without collapsing usage, cost, outcome, value, trust or assurance |
+| **Scope** | Cost attribution, outcome/value measurement under declared models, evidence correlation, Product-consumption observability |
 | **Primary Inputs** | Usage Signals, CIR, Usage Contract |
-| **External Dependencies** | FinOps Engine, Value Computation Engine, Product Observability Engine, Observability surface |
-| **Core Activities** | Compute cost records, compute value signals, aggregate usage/cost/value into Product Signal Bundle, expose through observability |
+| **External Dependencies** | X9 economic/cost capability, P5 outcome/value responsibilities, X4 observability and X5/X6 evidence/assurance capabilities where applicable |
+| **Core Activities** | Compute/attribute Cost Records, derive Value/Outcome Signals under explicit measurement models, correlate evidence into Product Signal Bundle, expose governed consumption observability |
 | **Processing Type** | Automated platform computation with PCON-visible observability |
 | **Output Artifacts** | Cost Records, Value Signals, Product Signal Bundle |
-| **State Transition** | From “Measured usage” → “Observable product value and economic posture” |
+| **State Transition** | From “Measured usage” → “Observable consumption evidence, economic posture and outcome/value evidence” |
 | **Governance Controls** | FinOps policies, value measurement rules, observability access policies |
-| **Validation Mechanisms** | Cost attribution checks, value-model validation, signal bundle completeness checks, and evidence/attribution checks appropriate to the declared value model |
+| **Validation Mechanisms** | Cost-attribution checks, value/outcome-model validation, evidence provenance/correlation checks, signal-bundle completeness and applicable quality/assurance checks |
 | **PCON Responsibility** | Observe usage and value posture where relevant |
-| **Platform Responsibility (HDIP)** | Compute cost/value signals and make product consumption observable |
+| **Platform Responsibility (HDIP)** | Coordinate P5/X4/X5/X6/X9 evidence and make Product-consumption posture observable without treating one signal class as proof of another |
 | **Dependency Treatment** | Product dependency effects may be reflected in aggregate cost and value signals |
 | **Quality Sensitivity** | Very high — poor cost/value computation misleads product decisions and marketplace evolution |
 | **Failure Modes / Risks** | Misattributed cost, weak value model, unsupported causal/value claims, missing signal aggregation, misleading observability |
 | **Observability Signals** | Product Signal Bundle, ROI trends, cost trends, usage trends, value realization metrics |
-| **Feedback Loop** | Signals feed PCON decision, feedback, PMDD, marketplace ranking, and Product evolution |
+| **Feedback Loop** | Signals feed PCON continuation/substitution decisions, feedback, governed Marketplace learning where applicable, and Product evolution |
 
 > **Value-evidence boundary:** Usage, Cost, and Value Signals are evidence under their declared measurement/attribution models. They do not automatically establish causality, realized ROI, trustworthiness, or assurance.
 
@@ -272,7 +306,7 @@ The eight SSCF stages define a **logical consumption lifecycle**, not a requirem
 | **Context** | Final stage of SSCF; closes the consumption loop and enables recursive product ecosystems |
 | **Scope** | Consumer decisioning, feedback capture, signal-informed improvement, optional PDEP entry |
 | **Primary Inputs** | Product Signal Bundle, PCON decision, explicit feedback |
-| **External Dependencies** | Feedback Processor, PDEP Entry, product lifecycle systems |
+| **External Dependencies** | `HDIP-P5-ABB-01/02`, PDEP entry/re-entry, Product lifecycle capabilities, applicable X3/X7 evidence/currentness |
 | **Core Activities** | Create Decision Context, process explicit feedback, generate CFR, route Product constitution/composition/evolution intent to PDEP if needed |
 | **Processing Type** | PCON-driven with platform processing |
 | **Output Artifacts** | Decision Context, CFR — Consumption Feedback Record |
@@ -280,12 +314,12 @@ The eight SSCF stages define a **logical consumption lifecycle**, not a requirem
 | **Governance Controls** | Feedback governance, product evolution controls, creation intent routing |
 | **Validation Mechanisms** | Feedback validation, signal-feedback correlation, PDEP entry validation |
 | **PCON Responsibility** | Decide whether to continue, stop, give feedback, or initiate a governed PDEP path for potential Product constitution/composition/evolution |
-| **Platform Responsibility (HDIP)** | Convert signals and feedback into actionable product lifecycle events |
+| **Platform Responsibility (HDIP)** | Correlate feedback/evidence and create governed continuation, substitution, evolution or PDEP-entry lifecycle events without creating Productness |
 | **Dependency Treatment** | If PDEP entry is triggered, consumed Products MAY become governed dependencies in the new Product design; composition alone does not create a new Product identity |
 | **Quality Sensitivity** | Critical — this stage drives product improvement, marketplace learning, and recursive product creation |
 | **Failure Modes / Risks** | Feedback ignored, weak decision context, poor signal interpretation, broken PDEP transition |
 | **Observability Signals** | Feedback volume, continuation rate, churn rate, creation triggers, composition triggers |
-| **Feedback Loop** | Feeds Product evolution, PMDD, marketplace ranking, and PDEP |
+| **Feedback Loop** | Feeds Product evolution, governed Marketplace/Catalog learning where applicable, and PDEP |
 
 > **Product-constitution boundary:** Composition, orchestration, or combined consumption does not automatically create a new Product. A new Product exists only where intentional Product constitution and the applicable BPS / PIN and Product-family qualification are satisfied.
 
@@ -306,7 +340,7 @@ This is what makes HDIP a recursive product ecosystem rather than a static platf
 ---
 # HDIP © Product Consumption Glossary
 
-This glossary defines the key terms used in the **HDIP Self-Service Product Consumption Flow (SSCF)** for a **Product Consumer (PCON)**.
+This glossary defines the key terms used in the **HDIP Self-Service Consumption Flow (SSCF)** for governed **Product consumption** by a **Product Consumer (PCON)**.
 
 The glossary applies to consumption of any HDIP-supported Product type, including Data Products, Information Products, AI Products, Compound Products where established by BPS / PIN, and other BPS-qualified Product Families supported by HDIP.
 
@@ -314,9 +348,7 @@ The glossary applies to consumption of any HDIP-supported Product type, includin
 
 ## Access & Entitlements
 
-The enterprise service responsible for managing and enforcing who or what may access a product, product port, interface, or consumption capability.
-
-In the PCON flow, Access & Entitlements supports governed Product-access decisions by binding consumer identity, role, purpose, policy, and Product-specific access rules. Product entitlement does not, by itself, authorize a downstream consequential Decision or Action.
+The cross-cutting X2 responsibility for determining and enforcing who or what may access a Product, Product Port, interface or consumption capability for an applicable purpose. Identity/entitlement mechanisms may implement this responsibility, but they do not become Product/Data/policy/Decision authority. Product entitlement does not, by itself, authorize a downstream consequential Decision or Action.
 
 ---
 
@@ -338,9 +370,7 @@ It may include endpoint references, access mode, authentication context, entitle
 
 ## Access Provisioning
 
-The HDIP platform capability responsible for materializing governed access after an access decision has been approved or conditionally approved.
-
-Access provisioning creates or binds Access Descriptors, Usage Contracts, and governed access to already-defined applicable Product Ports. Consumer onboarding does not itself create the Product Port.
+The P4 responsibility for materializing governed consumer access after an Access Decision is approved or conditionally approved. It creates/binds Access Descriptors, Usage Contracts and entitlement/access state **to already-defined Product Ports**. Consumer onboarding does not create Product Port identity.
 
 ---
 
@@ -354,7 +384,7 @@ This does not itself grant access; it triggers policy and entitlement evaluation
 
 ## Agentic Persona
 
-A CEP overlay persona representing an agent, workflow, autonomous process, or AI-enabled orchestration layer consuming products to perform tasks or create downstream outcomes.
+A CEP persona projection representing an agent, workflow, autonomous process, or AI-enabled orchestration layer consuming products to perform tasks or create downstream outcomes.
 
 Typical agentic consumption modes include workflow orchestration, Product composition, and automated task execution. Agentic consumption does not, by itself, establish Delegated Authority or point-of-use Authorization.
 
@@ -362,7 +392,7 @@ Typical agentic consumption modes include workflow orchestration, Product compos
 
 ## Analytical Persona
 
-A CEP overlay persona representing analysts, data scientists, quantitative users, or analytical systems consuming products through query, exploration, or analytical tooling.
+A CEP persona projection representing analysts, data scientists, quantitative users, or analytical systems consuming products through query, exploration, or analytical tooling.
 
 Typical analytical consumption modes include SQL, Trino, BigQuery, notebooks, and joined datasets.
 
@@ -378,7 +408,7 @@ Browse-first mode is valid for simpler use cases, but it must still result in an
 
 ## Business Persona
 
-A CEP overlay persona representing business consumers who experience products through business-oriented interfaces such as dashboards, KPIs, scorecards, summaries, or decision-support views.
+A CEP persona projection representing business consumers who experience products through business-oriented interfaces such as dashboards, KPIs, scorecards, summaries, or decision-support views.
 
 ---
 
@@ -390,13 +420,13 @@ See **Product Catalog**.
 
 ## CEP
 
-See **Consumer Experience Plane**.
+See **Consumer Experience Projection**. Historical material may expand CEP as `Consumer Experience Projection`; M11 canonically expands it as `Consumer Experience Projection`.
 
 ---
 
-## CEP Overlay
+## CEP Persona Projection
 
-A persona-specific interpretation layer that changes how consumption is presented, experienced, measured, and valued.
+A persona/context-specific experience projection that changes how Product consumption is presented or mediated while preserving Product identity, Product Port contract, entitlement and semantic authority.
 
 In the SSCF, the same product consumption flow may appear differently depending on whether the PCON is business, analytical, AI, system, or agentic.
 
@@ -409,13 +439,15 @@ Example overlays include:
 | Usage | Consumption patterns | Query logs | Training usage | API calls | Workflow runs |
 | Value | ROI | Data utility | Model uplift | Service performance | Outcome efficiency |
 
+> **Persona projection boundary:** entries in this table are examples of experience/interaction modes only. A joined dataset, feature dataset, workflow output or other materially derived output is not automatically a mere CEP view; where derivation changes semantics/contracts or creates a governed asset, it must be treated according to its actual architecture and Product qualification status.
+
 ---
 
 ## CEP Renderer
 
-The HDIP logical/platform capability that renders governed Product consumption into persona-appropriate experiences through the Consumer Experience Plane. It need not be realized as one mandatory standalone service.
+A historical implementation label for capabilities that present or mediate persona-appropriate Product consumption. M11 does **not** admit a canonical CEP Renderer ABB; the responsibility is realized through P4 ABBs and applicable client/platform experience mechanisms.
 
-The CEP Renderer uses Product Ports, Access Descriptors, Usage Contracts, and consumer persona context to produce Consumption Views such as dashboards, SQL/query interfaces, APIs, streams, feature pipelines, workflow outputs, or agentic interfaces.
+CEP experience capabilities use Product Ports, Access Descriptors, Usage Contracts and consumer/persona context to present or mediate Consumption Views. Material derivation/transformation is not mere rendering and must be governed according to its actual architectural nature.
 
 ---
 
@@ -441,19 +473,15 @@ In HDIP, consumption may lead to a PDEP entry where a PCON becomes a producer an
 
 ## Consume / Experience
 
-The stage where a PCON uses a product through the Consumer Experience Plane.
+The stage where a PCON uses a Product through the Consumer Experience Projection (CEP).
 
 Consumption occurs through governed product ports, access descriptors, and usage contracts. It may result in dashboards, queries, APIs, streams, feature pipelines, workflow outputs, or other persona-specific experiences.
 
 ---
 
-## Consumer Experience Plane
+## Consumer Experience Projection
 
-The HDIP layer that enables consumers to experience products through persona-appropriate interfaces.
-
-CEP does not replace product ports. Instead, it renders governed product access into useful experiences such as dashboards, SQL interfaces, APIs, feature pipelines, streams, or agentic workflows.
-
-In a Data Mesh-aligned HDIP realization, the Consumer Experience Plane may realize concerns analogous to a **Mesh Experience Plane**. CEP itself is an HDIP construct spanning Data, Information, and Intelligence consumption and does not depend on Data Mesh as a universal operating model.
+The canonical M11 meaning of **CEP**. It is the governed consumer-facing projection/composition through which discovery, Product access, Product Port use, consumption evidence and feedback are presented or mediated for a persona/context. Historical `Consumer Experience Plane` wording is retained only as a compatibility alias and does not create a canonical HDIP Plane.
 
 ---
 
@@ -483,9 +511,7 @@ In canonical HDIP consumption, intent is declared before products are selected. 
 
 ## Consumption Views
 
-Artifacts generated by the CEP renderer that represent the product in a persona-appropriate consumable form.
-
-Examples include dashboards, joined datasets, feature datasets, JSON responses, event streams, workflow outputs, summaries, or analytical views.
+Consumer-facing experience projections over governed Product Ports and Product outputs. Examples may include dashboards, query experiences, API/stream interaction views, summaries or workflow views. A Consumption View does not silently authorize semantic transformation, persistence or derivation; material derivation must be governed according to its actual architectural nature.
 
 ---
 
@@ -523,17 +549,13 @@ This stage closes the consumption loop and may trigger PDEP.
 
 ## Decision Context
 
-An artifact that captures the basis for the PCON’s next decision.
-
-It is informed by the Product Signal Bundle and may include continuation, discontinuation, feedback, escalation, substitution, or PDEP-entry options. SSCF Decision Context is a Product-consumption lifecycle artifact; it is not, by itself, GEAIRA point-of-use Authorization or a universal enterprise Decision semantic.
+An SSCF lifecycle artifact capturing the basis/options for the PCON's next consumption decision, such as continue, stop, substitute, provide feedback, escalate or enter PDEP. It is informed by consumption evidence but is not, by itself, a GEAIRA point-of-use Authorization or universal enterprise Decision semantic.
 
 ---
 
 ## Discover Products
 
-The PCON stage where candidate products are discovered or resolved.
-
-In canonical HDIP mode, discovery is driven by the CIR. The product discovery process uses the Product Resolution Engine, Product Catalog, and Product Marketplace.
+The SSCF activity where candidate Products are discovered/resolved against the CIR. Canonically it uses `HDIP-P2-ABB-01/02` with Product Registry references, Catalog projections, Marketplace availability where applicable, Product semantics and relevant evidence. Historical Product Resolution Engine/Discovery Orchestrator labels are implementation aliases, not canonical ABBs.
 
 ---
 
@@ -563,23 +585,19 @@ Feedback may include issues, ratings, improvement suggestions, discontinuation r
 
 ## Feedback Processor
 
-The HDIP platform service that converts explicit feedback and signal-informed feedback into a formal CFR and routes it to relevant lifecycle processes.
-
-It may inform product evolution, PMDD, marketplace ranking, governance review, or PDEP initiation.
+A historical implementation label for P5/X3/X7 responsibilities that correlate explicit and signal-informed feedback into a CFR and governed lifecycle events. M11 does not require one standalone Feedback Processor ABB. Feedback may inform Product evolution, substitution, governed Catalog/Marketplace learning or PDEP initiation.
 
 ---
 
 ## FinOps
 
-The enterprise capability responsible for measuring, attributing, optimizing, and governing the economic cost of product consumption.
-
-In the PCON flow, FinOps contributes Cost Records and supports cost transparency, showback, chargeback, and cost-to-value analysis.
+The X9 economic/cost-accountability capability for measuring, attributing, optimizing and governing economic cost of Product consumption. It may support cost transparency, showback, chargeback, budgets or heavy-consumer accountability. Cost evidence remains distinct from usage, outcome and value.
 
 ---
 
 ## FinOps Engine
 
-The HDIP platform service that computes cost records from usage signals, usage contracts, and economic rules.
+A historical implementation label for X9 economic/cost-accountability capability that derives Cost Records from usage evidence, contracts and governed economic rules. It is not a canonical ABB.
 
 The FinOps Engine explains economic consumption; it does not, by itself, fully compute business value.
 
@@ -603,17 +621,13 @@ HDIP is an enterprise logical platform architecture for governed Data, Informati
 
 ## Intent-First Mode
 
-The canonical HDIP consumption mode.
-
-In Intent-First Mode, the PCON first declares what they want to achieve. The platform then creates a CIR and resolves suitable products using the Product Resolution Engine, Product Catalog, and Product Marketplace.
+The canonical HDIP SSCF entry mode. The PCON first declares/communicates what they want to achieve and the applicable purpose/use context. HDIP establishes a CIR through P1 responsibilities and then resolves suitable Products through P2. The mode does not require one literal intent-interpreter service.
 
 ---
 
 ## Intent Interpreter + Normalizer
 
-The HDIP platform service that converts a PCON’s declared intent into a structured, computable CIR.
-
-It may normalize language, infer consumption archetypes, clarify purpose, and validate completeness.
+A historical implementation label for P1 governed intent/use-context capabilities that structure, validate and normalize consumer intent into a CIR. M11 does not admit a canonical Intent Interpreter ABB; implementations may use human-guided forms, rules, AI assistance or other mechanisms subject to applicable controls.
 
 ---
 
@@ -625,35 +639,25 @@ See **Product Marketplace**.
 
 ## Observability
 
-The capability to make product consumption signals visible, queryable, monitorable, and actionable.
-
-In the PCON flow, observability primarily refers to Product Consumption Observability rather than low-level platform operations.
+The X4 responsibility for making operational and consumption telemetry visible, queryable and monitorable. Observability supports diagnosis and evidence generation but does not by itself prove correctness, Fitness for Use, trust or assurance.
 
 ---
 
 ## Observability Engine
 
-The HDIP platform service that exposes the Product Signal Bundle through an observability surface.
-
-It makes usage, cost, value, trust, and feedback signals visible for consumers, product owners, governance teams, and platform operators.
+A historical implementation label for X4 observability/telemetry responsibilities and related consumer observability surfaces. M11 does not require one centralized Observability Engine ABB. Observability may present Usage Signals and references to other evidence classes while preserving `telemetry != provenance != trust != assurance != value`.
 
 ---
 
 ## PCON
 
-Product Consumer.
-
-PCON is a role played by an agent, human or non-human, when consuming a product. A PCON may consume a product to experience information, perform work, trigger automation, or compose a new product.
-
-A PCON can later become a producer by entering PDEP.
+Product Consumer. PCON is the accountable consumption role played by a human, system, agent or other governed actor when consuming a Product. The role does not by itself confer Product ownership, Data authority, delegated authority or consequential Decision/Action authority. A PCON may later participate in PDEP where an intentional new/evolved Product is proposed.
 
 ---
 
 ## PDEP
 
-Product Development and Evolution Process.
-
-PDEP is the HDIP creation/composition lifecycle entered when a consumer decides to create or compose a new product based on consumption outcomes.
+Product Development & Evolution Process. PDEP is the canonical HDIP cross-Plane lifecycle architecture for governed Product development, realization, publication and evolution. SSCF may enter or re-enter PDEP when consumption evidence creates an intentional Product-development/evolution need; entry does not itself establish Productness.
 
 ---
 
@@ -667,25 +671,19 @@ In the PCON flow, PDEP Entry is triggered when the Decision Context indicates th
 
 ## Platform Observability
 
-The monitoring of HDIP platform health, reliability, security, infrastructure, service performance, and operational SLOs.
-
-Platform Observability is distinct from Product Consumption Observability. It monitors the platform services enabling the flow, not merely the consumption of an individual product.
+An HDIP projection of X4 operational/consumption telemetry across applicable platform responsibilities. It may correlate runtime, access, Port and consumption signals but does not become provenance or assurance authority.
 
 ---
 
 ## Policy & Entitlement Evaluation
 
-The HDIP platform service that determines whether a PCON may access a selected product set for a declared purpose.
-
-It evaluates the CIR, selected products, consumer identity/context, policy rules, and entitlement state.
+The governed access-decision responsibility that evaluates CIR/purpose, selected Product/Port, consumer identity/context, authoritative policy references and entitlement state. It is realized principally through `HDIP-P4-ABB-02` with X1/X2 participation and produces an SSCF Access Decision. It does not make the evaluator the underlying policy authority.
 
 ---
 
 ## Policy Service
 
-The enterprise service that stores, evaluates, or exposes policy rules.
-
-Policies may cover access, purpose limitation, privacy, residency, retention, compliance, risk, contractual obligations, and Product-specific constraints. Policy evaluation/exposure does not make the Policy Service the authoritative owner or author of the underlying policy.
+A historical/implementation capability label. Policy evaluation/distribution may realize X1 responsibilities, but the service is not the authoritative owner of the underlying enterprise, domain, legal or regulatory policy and is not a canonical M08 ABB merely by name.
 
 ---
 
@@ -699,59 +697,43 @@ HDIP may support Data Products, Information Products, AI Products, Compound Prod
 
 ## Product Catalog
 
-The authoritative HDIP registry/projection for **registered Product metadata and discovery state**, including references to Product identity, interfaces, lifecycle/currentness, trust information, and semantic descriptors governed by their defining authorities.
-
-Catalog registration does not establish Product qualification or transfer semantic authority from BPS / PIN or the applicable Product-family specification. The Product Catalog supports evaluation, resolution, trust review, and Product understanding.
+The governed **Catalog projection** used for Product discovery/search/navigation. It references Product Registry and authoritative Product metadata/evidence but is not itself Product qualification authority. Catalog presence does not establish entitlement, Fitness for Use or Marketplace availability.
 
 ---
 
-## Product Catalog / Registry
+## Product Catalog and Product Registry
 
-The HDIP registry/discovery surface for Products registered with the platform, independent of Product Family.
-
-It may contain Data Products, Information Products, AI Products, Compound Products where defined by BPS / PIN, and other supported Product kinds. Registry presence alone does not establish Product status or semantic conformance.
+**Deprecated combined label.** M09/M11 require the two responsibilities to remain distinct even when one implementation presents them together. **Product Registry** carries governed registration facts and authoritative references; **Product Catalog** is a discovery/search/projection surface. Neither registration nor Catalog presence by itself establishes Product qualification, access approval, Fitness for Use or assurance.
 
 ---
 
 ## Product Consumption Observability
 
-The capability to observe, measure, and interpret how a product is consumed and what usage, cost, trust, value, and feedback signals are produced.
-
-It answers:
-
-> How is this product being consumed, by whom, for what purpose, at what cost, and with what value?
+A consumer/Product-oriented view over X4 telemetry and relevant X3/X5/X6/X9 evidence. It supports interpretation of consumption behavior without collapsing usage, cost, quality, assurance, outcome or value into one signal.
 
 ---
 
 ## Product Discovery Orchestrator
 
-The HDIP platform service that coordinates product discovery and resolution.
-
-It works with the CIR, Product Resolution Engine, Product Catalog, and Product Marketplace to support intent-driven product discovery.
+A historical implementation label for governed Product discovery/resolution coordination. The canonical responsibility is represented principally by `HDIP-P2-ABB-01/02`; M11 does not require a standalone Product Discovery Orchestrator ABB.
 
 ---
 
 ## Product Marketplace
 
-The enterprise surface where products can be discovered, compared, acquired, subscribed to, or requested.
-
-In HDIP, the Marketplace is not the sole origin of intent. It participates in discovery and acquisition after or alongside CIR creation.
+The consumer-facing acquisition/subscription/discovery experience for eligible Products. It may use Catalog and Registry information but remains distinct from both. Marketplace listing, ranking or popularity does not establish Product qualification, access approval, trust or Fitness for Use.
 
 ---
 
 ## Product Ports
 
-Governed product access interfaces exposed to consumers.
-
-Product ports may include APIs, SQL endpoints, streams, feature pipelines, dashboards, agent interfaces, files, events, or other controlled access mechanisms.
-
-Products are consumed through ports, not through internal implementation details. Product Ports are part of the governed Product interface/contract; SSCF provisions **access to** applicable Product Ports rather than creating them merely because an individual consumer is onboarded.
+Governed Product access interfaces exposed under the applicable Product/Port contract. Product Ports may include APIs, query endpoints, streams/events, files/objects, analytical interfaces, AI/agent interfaces or other family-specific mechanisms. SSCF provisions **access to** applicable Product Ports; onboarding does not create them. Internal implementation may be encapsulated while contractually/governance-relevant provenance, quality and currentness evidence remains exposable.
 
 ---
 
 ## Product Resolution Engine
 
-The HDIP platform service that maps a CIR to candidate products.
+A historical implementation label for responsibilities now primarily mapped to `HDIP-P2-ABB-01/02` (and validation/compilation responsibilities where needed). It maps a CIR to candidate Products but is not a canonical M08 ABB.
 
 It uses product metadata, semantics, trust information, marketplace availability, policy context, and fit scoring to produce a Product Resolution Set.
 
@@ -759,17 +741,13 @@ It uses product metadata, semantics, trust information, marketplace availability
 
 ## Product Resolution Set
 
-An artifact containing candidate products resolved against the CIR.
-
-It may include product identifiers, ranking, fit scores, rationale, trust indicators, compatibility notes, and constraints.
+A versioned/traceable projection of candidate Products resolved against the CIR. It may include Product/Version identifiers, Product-family references, fit rationale, ranking, compatibility/currentness notes, evidence references and constraints. Ranking does not prove semantic equivalence, trust or assurance.
 
 ---
 
 ## Product Signal Bundle
 
-A composite artifact that aggregates Usage Signals, Cost Records, and Value Signals.
-
-The Product Signal Bundle is used for product observability, decision context, feedback processing, PMDD, marketplace learning, and product evolution.
+A convenience projection that correlates Product-consumption evidence such as Usage Signals, Cost Records, Value/Outcome Signals and references to Quality/Fitness/Trust or Assurance evidence where applicable. It supports observability, SSCF Decision Context, feedback and Product evolution but does not merge those evidence types or become a universal trust/value score.
 
 ---
 
@@ -797,11 +775,9 @@ Resolution is intent-driven and uses catalog metadata, marketplace information, 
 
 ---
 
-## Self-Service Product Consumption Flow
+## Self-Service Consumption Flow
 
-The HDIP consumer lifecycle that allows PCONs to declare intent, resolve products, evaluate fit, request access, consume through CEP, capture signals, observe value, and decide next steps.
-
-Also known as SSCF.
+The canonical M11 expansion of **SSCF**: the HDIP logical Product-consumption lifecycle that allows PCONs to declare/confirm intent, resolve Products, evaluate fit, obtain purpose-bound access, consume through CEP, capture evidence and provide feedback or enter PDEP. Historical `Self-Service Product Consumption Flow` wording may remain as a descriptive alias.
 
 ---
 
@@ -815,13 +791,13 @@ See **Product Signal Bundle**.
 
 Self-Service Consumption Flow.
 
-The HDIP flow for product consumption by PCONs. It defines the journey from intent declaration to product resolution, governed access, consumption, observability, feedback, and potential PDEP entry.
+The canonical HDIP logical Product-consumption lifecycle for PCONs. It defines the journey from governed intent through Product resolution, purpose-bound access, CEP-mediated consumption, evidence/signals, feedback and potential PDEP entry; it is not a mandatory synchronous runtime pipeline.
 
 ---
 
 ## System Persona
 
-A CEP overlay persona representing a software system, API client, automation process, integration runtime, or service consuming products programmatically.
+A CEP persona projection representing a software system, API client, automation process, integration runtime, or service consuming products programmatically.
 
 Typical system consumption modes include APIs, streams, events, and JSON payloads.
 
@@ -829,9 +805,7 @@ Typical system consumption modes include APIs, streams, events, and JSON payload
 
 ## Usage Contract
 
-An artifact describing the allowed, expected, and measurable conditions of product consumption.
-
-It may include SLA/SLO expectations, usage mode, consumption constraints, obligations, quotas, freshness expectations, and permitted purpose.
+A consumer-specific artifact describing the allowed, expected and measurable conditions of Product consumption. It may capture permitted purpose/scope, Product/Port Version, usage mode, obligations, quotas/budgets, freshness/currentness expectations, SLA/SLO where applicable, telemetry/evidence obligations and expiry/review conditions. It binds consumer conditions to the authoritative Product/Port contract and does not replace it.
 
 ---
 
@@ -845,29 +819,27 @@ Usage Signals may include port usage, API calls, SQL queries, dashboard views, m
 
 ## Usage Tracking
 
-The HDIP platform service responsible for capturing and normalizing usage telemetry from product ports, CEP interactions, views, and usage contract context.
+A historical implementation label for X4/P4 responsibilities that capture and normalize usage telemetry from Product Ports, CEP interactions, views and Usage Contract context. It is not a canonical ABB.
 
 ---
 
 ## Value Computation
 
-The HDIP platform capability that computes outcome contribution from usage, intent, usage contract, and product context.
-
-Value computation is distinct from FinOps: FinOps explains cost, while value computation produces governed measurements, estimates, or attribution outputs concerning contribution, utility, impact, uplift, efficiency, or ROI according to an explicit value model. Such signals do not inherently establish causal proof.
+The P5 capability for producing governed measurements, estimates or attribution outputs concerning contribution, utility, impact, uplift, efficiency or ROI under an explicit value/outcome model. It is distinct from X9 cost attribution, and its outputs do not inherently establish causal proof.
 
 ---
 
 ## Value Computation Engine
 
-The HDIP platform service that computes Value Signals from Usage Signals, CIR, usage contract, product context, and value rules.
+A historical implementation label for P5 value/outcome assessment capability. M11 does not require one universal value engine or model.
+
+Implementations may derive Value Signals from Usage Signals, CIR, Usage Contract, Product context and governed value/outcome models, but the implementation does not become a universal value authority.
 
 ---
 
 ## Value Signals
 
-Artifacts representing measured, estimated, or attributed value/outcome signals associated with Product consumption.
-
-Value Signals may include ROI estimates, data utility, model uplift, service performance, outcome efficiency, consumer satisfaction, or business impact indicators. A Value Signal is evidence under its declared value model and does not automatically prove that the Product caused the observed outcome.
+Governed measurements, estimates or evidence concerning outcome contribution/value under an explicit measurement/attribution model. Value Signals remain distinct from usage, cost, quality, trust and assurance and SHALL NOT imply causal proof unless the evidence/model supports it.
 
 ---
 

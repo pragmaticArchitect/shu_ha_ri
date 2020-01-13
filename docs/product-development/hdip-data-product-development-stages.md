@@ -1,16 +1,16 @@
 ---
 id: hdip-data-product-development-stages
-title: HDIP Data PDEP Stages Spec C
+title: HDIP Data PDEP Stages - Spec C
 sidebar_label: HDIP© Data PDEP Stages
 ---
 
-# 🧭 HDIP©: Data PDEP Stages
+# HDIP: Data PDEP Stages - Spec C
 
 ![Diagram](/img/hdip/hdip-dp-pdep-specC.png)
 
 ---
 
-# 🧭 HDIP©: Data PDEP Stages - Detailed Stage by Stage
+# HDIP: Data PDEP Stages - Detailed Stage by Stage
 
 ---
 
@@ -34,7 +34,7 @@ sidebar_label: HDIP© Data PDEP Stages
 | **Governance Controls**                 | Enterprise standards enforcement (canonical models, registry completeness)                                                               |
 | **Validation Mechanisms**               | Registry validation, schema availability checks, platform readiness checks                                                               |
 | **DPRO Responsibility**                 | No product-specific responsibility; may surface missing prerequisites or readiness concerns                                                    |
-| **Platform Responsibility (HDIP/DPFI)** | Maintain registries, ensure platform readiness, validate enterprise assets                                                               |
+| **Platform Responsibility (HDIP)** | Maintain registries, ensure platform readiness, validate enterprise assets                                                               |
 | **Dependency Treatment**                | Not applicable (no product dependencies yet)                                                                                             |
 | **Quality Sensitivity**                 | Very high — poor registry quality leads to incorrect dependency resolution later                                                         |
 | **Failure Modes / Risks**               | Missing ADS registration, inconsistent schemas, lack of canonical model, incomplete registries                                           |
@@ -63,7 +63,7 @@ sidebar_label: HDIP© Data PDEP Stages
 | **Governance Controls**                 | Intent clarity and alignment with domain ownership                                      |
 | **Validation Mechanisms**               | Review for clarity, completeness, and non-technical framing                             |
 | **DPRO Responsibility**                 | Define intent clearly without referencing technical sources                             |
-| **Platform Responsibility (HDIP/DPFI)** | Assist, validate structure, ensure no infra leakage                                     |
+| **Platform Responsibility (HDIP)** | Assist, validate structure, ensure no infra leakage                                     |
 | **Dependency Treatment**                | Derived products: upstream Product dependencies may be declared where known; Foundational: no Product dependency need be declared at this stage, while authoritative source requirements may be resolved later |
 | **Quality Sensitivity**                 | Extremely high — mis-specified intent leads to wrong product                            |
 | **Failure Modes / Risks**               | Technical leakage (mentioning Kafka/PTDS), vague intent, unclear audience               |
@@ -92,7 +92,7 @@ sidebar_label: HDIP© Data PDEP Stages
 | **Governance Controls**                 | Domain ownership rules, role validation                                   |
 | **Validation Mechanisms**               | Role-based checks, domain mapping validation                              |
 | **DPRO Responsibility**                 | Declare Product ownership/accountability and the mandate under which the Product is being constituted                                           |
-| **Platform Responsibility (HDIP/DPFI)** | Validate the declared Product mandate against organizational/governance authority sources without inferring Data ownership or ADS status        |
+| **Platform Responsibility (HDIP)** | Validate the declared Product mandate against organizational/governance authority sources without inferring Data ownership or ADS status        |
 | **Dependency Treatment**                | Not applicable                                                            |
 | **Quality Sensitivity**                 | Very high — wrong ownership leads to invalid product                      |
 | **Failure Modes / Risks**               | Misaligned ownership, cross-domain conflicts                              |
@@ -121,7 +121,7 @@ sidebar_label: HDIP© Data PDEP Stages
 | **Governance Controls**                 | Policy standards, regulatory alignment                                          |
 | **Validation Mechanisms**               | Policy completeness checks, compliance validation                               |
 | **DPRO Responsibility**                 | Declare governance intent and relevant business context                                                    |
-| **Platform Responsibility (HDIP/DPFI)** | Resolve the declared intent/context against authoritative policies and compile applicable controls in later stages                             |
+| **Platform Responsibility (HDIP)** | Resolve the declared intent/context against authoritative policies and compile applicable controls in later stages                             |
 | **Dependency Treatment**                | Not applicable                                                                  |
 | **Quality Sensitivity**                 | High — weak policy intent leads to governance risks                             |
 | **Failure Modes / Risks**               | Missing compliance rules, over/under-restriction                                |
@@ -150,7 +150,7 @@ sidebar_label: HDIP© Data PDEP Stages
 | **Governance Controls**                 | Alignment with enterprise ontology and canonical models                                                                        |
 | **Validation Mechanisms**               | Semantic validation against ontology, naming standards, schema alignment checks                                                |
 | **DPRO Responsibility**                 | Define the Product semantic proposition and structure, aligned with authoritative enterprise/domain semantic models where applicable           |
-| **Platform Responsibility (HDIP/DPFI)** | Assist with ontology/model alignment and validate consistency without redefining authoritative enterprise/domain semantics                     |
+| **Platform Responsibility (HDIP)** | Assist with ontology/model alignment and validate consistency without redefining authoritative enterprise/domain semantics                     |
 | **Dependency Treatment**                | Foundational: semantics implicitly constrain ADS; Derived: semantics reference input DPRODs                                    |
 | **Quality Sensitivity**                 | Critical — defines meaning of product; errors propagate to all downstream stages                                               |
 | **Failure Modes / Risks**               | Misaligned semantics, duplication of concepts, unclear entity definitions                                                      |
@@ -179,7 +179,7 @@ sidebar_label: HDIP© Data PDEP Stages
 | **Governance Controls**                 | Rule consistency, domain validation                                                                  |
 | **Validation Mechanisms**               | Logical validation, rule completeness checks                                                         |
 | **DPRO Responsibility**                 | Define business assertions                                                                           |
-| **Platform Responsibility (HDIP/DPFI)** | Determine which assertions are safely machine-evaluable, compile those into executable logic, and retain assessment-requiring obligations explicitly |
+| **Platform Responsibility (HDIP)** | Determine which assertions are safely machine-evaluable, compile those into executable logic, and retain assessment-requiring obligations explicitly |
 | **Dependency Treatment**                | Foundational: rules constrain ADS selection; Derived: rules apply across input products              |
 | **Quality Sensitivity**                 | Extremely high — materially affects validation quality, evidence strength, and downstream trust assessments                                   |
 | **Failure Modes / Risks**               | Missing rules, contradictory assertions, weak validation                                             |
@@ -208,12 +208,12 @@ sidebar_label: HDIP© Data PDEP Stages
 | **Governance Controls**                 | SLA policies, access expectations                                                                              |
 | **Validation Mechanisms**               | Contract completeness checks, alignment with platform capabilities                                             |
 | **DPRO Responsibility**                 | Define usage expectations                                                                                      |
-| **Platform Responsibility (HDIP/DPFI)** | Validate feasibility, map to capabilities                                                                      |
+| **Platform Responsibility (HDIP)** | Validate feasibility, map to capabilities                                                                      |
 | **Dependency Treatment**                | Indirect — influences execution plan but not dependency type                                                   |
 | **Quality Sensitivity**                 | High — impacts performance, usability, and adoption                                                            |
 | **Failure Modes / Risks**               | Unrealistic SLAs, unclear consumption patterns                                                                 |
 | **Observability Signals**               | Usage metrics, latency, consumer satisfaction                                                                  |
-| **Feedback Loop**                       | Consumer feedback, COVP signals                                                                                |
+| **Feedback Loop**                       | Consumer feedback plus applicable usage, outcome/effectiveness, observability and economic signals.                                            |
 
 ---
 
@@ -237,7 +237,7 @@ sidebar_label: HDIP© Data PDEP Stages
 | **Governance Controls**                 | Semantic validation, stakeholder approval                                           |
 | **Validation Mechanisms**               | Review sessions, semantic correctness checks                                        |
 | **DPRO Responsibility**                 | Review and approve preview                                                          |
-| **Platform Responsibility (HDIP/DPFI)** | Generate preview from declarative artifacts                                         |
+| **Platform Responsibility (HDIP)** | Generate preview from declarative artifacts                                         |
 | **Dependency Treatment**                | Not yet resolved; preview is independent of actual binding                          |
 | **Quality Sensitivity**                 | High — major pre-compilation checkpoint for detecting semantic and design issues                      |
 | **Failure Modes / Risks**               | Misinterpretation of semantics, incorrect preview                                   |
@@ -246,91 +246,90 @@ sidebar_label: HDIP© Data PDEP Stages
 
 ---
 
-## 🔴 **Stage 8 — Compilation (DPFI Core)** 
+## 🔴 **Stage 8 — Compilation**
 
-| Row Heading                             | Stage 8 Definition                                                                                                                                                                                                                                                                                                                       |
-| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Stage Number**                        | 8                                                                                                                                                                                                                                                                                                                                        |
-| **Stage Name**                          | Compilation                                                                                                                                                                                                                                                                                                                              |
-| **Lifecycle Phase**                     | Compilation                                                                                                                                                                                                                                                                                                                              |
-| **Purpose**                             | Transform declarative Product intent, semantics, governance, assertions, and usage expectations into a sufficiently resolved, executable, context-aware Product design for the selected realization profile                                                                                                                             |
-| **Outcome**                             | A **Resolved Product Graph**, **Synthetic Context (SYNCTX)** (if applicable), **HDIP Product Descriptor (HPD)**, Logical Execution Plan, and Selected Blueprint                                                                                                                                                                          |
-| **Context**                             | First fully automated stage; converts all declarative artifacts into computable graph structures and execution-ready designs                                                                                                                                                                                                             |
-| **Scope**                               | Dependency resolution, semantic graph construction, SYNCTX inference, policy compilation, execution planning, HPD generation, blueprint selection                                                                                                                                                                                        |
-| **Primary Inputs**                      | Intent Record, Semantic Descriptor (DPROD draft), Business Assertions, Policy Intent, Usage Contract                                                                                                                                                                                                                                     |
-| **External Dependencies**               | ADS Registry, Data Product Catalog, Capability Registry, Policy Registry, Blueprint Library, Ontology / EDM                                                                                                                                                                                                                              |
-| **Core Activities**                     | 1. Resolve and classify applicable dependencies (ADS, upstream Products, governance/provenance dependencies)<br/>2. Construct semantic graph<br/>3. Compile safely machine-evaluable assertions and retain assessment obligations<br/>4. Resolve authoritative policies and compile/bind applicable governance controls<br/>5. **Infer Synthetic Context (SYNCTX) where required**<br/>6. Generate Logical Execution Plan<br/>7. Select appropriate blueprint<br/>8. **Generate HDIP Product Descriptor (HPD)** |
-| **Processing Type**                     | Fully automated (DPFI-driven)                                                                                                                                                                                                                                                                                                            |
-| **Output Artifacts**                    | • Resolved Product Graph<br/>• Dependency Graph<br/>• Logical Execution Plan<br/>• Selected Blueprint<br/>• **Synthetic Context (SYNCTX)** (conditional)<br/>• **HDIP Product Descriptor (HPD)**                                                                                                                                         |
-| **State Transition**                    | From “Declarative Product Definition” → “Executable & Context-Aware Product Design”                                                                                                                                                                                                                                                      |
-| **Governance Controls**                 | Policy resolution/control binding, semantic validation, dependency validation, synthetic-boundary validation                                                                                                                                                                                                                              |
-| **Validation Mechanisms**               | Schema compatibility checks, assertion validation, policy consistency checks, dependency resolution validation, **SYNCTX consistency validation (joinability, relationship integrity)**                                                                                                                                                  |
-| **DPRO Responsibility**                 | No routine compilation action; review or accountable intervention where required by unresolved ambiguity or governance gates                                                                                                                                                                                                             |
-| **Platform Responsibility (HDIP/DPFI)** | Perform full compilation, resolve dependencies, construct semantic and relational graphs, infer SYNCTX, generate HPD, produce execution-ready design                                                                                                                                                                                     |
-| **Dependency Treatment**                | Dependencies are resolved and classified by role. Applicable dependencies may become execution inputs, governance/provenance references, semantic relationships, or SYNCTX participants; no dependency role is inferred solely from dependency existence                                                                                                                                                |
-| **Quality Sensitivity**                 | Critical — materially affects Product semantics, dependency binding, execution design, governance realization, and any synthetic behavior                                                                                                                                                                                                 |
-| **Failure Modes / Risks**               | Incorrect dependency resolution, semantic mismatch, incorrect SYNCTX inference, wrong blueprint selection, incomplete policy compilation                                                                                                                                                                                                 |
-| **Observability Signals**               | Compilation logs, dependency resolution trace, SYNCTX inference trace, blueprint selection rationale, validation results                                                                                                                                                                                                                 |
-| **Feedback Loop**                       | Feeds back to Stage 1–7 for correction (intent, semantics, assertions, policy, usage)                                                                                                                                                                                                                                                    |
+| Row Heading | Stage 8 Definition |
+| --- | --- |
+| **Stage Number** | 8 |
+| **Stage Name** | Compilation |
+| **Lifecycle Phase** | Compilation |
+| **Purpose** | Transform declarative Product intent, semantics, governance, assertions and usage expectations into a sufficiently resolved, executable and context-aware Data Product design for the selected realization profile while preserving authoritative source boundaries. |
+| **Outcome** | A canonical compilation set containing a **Resolved Realization Graph (RRG)** Product-scoped view, **HDIP Product Descriptor (HPD)**, **Resolved Governance Bundle (RGB)**, **Realization Plan**, **Blueprint Binding**, **Compilation Record**, and **Synthetic Context (SYNCTX)** where applicable. |
+| **Context** | First primarily platform-driven compilation stage. Deterministic portions are automation-first; assessment-required obligations retain accountable judgement. |
+| **Scope** | Dependency/composition resolution, semantic/reference binding, policy/control resolution, assertion compilation, SYNCTX compilation where justified, realization planning, HPD generation, Blueprint binding and compilation evidence. |
+| **Primary Inputs** | Intent Record, Authority Decision/context, Semantic Descriptor (DPROD draft), Business Assertions, Policy Intent, Usage Contract and authoritative/registered references resolved from earlier stages. |
+| **External Dependencies** | ADS Registry, Product Registry, Schema Registry, Policy Registry, Capability Registry, Blueprint Registry, Catalog/discovery projections, authoritative enterprise/domain semantic sources and applicable governance authorities. |
+| **Core Activities** | 1. Resolve and classify applicable dependencies and authoritative references.<br/>2. Build the Product-scoped **RRG** while preserving dependency/provenance/composition distinctions.<br/>3. Validate compatibility and compile safely machine-evaluable assertions while retaining assessment-required obligations.<br/>4. Resolve authoritative policies and compile/bind applicable controls into **RGB**.<br/>5. Compile **SYNCTX** only where a justified synthetic-generation requirement applies.<br/>6. Generate the **Realization Plan**.<br/>7. Select and bind the applicable Blueprint/version into a **Blueprint Binding**.<br/>8. Generate/update **HPD**.<br/>9. Produce the **Compilation Record** capturing exact inputs, versions, decisions, rule/compiler versions and outputs. |
+| **Processing Type** | Platform-driven and automation-first, with accountable assessment/approval where required. |
+| **Output Artifacts** | • Product-scoped **RRG**<br/>• **HPD**<br/>• **RGB**<br/>• **Realization Plan**<br/>• **Blueprint Binding**<br/>• **Compilation Record**<br/>• **SYNCTX** (conditional)<br/>• Optional **Compilation Pack** packaging the canonical outputs for transport/execution. |
+| **State Transition** | From declarative Product definition to resolved, governed and realization-ready Data Product design. |
+| **Governance Controls** | X1 policy/control applicability; X2 security/privacy constraints; X5 quality/fitness obligations; X6 assessment/assurance where applicable; X7 version/currentness; X9 cost/economic constraints. |
+| **Validation Mechanisms** | Dependency/compatibility checks, semantic/reference validation, policy/control applicability checks, assertion validation, Blueprint/capability/environment feasibility, lifecycle/currentness checks and accountable assessment where required. |
+| **DPRO Responsibility** | Review the business-level compile preview and resolve/approve only matters requiring Product-owner judgement; the DPRO does not engineer the realization plan. |
+| **Platform Responsibility (HDIP)** | Use P2-ABB-02/03/04 to resolve dependencies, validate/compile governed inputs, generate M09 artifacts and preserve compilation evidence without inventing authority or semantics. |
+| **Dependency Treatment** | Dependencies become typed, resolved and bound in the RRG; source/Product/semantic/governance/provenance relationships remain distinguishable. |
+| **Quality Sensitivity** | Extremely high - invalid source references, weak compatibility evidence or stale governance can produce an invalid realization. |
+| **Failure Modes / Risks** | Incorrect dependency classification, invented relationships/joinability, stale policy/currentness, invalid Blueprint binding, hidden assessment obligations, missing Compilation Record. |
+| **Observability Signals** | Compilation logs/telemetry, dependency resolution trace, compatibility outcomes, SYNCTX compilation trace where applicable, policy/control resolution trace, Blueprint rationale, validation outcomes and Compilation Record identity. |
+| **Feedback Loop** | Re-enter the earliest materially affected prior stage for correction rather than treating Stage 8 as an authority that silently fixes upstream meaning. |
 
 ---
-
 ## 🔴 **Stage 9 — Deployment (DPDS Generation & Execution)**
 
-| Row Heading                             | Stage 9 Definition                                                                                                                                                             |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Stage Number**                        | 9                                                                                                                                                                              |
-| **Stage Name**                          | Deployment                                                                                                                                                                     |
-| **Lifecycle Phase**                     | Deployment                                                                                                                                                                     |
-| **Purpose**                             | Materialize the compiled product design into a running, provisioned, and operational data product                                                                              |
-| **Outcome**                             | A deployed data product with active pipelines, storage, and output ports                                                                                                       |
-| **Context**                             | Executes the blueprint and execution plan generated in Stage 8                                                                                                                 |
-| **Scope**                               | DPDS generation, infrastructure provisioning, pipeline execution, output port creation, observability setup                                                                    |
-| **Primary Inputs**                      | Resolved Product Graph, Execution Plan, Selected Blueprint                                                                                                                     |
-| **External Dependencies**               | Approved compute, storage, processing, streaming, runtime, security, and hosting environments                                                                                                                |
-| **Core Activities**                     | Generate DPDS, provision resources (schemas, compute, storage), connect inputs, execute transformations, enforce assertions, materialize output ports, configure observability |
-| **Processing Type**                     | Platform-driven and automated by default, subject to applicable promotion, governance, and operational gates                                                                                                |
-| **Output Artifacts**                    | Deployed pipelines, provisioned infrastructure, active output ports, observability configuration                                                                               |
-| **State Transition**                    | From “Executable Design” → “Running Data Product”                                                                                                                              |
-| **Governance Controls**                 | Runtime policy enforcement, access control enforcement                                                                                                                         |
-| **Validation Mechanisms**               | Deployment success checks, runtime validation, pipeline health checks                                                                                                          |
-| **DPRO Responsibility**                 | No routine deployment action; accountable review/approval where required by Product governance or promotion gates                                                                                           |
-| **Platform Responsibility (HDIP/DPFI)** | Execute deployment, provision infrastructure, ensure correct execution                                                                                                         |
-| **Dependency Treatment**                | Dependencies are **bound and connected** (ADS streams or product ports)                                                                                                        |
-| **Quality Sensitivity**                 | Fully dependent on Stage 8; faithfully executes whatever was compiled                                                                                                          |
-| **Failure Modes / Risks**               | Deployment failures, misconfigured pipelines, incorrect bindings, runtime errors                                                                                               |
-| **Observability Signals**               | Deployment logs, pipeline metrics, latency, error rates, resource utilization                                                                                                  |
-| **Feedback Loop**                       | Feeds back to Stage 8 (blueprint/execution correction)                                                                                                                         |
+| Row Heading | Stage 9 Definition |
+| --- | --- |
+| **Stage Number** | 9 |
+| **Stage Name** | Deployment |
+| **Lifecycle Phase** | Realization / Deployment |
+| **Purpose** | Materialize the compiled Data Product design into a governed runtime realization using the resolved Plan/Blueprint bindings and Data-profile deployment specification. |
+| **Outcome** | A deployed Data Product realization with bound dependencies, active governed output ports/views, configured controls, observability/evidence and promotion state. |
+| **Context** | Executes the M09/M10 compilation outputs. Successful deployment does not itself establish Product qualification, currentness or publication eligibility. |
+| **Scope** | DPDS generation/use, resource provisioning, dependency binding, runtime materialization, output-port creation, policy/control enforcement, evidence/observability/quality setup and promotion checks. |
+| **Primary Inputs** | Product-scoped RRG, RGB, Realization Plan, Blueprint Binding, Compilation Record reference, applicable family/deployment artifacts and current authoritative references. |
+| **External Dependencies** | Approved compute, storage, processing, streaming/event, runtime, security, hosting and observability environments/capabilities as selected through the Blueprint Binding. |
+| **Core Activities** | Generate/use DPDS; provision and bind the selected realization; connect eligible dependencies; materialize transformations/runtime logic and output ports; enforce applicable controls; configure observability, evidence and quality mechanisms; execute promotion/readiness checks; preserve realization/deployment evidence. |
+| **Processing Type** | Platform-driven and automated by default, subject to applicable promotion, governance, security, quality, assurance, resilience and operational gates. |
+| **Output Artifacts** | Deployed runtime realization, DPDS where applicable, provisioned resources, active governed output ports/views, deployment/promotion evidence, operational bindings and observability/quality/control configuration. |
+| **State Transition** | From realization-ready design to deployed Data Product realization, pending/subject to publication/currentness qualification. |
+| **Governance Controls** | Runtime policy/control enforcement, access/security controls, promotion criteria, evidence obligations and lifecycle/currentness constraints. |
+| **Validation Mechanisms** | Deployment success checks, runtime validation, dependency-binding checks, pipeline/runtime health, port/interface checks, policy/control execution, quality checks and promotion evaluation. |
+| **DPRO Responsibility** | No routine deployment engineering; accountable review/approval only where required by Product governance, promotion or risk/assurance gates. |
+| **Platform Responsibility (HDIP)** | Coordinate P2-ABB-04 realization binding and P3-ABB-01 Data runtime materialization, preserve evidence and fail/re-enter P2 safely when realization assumptions are invalid. |
+| **Dependency Treatment** | Resolved dependencies are bound and connected according to the RRG/Realization Plan and remain traceable to exact source/Product versions. |
+| **Quality Sensitivity** | Depends on valid Stage 8 compilation plus correct runtime binding and promotion evidence. |
+| **Failure Modes / Risks** | Deployment failure, stale binding, misconfigured runtime/control, invalid dependency version, incomplete evidence, unsafe promotion or runtime degradation. |
+| **Observability Signals** | Deployment/promotion events, runtime/pipeline health, latency/errors/resource utilization, control and quality execution telemetry, evidence correlation identifiers. |
+| **Feedback Loop** | Re-enter Stage 8/P2 for Blueprint, binding or realization correction; re-enter earlier stages where upstream meaning, policy, assertions or usage assumptions are affected. |
 
 ---
-
 ## 🔴 **Stage 10 — DPROD Finalization & Registration**
 
-| Row Heading                             | Stage 10 Definition                                                                             |
-| --------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| **Stage Number**                        | 10                                                                                              |
-| **Stage Name**                          | DPROD Finalization & Registration                                                               |
-| **Lifecycle Phase**                     | Publication                                                                                     |
-| **Purpose**                             | Finalize and publish the already-constituted Data Product Version as a discoverable, governed, and consumable HDIP Product realization          |
-| **Outcome**                             | A published/registered Data Product Version with final DPROD, DPP, lineage/provenance, and accessible output ports                            |
-| **Context**                             | Final publication/registration stage in which the Product Version becomes discoverable within the HDIP ecosystem; registration does not create Productness |
-| **Scope**                               | DPROD finalization, catalog registration, lineage capture, DPP generation, marketplace exposure |
-| **Primary Inputs**                      | Deployed product (from Stage 9), final semantic and policy artifacts                            |
-| **External Dependencies**               | Data Catalog, Marketplace, Lineage Service, Knowledge Graph, DPP framework                      |
-| **Core Activities**                     | Finalize DPROD, register product, capture lineage, generate DPP, enable discoverability         |
-| **Processing Type**                     | Fully automated with optional governance oversight                                              |
-| **Output Artifacts**                    | Final DPROD, DPP (Digital Product Passport), catalog entry, lineage graph                       |
-| **State Transition**                    | From “Deployed Product realization” → “Published / registered / discoverable Product Version”                                                |
-| **Governance Controls**                 | Product registration standards, compliance validation, trust signals                            |
-| **Validation Mechanisms**               | Registration checks, lineage validation, DPP completeness checks                                |
-| **DPRO Responsibility**                 | Review and accept published product                                                             |
-| **Platform Responsibility (HDIP/DPFI)** | Finalize artifacts, register product, expose in marketplace                                     |
-| **Dependency Treatment**                | Operational dependencies remain active where required and are additionally registered/exposed for lineage, provenance, impact analysis, currentness, and lifecycle management |
-| **Quality Sensitivity**                 | Dependent on Stage 9 realization quality and the completeness/currentness of publication, lineage, provenance, and trust metadata             |
-| **Failure Modes / Risks**               | Incorrect lineage, incomplete metadata, broken discoverability                                  |
-| **Observability Signals**               | Product usage metrics, access patterns, lineage queries, consumer feedback                      |
-| **Feedback Loop**                       | Feeds into continuous assurance (post-publication evolution)                                    |
+| Row Heading | Stage 10 Definition |
+| --- | --- |
+| **Stage Number** | 10 |
+| **Stage Name** | DPROD Finalization & Registration |
+| **Lifecycle Phase** | Publication / Registration |
+| **Purpose** | Finalize and publish the already constituted/qualified Data Product Version as a discoverable, governed and consumable HDIP Product realization while keeping Registry, Catalog, Marketplace and port exposure responsibilities distinct. |
+| **Outcome** | A published Data Product Version with final family artifacts, a core **Product Registry** entry using the Data Product profile/view, Catalog discovery projection, Marketplace/consumer exposure where applicable, governed output ports and preserved evidence/lineage. |
+| **Context** | Publication makes the Product Version discoverable/available according to lifecycle and entitlement rules; registration does not create Productness and publication does not grant universal consumer entitlement. |
+| **Scope** | DPROD finalization, Product Registry registration, HPD/current realization references, Catalog projection, lineage/provenance/evidence linkage, DPP generation/reference where applicable, Marketplace/consumer exposure and publication/currentness state. |
+| **Primary Inputs** | Deployed Data Product realization, final DPROD/family artifacts, HPD, Product-scoped RRG reference, Compilation Record/deployment evidence, governed ports and current governance/lifecycle evidence. |
+| **External Dependencies** | Product Registry, Catalog/discovery capability, Marketplace/consumer experience, lineage/provenance/evidence capability, applicable DPP framework, access/entitlement capability. |
+| **Core Activities** | Finalize DPROD and applicable family artifacts; create/update Product Registry entry through the Data Product profile/view; reference HPD and realization/evidence identities; project discoverable metadata to Catalog; expose eligible Product/Port information through Marketplace/consumer experience; capture lineage/provenance; generate/reference DPP where required; establish publication/currentness state. |
+| **Processing Type** | Platform-driven with accountable Product/governance oversight where required. |
+| **Output Artifacts** | Final DPROD, Product Registry entry, HPD/current realization references, Catalog projection, Marketplace/publication state, DPP where applicable, lineage/provenance/evidence links, governed output-port exposure. |
+| **State Transition** | From deployed Product realization to published/registered/discoverable Product Version eligible for governed consumption subject to entitlement and other point-of-use controls. |
+| **Governance Controls** | Product publication/registration rules, policy/control evidence, quality/fitness evidence, assurance/promotion findings, security/privacy/entitlement constraints and lifecycle/currentness. |
+| **Validation Mechanisms** | Registration contract validation, Product/family artifact completeness, lineage/evidence integrity, port/interface readiness, Catalog/Marketplace projection checks and currentness/eligibility checks. |
+| **DPRO Responsibility** | Review/accept the published Product Version and accountable Product proposition; initiate evolution/retirement when required. |
+| **Platform Responsibility (HDIP)** | Finalize operational projections/references, register Product Version facts, project discovery/Marketplace views, expose governed ports and preserve publication evidence without manufacturing Product qualification or entitlement. |
+| **Dependency Treatment** | Operational dependencies remain active where required and are registered/projected for provenance, lineage, impact analysis, currentness and lifecycle reconstruction. |
+| **Quality Sensitivity** | Depends on Stage 9 realization quality and the completeness/currentness of Product, governance, evidence, lineage, publication and trust/fitness information. |
+| **Failure Modes / Risks** | Incorrect registration reference, stale currentness, incomplete evidence/lineage, Catalog/Marketplace divergence, broken discoverability, port exposure inconsistent with entitlement/governance. |
+| **Observability Signals** | Registration/publication events, discovery and access telemetry, port health, lineage/evidence queries, consumer feedback and downstream consumption signals. |
+| **Feedback Loop** | Feeds P5 outcome/effectiveness/value/evolution responsibilities and may trigger governed PDEP re-entry. |
 
+---
 ### Product evolution and PDEP re-entry
 
 For an existing Product Version, PDEP evolution SHOULD re-enter at the earliest stage materially affected by the proposed change rather than automatically restarting the whole lifecycle. For example, a semantic change may require re-entry at Stage 4 or earlier, a governance-policy change may re-enter through Stage 3 and applicable compilation, a usage-contract change may re-enter at Stage 6, and an implementation-only change may begin at Stage 8 or Stage 9 where upstream intent/semantics remain valid. Re-entry remains subject to applicable currentness, impact-analysis, governance, and promotion controls.
@@ -339,13 +338,40 @@ Evolution/re-entry MUST preserve historical Product-Version truth: later changes
 
 ---
 
-# HDIP SSPD PDEP Spec C Glossary
+## M10 architecture alignment
+
+This Data PDEP profile is a cross-Plane lifecycle composition, not an HDIP Plane. Its principal architecture progression is:
+
+```text
+P1 intent / definition / authority context
+  -> P2 discovery / composition / compilation / realization binding
+  -> P3 Data processing & movement runtime
+  -> P4 publication / exposure / consumption hand-off
+  -> P5 outcome / value / evolution
+  -> governed re-entry where change is material
+```
+
+All nine HDIP Overlays apply according to context. PDEP Stage 10 hands published/eligible Product Versions and Ports to the SSCF/CEP consumption architecture; publication does not itself grant entitlement.
+
+The interactive PDEP views are progressive projections of this same lifecycle:
+
+```text
+PDEP G0     executive/basic abstraction
+PDEP Spec A Product Owner + Platform interaction projection
+PDEP Spec C exact detailed Data PDEP Stage 0-10 rendering
+```
+
+Spec C must remain synchronized with this document and must not carry scenario-specific assumptions (for example a daily-batch worked example) as canonical lifecycle behavior.
+
+---
+
+# HDIP Data PDEP Spec C Glossary
 
 This glossary defines the key terms used in the **HDIP Self-Service Product Development / Product Development and Evolution Process (SSPD / PDEP) Spec C** flow for **Data Products**.
 
 Spec C is the lifecycle-accurate view of how a **Data Product Owner (DPRO)** declares business-native intent and how the HDIP platform validates, compiles, governs, deploys, registers, observes, and evolves the resulting Data Product.
 
-This glossary uses HDIP-specific terms for the Data PDEP realization. Generic Product semantics remain governed by BPS/PIN; generic Data semantic and architecture authority remains with GEDRM/GEDRA. HDIP terms such as ADS, DPROD, DPDS, HPD, DPFI, and Unified Governance Bundle specialize or realize those authorities rather than redefining them.
+This glossary uses HDIP-specific terms for the Data PDEP realization. Generic Product semantics remain governed by BPS/PIN; generic Data semantic and architecture authority remains with GEDRM/GEDRA. HDIP terms such as ADS, DPROD, DPDS, HPD, RRG, RGB and SYNCTX specialize or realize those authorities rather than redefining them.
 
 ---
 
@@ -361,7 +387,7 @@ In the Spec C flow, Access & Entitlements is used by the Governance Compiler to 
 
 The HDIP platform service that validates business assertions and compiles the safely machine-evaluable subset into deterministic, executable, tool-agnostic validation and enforcement logic.
 
-It checks that assertions are complete, non-contradictory, semantically bound, and compatible with the Unified Governance Bundle, while retaining assessment-requiring assertions as explicit governed obligations.
+It checks that assertions are complete, non-contradictory, semantically bound, and compatible with the Resolved Governance Bundle (RGB), while retaining assessment-requiring assertions as explicit governed obligations.
 
 ---
 
@@ -415,7 +441,7 @@ It may include patterns such as RBB, RCM, RERP, and RMP, and captures how the co
 
 The HDIP platform service that selects an appropriate implementation blueprint for the Data Product.
 
-In this Spec C flow, it resolves a daily-batch optimized blueprint using the Compilation Pack, governance constraints, usage contract, exposure decision, capability registry, environment registry, and cost model.
+In this Spec C flow, it resolves an applicable Blueprint using the canonical compilation artifacts, governance constraints, usage contract, exposure decision, Capability Registry, environment/runtime context and economic constraints. A daily-batch binding is only an example profile where explicitly selected.
 
 ---
 
@@ -451,9 +477,9 @@ See **Data Catalog**.
 
 ## Compilation Pack
 
-A versioned artifact generated by the Compilation Pack Generator.
+An optional packaging/transport composition of canonical PDEP/M09 compilation outputs. It may package the Product-scoped RRG, RGB, Realization Plan, Blueprint Binding, HPD, SYNCTX where applicable, Compilation Record references and implementation-oriented subplans.
 
-It bundles the logical execution and enforcement plans required to translate declarative product design into a feasible platform-realizable product. In this flow, it may include LEG, GEP, DQEP, DCEP, RVS, OSP, and EAP.
+The Compilation Pack is not a separate semantic authority or canonical artifact family; the packaged canonical artifacts retain their own identities and authority boundaries.
 
 ---
 
@@ -461,7 +487,7 @@ It bundles the logical execution and enforcement plans required to translate dec
 
 The HDIP platform service that compiles the full declarative product definition into a platform-realizable package.
 
-It consumes the Intent Record, Authority Decision, Unified Governance Bundle, Semantic Descriptor, Assertion Set, Usage Contract, and Exposure Decision to produce the Compilation Pack.
+It consumes the Intent Record, Authority Decision, Resolved Governance Bundle (RGB), Semantic Descriptor, Assertion Set, Usage Contract, and Exposure Decision to produce the Compilation Pack.
 
 ---
 
@@ -481,19 +507,19 @@ In the flow, the Blueprint Resolver uses the Cost Model / FinOps service to asse
 
 ---
 
-## Daily Batch Posture
+## Daily Batch Posture (Example Profile)
 
-The DPRO-declared or platform-recognized operational posture for the Data Product.
+An example operational posture used in a worked Data PDEP scenario. It is **not** a canonical PDEP requirement.
 
-In this flow, it indicates that the Data Product is optimized for daily batch operation, including evidence-ledger behavior, schedules, freshness expectations, and replay posture.
+Where a Data Product is intentionally optimized for daily batch operation, the posture may constrain schedules, freshness, replay, evidence behavior and Blueprint Binding. Other valid profiles may use streaming, event-driven, interactive or mixed execution patterns.
 
 ---
 
 ## Data Catalog
 
-The enterprise discovery and registration service for Data Products.
+A Data-focused Catalog projection used for discovery, search and navigation. It may project Product Registry entries, HPD information, semantic/family references, governance posture, trust/fitness evidence and discoverability metadata.
 
-It stores product metadata, semantic descriptors, governance posture, trust information, discoverability information, and registration state.
+The Catalog is **not** the Product Registry and does not establish Product qualification or registration authority.
 
 ---
 
@@ -521,7 +547,7 @@ See **DPRO**.
 
 Enterprise Data Control services that support runtime control enforcement and control validation.
 
-In this flow, DC Services participate in the Unified Governance Bundle and help ensure that product controls are executable and enforceable.
+In this flow, DC Services participate in the Resolved Governance Bundle (RGB) and help ensure that product controls are executable and enforceable.
 
 ---
 
@@ -559,9 +585,9 @@ DPROD is the HDIP Data Product semantic/operational descriptor that captures the
 
 ## DPROD Publisher
 
-The HDIP platform service responsible for finalizing and publishing the DPROD.
+A historical implementation-style label for the HDIP publication activity that finalizes the Data Product family descriptor and coordinates Stage 10 publication.
 
-It registers the product into the Data Catalog and Marketplace and surfaces the product’s semantic, governance, runtime, lineage, and trust context.
+The canonical architecture separates the activity into Product Registry registration, Catalog projection, Marketplace/consumer exposure, governed port exposure, and evidence/lineage linkage. The label does not imply a mandatory standalone service or ABB.
 
 ---
 
@@ -577,7 +603,7 @@ DPDS is the platform-facing deployable specification generated by HDIP. It descr
 
 The HDIP platform service that generates the DPDS.
 
-It consumes the Compilation Pack, Blueprint Binding, Unified Governance Bundle, Usage Contract, and related compiled artifacts to produce a versioned deployment specification.
+It consumes the Compilation Pack, Blueprint Binding, Resolved Governance Bundle (RGB), Usage Contract, and related compiled artifacts to produce a versioned deployment specification.
 
 ---
 
@@ -585,7 +611,7 @@ It consumes the Compilation Pack, Blueprint Binding, Unified Governance Bundle, 
 
 Enterprise Data Quality services that support quality rule definition, execution, monitoring, and reporting.
 
-In this flow, DQ Services are incorporated into the Unified Governance Bundle and later help enforce promotion and runtime quality gates.
+In this flow, DQ Services are incorporated into the Resolved Governance Bundle (RGB) and later help enforce promotion and runtime quality gates.
 
 ---
 
@@ -725,7 +751,7 @@ It checks exposure, SLA, freshness, replay, and consumption expectations.
 
 ## Governance Compiler
 
-The HDIP platform service that resolves DPRO-declared governance intent/context against applicable authoritative enterprise, domain, legal, and regulatory policies and compiles/binds the resulting controls into a Unified Governance Bundle.
+The HDIP platform service that resolves DPRO-declared governance intent/context against applicable authoritative enterprise, domain, legal, and regulatory policies and compiles/binds the resulting controls into a Resolved Governance Bundle (RGB).
 
 It resolves policy, data quality, data control, privacy, residency, retention, and entitlement requirements.
 
@@ -871,6 +897,14 @@ It checks capability readiness, environment readiness, and availability of requi
 
 ---
 
+## Product Registry
+
+The canonical HDIP logical Registry for qualified/intentionally constituted Products and Product Versions. In the Data PDEP profile, Data Product entries are registered through a Data Product profile/view of the core Product Registry.
+
+The Product Registry is authoritative for HDIP registration facts only; it does not qualify Productness or replace BPS/PIN, DPROD, family semantics or underlying Data authority.
+
+---
+
 ## Product Catalog
 
 See **Data Catalog**.
@@ -943,11 +977,11 @@ In this flow, Signals may include data quality, drift, usage, compliance, runtim
 
 ---
 
-## SSPD
+## SSPD (historical alias)
 
 Self-Service Product Development.
 
-SSPD is the HDIP approach where a product owner declares intent, meaning, governance, assertions, and usage expectations in business terms, while the platform handles compilation, deployment, registration, and operation.
+SSPD is the historical predecessor terminology for the self-service lifecycle experience now canonically represented by **PDEP - Product Development & Evolution Process**. The self-service principle is retained: the accountable Product participant expresses governed Product intent/proposition while HDIP supplies appropriate engineering, compilation, deployment, registration and operational automation. SSPD SHALL NOT be treated as a competing canonical lifecycle identity.
 
 ---
 
@@ -959,11 +993,37 @@ It triggers precondition checks before detailed intent declaration begins.
 
 ---
 
-## Unified Governance Bundle
+## Resolved Realization Graph (RRG)
 
-A versioned artifact containing compiled/bound governance controls for the Data Product. The bundle does not become the authoritative source of the underlying policies from which those controls were derived.
+The canonical family-neutral HDIP resolved realization projection created during P2 compilation. It correlates resolved dependencies, authoritative references, bindings, constraints and realization context while preserving relationship types and source authority.
 
-It combines policy, DQ, DC, privacy, residency, retention, entitlement, and compliance constraints into a form that later stages can validate and enforce.
+For the Data Product profile, the historical **Resolved Product Graph** is a Product-scoped RRG view. A dependency-only graph is a projection of the RRG rather than a separate authority.
+
+---
+
+## Realization Plan
+
+A technology-neutral logical plan describing how the resolved Product/capability design is to be realized. It captures execution/formation intent, dependency/runtime binding needs, output expectations and applicable control/evidence obligations without requiring a specific vendor/tool topology.
+
+A Data-profile **Logical Execution Plan** is an execution-focused specialization/view of the Realization Plan.
+
+---
+
+## Compilation Record
+
+The versioned evidence artifact for a material compilation occurrence. It records the exact authoritative references, Registry entries, versions, compiler/rule-set versions, validation outcomes, material decisions, generated artifacts, warnings/exceptions and correlation identifiers used to produce the resolved design.
+
+A Compilation Record supports historical reconstruction but does not by itself prove correctness or assurance.
+
+---
+
+## Resolved Governance Bundle (RGB)
+
+A versioned, context-scoped HDIP compiled-governance artifact containing the applicable controls and constraints resolved for an exact Product Version/realization context. RGB does not become the authoritative source of the underlying policies, legal/regulatory rules, Data controls or other governance sources from which it was derived.
+
+RGB may bind applicable policy-as-code, Data Contract obligations, Data Quality rules, Data Controls, privacy, residency, retention, entitlement, provenance/evidence requirements and related schema/semantic commitments.
+
+**Historical alias:** `Unified Governance Bundle (UGB)` may be retained for traceability but is not the canonical M09/M10 term.
 
 ---
 

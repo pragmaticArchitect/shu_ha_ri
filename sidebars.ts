@@ -16,6 +16,9 @@ const sidebars: SidebarsConfig = {
         'architecture/cla/hdip-cla-0.1-m06-canonical-logical-plane-derivation',
         'architecture/cla/hdip-cla-0.1-m07-cross-cutting-overlay-derivation',
         'architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue',
+        'architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture',
+        'architecture/cla/hdip-cla-0.1-m10-pdep-architecture',
+        'architecture/cla/hdip-cla-0.1-m11-sscf-cep-architecture',
       ],
     },
     {

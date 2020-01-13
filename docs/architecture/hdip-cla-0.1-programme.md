@@ -45,7 +45,10 @@ The programme is responsibility-first and deliberately avoids freezing logical p
 | **M06 — Canonical Logical Plane Derivation** | **Complete** |
 | **M07 — Cross-Cutting Overlay Derivation** | **Complete** |
 | **M08 — Canonical Logical ABB Catalogue** | **Complete** |
-| **M09 — Registry, Descriptor, Projection & Compilation Architecture** | Next |
+| **M09 — Registry, Descriptor, Projection & Compilation Architecture** | **Complete** |
+| **M10 — Product Development & Evolution Architecture — PDEP** | **Complete** |
+| **M11 — Product Consumption & Runtime Architecture — SSCF / CEP** | **Complete** |
+| **M12 — Canonical Inter-Plane Interaction Model** | Next |
 
 ## Foundational proposition
 
