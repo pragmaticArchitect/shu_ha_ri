@@ -1,38 +1,42 @@
 {
-  "overlayId": "INFOPS-P01-S04-G01-G03-OWNER-BASELINE-RECONCILED-2026-10-19",
+  "overlayId": "INFOPS-P01-S04-G01-G03-S02-S03-APPROVAL-BASIS-2026-10-19",
   "appliesTo": "Exact owner-supplied INFOPS.zip, root shu_ha_ri/",
   "baselineArchive": "INFOPS.zip",
   "sourceZipTopDirectory": "shu_ha_ri/",
   "baselineArchiveSha256": "7e52ec20288b73924d46bf7bcedaef7dd74ae73a348761d895edf53a154a6ca2",
   "baselineFileCount": 60,
-  "referenceS03Archive": "infops-0.1-p01-s03-qualification-draft-and-analogy-cumulative.zip",
-  "referenceS03ArchiveSha256": "af19e10c80d52f66363f2e2e37955f6c8db8555a6cfc5ede508fcd0516da488d",
+  "priorS04ConsolidatedArchive": "INFOPS-P01-S04-G01-G03-from-uploaded-baseline-complete.zip",
+  "priorS04ConsolidatedArchiveSha256": "03cfee775d22a3a87938e6d37541e555561a6cc7c6f4f575f0e8cb9947b3d19c",
   "ownerReview": {
-    "G01": "15/15 reviewed; granular dispositions not embedded",
-    "G02": "7/7 approved",
-    "G03": "10/10 approved or approved as amended; conditional research gate closure",
+    "S02": "6/6 approved research",
+    "S03": "9/9 approved research",
+    "G01": "15/15 approved antecedents (S02 6 + S03 9); gate closed",
+    "G02": "7/7 approved conditional research",
+    "G03": "10/10 approved/as-amended; conditional research closure",
     "G04": "prepared, not approved"
   },
   "researchOnly": true,
   "normativeReleaseAuthorized": false,
   "sourcePinsAdopted": false,
   "qualifiedProductsIssued": 0,
-  "newFiles": 16,
-  "addedFiles": 16,
+  "originalS02S03ProposalFilesPreserved": true,
+  "ownerApprovalRegister": "research/p01-s04/s02-s03-owner-approvals.json",
+  "addedFiles": 22,
+  "newFiles": 22,
   "modifiedFiles": 10,
-  "baselinePreservation": "One S03 integrity metadata file explicitly rebased to the uploaded S02 text; all existing S01/S02/S03 research source content unchanged.",
+  "baselinePreservation": "All S01/S02/S03 original research source files remain unchanged; historical checksum attestation rebased to owner archive in preceding S04 baseline reconciliation only.",
   "payloadFilesExcludingThisManifest": [
     {
       "path": "INFOPS-P01-S04-MERGE-NOTES.md",
       "kind": "ADDED",
-      "sha256": "88b0a47f35cc9e8c7369f5ee5c4446a8648e7d790a5db90fed735501f462aba8",
-      "sizeBytes": 3806
+      "sha256": "2529d347c34b0fa63f218a7ede7c5058f3baa6427438ee77104c92199d241817",
+      "sizeBytes": 4898
     },
     {
       "path": "README.md",
       "kind": "MODIFIED",
-      "sha256": "5a562fc53b945d9595ba2a8fbc94d39f3d5b0dbb2b716aa54d5f7a5f149259c5",
-      "sizeBytes": 9136,
+      "sha256": "c06913456cebe7dc8c876d8702a29dfbb1d2542b271158bec7d541ba4c3cdf45",
+      "sizeBytes": 10200,
       "priorSha256": "4bcd0fa52fafc5c3078ac671ff139bfd1a3951f4a70a7412032d14a0bd842cef"
     },
     {
@@ -45,15 +49,33 @@
     {
       "path": "docs/ontology/overview.md",
       "kind": "MODIFIED",
-      "sha256": "075a50200266c82ff28b7f3cf3ff2225829c02d8b94cacd52718048825405c1a",
-      "sizeBytes": 3483,
+      "sha256": "52feb2f0c1f94bc914163a9cb9210ad769c784ea9bc7f55c57d856ca95d36325",
+      "sizeBytes": 3849,
       "priorSha256": "3a772c40b4aa000a459d20204fce61ab0a9d3fe80fdd26cc629251e3cc996d01"
+    },
+    {
+      "path": "docs/ontology/p01-stage-02-owner-approved-decisions.md",
+      "kind": "ADDED",
+      "sha256": "f90f9e89b5094f73f8b8a187fea11c35b5b880c7ed9d3d0447f90f0bb9f41aeb",
+      "sizeBytes": 2713
+    },
+    {
+      "path": "docs/ontology/p01-stage-03-owner-approved-decisions.md",
+      "kind": "ADDED",
+      "sha256": "085f5a8d7d9fc8dbb3b9a7f0545645f884aa75211b9001fa8e2be5ef27793fc9",
+      "sizeBytes": 2868
     },
     {
       "path": "docs/ontology/p01-stage-04-artifact-boundaries.md",
       "kind": "ADDED",
       "sha256": "db1e76f074d73a87db0d65e10d23caaadc0102a97dbaffcd33ca563d8ceb336e",
       "sizeBytes": 5741
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-g01-closure-basis.md",
+      "kind": "ADDED",
+      "sha256": "c1bd8ec31e14a22b7bab29ea39d04fe84dcc1b7513cd94e78e1e44999d5a5f7c",
+      "sizeBytes": 4879
     },
     {
       "path": "docs/ontology/p01-stage-04-g04-plan.md",
@@ -64,14 +86,14 @@
     {
       "path": "docs/ontology/p01-stage-04-overview.md",
       "kind": "ADDED",
-      "sha256": "f67e4b5941ea3be246f4464a17fe42290604b6366e95b65438289fb1f64e5ad0",
-      "sizeBytes": 4473
+      "sha256": "6b07038b831c2bd3378e4b40a7fe2b2aeaf33f46937e1ce7671639bb52aed337",
+      "sizeBytes": 4835
     },
     {
       "path": "docs/ontology/p01-stage-04-owner-decisions.md",
       "kind": "ADDED",
-      "sha256": "352ceeb600a6c5b9b39b0be19c77f9d81d2fc17ed7d8885ec1642bd3ab805f75",
-      "sizeBytes": 6762
+      "sha256": "ec7637d5cdeb1411413e188f28dc8398e00307d56779dc5aa2af07f92458b012",
+      "sizeBytes": 7852
     },
     {
       "path": "docs/ontology/p01-stage-04-release-holds.md",
@@ -102,8 +124,8 @@
     {
       "path": "docs/specification/status.md",
       "kind": "MODIFIED",
-      "sha256": "6f0018d707094cb97fcc73a4b0284610679b5b2b09791d5e0cbc57e738a0844d",
-      "sizeBytes": 2495,
+      "sha256": "659609d0795e2f511be5d8c4d63bf563b2b43fd9789c6570dec1ee64a62a1c9a",
+      "sizeBytes": 2748,
       "priorSha256": "32663192a2b9ddef75402f94c4c6ca1a80ce58ec4b3e616f77df7a1ae43da891"
     },
     {
@@ -114,11 +136,23 @@
       "priorSha256": "d51da89170412256c528ae5baae41e6725be5d0c9ab7587022f1fd5313cfcea5"
     },
     {
+      "path": "research/p01-s02/owner-approval-addendum.json",
+      "kind": "ADDED",
+      "sha256": "7c8831a2713c0d2b11e02800feb23c01c2e19a53d02cf4dd5f650d450cf8f084",
+      "sizeBytes": 4337
+    },
+    {
       "path": "research/p01-s03/baseline-integrity.json",
       "kind": "MODIFIED",
       "sha256": "2991c5a3de5c8beec9d5c379b57772f4ca069a8876c7cdbbb2e849ca11cb256b",
       "sizeBytes": 1727,
       "priorSha256": "da369761d1bc30908a75f40f3abf05329e873af57ffede2430c0adcf399a6c0c"
+    },
+    {
+      "path": "research/p01-s03/owner-approval-addendum.json",
+      "kind": "ADDED",
+      "sha256": "8b1965878f425c6a7a2c6e1d4115387d63f186e48ab96fef40456d119a4e4709",
+      "sizeBytes": 5940
     },
     {
       "path": "research/p01-s04/baseline-reconciliation.json",
@@ -141,14 +175,20 @@
     {
       "path": "research/p01-s04/owner-decision-register.json",
       "kind": "ADDED",
-      "sha256": "af68cce45aebf34bb91b907ff5ddb18f19b6919e692ebb00dd324f3563dce1c8",
-      "sizeBytes": 8495
+      "sha256": "6d37292eec5103f720fceb81ab8b111a8eb4edfbbb81cb5ad73a0fc1384ca4a5",
+      "sizeBytes": 12503
     },
     {
       "path": "research/p01-s04/research-state.json",
       "kind": "ADDED",
-      "sha256": "871c65a3d70dcf548d456a7ce75c68116faf9d647bcbc5aea6c8eb4ed831f075",
-      "sizeBytes": 1058
+      "sha256": "d366846960fc8b7366995ec03edf0ee49d4106a51eda32a6a3f00069d4b8d281",
+      "sizeBytes": 1377
+    },
+    {
+      "path": "research/p01-s04/s02-s03-owner-approvals.json",
+      "kind": "ADDED",
+      "sha256": "e1a003f18fee3101e6b7ba8e8c9209109b1311a0e073a6db62882ef2c5122c6b",
+      "sizeBytes": 12241
     },
     {
       "path": "research/p01-s04/s03-protected-file-hashes.json",
@@ -165,14 +205,14 @@
     {
       "path": "scripts/validate-infops-p01-s04.py",
       "kind": "ADDED",
-      "sha256": "f338939c92cde1f945d4fb382ea894c2d13fd330cb8a84af36cde0b25857f6a4",
-      "sizeBytes": 9238
+      "sha256": "a547eb649105cac653fbdcee5a1b11d2eb0f29750099d251aa4c927d0ab8d4ea",
+      "sizeBytes": 13719
     },
     {
       "path": "sidebars.js",
       "kind": "MODIFIED",
-      "sha256": "235f19b4ba687b6437fd968919604f9380fcbb69ef36d32f28eada14f9cafccc",
-      "sizeBytes": 2145,
+      "sha256": "059aa8fe32a80aaf0f15ccd7e5586813c312bbf7cee4e8d62087811948aba77e",
+      "sizeBytes": 2306,
       "priorSha256": "c283f31c2a94b592ac762c433c96f9d24b3916f4c68d842bf318ff1a59e43697"
     },
     {

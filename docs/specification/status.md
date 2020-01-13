@@ -9,8 +9,8 @@ title: Status & Release Posture
 | Area | State |
 |---|---|
 | Site / repository | Docusaurus baseline; existing Netlify/Webpack compatibility preserved |
-| P01-S01, S02, S03 source history | Preserved non-normative source files and historical S03 draft decision ledger |
-| **P01-S04-G01** | **CLOSED** - 15/15 owner-reviewed research findings; original G01 per-finding texts not reproduced in this overlay |
+| P01-S01, S02, S03 source history | Preserved non-normative source files; historical proposal snapshots plus 6 S02 / 9 S03 later explicit owner approvals |
+| **P01-S04-G01** | **CLOSED** - 15/15 antecedent research decisions approved (S02 6 + S03 9); no invented G01-Fxx records |
 | **P01-S04-G02** | **CLOSED** - seven owner-reviewed Q0-Q5/X01 research findings, with no sufficiency proof |
 | **P01-S04-G03** | **CLOSED - CONDITIONAL RESEARCH** - ten owner-reviewed decisions through D10; normative source adoption NOT READY |
 | **P01-S04-G04** | Prepared proposed nine-decision review sequence; **NOT YET OWNER ADJUDICATED** |
@@ -22,6 +22,6 @@ title: Status & Release Posture
 | INFOPS family necessary-and-sufficient predicate | **Not established** |
 | INFOPS 0.1 normative publication | **NOT RELEASED / NOT AUTHORIZED** |
 
-See the [S04 overview](../ontology/p01-stage-04-overview.md), [owner decision register](../ontology/p01-stage-04-owner-decisions.md), [source authority inventory](../ontology/p01-stage-04-source-authorities.md), [artifact boundaries](../ontology/p01-stage-04-artifact-boundaries.md), [release holds](../ontology/p01-stage-04-release-holds.md) and [G04 proposed review plan](../ontology/p01-stage-04-g04-plan.md).
+See the [G01 owner-approval basis](../ontology/p01-stage-04-g01-closure-basis.md), [S02 approvals](../ontology/p01-stage-02-owner-approved-decisions.md), [S03 approvals](../ontology/p01-stage-03-owner-approved-decisions.md), and the [S04 overview](../ontology/p01-stage-04-overview.md), [owner decision register](../ontology/p01-stage-04-owner-decisions.md), [source authority inventory](../ontology/p01-stage-04-source-authorities.md), [artifact boundaries](../ontology/p01-stage-04-artifact-boundaries.md), [release holds](../ontology/p01-stage-04-release-holds.md) and [G04 proposed review plan](../ontology/p01-stage-04-g04-plan.md).
 
 `research/p01-s04/research-state.json` records the current conversational owner-review projection. The earlier `static/spec/infops/0.1/scaffold-state.json` remains at its original S03 draft state on purpose, preserving historical traceability and the original S03 validator. Neither file constitutes a normative released INFOPS specification.

@@ -5,13 +5,13 @@ sidebar_label: P01-S04 - Overview
 
 # INFOPS-P01-S04 - Qualification Boundary Reconciliation
 
-> **OWNER-REVIEWED RESEARCH / NON-NORMATIVE (19 October 2026).** G01, G02 and G03 have completed owner review. G03 has **conditional research-gate closure**; its source-adoption blockers are preserved. **G04 is prepared, not yet adjudicated.** This is not an adopted INFOPS 0.1 standard and cannot certify a Product.
+> **OWNER-REVIEWED RESEARCH / NON-NORMATIVE (19 October 2026).** G01, G02 and G03 have completed owner review. The **six S02 and nine S03 antecedent research decisions are explicitly owner-approved**, forming G01 closure. G03 has **conditional research-gate closure**; its source-adoption blockers are preserved. **G04 is prepared, not yet adjudicated.** This is not an adopted INFOPS 0.1 standard and cannot certify a Product.
 
 ## Programme position
 
 | S04 gate | Review status | What the status does NOT mean |
 |---|---|---|
-| G01 - Individual findings | Closed at owner-reviewed research level (15/15 findings) | No qualification or publication release |
+| G01 - S02/S03 antecedent owner decisions | Closed at owner-reviewed research level (6 S02 + 9 S03 = 15/15 approved) | No qualification or publication release |
 | G02 - Qualification conditions | Closed at conditional research level (7/7 approved) | Q0-Q4 jointly sufficient or universally necessary |
 | G03 - Upstream source authority | **Closed at conditional research level (10/10 owner decisions)** | Exact source Versions adopted or interoperability fully certified |
 | G04 - Competing-family and Compound | Prepared; owner decisions pending | Counterexamples already adjudicated |
@@ -30,6 +30,8 @@ sidebar_label: P01-S04 - Overview
 
 ## Research documentation
 
+- [G01 closure basis (15 S02/S03 approvals)](./p01-stage-04-g01-closure-basis.md)
+- [S02 owner approvals](./p01-stage-02-owner-approved-decisions.md) and [S03 owner approvals](./p01-stage-03-owner-approved-decisions.md)
 - [Owner-reviewed decision register](./p01-stage-04-owner-decisions.md) - G01-G03 dispositions and evidence limitations.
 - [Source authority and adoption register](./p01-stage-04-source-authorities.md) - upstream jurisdictions, candidate Versions, interoperability boundaries.
 - [INFOPROD, INFOPDS, HPD and DPP separation](./p01-stage-04-artifact-boundaries.md) - preserved owner amendments.

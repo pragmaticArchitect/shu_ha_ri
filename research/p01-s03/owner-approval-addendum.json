@@ -1,0 +1,114 @@
+{
+  "project": "INFOPS",
+  "stage": "S03",
+  "recordType": "SUBSEQUENT_OWNER_APPROVAL_ADDENDUM",
+  "recordedInRepositoryAsOf": "2026-10-19",
+  "researchOnly": true,
+  "normative": false,
+  "ownerApprovedResearchDecisions": 9,
+  "historicalProposalsPreserved": true,
+  "originalProposalRegister": "research/p01-s03/review-decisions.json",
+  "primaryCombinedOwnerApprovalRegister": "research/p01-s04/s02-s03-owner-approvals.json",
+  "g01ClosureBasis": true,
+  "decisions": [
+    {
+      "id": "S03-D01",
+      "disposition": "APPROVED",
+      "ownerApprovedResearchPosition": "Preserve the KivaNura analogy as informative, not normative",
+      "originalResearchProposal": "Retain original and refined oil-to-driver analogy as informative educational model, not a Product ontology.",
+      "reviewedRefinementsIncorporated": true,
+      "normative": false,
+      "approvalAuthority": "owner-supplied consolidated decision register, recorded in conversation",
+      "s04G01ClosureBasis": true,
+      "originalProposalSnapshot": "research/p01-s03/review-decisions.json"
+    },
+    {
+      "id": "S03-D02",
+      "disposition": "APPROVED",
+      "ownerApprovedResearchPosition": "Inherit independent BPS Productness as Q0",
+      "originalResearchProposal": "Maintain separately established BPS Productness of the exact assessed subject as qualification precondition Q0.",
+      "reviewedRefinementsIncorporated": true,
+      "normative": false,
+      "approvalAuthority": "owner-supplied consolidated decision register, recorded in conversation",
+      "s04G01ClosureBasis": true,
+      "originalProposalSnapshot": "research/p01-s03/review-decisions.json"
+    },
+    {
+      "id": "S03-D03",
+      "disposition": "APPROVED",
+      "ownerApprovedResearchPosition": "Research informational VBE and coherent, bounded proposition families as Q1",
+      "originalResearchProposal": "Challenge primary bounded/coherent governed Information Proposition as candidate VBE Q1.",
+      "reviewedRefinementsIncorporated": true,
+      "normative": false,
+      "approvalAuthority": "owner-supplied consolidated decision register, recorded in conversation",
+      "s04G01ClosureBasis": true,
+      "originalProposalSnapshot": "research/p01-s03/review-decisions.json"
+    },
+    {
+      "id": "S03-D04",
+      "disposition": "APPROVED",
+      "ownerApprovedResearchPosition": "Research meaning-bearing semantic constitution as Q2",
+      "originalResearchProposal": "Challenge meaning-bearing semantic constitution independent of runtime engine ownership as candidate Q2.",
+      "reviewedRefinementsIncorporated": true,
+      "normative": false,
+      "approvalAuthority": "owner-supplied consolidated decision register, recorded in conversation",
+      "s04G01ClosureBasis": true,
+      "originalProposalSnapshot": "research/p01-s03/review-decisions.json"
+    },
+    {
+      "id": "S03-D05",
+      "disposition": "APPROVED",
+      "ownerApprovedResearchPosition": "Research essential informational value capability as Q3",
+      "originalResearchProposal": "Challenge governed consumable informational EVC independent of API, execution mode, or medium as candidate Q3.",
+      "reviewedRefinementsIncorporated": true,
+      "normative": false,
+      "approvalAuthority": "owner-supplied consolidated decision register, recorded in conversation",
+      "s04G01ClosureBasis": true,
+      "originalProposalSnapshot": "research/p01-s03/review-decisions.json"
+    },
+    {
+      "id": "S03-D06",
+      "disposition": "APPROVED",
+      "ownerApprovedResearchPosition": "Apply BPS/PIN identity invariants to informational continuity as Q4",
+      "originalResearchProposal": "Establish identity/version/occurrence distinction and PIN invariants Q4 without repository/deployment conflation.",
+      "reviewedRefinementsIncorporated": true,
+      "normative": false,
+      "approvalAuthority": "owner-supplied consolidated decision register, recorded in conversation",
+      "s04G01ClosureBasis": true,
+      "originalProposalSnapshot": "research/p01-s03/review-decisions.json"
+    },
+    {
+      "id": "S03-D07",
+      "disposition": "APPROVED",
+      "ownerApprovedResearchPosition": "Treat competing-family adjudication as Q5, a procedural gate rather than an intrinsic property",
+      "originalResearchProposal": "Keep ambiguous Data/Information and multi-primary/compound Q5 cases unresolved without real governing evidence.",
+      "reviewedRefinementsIncorporated": true,
+      "normative": false,
+      "approvalAuthority": "owner-supplied consolidated decision register, recorded in conversation",
+      "s04G01ClosureBasis": true,
+      "originalProposalSnapshot": "research/p01-s03/review-decisions.json"
+    },
+    {
+      "id": "S03-D08",
+      "disposition": "APPROVED",
+      "ownerApprovedResearchPosition": "Distinguish realization invariance, semantic fidelity and contractual conformance",
+      "originalResearchProposal": "Treat approved PFI golden path substitution as family invariant only under semantic/contract preservation.",
+      "reviewedRefinementsIncorporated": true,
+      "normative": false,
+      "approvalAuthority": "owner-supplied consolidated decision register, recorded in conversation",
+      "s04G01ClosureBasis": true,
+      "originalProposalSnapshot": "research/p01-s03/review-decisions.json"
+    },
+    {
+      "id": "S03-D09",
+      "disposition": "APPROVED",
+      "ownerApprovedResearchPosition": "Preserve explicit research-to-normative adoption boundaries",
+      "originalResearchProposal": "Retain S03 conjunction and results as owner-review research only; prove sufficiency, pin authorities before future release.",
+      "reviewedRefinementsIncorporated": true,
+      "normative": false,
+      "approvalAuthority": "owner-supplied consolidated decision register, recorded in conversation",
+      "s04G01ClosureBasis": true,
+      "originalProposalSnapshot": "research/p01-s03/review-decisions.json"
+    }
+  ]
+}

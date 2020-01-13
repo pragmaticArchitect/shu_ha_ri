@@ -1,0 +1,81 @@
+{
+  "project": "INFOPS",
+  "stage": "S02",
+  "recordType": "SUBSEQUENT_OWNER_APPROVAL_ADDENDUM",
+  "recordedInRepositoryAsOf": "2026-10-19",
+  "researchOnly": true,
+  "normative": false,
+  "ownerApprovedResearchDecisions": 6,
+  "historicalProposalsPreserved": true,
+  "originalProposalRegister": "research/p01-s02/research-decisions.json",
+  "primaryCombinedOwnerApprovalRegister": "research/p01-s04/s02-s03-owner-approvals.json",
+  "g01ClosureBasis": true,
+  "decisions": [
+    {
+      "id": "S02-D01",
+      "disposition": "APPROVED",
+      "ownerApprovedResearchPosition": "Reject technology, payload and delivery-format shortcuts for intrinsic Product-family classification",
+      "originalResearchProposal": "Accept the rejection of format, AI-dependency, engine-ownership and analytics-presence shortcut classifiers",
+      "reviewedRefinementsIncorporated": true,
+      "normative": false,
+      "approvalAuthority": "owner-supplied consolidated decision register, recorded in conversation",
+      "s04G01ClosureBasis": true,
+      "originalProposalSnapshot": "research/p01-s02/research-decisions.json"
+    },
+    {
+      "id": "S02-D02",
+      "disposition": "APPROVED",
+      "ownerApprovedResearchPosition": "Separate meaning-bearing semantic constitution from runtime analytical machinery",
+      "originalResearchProposal": "Accept meaning-bearing semantic constitution as relevant, separate from execution engine ownership",
+      "reviewedRefinementsIncorporated": true,
+      "normative": false,
+      "approvalAuthority": "owner-supplied consolidated decision register, recorded in conversation",
+      "s04G01ClosureBasis": true,
+      "originalProposalSnapshot": "research/p01-s02/research-decisions.json"
+    },
+    {
+      "id": "S02-D03",
+      "disposition": "APPROVED",
+      "ownerApprovedResearchPosition": "Adopt governed informational value as the leading primary VBE hypothesis",
+      "originalResearchProposal": "Continue researching a bounded Information Proposition (or coherent family) as candidate VBE, **not** an already sufficient qualifier",
+      "reviewedRefinementsIncorporated": true,
+      "normative": false,
+      "approvalAuthority": "owner-supplied consolidated decision register, recorded in conversation",
+      "s04G01ClosureBasis": true,
+      "originalProposalSnapshot": "research/p01-s02/research-decisions.json"
+    },
+    {
+      "id": "S02-D04",
+      "disposition": "APPROVED",
+      "ownerApprovedResearchPosition": "Ground family adjudication in Product Promise and PIN; preserve credible competing interpretations",
+      "originalResearchProposal": "Treat Product Promise, PIN and independently applicable family authorities as indispensable in ambiguous Data/Information/Compound cases",
+      "reviewedRefinementsIncorporated": true,
+      "normative": false,
+      "approvalAuthority": "owner-supplied consolidated decision register, recorded in conversation",
+      "s04G01ClosureBasis": true,
+      "originalProposalSnapshot": "research/p01-s02/research-decisions.json"
+    },
+    {
+      "id": "S02-D05",
+      "disposition": "APPROVED",
+      "ownerApprovedResearchPosition": "Preserve conditional Product-family invariance across eligible PFI realizations",
+      "originalResearchProposal": "Treat PFI realization independence as conditional on semantic/contract equivalence, and differentiate Product Kind from Product instance",
+      "reviewedRefinementsIncorporated": true,
+      "normative": false,
+      "approvalAuthority": "owner-supplied consolidated decision register, recorded in conversation",
+      "s04G01ClosureBasis": true,
+      "originalProposalSnapshot": "research/p01-s02/research-decisions.json"
+    },
+    {
+      "id": "S02-D06",
+      "disposition": "APPROVED",
+      "ownerApprovedResearchPosition": "Permit conditional research drafting without prematurely adopting normative qualification",
+      "originalResearchProposal": "Authorize drafting P01-S03 conditional qualification rules only after reviewing the unresolved boundary decisions",
+      "reviewedRefinementsIncorporated": true,
+      "normative": false,
+      "approvalAuthority": "owner-supplied consolidated decision register, recorded in conversation",
+      "s04G01ClosureBasis": true,
+      "originalProposalSnapshot": "research/p01-s02/research-decisions.json"
+    }
+  ]
+}

@@ -107,6 +107,18 @@ SITE_URL=https://docs.example.org BASE_URL=/ npm run build
 └── sidebars.js
 ```
 
+
+### Owner-approved S02/S03 research decisions and S04-G01 closure
+
+The owner subsequently approved **S02-D01 to D06 (6)** and **S03-D01 to D09 (9)**, incorporating reviewed refinements. These **15 antecedent approvals** form the **S04-G01 research closure basis**, without creating another set of G01 decision IDs or double-counting the 32 S04-G01/G02/G03 owner-reviewed research decisions.
+
+- [S02 approval addendum](docs/ontology/p01-stage-02-owner-approved-decisions.md)
+- [S03 approval addendum](docs/ontology/p01-stage-03-owner-approved-decisions.md)
+- [S04-G01 closure basis](docs/ontology/p01-stage-04-g01-closure-basis.md)
+- Machine register: `research/p01-s04/s02-s03-owner-approvals.json`
+
+The original S02/S03 `PROPOSED` research files remain unchanged as historical source snapshots; **they no longer describe the current owner disposition**. The later approvals are non-normative, leave Q1–Q4 necessity and joint sufficiency unproven, and do not authorize Product certification, INFOPROD, INFOPDS, BPS DPP Profile or INFOPS 0.1 normative release.
+
 ## Authority and release rules
 
 The existing authority boundaries are explicitly respected: generic Productness belongs to BPS/PIN; Information/Analytics meaning to GEARM; analytical architecture to GEARA; HDIP and UPOS provide separate platform/operating concepts. Data Product DPROD/DPDS and AI Product AIPS/AIPROD/AIPDS are **referenced external/adjacent Product-family sources**, not copied into INFOPS.

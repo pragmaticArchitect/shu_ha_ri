@@ -28,5 +28,11 @@
   "ownerApprovalIsNotNormativeRelease": true,
   "nextDecision": "G04-D01-F01_NOT_YET_PRESENTED_OR_ADOPTED",
   "ownerReviewedResearchDecisionsTotal": 32,
-  "explicitApprovalsWithResearchSummaryAvailable": 17
+  "explicitApprovalsWithResearchSummaryAvailable": 32,
+  "s02OwnerApprovedResearchDecisions": 6,
+  "s03OwnerApprovedResearchDecisions": 9,
+  "g01OwnerApprovedAntecedentDecisions": 15,
+  "g01ClosureBasisVerifiedFromOwnerRegister": true,
+  "g01ClosureBasisRegister": "research/p01-s04/s02-s03-owner-approvals.json",
+  "originalS02S03ResearchProposalSnapshotsPreserved": true
 }
