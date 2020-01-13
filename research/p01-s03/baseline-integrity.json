@@ -1,0 +1,21 @@
+{
+  "project": "INFOPS",
+  "stage": "P01-S03",
+  "normative": false,
+  "purpose": "S01/S02 regression hash preservation, not an authority adoption or Product conformance claim",
+  "algorithm": "sha256",
+  "sha256": {
+    "docs/ontology/p01-stage-01-authority-and-ontology-baseline.md": "859bb9f2b7dc5ee2e15c7f2bf0cda26a96ce8635585b4ddfba9246705ce9b25c",
+    "docs/ontology/p01-stage-01-classification-cases.md": "21f3d693021edaaa913553e3e188211c37ede07fc40acc742f1e89fd5f21b052",
+    "docs/ontology/p01-stage-01-ontology-review.md": "46e526ad5739a21f1811224b50ef4adb9d84b7b6d9e492c76bcd61d6dad9cbea",
+    "docs/ontology/p01-stage-01-realization-stress-tests.md": "649fad02ae46558d789a15452a38eb83a094792460bc0331a1ad39b889fe61c6",
+    "docs/ontology/p01-stage-02-pin-differentiation-falsification.md": "aa29ab64eb57767aaa314ffdd9f411e0ee03936145bc9dc6f7ce6154869e0a16",
+    "docs/ontology/p01-stage-02-case-disposition-ledger.md": "181133aca1461096495a811a863acf888964372c683996483db47ca5fd5c33f7",
+    "docs/ontology/p01-stage-02-cross-enterprise-realization-tests.md": "a884c6ddcb02cc338c9ac0614b7f36c7cfcc5bb5154444b5fe0a2b175d17aacb",
+    "docs/ontology/p01-stage-02-hypothesis-dispositions.md": "fca9d2c169d1058f031c3ed762dca3e93f2b1c7d9863b96c778f7b4a4cc6d20c",
+    "research/p01-s02/cases.json": "770b64be7cc628a786382e37c986a50dac29484b08b67bda83c02556b0062d4f",
+    "research/p01-s02/hypothesis-tests.json": "489492c5ec215aa141e83372f262926d41ce231e5c5f02656cb59953edd93ed7",
+    "research/p01-s02/realization-experiments.json": "ec0126dccba5e71c3861e0b32ab032dd5639aa57e07368ce1483ad720992497d",
+    "research/p01-s02/research-decisions.json": "e38f2edf5172d3a938f15af1b9afe4fabbb6c440debb78ce5f710370ca0c8a8b"
+  }
+}

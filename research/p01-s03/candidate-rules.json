@@ -1,0 +1,103 @@
+{
+  "project": "INFOPS",
+  "stage": "P01-S03",
+  "normative": false,
+  "ownerAccepted": false,
+  "qualificationDecisionsIssued": false,
+  "actualProductsQualified": 0,
+  "conditionalConjunction": [
+    "Q0",
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4"
+  ],
+  "adjudicationGate": "Q5",
+  "jointSufficiency": "NOT_ESTABLISHED",
+  "count": 6,
+  "rules": [
+    {
+      "id": "Q0",
+      "kind": "INHERITED_PRODUCTNESS_PRECONDITION",
+      "name": "Independent BPS Productness",
+      "candidateNecessary": true,
+      "jointSufficiencyProven": false,
+      "authority": "BPS/PIN",
+      "question": "Is this exact subject/version independently qualified as a Product?",
+      "nonQualifiers": [
+        "marketplace listing",
+        "analytics processing",
+        "maturity score"
+      ]
+    },
+    {
+      "id": "Q1",
+      "kind": "CANDIDATE_INTRINSIC_FAMILY_CONDITION",
+      "name": "Primary informational VBE",
+      "candidateNecessary": true,
+      "jointSufficiencyProven": false,
+      "authority": "BPS/PIN specialization with GEARM Information Proposition",
+      "question": "Is the primary Product Promise a bounded, coherent governed Information Proposition or family?",
+      "nonQualifiers": [
+        "numeric fields",
+        "dashboard",
+        "general calculation capability"
+      ]
+    },
+    {
+      "id": "Q2",
+      "kind": "CANDIDATE_INTRINSIC_FAMILY_CONDITION",
+      "name": "Governing semantic constitution",
+      "candidateNecessary": true,
+      "jointSufficiencyProven": false,
+      "authority": "GEARM referenced; BPS constitution",
+      "question": "Can the intent, interpretive frame, context rules and meaning-affecting formation logic be traced to accountable semantics?",
+      "nonQualifiers": [
+        "owning analytics engine",
+        "compiled code",
+        "API calls"
+      ]
+    },
+    {
+      "id": "Q3",
+      "kind": "CANDIDATE_INTRINSIC_FAMILY_CONDITION",
+      "name": "Consumable informational EVC",
+      "candidateNecessary": true,
+      "jointSufficiencyProven": false,
+      "authority": "BPS/PIN Product Promise and EVC",
+      "question": "Can an eligible consumer receive the promised information according to a governed proposition?",
+      "nonQualifiers": [
+        "mandatory live engine",
+        "mandatory API",
+        "specific presentation medium"
+      ]
+    },
+    {
+      "id": "Q4",
+      "kind": "CANDIDATE_INTRINSIC_FAMILY_CONDITION",
+      "name": "PIN and version coherence",
+      "candidateNecessary": true,
+      "jointSufficiencyProven": false,
+      "authority": "BPS/PIN identity invariants",
+      "question": "Are Product identity/version/parameters and relevant invariants distinguished from artifacts and occurrences?",
+      "nonQualifiers": [
+        "one build equals Product identity",
+        "one deployment equals Product kind"
+      ]
+    },
+    {
+      "id": "Q5",
+      "kind": "REVIEW_ADJUDICATION_GATE_NOT_ONTOLOGICAL_PROPERTY",
+      "name": "Competing-family/compound claim review",
+      "candidateNecessary": false,
+      "jointSufficiencyProven": false,
+      "authority": "BPS/PIN and applicable Product family specifications",
+      "question": "Can primary Data, AI, Service, Creative, Knowledge and Compound Product alternatives be adjudicated with actual evidence?",
+      "nonQualifiers": [
+        "family ranking",
+        "AI presence",
+        "delivery format"
+      ]
+    }
+  ]
+}

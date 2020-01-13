@@ -1,4 +1,4 @@
-// INFOPS P01 Stage 2 research draft. No canonical family qualification is defined here.
+// INFOPS P01 Stage 3 conditional qualification research draft. No canonical family qualification is defined here.
 const config = {
   title: 'Information Product Specification',
   tagline: 'INFOPS — governed Information Product specification',

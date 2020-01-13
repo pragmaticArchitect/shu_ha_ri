@@ -1,13 +1,16 @@
 {
   "project": "INFOPS",
   "plannedSpecificationVersion": "0.1",
-  "releaseStatus": "P01_STAGE_02_DRAFT",
+  "releaseStatus": "P01_STAGE_03_DRAFT",
   "normative": false,
   "qualifiedInformationProductRulesPublished": false,
   "infopchCataloguePublished": false,
   "pmddWeightsPublished": false,
-  "description": "P01 Stage 2 non-normative PIN differentiation and falsification research; no approved Information Product qualification or descriptors.",
-  "p01Stage": "S02_PIN_FALSIFICATION",
+  "description": "P01 Stage 3 non-normative conditional candidate qualification research, informative KivaNura oil-to-driver analogy; no authorized family qualification or descriptor.",
+  "p01Stage": "S03_CANDIDATE_QUALIFICATION",
   "stageAccepted": false,
-  "stage2ResearchOnly": true
+  "stage2ResearchOnly": true,
+  "stage3ResearchOnly": true,
+  "jointSufficiencyEstablished": false,
+  "ownerAccepted": false
 }

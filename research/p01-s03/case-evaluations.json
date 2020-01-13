@@ -1,0 +1,330 @@
+{
+  "project": "INFOPS",
+  "stage": "P01-S03",
+  "normative": false,
+  "ownerAccepted": false,
+  "qualificationDecisionsIssued": false,
+  "actualProductsQualified": 0,
+  "count": 20,
+  "cases": [
+    {
+      "caseId": "S03-T01",
+      "hypotheticalSubject": "Representational trade Data Product with derived VWAP",
+      "researchDisposition": "COMPETING_FAMILY_PLAUSIBLE",
+      "linkedRules": [
+        "Q1",
+        "Q5"
+      ],
+      "sourceCaseIds": [
+        "C02",
+        "C21"
+      ],
+      "neededEvidence": "Owner Promise and applicable Data qualification.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T02",
+      "hypotheticalSubject": "Governed price-formation informational interpretation using identical VWAP",
+      "researchDisposition": "PROVISIONAL_INFORMATION_MATCH",
+      "linkedRules": [
+        "Q0",
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5"
+      ],
+      "sourceCaseIds": [
+        "C04",
+        "C15",
+        "C27"
+      ],
+      "neededEvidence": "Independent Productness, semantic definitions and all candidate gates.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T03",
+      "hypotheticalSubject": "Ambiguous dual-labelled same-VWAP Product, no primary Promise",
+      "researchDisposition": "INSUFFICIENT_EVIDENCE",
+      "linkedRules": [
+        "Q1",
+        "Q5"
+      ],
+      "sourceCaseIds": [
+        "C02",
+        "C21"
+      ],
+      "neededEvidence": "Actual primary Promise and competing family decision.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T04",
+      "hypotheticalSubject": "General-purpose mathematical API Product",
+      "researchDisposition": "COMPETING_FAMILY_PLAUSIBLE",
+      "linkedRules": [
+        "Q1",
+        "Q5"
+      ],
+      "sourceCaseIds": [
+        "C07",
+        "C20"
+      ],
+      "neededEvidence": "Generic computation versus bounded Information Promise.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T05",
+      "hypotheticalSubject": "Intentionally productized static research report with governed context",
+      "researchDisposition": "PROVISIONAL_INFORMATION_MATCH",
+      "linkedRules": [
+        "Q0",
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "sourceCaseIds": [
+        "C05",
+        "C19",
+        "C30"
+      ],
+      "neededEvidence": "BPS qualification, editorial authority, publication/edition Promise.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T06",
+      "hypotheticalSubject": "One-off analyst output with no independent Productness",
+      "researchDisposition": "PRODUCTNESS_UNESTABLISHED",
+      "linkedRules": [
+        "Q0"
+      ],
+      "sourceCaseIds": [
+        "C03",
+        "C14"
+      ],
+      "neededEvidence": "Product-level constitution/Promise rather than single occurrence.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T07",
+      "hypotheticalSubject": "Generic BI explorer with potentially distinct subscriptions",
+      "researchDisposition": "CONFLICT_REVIEW",
+      "linkedRules": [
+        "Q1",
+        "Q5"
+      ],
+      "sourceCaseIds": [
+        "C12",
+        "C20"
+      ],
+      "neededEvidence": "Subject decomposition and bounds for underlying promises.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T08",
+      "hypotheticalSubject": "Governed interactive settlement information subscription",
+      "researchDisposition": "PROVISIONAL_INFORMATION_MATCH",
+      "linkedRules": [
+        "Q0",
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5"
+      ],
+      "sourceCaseIds": [
+        "C04",
+        "C12",
+        "C28"
+      ],
+      "neededEvidence": "Productness and coherent proposition-family envelope.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T09",
+      "hypotheticalSubject": "Fraud inference AI Product under AIPS",
+      "researchDisposition": "COMPETING_FAMILY_PLAUSIBLE",
+      "linkedRules": [
+        "Q1",
+        "Q5"
+      ],
+      "sourceCaseIds": [
+        "C09"
+      ],
+      "neededEvidence": "Independent AIPS qualification and primary intelligence Promise.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T10",
+      "hypotheticalSubject": "Governed informational subscription with explanatory AI dependency",
+      "researchDisposition": "REALIZATION_INVARIANCE_CONDITIONAL",
+      "linkedRules": [
+        "Q1",
+        "Q2",
+        "Q5"
+      ],
+      "sourceCaseIds": [
+        "C08",
+        "C13",
+        "C33"
+      ],
+      "neededEvidence": "Preserved semantic rules, AIPS dependency contract and versions.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T11",
+      "hypotheticalSubject": "Crypto insights plus autonomous trading primary Promise",
+      "researchDisposition": "CONFLICT_REVIEW",
+      "linkedRules": [
+        "Q1",
+        "Q5"
+      ],
+      "sourceCaseIds": [
+        "C18",
+        "C31"
+      ],
+      "neededEvidence": "Compound identity, distinct Product responsibilities, trading authorization.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T12",
+      "hypotheticalSubject": "Late-settlement alert with possible downstream execution",
+      "researchDisposition": "CONFLICT_REVIEW",
+      "linkedRules": [
+        "Q0",
+        "Q1",
+        "Q5"
+      ],
+      "sourceCaseIds": [
+        "C10"
+      ],
+      "neededEvidence": "Which subject, independent Productness and decision/action authority.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T13",
+      "hypotheticalSubject": "AI-powered Movie Comic Car or Rocket with primary non-Info VBE",
+      "researchDisposition": "COMPETING_FAMILY_PLAUSIBLE",
+      "linkedRules": [
+        "Q1",
+        "Q5"
+      ],
+      "sourceCaseIds": [
+        "C23"
+      ],
+      "neededEvidence": "Host Product PIN and independent Product Family criteria.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T14",
+      "hypotheticalSubject": "Governed vehicle telemetry Data Product",
+      "researchDisposition": "COMPETING_FAMILY_PLAUSIBLE",
+      "linkedRules": [
+        "Q1",
+        "Q5"
+      ],
+      "sourceCaseIds": [
+        "C02"
+      ],
+      "neededEvidence": "Product Promise and applicable Data Product family qualification.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T15",
+      "hypotheticalSubject": "Governed context-aware engine-health Information Product candidate",
+      "researchDisposition": "PROVISIONAL_INFORMATION_MATCH",
+      "linkedRules": [
+        "Q0",
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5"
+      ],
+      "sourceCaseIds": [
+        "C06",
+        "C27"
+      ],
+      "neededEvidence": "Temperature/threshold semantics, Productness, eligible context and version.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T16",
+      "hypotheticalSubject": "Technical knowledge manual with ambiguous authored/reference VBE",
+      "researchDisposition": "CONFLICT_REVIEW",
+      "linkedRules": [
+        "Q1",
+        "Q5"
+      ],
+      "sourceCaseIds": [
+        "C05",
+        "C12"
+      ],
+      "neededEvidence": "Creative/reference/Information Promise; BPS classification.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T17",
+      "hypotheticalSubject": "Three independently owned PFI implementations of one Product Kind",
+      "researchDisposition": "REALIZATION_INVARIANCE_CONDITIONAL",
+      "linkedRules": [
+        "Q1",
+        "Q2",
+        "Q4"
+      ],
+      "sourceCaseIds": [
+        "C22",
+        "C26",
+        "C35"
+      ],
+      "neededEvidence": "Common semantic/contract test, distinct Product identities and governance.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T18",
+      "hypotheticalSubject": "PFI substitutes a different estimator or population",
+      "researchDisposition": "SEMANTIC_CHANGE_REVIEW",
+      "linkedRules": [
+        "Q2",
+        "Q4"
+      ],
+      "sourceCaseIds": [
+        "C24",
+        "C27",
+        "C34"
+      ],
+      "neededEvidence": "Versioned governing method, effect and permissible evolution.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T19",
+      "hypotheticalSubject": "One informational Product with variable valid request context",
+      "researchDisposition": "REALIZATION_INVARIANCE_CONDITIONAL",
+      "linkedRules": [
+        "Q2",
+        "Q4"
+      ],
+      "sourceCaseIds": [
+        "C28"
+      ],
+      "neededEvidence": "Allowed parameter envelope and relevant runtime occurrences.",
+      "qualificationIssued": false
+    },
+    {
+      "caseId": "S03-T20",
+      "hypotheticalSubject": "One shared engine serves ten separately governed Products",
+      "researchDisposition": "REALIZATION_INVARIANCE_CONDITIONAL",
+      "linkedRules": [
+        "Q0",
+        "Q4"
+      ],
+      "sourceCaseIds": [
+        "C25",
+        "C36"
+      ],
+      "neededEvidence": "Per-Product identity, Promise, bindings and evidence.",
+      "qualificationIssued": false
+    }
+  ],
+  "applicability": "logical examples only; no actual Products assessed"
+}

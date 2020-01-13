@@ -18,3 +18,7 @@ The non-normative [Stage 1 ontology review and hypothesis dispositions](./p01-st
 ## Stage 2 - PIN differentiation and falsification
 
 The new [Stage 2 research baseline](./p01-stage-02-pin-differentiation-falsification.md) challenges over-broad Product-family proxies using the [36-case disposition ledger](./p01-stage-02-case-disposition-ledger.md), [three-enterprise PFI controlled experiments](./p01-stage-02-cross-enterprise-realization-tests.md) and [hypothesis decisions / S03 gates](./p01-stage-02-hypothesis-dispositions.md). These are proposed review conclusions, not normative Information Product family criteria. The original S01 hypotheses and stress cases are retained for traceability.
+
+## Stage 3 - Conditional candidate qualification rules
+
+[Candidate intrinsic rules (Q0-Q5)](./p01-stage-03-candidate-qualification-rules.md), [review decision procedure](./p01-stage-03-decision-procedure.md), [20 boundary probes](./p01-stage-03-boundary-casework.md), [PFI invariance protocol](./p01-stage-03-pfi-semantic-invariance.md), and [open owner decisions](./p01-stage-03-review-decisions.md) develop a possible necessary-and-sufficient target **without claiming joint sufficiency or Product certification**. The [original and refined crude-oil-to-driver analogy](../foundations/crude-oil-to-driver-teaching-analogy.md) is recorded as an informative teaching model; it does not redefine GEARM or create a mandatory Data → Information → Intelligence pipeline.

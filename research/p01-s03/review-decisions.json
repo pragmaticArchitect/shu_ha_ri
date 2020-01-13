@@ -1,0 +1,75 @@
+{
+  "project": "INFOPS",
+  "stage": "P01-S03",
+  "normative": false,
+  "ownerAccepted": false,
+  "qualificationDecisionsIssued": false,
+  "actualProductsQualified": 0,
+  "count": 9,
+  "decisions": [
+    {
+      "decisionId": "S03-D01",
+      "recommendation": "Retain original and refined oil-to-driver analogy as informative educational model, not a Product ontology.",
+      "state": "PROPOSED",
+      "ownerAccepted": false
+    },
+    {
+      "decisionId": "S03-D02",
+      "recommendation": "Maintain separately established BPS Productness of the exact assessed subject as qualification precondition Q0.",
+      "state": "PROPOSED",
+      "ownerAccepted": false
+    },
+    {
+      "decisionId": "S03-D03",
+      "recommendation": "Challenge primary bounded/coherent governed Information Proposition as candidate VBE Q1.",
+      "state": "PROPOSED",
+      "ownerAccepted": false
+    },
+    {
+      "decisionId": "S03-D04",
+      "recommendation": "Challenge meaning-bearing semantic constitution independent of runtime engine ownership as candidate Q2.",
+      "state": "PROPOSED",
+      "ownerAccepted": false
+    },
+    {
+      "decisionId": "S03-D05",
+      "recommendation": "Challenge governed consumable informational EVC independent of API, execution mode, or medium as candidate Q3.",
+      "state": "PROPOSED",
+      "ownerAccepted": false
+    },
+    {
+      "decisionId": "S03-D06",
+      "recommendation": "Establish identity/version/occurrence distinction and PIN invariants Q4 without repository/deployment conflation.",
+      "state": "PROPOSED",
+      "ownerAccepted": false
+    },
+    {
+      "decisionId": "S03-D07",
+      "recommendation": "Keep ambiguous Data/Information and multi-primary/compound Q5 cases unresolved without real governing evidence.",
+      "state": "PROPOSED",
+      "ownerAccepted": false
+    },
+    {
+      "decisionId": "S03-D08",
+      "recommendation": "Treat approved PFI golden path substitution as family invariant only under semantic/contract preservation.",
+      "state": "PROPOSED",
+      "ownerAccepted": false
+    },
+    {
+      "decisionId": "S03-D09",
+      "recommendation": "Retain S03 conjunction and results as owner-review research only; prove sufficiency, pin authorities before future release.",
+      "state": "PROPOSED",
+      "ownerAccepted": false
+    }
+  ],
+  "upstreamS02Decisions": "S02-D01 through S02-D06 remain PROPOSED; no implicit acceptance",
+  "outstandingGates": [
+    "Data/Information rich semantics",
+    "interactive proposition-family coherence",
+    "Compound and independent promises",
+    "Knowledge and creative/technical publication",
+    "Pinned source authority versions",
+    "Empirical PFI semantic/contract equivalence",
+    "Proof of necessary and joint sufficient conditions"
+  ]
+}

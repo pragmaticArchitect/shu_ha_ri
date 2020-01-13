@@ -1,0 +1,59 @@
+{
+  "project": "INFOPS",
+  "stage": "P01-S03",
+  "normative": false,
+  "ownerAccepted": false,
+  "qualificationDecisionsIssued": false,
+  "actualProductsQualified": 0,
+  "document": "docs/foundations/crude-oil-to-driver-teaching-analogy.md",
+  "usage": "INFORMATIVE_TEACHING_ONLY",
+  "count": 5,
+  "elements": [
+    {
+      "term": "Data",
+      "analogy": "Crude oil",
+      "originalCharacterization": "Raw material / source observations",
+      "refinement": "Data represent observations or subject matter; raw Data need not be meaningless."
+    },
+    {
+      "term": "Curated Data",
+      "analogy": "Refined oil",
+      "originalCharacterization": "Structured and standardized material",
+      "refinement": "Curated Data may itself already be valuable and productized."
+    },
+    {
+      "term": "Information",
+      "analogy": "Fuel in motion, combustion and dashboard reading",
+      "originalCharacterization": "Contextualized material; data given purpose and meaning",
+      "refinement": "Combustion illustrates activity; contextualized dashboard indication better illustrates Information. No compulsory engine internal to Product."
+    },
+    {
+      "term": "Knowledge",
+      "analogy": "Roadmap and manual",
+      "originalCharacterization": "Stored experience and understanding",
+      "refinement": "The manual represents knowledge; knowledge can also be tacit and inform Information formation."
+    },
+    {
+      "term": "Intelligence",
+      "analogy": "Pilot or driver",
+      "originalCharacterization": "Active capability to interpret and respond",
+      "refinement": "Intelligence may be human or artificial, does not automatically imply an AI Product, autonomy or authority to act."
+    }
+  ],
+  "originalEducationalLines": [
+    "Information is a state of Data (data given meaning and context).",
+    "Intelligence is an active capability (ability to process and apply meaning).",
+    "Without fuel the driver is stranded; without a driver fuel alone does not accomplish the journey."
+  ],
+  "refinedTeachingLine": "Data represents. Information conveys interpreted meaning. Knowledge supports retained understanding. Intelligence is a capacity to reason, adapt and respond.",
+  "notNormativeGuardrails": [
+    "No mandatory raw Data -> Information -> Knowledge -> Intelligence pipeline",
+    "Combustion is not itself Information",
+    "Raw or curated Data may be meaningful and useful",
+    "Information reuse is not literal physical fuel consumption",
+    "Knowledge is not only an external manual",
+    "Intelligence does not automatically authorize consequential action",
+    "Being AI-created or AI-powered is not equivalent to AI Product qualification",
+    "A teaching analogy cannot decide Productness or Product Family"
+  ]
+}

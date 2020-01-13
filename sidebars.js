@@ -6,7 +6,8 @@ module.exports = {
       'specification/overview','specification/status','specification/roadmap',
     ]},
     {type: 'category', label: 'Foundations & authority', items: [
-      'foundations/authority-map','ontology/overview','ontology/qualification-boundary',
+      'foundations/authority-map','foundations/crude-oil-to-driver-teaching-analogy',
+      'ontology/overview','ontology/qualification-boundary',
       'ontology/p01-stage-01-authority-and-ontology-baseline',
       'ontology/p01-stage-01-classification-cases',
       'ontology/p01-stage-01-ontology-review',
@@ -15,6 +16,11 @@ module.exports = {
       'ontology/p01-stage-02-case-disposition-ledger',
       'ontology/p01-stage-02-cross-enterprise-realization-tests',
       'ontology/p01-stage-02-hypothesis-dispositions',
+      'ontology/p01-stage-03-candidate-qualification-rules',
+      'ontology/p01-stage-03-decision-procedure',
+      'ontology/p01-stage-03-boundary-casework',
+      'ontology/p01-stage-03-pfi-semantic-invariance',
+      'ontology/p01-stage-03-review-decisions',
     ]},
     {type: 'category', label: 'Information Product characteristics', items: [
       'infopch/overview',
