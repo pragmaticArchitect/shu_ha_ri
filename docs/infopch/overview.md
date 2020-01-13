@@ -5,7 +5,7 @@ description: Experimental 16-characteristic catalogue for the bounded INFOPS 0.1
 
 # Information Product Characteristics (IPCH)
 
-> **Status — APPROVED EXPERIMENTAL E0 CATALOGUE; NON-NORMATIVE RESEARCH.** The accountable owner approved `INFOPS-0.1-IPCH-P01-D01-F01` (F01.1–F01.16) as the **16-characteristic catalogue**. D02–D05 subsequently established experimental assessment and guidance controls. For IPCH01, D07–D10 accepted a guidance draft, its revision and a G2 PASS / G3 PASS_WITH_QUALIFICATIONS documentary review. IPCH02 First-Pass mandatory criteria were accepted under D11 and its experimental guidance draft under D12. IPCH03 First-Pass mandatory criteria were accepted under D13 and its experimental guidance draft under D14. IPCH04 First-Pass mandatory criteria were accepted under D15 and its experimental guidance draft under D16. **Outstanding Second-Pass work remains; no individual guide is finally approved.** This page does not verify live repository adoption or authorize a normative release.
+> **Status — APPROVED EXPERIMENTAL E0 CATALOGUE; NON-NORMATIVE RESEARCH.** The accountable owner approved `INFOPS-0.1-IPCH-P01-D01-F01` (F01.1–F01.16) as the **16-characteristic catalogue**. D02–D05 subsequently established experimental assessment and guidance controls. For IPCH01, D07–D10 accepted a guidance draft, its revision and a G2 PASS / G3 PASS_WITH_QUALIFICATIONS documentary review. IPCH02 First-Pass mandatory criteria were accepted under D11 and its experimental guidance draft under D12. IPCH03 First-Pass mandatory criteria were accepted under D13 and its experimental guidance draft under D14. IPCH04 First-Pass mandatory criteria were accepted under D15 and its experimental guidance draft under D16. IPCH05 First-Pass mandatory criteria were accepted under D17 and its experimental guidance draft under D18. IPCH06 First-Pass mandatory criteria were accepted under D19 and its experimental guidance draft under D20. IPCH07 First-Pass mandatory criteria were accepted under D21 and its experimental guidance draft under D22. IPCH08 First-Pass mandatory criteria were accepted under D23 and its experimental guidance draft under D24. IPCH09 First-Pass mandatory criteria were accepted under D25 and its experimental guidance draft under D26. **Outstanding Second-Pass work remains; no individual guide is finally approved.** This page does not verify live repository adoption or authorize a normative release.
 
 ![Radial infographic depicting sixteen Information Product characteristics, from Domain-Owned through Interoperable & Composable.](/img/information-product-characteristics-ipch-0.1.png)
 
@@ -47,21 +47,31 @@ Potential consumers can locate the Information Product, identify its intended in
 
 ### IPCH05 — Self-Describing
 
+**[Read the experimental IPCH05 Self-Describing PMDD guidance](./IPCH05.md)** (`FIRST-PASS-DRAFT-01`; accepted under D18; Second-Pass review outstanding). [Research and publication status](./ipch05-research-status.md).
+
 The Product makes its identity, governing Promise, semantic definitions, analytical scope, provenance, dependencies, interfaces and known usage constraints understandable without repeated producer intervention. This is primarily **Product-level intelligibility**; explanation of a particular analytical conclusion is addressed distinctly under IPCH15.
 
 ### IPCH06 — Trustworthy
+
+**[Read the experimental IPCH06 Trustworthy PMDD guidance](./IPCH06.md)** (`FIRST-PASS-DRAFT-01`; accepted under D20; Second-Pass review outstanding). [Research and publication status](./ipch06-research-status.md).
 
 Confidence in the promised Information is supported by appropriate, current, inspectable evidence, including applicable informational quality, provenance, assurance and dependency states. For Information Products, **analytical-method validity** and **epistemic integrity** (including evidence-calibrated claims and uncertainty) remain explicit maturity concerns *within* Trustworthy, rather than separate top-level IPCH entries. Good metadata or operational monitoring must not conceal a materially invalid analysis.
 
 ### IPCH07 — Reusable
 
+**[Read the experimental IPCH07 Reusable PMDD guidance](./IPCH07.md)** (`FIRST-PASS-DRAFT-01`; accepted under D22; Second-Pass review outstanding). [Research and publication status](./ipch07-research-status.md).
+
 The Information Product can serve multiple appropriate consumers or analytical situations without bespoke producer intervention for each use. Reuse must preserve the governing semantic and usage boundaries; the ability to reuse an output does not imply that all possible downstream compositions are appropriate.
 
 ### IPCH08 — SLA–SLO Backed & Observable
 
+**[Read the experimental IPCH08 SLA–SLO Backed & Observable PMDD guidance](./IPCH08.md)** (`FIRST-PASS-DRAFT-01`; accepted under D24; Second-Pass reviews outstanding). [Research and publication status](./ipch08-research-status.md).
+
 The Information Product expresses appropriate consumption/service commitments and provides evidence for assessing delivery performance, availability, timeliness and relevant operational conditions. Observability supports informed consumption but is separate from proving the semantic correctness of every Information occurrence.
 
 ### IPCH09 — Compliant by Design
+
+**[Read the experimental IPCH09 Compliant by Design PMDD guidance](./IPCH09.md)** (`FIRST-PASS-DRAFT-01`; accepted under D26; Second-Pass review outstanding). [Research and publication status](./ipch09-research-status.md).
 
 Applicable governance, legal, policy and access constraints are bound to the Product and enforceable through the responsible systems and contracts. Information-specific **context-safe usage** belongs here and in IPCH12; an Information Product does not thereby acquire authority over every consequential action taken by a downstream consumer.
 

@@ -1,0 +1,53 @@
+{
+  "overlay": "INFOPS-0.1-IPCH08-FIRST-PASS",
+  "date": "2019-11-17",
+  "baseline": "INFOPS-0.1-IPCH07-First-Pass-overlay-2019-11-17.zip (prepared; live deployment unconfirmed)",
+  "decisions": [
+    "INFOPS-0.1-IPCH-P01-D23-F01 APPROVED_EXPERIMENTAL_E0",
+    "INFOPS-0.1-IPCH-P01-D24-F01 APPROVED_EXPERIMENTAL_E0"
+  ],
+  "guide": "IPCH08.md FIRST-PASS-DRAFT-01 DRAFT_PREPARED_ACCEPTED",
+  "publication": "PENDING_OPERATOR_DEPLOYMENT",
+  "normative_release": "NOT_AUTHORIZED",
+  "previous_ipch01_ipch03": "DEPLOYED_EXPERIMENTAL_USER_CONFIRMED",
+  "ipch04_ipch07": "OVERLAYS_PREPARED_DEPLOYMENT_NOT_CONFIRMED",
+  "ipch01_g4_g6": "NOT_EXECUTED",
+  "second_pass": "NOT_STARTED",
+  "adversarial_cases": "OBS-A01-OBS-A12_UNEXECUTED",
+  "open_research": "OBS-R01-OBS-R08_OPEN",
+  "obs_r02": "OPEN_DPCH08_PARTIAL_VS_NOT_MET",
+  "obs_r03": "OPEN_AIPCH09_DASHBOARDS_WITHOUT_SLO",
+  "obs_r05": "OPEN_PMDD_AUTOMATED_EXECUTION_SCOPE",
+  "observability": "RUNTIME_INFORMATIONAL_AND_RECURRING_AUTOMATED_PMDD_REQUIRED",
+  "pmdd_execution": "NOT_ESTABLISHED",
+  "anti_circularity": "PRESERVED",
+  "parent_open_obligations": 24,
+  "parent_g06_e0_designs": "62_APPROVED_UNEXECUTED",
+  "parent_e1_e2_executions": 0,
+  "files": {
+    "docs/infopch/IPCH08.md": {
+      "sha256": "f70501f702d209e20f75835e08a2558b575d31de51658f3e095ac4cbfad69cfe",
+      "bytes": 35777
+    },
+    "docs/infopch/ipch08-research-status.md": {
+      "sha256": "8f7b6ce98b75ad88c18a701ee2b403198e738782349d57451cd426aab1377fb5",
+      "bytes": 6045
+    },
+    "docs/infopch/overview.md": {
+      "sha256": "f115d1c7a4bf39f9ed639d0028ffea3b276d85fced45315d6edbf1a88416c511",
+      "bytes": 15439
+    },
+    "docs/pmdd/ipch-maturity-guidance.md": {
+      "sha256": "e328d5a816176a9b55fcb52200768eeaa069e164dba26a5e32468a8f2db754bd",
+      "bytes": 7449
+    },
+    "sidebars.js": {
+      "sha256": "8bba37e2bf9ec0cbd0881e758d56ae3bb2a94d67bd973074d9a720a69631c714",
+      "bytes": 3919
+    },
+    "src/pages/INFOPCH-PMDD-guidance/index.md": {
+      "sha256": "84b406bb3c64ba81e9bb05151196563c0ba51c91a77596a1769215f3a6f9bcc0",
+      "bytes": 2756
+    }
+  }
+}
