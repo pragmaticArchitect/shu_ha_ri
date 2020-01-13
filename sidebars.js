@@ -43,8 +43,6 @@ module.exports = {
       'ontology/p01-stage-04-g07-closure-record',
       'ontology/p01-stage-04-s04-owner-approved-decisions',
       'ontology/p01-stage-04-s04-conditional-closure-effect',
-      'ontology/p01-stage-04-v01-owner-approved-decisions',
-      'ontology/p01-stage-04-v01-verification-activity',
     ]},
     {type: 'category', label: 'Information Product characteristics', items: [
       'infopch/overview',
@@ -59,7 +57,10 @@ module.exports = {
       'integration/hdip-upos','reference-implementation/overview',
     ]},
     {type: 'category', label: 'Governance & reference', items: [
-      'governance/infops-p01-s04-prospective-research-closure-instrument','governance/infops-research-stage-mandate','governance/change-control','governance/contributing','reference/glossary',
+      'governance/change-control','governance/contributing',
+      'governance/infops-p01-s04-ta01-pc01-pc10-owner-assessments',
+      'governance/infops-p01-s04-pc10-owner-approved-pending-effect',
+      'reference/glossary',
     ]},
   ],
 };
