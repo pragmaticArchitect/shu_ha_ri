@@ -1,0 +1,144 @@
+{
+  "recordId": "INFOPS-P01-S04-TA01-EVAL-01-10-OWNER-DISPOSITIONS-0.1",
+  "classification": "NON_NORMATIVE_OWNER_APPROVED_ASSESSMENT_PROJECTION",
+  "programme": "INFOPS-0.1",
+  "stage": "P01-S04",
+  "track": "A",
+  "asOf": "2026-11-07",
+  "source": "Owner dispositions in the conversation; editorial summary, not verbatim original transcript or independent Git audit.",
+  "governingMandate": "INFOPS-GOV-MANDATE-0.1",
+  "prospectiveInstrument": "INFOPS-P01-S04-PCI-0.1",
+  "instrumentGitProvenance": {
+    "ownerReportedSha": "5604d3e017e618c554079c73f3abbb29b897e00a",
+    "effectiveDateOwnerDeclared": "2026-11-06",
+    "effectiveDateRevisionGitUpdate": "OWNER_REPORTED_COMMITTED",
+    "branch": "NOT_RECORDED",
+    "exactCommitContentVerification": "NOT_PERFORMED",
+    "effectiveDateRule": "Do not backdate before qualifying instrument adoption event"
+  },
+  "fourIndependentApprovalLedgers": {
+    "g01ThroughG07Substantive": 65,
+    "s04C01ThroughC06Consolidation": 6,
+    "s04V01F01ThroughF07Verification": 7,
+    "ta01F01ThroughF07Governance": 7
+  },
+  "assessmentSubledger": [
+    {
+      "decisionId": "TA01-EVAL-01-F01",
+      "criterion": "PC-01",
+      "ownerDisposition": "APPROVE",
+      "criterionAssessment": "SATISFIED",
+      "assurance": "OWNER_ATTESTED_INTERNAL_GOVERNANCE",
+      "summary": "Competent internal research-stage governance authority",
+      "approvedClauses": "F01.1-F01.9",
+      "authority": "OWNER_CONVERSATION_DISPOSITION",
+      "independentRepositoryAudit": false
+    },
+    {
+      "decisionId": "TA01-EVAL-02-F01",
+      "criterion": "PC-02",
+      "ownerDisposition": "AMEND_ACCEPTED",
+      "criterionAssessment": "SATISFIED",
+      "assurance": "OWNER_ATTESTED_DOCUMENTARY_PROVENANCE_QUALIFIED",
+      "summary": "Prospective instrument and effective-date integrity",
+      "approvedClauses": "F01.1-F01.10",
+      "authority": "OWNER_CONVERSATION_DISPOSITION",
+      "independentRepositoryAudit": false
+    },
+    {
+      "decisionId": "TA01-EVAL-03-F01",
+      "criterion": "PC-03",
+      "ownerDisposition": "APPROVE",
+      "criterionAssessment": "SATISFIED",
+      "assurance": "OWNER_ATTESTED_PROSPECTIVE_GOVERNANCE",
+      "summary": "Historical C06 reconciliation",
+      "approvedClauses": "F01.1-F01.12",
+      "authority": "OWNER_CONVERSATION_DISPOSITION",
+      "independentRepositoryAudit": false
+    },
+    {
+      "decisionId": "TA01-EVAL-04-F01",
+      "criterion": "PC-04",
+      "ownerDisposition": "APPROVE",
+      "criterionAssessment": "SATISFIED",
+      "assurance": "OWNER_APPROVED_BOUNDED_RESEARCH_RECORD",
+      "summary": "Bounded exploratory research completion",
+      "approvedClauses": "F01.1-F01.13",
+      "authority": "OWNER_CONVERSATION_DISPOSITION",
+      "independentRepositoryAudit": false
+    },
+    {
+      "decisionId": "TA01-EVAL-05-F01",
+      "criterion": "PC-05",
+      "ownerDisposition": "APPROVE",
+      "criterionAssessment": "SATISFIED",
+      "assurance": "OWNER_APPROVED_BOUNDED_HISTORICAL_RECORD_ASSURANCE",
+      "summary": "Historical record fidelity",
+      "approvedClauses": "F01.1-F01.14",
+      "authority": "OWNER_CONVERSATION_DISPOSITION",
+      "independentRepositoryAudit": false
+    },
+    {
+      "decisionId": "TA01-EVAL-06-F01",
+      "criterion": "PC-06",
+      "ownerDisposition": "APPROVE",
+      "criterionAssessment": "SATISFIED",
+      "assurance": "OWNER_ATTESTED_BOUNDED_PROSPECTIVE_RISK_DISPOSITION",
+      "summary": "Original-authority and audit-gap disposition",
+      "approvedClauses": "F01.1-F01.16",
+      "authority": "OWNER_CONVERSATION_DISPOSITION",
+      "independentRepositoryAudit": false
+    },
+    {
+      "decisionId": "TA01-EVAL-07-F01",
+      "criterion": "PC-07",
+      "ownerDisposition": "APPROVE",
+      "criterionAssessment": "SATISFIED",
+      "assurance": "OWNER_APPROVED_BOUNDED_ONTOLOGY_UNCERTAINTY_PRESERVATION",
+      "summary": "Ontology uncertainty preservation",
+      "approvedClauses": "F01.1-F01.16",
+      "authority": "OWNER_CONVERSATION_DISPOSITION",
+      "independentRepositoryAudit": false
+    },
+    {
+      "decisionId": "TA01-EVAL-08-F01",
+      "criterion": "PC-08",
+      "ownerDisposition": "APPROVE",
+      "criterionAssessment": "SATISFIED",
+      "assurance": "OWNER_APPROVED_E0_E1_E2_EVIDENCE_BOUNDARY_PRESERVATION",
+      "summary": "Empirical evidence and non-execution integrity",
+      "approvedClauses": "F01.1-F01.17",
+      "authority": "OWNER_CONVERSATION_DISPOSITION",
+      "independentRepositoryAudit": false
+    },
+    {
+      "decisionId": "TA01-EVAL-09-F01",
+      "criterion": "PC-09",
+      "ownerDisposition": "APPROVE",
+      "criterionAssessment": "SATISFIED",
+      "assurance": "OWNER_APPROVED_RESIDUAL_OBLIGATION_PRESERVATION",
+      "summary": "Outstanding obligation preservation",
+      "approvedClauses": "F01.1-F01.16",
+      "authority": "OWNER_CONVERSATION_DISPOSITION",
+      "independentRepositoryAudit": false
+    },
+    {
+      "decisionId": "TA01-EVAL-10-F01",
+      "criterion": "PC-10",
+      "ownerDisposition": "APPROVE",
+      "criterionAssessment": "OWNER_DECISION_APPROVED_CLOSURE_NOT_EFFECTIVE",
+      "assurance": "OWNER_APPROVED_PENDING_QUALIFYING_GIT_ADOPTION",
+      "summary": "Prospective conditional research-stage closure authorization",
+      "approvedClauses": "F01.1-F01.18",
+      "authority": "OWNER_CONVERSATION_DISPOSITION",
+      "independentRepositoryAudit": false
+    }
+  ],
+  "assessmentCount": 10,
+  "finalAssessment": {
+    "pc01ThroughPc09": "SATISFIED_AT_RECORDED_BOUNDED_ASSURANCE",
+    "pc10OwnerDisposition": "APPROVE",
+    "pc10ClosureEffect": "APPROVED_NOT_EFFECTIVE"
+  },
+  "actualEffectiveS04Status": "NOT_CLOSED"
+}

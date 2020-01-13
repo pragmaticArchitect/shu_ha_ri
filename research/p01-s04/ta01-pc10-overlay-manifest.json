@@ -1,0 +1,24 @@
+{
+  "name": "INFOPS P01-S04 TA01 PC01-PC10 owner-approved pending-effect overlay",
+  "overlayVersion": "0.1",
+  "asOf": "2026-11-07",
+  "fileCount": 6,
+  "additionOnly": true,
+  "knownHistoricalRepoBaselineNotIndependentlyMatchedToLive": true,
+  "currentEffectiveStage": "NOT_CLOSED",
+  "pc10": "APPROVED_NOT_EFFECTIVE",
+  "files": [
+    "shu_ha_ri/docs/governance/infops-p01-s04-pc10-owner-approved-pending-effect.md",
+    "shu_ha_ri/docs/governance/infops-p01-s04-ta01-pc01-pc10-owner-assessments.md",
+    "shu_ha_ri/research/p01-s04/ta01-pc01-pc10-owner-assessment-ledger.json",
+    "shu_ha_ri/research/p01-s04/ta01-pc10-prospective-closure-effect.json",
+    "shu_ha_ri/scripts/validate-infops-p01-s04-ta01-pc10.py",
+    "shu_ha_ri/research/p01-s04/ta01-pc10-overlay-manifest.json"
+  ],
+  "limitations": [
+    "No qualifying PC-10 Git commit evidenced",
+    "No stage closure made effective",
+    "No runtime execution or normative authorization",
+    "No current deployed repository parity verified"
+  ]
+}

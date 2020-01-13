@@ -1,0 +1,133 @@
+{
+  "recordId": "INFOPS-P01-S04-TA01-EVAL-10-F01-CLOSURE-EFFECT-0.1",
+  "classification": "OWNER_APPROVED_PROSPECTIVE_CLOSURE_NOT_YET_EFFECTIVE",
+  "asOf": "2026-11-07",
+  "sourceDecision": "TA01-EVAL-10-F01",
+  "ownerDisposition": "APPROVE",
+  "approvedClauses": "F01.1-F01.18",
+  "authorizedUnder": "INFOPS-P01-S04-PCI-0.1",
+  "constitutiveMandate": "INFOPS-GOV-MANDATE-0.1",
+  "approvedTarget": "CLOSED_CONDITIONAL_RESEARCH (ONTOLOGY_AND_NORMATIVE_READINESS_UNRESOLVED)",
+  "approvalState": "APPROVED_NOT_EFFECTIVE",
+  "actualEffectiveS04Status": "NOT_CLOSED",
+  "effectuation": {
+    "qualifyingCommit": "NOT_ESTABLISHED",
+    "qualifyingGitBranch": "NOT_RECORDED",
+    "actualAdoptionDate": "NOT_ESTABLISHED",
+    "actualClosureEffectiveDate": "NOT_ESTABLISHED",
+    "rule": "No earlier than owner approval, valid instrument effectiveness, first qualifying Git commit of approved PC-10 closure record on governing branch, and satisfaction of applicable mandatory conditions; if a later date is explicitly set it governs.",
+    "commitOfThisPreparedOverlayIsNotAutomaticallyVerified": "TRUE",
+    "knownApplicableMandatoryPrerequisiteCheck": "REQUIRED_BEFORE_EFFECT"
+  },
+  "historicalC06": {
+    "status": "APPROVED_NOT_EFFECTIVE",
+    "safeguards": [
+      "C06-F01.6",
+      "C06-F01.29"
+    ],
+    "noRetroactiveActivation": true
+  },
+  "originalAuthority": {
+    "charterAndAmendments": "NOT_VERIFIED",
+    "completeBindingCriteria": "NOT_ESTABLISHED",
+    "criterionApplicability": "NOT_VERIFIED",
+    "criterionSatisfaction": "NOT_PERFORMED",
+    "c02IndependentRepositoryAudit": "NOT_ESTABLISHED",
+    "ra01": "ACCEPTED_BOUNDED_UNRESOLVED",
+    "ra02": "ACCEPTED_BOUNDED_UNRESOLVED",
+    "materialContradictionGate": "MUST_RESOLVE_BEFORE_CLOSURE_EFFECT"
+  },
+  "v01": {
+    "generalActivity": "VERIFICATION_ACTIVITY_SUSPENDED_CONDITIONAL",
+    "series": "NOT_CLOSED"
+  },
+  "research": {
+    "q0": "BPS_PIN_INDEPENDENT_PRODUCTNESS",
+    "q1ToQ4UniversalNecessity": "NOT_ESTABLISHED",
+    "q0ToQ4JointSufficiency": "NOT_ESTABLISHED_NOT_FORMALLY_DISPROVEN",
+    "q5": "INDEPENDENT_COMPETING_FAMILY_AND_COMPOUND_ADJUDICATION",
+    "unresolvedFalsifications": [
+      "F06",
+      "F14",
+      "F16"
+    ],
+    "unresolvedEnrichedDataInformationCases": [
+      "C02",
+      "C21"
+    ],
+    "unresolvedMultiPromiseCompoundCases": [
+      "C12",
+      "C18",
+      "C31"
+    ],
+    "originalEvidenceFamilies": [
+      "C01-C36",
+      "F01-F16",
+      "S03-T01-T20"
+    ],
+    "originalPfiProbes": "PFI-F1-F10_ORIGINALLY_UNEXECUTED",
+    "g05AdversarialProbes": "G05-D07-X01-X16_APPROVED_E0_UNEXECUTED",
+    "g06E0Designs": {
+      "FX": 16,
+      "PE": 12,
+      "NE": 22,
+      "TR": 12,
+      "total": 62,
+      "execution": "UNEXECUTED"
+    },
+    "e1ActualReferenceExecutions": 0,
+    "e2ActualIntegratedPfiExecutions": 0
+  },
+  "obligations": {
+    "G06-RO01-RO12": "ALL_OPEN",
+    "G03-R01-R12": "ALL_OPEN",
+    "totalOpen": 24,
+    "discharged": 0
+  },
+  "independentAuthorityFamilies": [
+    "BPS/PIN",
+    "GEARM/GEARA",
+    "Data",
+    "AI/Intelligence",
+    "Service",
+    "Creative",
+    "Compound",
+    "BPS DPP Core",
+    "UPOS/PFI/HDIP",
+    "policy/legal",
+    "A1-A9"
+  ],
+  "prohibitedInferences": [
+    "NORMATIVE_INFOPS_READINESS",
+    "PRODUCT_FAMILY_QUALIFICATION",
+    "EMPIRICAL_CONFORMANCE",
+    "NORMATIVE_SOURCE_SCHEMA_ADOPTION",
+    "PASSPORT_OR_MATURITY_APPROVAL",
+    "TRACK_B_AUTHORIZATION",
+    "V01_REACTIVATION",
+    "RELEASE_AUTHORIZATION"
+  ],
+  "identitySeparation": [
+    "Product Kind",
+    "Product instance",
+    "Product Version",
+    "Information Proposition",
+    "semantic definition",
+    "semantic Version",
+    "realization revision",
+    "provider/contract Version",
+    "Realization Plan",
+    "Blueprint Binding",
+    "Compilation Record",
+    "execution occurrence",
+    "Information occurrence",
+    "assessment subject/claim",
+    "evidence/provenance",
+    "verification",
+    "evaluation",
+    "accountable determination",
+    "historical Version applicability",
+    "latest Version",
+    "present eligibility/currentness"
+  ]
+}
