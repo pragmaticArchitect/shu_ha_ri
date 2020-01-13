@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - Release Holds
 
 # G03 conditional closure: normative release blockers
 
-> **G03–G06 RESEARCH GATES CONDITIONALLY CLOSED (2 NOVEMBER 2026); NORMATIVE ADOPTION NOT READY.** G06 E0-design-only closure does not discharge any G03-R01–R12 hold, imply E1/E2 execution, or initiate G07. All holds remain OPEN.
+> **CURRENT RESEARCH STATUS — 3 NOVEMBER 2026.** G03–G07 conditionally closed at research level. G06 `E0_DESIGN_ONLY`; G07 `NORMATIVE_READINESS_NOT_ESTABLISHED`. All G03-R01–R12 remain OPEN; E1/E2 are zero, S04 NOT_CLOSED and normative release NOT_AUTHORIZED.
 
 ## Tracked release holds
 
@@ -47,3 +47,8 @@ sidebar_label: P01-S04 - Release Holds
 | INFOPS 0.1 normative publication | **NOT AUTHORIZED** |
 
 The structured owner-reviewed hold record is `research/p01-s04/normative-release-holds.json`; it is a research-management artifact, not a machine-readable INFOPS qualification standard.
+
+
+## G07 normative-readiness reconciliation — 3 November 2026
+
+`G07-D07-F01` and `G07-D08-F01` were owner-approved. The G07 research gate is `CLOSED_CONDITIONAL_RESEARCH (NORMATIVE_READINESS_NOT_ESTABLISHED)`; **every hold R01–R12 above remains OPEN**, without waiver or risk acceptance. Source pins and INFOPROD, INFOPDS, Information DPP Profile and INFOPCH/PMDD normative governance remain unadopted. G06 residual obligations RO01–RO12 remain OPEN; 62 G06 E0 designs, E1=0 and E2=0. See [G07 closure](./p01-stage-04-g07-closure-record.md). S04 is NOT_CLOSED and normative publication is NOT_AUTHORIZED.

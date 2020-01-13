@@ -3,47 +3,42 @@ title: P01 Stage 4 - Owner-Reviewed Research Overview
 sidebar_label: P01-S04 - Overview
 ---
 
-# INFOPS-P01-S04 - Qualification Boundary Reconciliation
+# INFOPS-P01-S04 — Qualification boundary reconciliation
 
-> **CURRENT OWNER-APPROVED CONDITIONAL RESEARCH — 2 NOVEMBER 2026.** G01–G06 closed at research level; G06 E0 design-only closure after eight approvals. G07 NOT_STARTED. All twelve normative release holds OPEN; no E1/E2 executions or normative release.
+> **OWNER-APPROVED CONDITIONAL RESEARCH — 3 NOVEMBER 2026.** G01–G07 research gates closed (G06 E0 design-only; G07 normative readiness not established). All **65** substantive research decisions approved. **S04 remains NOT_CLOSED**. All twelve G03 normative-release holds and twelve G06 residual obligations remain OPEN; no E1/E2 executions and no normative release.
 
-## Stage 4 programme position
+## Current gate position
 
-| Gate | Current state | Research-only limitation |
-|---|---|---|
-| G01 | Closed — 15/15 approved S02/S03 antecedents | Productness or normative qualification not conferred |
-| G02 | Closed conditional research — 7/7 | Q1–Q4 necessity and Q0–Q4 sufficiency unproven |
-| G03 | Closed conditional research — 10/10 | Canonical authoritative source adoption blocked |
-| G04 | Closed conditional research — 9/9 | Family/Compound and falsification ambiguity remains |
-| **G05** | **CLOSED_CONDITIONAL_RESEARCH — 8/8** | Qualification, fidelity, DPP, maturity, assurance, fitness and authorization do not substitute for each other |
-| G06 | PENDING — NOT STARTED | No executable normative conformance adopted |
-| G07 | PENDING — NOT STARTED | No normative release authorization |
+| Gate | Owner-approved decisions | Status and limitation |
+|---|---:|---|
+| G01 | 15/15 | Closed owner-reviewed S02/S03 antecedent research; not Productness certification |
+| G02 | 7/7 | Closed conditional research; Q1–Q4 necessity and Q0–Q4 sufficiency unestablished |
+| G03 | 10/10 | Closed conditional research; all normative-release holds remain OPEN |
+| G04 | 9/9 | Closed conditional research; competing-family, Compound and falsification ambiguity preserved |
+| G05 | 8/8 | Closed conditional research; A1–A9 authority and evidence separation preserved |
+| G06 | 8/8 | `CLOSED_CONDITIONAL_RESEARCH (E0_DESIGN_ONLY)`; 62 approved unexecuted designs, E1=0, E2=0 |
+| **G07** | **8/8** | **`CLOSED_CONDITIONAL_RESEARCH (NORMATIVE_READINESS_NOT_ESTABLISHED)`** |
+| **TOTAL** | **65** | **Research approvals; no normative adoption or release** |
 
-**Decision count:** 15 + 7 + 10 + 9 + 8 = **49 distinct owner-approved research decisions**. The 15 antecedent S02/S03 approvals are counted only in G01. The eight G05 approvals were originally recorded in conversation; this overlay is their subsequent repository projection.
+The approved G07 decision-sequence plan is separate from the 65 substantive research decisions. S04 requires a separate owner-authorized stage-level decision for closure, which has **not** occurred.
 
-## Owner-reviewed research conclusions
+## Research basis and limitations
 
-- **Q0** presupposes independent BPS Productness. **Q1–Q4** universal necessity is **NOT ESTABLISHED**, their conjunction with Q0 is **NOT ESTABLISHED** as sufficient (not formally disproven), and Q5 remains procedural review.
-- BPS/PIN generic Productness and Compound authority; GEARM/GEARA Information meaning; applicable Data, AI, Service and Creative Product-family authorities remain independent.
-- Meaning/semantic declaration, Product Version, realization, execution/occurrence, conformance, evidence, DPP claims, maturity, assurance, fitness and consumer/action authorization remain independently scoped.
-- INFOPROD and INFOPDS are unadopted candidate descriptor/specification layers; HDIP HPD is a non-authoritative operational projection; BPS DPP Core needs independent source pin and a future Information DPP Profile remains only proposed.
-- Information Product maturity (INFOPCH/PMDD) is not normative, and neither trust evidence nor scores certify Productness or grant Decision/Action authority.
-- Original C01–C36, F01–F16 and S03-T01–T20 cases/dispositions unchanged. F06, F14 and F16 remain unresolved; D07-X01–X16 are owner-approved supplemental hypothetical probes, not empirically executed tests.
-- All twelve G03 normative-release holds remain OPEN. S04 overall is **NOT CLOSED**.
+- **Q0** requires independent BPS/PIN Productness. Q1–Q4 universal necessity and Q0–Q4 joint sufficiency **NOT ESTABLISHED** (not formally disproven); Q5 procedural independent competing-family/Compound and evidence adjudication.
+- **F06/F14/F16 remain UNRESOLVED.** Original C01–C36, F01–F16, S03-T01–T20, PFI-F1–F10 and G05-D07-X01–X16 retain original classification and execution status.
+- **G06 FX01–FX16, PE01–PE12, NE01–NE22 and TR01–TR12** are 62 E0-only designs. **E1 = 0, E2 = 0**, no empirical semantic-fidelity/detection claims.
+- All **G06-RO01–RO12 OPEN** and **G03-R01–R12 OPEN**. G07 reconciles them for research, but discharges none.
+- BPS/PIN Productness, GEARM semantic, GEARA analytical, independent Data/AI/Service/Creative and BPS Compound, BPS DPP, HDIP/PFI and A1–A9 competent authority remain separate.
+- INFOPROD/INFOPDS are **unadopted** candidate artifacts, HPD an operational projection, Information DPP Profile and INFOPCH/PMDD future constructs. No source pins, normative schemas or publisher authority adopted.
+- Preserve Product Kind/instance/Version, semantic definition/Version, realization/provider, compilation, execution, Information occurrence, evidence/evaluation/decision and historical/current applicability separately.
 
-## Evidence, owner decisions and release controls
+## Research documents
 
-- [G05 eight full approved substantive findings](./p01-stage-04-g05-owner-approved-decisions.md), [G05 D07 adversarial probes](./p01-stage-04-g05-adversarial-probes.md), [G05 owner gate closure](./p01-stage-04-g05-closure-record.md) and [G05 review sequence](./p01-stage-04-g05-plan.md).
-- [S04 master owner-decision register G01–G05](./p01-stage-04-owner-decisions.md).
-- [G04 historical owner-approved findings](./p01-stage-04-g04-owner-approved-decisions.md) and [G04 closure snapshot](./p01-stage-04-g04-closure-record.md), [original G04 proposed plan](./p01-stage-04-g04-plan.md).
-- [S04-G01 closure basis](./p01-stage-04-g01-closure-basis.md), [S02 approvals](./p01-stage-02-owner-approved-decisions.md), [S03 approvals](./p01-stage-03-owner-approved-decisions.md).
-- [Source authorities](./p01-stage-04-source-authorities.md), [artifact boundaries](./p01-stage-04-artifact-boundaries.md), [all twelve G03 release holds](./p01-stage-04-release-holds.md).
+- [G07 eight owner-approved findings](./p01-stage-04-g07-owner-approved-decisions.md) and [G07 conditional closure](./p01-stage-04-g07-closure-record.md).
+- [G06 eight owner-approved findings](./p01-stage-04-g06-owner-approved-decisions.md), [G06 E0 fixture designs](./p01-stage-04-g06-research-designs.md) and [G06 conditional closure](./p01-stage-04-g06-closure-record.md).
+- [S04 owner-decision register](./p01-stage-04-owner-decisions.md) and [G03 normative-release holds](./p01-stage-04-release-holds.md).
+- [Source authorities](./p01-stage-04-source-authorities.md) and [artifact boundaries](./p01-stage-04-artifact-boundaries.md).
 
-## Current lifecycle and historical preservation
+## Change boundary
 
-G05 was closed at conversation level before the owner separately requested this overlay. Applying it updates **repository documentation and research-management projections**, not source-authority releases, actual Product qualification, DPP issuance, G06/G07 status or any normative INFOPS artifact. Historical G04 closure documents truthfully reflect their earlier time and have not been retrospectively rewritten.
-
-
-## G06 closure update — 2 November 2026
-
-Eight G06 decisions approved. G06 `CLOSED_CONDITIONAL_RESEARCH (E0_DESIGN_ONLY)`; 57 programme research approvals. The 62 fixtures/probes remain unexecuted E0; no E1/E2 evidence; twelve residual obligations remain open. See [G06 approved decisions](./p01-stage-04-g06-owner-approved-decisions) and [G06 closure](./p01-stage-04-g06-closure-record). G07 not started; S04 not closed; release holds all open.
+This site projection reflects an already-approved owner conversation decision. Producing an overlay does not by itself apply changes to a remote repository, verify the current Netlify deployment, run tests, qualify Products or authorize normative publication.

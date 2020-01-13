@@ -1,7 +1,7 @@
 {
   "project": "INFOPS",
   "stage": "P01-S04",
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-03",
   "kind": "OWNER_REVIEW_RESEARCH_STATUS_NOT_RELEASE",
   "normative": false,
   "actualProductsQualified": 0,
@@ -12,7 +12,7 @@
     "G04": "CLOSED_CONDITIONAL_RESEARCH",
     "G05": "CLOSED_CONDITIONAL_RESEARCH",
     "G06": "CLOSED_CONDITIONAL_RESEARCH (E0_DESIGN_ONLY)",
-    "G07": "NOT_STARTED"
+    "G07": "CLOSED_CONDITIONAL_RESEARCH (NORMATIVE_READINESS_NOT_ESTABLISHED)"
   },
   "g03OwnerDecisions": 10,
   "upstreamSourcePinsAdopted": false,
@@ -26,9 +26,9 @@
   "publicationAuthorized": false,
   "historicalS03ScaffoldStatePreserved": true,
   "ownerApprovalIsNotNormativeRelease": true,
-  "nextDecision": "G07_NOT_STARTED_REQUIRES_SEPARATE_OWNER_INSTRUCTION",
-  "ownerReviewedResearchDecisionsTotal": 57,
-  "explicitApprovalsWithResearchSummaryAvailable": 57,
+  "nextDecision": "S04_STAGE_CLOSURE_NOT_INITIATED_REQUIRES_SEPARATE_OWNER_INSTRUCTION",
+  "ownerReviewedResearchDecisionsTotal": 65,
+  "explicitApprovalsWithResearchSummaryAvailable": 65,
   "s02OwnerApprovedResearchDecisions": 6,
   "s03OwnerApprovedResearchDecisions": 9,
   "g01OwnerApprovedAntecedentDecisions": 15,
@@ -57,5 +57,14 @@
   "g06ResearchDesigns": "research/p01-s04/g06-research-designs.json",
   "g06ResidualObligationsOpen": 12,
   "g06E1Executions": 0,
-  "g06E2Executions": 0
+  "g06E2Executions": 0,
+  "g07OwnerDecisions": 8,
+  "g07OwnerApprovalRegister": "research/p01-s04/g07-owner-approved-decisions.json",
+  "g07ClosureDecision": "G07-D08-F01",
+  "g07ClosureDate": "2026-11-03",
+  "g07ClosureQualifier": "NORMATIVE_READINESS_NOT_ESTABLISHED",
+  "g07ResearchComplete": true,
+  "g07NormativeReadinessEstablished": false,
+  "g07ResidualAndReleaseHoldsPreserved": true,
+  "g03NormativeReleaseHoldsOpen": 12
 }

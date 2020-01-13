@@ -3,7 +3,7 @@ title: P01 Stage 4 - Owner Decision Register
 sidebar_label: P01-S04 - Owner Decisions
 ---
 
-# S04 owner-reviewed decisions through G05
+# S04 owner-reviewed decisions — historical G01–G05 and G06/G07 addenda
 
 > **Research provenance / non-normative.** These dispositions record owner approvals provided in conversation through 20 October 2026. The owner explicitly approved S02-D01–D06 and S03-D01–D09 with reviewed refinements, forming the 15/15 S04-G01 research closure basis. Their original draft ledgers retain historical `PROPOSED` states; the separate approval addenda now record the later explicit decisions. No normative INFOPS release is authorized.
 
@@ -714,3 +714,21 @@ G05 was subsequently approved and conditionally closed on 20 October 2026; see t
 - **F01.17.** G03-R01-R12 remain OPEN, no schemas or normative release.
 - **F01.18.** Upon approval record G06 CLOSED_CONDITIONAL_RESEARCH (E0_DESIGN_ONLY), with G07 unstarted and no repo/test/deploy authorization.
 
+
+
+## G07 owner-reviewed research approvals — 3 November 2026
+
+All eight `G07-D01-F01` through `G07-D08-F01` decisions were expressly owner-approved as non-normative conditional research. G07 is **`CLOSED_CONDITIONAL_RESEARCH (NORMATIVE_READINESS_NOT_ESTABLISHED)`**; programme owner-approved substantive research decisions **65**. The G07 planning disposition is not double-counted.
+
+| Decision | Approved research finding | Clauses |
+|---|---|---:|
+| G07-D01-F01 | Research Charter, Normative Readiness and Authority Boundaries | 17 |
+| G07-D02-F01 | Consolidated Ontology and Qualification Evidence | 18 |
+| G07-D03-F01 | Authoritative Source Adoption and Cross-Specification Dependencies | 18 |
+| G07-D04-F01 | Information Product Artifact and Semantic Contract Readiness | 20 |
+| G07-D05-F01 | Cross-Determination Independence and Evidence Sufficiency | 20 |
+| G07-D06-F01 | Empirical Obligations, Falsification and Residual Risk | 20 |
+| G07-D07-F01 | Normative Readiness Criteria and Release-Hold Reconciliation | 20 |
+| G07-D08-F01 | Consolidated Readiness Finding and Conditional G07 Closure | 22 |
+
+Full clause-level research summaries: [G07 owner-approved decisions](./p01-stage-04-g07-owner-approved-decisions.md). Closure: [G07 research closure](./p01-stage-04-g07-closure-record.md). All `G06-RO01–RO12` and `G03-R01–R12` remain **OPEN**; G06 E0 62 designs, E1 0, E2 0. Q0–Q5 and F06/F14/F16 are unchanged. S04 is NOT_CLOSED. No normative source pins/schemas, tests or publication are authorized. Earlier dated records above remain historical snapshots and must not be interpreted as the current gate status.

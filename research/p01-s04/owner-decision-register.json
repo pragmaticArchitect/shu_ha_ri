@@ -1,7 +1,7 @@
 {
   "project": "INFOPS",
   "programme": "INFOPS-P01-S04",
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-03",
   "normative": false,
   "publicationAuthorized": false,
   "recordType": "CONVERSATIONAL_OWNER_REVIEW_PROJECTION",
@@ -1006,15 +1006,29 @@
     },
     {
       "gate": "G07",
-      "state": "NOT_STARTED"
+      "state": "CLOSED_CONDITIONAL_RESEARCH",
+      "closureQualifier": "NORMATIVE_READINESS_NOT_ESTABLISHED",
+      "approvedCount": 8,
+      "ownerReviewedCount": 8,
+      "closureDecisionId": "G07-D08-F01",
+      "closureDate": "2026-11-03",
+      "substantiveFindingsRegister": "research/p01-s04/g07-owner-approved-decisions.json",
+      "closureRecord": "research/p01-s04/g07-closure-record.json",
+      "normativeReadinessEstablished": false,
+      "s04Closed": false,
+      "g06ResidualOpen": 12,
+      "g03ReleaseHoldsOpen": 12
     }
   ],
   "historicalStageSeparation": "Original S02 and S03 research ledgers retain their as-authored PROPOSED status. Subsequently approved owner-reviewed decisions are explicitly registered in S04-G01 owner approval addenda; research approvals do not confer normative adoption.",
-  "ownerReviewedResearchCount": 57,
-  "explicitApprovalsWithResearchSummaryAvailable": 57,
+  "ownerReviewedResearchCount": 65,
+  "explicitApprovalsWithResearchSummaryAvailable": 65,
   "g04Closure": "CLOSED_CONDITIONAL_RESEARCH",
   "g05Closure": "CLOSED_CONDITIONAL_RESEARCH",
   "g05ConversationApprovalProjectedToRepositoryOnSeparateOwnerInstruction": true,
   "g06Closure": "CLOSED_CONDITIONAL_RESEARCH (E0_DESIGN_ONLY)",
-  "g06ConversationApprovalProjectedToRepositoryOnSeparateOwnerInstruction": true
+  "g06ConversationApprovalProjectedToRepositoryOnSeparateOwnerInstruction": true,
+  "g07Closure": "CLOSED_CONDITIONAL_RESEARCH (NORMATIVE_READINESS_NOT_ESTABLISHED)",
+  "g07ConversationApprovalProjectedToRepositoryOnSeparateOwnerInstruction": true,
+  "stageS04Closed": false
 }
