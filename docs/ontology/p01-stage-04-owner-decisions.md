@@ -5,27 +5,20 @@ sidebar_label: P01-S04 - Owner Decisions
 
 # S04 owner-reviewed decisions through G03
 
-> **Research provenance / non-normative.** These dispositions record owner approvals provided in conversation through 19 October 2026. The owner explicitly approved S02-D01–D06 and S03-D01–D09 with reviewed refinements, forming the 15/15 S04-G01 research closure basis. Their original draft ledgers retain historical `PROPOSED` states; the separate approval addenda now record the later explicit decisions. No normative INFOPS release is authorized.
+> **Research provenance / non-normative.** These dispositions record owner review conducted in conversation through 19 October 2026; this repository overlay does not substitute for the original owner dialogue, approve original S03 draft decisions by implication, or authorize a normative INFOPS release.
 
 ## Gate closure counts
 
 | Gate | Completed owner decisions | Disposition |
 |---|---:|---|
-| G01 | 15/15 | **15 S02/S03 antecedent research decisions approved; closed** |
+| G01 | 15/15 | Owner-reviewed research closed |
 | G02 | 7/7 | Owner-reviewed conditional research closed |
 | G03 | 10/10 | **Conditional research closure approved through G03-D10-F01** |
 | **Total** | **32 research decisions** | No Product qualification or normative adoption |
 
-### G01 approved antecedent decisions and provenance
+### G01 provenance limitation
 
-The owner has now explicitly supplied the approved research/governance summaries for **S02-D01–D06 (six)** and **S03-D01–D09 (nine)** as the **15 approved decisions that formed S04-G01 closure**. Earlier ambiguity about their individual dispositions is resolved. The records are available in:
-
-- [S04-G01 detailed closure basis](./p01-stage-04-g01-closure-basis.md) — 15 identifiers, approved positions and counting rules.
-- [S02 owner-approved decisions](./p01-stage-02-owner-approved-decisions.md) — six subsequent approvals.
-- [S03 owner-approved decisions](./p01-stage-03-owner-approved-decisions.md) — nine subsequent approvals.
-- `research/p01-s04/s02-s03-owner-approvals.json` — structured owner-approved positions with links to historic proposal records.
-
-Original S02/S03 proposal snapshots remain `PROPOSED` as historical artifacts; their *current* owner decisions are explicitly **APPROVED** in the new subsequent register. No separate `G01-F01`–`G01-F15` identities or unavailable detailed amendment texts have been invented. The G01 count is **not added again** to the 32 reviewed research decisions across G01, G02 and G03.
+The S04 owner review recorded **15 of 15 G01 research findings as completed**, but the accessible S03 cumulative repository does not contain their *verbatim individual G01 texts*. The canonical wording must remain the original owner-reviewed conversation until that material is reconciled. **Do not fabricate G01-F01..F15 titles or requirements, or treat this gate-level summary as verbatim re-publication.** The structured register deliberately retains `granularVerbatimAvailableInThisArchive=false`.
 
 ### G02 approved Q0-Q5 and cross-condition X01
 
@@ -70,9 +63,9 @@ The owner-approved G03-D10 decision recognizes the identified upstream semantic,
 
 See [source jurisdictions](./p01-stage-04-source-authorities.md) and [release holds](./p01-stage-04-release-holds.md).
 
-## Historical source independence and subsequent approval
+## Historical source independence
 
-The S02 and S03 source proposal documents and JSON registers retain their historical **PROPOSED** snapshots, reflecting the state when those files were authored. **Those are not the current owner dispositions:** the fifteen subsequent owner **APPROVALS**, including reviewed refinements, are explicitly recorded in the [G01 closure basis](./p01-stage-04-g01-closure-basis.md) and the structured `research/p01-s04/s02-s03-owner-approvals.json` register. These approvals are conditional research/governance acceptance, not normative Product-family predicates.
+The separate S03 source file `p01-stage-03-review-decisions.md` and its JSON register remain labelled **PROPOSED**, reflecting their historical drafting state. Their earlier proposals are not silently overwritten by later S04 owner dispositions. Reconcile individual S03/S04 identifiers explicitly if a future normative specification cites them.
 
 ## Next action
 

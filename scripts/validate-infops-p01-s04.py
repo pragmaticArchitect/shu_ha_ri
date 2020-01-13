@@ -21,7 +21,6 @@ def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 
 state=read('research-state.json')
 decisions=read('owner-decision-register.json')
-upstream=read('s02-s03-owner-approvals.json')
 sources=read('source-authority-register.json')
 holds=read('normative-release-holds.json')
 g04=read('g04-proposed-owner-review-sequence.json')
@@ -34,9 +33,7 @@ for tag,x in [('state',state),('decisions',decisions),('sources',sources)]:
     need(x.get('normative') is False,tag+' must remain non-normative')
 need(state.get('stage')=='P01-S04','wrong S04 stage')
 need(state.get('ownerReviewedResearchDecisionsTotal')==32,'wrong reviewed S04 decision count')
-need(state.get('explicitApprovalsWithResearchSummaryAvailable')==32,'S02/S03 approval summaries not recorded for all 32 S04 owner-reviewed decisions')
-need(state.get('s02OwnerApprovedResearchDecisions')==6 and state.get('s03OwnerApprovedResearchDecisions')==9,'S02/S03 approval counts must be 6+9')
-need(state.get('g01OwnerApprovedAntecedentDecisions')==15 and state.get('g01ClosureBasisVerifiedFromOwnerRegister') is True,'G01 closure must be supported by explicitly approved S02/S03 decisions')
+need(state.get('explicitApprovalsWithResearchSummaryAvailable')==17,'wrong supported S04 approval count')
 need(state.get('actualProductsQualified')==0,'S04 cannot qualify real Products')
 for marker in ['normative','upstreamSourcePinsAdopted','informationFamilyNecessaryAndSufficientProven','infoprodNormative','infopdsNormative','dppCoreAdopted','informationDppProfileNormative','hdipArchitectureConformanceCertified','productMaturityOrPMDDGranted','publicationAuthorized']:
     need(state.get(marker) is False,marker+' must be false')
@@ -47,12 +44,10 @@ G=decisions.get('gates',[])
 need([x.get('gate') for x in G]==['G01','G02','G03','G04','G05','G06','G07'],'Unexpected S04 gate order')
 if len(G)==7:
     g01,g02,g03,g4=G[:4]
-    need(g01.get('ownerReviewedCount')==15 and g01.get('approvedCount')==15,'G01 must record fifteen approved S02/S03 antecedents')
-    need(g01.get('individualDispositionBreakdownAvailable') is True,'G01 approved antecedent dispositions must be present')
-    need(g01.get('granularVerbatimAvailableInThisArchive') is False,'Full G01 deliberations must not be fabricated')
-    need(not g01.get('granularDetails'),'Do not invent separate G01-Fxx finding details')
-    need(g01.get('closureBasis')=='S02_S03_OWNER_APPROVALS_15','Missing S02/S03 closure basis')
-    need(len(g01.get('ownerApprovedAntecedentDecisions',[]))==15,'Expected fifteen G01 approved antecedent decisions')
+    need(g01.get('ownerReviewedCount')==15 and g01.get('approvedCount') is None,'G01 review count/disposition provenance incorrect')
+    need(g01.get('individualDispositionBreakdownAvailable') is False,'Do not invent G01 dispositions')
+    need(g01.get('granularVerbatimAvailableInThisArchive') is False,'G01 verbatim provenance cannot be asserted')
+    need(not g01.get('granularDetails'),'Do not invent unavailable G01 finding details')
     need(g02.get('ownerReviewedCount')==7 and g02.get('approvedCount')==7,'G02 count incorrect')
     need([d.get('id') for d in g02.get('decisions',[])]==[f'G02-Q{x}' for x in range(6)]+['G02-X01'],'G02 Q0..Q5/X01 missing')
     need(all(d.get('disposition')=='APPROVED' and d.get('normative') is False for d in g02.get('decisions',[])),'G02 must be research approved')
@@ -62,38 +57,6 @@ if len(G)==7:
     need(all(d.get('normative') is False for d in g03.get('decisions',[])),'G03 must be non-normative')
     need(g03.get('sourcePinsAdopted') is False and g03.get('normativeAdoptionReady') is False,'G03 cannot promote sources')
     need(g4.get('ownerReviewedCount')==0 and g4.get('approvedCount')==0,'G04 not yet reviewed')
-
-# Subsequent owner-approved research dispositions over historical proposed S02/S03 snapshots.
-need(upstream.get('project')=='INFOPS' and upstream.get('normative') is False, 'Owner approval ledger must be INFOPS research only')
-need(upstream.get('approvedTotal')==15 and upstream.get('ownerReviewedRefinementsIncorporated') is True, 'Wrong owner-approved S02/S03 basis')
-need(upstream.get('normativeQualificationAuthorized') is False and upstream.get('sourceVersionsAdopted') is False, 'S02/S03 approvals cannot authorize norms')
-need(upstream.get('actualProductsQualified')==0, 'Owner approvals cannot certify Products')
-need(upstream.get('g01ClosureRelation',{}).get('count')==15 and upstream.get('g01ClosureRelation',{}).get('countedOnceInG01') is True, 'G01 closure must count 15 approvals exactly once')
-expectedIDs=[f'S02-D{i:02d}' for i in range(1,7)]+[f'S03-D{i:02d}' for i in range(1,10)]
-approvals=[v for group in upstream.get('stages',[]) for v in group.get('decisions',[])]
-need([v.get('id') for v in approvals]==expectedIDs, 'Missing/misordered owner approval IDs')
-need(all(v.get('disposition')=='APPROVED' and v.get('normative') is False and v.get('reviewedRefinementsIncorporated') is True for v in approvals), 'Every S02/S03 approved finding must remain research-only')
-need(all(v.get('ownerApprovedResearchPosition') and v.get('originalResearchProposal') for v in approvals), 'Approved summaries and historic proposals must be retained')
-need([v.get('id') for v in G[0].get('ownerApprovedAntecedentDecisions',[])]==expectedIDs, 'G01 owner register must agree with S02/S03 approval ledger')
-need([v.get('ownerApprovedResearchPosition') for v in G[0].get('ownerApprovedAntecedentDecisions',[])]==[v.get('ownerApprovedResearchPosition') for v in approvals], 'G01 owner summary provenance mismatch')
-need(decisions.get('ownerReviewedResearchCount')==32 and decisions.get('explicitApprovalsWithResearchSummaryAvailable')==32, 'S04 aggregate review count mismatch')
-for stage,src in [('S02','research/p01-s02/research-decisions.json'),('S03','research/p01-s03/review-decisions.json')]:
-    doc=json.loads((ROOT/src).read_text(encoding='utf-8'))
-    need(doc.get('ownerAccepted') is False and all(v.get('state')=='PROPOSED' for v in doc.get('decisions',[])), f'Historical {stage} proposal snapshot must remain unchanged')
-for page in ['p01-stage-02-owner-approved-decisions.md','p01-stage-03-owner-approved-decisions.md','p01-stage-04-g01-closure-basis.md']:
-    f=ROOT/'docs/ontology'/page
-    need(f.is_file() and f.read_text(encoding='utf-8').startswith('---\n'), f'Missing Docusaurus owner approval addendum {page}')
-    need("'ontology/"+page.removesuffix('.md')+"'" in (ROOT/'sidebars.js').read_text(encoding='utf-8'), f'Owner approval addendum missing from sidebar {page}')
-for idx,stage in enumerate(['S02','S03']):
-    loc=ROOT/f'research/p01-{stage.lower()}/owner-approval-addendum.json'
-    need(loc.is_file(),f'Missing {stage} owner approval addendum')
-    if loc.is_file():
-        local=json.loads(loc.read_text(encoding='utf-8'))
-        need(local.get('normative') is False and local.get('g01ClosureBasis') is True, f'{stage} owner approval addendum overclaims authority')
-        need(local.get('decisions')==upstream.get('stages',[{},{}])[idx].get('decisions'), f'{stage} addendum must match canonical S04 owner approval register')
-for v in approvals:
-    page=ROOT/'docs/ontology'/('p01-stage-02-owner-approved-decisions.md' if v['id'].startswith('S02') else 'p01-stage-03-owner-approved-decisions.md')
-    need(v['id'] in page.read_text(encoding='utf-8') and v['ownerApprovedResearchPosition'] in page.read_text(encoding='utf-8'), 'Approval not correctly rendered: '+v['id'])
 
 S=sources.get('sources',[])
 need(len(S)==17 and [z.get('id') for z in S]==[f'S{x:02d}' for x in range(1,18)],'Expected S01..S17 sources')
@@ -164,6 +127,6 @@ old=json.loads((ROOT/'static/spec/infops/0.1/scaffold-state.json').read_text(enc
 need(old.get('releaseStatus')=='P01_STAGE_03_DRAFT' and old.get('stageAccepted') is False, 'Historical S03 scaffold release marker must remain unmodified')
 need(old.get('normative') is False,'Historical stage cannot become normative')
 
-print(f'INFOPS P01-S04 current owner approvals: {len(approvals)} S02/S03 approved research decisions forming G01 closure; G01-G03 32 decisions; {len(S)} source entries, {len(H)} release holds, {len(P)} unapproved G04 items, {len(F)} protected prior files; {len(ISSUES)} issue(s)')
+print(f'INFOPS P01-S04 owner-reviewed research: {len(S)} source entries, {len(H)} release holds, {len(P)} proposed G04 items, {len(F)} protected prior files; {len(ISSUES)} issue(s)')
 for i in ISSUES:print('ERROR:',i)
 sys.exit(1 if ISSUES else 0)
