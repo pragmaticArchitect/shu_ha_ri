@@ -1,0 +1,607 @@
+{
+  "project": "INFOPS",
+  "programme": "INFOPS-P01-S04",
+  "gate": "G06",
+  "asOf": "2026-11-02",
+  "status": "CLOSED_CONDITIONAL_RESEARCH",
+  "closureQualifier": "E0_DESIGN_ONLY",
+  "normative": false,
+  "ownerApprovedDecisions": 8,
+  "approvalSource": "Owner-reviewed conversation and supplied G06 handoff; detailed D01-D06 clauses represented as source synopses, not verbatim decisions",
+  "decisions": [
+    {
+      "id": "G06-D01-F01",
+      "title": "Empirical Realization Equivalence, Semantic Fidelity and Negative Conformance Evidence - Scope and Research Charter",
+      "ownerDisposition": "APPROVED",
+      "status": "APPROVED_CONDITIONAL_RESEARCH",
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "evidenceLevel": "E0_DESIGN_ONLY",
+      "clauses": [
+        {
+          "id": "F01.1",
+          "approvedResearchPosition": "G06 scope assesses realization equivalence, semantic fidelity and negative evidence; it does not acquire qualification authority."
+        },
+        {
+          "id": "F01.2",
+          "approvedResearchPosition": "Identify governing Product, semantics and contract; assumed qualification stays hypothetical."
+        },
+        {
+          "id": "F01.3",
+          "approvedResearchPosition": "Distinguish E0 design, E1 executed reference and E2 authentic integrated PFI evidence."
+        },
+        {
+          "id": "F01.4",
+          "approvedResearchPosition": "Investigate materialized, external math and AI-assisted realizations without merging Product identities."
+        },
+        {
+          "id": "F01.5",
+          "approvedResearchPosition": "Method and context govern fidelity; output coincidence alone is insufficient."
+        },
+        {
+          "id": "F01.6",
+          "approvedResearchPosition": "Vary method, source/time, operations, provider and AI claims."
+        },
+        {
+          "id": "F01.7",
+          "approvedResearchPosition": "A1-A9 determinations remain independent."
+        },
+        {
+          "id": "F01.8",
+          "approvedResearchPosition": "Capture fixture, oracle, input, implementation, provider, timing and authentic execution provenance when executed."
+        },
+        {
+          "id": "F01.9",
+          "approvedResearchPosition": "Distinguish contradiction, evidence gaps, indeterminacy and invalid assumptions."
+        },
+        {
+          "id": "F01.10",
+          "approvedResearchPosition": "Preserve Q0-Q5, historical research and all release holds."
+        },
+        {
+          "id": "F01.11",
+          "approvedResearchPosition": "Charter approval authorizes no tests, repo edits or downstream decisions."
+        }
+      ],
+      "sourceRepresentation": "HANDOFF_CLAUSE_SYNOPSIS_NOT_VERBATIM"
+    },
+    {
+      "id": "G06-D02-F01",
+      "title": "Governing Semantic Baseline, Independent Test Oracle, Contract and Evidence Fixtures",
+      "ownerDisposition": "APPROVED",
+      "status": "APPROVED_CONDITIONAL_RESEARCH",
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "evidenceLevel": "E0_DESIGN_ONLY",
+      "clauses": [
+        {
+          "id": "F01.1",
+          "approvedResearchPosition": "Provisional Version-identifiable research baseline is not adopted GEARM norm."
+        },
+        {
+          "id": "F01.2",
+          "approvedResearchPosition": "Separate Product Kind/instance/Version, Proposition, semantic definition/Version, realization and occurrence."
+        },
+        {
+          "id": "F01.3",
+          "approvedResearchPosition": "Declare method, population, event time, units, sources, precision and applicable rules; mark gaps."
+        },
+        {
+          "id": "F01.4",
+          "approvedResearchPosition": "Use independently specified oracle."
+        },
+        {
+          "id": "F01.5",
+          "approvedResearchPosition": "Use discriminating inputs, conditional metamorphic properties and negatives; finite equality is not proof."
+        },
+        {
+          "id": "F01.6",
+          "approvedResearchPosition": "Separate semantic fidelity from delivery/freshness."
+        },
+        {
+          "id": "F01.7",
+          "approvedResearchPosition": "Engine choice does not confer Family or require owned engine."
+        },
+        {
+          "id": "F01.8",
+          "approvedResearchPosition": "Provider/AI dependence and evidence are independently scoped."
+        },
+        {
+          "id": "F01.9",
+          "approvedResearchPosition": "Fixtures remain E0 pending authentic E1/E2 observation."
+        },
+        {
+          "id": "F01.10",
+          "approvedResearchPosition": "Preserve historical semantic versions and occurrence provenance."
+        },
+        {
+          "id": "F01.11",
+          "approvedResearchPosition": "Separate oracle defect, missing evidence and implementation deviation."
+        },
+        {
+          "id": "F01.12",
+          "approvedResearchPosition": "Design approval does not authorize tests, repo changes or normative adoption."
+        }
+      ],
+      "sourceRepresentation": "HANDOFF_CLAUSE_SYNOPSIS_NOT_VERBATIM"
+    },
+    {
+      "id": "G06-D03-F01",
+      "title": "Three Controlled Realization Patterns - Materialized, External Mathematics and AI-Assisted Information Formation",
+      "ownerDisposition": "APPROVED",
+      "status": "APPROVED_CONDITIONAL_RESEARCH",
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "evidenceLevel": "E0_DESIGN_ONLY",
+      "clauses": [
+        {
+          "id": "F01.1",
+          "approvedResearchPosition": "Patterns A/B/C share the research semantic baseline and applicable contracts."
+        },
+        {
+          "id": "F01.2",
+          "approvedResearchPosition": "Separate technology, Product Kind, instance/Version, realization, provider and occurrence."
+        },
+        {
+          "id": "F01.3",
+          "approvedResearchPosition": "A: preserve eligible input, event time, calculation, publication and freshness."
+        },
+        {
+          "id": "F01.4",
+          "approvedResearchPosition": "B: separate adapter/provider, precision, method, Version, error and fallback contracts."
+        },
+        {
+          "id": "F01.5",
+          "approvedResearchPosition": "C: governed numeric core with optional independently assessed explanation."
+        },
+        {
+          "id": "F01.6",
+          "approvedResearchPosition": "Common VWAP equivalence does not imply full Promise equivalence."
+        },
+        {
+          "id": "F01.7",
+          "approvedResearchPosition": "Independent oracle rather than cross-agreement anchors comparison."
+        },
+        {
+          "id": "F01.8",
+          "approvedResearchPosition": "Apply FX controls where relevant and justify exclusions."
+        },
+        {
+          "id": "F01.9",
+          "approvedResearchPosition": "Separate semantic failure from operational failure."
+        },
+        {
+          "id": "F01.10",
+          "approvedResearchPosition": "Preserve provider/API/PFI implementation responsibility boundaries."
+        },
+        {
+          "id": "F01.11",
+          "approvedResearchPosition": "Retain history of semantic, realization, provider and occurrence Versions."
+        },
+        {
+          "id": "F01.12",
+          "approvedResearchPosition": "Design E0 only, not actual E1/E2."
+        },
+        {
+          "id": "F01.13",
+          "approvedResearchPosition": "No A1-A9 authority transferred by positive results."
+        },
+        {
+          "id": "F01.14",
+          "approvedResearchPosition": "No repository edits, automatic subsequent decisions or normative adoption."
+        }
+      ],
+      "sourceRepresentation": "HANDOFF_CLAUSE_SYNOPSIS_NOT_VERBATIM"
+    },
+    {
+      "id": "G06-D04-F01",
+      "title": "Positive Cross-Realization Semantic Equivalence and Metamorphic Evidence",
+      "ownerDisposition": "APPROVED",
+      "status": "APPROVED_CONDITIONAL_RESEARCH",
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "evidenceLevel": "E0_DESIGN_ONLY",
+      "clauses": [
+        {
+          "id": "F01.1",
+          "approvedResearchPosition": "Scope positive equivalence to exact subject, baseline, Version, realization and context."
+        },
+        {
+          "id": "F01.2",
+          "approvedResearchPosition": "Assess common-mode oracle risks."
+        },
+        {
+          "id": "F01.3",
+          "approvedResearchPosition": "Use discriminating input."
+        },
+        {
+          "id": "F01.4",
+          "approvedResearchPosition": "State applicability of metamorphic properties."
+        },
+        {
+          "id": "F01.5",
+          "approvedResearchPosition": "Finite checks cannot prove implementation method universally."
+        },
+        {
+          "id": "F01.6",
+          "approvedResearchPosition": "Compare only compatible definitions, population, time, units, method and versions."
+        },
+        {
+          "id": "F01.7",
+          "approvedResearchPosition": "Shared informational-core equivalence does not prove full Promise identity."
+        },
+        {
+          "id": "F01.8",
+          "approvedResearchPosition": "Precision follows declared contract, not universal tolerance."
+        },
+        {
+          "id": "F01.9",
+          "approvedResearchPosition": "Provider substitution requires authentic compatibility evidence."
+        },
+        {
+          "id": "F01.10",
+          "approvedResearchPosition": "AI explanation claims are independently assessed."
+        },
+        {
+          "id": "F01.11",
+          "approvedResearchPosition": "Correct semantics can coexist with operational breach."
+        },
+        {
+          "id": "F01.12",
+          "approvedResearchPosition": "Preserve versions and assessment provenance."
+        },
+        {
+          "id": "F01.13",
+          "approvedResearchPosition": "Positive probes remain E0 until execution."
+        },
+        {
+          "id": "F01.14",
+          "approvedResearchPosition": "Preserve source authority, original evidence and holds."
+        }
+      ],
+      "sourceRepresentation": "HANDOFF_CLAUSE_SYNOPSIS_NOT_VERBATIM"
+    },
+    {
+      "id": "G06-D05-F01",
+      "title": "Negative Semantic, Operational, Provider and AI-Conformance Falsification Tests",
+      "ownerDisposition": "APPROVED",
+      "status": "APPROVED_CONDITIONAL_RESEARCH",
+      "decisionDate": "2026-10-21",
+      "normative": false,
+      "evidenceLevel": "E0_DESIGN_ONLY",
+      "clauses": [
+        {
+          "id": "F01.1",
+          "approvedResearchPosition": "Challenge semantic, operational, provider, AI and assessment integrity without qualification authority."
+        },
+        {
+          "id": "F01.2",
+          "approvedResearchPosition": "Use paired references and mutations with causal attribution."
+        },
+        {
+          "id": "F01.3",
+          "approvedResearchPosition": "Distinguish VWAP from unweighted mean despite coincident cases."
+        },
+        {
+          "id": "F01.4",
+          "approvedResearchPosition": "Test eligibility, event-time, currency, units and context."
+        },
+        {
+          "id": "F01.5",
+          "approvedResearchPosition": "Stipulate missing rules provisionally or remain indeterminate."
+        },
+        {
+          "id": "F01.6",
+          "approvedResearchPosition": "Separate semantic drift from operational failure."
+        },
+        {
+          "id": "F01.7",
+          "approvedResearchPosition": "Differentiate provider, adapter, interface, fallback and dependency."
+        },
+        {
+          "id": "F01.8",
+          "approvedResearchPosition": "Test AI explanation support and contextual consistency."
+        },
+        {
+          "id": "F01.9",
+          "approvedResearchPosition": "Changed Promise merits independent Family/Compound assessment; access is not action permission."
+        },
+        {
+          "id": "F01.10",
+          "approvedResearchPosition": "Preserve semantic history, occurrence and currentness."
+        },
+        {
+          "id": "F01.11",
+          "approvedResearchPosition": "Challenge circular oracles and common-mode faults."
+        },
+        {
+          "id": "F01.12",
+          "approvedResearchPosition": "Distinguish detection, missed mutation, false positive and wrong cause."
+        },
+        {
+          "id": "F01.13",
+          "approvedResearchPosition": "Do not force pass/fail for missing or contradictory evidence."
+        },
+        {
+          "id": "F01.14",
+          "approvedResearchPosition": "Preserve original S02/S03/PFI findings."
+        },
+        {
+          "id": "F01.15",
+          "approvedResearchPosition": "NE designs are E0; no empirical outcomes."
+        },
+        {
+          "id": "F01.16",
+          "approvedResearchPosition": "Preserve all holds; no automatic downstream activity."
+        }
+      ],
+      "sourceRepresentation": "HANDOFF_CLAUSE_SYNOPSIS_NOT_VERBATIM"
+    },
+    {
+      "id": "G06-D06-F01",
+      "title": "Product Identity, Semantic Version, Realization, Provenance, Currentness and Compilation Traceability",
+      "ownerDisposition": "APPROVED",
+      "status": "APPROVED_CONDITIONAL_RESEARCH",
+      "decisionDate": "2026-11-02",
+      "normative": false,
+      "evidenceLevel": "E0_DESIGN_ONLY",
+      "clauses": [
+        {
+          "id": "F01.1",
+          "approvedResearchPosition": "Trace logical identity, semantics, realization, compilation, execution, evidence and currentness without imposed ledger."
+        },
+        {
+          "id": "F01.2",
+          "approvedResearchPosition": "Separate Kind, Product, Version, provider, realization, edition/constituent and occurrence."
+        },
+        {
+          "id": "F01.3",
+          "approvedResearchPosition": "Separate GEARM Proposition from definition/Version; D02 baseline not adopted."
+        },
+        {
+          "id": "F01.4",
+          "approvedResearchPosition": "Product Version and semantic Version do not change in automatic lockstep."
+        },
+        {
+          "id": "F01.5",
+          "approvedResearchPosition": "Record code/config/dependency revisions and explicitly missing evidence."
+        },
+        {
+          "id": "F01.6",
+          "approvedResearchPosition": "Separate Realization Plan, Blueprint Binding, Compilation Record."
+        },
+        {
+          "id": "F01.7",
+          "approvedResearchPosition": "E2 requires authentic compilation evidence, not mock identifiers."
+        },
+        {
+          "id": "F01.8",
+          "approvedResearchPosition": "Trace provider contract, method, Version, invocation, errors and substitution."
+        },
+        {
+          "id": "F01.9",
+          "approvedResearchPosition": "Distinguish execution occurrence from Information occurrence and corrections."
+        },
+        {
+          "id": "F01.10",
+          "approvedResearchPosition": "Distinguish historical applicability, latest, current eligibility and purpose fitness."
+        },
+        {
+          "id": "F01.11",
+          "approvedResearchPosition": "Separate subject, claim, evidence, evaluation, decision and currentness."
+        },
+        {
+          "id": "F01.12",
+          "approvedResearchPosition": "Reassessment changes present support without erasing history."
+        },
+        {
+          "id": "F01.13",
+          "approvedResearchPosition": "Scope deterministic and stochastic reproducibility; protect sensitive inputs."
+        },
+        {
+          "id": "F01.14",
+          "approvedResearchPosition": "Distinguish contradiction, insufficiency, history gap, eligibility change and oracle defect."
+        },
+        {
+          "id": "F01.15",
+          "approvedResearchPosition": "Approve TR01-TR12 as E0 challenge designs only."
+        },
+        {
+          "id": "F01.16",
+          "approvedResearchPosition": "All prior approvals and holds survive; no repo edits or G07."
+        }
+      ],
+      "sourceRepresentation": "HANDOFF_CLAUSE_SYNOPSIS_NOT_VERBATIM"
+    },
+    {
+      "id": "G06-D07-F01",
+      "title": "Cross-Case Adversarial Replay, Detection Coverage and Evidence Sufficiency",
+      "ownerDisposition": "APPROVED",
+      "status": "APPROVED_CONDITIONAL_RESEARCH",
+      "decisionDate": "2026-11-02",
+      "normative": false,
+      "evidenceLevel": "E0_DESIGN_ONLY",
+      "clauses": [
+        {
+          "id": "F01.1",
+          "approvedResearchPosition": "E0 replay is structured logical walkthrough, not runtime execution."
+        },
+        {
+          "id": "F01.2",
+          "approvedResearchPosition": "Bind claims to exact subject, identities, Versions, occurrences, evidence and context."
+        },
+        {
+          "id": "F01.3",
+          "approvedResearchPosition": "Oracle must be independent; identify circularity and common-mode defects."
+        },
+        {
+          "id": "F01.4",
+          "approvedResearchPosition": "Use discriminating controls with explicit applicability."
+        },
+        {
+          "id": "F01.5",
+          "approvedResearchPosition": "Separate injected realization defect from oracle/test/assessment defect."
+        },
+        {
+          "id": "F01.6",
+          "approvedResearchPosition": "Assess semantic, operational, provider, AI, traceability and current applicability distinctly."
+        },
+        {
+          "id": "F01.7",
+          "approvedResearchPosition": "Differentiate mapping coverage, execution coverage, mutation coverage, evidence sufficiency and authority integration."
+        },
+        {
+          "id": "F01.8",
+          "approvedResearchPosition": "Sufficiency is claim-, contract-, oracle- and evidence-scoped; missing evidence is not pass/fail."
+        },
+        {
+          "id": "F01.9",
+          "approvedResearchPosition": "A/B/C may share a proposition without sharing Product identity or full Promise."
+        },
+        {
+          "id": "F01.10",
+          "approvedResearchPosition": "Preserve historical version/applicability, corrections and evidence withdrawal."
+        },
+        {
+          "id": "F01.11",
+          "approvedResearchPosition": "E0/E1/E2 remain distinct; compilation does not certify semantics."
+        },
+        {
+          "id": "F01.12",
+          "approvedResearchPosition": "A1-A9 remain independently governed determinations."
+        },
+        {
+          "id": "F01.13",
+          "approvedResearchPosition": "Distinguish detected seeded defects, misses, false positives, wrong attribution and indeterminacy."
+        },
+        {
+          "id": "F01.14",
+          "approvedResearchPosition": "Identify gaps, preserve Q0-Q5 and F06/F14/F16."
+        },
+        {
+          "id": "F01.15",
+          "approvedResearchPosition": "No empirical or universal inference from conceptual catalogue."
+        },
+        {
+          "id": "F01.16",
+          "approvedResearchPosition": "Approval does not authorize D08, G07, testing, repo edits or release."
+        }
+      ],
+      "sourceRepresentation": "CONVERSATION_APPROVED_CLAUSES_PARAPHRASED_FOR_REGISTER"
+    },
+    {
+      "id": "G06-D08-F01",
+      "title": "Consolidated Evidence Research, Residual Obligations and Conditional Gate Closure Assessment",
+      "ownerDisposition": "APPROVED",
+      "status": "APPROVED_CONDITIONAL_RESEARCH",
+      "decisionDate": "2026-11-02",
+      "normative": false,
+      "evidenceLevel": "E0_DESIGN_ONLY",
+      "clauses": [
+        {
+          "id": "F01.1",
+          "approvedResearchPosition": "G06 closes conditionally at E0 design level only; not empirical validation or normative qualification."
+        },
+        {
+          "id": "F01.2",
+          "approvedResearchPosition": "Inherit G06-D01 through D07 without replacing or reopening approvals."
+        },
+        {
+          "id": "F01.3",
+          "approvedResearchPosition": "62 G06 fixtures/probes remain E0; G05 X01-X16 stay separate."
+        },
+        {
+          "id": "F01.4",
+          "approvedResearchPosition": "No E1 or E2 evidence exists; no promotion by design alone."
+        },
+        {
+          "id": "F01.5",
+          "approvedResearchPosition": "Semantic fidelity framework does not establish actual runtime fidelity or displace GEARM authority."
+        },
+        {
+          "id": "F01.6",
+          "approvedResearchPosition": "A/B/C comparison covers bounded informational proposition, not complete Promise or Product identity."
+        },
+        {
+          "id": "F01.7",
+          "approvedResearchPosition": "Oracle must be independent, versioned and contract-consistent; circular/under-specified controls remain risks."
+        },
+        {
+          "id": "F01.8",
+          "approvedResearchPosition": "Interpret seeded negative controls, misses, false positives, wrong causes and inconclusive findings separately."
+        },
+        {
+          "id": "F01.9",
+          "approvedResearchPosition": "No empirical detection, coverage, precision or recall established."
+        },
+        {
+          "id": "F01.10",
+          "approvedResearchPosition": "Semantic, operational, provider, explanation and currentness dimensions are distinct."
+        },
+        {
+          "id": "F01.11",
+          "approvedResearchPosition": "Separate Kind, Product/Version, semantic definition/Version, realization, provider, compilation, execution, occurrence and currentness."
+        },
+        {
+          "id": "F01.12",
+          "approvedResearchPosition": "Preserve historical truth and separate later reassessments."
+        },
+        {
+          "id": "F01.13",
+          "approvedResearchPosition": "A1-A9 remain under independent authorities."
+        },
+        {
+          "id": "F01.14",
+          "approvedResearchPosition": "Q0-Q5 remain non-normative; Q1-Q4 necessity and Q0-Q4 sufficiency not proved."
+        },
+        {
+          "id": "F01.15",
+          "approvedResearchPosition": "Preserve C/F/S03/PFI/G05-X evidence and F06/F14/F16 unresolved."
+        },
+        {
+          "id": "F01.16",
+          "approvedResearchPosition": "Retain RO01-RO12 as outstanding obligations; no automatic execution."
+        },
+        {
+          "id": "F01.17",
+          "approvedResearchPosition": "G03-R01-R12 remain OPEN, no schemas or normative release."
+        },
+        {
+          "id": "F01.18",
+          "approvedResearchPosition": "Upon approval record G06 CLOSED_CONDITIONAL_RESEARCH (E0_DESIGN_ONLY), with G07 unstarted and no repo/test/deploy authorization."
+        }
+      ],
+      "sourceRepresentation": "CONVERSATION_APPROVED_CLAUSES_PARAPHRASED_FOR_REGISTER"
+    }
+  ],
+  "referenceSemanticBaseline": "G06-CM-VWAP-REF-01",
+  "realizationPatterns": [
+    "G06-RZ-A",
+    "G06-RZ-B",
+    "G06-RZ-C"
+  ],
+  "researchDesigns": {
+    "count": 62,
+    "catalogue": "research/p01-s04/g06-research-designs.json"
+  },
+  "empirical": {
+    "E1Executed": 0,
+    "E2IntegratedPfiExecuted": 0,
+    "detectionRateEstablished": false
+  },
+  "residualObligations": {
+    "count": 12,
+    "catalogue": "research/p01-s04/g06-closure-record.json"
+  },
+  "unresolvedFalsifications": [
+    "F06",
+    "F14",
+    "F16"
+  ],
+  "g03HoldsAllOpen": true,
+  "q0toQ5Normative": false,
+  "g07": "NOT_STARTED",
+  "stageS04Closed": false,
+  "normativeReleaseAuthorized": false,
+  "repositoryProjectionNotEvidenceOfDeployment": true
+}

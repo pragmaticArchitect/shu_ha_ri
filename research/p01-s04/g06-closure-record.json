@@ -1,0 +1,112 @@
+{
+  "gate": "G06",
+  "decision": "G06-D08-F01",
+  "decisionDate": "2026-11-02",
+  "ownerDisposition": "APPROVED",
+  "status": "CLOSED_CONDITIONAL_RESEARCH",
+  "qualifier": "E0_DESIGN_ONLY",
+  "approvedDecisions": 8,
+  "programmeApprovedResearchDecisions": 57,
+  "e0DesignCount": 62,
+  "e1Executions": 0,
+  "e2IntegratedPfiExecutions": 0,
+  "residualObligations": [
+    {
+      "id": "G06-RO01",
+      "obligation": "Executable A/B/C reference implementations and independent oracle validation",
+      "status": "OPEN",
+      "executionAuthorizedByG06Closure": false
+    },
+    {
+      "id": "G06-RO02",
+      "obligation": "Positive and metamorphic execution",
+      "status": "OPEN",
+      "executionAuthorizedByG06Closure": false
+    },
+    {
+      "id": "G06-RO03",
+      "obligation": "Negative mutation execution and detection adjudication",
+      "status": "OPEN",
+      "executionAuthorizedByG06Closure": false
+    },
+    {
+      "id": "G06-RO04",
+      "obligation": "Provider, adapter and fallback evidence",
+      "status": "OPEN",
+      "executionAuthorizedByG06Closure": false
+    },
+    {
+      "id": "G06-RO05",
+      "obligation": "AI explanation and consequential-action evaluation",
+      "status": "OPEN",
+      "executionAuthorizedByG06Closure": false
+    },
+    {
+      "id": "G06-RO06",
+      "obligation": "Occurrence-level provenance and currentness",
+      "status": "OPEN",
+      "executionAuthorizedByG06Closure": false
+    },
+    {
+      "id": "G06-RO07",
+      "obligation": "Authentic integrated PFI compilation, binding and execution",
+      "status": "OPEN",
+      "executionAuthorizedByG06Closure": false
+    },
+    {
+      "id": "G06-RO08",
+      "obligation": "Defensible observed coverage and evidence quality",
+      "status": "OPEN",
+      "executionAuthorizedByG06Closure": false
+    },
+    {
+      "id": "G06-RO09",
+      "obligation": "Fixture rules, oracle gaps and applicability",
+      "status": "OPEN",
+      "executionAuthorizedByG06Closure": false
+    },
+    {
+      "id": "G06-RO10",
+      "obligation": "Unresolved Information-family ontology",
+      "status": "OPEN",
+      "executionAuthorizedByG06Closure": false
+    },
+    {
+      "id": "G06-RO11",
+      "obligation": "Independent A1-A9 and Family/Compound/other authorities",
+      "status": "OPEN",
+      "executionAuthorizedByG06Closure": false
+    },
+    {
+      "id": "G06-RO12",
+      "obligation": "Source adoption and all G03 normative release holds",
+      "status": "OPEN",
+      "executionAuthorizedByG06Closure": false
+    }
+  ],
+  "originalFalsificationsUnresolved": [
+    "F06",
+    "F14",
+    "F16"
+  ],
+  "g03ReleaseHolds": {
+    "G03-R01": "OPEN",
+    "G03-R02": "OPEN",
+    "G03-R03": "OPEN",
+    "G03-R04": "OPEN",
+    "G03-R05": "OPEN",
+    "G03-R06": "OPEN",
+    "G03-R07": "OPEN",
+    "G03-R08": "OPEN",
+    "G03-R09": "OPEN",
+    "G03-R10": "OPEN",
+    "G03-R11": "OPEN",
+    "G03-R12": "OPEN"
+  },
+  "q1ToQ4UniversalNecessityProven": false,
+  "q0ToQ4JointSufficiencyProven": false,
+  "g07Started": false,
+  "s04Closed": false,
+  "normativeReleaseAuthorized": false,
+  "sourceProvenance": "G06 owner decisions approved in conversation; repository projection separately authorized by request for G06 overlay"
+}

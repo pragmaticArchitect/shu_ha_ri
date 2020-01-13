@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - Release Holds
 
 # G03 conditional closure: normative release blockers
 
-> **G03, G04 AND G05 RESEARCH GATES CLOSED; NORMATIVE ADOPTION NOT READY (20 October 2026).** G05-D08-F01 conditionally closed the G05 owner-review research after eight approvals, but none of the twelve G03-R01-R12 source/adoption blockers is resolved. Historical Follow-up values reflect their earlier planning scope and do NOT imply G04 or G05 discharged those holds. G06/G07 have not begun; Product certification and normative publication remain blocked.
+> **G03–G06 RESEARCH GATES CONDITIONALLY CLOSED (2 NOVEMBER 2026); NORMATIVE ADOPTION NOT READY.** G06 E0-design-only closure does not discharge any G03-R01–R12 hold, imply E1/E2 execution, or initiate G07. All holds remain OPEN.
 
 ## Tracked release holds
 

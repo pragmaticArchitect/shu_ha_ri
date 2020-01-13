@@ -1,0 +1,444 @@
+{
+  "gate": "G06",
+  "normative": false,
+  "evidenceLevel": "E0",
+  "executions": 0,
+  "designs": [
+    {
+      "id": "G06-FX01",
+      "family": "FX",
+      "researchDesign": "Unequal-weight VWAP vs unweighted mean",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-FX02",
+      "family": "FX",
+      "researchDesign": "Equal-price nondiscriminating coincidence",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-FX03",
+      "family": "FX",
+      "researchDesign": "Positive quantity scaling",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-FX04",
+      "family": "FX",
+      "researchDesign": "Exclusive end time",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-FX05",
+      "family": "FX",
+      "researchDesign": "Ineligible exchange",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-FX06",
+      "family": "FX",
+      "researchDesign": "Incompatible currencies/units",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-FX07",
+      "family": "FX",
+      "researchDesign": "Zero eligible volume policy",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-FX08",
+      "family": "FX",
+      "researchDesign": "Correct but late output",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-FX09",
+      "family": "FX",
+      "researchDesign": "External API mean substitution",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-FX10",
+      "family": "FX",
+      "researchDesign": "External provider unavailable",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-FX11",
+      "family": "FX",
+      "researchDesign": "Historical v1 viewed after v2",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-FX12",
+      "family": "FX",
+      "researchDesign": "Unsupported AI causal claim",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-FX13",
+      "family": "FX",
+      "researchDesign": "AI strategy Promise shift",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-FX14",
+      "family": "FX",
+      "researchDesign": "Different enterprise Product identities",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-FX15",
+      "family": "FX",
+      "researchDesign": "Duplicates/cancellations/corrections policy",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-FX16",
+      "family": "FX",
+      "researchDesign": "Provider substitution compatibility",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-PE01",
+      "family": "PE",
+      "researchDesign": "Unequal-weight oracle agreement",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-PE02",
+      "family": "PE",
+      "researchDesign": "Common positive quantity scaling",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-PE03",
+      "family": "PE",
+      "researchDesign": "Order-independent permutation",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-PE04",
+      "family": "PE",
+      "researchDesign": "Quantity-weighted partition recombination",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-PE05",
+      "family": "PE",
+      "researchDesign": "Uniform price translation",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-PE06",
+      "family": "PE",
+      "researchDesign": "Ineligible-event invariance",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-PE07",
+      "family": "PE",
+      "researchDesign": "Out-of-window event invariance",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-PE08",
+      "family": "PE",
+      "researchDesign": "Declared precision/rounding",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-PE09",
+      "family": "PE",
+      "researchDesign": "A/B/C metric vs oracle",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-PE10",
+      "family": "PE",
+      "researchDesign": "Compatible provider substitution",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-PE11",
+      "family": "PE",
+      "researchDesign": "Historical semantic Version retention",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-PE12",
+      "family": "PE",
+      "researchDesign": "Metric correctness and separately evaluated AI claims",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE01",
+      "family": "NE",
+      "researchDesign": "VWAP replaced with unweighted mean",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE02",
+      "family": "NE",
+      "researchDesign": "Equal-price fixture masks wrong method",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE03",
+      "family": "NE",
+      "researchDesign": "Eligibility mistakes",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE04",
+      "family": "NE",
+      "researchDesign": "Inclusive end-time mistake",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE05",
+      "family": "NE",
+      "researchDesign": "Ungoverned unit conversion",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE06",
+      "family": "NE",
+      "researchDesign": "Invented zero-volume outcome",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE07",
+      "family": "NE",
+      "researchDesign": "Incorrect correction/duplicate policy",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE08",
+      "family": "NE",
+      "researchDesign": "Rounding outside contract",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE09",
+      "family": "NE",
+      "researchDesign": "Correct but late metric",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE10",
+      "family": "NE",
+      "researchDesign": "Stale presented as current",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE11",
+      "family": "NE",
+      "researchDesign": "Provider incompatible method",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE12",
+      "family": "NE",
+      "researchDesign": "Provider Version incompatible",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE13",
+      "family": "NE",
+      "researchDesign": "Outage misrepresented as success",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE14",
+      "family": "NE",
+      "researchDesign": "Fallback changes calculation",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE15",
+      "family": "NE",
+      "researchDesign": "Unsupported AI causal explanation",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE16",
+      "family": "NE",
+      "researchDesign": "AI contradicts metric/context",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE17",
+      "family": "NE",
+      "researchDesign": "AI autonomous strategy Promise expansion",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE18",
+      "family": "NE",
+      "researchDesign": "Consumption mistaken for action authority",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE19",
+      "family": "NE",
+      "researchDesign": "Different Products merged on result",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE20",
+      "family": "NE",
+      "researchDesign": "Mock E1 metadata misrepresented as E2",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE21",
+      "family": "NE",
+      "researchDesign": "Circular oracle",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-NE22",
+      "family": "NE",
+      "researchDesign": "Forced pass/fail on missing contract",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-TR01",
+      "family": "TR",
+      "researchDesign": "Cross-enterprise Product identity separation",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-TR02",
+      "family": "TR",
+      "researchDesign": "Historical S1 after S2",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-TR03",
+      "family": "TR",
+      "researchDesign": "Correct but stale materialization",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-TR04",
+      "family": "TR",
+      "researchDesign": "Provider Version trace",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-TR05",
+      "family": "TR",
+      "researchDesign": "Fallback method trace",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-TR06",
+      "family": "TR",
+      "researchDesign": "Unsupported AI explanation trace",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-TR07",
+      "family": "TR",
+      "researchDesign": "Missing AI model/prompt/provider context",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-TR08",
+      "family": "TR",
+      "researchDesign": "Synthetic compilation mistaken as E2",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-TR09",
+      "family": "TR",
+      "researchDesign": "Compilation succeeds with wrong semantics",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-TR10",
+      "family": "TR",
+      "researchDesign": "Corrected source event history",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-TR11",
+      "family": "TR",
+      "researchDesign": "Evidence withdrawal and reassessment",
+      "evidenceLevel": "E0",
+      "executed": false
+    },
+    {
+      "id": "G06-TR12",
+      "family": "TR",
+      "researchDesign": "Different consumer purpose/time/jurisdiction",
+      "evidenceLevel": "E0",
+      "executed": false
+    }
+  ],
+  "externalG05XDesignCount": 16,
+  "originalPfiF1F10Executed": false
+}

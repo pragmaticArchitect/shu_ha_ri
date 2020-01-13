@@ -1,11 +1,11 @@
 {
   "project": "INFOPS",
   "programme": "INFOPS-P01-S04",
-  "asOf": "2026-10-20",
+  "asOf": "2026-11-02",
   "normative": false,
   "publicationAuthorized": false,
   "recordType": "CONVERSATIONAL_OWNER_REVIEW_PROJECTION",
-  "basis": "Explicit owner-reviewed conditional research decisions through G05-D08-F01: G01 15, G02 7, G03 10, G04 9, G05 8 = 49; 12 release holds remain open; never normative.",
+  "basis": "57 distinct owner-reviewed non-normative research decisions: G01 15, G02 7, G03 10, G04 9, G05 8, G06 8. G06 closure E0_DESIGN_ONLY; all release holds OPEN.",
   "provenanceWarning": "Original S02/S03 proposal snapshots remain intact. Their 15 subsequent research approvals, forming the S04-G01 closure basis, are now independently recorded in s02-s03-owner-approvals.json; full deliberations and individual amendment diffs were not supplied.",
   "gates": [
     {
@@ -993,17 +993,28 @@
     },
     {
       "gate": "G06",
-      "state": "PENDING"
+      "state": "CLOSED_CONDITIONAL_RESEARCH",
+      "closureQualifier": "E0_DESIGN_ONLY",
+      "approvedCount": 8,
+      "ownerReviewedCount": 8,
+      "closureDecisionId": "G06-D08-F01",
+      "substantiveFindingsRegister": "research/p01-s04/g06-owner-approved-decisions.json",
+      "fixtureRegister": "research/p01-s04/g06-research-designs.json",
+      "residualObligationRegister": "research/p01-s04/g06-closure-record.json",
+      "E1Executed": 0,
+      "E2Executed": 0
     },
     {
       "gate": "G07",
-      "state": "PENDING"
+      "state": "NOT_STARTED"
     }
   ],
   "historicalStageSeparation": "Original S02 and S03 research ledgers retain their as-authored PROPOSED status. Subsequently approved owner-reviewed decisions are explicitly registered in S04-G01 owner approval addenda; research approvals do not confer normative adoption.",
-  "ownerReviewedResearchCount": 49,
-  "explicitApprovalsWithResearchSummaryAvailable": 49,
+  "ownerReviewedResearchCount": 57,
+  "explicitApprovalsWithResearchSummaryAvailable": 57,
   "g04Closure": "CLOSED_CONDITIONAL_RESEARCH",
   "g05Closure": "CLOSED_CONDITIONAL_RESEARCH",
-  "g05ConversationApprovalProjectedToRepositoryOnSeparateOwnerInstruction": true
+  "g05ConversationApprovalProjectedToRepositoryOnSeparateOwnerInstruction": true,
+  "g06Closure": "CLOSED_CONDITIONAL_RESEARCH (E0_DESIGN_ONLY)",
+  "g06ConversationApprovalProjectedToRepositoryOnSeparateOwnerInstruction": true
 }

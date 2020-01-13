@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - Overview
 
 # INFOPS-P01-S04 - Qualification Boundary Reconciliation
 
-> **CURRENT OWNER-APPROVED CONDITIONAL RESEARCH — 20 OCTOBER 2026.** G01 through **G05** are closed at research level. G05-D08-F01 expressly approved `CLOSED_CONDITIONAL_RESEARCH` after eight separately approved G05 decisions. **G06/G07 remain PENDING — NOT STARTED**. All G03-R01–R12 normative release holds remain OPEN, and INFOPS 0.1 publication/qualification is NOT authorized.
+> **CURRENT OWNER-APPROVED CONDITIONAL RESEARCH — 2 NOVEMBER 2026.** G01–G06 closed at research level; G06 E0 design-only closure after eight approvals. G07 NOT_STARTED. All twelve normative release holds OPEN; no E1/E2 executions or normative release.
 
 ## Stage 4 programme position
 
@@ -42,3 +42,8 @@ sidebar_label: P01-S04 - Overview
 ## Current lifecycle and historical preservation
 
 G05 was closed at conversation level before the owner separately requested this overlay. Applying it updates **repository documentation and research-management projections**, not source-authority releases, actual Product qualification, DPP issuance, G06/G07 status or any normative INFOPS artifact. Historical G04 closure documents truthfully reflect their earlier time and have not been retrospectively rewritten.
+
+
+## G06 closure update — 2 November 2026
+
+Eight G06 decisions approved. G06 `CLOSED_CONDITIONAL_RESEARCH (E0_DESIGN_ONLY)`; 57 programme research approvals. The 62 fixtures/probes remain unexecuted E0; no E1/E2 evidence; twelve residual obligations remain open. See [G06 approved decisions](./p01-stage-04-g06-owner-approved-decisions) and [G06 closure](./p01-stage-04-g06-closure-record). G07 not started; S04 not closed; release holds all open.
