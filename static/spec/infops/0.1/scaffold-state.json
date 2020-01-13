@@ -1,12 +1,13 @@
 {
   "project": "INFOPS",
   "plannedSpecificationVersion": "0.1",
-  "releaseStatus": "P01_STAGE_01_DRAFT",
+  "releaseStatus": "P01_STAGE_02_DRAFT",
   "normative": false,
   "qualifiedInformationProductRulesPublished": false,
   "infopchCataloguePublished": false,
   "pmddWeightsPublished": false,
-  "description": "P01 Stage 1 source-based ontology and authority baseline; no normative Product-family rules or descriptors.",
-  "p01Stage": "S01_AUTHORITY_ONTOLOGY_BASELINE",
-  "stageAccepted": false
+  "description": "P01 Stage 2 non-normative PIN differentiation and falsification research; no approved Information Product qualification or descriptors.",
+  "p01Stage": "S02_PIN_FALSIFICATION",
+  "stageAccepted": false,
+  "stage2ResearchOnly": true
 }

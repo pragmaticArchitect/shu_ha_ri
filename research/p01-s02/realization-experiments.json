@@ -1,0 +1,69 @@
+{
+  "project": "INFOPS",
+  "stage": "P01-S02",
+  "normative": false,
+  "executedAgainstRuntime": false,
+  "count": 10,
+  "experiments": [
+    {
+      "experimentId": "PFI-F1",
+      "intervention": "A/B/C calculate governed VWAP under equivalent semantic contracts using different runtime engines",
+      "expectedReasoning": "`SUPPORTED_UNDER_PREMISES`: family invariance is compatible with three implementations; real equivalence still needs evidence",
+      "identityOrFamilyConsequence": "Different implementations do not *alone* create a different Product Family"
+    },
+    {
+      "experimentId": "PFI-F2",
+      "intervention": "B's golden path silently replaces VWAP with simple arithmetic mean",
+      "expectedReasoning": "`COUNTEREXAMPLE_TO_RULE`: an approved path is insufficient evidence of preserved semantics",
+      "identityOrFamilyConsequence": "Recompilation or contract breach; material semantic Product change may require version/identity reassessment"
+    },
+    {
+      "experimentId": "PFI-F3",
+      "intervention": "A publishes every 300 seconds but Product Promise requires <=1 second freshness",
+      "expectedReasoning": "`CONDITIONALLY_SUPPORTED`: operational nonconformance; does not automatically change intrinsic family",
+      "identityOrFamilyConsequence": "Contract/currentness failure, not automatic reclassification"
+    },
+    {
+      "experimentId": "PFI-F4",
+      "intervention": "A and B both output 100 on data where all prices happen to be 100, but A calculates VWAP and B simple mean",
+      "expectedReasoning": "`COUNTEREXAMPLE_TO_RULE`: a matching example cannot prove method semantics",
+      "identityOrFamilyConsequence": "Need semantic-spec comparison and differentiated input tests"
+    },
+    {
+      "experimentId": "PFI-F5",
+      "intervention": "C's AI output shifts from ancillary explanation to autonomous trading strategies and consequential execution",
+      "expectedReasoning": "`SEMANTIC_CHANGE`: changed value proposition and authority, not merely a PFI substitution",
+      "identityOrFamilyConsequence": "Re-evaluate actual Product subject, AIPS qualification and compound/decision boundaries"
+    },
+    {
+      "experimentId": "PFI-F6",
+      "intervention": "B switches to another eligible math provider while keeping calculation and obligations equivalent",
+      "expectedReasoning": "`SUPPORTED_UNDER_PREMISES`: provider identity changes, not intrinsically the Product Family",
+      "identityOrFamilyConsequence": "New Blueprint Binding/Compilation Record and dependency/version evidence; no automatic new Product Family"
+    },
+    {
+      "experimentId": "PFI-F7",
+      "intervention": "Three enterprises separately own Products implementing the same semantic Product Kind",
+      "expectedReasoning": "`IDENTITY_OR_OCCURRENCE`: family/type equivalence does not imply instance identity",
+      "identityOrFamilyConsequence": "Preserve separate Product, Product Owner, jurisdiction and version identifiers"
+    },
+    {
+      "experimentId": "PFI-F8",
+      "intervention": "Generated API caller remains in B's executable, external API becomes unreachable",
+      "expectedReasoning": "`CONDITIONALLY_SUPPORTED`: Product runtime behaviour/dependency is observable, provider implementation remains externally governed",
+      "identityOrFamilyConsequence": "Degradation/failure obligations apply; no automatic provider ownership or family transfer"
+    },
+    {
+      "experimentId": "PFI-F9",
+      "intervention": "A materializes version 1 metric; current metric definition changes to version 2 and old outputs are queried",
+      "expectedReasoning": "`IDENTITY_OR_OCCURRENCE`: reconstruct semantics from the applicable historical version, not latest lookup",
+      "identityOrFamilyConsequence": "Preserve Product/semantic version and historical meaning"
+    },
+    {
+      "experimentId": "PFI-F10",
+      "intervention": "C generates a plausible but unsupported causal explanation despite correct VWAP",
+      "expectedReasoning": "`CONDITIONALLY_SUPPORTED`: keeping the metric correct does not assure the full informational explanation",
+      "identityOrFamilyConsequence": "Fitness/trust/semantic obligations may fail; AI dependency does not settle family identity"
+    }
+  ]
+}

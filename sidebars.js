@@ -9,6 +9,12 @@ module.exports = {
       'foundations/authority-map','ontology/overview','ontology/qualification-boundary',
       'ontology/p01-stage-01-authority-and-ontology-baseline',
       'ontology/p01-stage-01-classification-cases',
+      'ontology/p01-stage-01-ontology-review',
+      'ontology/p01-stage-01-realization-stress-tests',
+      'ontology/p01-stage-02-pin-differentiation-falsification',
+      'ontology/p01-stage-02-case-disposition-ledger',
+      'ontology/p01-stage-02-cross-enterprise-realization-tests',
+      'ontology/p01-stage-02-hypothesis-dispositions',
     ]},
     {type: 'category', label: 'Information Product characteristics', items: [
       'infopch/overview',

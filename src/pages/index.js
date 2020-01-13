@@ -12,7 +12,7 @@ const areas = [
 
 export default function Home() {
   return (
-    <Layout title="INFOPS" description="Information Product Specification - P01 Stage 1 working draft">
+    <Layout title="INFOPS" description="Information Product Specification - P01 Stage 2 falsification draft">
       <main>
         <header className={styles.hero}>
           <div className="container">
@@ -27,7 +27,7 @@ export default function Home() {
               <Link className="button button--primary button--lg" to="/docs/intro">Explore the project</Link>
               <Link className="button button--secondary button--lg" to="/docs/specification/roadmap">Development roadmap</Link>
             </div>
-            <div className={styles.status}>P01 Stage 1 working draft · No normative qualification published</div>
+            <div className={styles.status}>P01 Stage 2 falsification draft · No normative qualification published</div>
           </div>
         </header>
         <section className={styles.section}>

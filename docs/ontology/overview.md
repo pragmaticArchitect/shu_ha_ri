@@ -4,8 +4,17 @@ title: Information Product Ontology - Working Programme
 
 # Information Product ontology - P01 in progress
 
-**P01 Stage 1 (working draft)** establishes the inherited authority baseline, classification hypotheses and a challenge-case inventory. It publishes **no normative Information Product qualification rules**.
+**P01 Stage 1 (preserved working draft)** establishes the inherited authority baseline, classification hypotheses and a challenge-case inventory. It publishes **no normative Information Product qualification rules**.
 
 Start with [P01 Stage 1: ontology and authority baseline](./p01-stage-01-authority-and-ontology-baseline.md) and the [classification challenge cases](./p01-stage-01-classification-cases.md).
 
 The core unresolved challenge is the intrinsic distinction between qualified Data, Information, AI, Service and Compound Products **without deriving family status from source technology, format or Product maturity**. [Qualification boundary planning](./qualification-boundary.md) remains open until later P01 stages.
+
+## Stage 1 ontology review
+
+The non-normative [Stage 1 ontology review and hypothesis dispositions](./p01-stage-01-ontology-review.md) examines H01-H10 in light of the Product identity, analytical constitution, PFI realization and dependency-boundary discussions. The accompanying [realization and Product-family stress tests](./p01-stage-01-realization-stress-tests.md) extend C01-C18 with cross-enterprise and lifecycle cases. Neither page adopts family qualification rules; the baseline hypotheses remain intact until reviewed.
+
+
+## Stage 2 - PIN differentiation and falsification
+
+The new [Stage 2 research baseline](./p01-stage-02-pin-differentiation-falsification.md) challenges over-broad Product-family proxies using the [36-case disposition ledger](./p01-stage-02-case-disposition-ledger.md), [three-enterprise PFI controlled experiments](./p01-stage-02-cross-enterprise-realization-tests.md) and [hypothesis decisions / S03 gates](./p01-stage-02-hypothesis-dispositions.md). These are proposed review conclusions, not normative Information Product family criteria. The original S01 hypotheses and stress cases are retained for traceability.

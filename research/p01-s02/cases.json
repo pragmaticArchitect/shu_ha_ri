@@ -1,0 +1,298 @@
+{
+  "project": "INFOPS",
+  "stage": "P01-S02",
+  "normative": false,
+  "assessmentKind": "hypothetical_falsification",
+  "qualificationDecisionsIssued": false,
+  "count": 36,
+  "cases": [
+    {
+      "caseId": "C01",
+      "scenario": "Governed Payment Lifecycle dataset",
+      "conditionalInference": "A promise of trusted state/event representation principally supports a **Data Product** investigation; timestamps/context alone do not make it Information",
+      "researchDisposition": "COMPETING_FAMILY",
+      "requiredEvidence": "BPS Productness and actual external Data Product qualification",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C02",
+      "scenario": "Dataset with settlement-duration and corridor measures",
+      "conditionalInference": "Derived metrics could be constituents of a Data Product, or support a different productized informational proposition",
+      "researchDisposition": "BOUNDARY_UNRESOLVED",
+      "requiredEvidence": "Primary Product Promise, semantic intent and constituting relationship to each measure",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C03",
+      "scenario": "One-off internal KPI dashboard",
+      "conditionalInference": "A chart can be meaningful Information without evidence that the chart/occurrence is itself a Product",
+      "researchDisposition": "PRODUCTNESS_NOT_SHOWN",
+      "requiredEvidence": "Product identity, owner, promise, lifecycle and independent BPS Productness",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C04",
+      "scenario": "Reusable corridor-performance subscription",
+      "conditionalInference": "Bounded settlement-performance proposition is a plausible Info VBE, if intentional Productness and governed semantics are established",
+      "researchDisposition": "PROVISIONAL_INFO_CANDIDATE",
+      "requiredEvidence": "Promise, semantic methods, source eligibility, consumer contract, Product version",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C05",
+      "scenario": "Versioned analytical PDF brief",
+      "conditionalInference": "Fixed delivery format and lack of a running analytical engine do not disqualify a potentially qualified informational offering",
+      "researchDisposition": "PROVISIONAL_INFO_CANDIDATE",
+      "requiredEvidence": "Distinguish published Product edition from one-off PDF artifact; Productness/semantic governance",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C06",
+      "scenario": "Human-curated market interpretation",
+      "conditionalInference": "Human curation can constitute meaningful Information without engine ownership",
+      "researchDisposition": "PROVISIONAL_INFO_CANDIDATE",
+      "requiredEvidence": "Interpretive frame, method, evidence, bounded promise and Productness",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C07",
+      "scenario": "BI tool offering arbitrary calculations",
+      "conditionalInference": "A generic calculation/visualization capability does not automatically have an informational VBE",
+      "researchDisposition": "COMPETING_FAMILY",
+      "requiredEvidence": "Actual promise; is the subject a tool/service or a specifically constituted informational product?",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C08",
+      "scenario": "AI Product summarizes settlement metrics",
+      "conditionalInference": "AI dependency does not classify the containing output; one-off summary need not be a Product",
+      "researchDisposition": "BOUNDARY_UNRESOLVED",
+      "requiredEvidence": "Subject identity and whether anything new is intentionally productized",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C09",
+      "scenario": "Governed AI inference service",
+      "conditionalInference": "If intrinsic promise is a qualified intelligence capability, AIPS is a stronger family authority",
+      "researchDisposition": "COMPETING_FAMILY",
+      "requiredEvidence": "Independent AIPS qualification and precise Product Promise",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C10",
+      "scenario": "Threshold-driven late-settlement alert",
+      "conditionalInference": "Information occurrence, recommendation, decision and action must be separated",
+      "researchDisposition": "BOUNDARY_UNRESOLVED",
+      "requiredEvidence": "Owner/actor/authority, alert Productness, semantic contract and downstream authorization",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C11",
+      "scenario": "Information offering consuming another Information Product",
+      "conditionalInference": "A distinct bounded informational promise is possible without inheriting upstream identity",
+      "researchDisposition": "PROVISIONAL_INFO_CANDIDATE",
+      "requiredEvidence": "New Product Promise, constitution, differentiated informational value and identity",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C12",
+      "scenario": "Metric + explanation + simulation",
+      "conditionalInference": "Could be one coherent Info proposition family, a platform/service or a real compound Product",
+      "researchDisposition": "BOUNDARY_UNRESOLVED",
+      "requiredEvidence": "Boundedness/coherence, primary VBE, distinct component promises",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C13",
+      "scenario": "Refreshing fraud-monitoring report with AI inputs",
+      "conditionalInference": "Neither refresh pattern nor AI dependency alone determines family; a bounded interpreted report is plausible",
+      "researchDisposition": "PROVISIONAL_INFO_CANDIDATE",
+      "requiredEvidence": "Promise, semantic context, AIPS dependency currentness, Productness",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C14",
+      "scenario": "Ad hoc direct analytical consumption",
+      "conditionalInference": "GEARM/GEARA allow direct consumption without Productization",
+      "researchDisposition": "PRODUCTNESS_NOT_SHOWN",
+      "requiredEvidence": "Separate intentional qualified Product identity, if asserted",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C15",
+      "scenario": "Same metrics/ports with different semantics",
+      "conditionalInference": "Identical payload does not establish same informational meaning or Product version",
+      "researchDisposition": "SEMANTIC_CHANGE",
+      "requiredEvidence": "Population, period, method, relevant definition/authority versions",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C16",
+      "scenario": "Historical report after metric change",
+      "conditionalInference": "Historical meaning belongs to the definition/occurrence-time evidence, not the newest metric definition",
+      "researchDisposition": "IDENTITY_OR_OCCURRENCE",
+      "requiredEvidence": "Referenced historical semantic version and effective period",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C17",
+      "scenario": "Marketplace chart with high maturity",
+      "conditionalInference": "Listing and maturity cannot create either Productness or Information family membership",
+      "researchDisposition": "PRODUCTNESS_NOT_SHOWN",
+      "requiredEvidence": "Independent BPS Product evidence and PIN analysis; PMDD assessed later",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C18",
+      "scenario": "Commercial bundle: feed + analysis + AI recommendations",
+      "conditionalInference": "A commercial bundle need not give each component a common intrinsic Product Family",
+      "researchDisposition": "BOUNDARY_UNRESOLVED",
+      "requiredEvidence": "Which subject is qualified: bundle, constituent Product, or composite with a new promise?",
+      "origin": "S01_INITIAL"
+    },
+    {
+      "caseId": "C19",
+      "scenario": "Published annual research analysis",
+      "conditionalInference": "A stable, intentionally Productized governed interpretation can be an Info candidate even after authoring machinery has gone",
+      "researchDisposition": "PROVISIONAL_INFO_CANDIDATE",
+      "requiredEvidence": "BPS Productness; method/frame/context; versioned editorial controls",
+      "origin": "S01_ADDITIONAL"
+    },
+    {
+      "caseId": "C20",
+      "scenario": "Generic mathematical / analytics API",
+      "conditionalInference": "Offering compute without a bounded informational promise suggests a generic capability/service, not Information merely because it returns numbers",
+      "researchDisposition": "COMPETING_FAMILY",
+      "requiredEvidence": "Actual VBE/EVC and specified service terms",
+      "origin": "S01_ADDITIONAL"
+    },
+    {
+      "caseId": "C21",
+      "scenario": "Data Product with VWAP and semantic metadata",
+      "conditionalInference": "Even extensive analytical calculations are not sufficient to replace a Data-representation Product Promise",
+      "researchDisposition": "BOUNDARY_UNRESOLVED",
+      "requiredEvidence": "Governing primary promise and external Data Product requirements",
+      "origin": "S01_ADDITIONAL"
+    },
+    {
+      "caseId": "C22",
+      "scenario": "Same Crypto Market Info intent, three enterprises",
+      "conditionalInference": "PFI engine/topology/API/AI differences alone cannot reclassify a Product; semantics/currentness must be verified separately",
+      "researchDisposition": "INVARIANCE_SUPPORTED",
+      "requiredEvidence": "Contract-normalized semantic equivalence, identity/versions and realization evidence",
+      "origin": "S01_ADDITIONAL"
+    },
+    {
+      "caseId": "C23",
+      "scenario": "AI-powered/AI-created Comic, Movie, Car or Rocket",
+      "conditionalInference": "Use, containment or AI-origin does not automatically change primary intrinsic VBE/EVC",
+      "researchDisposition": "INVARIANCE_SUPPORTED",
+      "requiredEvidence": "PIN of each actual containing Product, not just AI dependency labels",
+      "origin": "S01_ADDITIONAL"
+    },
+    {
+      "caseId": "C24",
+      "scenario": "Market information promise changes into trading intelligence",
+      "conditionalInference": "Real change of primary promised value requires requalification; cannot hide it as a new AI golden path",
+      "researchDisposition": "SEMANTIC_CHANGE",
+      "requiredEvidence": "Versioned new promise, AIPS qualification, possible compound/Product identity decision",
+      "origin": "S01_ADDITIONAL"
+    },
+    {
+      "caseId": "C25",
+      "scenario": "Repository, build archive and multiple deployments",
+      "conditionalInference": "Implementation representations do not automatically constitute separate Product identities or the full Product",
+      "researchDisposition": "IDENTITY_OR_OCCURRENCE",
+      "requiredEvidence": "Logical Product identity, artifacts, builds, deployments and occurrence links",
+      "origin": "S01_ADDITIONAL"
+    },
+    {
+      "caseId": "C26",
+      "scenario": "External mathematics API in Info Product runtime",
+      "conditionalInference": "Generated caller belongs to executable realization; external API remains separately owned; invocation remains a governed boundary",
+      "researchDisposition": "INVARIANCE_SUPPORTED",
+      "requiredEvidence": "Blueprint Binding, API capability/contract version, semantics and trace evidence",
+      "origin": "S01_ADDITIONAL"
+    },
+    {
+      "caseId": "C27",
+      "scenario": "Same numeric values, different populations or periods",
+      "conditionalInference": "Payload equality cannot override differences in governing informational meaning",
+      "researchDisposition": "SEMANTIC_CHANGE",
+      "requiredEvidence": "Semantic definition identities, effective periods and population/time rules",
+      "origin": "S01_ADDITIONAL"
+    },
+    {
+      "caseId": "C28",
+      "scenario": "Different asset/time parameters for one Product",
+      "conditionalInference": "Valid runtime parameter variation need not create a new Product version or family",
+      "researchDisposition": "IDENTITY_OR_OCCURRENCE",
+      "requiredEvidence": "Parameter contract, allowed context range, identity invariants",
+      "origin": "S01_ADDITIONAL"
+    },
+    {
+      "caseId": "C29",
+      "scenario": "Governance-free AI-generated market narrative",
+      "conditionalInference": "A convincing narrative is produced but no Product subject, applicable information frame, source rules or logic/meaning authority is evidenced. Informational content by itself cannot certify Information Productness",
+      "researchDisposition": "PRODUCTNESS_NOT_SHOWN",
+      "requiredEvidence": "Context alone versus Productness, H01/H03/H05",
+      "origin": "S02_NEW"
+    },
+    {
+      "caseId": "C30",
+      "scenario": "Static governed information edition; engine retired",
+      "conditionalInference": "A specific versioned published market-analysis Product continues to offer its promised report after the historical authoring tools are gone",
+      "researchDisposition": "INVARIANCE_SUPPORTED",
+      "requiredEvidence": "Refutes universal own-engine/active-execution requirement, H03/H10",
+      "origin": "S02_NEW"
+    },
+    {
+      "caseId": "C31",
+      "scenario": "A subscription bundling information and autonomous trade execution",
+      "conditionalInference": "If it independently promises interpreted market information **and** governed consequential trading capability, treating it as an uncomplicated single-family Information Product is unjustified",
+      "researchDisposition": "BOUNDARY_UNRESOLVED",
+      "requiredEvidence": "Compound/changed essential value, H01/H04/H05",
+      "origin": "S02_NEW"
+    },
+    {
+      "caseId": "C32",
+      "scenario": "Same bounded analytical publication delivered by PDF or API",
+      "conditionalInference": "If the same versioned promise/meaning is preserved, replacing the interface does not change intrinsic family",
+      "researchDisposition": "INVARIANCE_SUPPORTED",
+      "requiredEvidence": "Delivery-medium sufficiency, H02/H10",
+      "origin": "S02_NEW"
+    },
+    {
+      "caseId": "C33",
+      "scenario": "AI-generated explanation supplements governed VWAP",
+      "conditionalInference": "If metric and information promise are unchanged, an independently qualified AI dependency does not automatically transform the containing Product into an AI Product",
+      "researchDisposition": "INVARIANCE_SUPPORTED",
+      "requiredEvidence": "Non-transitivity, H04/H07",
+      "origin": "S02_NEW"
+    },
+    {
+      "caseId": "C34",
+      "scenario": "PFI replaces specified VWAP with a different estimator",
+      "conditionalInference": "Even if the outputs are numerically close in one test, changing the governing analytical calculation is not proven equivalent and may breach the Product Promise",
+      "researchDisposition": "SEMANTIC_CHANGE",
+      "requiredEvidence": "PFI semantic authority, H03/H05/H07/H09",
+      "origin": "S02_NEW"
+    },
+    {
+      "caseId": "C35",
+      "scenario": "Same spec independently owned by three enterprises",
+      "conditionalInference": "Independent Product identities can implement the same semantic Product Kind and intent. Same Family/Kind is not instance identity",
+      "researchDisposition": "IDENTITY_OR_OCCURRENCE",
+      "requiredEvidence": "Cross-enterprise identity, H06/H10",
+      "origin": "S02_NEW"
+    },
+    {
+      "caseId": "C36",
+      "scenario": "A shared runtime serves ten informational Products",
+      "conditionalInference": "One execution engine and shared deployment do not collapse ten separately promised and owned informational Products into a single Product",
+      "researchDisposition": "INVARIANCE_SUPPORTED",
+      "requiredEvidence": "Hosting/realization conflation, H09/H10",
+      "origin": "S02_NEW"
+    }
+  ]
+}

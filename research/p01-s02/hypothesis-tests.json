@@ -1,0 +1,257 @@
+{
+  "project": "INFOPS",
+  "stage": "P01-S02",
+  "normative": false,
+  "purpose": "Logical challenge of candidate claims, not qualification or executable semantics",
+  "count": 16,
+  "tests": [
+    {
+      "testId": "F01",
+      "proposedUniversalClaim": "Output format/presentation alone is sufficient",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C03",
+        "C05",
+        "C17",
+        "C32"
+      ],
+      "linkedHypotheses": [
+        "H02",
+        "H10"
+      ],
+      "counterexampleOrEvidence": "C03, C05, C17, C32"
+    },
+    {
+      "testId": "F02",
+      "proposedUniversalClaim": "Owning a live analytics engine is necessary",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C05",
+        "C19",
+        "C26",
+        "C30"
+      ],
+      "linkedHypotheses": [
+        "H03",
+        "H10"
+      ],
+      "counterexampleOrEvidence": "C05, C19, C26, C30"
+    },
+    {
+      "testId": "F03",
+      "proposedUniversalClaim": "Any calculation or rich Data semantics suffices",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C02",
+        "C21",
+        "C27"
+      ],
+      "linkedHypotheses": [
+        "H01",
+        "H02"
+      ],
+      "counterexampleOrEvidence": "C02, C21, C27"
+    },
+    {
+      "testId": "F04",
+      "proposedUniversalClaim": "AI as constituent/provenance makes containing Product an AI Product",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C08",
+        "C23",
+        "C33"
+      ],
+      "linkedHypotheses": [
+        "H04",
+        "H07"
+      ],
+      "counterexampleOrEvidence": "C08, C23, C33"
+    },
+    {
+      "testId": "F05",
+      "proposedUniversalClaim": "Any ability to form information is sufficient",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C07",
+        "C20"
+      ],
+      "linkedHypotheses": [
+        "H01",
+        "H05"
+      ],
+      "counterexampleOrEvidence": "C07, C20"
+    },
+    {
+      "testId": "F06",
+      "proposedUniversalClaim": "A bounded proposition by itself is sufficient",
+      "hypotheticalInference": "UNRESOLVED",
+      "linkedCaseIds": [
+        "C03",
+        "C04",
+        "C14",
+        "C17"
+      ],
+      "linkedHypotheses": [
+        "H01",
+        "H05",
+        "H08"
+      ],
+      "counterexampleOrEvidence": "C03, C04, C14, C17 show Productness is independent; boundedness not frozen"
+    },
+    {
+      "testId": "F07",
+      "proposedUniversalClaim": "Interpretation/context is relevant to informational meaning",
+      "hypotheticalInference": "SUPPORTED_UNDER_PREMISES",
+      "linkedCaseIds": [
+        "C06",
+        "C19",
+        "C27",
+        "C29"
+      ],
+      "linkedHypotheses": [
+        "H02",
+        "H03"
+      ],
+      "counterexampleOrEvidence": "C06, C19, C27, C29"
+    },
+    {
+      "testId": "F08",
+      "proposedUniversalClaim": "Same governed intent/semantics can survive alternate PFI realizations",
+      "hypotheticalInference": "CONDITIONALLY_SUPPORTED",
+      "linkedCaseIds": [
+        "C22",
+        "C26",
+        "C32",
+        "C36"
+      ],
+      "linkedHypotheses": [
+        "H07",
+        "H09"
+      ],
+      "counterexampleOrEvidence": "C22, C26, C32, C36; PFI-F1/F6"
+    },
+    {
+      "testId": "F09",
+      "proposedUniversalClaim": "An approved PFI golden path assures semantic equivalence",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C24",
+        "C34"
+      ],
+      "linkedHypotheses": [
+        "H03",
+        "H07",
+        "H09"
+      ],
+      "counterexampleOrEvidence": "C24, C34; PFI-F2/F4"
+    },
+    {
+      "testId": "F10",
+      "proposedUniversalClaim": "Same output values imply equivalent informational meaning",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C15",
+        "C27",
+        "C34"
+      ],
+      "linkedHypotheses": [
+        "H02",
+        "H06"
+      ],
+      "counterexampleOrEvidence": "C15, C27, C34; PFI-F4"
+    },
+    {
+      "testId": "F11",
+      "proposedUniversalClaim": "A new runtime parameter creates a new Product",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C28"
+      ],
+      "linkedHypotheses": [
+        "H05",
+        "H06"
+      ],
+      "counterexampleOrEvidence": "C28"
+    },
+    {
+      "testId": "F12",
+      "proposedUniversalClaim": "Same qualified Product Family implies one Product identity",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C22",
+        "C25",
+        "C35"
+      ],
+      "linkedHypotheses": [
+        "H06",
+        "H10"
+      ],
+      "counterexampleOrEvidence": "C22, C25, C35"
+    },
+    {
+      "testId": "F13",
+      "proposedUniversalClaim": "PMDD or catalog listing can establish Productness/family",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C03",
+        "C14",
+        "C17"
+      ],
+      "linkedHypotheses": [
+        "H08"
+      ],
+      "counterexampleOrEvidence": "C03, C14, C17"
+    },
+    {
+      "testId": "F14",
+      "proposedUniversalClaim": "A coherent multi-proposition informational Product is always one non-compound Info Product",
+      "hypotheticalInference": "UNRESOLVED",
+      "linkedCaseIds": [
+        "C12",
+        "C18",
+        "C31"
+      ],
+      "linkedHypotheses": [
+        "H01",
+        "H04",
+        "H05"
+      ],
+      "counterexampleOrEvidence": "C12, C18, C31"
+    },
+    {
+      "testId": "F15",
+      "proposedUniversalClaim": "Information Product intrinsically owns downstream decisions/actions",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C10",
+        "C31"
+      ],
+      "linkedHypotheses": [
+        "H05",
+        "H09"
+      ],
+      "counterexampleOrEvidence": "C10, C31 and GEARM Decision/Action boundary"
+    },
+    {
+      "testId": "F16",
+      "proposedUniversalClaim": "BPS Productness + bounded informational VBE + semantic constitution is already proven *sufficient* for INFOPS",
+      "hypotheticalInference": "UNRESOLVED",
+      "linkedCaseIds": [
+        "C02",
+        "C12",
+        "C18",
+        "C21",
+        "C31"
+      ],
+      "linkedHypotheses": [
+        "H01",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H08"
+      ],
+      "counterexampleOrEvidence": "C02, C12, C18, C21, C31; external family and Productness contracts not yet pinned"
+    }
+  ]
+}

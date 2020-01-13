@@ -1,0 +1,47 @@
+{
+  "project": "INFOPS",
+  "stage": "P01-S02",
+  "normative": false,
+  "ownerAccepted": false,
+  "count": 6,
+  "decisions": [
+    {
+      "decisionId": "S02-D01",
+      "recommendation": "Accept the rejection of format, AI-dependency, engine-ownership and analytics-presence shortcut classifiers",
+      "state": "PROPOSED"
+    },
+    {
+      "decisionId": "S02-D02",
+      "recommendation": "Accept meaning-bearing semantic constitution as relevant, separate from execution engine ownership",
+      "state": "PROPOSED"
+    },
+    {
+      "decisionId": "S02-D03",
+      "recommendation": "Continue researching a bounded Information Proposition (or coherent family) as candidate VBE, **not** an already sufficient qualifier",
+      "state": "PROPOSED"
+    },
+    {
+      "decisionId": "S02-D04",
+      "recommendation": "Treat Product Promise, PIN and independently applicable family authorities as indispensable in ambiguous Data/Information/Compound cases",
+      "state": "PROPOSED"
+    },
+    {
+      "decisionId": "S02-D05",
+      "recommendation": "Treat PFI realization independence as conditional on semantic/contract equivalence, and differentiate Product Kind from Product instance",
+      "state": "PROPOSED"
+    },
+    {
+      "decisionId": "S02-D06",
+      "recommendation": "Authorize drafting P01-S03 conditional qualification rules only after reviewing the unresolved boundary decisions",
+      "state": "PROPOSED"
+    }
+  ],
+  "unresolved": [
+    "Data/Information dual-Promise with rich calculated fields",
+    "Coherence/boundedness of an evolving proposition family",
+    "Compound and multi-VBE Products",
+    "Exact source-version/adoption manifest",
+    "Generic Productness evidence for illustrative offerings",
+    "Necessary-and-sufficient Information Product qualifier"
+  ]
+}

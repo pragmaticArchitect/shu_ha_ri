@@ -17,14 +17,21 @@ def require(relative):
 package = json.loads(require('package.json').read_text(encoding='utf-8'))
 status = json.loads(require('static/spec/infops/0.1/scaffold-state.json').read_text(encoding='utf-8'))
 if status.get('normative') is not False: problems.append('Scaffold unexpectedly claims normative status')
-if status.get('releaseStatus') != 'P01_STAGE_01_DRAFT': problems.append('Expected P01 Stage 1 draft release status')
-if status.get('p01Stage') != 'S01_AUTHORITY_ONTOLOGY_BASELINE': problems.append('Wrong P01 stage state')
-if status.get('stageAccepted') is not False: problems.append('Stage 1 shall not be marked accepted automatically')
+if status.get('releaseStatus') != 'P01_STAGE_02_DRAFT': problems.append('Expected P01 Stage 1 draft release status')
+if status.get('p01Stage') != 'S02_PIN_FALSIFICATION': problems.append('Wrong P01 stage state')
+if status.get('stageAccepted') is not False: problems.append('Stage 2 shall not be marked accepted automatically')
 for item in ['docusaurus.config.js','sidebars.js','src/pages/index.js','src/css/custom.css',
              'src/pages/INFOPCH-PMDD-guidance/index.md','docs/intro.md',
              'docs/ontology/qualification-boundary.md',
              'docs/ontology/p01-stage-01-authority-and-ontology-baseline.md',
              'docs/ontology/p01-stage-01-classification-cases.md',
+             'docs/ontology/p01-stage-01-ontology-review.md',
+             'docs/ontology/p01-stage-01-realization-stress-tests.md',
+             'docs/ontology/p01-stage-02-pin-differentiation-falsification.md',
+             'docs/ontology/p01-stage-02-case-disposition-ledger.md',
+             'docs/ontology/p01-stage-02-cross-enterprise-realization-tests.md',
+             'docs/ontology/p01-stage-02-hypothesis-dispositions.md',
+             'scripts/validate-infops-p01-s02.py',
              'docs/infopch/overview.md',
              'docs/pmdd/assessment-guidance.md','static/img/infops-mark.svg']:
     require(item)
@@ -63,6 +70,14 @@ for source in ('docusaurus.config.js','sidebars.js'):
     except FileNotFoundError:
         print('NOTE: node executable unavailable; JavaScript syntax check skipped')
 
-print(f'INFOPS P01 Stage 1 checks: {len(docs)} documentation pages; {len(problems)} issue(s)')
+try:
+    research = subprocess.run([sys.executable, str(ROOT / 'scripts/validate-infops-p01-s02.py')], capture_output=True, text=True)
+    print(research.stdout, end='')
+    if research.returncode:
+        problems.append('P01-S02 research inventory validation failed: ' + research.stderr.strip())
+except Exception as exc:
+    problems.append('P01-S02 research inventory validator could not execute: ' + str(exc))
+
+print(f'INFOPS P01 Stage 2 checks: {len(docs)} documentation pages; {len(problems)} issue(s)')
 for issue in problems: print('ERROR:',issue)
 sys.exit(1 if problems else 0)

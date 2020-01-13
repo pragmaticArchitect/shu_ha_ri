@@ -14,6 +14,8 @@ title: INFOPS Development Roadmap
 | P06 | Machine-readable validation | Schemas, examples, boundary cases and automated tests |
 | P07 | Release preparation | Cross-artifact reconciliation, approvals and publication decision |
 
-**P01 internal stages (proposed):** S01 authority and ontology baseline (current working draft); S02 PIN differentiation and falsification tests; S03 draft family qualification rules and independent review; S04 boundary-case reconciliation and P01 hand-off. These internal stages are planning labels, not independently frozen specifications.
+**P01 internal stages (proposed):** S01 authority and ontology baseline (preserved research draft); S02 PIN differentiation and falsification tests (current owner-review draft); S03 conditional draft family qualification rules and independent review (pending); S04 boundary-case reconciliation and P01 hand-off (pending). These internal stages are planning labels, not independently frozen specifications.
+
+Stage 2 results: [PIN falsification](../ontology/p01-stage-02-pin-differentiation-falsification.md), [case ledger](../ontology/p01-stage-02-case-disposition-ledger.md), [PFI experiments](../ontology/p01-stage-02-cross-enterprise-realization-tests.md), and [S03 gates](../ontology/p01-stage-02-hypothesis-dispositions.md). None constitutes a normative qualification framework.
 
 These are planning identifiers rather than normative specification identifiers. The roadmap may be revised through project governance.
