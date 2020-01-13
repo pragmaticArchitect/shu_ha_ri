@@ -1,0 +1,57 @@
+{
+  "overlay": "INFOPS-0.1-IPCH14-FIRST-PASS",
+  "date": "2026-11-17",
+  "baseline": "INFOPS-0.1-IPCH13-First-Pass-overlay-2026-11-17.zip (prepared; deployment unconfirmed)",
+  "decisions": [
+    "INFOPS-0.1-IPCH-P01-D35-F01 APPROVED_EXPERIMENTAL_E0",
+    "INFOPS-0.1-IPCH-P01-D36-F01 APPROVED_EXPERIMENTAL_E0"
+  ],
+  "guide": "IPCH14.md FIRST-PASS-DRAFT-01 DRAFT_PREPARED_ACCEPTED",
+  "publication": "NOT_DEPLOYED",
+  "normative_release": "NOT_AUTHORIZED",
+  "ipch01_ipch03": "DEPLOYED_EXPERIMENTAL_OWNER_CONFIRMED",
+  "ipch04_ipch13": "OVERLAYS_PREPARED_DEPLOYMENT_NOT_CONFIRMED",
+  "second_pass": "NOT_STARTED",
+  "empirical_economic_assessments": "NOT_EXECUTED",
+  "adversarial_cases": "ECO-A01-ECO-A12_UNEXECUTED",
+  "open_research": "ECO-R01-ECO-R08_OPEN",
+  "unresolved_source_tensions": [
+    "ECO-R01",
+    "ECO-R02",
+    "ECO-R03",
+    "ECO-R04",
+    "ECO-R05",
+    "ECO-R06",
+    "ECO-R07",
+    "ECO-R08"
+  ],
+  "parent_open_obligations": 24,
+  "parent_g06_e0_designs": "62_APPROVED_UNEXECUTED",
+  "parent_e1_e2_executions": "0/0",
+  "files": {
+    "docs/infopch/IPCH14.md": {
+      "sha256": "44f8cba253b3aefadf8a2f66720cc54374a242dbb0d1f650851db737c163ab28",
+      "bytes": 36313
+    },
+    "docs/infopch/ipch14-research-status.md": {
+      "sha256": "b37d09ca3445d2fe2aed4889dfe746b6dd8490fc3c7c84ce7a8fee0415930d11",
+      "bytes": 5496
+    },
+    "docs/infopch/overview.md": {
+      "sha256": "6866a2bfcfe6ee89b88627f261c6a83a5e9026578386e42ef8d4142f23397091",
+      "bytes": 17466
+    },
+    "docs/pmdd/ipch-maturity-guidance.md": {
+      "sha256": "e448c1fd478c95ad3daacd9e694d33b27fa371715d0bd55467f88bfee878d6e2",
+      "bytes": 10969
+    },
+    "sidebars.js": {
+      "sha256": "03089573250bda94926ce2720ccaae32327b8217f1c396677cdbb3f81515c3af",
+      "bytes": 4303
+    },
+    "src/pages/INFOPCH-PMDD-guidance/index.md": {
+      "sha256": "81ce17408954fcea87a00ecc8cafbe0b31be2d7cb3593e116719bdf0a05c86f6",
+      "bytes": 3373
+    }
+  }
+}

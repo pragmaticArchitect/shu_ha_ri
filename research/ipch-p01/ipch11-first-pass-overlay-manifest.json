@@ -1,0 +1,52 @@
+{
+  "overlay": "INFOPS-0.1-IPCH11-FIRST-PASS",
+  "date": "2026-11-17",
+  "baseline": "INFOPS-0.1-IPCH10-First-Pass-overlay-2026-11-17.zip (prepared; deployment unconfirmed)",
+  "decisions": [
+    "INFOPS-0.1-IPCH-P01-D29-F01 APPROVED_EXPERIMENTAL_E0",
+    "INFOPS-0.1-IPCH-P01-D30-F01 APPROVED_EXPERIMENTAL_E0"
+  ],
+  "guide": "IPCH11.md FIRST-PASS-DRAFT-01 DRAFT_PREPARED_ACCEPTED",
+  "publication": "NOT_DEPLOYED",
+  "normative_release": "NOT_AUTHORIZED",
+  "ipch01_ipch03": "DEPLOYED_EXPERIMENTAL_OWNER_CONFIRMED",
+  "ipch04_ipch10": "OVERLAYS_PREPARED_DEPLOYMENT_NOT_CONFIRMED",
+  "second_pass": "NOT_STARTED",
+  "adversarial_cases": "SEM-A01-SEM-A12_UNEXECUTED",
+  "open_research": "SEM-R01-SEM-R08_OPEN",
+  "unresolved_source_tensions": [
+    "SEM-R02",
+    "SEM-R03",
+    "SEM-R04"
+  ],
+  "independent_geara_gearm_authority": "PRESERVED",
+  "parent_open_obligations": 24,
+  "parent_g06_e0_designs": "62_APPROVED_UNEXECUTED",
+  "parent_e1_e2_executions": "0/0",
+  "files": {
+    "docs/infopch/IPCH11.md": {
+      "sha256": "a96db646c0f6bd1abc0d62a512fe81afa4e1f59ea02934fb8ad9d6ca8e87aa63",
+      "bytes": 40887
+    },
+    "docs/infopch/ipch11-research-status.md": {
+      "sha256": "ed0d6ef227ddb3893ef4a966c88b17fa5c0d8e3058decf19d9d1afb29d2b347a",
+      "bytes": 6088
+    },
+    "docs/infopch/overview.md": {
+      "sha256": "be77c3967f58a83667de8c0ecef46db2b4ed61662643564c79f29ae69cf116ae",
+      "bytes": 16463
+    },
+    "docs/pmdd/ipch-maturity-guidance.md": {
+      "sha256": "7a6b289c1406d8044a01aa95bc8c8ab8d524536b763b61888c971e90a25bbcea",
+      "bytes": 10123
+    },
+    "sidebars.js": {
+      "sha256": "4d7be8c674c5285a64f1428892b445e5fa082005e9f690caf39b3056da46f139",
+      "bytes": 4111
+    },
+    "src/pages/INFOPCH-PMDD-guidance/index.md": {
+      "sha256": "54b0f54568242669c07a0b7c7485c0c0f69542d5a8a99f5117e034a96f30a125",
+      "bytes": 3055
+    }
+  }
+}
