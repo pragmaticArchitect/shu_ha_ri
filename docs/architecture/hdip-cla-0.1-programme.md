@@ -32,6 +32,15 @@ The programme is responsibility-first and deliberately avoids freezing logical p
 | **M16** | Architecture Invariants & Conformance Model |
 | **M17** | Cross-Artifact Reconciliation & HDIP-CLA 0.1 Freeze |
 
+
+## Programme status
+
+| Stage | Status |
+|---|---|
+| **M01 — Programme Charter, Scope & Authority Boundary** | **Complete** |
+| **M02 — Upstream Architecture Responsibility Intake** | **Draft baseline produced** |
+| **M03 — Existing HDIP Construct Inventory & Disposition** | Next |
+
 ## Foundational proposition
 
 > **HDIP is an enterprise logical platform architecture that provides governed, interoperable and product-oriented capabilities across Data, Information and Intelligence by composing and realizing responsibilities defined by GEDRA, GEARA and GEAIRA, while preserving the semantic and Product authorities of GEDRM, GEARM, GEAIRM, BPS/PIN and applicable Product-family specifications.**

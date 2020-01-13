@@ -6,7 +6,11 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Canonical Logical Architecture',
-      items: ['architecture/hdip-cla-0.1-programme'],
+      items: [
+        'architecture/hdip-cla-0.1-programme',
+        'architecture/cla/hdip-cla-0.1-m01-charter',
+        'architecture/cla/hdip-cla-0.1-m02-upstream-responsibility-intake',
+      ],
     },
     {
       type: 'category',
