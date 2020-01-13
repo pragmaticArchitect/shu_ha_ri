@@ -5,7 +5,7 @@ description: Experimental 16-characteristic catalogue for the bounded INFOPS 0.1
 
 # Information Product Characteristics (IPCH)
 
-> **Status — APPROVED EXPERIMENTAL E0 CATALOGUE; NON-NORMATIVE RESEARCH.** The accountable owner approved `INFOPS-0.1-IPCH-P01-D01-F01` (F01.1–F01.16) as the **16-characteristic catalogue**. D02–D05 subsequently established experimental assessment and guidance controls. For IPCH01, D07–D10 accepted a guidance draft, its revision and a G2 PASS / G3 PASS_WITH_QUALIFICATIONS documentary review. IPCH02 First-Pass mandatory criteria were accepted under D11 and its experimental guidance draft under D12. **Outstanding Second-Pass work remains; no individual guide is finally approved.** This page does not verify live repository adoption or authorize a normative release.
+> **Status — APPROVED EXPERIMENTAL E0 CATALOGUE; NON-NORMATIVE RESEARCH.** The accountable owner approved `INFOPS-0.1-IPCH-P01-D01-F01` (F01.1–F01.16) as the **16-characteristic catalogue**. D02–D05 subsequently established experimental assessment and guidance controls. For IPCH01, D07–D10 accepted a guidance draft, its revision and a G2 PASS / G3 PASS_WITH_QUALIFICATIONS documentary review. IPCH02 First-Pass mandatory criteria were accepted under D11 and its experimental guidance draft under D12. IPCH03 First-Pass mandatory criteria were accepted under D13 and its experimental guidance draft under D14. **Outstanding Second-Pass work remains; no individual guide is finally approved.** This page does not verify live repository adoption or authorize a normative release.
 
 ![Radial infographic depicting sixteen Information Product characteristics, from Domain-Owned through Interoperable & Composable.](/img/information-product-characteristics-ipch-0.1.png)
 
@@ -34,6 +34,8 @@ The Information Product has an identifiable accountable domain and Product autho
 The Information Product can be independently provisioned, published, managed and evolved through governed Product-oriented mechanisms. Mature deployability supports Product Owner self-service: the owner governs **what** is required, while an appropriate realization environment handles **how** it is implemented; owning a dedicated calculation engine is not a prerequisite.
 
 ### IPCH03 — Declarative
+
+**[Read the experimental IPCH03 Declarative PMDD guidance](./IPCH03.md)** (`FIRST-PASS-DRAFT-01`; accepted under D14; Second-Pass review outstanding). [Research and publication status](./ipch03-research-status.md).
 
 The Product's governing intent, required informational meaning, consumption expectations and constraints can be expressed explicitly, rather than being buried solely in application code or informal producer knowledge. The declaration is about governed Product intent and semantics, not a requirement for any particular configuration language.
 

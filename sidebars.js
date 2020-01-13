@@ -58,6 +58,8 @@ module.exports = {
       'infopch/overview',
       'infopch/IPCH01',
       'infopch/IPCH02',
+      'infopch/IPCH03',
+      'infopch/ipch03-research-status',
       'infopch/ipch02-research-status',
       'infopch/ipch01-research-status',
     ]},
