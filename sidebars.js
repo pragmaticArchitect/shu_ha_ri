@@ -56,9 +56,11 @@ module.exports = {
     ]},
     {type: 'category', label: 'Information Product characteristics', items: [
       'infopch/overview',
+      'infopch/IPCH01',
+      'infopch/ipch01-research-status',
     ]},
     {type: 'category', label: 'PMDD', items: [
-      'pmdd/overview','pmdd/assessment-guidance',
+      'pmdd/overview','pmdd/ipch-maturity-guidance','pmdd/assessment-guidance',
     ]},
     {type: 'category', label: 'Descriptors & conformance', items: [
       'descriptors/strategy','conformance/overview',

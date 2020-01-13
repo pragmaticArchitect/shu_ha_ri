@@ -1,0 +1,58 @@
+{
+  "package": "INFOPS-0.1-IPCH01-PMDD-Agent-Navigation-Overlay",
+  "date": "2026-11-17",
+  "status": "EXPERIMENTAL_E0_UNDEPLOYED_PACKAGE",
+  "base_overlay": "INFOPS-0.1-IPCH01-DRAFT-02-overlay-2026-11-17.zip",
+  "guidance": "IPCH01-PMDD-GUIDE-01/DRAFT-02",
+  "guide_status": "DRAFT_PREPARED_NOT_FINAL",
+  "G2": "PASS_DRAFT_02",
+  "G3": "PASS_WITH_QUALIFICATIONS_DRAFT_02",
+  "G4_G5_G6": "NOT_EXECUTED",
+  "navigation": {
+    "primary": "PMDD -> PMDD IPCH Maturity Guidance -> IPCH01",
+    "secondary": "Agent Guidance -> PMDD IPCH Maturity Guidance"
+  },
+  "live_build_run": false,
+  "files": {
+    "shu_ha_ri/docs/infopch/IPCH01.md": {
+      "sha256": "0593a78cf00425654f64a3892f33391b01b43dea7061517552aa909a2b8b9d15",
+      "size": 21292
+    },
+    "shu_ha_ri/docs/infopch/ipch01-research-status.md": {
+      "sha256": "0cb789b5b154f8ecc78493b6fdf49632bef4a8d245a0939c1fbb5b8c0d6815b5",
+      "size": 2893
+    },
+    "shu_ha_ri/docs/infopch/overview.md": {
+      "sha256": "80806dd2ca93be791a48fac6c36cba5a3d8fef3004ee394244282f7ccbb3fd91",
+      "size": 13150
+    },
+    "shu_ha_ri/docs/pmdd/assessment-guidance.md": {
+      "sha256": "0566324a9d32a9e56dde07a89e753bb204aab5517198fd54dfbbb2f85d3787c7",
+      "size": 2798
+    },
+    "shu_ha_ri/docs/pmdd/ipch-maturity-guidance.md": {
+      "sha256": "e2767e92947342a1cf837a3a402883462f459d555351268095a5e8949a65e54e",
+      "size": 3305
+    },
+    "shu_ha_ri/docs/pmdd/overview.md": {
+      "sha256": "3ac5a2fab9c172f28cf5fe7832c5eaba42775e621f76f2c540e11e22a8ce0e52",
+      "size": 1393
+    },
+    "shu_ha_ri/research/ipch-p01/ipch01-draft02-overlay-manifest.json": {
+      "sha256": "1ad9b867433f0fd965cf054f1421d5d5f218bc78b6c39783d7beae2acbfd5015",
+      "size": 1608
+    },
+    "shu_ha_ri/sidebars.js": {
+      "sha256": "82142e45200b54b79a14990bb72e36a1ce1bca3263b7bfbe175ac8fc8187e8da",
+      "size": 3471
+    },
+    "shu_ha_ri/src/pages/INFOPCH-PMDD-guidance/index.md": {
+      "sha256": "352443a0d11c368dd562a04a56e67dc3df92557029bbaf8e5de083e6504f3682",
+      "size": 2036
+    },
+    "shu_ha_ri/static/img/information-product-characteristics-ipch-0.1.png": {
+      "sha256": "53deb1e067b195b8aae134b7166a0f03585fbacf69fc678308bf573479cd8b37",
+      "size": 1583531
+    }
+  }
+}

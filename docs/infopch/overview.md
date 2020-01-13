@@ -5,7 +5,7 @@ description: Experimental 16-characteristic catalogue for the bounded INFOPS 0.1
 
 # Information Product Characteristics (IPCH)
 
-> **Status — APPROVED EXPERIMENTAL E0 CATALOGUE; NOT NORMATIVE.** The accountable owner approved `INFOPS-0.1-IPCH-P01-D01-F01` (F01.1–F01.16) as a **16-characteristic catalogue**. Detailed PMDD maturity criteria, applicability rules, weights, aggregation, thresholds and assessment execution are **not approved or initiated**. This page is a presentation of the approved conversation-level catalogue, not a verification of repository adoption or release authorization.
+> **Status — APPROVED EXPERIMENTAL E0 CATALOGUE; NON-NORMATIVE RESEARCH.** The accountable owner approved `INFOPS-0.1-IPCH-P01-D01-F01` (F01.1–F01.16) as the **16-characteristic catalogue**. D02–D05 subsequently established experimental assessment and guidance controls. For IPCH01 only, D07–D10 accepted a guidance draft, its revision and a G2 PASS / G3 PASS_WITH_QUALIFICATIONS documentary review. **G4–G6 have not been executed; no individual guide is finally approved.** This page does not verify live repository adoption or authorize a normative release.
 
 ![Radial infographic depicting sixteen Information Product characteristics, from Domain-Owned through Interoperable & Composable.](/img/information-product-characteristics-ipch-0.1.png)
 
@@ -22,6 +22,8 @@ The first fourteen characteristic names follow the shared DPCH/AIPCH foundation.
 ## Sixteen approved experimental characteristics
 
 ### IPCH01 — Domain-Owned
+
+**[Read the experimental IPCH01 Domain-Owned PMDD guidance](./IPCH01.md)** (DRAFT-02; G2 pass / G3 qualified pass; G4–G6 not executed).
 
 The Information Product has an identifiable accountable domain and Product authority governing its purpose, informational Promise, meaning, and evolution. Ownership concerns the **Product and its business intent**, not merely the team hosting its analytics implementation.
 
@@ -118,10 +120,12 @@ The Information Product can participate in **authorized** cross-Product arrangem
 
 ## Status and next boundary
 
-**Approved at conversation level:** `INFOPS-0.1-IPCH-P01-D01-F01` clauses F01.1–F01.16, comprising the **16-characteristic experimental catalogue**. **Not initiated:** `INFOPS-0.1-IPCH-P01-D02-F01` (PMDD assessment architecture, applicability and evidence boundaries).
+**Approved at conversation level:** D01–D10 of `INFOPS-0.1-IPCH-P01`. The sixteen-characteristic catalogue and experimental D02 assessment architecture, D03 scoring mapping, D04 guidance template and D05 authoring sequence are approved as bounded E0 research, **not normative requirements**.
 
-Detailed per-characteristic positive/negative criteria, applicability, evidence thresholds, maturity levels, scoring, weighting, aggregation and non-compensatory conditions are **deferred**. The existing PMDD preparation materials remain non-normative and must not be treated as completed IPCH assessment guidance.
+**IPCH01:** The [Domain-Owned guide](./IPCH01.md) is `DRAFT-02 / EXPERIMENTAL_DRAFT_PREPARED`. D10 records **G2 PASS** and **G3 PASS_WITH_QUALIFICATIONS**, with DR-01–DR-08 verified **at documentary level only**. DO-01–DO-15 and G4-C01/C02 are unexecuted; R01–R04 remain open. G4–G6 have not been executed; G5 final individual-guide approval is **NOT_APPROVED**. The other fifteen characteristic guides are **NOT_INITIATED**.
 
-The MVP-P01 conceptual-design sequence remains **stopped after D08**; its experimental profile draft is prepared but unverified. Parent ontology uncertainties, source-adoption limitations, independent Product/semantic/family authorities, open G03/G06 obligations and normative release holds are unchanged. **No Product has been qualified or maturity-assessed by publishing this catalogue.**
+**Scoring limitation:** D03 provides a provisional characteristic-level MET=1, PARTIAL=0.5, NOT_MET=0 mapping with equal weights and affirmative N/A handling, but no IPCH L0/L1/L2 maturity bands, criterion weighting, automatic caps or actual Product assessment are established. Evidence-limited uncertainty is not a maturity state.
 
-*Repository naming note:* The existing navigation and path use `infopch` / `INFOPCH` from the original repository scaffold. This page uses the owner-approved experimental characteristic identifiers **IPCH01–IPCH16**; it does not rename historical paths, templates or authority records.
+**Parent research remains restricted:** The MVP-P01 conceptual design stopped after D08; parent Track B B01 completion is NOT_ESTABLISHED; prospective S04 is CLOSED_CONDITIONAL_RESEARCH with ontology/normative readiness unresolved. Q0–Q5, F06/F14/F16 and all 24 G03/G06 obligations remain unresolved/open; 62 G06 E0 designs remain unexecuted and E1/E2 executions remain zero. Source-documentary audit limitations and independent BPS/PIN, GEARA, GEARM, family/Compound, legal/policy and assurance authorities are not modified. **No Product has been qualified or maturity-assessed by publishing this overlay.**
+
+*Repository naming note:* The existing path `infopch` is retained for compatibility; the owner-approved experimental characteristic identifiers are **IPCH01–IPCH16**. Historical repository artifacts and authorities are not renamed.

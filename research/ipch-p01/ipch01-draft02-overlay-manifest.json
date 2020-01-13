@@ -1,0 +1,37 @@
+{
+  "overlay_id": "INFOPS-0.1-IPCH01-DRAFT-02-overlay-2026-11-17",
+  "classification": "EXPERIMENTAL_E0_NON_NORMATIVE",
+  "guide": "IPCH01-PMDD-GUIDE-01 / DRAFT-02",
+  "owner_decisions": "INFOPS-0.1-IPCH-P01-D01-F01 through D10-F01 approved conversation-level",
+  "gates": {
+    "G1": "BOUNDED_INTAKE_ACCEPTED",
+    "G2": "PASS_DRAFT_02",
+    "G3": "PASS_WITH_QUALIFICATIONS_DRAFT_02",
+    "G4": "NOT_EXECUTED",
+    "G5": "NOT_EXECUTED",
+    "G6": "NOT_EXECUTED"
+  },
+  "remediation": "DR-01..DR-08 DOCUMENTARY_REMEDIATION_VERIFIED only",
+  "open": {
+    "research_questions": [
+      "R01",
+      "R02",
+      "R03",
+      "R04"
+    ],
+    "cases": "DO-01..DO-15 and G4-C01..C02 UNEXECUTED",
+    "source_authority_audit": "NOT_ESTABLISHED",
+    "qualification_tension": "UNRESOLVED",
+    "obligations": "G06-RO01..RO12 and G03-R01..R12 OPEN"
+  },
+  "normative_release": "NOT_AUTHORIZED",
+  "empirical_assessments": 0,
+  "repository_changes_by_this_script": "ZIP_OVERLAY_ONLY_NOT_APPLIED",
+  "file_checksums_sha256": {
+    "shu_ha_ri/docs/infopch/IPCH01.md": "0593a78cf00425654f64a3892f33391b01b43dea7061517552aa909a2b8b9d15",
+    "shu_ha_ri/docs/infopch/ipch01-research-status.md": "0cb789b5b154f8ecc78493b6fdf49632bef4a8d245a0939c1fbb5b8c0d6815b5",
+    "shu_ha_ri/docs/infopch/overview.md": "80806dd2ca93be791a48fac6c36cba5a3d8fef3004ee394244282f7ccbb3fd91",
+    "shu_ha_ri/sidebars.js": "58ebf041033c2c48547ce4380816b6c31ad35ea2bfca7e53f18174895535edf8",
+    "shu_ha_ri/static/img/information-product-characteristics-ipch-0.1.png": "53deb1e067b195b8aae134b7166a0f03585fbacf69fc678308bf573479cd8b37"
+  }
+}

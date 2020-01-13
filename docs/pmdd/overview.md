@@ -4,12 +4,14 @@ title: Product Maturity-Driven Development
 
 # Product Maturity-Driven Development (PMDD)
 
-**Not yet a published INFOPS maturity model.** The intended separation mirrors the conceptual discipline already established in the AIPS programme:
+> **Experimental research only — no operative or normatively published INFOPS maturity model.** D01–D10 established an experimental IPCH catalogue and one individual guidance draft. This does not establish Product qualification, enterprise adoption, or final individual-guide approval.
 
-1. Generic Product qualification under BPS/PIN.
-2. Information Product family qualification under INFOPS (to be defined in P01).
-3. Characteristic-based maturity assessment for that qualified Product/version (INFOPCH / PMDD, to be defined in P02–P04).
+The INFOPS research distinguishes:
 
-High maturity does not create Productness or override policy/assurance/funding authorization. Low maturity does not automatically erase legitimate Product qualification.
+1. Generic Product qualification under independently competent BPS/PIN authority.
+2. Information Product family qualification under the independently governed, still unresolved INFOPS ontology and authority boundaries.
+3. Characteristic-based maturity assessment of an independently eligible exact Product/Version, subject to the approved experimental D02/D03 research controls.
 
-See [assessment design guidance](./assessment-guidance.md).
+**[PMDD IPCH Maturity Guidance](./ipch-maturity-guidance.md)** is the primary two-column catalogue of IPCH01–IPCH16 and links to each available individual guide. **[Human and AI Agent Assessment Guidance](./assessment-guidance.md)** describes how the same criteria can be examined by people, deterministic evaluators or AI agents.
+
+High maturity does not confer Productness or override assurance, legal, policy or realization permissions. Low maturity does not automatically erase an independently valid Product qualification. No final IPCH01 guide or normative release is established.
