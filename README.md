@@ -1,10 +1,12 @@
 # INFOPS — Information Product Specification
 
-**Status: PRE-P01 REPOSITORY SCAFFOLD.** This is a new Docusaurus project for developing INFOPS 0.1. It is **not** a published, normative Information Product specification.
+**Status: INFOPS-P01 STAGE 1 WORKING DRAFT (NON-NORMATIVE).** This is a new Docusaurus project for developing INFOPS 0.1. It is **not** a published, normative Information Product specification.
 
 ## Purpose
 
 INFOPS will define Information Product family qualification consistent with **BPS/PIN**, **GEARM** and **GEARA**, with its own **INFOPCH** characteristics and evidence-based **Product Maturity-Driven Development (PMDD)** guidance for human and AI assessors. It will align with **HDIP/UPOS** without absorbing their distinct architectural responsibilities.
+
+The P01 Stage 1 source-based authority and ontology baseline is in `docs/ontology/p01-stage-01-authority-and-ontology-baseline.md`; classification challenges are in `docs/ontology/p01-stage-01-classification-cases.md`. No Information Product family rule, INFOPCH maturity assessment, descriptor contract or conformance claim has been issued.
 
 The initial structure deliberately resembles the AIPS Docusaurus approach: documentation, characteristics/guidance, descriptors, machine-readable `static/spec` assets, validation scripts and CI.
 
@@ -29,13 +31,15 @@ npm run serve
 
 `npm install` produces a `package-lock.json` file. **Commit that lockfile** to the GitHub repository after the first successful install; CI automatically switches to `npm ci` when present. Dependency installation requires network access to npm unless dependencies are already cached.
 
-## GitHub bootstrap
+## GitHub / stage overlays
 
-This archive contains repository-relative project files at the **ZIP root** and no `.git` directory. Extract its contents directly into the root of your empty GitHub repository checkout:
+If this is an **existing INFOPS repository already deployed on Netlify**, apply the P01-S01 overlay ZIP rather than replacing the whole checkout. It contains only 2 new and 13 modified files, preserving your existing `package-lock.json` and any independent repository additions. Validate and commit the changed files.
+
+If creating an entirely fresh INFOPS checkout from the cumulative archive, it contains repository-relative paths at the ZIP root and no `.git` directory. Extract it into your local repository checkout:
 
 ```bash
 git add .
-git commit -m "Initialize INFOPS Docusaurus scaffold (pre-P01)"
+git commit -m "Add INFOPS P01 Stage 1 ontology and authority baseline"
 git push -u origin HEAD
 ```
 

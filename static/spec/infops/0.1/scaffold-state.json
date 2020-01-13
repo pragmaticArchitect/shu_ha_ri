@@ -1,10 +1,12 @@
 {
   "project": "INFOPS",
   "plannedSpecificationVersion": "0.1",
-  "releaseStatus": "PRE_P01_SCAFFOLD",
+  "releaseStatus": "P01_STAGE_01_DRAFT",
   "normative": false,
   "qualifiedInformationProductRulesPublished": false,
   "infopchCataloguePublished": false,
   "pmddWeightsPublished": false,
-  "description": "Scaffold state only. This is not a Product descriptor or conformance artifact."
+  "description": "P01 Stage 1 source-based ontology and authority baseline; no normative Product-family rules or descriptors.",
+  "p01Stage": "S01_AUTHORITY_ONTOLOGY_BASELINE",
+  "stageAccepted": false
 }

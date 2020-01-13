@@ -4,7 +4,9 @@ title: Qualification Boundary — Planning Placeholder
 
 # Information Product qualification boundary
 
-> **Unresolved P01 subject — NOT normative.**
+> **P01 Stage 1 baseline published for review; qualification remains UNRESOLVED and NON-NORMATIVE.**
+
+See [the authority and ontology baseline](./p01-stage-01-authority-and-ontology-baseline.md) and [challenge-case inventory](./p01-stage-01-classification-cases.md).
 
 Questions for P01:
 

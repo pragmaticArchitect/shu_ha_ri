@@ -1,4 +1,4 @@
-// INFOPS pre-P01 site scaffold. No canonical family semantics are defined here.
+// INFOPS P01 Stage 1 working draft. No canonical family qualification is defined here.
 const config = {
   title: 'Information Product Specification',
   tagline: 'INFOPS — governed Information Product specification',

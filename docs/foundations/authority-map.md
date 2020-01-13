@@ -16,3 +16,5 @@ title: Product & Semantic Authority Map
 | External DPROD / DPDS | Adopted external Data Product semantics/deployment contracts; not to be duplicated here |
 
 This is an initial planning inventory, not a new cross-specification authority contract.
+
+For stage-specific jurisdiction, source traceability and open conflicts see [P01 Stage 1 authority and ontology baseline](../ontology/p01-stage-01-authority-and-ontology-baseline.md).

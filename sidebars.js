@@ -7,6 +7,8 @@ module.exports = {
     ]},
     {type: 'category', label: 'Foundations & authority', items: [
       'foundations/authority-map','ontology/overview','ontology/qualification-boundary',
+      'ontology/p01-stage-01-authority-and-ontology-baseline',
+      'ontology/p01-stage-01-classification-cases',
     ]},
     {type: 'category', label: 'Information Product characteristics', items: [
       'infopch/overview',

@@ -12,7 +12,7 @@ const areas = [
 
 export default function Home() {
   return (
-    <Layout title="INFOPS" description="Information Product Specification — initial Docusaurus repository scaffold">
+    <Layout title="INFOPS" description="Information Product Specification - P01 Stage 1 working draft">
       <main>
         <header className={styles.hero}>
           <div className="container">
@@ -27,7 +27,7 @@ export default function Home() {
               <Link className="button button--primary button--lg" to="/docs/intro">Explore the project</Link>
               <Link className="button button--secondary button--lg" to="/docs/specification/roadmap">Development roadmap</Link>
             </div>
-            <div className={styles.status}>Pre-P01 scaffold · Not a published normative specification</div>
+            <div className={styles.status}>P01 Stage 1 working draft · No normative qualification published</div>
           </div>
         </header>
         <section className={styles.section}>

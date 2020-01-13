@@ -17,10 +17,15 @@ def require(relative):
 package = json.loads(require('package.json').read_text(encoding='utf-8'))
 status = json.loads(require('static/spec/infops/0.1/scaffold-state.json').read_text(encoding='utf-8'))
 if status.get('normative') is not False: problems.append('Scaffold unexpectedly claims normative status')
-if status.get('releaseStatus') != 'PRE_P01_SCAFFOLD': problems.append('Release status has changed without guard update')
+if status.get('releaseStatus') != 'P01_STAGE_01_DRAFT': problems.append('Expected P01 Stage 1 draft release status')
+if status.get('p01Stage') != 'S01_AUTHORITY_ONTOLOGY_BASELINE': problems.append('Wrong P01 stage state')
+if status.get('stageAccepted') is not False: problems.append('Stage 1 shall not be marked accepted automatically')
 for item in ['docusaurus.config.js','sidebars.js','src/pages/index.js','src/css/custom.css',
              'src/pages/INFOPCH-PMDD-guidance/index.md','docs/intro.md',
-             'docs/ontology/qualification-boundary.md','docs/infopch/overview.md',
+             'docs/ontology/qualification-boundary.md',
+             'docs/ontology/p01-stage-01-authority-and-ontology-baseline.md',
+             'docs/ontology/p01-stage-01-classification-cases.md',
+             'docs/infopch/overview.md',
              'docs/pmdd/assessment-guidance.md','static/img/infops-mark.svg']:
     require(item)
 
@@ -58,6 +63,6 @@ for source in ('docusaurus.config.js','sidebars.js'):
     except FileNotFoundError:
         print('NOTE: node executable unavailable; JavaScript syntax check skipped')
 
-print(f'INFOPS pre-P01 scaffold checks: {len(docs)} documentation pages; {len(problems)} issue(s)')
+print(f'INFOPS P01 Stage 1 checks: {len(docs)} documentation pages; {len(problems)} issue(s)')
 for issue in problems: print('ERROR:',issue)
 sys.exit(1 if problems else 0)

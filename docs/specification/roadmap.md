@@ -14,4 +14,6 @@ title: INFOPS Development Roadmap
 | P06 | Machine-readable validation | Schemas, examples, boundary cases and automated tests |
 | P07 | Release preparation | Cross-artifact reconciliation, approvals and publication decision |
 
+**P01 internal stages (proposed):** S01 authority and ontology baseline (current working draft); S02 PIN differentiation and falsification tests; S03 draft family qualification rules and independent review; S04 boundary-case reconciliation and P01 hand-off. These internal stages are planning labels, not independently frozen specifications.
+
 These are planning identifiers rather than normative specification identifiers. The roadmap may be revised through project governance.

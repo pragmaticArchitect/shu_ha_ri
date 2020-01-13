@@ -1,11 +1,11 @@
 ---
-title: Information Product Ontology — Work Area
+title: Information Product Ontology - Working Programme
 ---
 
-# Information Product ontology — planned work
+# Information Product ontology - P01 in progress
 
-**P01 work has not started.** The next substantive task will derive the intrinsic Information Product family boundary from BPS/PIN, GEARM and GEARA, and test it against difficult cases.
+**P01 Stage 1 (working draft)** establishes the inherited authority baseline, classification hypotheses and a challenge-case inventory. It publishes **no normative Information Product qualification rules**.
 
-The definition must not collapse Information into Data, Analytics, Intelligence, presentation tools or Product status. This page deliberately contains **no normative family criteria yet**.
+Start with [P01 Stage 1: ontology and authority baseline](./p01-stage-01-authority-and-ontology-baseline.md) and the [classification challenge cases](./p01-stage-01-classification-cases.md).
 
-Proceed to [qualification boundary planning](./qualification-boundary.md).
+The core unresolved challenge is the intrinsic distinction between qualified Data, Information, AI, Service and Compound Products **without deriving family status from source technology, format or Product maturity**. [Qualification boundary planning](./qualification-boundary.md) remains open until later P01 stages.
