@@ -1,0 +1,12 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-053",
+  "category": "SHACL_SUBSET_NEGATIVE",
+  "title": "A6 portable SHACL subset detects bad-target-nodekind",
+  "expectedDisposition": "MACHINE_REJECTED",
+  "m16TraceRefs": [
+    "M16-I42"
+  ],
+  "sourceTurtle": "static/specs/hdip-cla/0.1/a6/fixture-negative-bad-target-nodekind.ttl",
+  "shapesTurtle": "static/specs/hdip-cla/0.1/a6/architecture-structural-shapes.ttl",
+  "interpretationBoundary": "Local SHACL Core subset evidence only; no independent SHACL processor and no M16 conformance result"
+}

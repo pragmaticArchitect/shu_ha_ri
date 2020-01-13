@@ -1,0 +1,95 @@
+{
+  "stage": "A7",
+  "status": "STATIC_VALIDATION_PASSED",
+  "humanReadableAuthority": "M17_FROZEN",
+  "dialect": "JSON Schema 2020-12",
+  "positiveFixtures": [
+    {
+      "artifact": "a1-architecture-elements",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "artifact": "a2-relationship-traceability",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "artifact": "a3-invariant-conformance",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "artifact": "a5-canonical-iri-policy",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "artifact": "a5-jsonld-context",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "artifact": "a5-expanded-graph",
+      "valid": true,
+      "errors": []
+    }
+  ],
+  "negativeFixtures": [
+    {
+      "name": "missing-element-registry",
+      "schema": "a1-architecture-elements",
+      "rejected": true,
+      "error": "'elements' is a required property\n\nFailed validating 'required' in schema:\n    {'$schema': 'https://json-schema.org/draft/2020-12/schema',\n     '$id':"
+    },
+    {
+      "name": "truncated-relationship-records",
+      "schema": "a2-relationship-traceability",
+      "rejected": true,
+      "error": "[{'type': 'APPLIES_TO_PROFILE_PATTERN', 'source': 'HDIP-REG-D01', 'target': 'M14-PP-01', 'targetScope': 'A1_ELEMENT', 'assertionClass': 'PROFILE', 'mo"
+    },
+    {
+      "name": "invalid-assessment-mode",
+      "schema": "a3-invariant-conformance",
+      "rejected": true,
+      "error": "'AUTOMATIC_PASS' is not one of ['STRUCTURAL', 'HYBRID', 'ASSESSMENT']\n\nFailed validating 'enum' in schema['properties']['invariants']['items']['proper"
+    },
+    {
+      "name": "wrong-canonical-iri-base",
+      "schema": "a5-canonical-iri-policy",
+      "rejected": true,
+      "error": "'https://kivanura.org/specs/hdip-cla/0.1/id/' was expected\n\nFailed validating 'const' in schema['properties']['canonicalBase']:\n    {'const': 'https:/"
+    },
+    {
+      "name": "missing-jsonld-context",
+      "schema": "a5-jsonld-context",
+      "rejected": true,
+      "error": "'@context' is a required property\n\nFailed validating 'required' in schema:\n    {'$schema': 'https://json-schema.org/draft/2020-12/schema',\n     '$id':"
+    },
+    {
+      "name": "provisional-graph-identifier",
+      "schema": "a5-expanded-graph",
+      "rejected": true,
+      "error": "'urn:provisional:foo' does not match '^https://kivanura\\\\.org/specs/hdip-cla/0\\\\.1/id/'\n\nFailed validating 'pattern' in schema['items']['properties']["
+    }
+  ],
+  "crossArtifactIntegrity": {
+    "allA2ElementSourcesResolvable": true,
+    "allA2ScopedElementTargetsResolvable": true,
+    "allA3InvariantsHaveA1Identity": true,
+    "sourceRelationshipCount": 911,
+    "scopeCounts": {
+      "A1_ELEMENT": 808,
+      "DERIVATION_REFERENCE": 63,
+      "EXTERNAL_REFERENCE": 40
+    }
+  },
+  "predecessorFilesPreservedByteForByte": 85,
+  "predecessorFilesIntentionallyModified": [
+    "sidebars.ts",
+    "docs/architecture/executable/hdip-cla-0.1-executable-programme.md"
+  ],
+  "docusaurusBuild": "NOT_RUN",
+  "independentSHACLValidation": "NOT_RUN",
+  "overall": "PASS"
+}

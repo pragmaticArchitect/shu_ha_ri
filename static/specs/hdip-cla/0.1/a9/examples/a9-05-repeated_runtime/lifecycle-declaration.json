@@ -1,0 +1,43 @@
+{
+  "recordId": "HDIP-CLA-A9-05-LIFECYCLE_DECLARATION",
+  "version": "0.1",
+  "scope": "Illustrative Established-State Repeated Runtime Consumption; non-normative and NOT_ASSESSED",
+  "sourceAuthority": "HDIP-CLA-0.1-M17",
+  "lifecycleKind": "SSCF",
+  "productFamily": "NOT_APPLICABLE",
+  "stageSet": [
+    {
+      "number": 1,
+      "name": "Declare Consumption Intent"
+    },
+    {
+      "number": 2,
+      "name": "Resolve Product Set"
+    },
+    {
+      "number": 3,
+      "name": "Evaluate Product Fit and Request Access"
+    },
+    {
+      "number": 4,
+      "name": "Provision Purpose-Bound Access"
+    },
+    {
+      "number": 5,
+      "name": "Consume Through CEP"
+    },
+    {
+      "number": 6,
+      "name": "Capture Usage Signals"
+    },
+    {
+      "number": 7,
+      "name": "Compute and Observe Product Signals"
+    },
+    {
+      "number": 8,
+      "name": "Decision, Feedback & Creation Loop"
+    }
+  ],
+  "logicalNotRuntimePipeline": true
+}

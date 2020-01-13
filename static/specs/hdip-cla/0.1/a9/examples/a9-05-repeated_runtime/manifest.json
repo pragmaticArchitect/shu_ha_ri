@@ -1,0 +1,45 @@
+{
+  "exampleId": "HDIP-CLA-A9-05",
+  "title": "Established-State Repeated Runtime Consumption",
+  "scenarioKind": "REPEATED_RUNTIME",
+  "normativeStatus": "ILLUSTRATIVE_ONLY",
+  "assessmentStatus": "NOT_ASSESSED",
+  "claimOutcome": "INDETERMINATE",
+  "family": "NOT_APPLICABLE",
+  "m15FlowRefs": [
+    "M15-FLOW-05"
+  ],
+  "m12InteractionRefs": [
+    "HDIP-M12-INT-17",
+    "HDIP-M12-INT-18"
+  ],
+  "m13BoundaryRefs": [
+    "HDIP-BND-10"
+  ],
+  "m14ProfileRef": "M14-PP-01",
+  "m14RealizationPatternRef": "M14-RP-01",
+  "declarations": [
+    {
+      "kind": "lifecycle-declaration",
+      "path": "examples/a9-05-repeated_runtime/lifecycle-declaration.json",
+      "schema": "../a8/lifecycle-declaration.schema.json"
+    },
+    {
+      "kind": "interaction-contract-declaration",
+      "path": "examples/a9-05-repeated_runtime/interaction-contract-declaration.json",
+      "schema": "../a8/interaction-contract-declaration.schema.json"
+    },
+    {
+      "kind": "consumer-experience-projection-declaration",
+      "path": "examples/a9-05-repeated_runtime/consumer-experience-projection-declaration.json",
+      "schema": "../a8/consumer-experience-projection-declaration.schema.json"
+    }
+  ],
+  "architecturalBoundary": "Repeated consumption is not compelled to replay all SSCF stages synchronously.",
+  "historicalTruthPolicy": "Preserve evidence as-of governing versions; no rewriting later",
+  "caveats": [
+    "Schema-valid is not invariant SATISFIED",
+    "No Product qualification, entitlement or consequential Decision authority implied",
+    "Example-specific declaration fields are not normative M17 requirements"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kivanura.org/specs/hdip-cla/0.1/a8/profile-declaration.schema.json",
+  "title": "profile-declaration",
+  "type": "object",
+  "required": [
+    "recordId",
+    "version",
+    "scope",
+    "sourceAuthority",
+    "profilePatternRefs",
+    "dimensions",
+    "specializationOperations",
+    "assessmentStatus",
+    "noWaiverOfCoreInvariants"
+  ],
+  "properties": {
+    "recordId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceAuthority": {
+      "enum": [
+        "HDIP-CLA-0.1-M17"
+      ]
+    },
+    "profilePatternRefs": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "M14-PP-01",
+          "M14-PP-02",
+          "M14-PP-03",
+          "M14-PP-04",
+          "M14-PP-05",
+          "M14-PP-06"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "dimensions": {
+      "type": "object",
+      "required": [
+        "identityVersion",
+        "scope",
+        "parentBaseline",
+        "externalAuthorities",
+        "applicablePlanesABBs",
+        "applicableOverlays",
+        "lifecycleSpecialization",
+        "registryProjectionSpecialization",
+        "interactionSpecialization",
+        "boundarySpecialization",
+        "allowedRealizationPatterns",
+        "evidenceAssurance",
+        "nonApplicabilityRationale",
+        "conformanceClaim",
+        "invariantApplicabilityMatrix",
+        "specializationOperationRecord",
+        "profileCompositionConflictRecord",
+        "profileAssessmentEvidenceState"
+      ],
+      "properties": {
+        "identityVersion": {
+          "type": "object"
+        },
+        "scope": {
+          "type": "object"
+        },
+        "parentBaseline": {
+          "type": "object"
+        },
+        "externalAuthorities": {
+          "type": "object"
+        },
+        "applicablePlanesABBs": {
+          "type": "object"
+        },
+        "applicableOverlays": {
+          "type": "object"
+        },
+        "lifecycleSpecialization": {
+          "type": "object"
+        },
+        "registryProjectionSpecialization": {
+          "type": "object"
+        },
+        "interactionSpecialization": {
+          "type": "object"
+        },
+        "boundarySpecialization": {
+          "type": "object"
+        },
+        "allowedRealizationPatterns": {
+          "type": "object"
+        },
+        "evidenceAssurance": {
+          "type": "object"
+        },
+        "nonApplicabilityRationale": {
+          "type": "object"
+        },
+        "conformanceClaim": {
+          "type": "object"
+        },
+        "invariantApplicabilityMatrix": {
+          "type": "object"
+        },
+        "specializationOperationRecord": {
+          "type": "object"
+        },
+        "profileCompositionConflictRecord": {
+          "type": "object"
+        },
+        "profileAssessmentEvidenceState": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    "specializationOperations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "operation",
+          "baselineReference",
+          "rationale"
+        ],
+        "properties": {
+          "operation": {
+            "enum": [
+              "SELECT",
+              "REQUIRE",
+              "TIGHTEN",
+              "CONTEXTUALIZE",
+              "SPECIALIZE",
+              "NARROW",
+              "EXTEND",
+              "ADD_EVIDENCE",
+              "RESTRICT_REALIZATION"
+            ]
+          },
+          "baselineReference": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rationale": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "assessmentStatus": {
+      "enum": [
+        "NOT_ASSESSED",
+        "IN_PROGRESS",
+        "ASSESSED"
+      ]
+    },
+    "noWaiverOfCoreInvariants": {
+      "const": true
+    }
+  },
+  "additionalProperties": false
+}

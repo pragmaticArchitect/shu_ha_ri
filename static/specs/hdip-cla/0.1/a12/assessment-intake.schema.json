@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kivanura.org/specs/hdip-cla/0.1/a12/assessment-intake.schema.json",
+  "title": "A12 optional M16 assessment evidence intake (not a conformance certificate)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "subjectId",
+    "subjectVersion",
+    "subjectClass",
+    "claimType",
+    "scope",
+    "baseline",
+    "assessmentVersion",
+    "assessedAt",
+    "assessorIdentifier",
+    "invariantAssessments"
+  ],
+  "properties": {
+    "subjectId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subjectVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subjectClass": {
+      "enum": [
+        "CS1",
+        "CS2",
+        "CS3",
+        "CS4",
+        "CS5",
+        "CS6"
+      ]
+    },
+    "claimType": {
+      "enum": [
+        "CORE_ARCHITECTURE_CONFORMANCE",
+        "PROFILE_CONFORMANCE",
+        "REALIZATION_MAPPING_CONFORMANCE"
+      ]
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "baseline": {
+      "const": "HDIP-CLA-0.1-M17"
+    },
+    "assessmentVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "assessedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "assessorIdentifier": {
+      "type": "string",
+      "minLength": 1
+    },
+    "profileRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "declaredOutcome": {
+      "enum": [
+        "CONFORMANT",
+        "NONCONFORMANT",
+        "INDETERMINATE"
+      ]
+    },
+    "claimEvidencePackageRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "priorAssessmentDigest": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "historyEvents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "eventId",
+          "eventType",
+          "effectiveAt",
+          "evidenceRef"
+        ],
+        "properties": {
+          "eventId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "eventType": {
+            "type": "string",
+            "minLength": 1
+          },
+          "effectiveAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "evidenceRef": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "invariantAssessments": {
+      "type": "array",
+      "maxItems": 48,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "invariantId",
+          "applicability",
+          "result"
+        ],
+        "properties": {
+          "invariantId": {
+            "type": "string",
+            "pattern": "^M16-I(0[1-9]|[1-3][0-9]|4[0-8])$"
+          },
+          "applicability": {
+            "enum": [
+              "APPLICABLE",
+              "NOT_APPLICABLE",
+              "UNDETERMINED"
+            ]
+          },
+          "result": {
+            "enum": [
+              "SATISFIED",
+              "VIOLATED",
+              "INDETERMINATE",
+              "NOT_APPLICABLE"
+            ]
+          },
+          "evidenceRefs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "rationale": {
+            "type": "string"
+          },
+          "judgementRecord": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "reviewer",
+              "decisionRef"
+            ],
+            "properties": {
+              "reviewer": {
+                "type": "string",
+                "minLength": 1
+              },
+              "decisionRef": {
+                "type": "string",
+                "minLength": 1
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-003",
+  "category": "SCHEMA_NEGATIVE",
+  "title": "A3 invariant catalogue missing invariants",
+  "expectedDisposition": "MACHINE_REJECTED",
+  "m16TraceRefs": [
+    "M16-I41"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "sourceDocument": "static/specs/hdip-cla/0.1/a3/invariant-conformance-catalogue.json",
+  "mutations": [
+    {
+      "op": "remove",
+      "path": "/invariants"
+    }
+  ],
+  "schemaDocument": "static/specs/hdip-cla/0.1/a7/a3-invariant-conformance.schema.json"
+}

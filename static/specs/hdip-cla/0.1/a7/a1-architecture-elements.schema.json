@@ -1,0 +1,305 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kivanura.org/specs/hdip-cla/0.1/a7/a1-architecture-elements.schema.json",
+  "title": "HDIP-CLA 0.1 A7 — a1-architecture-elements document structure",
+  "description": "Validates serialization structure. Does not establish architectural conformance or replace M17.",
+  "x-hdip-source": "static/specs/hdip-cla/0.1/a1/architecture-element-registry.json",
+  "type": "object",
+  "properties": {
+    "registryId": {
+      "type": "string"
+    },
+    "registryVersion": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "humanReadableAuthority": {
+      "type": "object",
+      "properties": {
+        "baseline": {
+          "type": "string"
+        },
+        "freezeStage": {
+          "type": "string"
+        },
+        "sourceDocument": {
+          "type": "string"
+        },
+        "precedenceRule": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "identityPolicy": {
+      "type": "object",
+      "properties": {
+        "reuseFrozenSourceIdentifiers": {
+          "type": "boolean"
+        },
+        "machineAssignedIdentifierPrefix": {
+          "type": "string"
+        },
+        "machineAssignedIdentifiersCreateNoNewArchitectureMeaning": {
+          "type": "boolean"
+        },
+        "iriAssignmentDeferredTo": {
+          "type": "string"
+        },
+        "relationshipSemanticsDeferredTo": {
+          "type": "string"
+        },
+        "invariantExecutableSemanticsDeferredTo": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "elementKindOrder": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "summary": {
+      "type": "object",
+      "properties": {
+        "elementCount": {
+          "type": "integer"
+        },
+        "countsByKind": {
+          "type": "object",
+          "properties": {
+            "PLANE": {
+              "type": "integer"
+            },
+            "FOUNDATION": {
+              "type": "integer"
+            },
+            "OVERLAY": {
+              "type": "integer"
+            },
+            "ARCHITECTURE_BUILDING_BLOCK": {
+              "type": "integer"
+            },
+            "LOGICAL_REGISTRY": {
+              "type": "integer"
+            },
+            "REGISTRY_SPECIALIZATION": {
+              "type": "integer"
+            },
+            "ARCHITECTURE_CONSTRUCT": {
+              "type": "integer"
+            },
+            "PROJECTION_COMPILATION_ARTIFACT": {
+              "type": "integer"
+            },
+            "LIFECYCLE": {
+              "type": "integer"
+            },
+            "EXPERIENCE_PROJECTION": {
+              "type": "integer"
+            },
+            "LIFECYCLE_PROJECTION": {
+              "type": "integer"
+            },
+            "LIFECYCLE_STAGE": {
+              "type": "integer"
+            },
+            "INTERACTION_FAMILY": {
+              "type": "integer"
+            },
+            "INTERACTION": {
+              "type": "integer"
+            },
+            "BOUNDARY_CLASS": {
+              "type": "integer"
+            },
+            "BOUNDARY_FAMILY": {
+              "type": "integer"
+            },
+            "REALIZATION_PATTERN": {
+              "type": "integer"
+            },
+            "PROFILE_PATTERN": {
+              "type": "integer"
+            },
+            "REFERENCE_VIEW": {
+              "type": "integer"
+            },
+            "REPRESENTATIVE_FLOW": {
+              "type": "integer"
+            },
+            "ARCHITECTURE_INVARIANT": {
+              "type": "integer"
+            },
+            "CONFORMANCE_SUBJECT_CLASS": {
+              "type": "integer"
+            }
+          },
+          "required": [],
+          "additionalProperties": true
+        },
+        "controlledVocabularyCount": {
+          "type": "integer"
+        },
+        "compatibilityMappingCount": {
+          "type": "integer"
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "controlledVocabularies": {
+      "type": "object",
+      "properties": {
+        "assessmentMode": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "invariantResult": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "conformanceOutcome": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "conformanceClaimType": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "compatibilityMappings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "historicalTerm": {
+            "type": "string"
+          },
+          "mappingType": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          },
+          "targets": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "historicalTerm",
+          "mappingType",
+          "targets"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "elements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "disposition": {
+                  "type": "string"
+                },
+                "term": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "disposition",
+                "term"
+              ],
+              "additionalProperties": true
+            }
+          },
+          "canonicalName": {
+            "type": "string"
+          },
+          "canonicality": {
+            "type": "string"
+          },
+          "definition": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          },
+          "shortId": {
+            "type": "string"
+          },
+          "sourceDocuments": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "sourceId": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "status": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "canonicalName",
+          "canonicality",
+          "id",
+          "kind",
+          "sourceDocuments",
+          "sourceId",
+          "status"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 209,
+      "maxItems": 209
+    }
+  },
+  "required": [
+    "registryId",
+    "registryVersion",
+    "elements",
+    "summary"
+  ],
+  "additionalProperties": true
+}

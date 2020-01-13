@@ -1,0 +1,20 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-025",
+  "category": "REFERENCE_NEGATIVE",
+  "title": "A2 external authority identity unresolved",
+  "expectedDisposition": "MACHINE_REJECTED",
+  "m16TraceRefs": [
+    "M16-I01",
+    "M16-I43"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "sourceDocument": "static/specs/hdip-cla/0.1/a2/relationship-traceability-registry.json",
+  "mutations": [
+    {
+      "op": "replace",
+      "path": "/relationships/848/target",
+      "value": "EXT-UNDECLARED-AUTHORITY"
+    }
+  ],
+  "check": "A2_RELATIONSHIP_ENDPOINTS"
+}

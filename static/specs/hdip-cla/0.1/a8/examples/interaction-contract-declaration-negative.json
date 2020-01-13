@@ -1,0 +1,15 @@
+{
+  "recordId": "EXAMPLE-001",
+  "version": "0.1",
+  "scope": "Illustrative bounded declaration (not certified)",
+  "sourceAuthority": "HDIP-CLA-0.1-M17",
+  "interactionId": "HDIP-M12-INT-99",
+  "interactionContractVersion": "0.1",
+  "producerPlaneRefs": [
+    "HDIP-P1"
+  ],
+  "consumerPlaneRefs": [
+    "HDIP-P2"
+  ],
+  "logicalContractNotTechnologyBinding": true
+}

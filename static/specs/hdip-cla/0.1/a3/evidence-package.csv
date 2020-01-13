@@ -1,0 +1,19 @@
+number,name,minimumContent
+1,Subject identity/version,Stable subject ID and assessed version.
+2,Claim type,"Core, Profile or Realization Mapping."
+3,Scope / architecture boundary,"Organizational, solution, Product/capability and logical boundary."
+4,HDIP baseline,HDIP-CLA version used for assessment.
+5,Profile identity/version,"Applicable concrete Profile(s), if any."
+6,External authority map,"GEDRM/GEARM/GEAIRM, BPS/PIN, Product-family, policy/legal, Decision/action and other authorities relied upon."
+7,Plane responsibility coverage,Applicable P1-P5 responsibility coverage.
+8,Overlay applicability,X1-X9 applicability and evidence/control responsibilities.
+9,ABB / responsibility mapping,Canonical/specialized ABB and embedded responsibility realization.
+10,Registry / projection / compilation map,"Applicable M09 Registries, HPD/RRG/SYNCTX/RGB/Realization Plan/Blueprint Binding/Compilation Record responsibilities."
+11,Lifecycle / experience map,"PDEP, SSCF and CEP applicability/specialization."
+12,Interaction Contract map,Material M12 interactions and contract obligations.
+13,External Boundary map,"Material M13 Boundary Families, Boundary Instances and EBCs."
+14,Realization / Profile map,"M14 Realization Pattern(s), Realization Units and Profile obligations."
+15,Version/currentness/historical state,"Material versions, effective/currentness state and assessment time."
+16,Invariant assessment record,"Applicability, mode, result, rationale and evidence references for M16-I01..I48."
+17,Limitations / N/A / unresolved evidence,"Explicit gaps, N/A rationale, indeterminate conditions and unresolved dependencies."
+18,Accountability / retention,"Accountable assessor/authority, assessment version/time and retained evidence location/reference."

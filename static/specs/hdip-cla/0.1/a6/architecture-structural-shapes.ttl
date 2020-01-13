@@ -1,0 +1,126 @@
+@prefix a6: <https://kivanura.org/specs/hdip-cla/0.1/id/shacl/> .
+@prefix hdip: <https://kivanura.org/specs/hdip-cla/0.1/id/ontology/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+a6:ArchitectureElementShape a sh:NodeShape ;
+    sh:property a6:ArchitectureElementShape-property-1,
+        a6:ArchitectureElementShape-property-2 ;
+    sh:targetClass hdip:ArchitectureElement .
+
+a6:ExternalReferenceShape a sh:NodeShape ;
+    sh:property a6:ExternalReferenceShape-property-1 ;
+    sh:targetClass hdip:ExternalReference .
+
+a6:InvariantShape a sh:NodeShape ;
+    sh:property a6:InvariantShape-property-1,
+        a6:InvariantShape-property-2,
+        a6:InvariantShape-property-3,
+        a6:InvariantShape-property-4 ;
+    sh:targetClass hdip:Invariant .
+
+a6:RelationshipAssertionShape a sh:NodeShape ;
+    sh:property a6:RelationshipAssertionShape-property-1,
+        a6:RelationshipAssertionShape-property-2,
+        a6:RelationshipAssertionShape-property-3,
+        a6:RelationshipAssertionShape-property-4,
+        a6:RelationshipAssertionShape-property-5,
+        a6:RelationshipAssertionShape-property-6,
+        a6:RelationshipAssertionShape-property-7 ;
+    sh:targetClass hdip:RelationshipAssertion .
+
+a6:TraceabilityAssertionShape a sh:NodeShape ;
+    sh:property a6:TraceabilityAssertionShape-property-1,
+        a6:TraceabilityAssertionShape-property-2,
+        a6:TraceabilityAssertionShape-property-3,
+        a6:TraceabilityAssertionShape-property-4 ;
+    sh:targetClass hdip:TraceabilityAssertion .
+
+a6:ArchitectureElementShape-property-1 sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path hdip:identifier .
+
+a6:ArchitectureElementShape-property-2 sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path hdip:elementKind .
+
+a6:ExternalReferenceShape-property-1 sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path hdip:identifier .
+
+a6:InvariantShape-property-1 sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path hdip:identifier .
+
+a6:InvariantShape-property-2 sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path hdip:assessmentMode .
+
+a6:InvariantShape-property-3 sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path hdip:canonicalCondition .
+
+a6:InvariantShape-property-4 sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path hdip:automationBoundary .
+
+a6:RelationshipAssertionShape-property-1 sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path hdip:id .
+
+a6:RelationshipAssertionShape-property-2 sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:IRI ;
+    sh:path hdip:source .
+
+a6:RelationshipAssertionShape-property-3 sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:IRI ;
+    sh:path hdip:target .
+
+a6:RelationshipAssertionShape-property-4 sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path hdip:targetScope .
+
+a6:RelationshipAssertionShape-property-5 sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path hdip:assertionClass .
+
+a6:RelationshipAssertionShape-property-6 sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path hdip:modality .
+
+a6:RelationshipAssertionShape-property-7 sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path hdip:sourceDocument .
+
+a6:TraceabilityAssertionShape-property-1 sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path hdip:id .
+
+a6:TraceabilityAssertionShape-property-2 sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path hdip:source .
+
+a6:TraceabilityAssertionShape-property-3 sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path hdip:target .
+
+a6:TraceabilityAssertionShape-property-4 sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path hdip:traceType .
+

@@ -1,0 +1,17 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-040",
+  "category": "EXPLICIT_CONTRADICTION",
+  "title": "CEP claimed as sixth Plane",
+  "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+  "m16TraceRefs": [
+    "M16-I09",
+    "M16-I28"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "check": "CEP_IS_SIXTH_PLANE",
+  "assertion": {
+    "code": "CEP_IS_SIXTH_PLANE",
+    "declared": true,
+    "fixtureOnly": true
+  }
+}

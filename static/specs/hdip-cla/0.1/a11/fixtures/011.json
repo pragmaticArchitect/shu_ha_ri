@@ -1,0 +1,19 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-011",
+  "category": "SCHEMA_NEGATIVE",
+  "title": "M12 logical contract treated as mandatory technology binding",
+  "expectedDisposition": "MACHINE_REJECTED",
+  "m16TraceRefs": [
+    "M16-I42"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "sourceDocument": "static/specs/hdip-cla/0.1/a9/examples/a9-04-intent_consumption/interaction-contract-declaration.json",
+  "mutations": [
+    {
+      "op": "replace",
+      "path": "/logicalContractNotTechnologyBinding",
+      "value": false
+    }
+  ],
+  "schemaDocument": "static/specs/hdip-cla/0.1/a8/interaction-contract-declaration.schema.json"
+}

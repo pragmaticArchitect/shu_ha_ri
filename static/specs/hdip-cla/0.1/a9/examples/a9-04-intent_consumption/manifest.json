@@ -1,0 +1,46 @@
+{
+  "exampleId": "HDIP-CLA-A9-04",
+  "title": "Intent-First Product Consumption",
+  "scenarioKind": "INTENT_CONSUMPTION",
+  "normativeStatus": "ILLUSTRATIVE_ONLY",
+  "assessmentStatus": "NOT_ASSESSED",
+  "claimOutcome": "INDETERMINATE",
+  "family": "NOT_APPLICABLE",
+  "m15FlowRefs": [
+    "M15-FLOW-04"
+  ],
+  "m12InteractionRefs": [
+    "HDIP-M12-INT-11",
+    "HDIP-M12-INT-17",
+    "HDIP-M12-INT-20"
+  ],
+  "m13BoundaryRefs": [
+    "HDIP-BND-10"
+  ],
+  "m14ProfileRef": "M14-PP-01",
+  "m14RealizationPatternRef": "M14-RP-02",
+  "declarations": [
+    {
+      "kind": "lifecycle-declaration",
+      "path": "examples/a9-04-intent_consumption/lifecycle-declaration.json",
+      "schema": "../a8/lifecycle-declaration.schema.json"
+    },
+    {
+      "kind": "interaction-contract-declaration",
+      "path": "examples/a9-04-intent_consumption/interaction-contract-declaration.json",
+      "schema": "../a8/interaction-contract-declaration.schema.json"
+    },
+    {
+      "kind": "consumer-experience-projection-declaration",
+      "path": "examples/a9-04-intent_consumption/consumer-experience-projection-declaration.json",
+      "schema": "../a8/consumer-experience-projection-declaration.schema.json"
+    }
+  ],
+  "architecturalBoundary": "SSCF is a logical lifecycle; CEP is a projection.",
+  "historicalTruthPolicy": "Preserve evidence as-of governing versions; no rewriting later",
+  "caveats": [
+    "Schema-valid is not invariant SATISFIED",
+    "No Product qualification, entitlement or consequential Decision authority implied",
+    "Example-specific declaration fields are not normative M17 requirements"
+  ]
+}

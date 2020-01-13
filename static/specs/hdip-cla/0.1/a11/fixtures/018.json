@@ -1,0 +1,19 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-018",
+  "category": "SCHEMA_NEGATIVE",
+  "title": "Realization binding claims authority transfer",
+  "expectedDisposition": "MACHINE_REJECTED",
+  "m16TraceRefs": [
+    "M16-I05"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "sourceDocument": "static/specs/hdip-cla/0.1/a9/examples/a9-09-federated_consumption/realization-profile-binding-declaration.json",
+  "mutations": [
+    {
+      "op": "replace",
+      "path": "/mappingDoesNotTransferAuthority",
+      "value": false
+    }
+  ],
+  "schemaDocument": "static/specs/hdip-cla/0.1/a8/realization-profile-binding-declaration.schema.json"
+}

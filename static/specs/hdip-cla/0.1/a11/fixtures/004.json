@@ -1,0 +1,19 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-004",
+  "category": "SCHEMA_NEGATIVE",
+  "title": "A5 wrong canonical IRI base",
+  "expectedDisposition": "MACHINE_REJECTED",
+  "m16TraceRefs": [
+    "M16-I15"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "sourceDocument": "static/specs/hdip-cla/0.1/a5/canonical-iri-policy.json",
+  "mutations": [
+    {
+      "op": "replace",
+      "path": "/canonicalBase",
+      "value": "https://example.net/not-canonical/"
+    }
+  ],
+  "schemaDocument": "static/specs/hdip-cla/0.1/a7/a5-canonical-iri-policy.schema.json"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "HDIP-CLA-0.1-A12-RUNNER-POLICY",
+  "status": "A12_MACHINE_EVIDENCE_ONLY",
+  "sourceAuthority": "M17_FROZEN_HUMAN_READABLE",
+  "sourcePrecedence": [
+    "M17_HUMAN_READABLE",
+    "A1_A11_FORMALIZATION",
+    "A12_MACHINE_EVIDENCE"
+  ],
+  "runnerGateStates": [
+    "PASS",
+    "FAIL",
+    "ERROR"
+  ],
+  "machineTestStates": [
+    "PASS_STRUCTURAL_ONLY",
+    "MACHINE_REJECTED",
+    "FLAGGED_DECLARED_CONTRADICTION",
+    "INDETERMINATE_REVIEW_REQUIRED"
+  ],
+  "m16InvariantStates": [
+    "SATISFIED",
+    "VIOLATED",
+    "INDETERMINATE",
+    "NOT_APPLICABLE"
+  ],
+  "m16OverallStates": [
+    "CONFORMANT",
+    "NONCONFORMANT",
+    "INDETERMINATE"
+  ],
+  "automaticallyAssignedM16InvariantResults": [],
+  "automaticallyAssignedM16OverallOutcomes": [],
+  "reportedArchitecturalConformance": "NOT_ESTABLISHED",
+  "positiveSuiteExpectedCases": 16,
+  "negativeSuiteExpectedCases": 54,
+  "a1ElementCount": 209,
+  "a2RelationshipCount": 911,
+  "a2TraceabilityCount": 332,
+  "a3InvariantCount": 48,
+  "a9ExampleCount": 11,
+  "machineProofBoundary": "Structural schema/reference/RDF/property-constraint validation and synthetic test expectation checking only; actual conformance needs accountable M16 assessment.",
+  "shaclValidation": "A6 Core subset local evaluator; NOT an independent SHACL validation engine",
+  "assessmentIntake": "Syntax, completeness and evidence-reference triage only; declared assessor judgement and evidence are not independently authenticated or verified.",
+  "historical": "Source hash manifest and input digest, deterministic report, no mutation of prior assessment or repository files. Prior evidence/signoff requires external validation.",
+  "publication": "A12 does not grant certification, policy approval, semantic authority, or Profile waivers."
+}

@@ -1,0 +1,45 @@
+{
+  "exampleId": "HDIP-CLA-A9-08",
+  "title": "Outcome / Value Feedback into Product Evolution",
+  "scenarioKind": "OUTCOME_EVOLUTION",
+  "normativeStatus": "ILLUSTRATIVE_ONLY",
+  "assessmentStatus": "NOT_ASSESSED",
+  "claimOutcome": "INDETERMINATE",
+  "family": "DATA",
+  "m15FlowRefs": [
+    "M15-FLOW-08"
+  ],
+  "m12InteractionRefs": [
+    "HDIP-M12-INT-20",
+    "HDIP-M12-INT-15"
+  ],
+  "m13BoundaryRefs": [
+    "HDIP-BND-11"
+  ],
+  "m14ProfileRef": "M14-PP-01",
+  "m14RealizationPatternRef": "M14-RP-04",
+  "declarations": [
+    {
+      "kind": "lifecycle-declaration",
+      "path": "examples/a9-08-outcome_evolution/lifecycle-declaration.json",
+      "schema": "../a8/lifecycle-declaration.schema.json"
+    },
+    {
+      "kind": "interaction-contract-declaration",
+      "path": "examples/a9-08-outcome_evolution/interaction-contract-declaration.json",
+      "schema": "../a8/interaction-contract-declaration.schema.json"
+    },
+    {
+      "kind": "profile-declaration",
+      "path": "examples/a9-08-outcome_evolution/profile-declaration.json",
+      "schema": "../a8/profile-declaration.schema.json"
+    }
+  ],
+  "architecturalBoundary": "Usage != cost != outcome != value; reassessment does not rewrite historical state.",
+  "historicalTruthPolicy": "Preserve evidence as-of governing versions; no rewriting later",
+  "caveats": [
+    "Schema-valid is not invariant SATISFIED",
+    "No Product qualification, entitlement or consequential Decision authority implied",
+    "Example-specific declaration fields are not normative M17 requirements"
+  ]
+}

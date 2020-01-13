@@ -1,0 +1,58 @@
+{
+  "stage": "A12",
+  "status": "MACHINE_EVIDENCE_RUNNER_COMPLETE",
+  "humanReadableAuthority": "M17_FROZEN",
+  "machineEvidenceGate": "PASS",
+  "machineGates": {
+    "A1_A2_A3_INTEGRITY": "PASS",
+    "A7_SCHEMA_REGRESSION": "PASS",
+    "A5_GRAPH_A6_LOCAL_SHACL_SUBSET": "PASS",
+    "A10_POSITIVE_TESTS": "PASS",
+    "A11_NEGATIVE_BOUNDARY_TESTS": "PASS"
+  },
+  "predecessor": {
+    "stage": "A11",
+    "fileCount": 229,
+    "unchangedCount": 227,
+    "intentionalUpdates": [
+      "docs/architecture/executable/hdip-cla-0.1-executable-programme.md",
+      "sidebars.ts"
+    ],
+    "removed": []
+  },
+  "testResults": {
+    "A10": {
+      "passed": 16,
+      "total": 16
+    },
+    "A11": {
+      "matched": 54,
+      "total": 54,
+      "machineRejections": 33,
+      "syntheticContradictions": 11,
+      "indeterminateReviewBoundaries": 10
+    },
+    "A12GuardTests": {
+      "passed": 12,
+      "total": 12
+    },
+    "partialIntake": "REVIEW_REQUIRED",
+    "malformedIntake": "INPUT_INCONSISTENT_REVIEW_REQUIRED",
+    "strictReviewExitCode": 3,
+    "invalidIntakeExitCode": 4,
+    "repeatReportByteIdentical": true
+  },
+  "sourceFilesHashTracked": 132,
+  "sourceSnapshotSha256": "1412669d2f4d65df97ac30c9ef4fd11682ef8e7028d8d2c0e75b761c93eea93e",
+  "reportSha256": "32a5f09aa301eaa503fa23713e1b69c89711476a2a75770cf6474bccb9205ca9",
+  "M16InvariantResultsMachineAssigned": 0,
+  "M16OverallConformance": "NOT_ESTABLISHED",
+  "independentSHACLEngineRun": false,
+  "docusaurusBuildRun": false,
+  "limitations": [
+    "SHACL local subset only, no independent SHACL processor",
+    "Submitted conformance assessment evidence and signatures are not externally verified",
+    "Architectural certification/conformance is not established by A12",
+    "Cross-artifact reconciliation, regression and release closure remain A13-A15 obligations"
+  ]
+}

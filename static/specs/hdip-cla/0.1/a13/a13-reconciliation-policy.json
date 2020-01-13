@@ -1,0 +1,49 @@
+{
+  "id": "HDIP-CLA-0.1-A13-RECONCILIATION-POLICY",
+  "version": "0.1-A13",
+  "status": "BOUNDED_REPRESENTATION_RECONCILIATION",
+  "humanReadableAuthority": "M17_FROZEN_HUMAN_READABLE",
+  "sourcePrecedence": [
+    "M17_FROZEN_HUMAN_READABLE",
+    "M16_NORMATIVE_INVARIANTS",
+    "A1_A12_DOWNSTREAM_FORMALIZATION",
+    "A13_EVIDENCE_ONLY"
+  ],
+  "noSilentSourceRewrite": true,
+  "noExternalAuthorityAcquisition": true,
+  "noMachineAssignedM16InvariantResults": true,
+  "noMachineAssignedOverallConformance": true,
+  "reconciliationDispositionStates": [
+    "PASS_BOUNDED_RECONCILIATION",
+    "RECONCILIATION_DEFECTS_OR_ERRORS"
+  ],
+  "defectClasses": [
+    "FORMALIZATION_DEFECT",
+    "EXECUTION_ERROR"
+  ],
+  "profileWaiversPermitted": false,
+  "representativeExamplesNormative": false,
+  "historicalAliasAuthorityTransfer": false,
+  "minimumRequiredGates": [
+    "FROZEN_M17_INVENTORY",
+    "M16_A1_A2_A3_CONFORMANCE_SEMANTICS",
+    "A1_A2_A3_A5_GRAPH_EXACT_REPRESENTATION",
+    "A4_TO_A5_IRI_AND_RDF_EQUIVALENCE",
+    "A6_A7_A8_SCHEMA_AND_SHAPE_COHERENCE",
+    "A9_A10_A11_A12_CORPUS_AND_RUNNER",
+    "M17_COMPATIBILITY_AUTHORITY_SEPARATION"
+  ],
+  "knownLimitations": [
+    "LIM-SHACL",
+    "LIM-BUILD",
+    "LIM-M16-ASSESSMENT",
+    "LIM-OWL",
+    "LIM-EXTERNAL"
+  ],
+  "doesNotReplace": [
+    "A6_INDEPENDENT_SHACL",
+    "A14_REGRESSION",
+    "A15_RELEASE_CLOSURE",
+    "ACCOUNTABLE_M16_ASSESSMENT"
+  ]
+}

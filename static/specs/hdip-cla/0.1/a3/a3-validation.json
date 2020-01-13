@@ -1,0 +1,212 @@
+{
+  "slice": "HDIP-CLA-A3",
+  "title": "Invariant & Conformance Catalogue",
+  "baseline": "shu_ha_ri-hdip-cla-a2-complete.zip",
+  "summary": {
+    "status": "PASS",
+    "checks_total": 36,
+    "checks_passed": 36,
+    "checks_failed": 0,
+    "architecture_invariants": 48,
+    "invariant_families": 7,
+    "assessment_modes": 3,
+    "mode_distribution": {
+      "STRUCTURAL": 7,
+      "HYBRID": 37,
+      "ASSESSMENT": 4
+    },
+    "applicability_states": 3,
+    "invariant_results": 4,
+    "conformance_subject_classes": 6,
+    "claim_types": 3,
+    "overall_outcomes": 3,
+    "evidence_package_dimensions": 18,
+    "profile_dimensions": 18,
+    "permitted_profile_operations": 9,
+    "prohibited_profile_operations": 14,
+    "anti_patterns": 20,
+    "normative_rules": 64
+  },
+  "checks": [
+    {
+      "check": "invariant_count_48",
+      "status": "PASS",
+      "detail": "48"
+    },
+    {
+      "check": "invariant_ids_unique",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "invariant_ids_sequential",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "family_count_7",
+      "status": "PASS",
+      "detail": "7"
+    },
+    {
+      "check": "mode_distribution",
+      "status": "PASS",
+      "detail": "{'STRUCTURAL': 7, 'HYBRID': 37, 'ASSESSMENT': 4}"
+    },
+    {
+      "check": "assessment_mode_count_3",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "applicability_state_count_3",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "invariant_result_count_4",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "subject_class_count_6",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "claim_type_count_3",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "outcome_count_3",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "no_conditional_conformant",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "evidence_dimension_count_18",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "profile_dimension_count_18",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "permitted_profile_ops_9",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "prohibited_profile_ops_14",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "workflow_steps_18",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "anti_patterns_20",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "normative_rules_64",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "m04_ancestry_40",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "closure_invariants_no_m04_ancestry",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "a1_all_invariant_ids_resolve",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "a1_all_subject_ids_resolve",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "a2_scope_relationships_resolve",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "a2_ancestry_traces_resolve",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "invariant_csv_json_parity",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "evidence_csv_json_parity",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "profile_ops_csv_json_parity",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "docusaurus_ids_unique",
+      "status": "PASS",
+      "detail": "{}"
+    },
+    {
+      "check": "sidebar_refs_resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "a3_sidebar_present",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "local_image_refs_resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "predecessor_a1_a2_byte_preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "no_removed_files",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "expected_added_files",
+      "status": "PASS",
+      "detail": "{'added': ['docs/architecture/executable/hdip-cla-0.1-a3-invariant-conformance-catalogue.md', 'static/specs/hdip-cla/0.1/a3/a3-validation.json', 'static/specs/hdip-cla/0.1/a3/conformance-vocabulary.csv', 'static/specs/hdip-cla/0.1/a3/evidence-package.csv', 'static/specs/hdip-cla/0.1/a3/invariant-catalogue.csv', 'static/specs/hdip-cla/0.1/a3/invariant-conformance-catalogue.json', 'static/specs/hdip-cla/0.1/a3/profile-operations.csv'], 'expected': ['docs/architecture/executable/hdip-cla-0.1-a3-invariant-conformance-catalogue.md', 'static/specs/hdip-cla/0.1/a3/a3-validation.json', 'static/specs/hdip-cla/0.1/a3/conformance-vocabulary.csv', 'static/specs/hdip-cla/0.1/a3/evidence-package.csv', 'static/specs/hdip-cla/0.1/a3/invariant-catalogue.csv', 'static/specs/hdip-cla/0.1/a3/invariant-conformance-catalogue.json', 'static/specs/hdip-cla/0.1/a3/profile-operations.csv']}"
+    },
+    {
+      "check": "expected_changed_files",
+      "status": "PASS",
+      "detail": "{'changed': ['docs/architecture/executable/hdip-cla-0.1-executable-programme.md', 'sidebars.ts'], 'expected': ['docs/architecture/executable/hdip-cla-0.1-executable-programme.md', 'sidebars.ts']}"
+    }
+  ]
+}

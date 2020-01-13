@@ -1,0 +1,18 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-005",
+  "category": "SCHEMA_NEGATIVE",
+  "title": "A5 JSON-LD context missing required envelope",
+  "expectedDisposition": "MACHINE_REJECTED",
+  "m16TraceRefs": [
+    "M16-I15"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "sourceDocument": "static/specs/hdip-cla/0.1/a5/hdip-cla-context.jsonld",
+  "mutations": [
+    {
+      "op": "remove",
+      "path": "/@context"
+    }
+  ],
+  "schemaDocument": "static/specs/hdip-cla/0.1/a7/a5-jsonld-context.schema.json"
+}

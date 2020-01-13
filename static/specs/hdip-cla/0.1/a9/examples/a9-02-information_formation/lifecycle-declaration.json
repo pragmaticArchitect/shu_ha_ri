@@ -1,0 +1,16 @@
+{
+  "recordId": "HDIP-CLA-A9-02-LIFECYCLE_DECLARATION",
+  "version": "0.1",
+  "scope": "Illustrative Information Product Formation from Governed Products/Capabilities; non-normative and NOT_ASSESSED",
+  "sourceAuthority": "HDIP-CLA-0.1-M17",
+  "lifecycleKind": "PDEP",
+  "productFamily": "INFORMATION",
+  "stageSet": [
+    {
+      "number": 1,
+      "name": "Illustrative family-governed lifecycle checkpoint"
+    }
+  ],
+  "logicalNotRuntimePipeline": true,
+  "familySpecializationAuthorityRef": "Family-specific authority: illustrative, not prescribed by HDIP-CLA"
+}

@@ -1,0 +1,350 @@
+{
+  "suiteId": "HDIP-CLA-0.1-A11-NEGATIVE-BOUNDARY-CASES",
+  "version": "0.1-A11",
+  "sourceAuthority": "HDIP-CLA-0.1-M17",
+  "baseline": "A10_COMPLETE",
+  "normativeStatus": "ILLUSTRATIVE_TEST_FIXTURES_ONLY",
+  "purpose": "Test known structural failures, explicit declared contradictions, and limits of machine assessment without setting M16 outcomes",
+  "caseCount": 54,
+  "expectedByCategory": {
+    "SCHEMA_NEGATIVE": 21,
+    "REFERENCE_NEGATIVE": 6,
+    "MANIFEST_GUARD": 3,
+    "EXPLICIT_CONTRADICTION": 11,
+    "EVIDENCE_BOUNDARY": 10,
+    "SHACL_SUBSET_NEGATIVE": 3
+  },
+  "machineDispositions": [
+    "MACHINE_REJECTED",
+    "FLAGGED_DECLARED_CONTRADICTION",
+    "INDETERMINATE_REVIEW_REQUIRED"
+  ],
+  "m16InvariantResult": "NOT_EVALUATED",
+  "overallConformance": "NOT_ESTABLISHED",
+  "cases": [
+    {
+      "caseId": "HDIP-CLA-A11-CASE-001",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/001.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-002",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/002.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-003",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/003.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-004",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/004.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-005",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/005.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-006",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/006.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-007",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/007.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-008",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/008.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-009",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/009.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-010",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/010.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-011",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/011.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-012",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/012.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-013",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/013.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-014",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/014.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-015",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/015.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-016",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/016.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-017",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/017.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-018",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/018.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-019",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/019.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-020",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/020.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-021",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/021.json",
+      "category": "SCHEMA_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-022",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/022.json",
+      "category": "REFERENCE_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-023",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/023.json",
+      "category": "REFERENCE_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-024",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/024.json",
+      "category": "REFERENCE_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-025",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/025.json",
+      "category": "REFERENCE_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-026",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/026.json",
+      "category": "REFERENCE_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-027",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/027.json",
+      "category": "REFERENCE_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-028",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/028.json",
+      "category": "MANIFEST_GUARD",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-029",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/029.json",
+      "category": "MANIFEST_GUARD",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-030",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/030.json",
+      "category": "MANIFEST_GUARD",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-031",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/031.json",
+      "category": "EXPLICIT_CONTRADICTION",
+      "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-032",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/032.json",
+      "category": "EXPLICIT_CONTRADICTION",
+      "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-033",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/033.json",
+      "category": "EXPLICIT_CONTRADICTION",
+      "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-034",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/034.json",
+      "category": "EXPLICIT_CONTRADICTION",
+      "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-035",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/035.json",
+      "category": "EXPLICIT_CONTRADICTION",
+      "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-036",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/036.json",
+      "category": "EXPLICIT_CONTRADICTION",
+      "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-037",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/037.json",
+      "category": "EXPLICIT_CONTRADICTION",
+      "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-038",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/038.json",
+      "category": "EXPLICIT_CONTRADICTION",
+      "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-039",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/039.json",
+      "category": "EXPLICIT_CONTRADICTION",
+      "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-040",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/040.json",
+      "category": "EXPLICIT_CONTRADICTION",
+      "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-041",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/041.json",
+      "category": "EXPLICIT_CONTRADICTION",
+      "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-042",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/042.json",
+      "category": "EVIDENCE_BOUNDARY",
+      "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-043",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/043.json",
+      "category": "EVIDENCE_BOUNDARY",
+      "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-044",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/044.json",
+      "category": "EVIDENCE_BOUNDARY",
+      "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-045",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/045.json",
+      "category": "EVIDENCE_BOUNDARY",
+      "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-046",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/046.json",
+      "category": "EVIDENCE_BOUNDARY",
+      "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-047",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/047.json",
+      "category": "EVIDENCE_BOUNDARY",
+      "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-048",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/048.json",
+      "category": "EVIDENCE_BOUNDARY",
+      "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-049",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/049.json",
+      "category": "EVIDENCE_BOUNDARY",
+      "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-050",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/050.json",
+      "category": "EVIDENCE_BOUNDARY",
+      "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-051",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/051.json",
+      "category": "EVIDENCE_BOUNDARY",
+      "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-052",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/052.json",
+      "category": "SHACL_SUBSET_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-053",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/053.json",
+      "category": "SHACL_SUBSET_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    },
+    {
+      "caseId": "HDIP-CLA-A11-CASE-054",
+      "fixturePath": "static/specs/hdip-cla/0.1/a11/fixtures/054.json",
+      "category": "SHACL_SUBSET_NEGATIVE",
+      "expectedDisposition": "MACHINE_REJECTED"
+    }
+  ]
+}

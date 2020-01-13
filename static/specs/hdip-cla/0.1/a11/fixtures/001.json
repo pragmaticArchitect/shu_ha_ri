@@ -1,0 +1,19 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-001",
+  "category": "SCHEMA_NEGATIVE",
+  "title": "A1 registry identifier has invalid type",
+  "expectedDisposition": "MACHINE_REJECTED",
+  "m16TraceRefs": [
+    "M16-I41"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "sourceDocument": "static/specs/hdip-cla/0.1/a1/architecture-element-registry.json",
+  "mutations": [
+    {
+      "op": "replace",
+      "path": "/registryId",
+      "value": 42
+    }
+  ],
+  "schemaDocument": "static/specs/hdip-cla/0.1/a7/a1-architecture-elements.schema.json"
+}

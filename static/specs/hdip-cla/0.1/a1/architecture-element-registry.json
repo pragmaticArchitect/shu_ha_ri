@@ -1,0 +1,2759 @@
+{
+  "registryId": "HDIP-CLA-0.1-A1-ARCHITECTURE-ELEMENT-REGISTRY",
+  "registryVersion": "0.1-A1",
+  "status": "A1_COMPLETE",
+  "humanReadableAuthority": {
+    "baseline": "HDIP-CLA 0.1 human-readable architecture baseline",
+    "freezeStage": "M17",
+    "sourceDocument": "docs/architecture/cla/hdip-cla-0.1-m17-cross-artifact-reconciliation-freeze.md",
+    "precedenceRule": "If a machine-readable artifact conflicts with the frozen human-readable baseline, the human-readable baseline governs until a governed correction/version change."
+  },
+  "identityPolicy": {
+    "reuseFrozenSourceIdentifiers": true,
+    "machineAssignedIdentifierPrefix": "HDIP-CLA-",
+    "machineAssignedIdentifiersCreateNoNewArchitectureMeaning": true,
+    "iriAssignmentDeferredTo": "A5",
+    "relationshipSemanticsDeferredTo": "A2",
+    "invariantExecutableSemanticsDeferredTo": "A3/A6/A12"
+  },
+  "elementKindOrder": [
+    "PLANE",
+    "FOUNDATION",
+    "OVERLAY",
+    "ARCHITECTURE_BUILDING_BLOCK",
+    "LOGICAL_REGISTRY",
+    "REGISTRY_SPECIALIZATION",
+    "ARCHITECTURE_CONSTRUCT",
+    "PROJECTION_COMPILATION_ARTIFACT",
+    "LIFECYCLE",
+    "EXPERIENCE_PROJECTION",
+    "LIFECYCLE_PROJECTION",
+    "LIFECYCLE_STAGE",
+    "INTERACTION_FAMILY",
+    "INTERACTION",
+    "BOUNDARY_CLASS",
+    "BOUNDARY_FAMILY",
+    "REALIZATION_PATTERN",
+    "PROFILE_PATTERN",
+    "REFERENCE_VIEW",
+    "REPRESENTATIVE_FLOW",
+    "ARCHITECTURE_INVARIANT",
+    "CONFORMANCE_SUBJECT_CLASS"
+  ],
+  "summary": {
+    "elementCount": 209,
+    "countsByKind": {
+      "PLANE": 5,
+      "FOUNDATION": 1,
+      "OVERLAY": 9,
+      "ARCHITECTURE_BUILDING_BLOCK": 22,
+      "LOGICAL_REGISTRY": 5,
+      "REGISTRY_SPECIALIZATION": 1,
+      "ARCHITECTURE_CONSTRUCT": 3,
+      "PROJECTION_COMPILATION_ARTIFACT": 7,
+      "LIFECYCLE": 2,
+      "EXPERIENCE_PROJECTION": 1,
+      "LIFECYCLE_PROJECTION": 3,
+      "LIFECYCLE_STAGE": 19,
+      "INTERACTION_FAMILY": 4,
+      "INTERACTION": 21,
+      "BOUNDARY_CLASS": 6,
+      "BOUNDARY_FAMILY": 12,
+      "REALIZATION_PATTERN": 8,
+      "PROFILE_PATTERN": 6,
+      "REFERENCE_VIEW": 10,
+      "REPRESENTATIVE_FLOW": 10,
+      "ARCHITECTURE_INVARIANT": 48,
+      "CONFORMANCE_SUBJECT_CLASS": 6
+    },
+    "controlledVocabularyCount": 13,
+    "compatibilityMappingCount": 9
+  },
+  "controlledVocabularies": {
+    "assessmentMode": [
+      "STRUCTURAL",
+      "HYBRID",
+      "ASSESSMENT"
+    ],
+    "invariantResult": [
+      "SATISFIED",
+      "VIOLATED",
+      "INDETERMINATE",
+      "NOT_APPLICABLE"
+    ],
+    "conformanceOutcome": [
+      "CONFORMANT",
+      "NONCONFORMANT",
+      "INDETERMINATE"
+    ],
+    "conformanceClaimType": [
+      "CORE_ARCHITECTURE_CONFORMANCE",
+      "PROFILE_CONFORMANCE",
+      "REALIZATION_MAPPING_CONFORMANCE"
+    ]
+  },
+  "compatibilityMappings": [
+    {
+      "historicalTerm": "SSPD",
+      "mappingType": "RETIRED_TO",
+      "targets": [
+        "HDIP-CLA-LIFECYCLE-PDEP"
+      ]
+    },
+    {
+      "historicalTerm": "Consumer Experience Plane",
+      "mappingType": "HISTORICAL_EXPANSION_OF",
+      "targets": [
+        "HDIP-CLA-EXPERIENCE-CEP"
+      ]
+    },
+    {
+      "historicalTerm": "DPFI / Data Product Factory & Intelligence",
+      "mappingType": "RESPONSIBILITIES_MAP_TO",
+      "targets": [
+        "HDIP-P2-ABB-02",
+        "HDIP-P2-ABB-03",
+        "HDIP-P2-ABB-04"
+      ],
+      "notes": "Applicable overlays also participate; no single canonical replacement component."
+    },
+    {
+      "historicalTerm": "COVP",
+      "mappingType": "DECOMPOSED_TO",
+      "targets": [
+        "HDIP-X4",
+        "HDIP-X9",
+        "HDIP-P5"
+      ],
+      "notes": "Observability -> X4; Cost -> X9; Outcome/Value -> P5."
+    },
+    {
+      "historicalTerm": "Data Product Registry",
+      "mappingType": "DATA_PROFILE_VIEW_OF",
+      "targets": [
+        "HDIP-REG-01"
+      ]
+    },
+    {
+      "historicalTerm": "Resolved Product Graph",
+      "mappingType": "PRODUCT_SCOPED_VIEW_OF",
+      "targets": [
+        "HDIP-CLA-ART-RRG"
+      ]
+    },
+    {
+      "historicalTerm": "Unified Governance Bundle (UGB)",
+      "mappingType": "HISTORICAL_ALIAS_OF",
+      "targets": [
+        "HDIP-CLA-ART-RGB"
+      ]
+    },
+    {
+      "historicalTerm": "Logical Execution Plan",
+      "mappingType": "SPECIALIZED_VIEW_OF",
+      "targets": [
+        "HDIP-CLA-ART-REALIZATION-PLAN"
+      ]
+    },
+    {
+      "historicalTerm": "Selected Blueprint",
+      "mappingType": "SOURCE_REFERENCE_WITHIN",
+      "targets": [
+        "HDIP-CLA-ART-BLUEPRINT-BINDING"
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "id": "HDIP-P1",
+      "canonicalName": "Governed Intent, Definition & Authority Context",
+      "kind": "PLANE",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P1",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m06-canonical-logical-plane-derivation.md"
+      ],
+      "definition": "Express and carry governed purpose, meaning references, authority/accountability context and design obligations without capturing external semantic or Product authority."
+    },
+    {
+      "id": "HDIP-P2",
+      "canonicalName": "Discovery, Composition & Realization",
+      "kind": "PLANE",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P2",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m06-canonical-logical-plane-derivation.md"
+      ],
+      "definition": "Discover governed resources, resolve dependencies, compose, validate, compile and bind intent into realizable platform instructions/projections."
+    },
+    {
+      "id": "HDIP-P3",
+      "canonicalName": "Runtime, Formation & Execution",
+      "kind": "PLANE",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P3",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m06-canonical-logical-plane-derivation.md"
+      ],
+      "definition": "Execute the applicable Data processing, Information formation or Intelligence execution responsibilities while preserving their distinct semantics."
+    },
+    {
+      "id": "HDIP-P4",
+      "canonicalName": "Provision, Consumption & Integration",
+      "kind": "PLANE",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P4",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m06-canonical-logical-plane-derivation.md"
+      ],
+      "definition": "Expose governed capabilities/Products, onboard consumers, mediate access and integrate results with downstream human/system/workflow environments."
+    },
+    {
+      "id": "HDIP-P5",
+      "canonicalName": "Outcome, Value & Evolution",
+      "kind": "PLANE",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P5",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m06-canonical-logical-plane-derivation.md"
+      ],
+      "definition": "Observe outcomes/effectiveness/value evidence, incorporate feedback and initiate governed evolution without conflating usage, value, cost or observability."
+    },
+    {
+      "id": "HDIP-FND",
+      "canonicalName": "Shared Platform / Utility Foundation",
+      "kind": "FOUNDATION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-FND",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m06-canonical-logical-plane-derivation.md"
+      ],
+      "definition": "Provide common technology-neutral enabling capabilities used to realize P1-P5 and future cross-cutting Overlays."
+    },
+    {
+      "id": "HDIP-X1",
+      "canonicalName": "Governance, Policy, Control & Compliance",
+      "kind": "OVERLAY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-X1",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m07-cross-cutting-overlay-derivation.md"
+      ]
+    },
+    {
+      "id": "HDIP-X2",
+      "canonicalName": "Security, Privacy, Identity & Entitlement",
+      "kind": "OVERLAY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-X2",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m07-cross-cutting-overlay-derivation.md"
+      ]
+    },
+    {
+      "id": "HDIP-X3",
+      "canonicalName": "Provenance, Evidence & Traceability",
+      "kind": "OVERLAY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-X3",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m07-cross-cutting-overlay-derivation.md"
+      ]
+    },
+    {
+      "id": "HDIP-X4",
+      "canonicalName": "Observability, Telemetry & Auditability",
+      "kind": "OVERLAY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-X4",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m07-cross-cutting-overlay-derivation.md"
+      ]
+    },
+    {
+      "id": "HDIP-X5",
+      "canonicalName": "Quality, Fitness & Trust Evidence",
+      "kind": "OVERLAY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-X5",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m07-cross-cutting-overlay-derivation.md"
+      ]
+    },
+    {
+      "id": "HDIP-X6",
+      "canonicalName": "Evaluation & Assurance",
+      "kind": "OVERLAY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-X6",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m07-cross-cutting-overlay-derivation.md"
+      ]
+    },
+    {
+      "id": "HDIP-X7",
+      "canonicalName": "Lifecycle, Version, Currentness & Change",
+      "kind": "OVERLAY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-X7",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m07-cross-cutting-overlay-derivation.md"
+      ]
+    },
+    {
+      "id": "HDIP-X8",
+      "canonicalName": "Resilience, Safety, Failure & Recovery",
+      "kind": "OVERLAY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-X8",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m07-cross-cutting-overlay-derivation.md"
+      ]
+    },
+    {
+      "id": "HDIP-X9",
+      "canonicalName": "Economic & Cost Accountability",
+      "kind": "OVERLAY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-X9",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m07-cross-cutting-overlay-derivation.md"
+      ]
+    },
+    {
+      "id": "HDIP-P1-ABB-01",
+      "canonicalName": "Governed Intent & Use Context Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P1-ABB-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: P1; responsibility basis: RCF-01."
+    },
+    {
+      "id": "HDIP-P1-ABB-02",
+      "canonicalName": "Semantic Reference & Design Context Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P1-ABB-02",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: P1; responsibility basis: RCF-02."
+    },
+    {
+      "id": "HDIP-P1-ABB-03",
+      "canonicalName": "Authority & Accountability Context Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P1-ABB-03",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: P1; responsibility basis: RCF-03."
+    },
+    {
+      "id": "HDIP-P2-ABB-01",
+      "canonicalName": "Governed Discovery & Navigation Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P2-ABB-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: P2; responsibility basis: RCF-08, RCF-28."
+    },
+    {
+      "id": "HDIP-P2-ABB-02",
+      "canonicalName": "Dependency, Composition & Compatibility Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P2-ABB-02",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: P2; responsibility basis: RCF-09."
+    },
+    {
+      "id": "HDIP-P2-ABB-03",
+      "canonicalName": "Resolution, Validation & Compilation Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P2-ABB-03",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: P2; responsibility basis: RCF-10."
+    },
+    {
+      "id": "HDIP-P2-ABB-04",
+      "canonicalName": "Realization & Deployment Binding Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P2-ABB-04",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: P2; responsibility basis: RCF-11."
+    },
+    {
+      "id": "HDIP-P3-ABB-01",
+      "canonicalName": "Data Processing & Movement Runtime Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P3-ABB-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: P3; responsibility basis: RCF-12 / GEDRA-aligned specialization."
+    },
+    {
+      "id": "HDIP-P3-ABB-02",
+      "canonicalName": "Information Formation & Analytical Runtime Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P3-ABB-02",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: P3; responsibility basis: RCF-12 / GEARA-aligned specialization."
+    },
+    {
+      "id": "HDIP-P3-ABB-03",
+      "canonicalName": "Intelligence Execution Runtime Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P3-ABB-03",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: P3; responsibility basis: RCF-12 / GEAIRA-aligned specialization."
+    },
+    {
+      "id": "HDIP-P4-ABB-01",
+      "canonicalName": "Provision & Interface Exposure Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P4-ABB-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: P4; responsibility basis: RCF-15."
+    },
+    {
+      "id": "HDIP-P4-ABB-02",
+      "canonicalName": "Consumer Access & Consumption Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P4-ABB-02",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: P4; responsibility basis: RCF-16."
+    },
+    {
+      "id": "HDIP-P4-ABB-03",
+      "canonicalName": "Downstream Integration & Workflow Mediation Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P4-ABB-03",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: P4; responsibility basis: RCF-17."
+    },
+    {
+      "id": "HDIP-P5-ABB-01",
+      "canonicalName": "Outcome, Effectiveness & Feedback Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P5-ABB-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: P5; responsibility basis: RCF-24."
+    },
+    {
+      "id": "HDIP-P5-ABB-02",
+      "canonicalName": "Value Assessment & Evolution Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-P5-ABB-02",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: P5; responsibility basis: RCF-24 + P5 evolution responsibility."
+    },
+    {
+      "id": "HDIP-X1-ABB-01",
+      "canonicalName": "Governance Applicability & Control Coordination Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-X1-ABB-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: X1; responsibility basis: RCF-04."
+    },
+    {
+      "id": "HDIP-X3-ABB-01",
+      "canonicalName": "Provenance & Evidence Correlation Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-X3-ABB-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: X3; responsibility basis: RCF-19."
+    },
+    {
+      "id": "HDIP-X4-ABB-01",
+      "canonicalName": "Observability & Telemetry Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-X4-ABB-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: X4; responsibility basis: RCF-20."
+    },
+    {
+      "id": "HDIP-X5-ABB-01",
+      "canonicalName": "Quality, Fitness & Trust Evidence Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-X5-ABB-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: X5; responsibility basis: RCF-21."
+    },
+    {
+      "id": "HDIP-X6-ABB-01",
+      "canonicalName": "Evaluation & Assurance Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-X6-ABB-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: X6; responsibility basis: RCF-22."
+    },
+    {
+      "id": "HDIP-X7-ABB-01",
+      "canonicalName": "Lifecycle & Change Coordination Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-X7-ABB-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: X7; responsibility basis: RCF-23."
+    },
+    {
+      "id": "HDIP-X9-ABB-01",
+      "canonicalName": "Economic & Cost Accountability Boundary",
+      "kind": "ARCHITECTURE_BUILDING_BLOCK",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-X9-ABB-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md"
+      ],
+      "definition": "Primary host: X9; responsibility basis: RCF-30."
+    },
+    {
+      "id": "HDIP-REG-01",
+      "canonicalName": "Product Registry",
+      "kind": "LOGICAL_REGISTRY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-REG-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture.md"
+      ],
+      "definition": "Register qualified/intentionally constituted Product and Product Version references, Product-family identity, lifecycle/currentness, Product contracts/ports and authoritative descriptor references without qualifying Productness itself."
+    },
+    {
+      "id": "HDIP-REG-02",
+      "canonicalName": "Schema Registry",
+      "kind": "LOGICAL_REGISTRY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-REG-02",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture.md"
+      ],
+      "definition": "Register versioned structural/interface schemas and compatibility metadata required for design, compilation, binding and consumption without becoming business-semantic authority."
+    },
+    {
+      "id": "HDIP-REG-03",
+      "canonicalName": "Policy Registry",
+      "kind": "LOGICAL_REGISTRY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-REG-03",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture.md"
+      ],
+      "definition": "Register governed policy/control references and machine-evaluable policy artifacts where available, preserving external policy authority and version/effective-period context."
+    },
+    {
+      "id": "HDIP-REG-04",
+      "canonicalName": "Capability Registry",
+      "kind": "LOGICAL_REGISTRY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-REG-04",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture.md"
+      ],
+      "definition": "Register discoverable platform/domain capabilities, eligibility/availability metadata and invocation/realization references without automatically classifying them as Products or AI Primitives."
+    },
+    {
+      "id": "HDIP-REG-05",
+      "canonicalName": "Blueprint Registry",
+      "kind": "LOGICAL_REGISTRY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-REG-05",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture.md"
+      ],
+      "definition": "Register reusable technology-neutral realization blueprints/patterns, applicability constraints and versioned realization metadata used by P2 binding."
+    },
+    {
+      "id": "HDIP-REG-D01",
+      "canonicalName": "ADS Registry",
+      "kind": "REGISTRY_SPECIALIZATION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-REG-D01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture.md"
+      ],
+      "definition": "Canonical Data-profile specialization; registers HDIP Authorized Data Source designations/references and their scoped authority/currentness evidence. It is not generalized into Information or Intelligence."
+    },
+    {
+      "id": "HDIP-CLA-CONSTRUCT-CATALOG",
+      "canonicalName": "Catalog",
+      "kind": "ARCHITECTURE_CONSTRUCT",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture.md"
+      ],
+      "definition": "Discovery/search/projection responsibility distinct from Registry and Marketplace."
+    },
+    {
+      "id": "HDIP-CLA-CONSTRUCT-MARKETPLACE",
+      "canonicalName": "Marketplace",
+      "kind": "ARCHITECTURE_CONSTRUCT",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture.md"
+      ],
+      "definition": "Consumer-facing discovery/acquisition experience distinct from Registry and Catalog."
+    },
+    {
+      "id": "HDIP-CLA-CONSTRUCT-PRODUCT-LENS",
+      "canonicalName": "Orthogonal Product Lens",
+      "kind": "ARCHITECTURE_CONSTRUCT",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m06-canonical-logical-plane-derivation.md",
+        "docs/architecture/cla/hdip-cla-0.1-m17-cross-artifact-reconciliation-freeze.md"
+      ],
+      "definition": "Orthogonal Product qualification/classification lens governed by BPS/PIN and applicable Product-family authorities; not a Plane."
+    },
+    {
+      "id": "HDIP-CLA-ART-BLUEPRINT-BINDING",
+      "canonicalName": "Blueprint Binding",
+      "kind": "PROJECTION_COMPILATION_ARTIFACT",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture.md"
+      ],
+      "definition": "Compiled binding between a resolved realization and a selected eligible Blueprint plus applicable constraints."
+    },
+    {
+      "id": "HDIP-CLA-ART-COMPILATION-RECORD",
+      "canonicalName": "Compilation Record",
+      "kind": "PROJECTION_COMPILATION_ARTIFACT",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture.md"
+      ],
+      "definition": "Canonical evidence artifact for a material P2 compilation occurrence."
+    },
+    {
+      "id": "HDIP-CLA-ART-HPD",
+      "canonicalName": "HDIP Product Descriptor (HPD)",
+      "kind": "PROJECTION_COMPILATION_ARTIFACT",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture.md"
+      ],
+      "definition": "Versioned HDIP operational projection bundle for an applicable Product Version."
+    },
+    {
+      "id": "HDIP-CLA-ART-REALIZATION-PLAN",
+      "canonicalName": "Realization Plan",
+      "kind": "PROJECTION_COMPILATION_ARTIFACT",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture.md"
+      ],
+      "definition": "Technology-neutral logical plan describing how a resolved design is intended to be realized.",
+      "aliases": [
+        {
+          "term": "Logical Execution Plan",
+          "disposition": "EXECUTION_FOCUSED_SPECIALIZATION_VIEW"
+        }
+      ]
+    },
+    {
+      "id": "HDIP-CLA-ART-RGB",
+      "canonicalName": "Resolved Governance Bundle (RGB)",
+      "kind": "PROJECTION_COMPILATION_ARTIFACT",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture.md"
+      ],
+      "definition": "Versioned compiled governance projection retaining traceability to authoritative policy/control sources.",
+      "aliases": [
+        {
+          "term": "Unified Governance Bundle (UGB)",
+          "disposition": "HISTORICAL_ALIAS"
+        }
+      ]
+    },
+    {
+      "id": "HDIP-CLA-ART-RRG",
+      "canonicalName": "Resolved Realization Graph (RRG)",
+      "kind": "PROJECTION_COMPILATION_ARTIFACT",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture.md"
+      ],
+      "definition": "Versioned HDIP compilation projection of resolved subjects, dependencies, authoritative references, bindings and compatibility results.",
+      "aliases": [
+        {
+          "term": "Resolved Product Graph",
+          "disposition": "PRODUCT_SCOPED_VIEW"
+        }
+      ]
+    },
+    {
+      "id": "HDIP-CLA-ART-SYNCTX",
+      "canonicalName": "Synthetic Context (SYNCTX)",
+      "kind": "PROJECTION_COMPILATION_ARTIFACT",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture.md"
+      ],
+      "definition": "Versioned relational and constraint projection compiled for a defined synthetic-generation purpose."
+    },
+    {
+      "id": "HDIP-CLA-LIFECYCLE-PDEP",
+      "canonicalName": "Product Development & Evolution Process (PDEP)",
+      "kind": "LIFECYCLE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m10-pdep-architecture.md"
+      ],
+      "aliases": [
+        {
+          "term": "SSPD",
+          "disposition": "RETIRED_SEPARATE_LIFECYCLE_IDENTITY"
+        }
+      ]
+    },
+    {
+      "id": "HDIP-CLA-LIFECYCLE-SSCF",
+      "canonicalName": "Self-Service Consumption Flow (SSCF)",
+      "kind": "LIFECYCLE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m11-sscf-cep-architecture.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-EXPERIENCE-CEP",
+      "canonicalName": "Consumer Experience Projection (CEP)",
+      "kind": "EXPERIENCE_PROJECTION",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m11-sscf-cep-architecture.md"
+      ],
+      "aliases": [
+        {
+          "term": "Consumer Experience Plane",
+          "disposition": "HISTORICAL_EXPANSION_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "HDIP-CLA-PROJECTION-PDEP-G0",
+      "canonicalName": "PDEP G0",
+      "kind": "LIFECYCLE_PROJECTION",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m10-pdep-architecture.md"
+      ],
+      "aliases": [
+        {
+          "term": "SSPD G0",
+          "disposition": "HISTORICAL_ALIAS"
+        }
+      ]
+    },
+    {
+      "id": "HDIP-CLA-PROJECTION-PDEP-SPEC-A",
+      "canonicalName": "PDEP Spec A",
+      "kind": "LIFECYCLE_PROJECTION",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m10-pdep-architecture.md"
+      ],
+      "aliases": [
+        {
+          "term": "SSPD Spec A",
+          "disposition": "HISTORICAL_ALIAS"
+        }
+      ]
+    },
+    {
+      "id": "HDIP-CLA-PROJECTION-PDEP-SPEC-C",
+      "canonicalName": "PDEP Spec C",
+      "kind": "LIFECYCLE_PROJECTION",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m10-pdep-architecture.md"
+      ],
+      "aliases": [
+        {
+          "term": "SSPD Spec C",
+          "disposition": "HISTORICAL_ALIAS"
+        }
+      ]
+    },
+    {
+      "id": "HDIP-CLA-PDEP-STAGE-00",
+      "canonicalName": "PDEP Stage 0 — Preconditions",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m10-pdep-architecture.md",
+        "docs/product-development/hdip-data-product-development-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-PDEP-STAGE-01",
+      "canonicalName": "PDEP Stage 1 — Intent Record",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m10-pdep-architecture.md",
+        "docs/product-development/hdip-data-product-development-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-PDEP-STAGE-02",
+      "canonicalName": "PDEP Stage 2 — Authority Confirmation",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m10-pdep-architecture.md",
+        "docs/product-development/hdip-data-product-development-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-PDEP-STAGE-03",
+      "canonicalName": "PDEP Stage 3 — Policy Intent",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m10-pdep-architecture.md",
+        "docs/product-development/hdip-data-product-development-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-PDEP-STAGE-04",
+      "canonicalName": "PDEP Stage 4 — Semantic Descriptor (DPROD Draft)",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m10-pdep-architecture.md",
+        "docs/product-development/hdip-data-product-development-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-PDEP-STAGE-05",
+      "canonicalName": "PDEP Stage 5 — Business Assertions / Evidence Rules",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m10-pdep-architecture.md",
+        "docs/product-development/hdip-data-product-development-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-PDEP-STAGE-06",
+      "canonicalName": "PDEP Stage 6 — Usage Contract",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m10-pdep-architecture.md",
+        "docs/product-development/hdip-data-product-development-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-PDEP-STAGE-07",
+      "canonicalName": "PDEP Stage 7 — Product Preview (Abstract)",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m10-pdep-architecture.md",
+        "docs/product-development/hdip-data-product-development-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-PDEP-STAGE-08",
+      "canonicalName": "PDEP Stage 8 — Compilation",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m10-pdep-architecture.md",
+        "docs/product-development/hdip-data-product-development-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-PDEP-STAGE-09",
+      "canonicalName": "PDEP Stage 9 — Deployment (DPDS Generation & Execution)",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m10-pdep-architecture.md",
+        "docs/product-development/hdip-data-product-development-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-PDEP-STAGE-10",
+      "canonicalName": "PDEP Stage 10 — DPROD Finalization & Registration",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m10-pdep-architecture.md",
+        "docs/product-development/hdip-data-product-development-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-SSCF-STAGE-01",
+      "canonicalName": "SSCF Stage 1 — Declare Consumption Intent",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m11-sscf-cep-architecture.md",
+        "docs/product-consumption/hdip-product-consumption-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-SSCF-STAGE-02",
+      "canonicalName": "SSCF Stage 2 — Resolve Product Set",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m11-sscf-cep-architecture.md",
+        "docs/product-consumption/hdip-product-consumption-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-SSCF-STAGE-03",
+      "canonicalName": "SSCF Stage 3 — Evaluate Product Fit and Request Access",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m11-sscf-cep-architecture.md",
+        "docs/product-consumption/hdip-product-consumption-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-SSCF-STAGE-04",
+      "canonicalName": "SSCF Stage 4 — Provision Purpose-Bound Access",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m11-sscf-cep-architecture.md",
+        "docs/product-consumption/hdip-product-consumption-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-SSCF-STAGE-05",
+      "canonicalName": "SSCF Stage 5 — Consume Through CEP",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m11-sscf-cep-architecture.md",
+        "docs/product-consumption/hdip-product-consumption-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-SSCF-STAGE-06",
+      "canonicalName": "SSCF Stage 6 — Capture Usage Signals",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m11-sscf-cep-architecture.md",
+        "docs/product-consumption/hdip-product-consumption-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-SSCF-STAGE-07",
+      "canonicalName": "SSCF Stage 7 — Compute and Observe Product Signals",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m11-sscf-cep-architecture.md",
+        "docs/product-consumption/hdip-product-consumption-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-CLA-SSCF-STAGE-08",
+      "canonicalName": "SSCF Stage 8 — Decision, Feedback & Creation Loop",
+      "kind": "LIFECYCLE_STAGE",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": null,
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m11-sscf-cep-architecture.md",
+        "docs/product-consumption/hdip-product-consumption-stages.md"
+      ]
+    },
+    {
+      "id": "HDIP-M12-F1",
+      "canonicalName": "Governed Context & Authority",
+      "kind": "INTERACTION_FAMILY",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": "F1",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "F1",
+      "definition": "Carry intent, definition, authority, governing constraints, clarification and evolution feedback."
+    },
+    {
+      "id": "HDIP-M12-F2",
+      "canonicalName": "Discovery, Realization & Publication",
+      "kind": "INTERACTION_FAMILY",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": "F2",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "F2",
+      "definition": "Carry resolved realizations, publication/provisioning context, binding feedback and change/invalidations."
+    },
+    {
+      "id": "HDIP-M12-F3",
+      "canonicalName": "Runtime & Provision",
+      "kind": "INTERACTION_FAMILY",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": "F3",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "F3",
+      "definition": "Correlate consumer-facing provision with typed Data/Information/Intelligence runtime invocation and results."
+    },
+    {
+      "id": "HDIP-M12-F4",
+      "canonicalName": "Consumption, Outcome & Evolution",
+      "kind": "INTERACTION_FAMILY",
+      "canonicality": "FROZEN_CANONICAL_MACHINE_ID",
+      "status": "ACTIVE",
+      "sourceId": "F4",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "F4",
+      "definition": "Carry usage/integration evidence and consumer/value/evolution feedback."
+    },
+    {
+      "id": "HDIP-M12-INT-01",
+      "canonicalName": "Governed Design / Consumption Context Provision",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-01",
+      "definition": "Direction: P1 -> P2. Provide governed intent, purpose, semantic references, authority/accountability context and design/use obligations for discovery, resolution, composition and realization."
+    },
+    {
+      "id": "HDIP-M12-INT-02",
+      "canonicalName": "Governing Runtime Envelope",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-02",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-02",
+      "definition": "Direction: P1 -> P3. Constrain typed Data processing, Information formation or Intelligence execution by applicable purpose, authority, policy, quality, lifecycle and safety context."
+    },
+    {
+      "id": "HDIP-M12-INT-03",
+      "canonicalName": "Governing Provision & Consumption Context",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-03",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-03",
+      "definition": "Direction: P1 -> P4. Provide purpose, identity/mandate, Product/use context and governing constraints required for exposure, access, consumption and integration."
+    },
+    {
+      "id": "HDIP-M12-INT-04",
+      "canonicalName": "Outcome / Value Objective Context",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-04",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-04",
+      "definition": "Direction: P1 -> P5. Provide intended outcomes, value hypotheses, evaluation context and governing interpretation boundaries for later outcome/value assessment."
+    },
+    {
+      "id": "HDIP-M12-INT-05",
+      "canonicalName": "Resolution / Validation Clarification Feedback",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-05",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-05",
+      "definition": "Direction: P2 -> P1. Return ambiguity, missing intent, semantic incompatibility, authority gaps or design constraints requiring P1 refinement."
+    },
+    {
+      "id": "HDIP-M12-INT-06",
+      "canonicalName": "Access / Purpose Clarification Feedback",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-06",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-06",
+      "definition": "Direction: P4 -> P1. Return access, entitlement, purpose or consumption-context issues requiring P1 clarification or reframing."
+    },
+    {
+      "id": "HDIP-M12-INT-07",
+      "canonicalName": "Outcome / Evolution Feedback",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-07",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-07",
+      "definition": "Direction: P5 -> P1. Return outcome, effectiveness, consumer feedback or value evidence that may require intent, objectives, authority context or Product design evolution."
+    },
+    {
+      "id": "HDIP-M12-INT-08",
+      "canonicalName": "Governing Revocation / Supersession",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-08",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-08",
+      "definition": "Direction: P1 -> affected P2-P5. Propagate material change in governing purpose, authority, mandate or constraints to affected downstream responsibilities without rewriting historical occurrences."
+    },
+    {
+      "id": "HDIP-M12-INT-09",
+      "canonicalName": "Realization & Runtime Binding Provision",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-09",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-09",
+      "definition": "Direction: P2 -> P3. Provide the governed realization/binding context required to instantiate or invoke the applicable typed P3 runtime responsibility."
+    },
+    {
+      "id": "HDIP-M12-INT-10",
+      "canonicalName": "Runtime Readiness / Binding Feedback",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-10",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-10",
+      "definition": "Direction: P3 -> P2. Return runtime eligibility, readiness, binding, deployment, dependency or realization-state feedback required for correction or re-binding."
+    },
+    {
+      "id": "HDIP-M12-INT-11",
+      "canonicalName": "Product / Capability Resolution Set Provision",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-11",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-11",
+      "definition": "Direction: P2 -> P4. Provide typed candidate Product/capability resolution results and rationale for consumer evaluation, acquisition or access processing."
+    },
+    {
+      "id": "HDIP-M12-INT-12",
+      "canonicalName": "Provisioning / Access Constraint Feedback",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-12",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-12",
+      "definition": "Direction: P4 -> P2. Return Product/Port availability, access, compatibility or provisioning constraints requiring substitution, re-resolution or realization change."
+    },
+    {
+      "id": "HDIP-M12-INT-13",
+      "canonicalName": "Provisionable Interface / Publication Eligibility",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-13",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-13",
+      "definition": "Direction: P2 -> P4. Hand off an eligible/published realization and its governed interface/Port context for exposure and consumer onboarding."
+    },
+    {
+      "id": "HDIP-M12-INT-14",
+      "canonicalName": "Realization / Change-Impact Context",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-14",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-14",
+      "definition": "Direction: P2 -> P5. Provide realization, dependency, compatibility and change-impact context needed to interpret outcomes and evolution consequences."
+    },
+    {
+      "id": "HDIP-M12-INT-15",
+      "canonicalName": "Evolution / Recompilation / Rebinding Request",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-15",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-15",
+      "definition": "Direction: P5 -> P2. Request governed reassessment, recompilation, re-binding, substitution or realization change based on outcome/evolution evidence."
+    },
+    {
+      "id": "HDIP-M12-INT-16",
+      "canonicalName": "Realization Change / Invalidation Notification",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-16",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-16",
+      "definition": "Direction: P2 -> affected P3/P4/P5. Propagate material realization, dependency, Blueprint, binding or interface change to affected runtime, provision and outcome responsibilities."
+    },
+    {
+      "id": "HDIP-M12-INT-17",
+      "canonicalName": "Runtime Invocation / Consumption Request",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-17",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-17",
+      "definition": "Direction: P4 -> P3. Request or invoke typed Data processing, Information formation or Intelligence execution through a governed provision/consumption boundary."
+    },
+    {
+      "id": "HDIP-M12-INT-18",
+      "canonicalName": "Runtime Result / Output Provision",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-18",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-18",
+      "definition": "Direction: P3 -> P4. Return typed runtime result, output, status or effect for governed exposure, consumption or downstream integration."
+    },
+    {
+      "id": "HDIP-M12-INT-19",
+      "canonicalName": "Runtime Outcome / Execution Evidence Contribution",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-19",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-19",
+      "definition": "Direction: P3 -> P5. Supply runtime outcome/effectiveness evidence and execution context needed for outcome/value/evolution interpretation."
+    },
+    {
+      "id": "HDIP-M12-INT-20",
+      "canonicalName": "Consumption / Usage / Integration Evidence Contribution",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-20",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-20",
+      "definition": "Direction: P4 -> P5. Supply governed consumption, usage, delivery and integration evidence for outcome, value and lifecycle interpretation."
+    },
+    {
+      "id": "HDIP-M12-INT-21",
+      "canonicalName": "Consumption Continuation / Substitution / Experience Feedback",
+      "kind": "INTERACTION",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-M12-INT-21",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md"
+      ],
+      "shortId": "INT-21",
+      "definition": "Direction: P5 -> P4. Inform continued use, substitution, changed experience, consumer feedback or other consumption-path adjustment without directly redefining Product semantics."
+    },
+    {
+      "id": "BC1",
+      "canonicalName": "Authority & Specification Boundary",
+      "kind": "BOUNDARY_CLASS",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "BC1",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Preserve externally owned semantic, Product, architecture, standard and policy jurisdiction."
+    },
+    {
+      "id": "BC2",
+      "canonicalName": "Enterprise Control-System Boundary",
+      "kind": "BOUNDARY_CLASS",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "BC2",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Interoperate with identity, security, privacy, entitlement, policy and governance/control infrastructure without transferring authority."
+    },
+    {
+      "id": "BC3",
+      "canonicalName": "Producer / Source-System Boundary",
+      "kind": "BOUNDARY_CLASS",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "BC3",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Ingest, reference or bind governed Data/Information/Intelligence sources while preserving source identity, authority, currentness and provenance."
+    },
+    {
+      "id": "BC4",
+      "canonicalName": "Execution / Platform Boundary",
+      "kind": "BOUNDARY_CLASS",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "BC4",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Bind HDIP logical realization to enterprise or provider runtime/infrastructure environments without making those environments semantic authorities."
+    },
+    {
+      "id": "BC5",
+      "canonicalName": "Consumer / Consequence Boundary",
+      "kind": "BOUNDARY_CLASS",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "BC5",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Expose Products/capabilities to consumers and downstream workflow/decision/action environments while preserving access-versus-consequence distinctions."
+    },
+    {
+      "id": "BC6",
+      "canonicalName": "Provider / Partner / Evidence Boundary",
+      "kind": "BOUNDARY_CLASS",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "BC6",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Govern interaction with third-party providers, partners and external evidence/observability/economic systems."
+    },
+    {
+      "id": "HDIP-BND-01",
+      "canonicalName": "Semantic Authority Boundary",
+      "kind": "BOUNDARY_FAMILY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-BND-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Class: BC1. Principal jurisdiction outside HDIP: GEDRM, GEARM, GEAIRM and applicable enterprise/domain semantic authorities."
+    },
+    {
+      "id": "HDIP-BND-02",
+      "canonicalName": "Product & Product-Family Authority Boundary",
+      "kind": "BOUNDARY_FAMILY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-BND-02",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Class: BC1. Principal jurisdiction outside HDIP: BPS/PIN and applicable Product-family authorities such as AIPS and family specifications."
+    },
+    {
+      "id": "HDIP-BND-03",
+      "canonicalName": "Peer Reference-Architecture Boundary",
+      "kind": "BOUNDARY_FAMILY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-BND-03",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Class: BC1. Principal jurisdiction outside HDIP: GEDRA, GEARA, GEAIRA and other independently governed peer architectures."
+    },
+    {
+      "id": "HDIP-BND-04",
+      "canonicalName": "External Standard & Vocabulary Boundary",
+      "kind": "BOUNDARY_FAMILY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-BND-04",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Class: BC1. Principal jurisdiction outside HDIP: External standards/vocabularies such as W3C PROV and applicable external interoperability standards."
+    },
+    {
+      "id": "HDIP-BND-05",
+      "canonicalName": "Enterprise Policy, Legal & Control-Authority Boundary",
+      "kind": "BOUNDARY_FAMILY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-BND-05",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Class: BC1/BC2. Principal jurisdiction outside HDIP: Enterprise policy owners, legal/regulatory interpretation, control owners, risk/compliance authorities and exception authorities."
+    },
+    {
+      "id": "HDIP-BND-06",
+      "canonicalName": "Identity, Security, Privacy & Entitlement System Boundary",
+      "kind": "BOUNDARY_FAMILY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-BND-06",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Class: BC2. Principal jurisdiction outside HDIP: Enterprise identity providers, IAM/PAM, consent/privacy systems, entitlement services, key/secrets systems and security infrastructure."
+    },
+    {
+      "id": "HDIP-BND-07",
+      "canonicalName": "Authoritative Producer / Source-System Boundary",
+      "kind": "BOUNDARY_FAMILY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-BND-07",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Class: BC3. Principal jurisdiction outside HDIP: Systems of record, ADS/source systems, upstream Products/capabilities, authoritative feeds and source-domain providers."
+    },
+    {
+      "id": "HDIP-BND-08",
+      "canonicalName": "Runtime, Processing & Infrastructure Boundary",
+      "kind": "BOUNDARY_FAMILY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-BND-08",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Class: BC4. Principal jurisdiction outside HDIP: Data processing engines, analytical runtimes, AI runtimes, cloud/on-prem infrastructure, schedulers, messaging and execution environments."
+    },
+    {
+      "id": "HDIP-BND-09",
+      "canonicalName": "Product / Capability Provider Boundary",
+      "kind": "BOUNDARY_FAMILY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-BND-09",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Class: BC3/BC4. Principal jurisdiction outside HDIP: Internal or external Product/capability providers whose governed Ports/interfaces are discovered, bound or consumed by HDIP."
+    },
+    {
+      "id": "HDIP-BND-10",
+      "canonicalName": "Consumer & Downstream Integration Boundary",
+      "kind": "BOUNDARY_FAMILY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-BND-10",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Class: BC5. Principal jurisdiction outside HDIP: Human consumers, applications, BI/analytical tools, APIs, agents, automation, integration and workflow systems."
+    },
+    {
+      "id": "HDIP-BND-11",
+      "canonicalName": "Decision, Action & Consequence Boundary",
+      "kind": "BOUNDARY_FAMILY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-BND-11",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Class: BC5. Principal jurisdiction outside HDIP: Decision engines, tool/action systems, transactional systems, physical/digital actuators and accountable human decision environments."
+    },
+    {
+      "id": "HDIP-BND-12",
+      "canonicalName": "External Provider, Partner, Evidence & Economic-System Boundary",
+      "kind": "BOUNDARY_FAMILY",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "HDIP-BND-12",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md"
+      ],
+      "definition": "Class: BC6. Principal jurisdiction outside HDIP: Third-party data/model/API/SaaS providers, partners, audit/SIEM/observability, lineage/provenance and FinOps/economic systems."
+    },
+    {
+      "id": "M14-RP-01",
+      "canonicalName": "Consolidated / Co-Located Enterprise Platform",
+      "kind": "REALIZATION_PATTERN",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M14-RP-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns.md"
+      ]
+    },
+    {
+      "id": "M14-RP-02",
+      "canonicalName": "Distributed Capability / Service Realization",
+      "kind": "REALIZATION_PATTERN",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M14-RP-02",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns.md"
+      ]
+    },
+    {
+      "id": "M14-RP-03",
+      "canonicalName": "Federated Domain / Organizational Realization",
+      "kind": "REALIZATION_PATTERN",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M14-RP-03",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns.md"
+      ]
+    },
+    {
+      "id": "M14-RP-04",
+      "canonicalName": "Shared Core + Domain Extension Realization",
+      "kind": "REALIZATION_PATTERN",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M14-RP-04",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns.md"
+      ]
+    },
+    {
+      "id": "M14-RP-05",
+      "canonicalName": "Edge / Locality-Sensitive Realization",
+      "kind": "REALIZATION_PATTERN",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M14-RP-05",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns.md"
+      ]
+    },
+    {
+      "id": "M14-RP-06",
+      "canonicalName": "Embedded / Intermittently Connected Realization",
+      "kind": "REALIZATION_PATTERN",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M14-RP-06",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns.md"
+      ]
+    },
+    {
+      "id": "M14-RP-07",
+      "canonicalName": "External / Managed-Provider Realization",
+      "kind": "REALIZATION_PATTERN",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M14-RP-07",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns.md"
+      ]
+    },
+    {
+      "id": "M14-RP-08",
+      "canonicalName": "Hybrid Multi-Locality / Multi-Provider Realization",
+      "kind": "REALIZATION_PATTERN",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M14-RP-08",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns.md"
+      ]
+    },
+    {
+      "id": "M14-PP-01",
+      "canonicalName": "Data / Data Product Profile",
+      "kind": "PROFILE_PATTERN",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M14-PP-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns.md"
+      ]
+    },
+    {
+      "id": "M14-PP-02",
+      "canonicalName": "Information / Analytics Product Profile",
+      "kind": "PROFILE_PATTERN",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M14-PP-02",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns.md"
+      ]
+    },
+    {
+      "id": "M14-PP-03",
+      "canonicalName": "Intelligence / AI Product Profile",
+      "kind": "PROFILE_PATTERN",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M14-PP-03",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns.md"
+      ]
+    },
+    {
+      "id": "M14-PP-04",
+      "canonicalName": "Compound / Cross-Family Product Profile",
+      "kind": "PROFILE_PATTERN",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M14-PP-04",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns.md"
+      ]
+    },
+    {
+      "id": "M14-PP-05",
+      "canonicalName": "Regulated / High-Assurance Profile",
+      "kind": "PROFILE_PATTERN",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M14-PP-05",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns.md"
+      ]
+    },
+    {
+      "id": "M14-PP-06",
+      "canonicalName": "Data Mesh Data-Domain Operating Profile",
+      "kind": "PROFILE_PATTERN",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M14-PP-06",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns.md"
+      ]
+    },
+    {
+      "id": "M15-V01",
+      "canonicalName": "Canonical Logical Platform View",
+      "kind": "REFERENCE_VIEW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-V01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ],
+      "definition": "What is the smallest coherent picture of HDIP's canonical logical structure?"
+    },
+    {
+      "id": "M15-V02",
+      "canonicalName": "Architecture Authority & Jurisdiction View",
+      "kind": "REFERENCE_VIEW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-V02",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ],
+      "definition": "Who owns meaning, Product qualification, policy, source authority, decision authority and architecture jurisdiction?"
+    },
+    {
+      "id": "M15-V03",
+      "canonicalName": "Product Development & Evolution — PDEP View",
+      "kind": "REFERENCE_VIEW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-V03",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ],
+      "definition": "How does governed Product intent become a realizable/published Product and later evolve without making PDEP a Plane?"
+    },
+    {
+      "id": "M15-V04",
+      "canonicalName": "Registry, Resolution, Projection & Compilation View",
+      "kind": "REFERENCE_VIEW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-V04",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ],
+      "definition": "How are authoritative references registered, discovered, resolved, compiled and projected without authority capture?"
+    },
+    {
+      "id": "M15-V05",
+      "canonicalName": "Runtime, Formation & Execution View",
+      "kind": "REFERENCE_VIEW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-V05",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ],
+      "definition": "How are Data processing, Information formation and Intelligence execution co-realized while remaining semantically distinct?"
+    },
+    {
+      "id": "M15-V06",
+      "canonicalName": "Product Consumption & Consumer Experience — SSCF / CEP View",
+      "kind": "REFERENCE_VIEW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-V06",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ],
+      "definition": "How does a consumer move from intent to governed Product access, runtime consumption, signals and feedback?"
+    },
+    {
+      "id": "M15-V07",
+      "canonicalName": "Governance, Security, Access & Consequence View",
+      "kind": "REFERENCE_VIEW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-V07",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ],
+      "definition": "How are governance, identity, entitlement, Product access and consequential Decision/Action authority kept distinct?"
+    },
+    {
+      "id": "M15-V08",
+      "canonicalName": "Evidence, Quality, Assurance & Economic Accountability View",
+      "kind": "REFERENCE_VIEW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-V08",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ],
+      "definition": "How do provenance, telemetry, quality, fitness, assurance, cost, outcome and value evidence relate without collapsing into one score?"
+    },
+    {
+      "id": "M15-V09",
+      "canonicalName": "Lifecycle, Currentness, Change & Historical Meaning View",
+      "kind": "REFERENCE_VIEW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-V09",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ],
+      "definition": "How are version, currentness, supersession, invalidation and evolution propagated while preserving occurrence-time meaning?"
+    },
+    {
+      "id": "M15-V10",
+      "canonicalName": "Federation, External Boundary, Realization & Profile View",
+      "kind": "REFERENCE_VIEW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-V10",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ],
+      "definition": "How may HDIP span domains, providers, peer architectures and topologies without authority or conformance collapse?"
+    },
+    {
+      "id": "M15-FLOW-01",
+      "canonicalName": "Data Product Development, Realization & Publication",
+      "kind": "REPRESENTATIVE_FLOW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-FLOW-01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ]
+    },
+    {
+      "id": "M15-FLOW-02",
+      "canonicalName": "Information Product Formation from Governed Products/Capabilities",
+      "kind": "REPRESENTATIVE_FLOW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-FLOW-02",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ]
+    },
+    {
+      "id": "M15-FLOW-03",
+      "canonicalName": "AI Product / Intelligence Capability Realization with External Provider",
+      "kind": "REPRESENTATIVE_FLOW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-FLOW-03",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ]
+    },
+    {
+      "id": "M15-FLOW-04",
+      "canonicalName": "Intent-First Product Consumption",
+      "kind": "REPRESENTATIVE_FLOW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-FLOW-04",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ]
+    },
+    {
+      "id": "M15-FLOW-05",
+      "canonicalName": "Established-State Repeated Runtime Consumption",
+      "kind": "REPRESENTATIVE_FLOW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-FLOW-05",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ]
+    },
+    {
+      "id": "M15-FLOW-06",
+      "canonicalName": "Access Denial, Constraint & Product Substitution",
+      "kind": "REPRESENTATIVE_FLOW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-FLOW-06",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ]
+    },
+    {
+      "id": "M15-FLOW-07",
+      "canonicalName": "Governing Revocation During Active Operation",
+      "kind": "REPRESENTATIVE_FLOW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-FLOW-07",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ]
+    },
+    {
+      "id": "M15-FLOW-08",
+      "canonicalName": "Outcome / Value Feedback into Product Evolution",
+      "kind": "REPRESENTATIVE_FLOW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-FLOW-08",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ]
+    },
+    {
+      "id": "M15-FLOW-09",
+      "canonicalName": "Federated Cross-Domain Product Consumption",
+      "kind": "REPRESENTATIVE_FLOW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-FLOW-09",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ]
+    },
+    {
+      "id": "M15-FLOW-10",
+      "canonicalName": "Provider Failure, Migration, Rebinding & Recovery",
+      "kind": "REPRESENTATIVE_FLOW",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M15-FLOW-10",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md"
+      ]
+    },
+    {
+      "id": "M16-I01",
+      "canonicalName": "Semantic authority preservation",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I01",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "HDIP-CLA SHALL NOT incompatibly redefine concepts, relationships or invariants owned by GEDRM, GEARM, GEAIRM or other applicable semantic authorities.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I02",
+      "canonicalName": "Product authority preservation",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I02",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Generic Product identity, Product Intrinsic Nature and Product qualification SHALL remain governed by BPS/PIN rather than inferred by HDIP.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I03",
+      "canonicalName": "Product-family authority preservation",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I03",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Data Product, Information Product, AI Product and other Product-family qualification/classification SHALL remain with the applicable Product-family authority.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I04",
+      "canonicalName": "Scoped authority",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I04",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Authority used by HDIP SHALL be explicit for an applicable scope, role, purpose, lifecycle state and/or jurisdiction where those distinctions matter; platform participation SHALL NOT imply universal authority.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I05",
+      "canonicalName": "Shared-realization non-transfer",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I05",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Co-location, shared storage, shared runtime, shared registry, shared UI or shared platform realization SHALL NOT by itself transfer semantic, Product, policy, decision or ownership authority.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I06",
+      "canonicalName": "Semantic-gap escalation",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I06",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Where HDIP needs a semantic concept not owned by HDIP, the gap SHALL be referred to or extended through the appropriate semantic authority rather than silently minted as platform semantics.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I07",
+      "canonicalName": "Authority non-transitivity",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I07",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Authority, approval, entitlement, policy applicability or ownership SHALL NOT become automatically transitive merely because a dependency, composition or interaction crosses an HDIP boundary.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I08",
+      "canonicalName": "Responsibility before component",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I08",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "A canonical HDIP ABB or mandatory implementation responsibility SHALL be justified by explicit architectural responsibility; a noun, tool, service label or historical box alone is insufficient.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I09",
+      "canonicalName": "Logical plane semantics",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I09",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "A future HDIP Plane SHALL represent a coherent logical responsibility grouping and SHALL NOT imply a mandatory system, deployment unit, network tier, team, organizational boundary or lifecycle step.",
+      "notes": "Assessment mode: STRUCTURAL"
+    },
+    {
+      "id": "M16-I10",
+      "canonicalName": "Topology independence",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I10",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "HDIP-CLA conformance SHALL NOT depend on centralized, federated, distributed, edge, embedded, provider-managed or hybrid deployment topology unless a narrower Profile explicitly requires it.",
+      "notes": "Assessment mode: ASSESSMENT"
+    },
+    {
+      "id": "M16-I11",
+      "canonicalName": "Many-to-many realization",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I11",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "One implementation MAY realize responsibilities from several HDIP logical structures, and one HDIP responsibility MAY be distributed across several implementations.",
+      "notes": "Assessment mode: STRUCTURAL"
+    },
+    {
+      "id": "M16-I12",
+      "canonicalName": "Source-plane non-equivalence",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I12",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "GEDRA, GEARA and GEAIRA plane numbering, placement or lexical similarity SHALL NOT force one-to-one HDIP plane mapping.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I13",
+      "canonicalName": "Cross-cutting visibility",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I13",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "A responsibility that is cross-cutting in an applicable source architecture SHALL NOT be silently localized into one future HDIP plane without explicit justification that preserves its cross-cutting obligations.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I14",
+      "canonicalName": "Foundation separation",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I14",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Compute, storage, networking, messaging, identity infrastructure, orchestration and other utility capabilities SHALL NOT acquire semantic, Product, governance or domain authority merely because they enable those responsibilities.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I15",
+      "canonicalName": "Architecture traceability",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I15",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Every future canonical HDIP Plane, Overlay, ABB and material interaction SHALL trace to upstream responsibilities, explicit enterprise platform requirements and/or justified HDIP-specific coordination responsibilities.",
+      "notes": "Assessment mode: STRUCTURAL"
+    },
+    {
+      "id": "M16-I16",
+      "canonicalName": "Domain distinction",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I16",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Data, Information and Intelligence SHALL remain distinguishable architectural/semantic concerns even where one platform capability co-realizes responsibilities from more than one domain.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I17",
+      "canonicalName": "No cross-domain inheritance",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I17",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "A Data-specific, Information-specific or Intelligence-specific construct SHALL NOT automatically generalize to the other domains through shared implementation or naming similarity.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I18",
+      "canonicalName": "No automatic Productness",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I18",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Composition, generation, transformation, persistence, deployment, publication, registration, cataloguing, marketplace presence, API exposure, repeated use or consumption SHALL NOT by itself establish Product identity.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I19",
+      "canonicalName": "Product-family distinction",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I19",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Co-realization of Data Products, Information Products and AI Products SHALL NOT collapse them into one HDIP-local Product family or type.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I20",
+      "canonicalName": "Composition non-inheritance",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I20",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Using, depending on, containing, deriving from or invoking a Product/capability SHALL NOT by itself transfer its Product family, ontology type, ownership or authority to the dependent/composed result.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I21",
+      "canonicalName": "Direct capability validity",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I21",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "HDIP SHALL be able to support governed Data, Information or Intelligence capability use where Product qualification is not intended; Productization SHALL NOT be a mandatory gateway for every governed interaction.",
+      "notes": "Assessment mode: ASSESSMENT"
+    },
+    {
+      "id": "M16-I22",
+      "canonicalName": "Governed self-service",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I22",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Self-service SHALL operate inside applicable authority, policy, security, privacy, quality, evidence and lifecycle constraints; self-service SHALL NOT mean unrestricted infrastructure or data access.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I23",
+      "canonicalName": "Intent/compilation separation",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I23",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Participant-declared intent, business semantics and accountable judgement SHALL remain distinguishable from platform resolution, compilation, provisioning and automation.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I24",
+      "canonicalName": "Automation non-ownership",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I24",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "HDIP automation SHALL NOT transfer Product ownership, Data authority, policy authority or decision accountability to the compiler/runtime merely because the platform performs most technical work.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I25",
+      "canonicalName": "Judgement honesty",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I25",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Architecture/governance decisions requiring contextual or accountable judgement SHALL NOT be represented as machine-proven solely because metadata, telemetry, rules or model outputs exist.",
+      "notes": "Assessment mode: ASSESSMENT"
+    },
+    {
+      "id": "M16-I26",
+      "canonicalName": "PDEP canonical lifecycle identity",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I26",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "PDEP SHALL remain the canonical HDIP Product Development and Evolution Process identity; historical SSPD terminology MAY remain only for traceability and SHALL NOT become a competing lifecycle.",
+      "notes": "Assessment mode: STRUCTURAL"
+    },
+    {
+      "id": "M16-I27",
+      "canonicalName": "Progressive PDEP projection",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I27",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "PDEP G0 and PDEP Spec A MAY compress/group canonical stages for progressive disclosure, while PDEP Spec C SHALL remain synchronized with the canonical applicable detailed PDEP lifecycle.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I28",
+      "canonicalName": "Experience non-authority",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I28",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Interactive flow players, diagrams, dashboards and experience projections SHALL NOT independently create lifecycle stages, authority, Product identity, ABBs or architecture semantics.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I29",
+      "canonicalName": "Projection non-authority",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I29",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "HPD, SYNCTX, resolved graphs, compiled governance bundles, compilation packs and similar HDIP-generated projections SHALL NOT override the authoritative semantics or governance sources they reference.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I30",
+      "canonicalName": "Compiler non-invention",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I30",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "HDIP resolution/compilation SHALL NOT manufacture semantic relationships, Product identity, policy authority, joinability, provenance, dependencies or obligations from weak evidence or naming similarity.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I31",
+      "canonicalName": "Logical registry independence",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I31",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "ADS, Product, Schema, Policy, Capability and Blueprint registry responsibilities SHALL remain logically distinguishable even where one implementation realizes several of them.",
+      "notes": "Assessment mode: STRUCTURAL"
+    },
+    {
+      "id": "M16-I32",
+      "canonicalName": "Registry non-qualification",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I32",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Registration SHALL NOT by itself prove authoritative status, Product status, control effectiveness, semantic correctness, fitness or HDIP conformance.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I33",
+      "canonicalName": "Registry/catalog/marketplace distinction",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I33",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Registry, Catalog and Marketplace responsibilities SHALL NOT be treated as architectural synonyms even when exposed through one user experience or implementation.",
+      "notes": "Assessment mode: STRUCTURAL"
+    },
+    {
+      "id": "M16-I34",
+      "canonicalName": "Shared registry realization allowed",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I34",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "HDIP MAY consolidate registry implementation where operationally useful provided logical identities, ownership, contracts, lifecycle and authority boundaries remain distinguishable.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I35",
+      "canonicalName": "Evidence by construction",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I35",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Material HDIP interactions SHOULD emit or retain applicable provenance, control, quality, observability and lifecycle evidence sufficient for later reconstruction and assessment.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I36",
+      "canonicalName": "Trust is contextual",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I36",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Platform location, certification label, popularity, centralization, Product status or registry presence SHALL NOT be treated as universal proof of trust or fitness; trust assessment SHALL remain contextual and evidence-based.",
+      "notes": "Assessment mode: ASSESSMENT"
+    },
+    {
+      "id": "M16-I37",
+      "canonicalName": "Missing evidence is not positive evidence",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I37",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Missing, stale, inaccessible or materially ambiguous evidence SHALL NOT be interpreted as positive assurance.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I38",
+      "canonicalName": "Version/currentness distinction",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I38",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Version identity, latest/newest status and governed currentness SHALL remain distinguishable; newest SHALL NOT automatically mean current or approved.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I39",
+      "canonicalName": "Historical truth",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I39",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Later supersession, revocation, re-evaluation, upstream change, rollback or re-publication SHALL NOT silently rewrite which semantics, Product Version, policy/control, dependency, context or realization governed a historical occurrence.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I40",
+      "canonicalName": "Provenance is not assurance",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I40",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Provenance and lineage SHALL support traceability but SHALL NOT by themselves prove correctness, authorization, control effectiveness, assurance or Fitness for Use.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I41",
+      "canonicalName": "Canonical structure integrity",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I41",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "A conformant HDIP architecture SHALL preserve the canonical identity and responsibility meaning of P1-P5, X1-X9, HDIP-FND and the M08 ABB catalogue; implementation grouping, view projection or profile specialization SHALL NOT silently redefine those canonical structures.",
+      "notes": "Assessment mode: STRUCTURAL"
+    },
+    {
+      "id": "M16-I42",
+      "canonicalName": "Interaction-contract preservation",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I42",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Material interactions SHALL preserve the applicable M12 Interaction Contract identity and obligations even when the participating responsibilities are co-located, embedded, distributed, provider-operated or implemented through a mechanism other than a network API.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I43",
+      "canonicalName": "External-boundary jurisdiction preservation",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I43",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Material crossings of an M13 Boundary Family SHALL preserve the applicable external authority, jurisdiction, currentness, evidence and failure obligations; physical co-location or shared-provider realization SHALL NOT erase the logical boundary.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I44",
+      "canonicalName": "Product-access / consequence separation",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I44",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Product or Product-Port access approval, entitlement or successful consumption SHALL NOT by itself authorize a downstream consequential Decision, Tool use, Digital Action or Physical Action where separate point-of-use authority is applicable.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I45",
+      "canonicalName": "Lifecycle / runtime non-equivalence",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I45",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "PDEP, SSCF and CEP SHALL remain lifecycle/experience compositions and SHALL NOT be interpreted as mandatory synchronous runtime pipelines; an established governed runtime MAY reuse current lifecycle state until material change requires re-evaluation.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I46",
+      "canonicalName": "Realization mapping traceability",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I46",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "A concrete realization claiming HDIP alignment SHALL retain traceability from applicable canonical responsibilities, ABBs, Interaction Contracts, Boundary Families and Profile obligations to the Realization Units, human processes or adjacent systems that satisfy them.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I47",
+      "canonicalName": "Adjacent-conformance independence",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I47",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "HDIP conformance SHALL NOT by itself establish conformance to GEDRA, GEARA, GEAIRA, BPS/PIN, a Product-family specification, an external standard or provider certification, and conformance to an adjacent specification SHALL NOT by itself establish HDIP conformance.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "M16-I48",
+      "canonicalName": "Profile monotonicity",
+      "kind": "ARCHITECTURE_INVARIANT",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "M16-I48",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "An HDIP Profile MAY select, tighten, contextualize, specialize, narrow and extend the baseline for a bounded scope, but SHALL NOT weaken, waive or incompatibly redefine an applicable core invariant or transfer authority from an external semantic, Product, policy or Decision authority.",
+      "notes": "Assessment mode: HYBRID"
+    },
+    {
+      "id": "CS1",
+      "canonicalName": "Enterprise HDIP Architecture",
+      "kind": "CONFORMANCE_SUBJECT_CLASS",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "CS1",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "Enterprise-wide or multi-domain HDIP target/current architecture."
+    },
+    {
+      "id": "CS2",
+      "canonicalName": "Domain / Portfolio HDIP Architecture",
+      "kind": "CONFORMANCE_SUBJECT_CLASS",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "CS2",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "A Data, Information, Intelligence or cross-domain bounded architecture."
+    },
+    {
+      "id": "CS3",
+      "canonicalName": "Governed HDIP Profile",
+      "kind": "CONFORMANCE_SUBJECT_CLASS",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "CS3",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "A concrete enterprise/domain/Product-family/high-assurance/Data-Mesh specialization."
+    },
+    {
+      "id": "CS4",
+      "canonicalName": "Platform / Solution Architecture",
+      "kind": "CONFORMANCE_SUBJECT_CLASS",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "CS4",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "A bounded platform, solution or capability architecture claiming HDIP alignment."
+    },
+    {
+      "id": "CS5",
+      "canonicalName": "Product / Capability Realization Architecture",
+      "kind": "CONFORMANCE_SUBJECT_CLASS",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "CS5",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "A bounded Product or non-Product capability realization using applicable PDEP/SSCF/runtime responsibilities."
+    },
+    {
+      "id": "CS6",
+      "canonicalName": "Concrete Realization Mapping",
+      "kind": "CONFORMANCE_SUBJECT_CLASS",
+      "canonicality": "FROZEN_SOURCE_ID",
+      "status": "ACTIVE",
+      "sourceId": "CS6",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "definition": "The mapping from canonical/Profile architecture into actual deployed/human/provider Realization Units."
+    }
+  ]
+}

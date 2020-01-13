@@ -1,0 +1,16 @@
+{
+  "recordId": "EXAMPLE-001",
+  "version": "0.1",
+  "scope": "Illustrative bounded declaration (not certified)",
+  "sourceAuthority": "HDIP-CLA-0.1-M17",
+  "boundaryFamilyIds": [
+    "HDIP-BND-11"
+  ],
+  "boundaryInstanceRef": "EXAMPLE-DOWNSTREAM",
+  "interactionContractRef": "EXAMPLE-INT-CONTRACT",
+  "externalAuthorityRefs": [
+    "EXAMPLE-DECISION-AUTHORITY"
+  ],
+  "accessAuthorizationDistinctFromConsequenceAuthorization": false,
+  "notAnAPIOrLegalContractByDefinition": true
+}

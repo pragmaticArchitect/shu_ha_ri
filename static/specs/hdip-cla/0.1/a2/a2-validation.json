@@ -1,0 +1,195 @@
+{
+  "slice": "HDIP-CLA-A2",
+  "title": "Canonical Relationship & Traceability Registry",
+  "baseline": "shu_ha_ri-hdip-cla-a1-complete.zip",
+  "summary": {
+    "status": "PASS",
+    "checks_total": 35,
+    "checks_passed": 35,
+    "checks_failed": 0,
+    "a1_elements": 209,
+    "relationship_types": 32,
+    "relationships": 911,
+    "traceability_records": 332,
+    "external_references": 18,
+    "normative_rules": 56,
+    "anti_patterns": 20
+  },
+  "checks": [
+    {
+      "check": "a1_element_count_preserved",
+      "status": "PASS",
+      "detail": "209"
+    },
+    {
+      "check": "relationship_count_nonzero",
+      "status": "PASS",
+      "detail": "911"
+    },
+    {
+      "check": "relationship_ids_unique",
+      "status": "PASS",
+      "detail": "911"
+    },
+    {
+      "check": "relationship_ids_sequential",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "relationship_types_defined",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "a1_endpoints_resolve",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "external_endpoints_resolve",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "all_relationships_have_source_document",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "22_abb_hosts",
+      "status": "PASS",
+      "detail": "22"
+    },
+    {
+      "check": "pdep_stage_membership",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "sscf_stage_membership",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "interaction_family_membership",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "interaction_source_planes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "interaction_all_have_targets",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "int08_four_targets",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "int16_three_targets",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "boundary_classification_edges",
+      "status": "PASS",
+      "detail": "14"
+    },
+    {
+      "check": "all_boundary_families_classified",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "all_flows_have_interaction",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "flow_interaction_collective_coverage",
+      "status": "PASS",
+      "detail": "21"
+    },
+    {
+      "check": "views_registered_all_have_projection",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "m16_m04_ancestry_40",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "compatibility_mapping_sources_9",
+      "status": "PASS",
+      "detail": "9"
+    },
+    {
+      "check": "compatibility_edge_records_13",
+      "status": "PASS",
+      "detail": "13"
+    },
+    {
+      "check": "trace_ids_unique",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "trace_ids_sequential",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "external_refs_unique",
+      "status": "PASS",
+      "detail": "18"
+    },
+    {
+      "check": "56_rules",
+      "status": "PASS",
+      "detail": "56"
+    },
+    {
+      "check": "20_antipatterns",
+      "status": "PASS",
+      "detail": "20"
+    },
+    {
+      "check": "docusaurus_ids_unique",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "sidebar_refs_resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "a1_registry_byte_preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "relationship_csv_parity",
+      "status": "PASS",
+      "detail": "911"
+    },
+    {
+      "check": "traceability_csv_parity",
+      "status": "PASS",
+      "detail": "332"
+    },
+    {
+      "check": "relationship_type_count",
+      "status": "PASS",
+      "detail": "32"
+    }
+  ]
+}

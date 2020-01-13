@@ -1,0 +1,630 @@
+{
+  "stage": "A8",
+  "baseline": "A7 cumulative",
+  "authority": "M17 human-readable",
+  "schemaDraft": "2020-12",
+  "schemaCount": 6,
+  "positiveFixtures": 6,
+  "negativeFixtures": 6,
+  "predecessorFiles": 96,
+  "checksPassed": 123,
+  "checksTotal": 123,
+  "allPassed": true,
+  "checks": [
+    {
+      "name": "lifecycle-declaration:positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lifecycle-declaration:negative-rejected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "interaction-contract-declaration:positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "interaction-contract-declaration:negative-rejected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "external-boundary-contract-declaration:positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "external-boundary-contract-declaration:negative-rejected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "profile-declaration:positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "profile-declaration:negative-rejected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "consumer-experience-projection-declaration:positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "consumer-experience-projection-declaration:negative-rejected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "realization-profile-binding-declaration:positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "realization-profile-binding-declaration:negative-rejected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "family-specific PDEP is not forced into Data 0-10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "family-specific PDEP requires authority reference",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical dataPdepStages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical sscfStages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical m12Interactions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical m13BoundaryFamilies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical m14ProfilePatterns",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical m14RealizationPatterns",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical permittedProfileOperations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "profile dimensions 18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prohibited profile operation cannot validate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:.gitignore",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:INITIAL_BASELINE.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/cla/hdip-cla-0.1-m01-charter.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/cla/hdip-cla-0.1-m02-upstream-responsibility-intake.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/cla/hdip-cla-0.1-m03-existing-hdip-construct-inventory.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/cla/hdip-cla-0.1-m04-principles-design-invariants.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/cla/hdip-cla-0.1-m05-responsibility-convergence-separation.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/cla/hdip-cla-0.1-m06-canonical-logical-plane-derivation.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/cla/hdip-cla-0.1-m07-cross-cutting-overlay-derivation.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/cla/hdip-cla-0.1-m10-pdep-architecture.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/cla/hdip-cla-0.1-m11-sscf-cep-architecture.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/cla/hdip-cla-0.1-m17-cross-artifact-reconciliation-freeze.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/executable/hdip-cla-0.1-a1-canonical-architecture-element-registry.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/executable/hdip-cla-0.1-a2-canonical-relationship-traceability-registry.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/executable/hdip-cla-0.1-a3-invariant-conformance-catalogue.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/executable/hdip-cla-0.1-a4-rdf-owl-architecture-graph.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/executable/hdip-cla-0.1-a5-jsonld-canonical-iri.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/executable/hdip-cla-0.1-a6-shacl-constraint-layer.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/executable/hdip-cla-0.1-a7-structural-json-jsonld-schemas.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/architecture/hdip-cla-0.1-programme.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/data-management/hdip-enterprise-level1-data-architecture-requirements.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/foundations/hdip-brief.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/introduction.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/product-consumption/hdip-product-consumption-stages.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/product-development/hdip-data-product-development-stages.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/product-projections/hdip-product-descriptor.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/synthetic-context/hdip-synctx-ontology.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/synthetic-context/hdip-synctx-pdep-inference.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docs/synthetic-context/hdip-synthetic-context.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:docusaurus.config.ts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:package-lock.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:package.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:src/css/custom.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:src/pages/index.module.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:src/pages/index.tsx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/img/hdip/data-asset-to-data-product-guidance.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/img/hdip/dii-wormhole-concept.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/img/hdip/dpo.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/img/hdip/hdip-ap-dp-cep-specC.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/img/hdip/hdip-dp-pdep-specC.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/img/hdip/hdip_architecture-basic.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/img/hdip/ipo.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/img/hdip/legacy/HDIP-FOUNDATION.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/img/hdip/legacy/PDIMP.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/img/hdip/logo.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/img/hdip/lvl1edmr.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a1/a1-validation.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a1/architecture-element-registry.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a1/architecture-element-registry.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a2/a2-validation.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a2/relationship-registry.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a2/relationship-traceability-registry.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a2/traceability-registry.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a3/a3-validation.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a3/conformance-vocabulary.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a3/evidence-package.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a3/invariant-catalogue.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a3/invariant-conformance-catalogue.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a3/profile-operations.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a4/a4-validation.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a4/architecture-graph.nt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a4/architecture-graph.ttl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a4/provisional-resource-map.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a5/a5-validation.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a5/canonical-architecture-graph.jsonld",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a5/canonical-architecture-graph.nt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a5/canonical-architecture-graph.ttl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a5/canonical-iri-policy.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a5/hdip-cla-context.jsonld",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a5/iri-migration-map.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a6/a6-constraint-policy.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a6/a6-validation.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a6/architecture-structural-shapes.ttl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a6/fixture-negative-bad-target-nodekind.ttl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a6/fixture-negative-duplicate-id.ttl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a6/fixture-negative-missing-source.ttl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a6/fixture-positive.ttl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a7/a1-architecture-elements.schema.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a7/a2-relationship-traceability.schema.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a7/a3-invariant-conformance.schema.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a7/a5-canonical-iri-policy.schema.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a7/a5-expanded-graph.schema.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a7/a5-jsonld-context.schema.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a7/a7-schema-policy.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:static/specs/hdip-cla/0.1/a7/a7-validation.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predecessor-byte-preserved:tsconfig.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "A1 ID resolution m12Interactions",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "A1 ID resolution m13BoundaryFamilies",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "A1 ID resolution m14ProfilePatterns",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "A1 ID resolution m14RealizationPatterns",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "sidebar contains A8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "programme contains A8 complete",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

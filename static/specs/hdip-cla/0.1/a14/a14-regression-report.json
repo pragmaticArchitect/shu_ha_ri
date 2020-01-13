@@ -1,0 +1,219 @@
+{
+  "a13PredecessorLockedFiles": 243,
+  "architectureConformance": "NOT_ESTABLISHED",
+  "authority": "M17_FROZEN_HUMAN_READABLE",
+  "baselineLockDigest": "d8321c0c3b7d8598858954bd775c094e5a1e25a0e63f5d0db090b5c0dc1c3e2c",
+  "gates": [
+    {
+      "checked": 243,
+      "details": {
+        "baselineFileCount": 245,
+        "intentionalMutablePaths": [
+          "docs/architecture/executable/hdip-cla-0.1-executable-programme.md",
+          "sidebars.ts"
+        ],
+        "lockedFileCount": 243,
+        "sourceZipSha256": "7096039ee8231c87444b1a8aa1f5b867705272f9ba49b10bc3178b93d38bbc92"
+      },
+      "findings": [],
+      "id": "A13_PREDECESSOR_SHA256_LOCK",
+      "status": "PASS"
+    },
+    {
+      "checked": 16,
+      "details": {
+        "cases": 16,
+        "machineResult": "PASS_STRUCTURAL_ONLY"
+      },
+      "findings": [],
+      "id": "A10_POSITIVE_SUITE",
+      "status": "PASS"
+    },
+    {
+      "checked": 54,
+      "details": {
+        "dispositions": {
+          "FLAGGED_DECLARED_CONTRADICTION": 11,
+          "INDETERMINATE_REVIEW_REQUIRED": 10,
+          "MACHINE_REJECTED": 33
+        }
+      },
+      "findings": [],
+      "id": "A11_NEGATIVE_BOUNDARY_SUITE",
+      "status": "PASS"
+    },
+    {
+      "checked": 5,
+      "details": {
+        "snapshotSha256": "1412669d2f4d65df97ac30c9ef4fd11682ef8e7028d8d2c0e75b761c93eea93e",
+        "sourceHashCount": 132
+      },
+      "findings": [],
+      "id": "A12_INTEGRATED_MACHINE_EVIDENCE",
+      "status": "PASS"
+    },
+    {
+      "checked": 1715,
+      "details": {
+        "assertions": 1715,
+        "gates": 7,
+        "sourceHashCount": 48
+      },
+      "findings": [],
+      "id": "A13_FROZEN_SOURCE_RECONCILIATION",
+      "status": "PASS"
+    },
+    {
+      "checked": 12,
+      "details": {
+        "caseResults": [
+          {
+            "expected": "ACCEPT",
+            "fixture": "positive",
+            "matched": true,
+            "schema": "consumer-experience-projection-declaration"
+          },
+          {
+            "expected": "REJECT",
+            "fixture": "negative",
+            "matched": true,
+            "schema": "consumer-experience-projection-declaration"
+          },
+          {
+            "expected": "ACCEPT",
+            "fixture": "positive",
+            "matched": true,
+            "schema": "external-boundary-contract-declaration"
+          },
+          {
+            "expected": "REJECT",
+            "fixture": "negative",
+            "matched": true,
+            "schema": "external-boundary-contract-declaration"
+          },
+          {
+            "expected": "ACCEPT",
+            "fixture": "positive",
+            "matched": true,
+            "schema": "interaction-contract-declaration"
+          },
+          {
+            "expected": "REJECT",
+            "fixture": "negative",
+            "matched": true,
+            "schema": "interaction-contract-declaration"
+          },
+          {
+            "expected": "ACCEPT",
+            "fixture": "positive",
+            "matched": true,
+            "schema": "lifecycle-declaration"
+          },
+          {
+            "expected": "REJECT",
+            "fixture": "negative",
+            "matched": true,
+            "schema": "lifecycle-declaration"
+          },
+          {
+            "expected": "ACCEPT",
+            "fixture": "positive",
+            "matched": true,
+            "schema": "profile-declaration"
+          },
+          {
+            "expected": "REJECT",
+            "fixture": "negative",
+            "matched": true,
+            "schema": "profile-declaration"
+          },
+          {
+            "expected": "ACCEPT",
+            "fixture": "positive",
+            "matched": true,
+            "schema": "realization-profile-binding-declaration"
+          },
+          {
+            "expected": "REJECT",
+            "fixture": "negative",
+            "matched": true,
+            "schema": "realization-profile-binding-declaration"
+          }
+        ]
+      },
+      "findings": [],
+      "id": "A8_POSITIVE_NEGATIVE_SCHEMA_FIXTURES",
+      "status": "PASS"
+    },
+    {
+      "checked": 12,
+      "details": {
+        "expectedCount": 12
+      },
+      "findings": [],
+      "id": "A12_MUTATION_GUARDS",
+      "status": "PASS"
+    },
+    {
+      "checked": 10,
+      "details": {
+        "expectedCount": 10
+      },
+      "findings": [],
+      "id": "A13_MUTATION_GUARDS",
+      "status": "PASS"
+    },
+    {
+      "checked": 16,
+      "details": {
+        "expectedCount": 16
+      },
+      "findings": [],
+      "id": "A14_MUTATION_GUARDS",
+      "status": "PASS"
+    },
+    {
+      "checked": 9,
+      "details": {
+        "assignedInvariantResults": 0,
+        "implementationConformance": "NOT_ESTABLISHED",
+        "machineOutcomeOnly": "PASS_BOUNDED_REGRESSION"
+      },
+      "findings": [],
+      "id": "M16_NO_AUTOMATED_CONFORMANCE_PROMOTION",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    {
+      "id": "LIM-SHACL",
+      "status": "NOT_INDEPENDENTLY_VERIFIED"
+    },
+    {
+      "id": "LIM-OWL",
+      "status": "NOT_INDEPENDENTLY_VERIFIED"
+    },
+    {
+      "id": "LIM-BUILD",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "LIM-M16-ASSESSMENT",
+      "status": "OUTSIDE_MACHINE_BOUNDARY"
+    },
+    {
+      "id": "LIM-EXTERNAL",
+      "status": "OUTSIDE_MACHINE_BOUNDARY"
+    }
+  ],
+  "machineAssignedM16Results": 0,
+  "machineScope": "BOUNDED_REGRESSION_ONLY",
+  "noAutomaticRebaseline": true,
+  "noSourceMutation": true,
+  "note": "PASS indicates tested structural/regression conditions only; no M16 CONFORMANT result.",
+  "passedGates": 10,
+  "reportId": "HDIP-CLA-0.1-A14-REGRESSION-REPORT",
+  "stage": "A14",
+  "status": "PASS_BOUNDED_REGRESSION",
+  "totalGates": 10
+}

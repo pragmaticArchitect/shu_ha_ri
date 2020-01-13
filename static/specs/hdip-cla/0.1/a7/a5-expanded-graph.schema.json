@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kivanura.org/specs/hdip-cla/0.1/a7/a5-expanded-graph.schema.json",
+  "title": "HDIP-CLA 0.1 A7 — a5-expanded-graph document structure",
+  "description": "Validates serialization structure. Does not establish architectural conformance or replace M17.",
+  "x-hdip-source": "static/specs/hdip-cla/0.1/a5/canonical-architecture-graph.jsonld",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "@id"
+    ],
+    "properties": {
+      "@id": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https://kivanura\\.org/specs/hdip-cla/0\\.1/id/"
+      },
+      "@type": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "format": "uri"
+        },
+        "minItems": 1
+      }
+    },
+    "patternProperties": {
+      "^https?://": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "oneOf": [
+            {
+              "required": [
+                "@id"
+              ],
+              "properties": {
+                "@id": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            },
+            {
+              "required": [
+                "@value"
+              ],
+              "properties": {
+                "@value": {}
+              },
+              "additionalProperties": true
+            }
+          ]
+        }
+      }
+    },
+    "additionalProperties": false
+  }
+}

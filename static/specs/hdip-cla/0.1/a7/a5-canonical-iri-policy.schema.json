@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kivanura.org/specs/hdip-cla/0.1/a7/a5-canonical-iri-policy.schema.json",
+  "title": "HDIP-CLA 0.1 A7 — a5-canonical-iri-policy document structure",
+  "description": "Validates serialization structure. Does not establish architectural conformance or replace M17.",
+  "x-hdip-source": "static/specs/hdip-cla/0.1/a5/canonical-iri-policy.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "humanReadableAuthority": {
+      "type": "string"
+    },
+    "canonicalBase": {
+      "const": "https://kivanura.org/specs/hdip-cla/0.1/id/"
+    },
+    "publisherDomain": {
+      "type": "string"
+    },
+    "dereferenceability": {
+      "type": "string"
+    },
+    "uriChange": {
+      "type": "string"
+    },
+    "identityScopes": {
+      "type": "object",
+      "properties": {
+        "element": {
+          "type": "string"
+        },
+        "external": {
+          "type": "string"
+        },
+        "derivation": {
+          "type": "string"
+        },
+        "historical": {
+          "type": "string"
+        },
+        "relationRecord": {
+          "type": "string"
+        },
+        "traceRecord": {
+          "type": "string"
+        },
+        "relationshipPredicate": {
+          "type": "string"
+        },
+        "vocabulary": {
+          "type": "string"
+        },
+        "ontology": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "encoding": {
+      "type": "object",
+      "properties": {
+        "method": {
+          "type": "string"
+        },
+        "safe": {
+          "type": "string"
+        },
+        "decode": {
+          "type": "string"
+        },
+        "reserved": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "versioning": {
+      "type": "object",
+      "properties": {
+        "specification": {
+          "type": "string"
+        },
+        "semanticChange": {
+          "type": "string"
+        },
+        "serializations": {
+          "type": "string"
+        },
+        "historical": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "externalAuthorities": {
+      "type": "string"
+    },
+    "iriGovernance": {
+      "type": "object",
+      "properties": {
+        "authorityBoundary": {
+          "type": "string"
+        },
+        "domainPublication": {
+          "type": "string"
+        },
+        "iriRedirectPolicy": {
+          "type": "string"
+        },
+        "noInference": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "a4GraphMetadata": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "canonicalBase",
+    "identityScopes",
+    "versioning"
+  ],
+  "additionalProperties": true
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kivanura.org/specs/hdip-cla/0.1/a7/a5-jsonld-context.schema.json",
+  "title": "HDIP-CLA 0.1 A7 — a5-jsonld-context document structure",
+  "description": "Validates serialization structure. Does not establish architectural conformance or replace M17.",
+  "x-hdip-source": "static/specs/hdip-cla/0.1/a5/hdip-cla-context.jsonld",
+  "type": "object",
+  "required": [
+    "@context"
+  ],
+  "properties": {
+    "@context": {
+      "type": "object",
+      "required": [
+        "@version",
+        "@protected"
+      ],
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

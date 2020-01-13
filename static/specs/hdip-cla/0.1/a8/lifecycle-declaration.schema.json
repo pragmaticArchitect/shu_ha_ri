@@ -1,0 +1,234 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kivanura.org/specs/hdip-cla/0.1/a8/lifecycle-declaration.schema.json",
+  "title": "lifecycle-declaration",
+  "type": "object",
+  "required": [
+    "recordId",
+    "version",
+    "scope",
+    "sourceAuthority",
+    "lifecycleKind",
+    "productFamily",
+    "stageSet",
+    "logicalNotRuntimePipeline"
+  ],
+  "properties": {
+    "recordId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceAuthority": {
+      "enum": [
+        "HDIP-CLA-0.1-M17"
+      ]
+    },
+    "lifecycleKind": {
+      "enum": [
+        "PDEP",
+        "SSCF"
+      ]
+    },
+    "productFamily": {
+      "enum": [
+        "DATA",
+        "INFORMATION",
+        "INTELLIGENCE",
+        "COMPOUND",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "stageSet": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "number",
+          "name"
+        ],
+        "properties": {
+          "number": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "logicalNotRuntimePipeline": {
+      "const": true
+    },
+    "familySpecializationAuthorityRef": {
+      "type": "string",
+      "minLength": 1
+    },
+    "specializationNotes": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "lifecycleKind": {
+            "const": "SSCF"
+          }
+        },
+        "required": [
+          "lifecycleKind"
+        ]
+      },
+      "then": {
+        "properties": {
+          "stageSet": {
+            "const": [
+              {
+                "number": 1,
+                "name": "Declare Consumption Intent"
+              },
+              {
+                "number": 2,
+                "name": "Resolve Product Set"
+              },
+              {
+                "number": 3,
+                "name": "Evaluate Product Fit and Request Access"
+              },
+              {
+                "number": 4,
+                "name": "Provision Purpose-Bound Access"
+              },
+              {
+                "number": 5,
+                "name": "Consume Through CEP"
+              },
+              {
+                "number": 6,
+                "name": "Capture Usage Signals"
+              },
+              {
+                "number": 7,
+                "name": "Compute and Observe Product Signals"
+              },
+              {
+                "number": 8,
+                "name": "Decision, Feedback & Creation Loop"
+              }
+            ]
+          },
+          "productFamily": {
+            "const": "NOT_APPLICABLE"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lifecycleKind": {
+            "const": "PDEP"
+          },
+          "productFamily": {
+            "const": "DATA"
+          }
+        },
+        "required": [
+          "lifecycleKind",
+          "productFamily"
+        ]
+      },
+      "then": {
+        "properties": {
+          "stageSet": {
+            "const": [
+              {
+                "number": 0,
+                "name": "Preconditions"
+              },
+              {
+                "number": 1,
+                "name": "Intent Record"
+              },
+              {
+                "number": 2,
+                "name": "Authority Confirmation"
+              },
+              {
+                "number": 3,
+                "name": "Policy Intent"
+              },
+              {
+                "number": 4,
+                "name": "Semantic Descriptor (DPROD Draft)"
+              },
+              {
+                "number": 5,
+                "name": "Business Assertions / Evidence Rules"
+              },
+              {
+                "number": 6,
+                "name": "Usage Contract"
+              },
+              {
+                "number": 7,
+                "name": "Product Preview (Abstract)"
+              },
+              {
+                "number": 8,
+                "name": "Compilation"
+              },
+              {
+                "number": 9,
+                "name": "Deployment"
+              },
+              {
+                "number": 10,
+                "name": "DPROD Finalization & Registration"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lifecycleKind": {
+            "const": "PDEP"
+          },
+          "productFamily": {
+            "enum": [
+              "INFORMATION",
+              "INTELLIGENCE",
+              "COMPOUND"
+            ]
+          }
+        },
+        "required": [
+          "lifecycleKind",
+          "productFamily"
+        ]
+      },
+      "then": {
+        "required": [
+          "familySpecializationAuthorityRef"
+        ]
+      }
+    }
+  ]
+}

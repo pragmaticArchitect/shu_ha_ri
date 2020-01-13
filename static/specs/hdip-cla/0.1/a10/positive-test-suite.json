@@ -1,0 +1,450 @@
+{
+  "suiteId": "HDIP-CLA-0.1-A10-POSITIVE-CONFORMANCE-TESTS",
+  "version": "0.1-A10",
+  "sourceAuthority": "HDIP-CLA-0.1-M17",
+  "dependsOn": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8",
+    "A9"
+  ],
+  "scope": "Positive machine-testable formalization evidence; no architectural certification",
+  "resultsVocabulary": {
+    "machine": "PASS_STRUCTURAL_ONLY / FAIL / ERROR",
+    "architecture": [
+      "NOT_ESTABLISHED"
+    ],
+    "note": "M16 invariant results and overall conformance states cannot be derived from success of these tests"
+  },
+  "caseCount": 16,
+  "cases": [
+    {
+      "testId": "HDIP-CLA-A10-POS-001",
+      "type": "SCENARIO_DECLARATION_SET",
+      "scenarioId": "HDIP-CLA-A9-01",
+      "description": "Schema-valid illustrative A9 scenario declarations; retain unresolved architectural conformance",
+      "manifestPath": "static/specs/hdip-cla/0.1/a9/examples/a9-01-data_pdep/manifest.json",
+      "declarations": [
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-01-data_pdep/lifecycle-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/lifecycle-declaration.schema.json",
+          "kind": "lifecycle-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-01-data_pdep/profile-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/profile-declaration.schema.json",
+          "kind": "profile-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-01-data_pdep/realization-profile-binding-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/realization-profile-binding-declaration.schema.json",
+          "kind": "realization-profile-binding-declaration"
+        }
+      ],
+      "expected": {
+        "manifestAssessmentStatus": "NOT_ASSESSED",
+        "manifestClaimOutcome": "INDETERMINATE",
+        "schemaDocumentsValid": true,
+        "allReferencesResolveToA1": true,
+        "machineResult": "PASS_STRUCTURAL_ONLY",
+        "architectureConformance": "NOT_ESTABLISHED"
+      },
+      "evidenceBoundary": "Schema validation and referential integrity only; no HYBRID/ASSESSMENT satisfaction, certification or runtime behavior inferred"
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-002",
+      "type": "SCENARIO_DECLARATION_SET",
+      "scenarioId": "HDIP-CLA-A9-02",
+      "description": "Schema-valid illustrative A9 scenario declarations; retain unresolved architectural conformance",
+      "manifestPath": "static/specs/hdip-cla/0.1/a9/examples/a9-02-information_formation/manifest.json",
+      "declarations": [
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-02-information_formation/lifecycle-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/lifecycle-declaration.schema.json",
+          "kind": "lifecycle-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-02-information_formation/profile-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/profile-declaration.schema.json",
+          "kind": "profile-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-02-information_formation/realization-profile-binding-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/realization-profile-binding-declaration.schema.json",
+          "kind": "realization-profile-binding-declaration"
+        }
+      ],
+      "expected": {
+        "manifestAssessmentStatus": "NOT_ASSESSED",
+        "manifestClaimOutcome": "INDETERMINATE",
+        "schemaDocumentsValid": true,
+        "allReferencesResolveToA1": true,
+        "machineResult": "PASS_STRUCTURAL_ONLY",
+        "architectureConformance": "NOT_ESTABLISHED"
+      },
+      "evidenceBoundary": "Schema validation and referential integrity only; no HYBRID/ASSESSMENT satisfaction, certification or runtime behavior inferred"
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-003",
+      "type": "SCENARIO_DECLARATION_SET",
+      "scenarioId": "HDIP-CLA-A9-03",
+      "description": "Schema-valid illustrative A9 scenario declarations; retain unresolved architectural conformance",
+      "manifestPath": "static/specs/hdip-cla/0.1/a9/examples/a9-03-ai_external_provider/manifest.json",
+      "declarations": [
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-03-ai_external_provider/lifecycle-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/lifecycle-declaration.schema.json",
+          "kind": "lifecycle-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-03-ai_external_provider/external-boundary-contract-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/external-boundary-contract-declaration.schema.json",
+          "kind": "external-boundary-contract-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-03-ai_external_provider/profile-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/profile-declaration.schema.json",
+          "kind": "profile-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-03-ai_external_provider/realization-profile-binding-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/realization-profile-binding-declaration.schema.json",
+          "kind": "realization-profile-binding-declaration"
+        }
+      ],
+      "expected": {
+        "manifestAssessmentStatus": "NOT_ASSESSED",
+        "manifestClaimOutcome": "INDETERMINATE",
+        "schemaDocumentsValid": true,
+        "allReferencesResolveToA1": true,
+        "machineResult": "PASS_STRUCTURAL_ONLY",
+        "architectureConformance": "NOT_ESTABLISHED"
+      },
+      "evidenceBoundary": "Schema validation and referential integrity only; no HYBRID/ASSESSMENT satisfaction, certification or runtime behavior inferred"
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-004",
+      "type": "SCENARIO_DECLARATION_SET",
+      "scenarioId": "HDIP-CLA-A9-04",
+      "description": "Schema-valid illustrative A9 scenario declarations; retain unresolved architectural conformance",
+      "manifestPath": "static/specs/hdip-cla/0.1/a9/examples/a9-04-intent_consumption/manifest.json",
+      "declarations": [
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-04-intent_consumption/lifecycle-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/lifecycle-declaration.schema.json",
+          "kind": "lifecycle-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-04-intent_consumption/interaction-contract-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/interaction-contract-declaration.schema.json",
+          "kind": "interaction-contract-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-04-intent_consumption/consumer-experience-projection-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/consumer-experience-projection-declaration.schema.json",
+          "kind": "consumer-experience-projection-declaration"
+        }
+      ],
+      "expected": {
+        "manifestAssessmentStatus": "NOT_ASSESSED",
+        "manifestClaimOutcome": "INDETERMINATE",
+        "schemaDocumentsValid": true,
+        "allReferencesResolveToA1": true,
+        "machineResult": "PASS_STRUCTURAL_ONLY",
+        "architectureConformance": "NOT_ESTABLISHED"
+      },
+      "evidenceBoundary": "Schema validation and referential integrity only; no HYBRID/ASSESSMENT satisfaction, certification or runtime behavior inferred"
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-005",
+      "type": "SCENARIO_DECLARATION_SET",
+      "scenarioId": "HDIP-CLA-A9-05",
+      "description": "Schema-valid illustrative A9 scenario declarations; retain unresolved architectural conformance",
+      "manifestPath": "static/specs/hdip-cla/0.1/a9/examples/a9-05-repeated_runtime/manifest.json",
+      "declarations": [
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-05-repeated_runtime/lifecycle-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/lifecycle-declaration.schema.json",
+          "kind": "lifecycle-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-05-repeated_runtime/interaction-contract-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/interaction-contract-declaration.schema.json",
+          "kind": "interaction-contract-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-05-repeated_runtime/consumer-experience-projection-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/consumer-experience-projection-declaration.schema.json",
+          "kind": "consumer-experience-projection-declaration"
+        }
+      ],
+      "expected": {
+        "manifestAssessmentStatus": "NOT_ASSESSED",
+        "manifestClaimOutcome": "INDETERMINATE",
+        "schemaDocumentsValid": true,
+        "allReferencesResolveToA1": true,
+        "machineResult": "PASS_STRUCTURAL_ONLY",
+        "architectureConformance": "NOT_ESTABLISHED"
+      },
+      "evidenceBoundary": "Schema validation and referential integrity only; no HYBRID/ASSESSMENT satisfaction, certification or runtime behavior inferred"
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-006",
+      "type": "SCENARIO_DECLARATION_SET",
+      "scenarioId": "HDIP-CLA-A9-06",
+      "description": "Schema-valid illustrative A9 scenario declarations; retain unresolved architectural conformance",
+      "manifestPath": "static/specs/hdip-cla/0.1/a9/examples/a9-06-access_denial/manifest.json",
+      "declarations": [
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-06-access_denial/lifecycle-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/lifecycle-declaration.schema.json",
+          "kind": "lifecycle-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-06-access_denial/interaction-contract-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/interaction-contract-declaration.schema.json",
+          "kind": "interaction-contract-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-06-access_denial/external-boundary-contract-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/external-boundary-contract-declaration.schema.json",
+          "kind": "external-boundary-contract-declaration"
+        }
+      ],
+      "expected": {
+        "manifestAssessmentStatus": "NOT_ASSESSED",
+        "manifestClaimOutcome": "INDETERMINATE",
+        "schemaDocumentsValid": true,
+        "allReferencesResolveToA1": true,
+        "machineResult": "PASS_STRUCTURAL_ONLY",
+        "architectureConformance": "NOT_ESTABLISHED"
+      },
+      "evidenceBoundary": "Schema validation and referential integrity only; no HYBRID/ASSESSMENT satisfaction, certification or runtime behavior inferred"
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-007",
+      "type": "SCENARIO_DECLARATION_SET",
+      "scenarioId": "HDIP-CLA-A9-07",
+      "description": "Schema-valid illustrative A9 scenario declarations; retain unresolved architectural conformance",
+      "manifestPath": "static/specs/hdip-cla/0.1/a9/examples/a9-07-governing_revocation/manifest.json",
+      "declarations": [
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-07-governing_revocation/interaction-contract-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/interaction-contract-declaration.schema.json",
+          "kind": "interaction-contract-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-07-governing_revocation/external-boundary-contract-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/external-boundary-contract-declaration.schema.json",
+          "kind": "external-boundary-contract-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-07-governing_revocation/profile-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/profile-declaration.schema.json",
+          "kind": "profile-declaration"
+        }
+      ],
+      "expected": {
+        "manifestAssessmentStatus": "NOT_ASSESSED",
+        "manifestClaimOutcome": "INDETERMINATE",
+        "schemaDocumentsValid": true,
+        "allReferencesResolveToA1": true,
+        "machineResult": "PASS_STRUCTURAL_ONLY",
+        "architectureConformance": "NOT_ESTABLISHED"
+      },
+      "evidenceBoundary": "Schema validation and referential integrity only; no HYBRID/ASSESSMENT satisfaction, certification or runtime behavior inferred"
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-008",
+      "type": "SCENARIO_DECLARATION_SET",
+      "scenarioId": "HDIP-CLA-A9-08",
+      "description": "Schema-valid illustrative A9 scenario declarations; retain unresolved architectural conformance",
+      "manifestPath": "static/specs/hdip-cla/0.1/a9/examples/a9-08-outcome_evolution/manifest.json",
+      "declarations": [
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-08-outcome_evolution/lifecycle-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/lifecycle-declaration.schema.json",
+          "kind": "lifecycle-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-08-outcome_evolution/interaction-contract-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/interaction-contract-declaration.schema.json",
+          "kind": "interaction-contract-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-08-outcome_evolution/profile-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/profile-declaration.schema.json",
+          "kind": "profile-declaration"
+        }
+      ],
+      "expected": {
+        "manifestAssessmentStatus": "NOT_ASSESSED",
+        "manifestClaimOutcome": "INDETERMINATE",
+        "schemaDocumentsValid": true,
+        "allReferencesResolveToA1": true,
+        "machineResult": "PASS_STRUCTURAL_ONLY",
+        "architectureConformance": "NOT_ESTABLISHED"
+      },
+      "evidenceBoundary": "Schema validation and referential integrity only; no HYBRID/ASSESSMENT satisfaction, certification or runtime behavior inferred"
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-009",
+      "type": "SCENARIO_DECLARATION_SET",
+      "scenarioId": "HDIP-CLA-A9-09",
+      "description": "Schema-valid illustrative A9 scenario declarations; retain unresolved architectural conformance",
+      "manifestPath": "static/specs/hdip-cla/0.1/a9/examples/a9-09-federated_consumption/manifest.json",
+      "declarations": [
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-09-federated_consumption/lifecycle-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/lifecycle-declaration.schema.json",
+          "kind": "lifecycle-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-09-federated_consumption/external-boundary-contract-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/external-boundary-contract-declaration.schema.json",
+          "kind": "external-boundary-contract-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-09-federated_consumption/profile-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/profile-declaration.schema.json",
+          "kind": "profile-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-09-federated_consumption/realization-profile-binding-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/realization-profile-binding-declaration.schema.json",
+          "kind": "realization-profile-binding-declaration"
+        }
+      ],
+      "expected": {
+        "manifestAssessmentStatus": "NOT_ASSESSED",
+        "manifestClaimOutcome": "INDETERMINATE",
+        "schemaDocumentsValid": true,
+        "allReferencesResolveToA1": true,
+        "machineResult": "PASS_STRUCTURAL_ONLY",
+        "architectureConformance": "NOT_ESTABLISHED"
+      },
+      "evidenceBoundary": "Schema validation and referential integrity only; no HYBRID/ASSESSMENT satisfaction, certification or runtime behavior inferred"
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-010",
+      "type": "SCENARIO_DECLARATION_SET",
+      "scenarioId": "HDIP-CLA-A9-10",
+      "description": "Schema-valid illustrative A9 scenario declarations; retain unresolved architectural conformance",
+      "manifestPath": "static/specs/hdip-cla/0.1/a9/examples/a9-10-provider_recovery/manifest.json",
+      "declarations": [
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-10-provider_recovery/lifecycle-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/lifecycle-declaration.schema.json",
+          "kind": "lifecycle-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-10-provider_recovery/external-boundary-contract-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/external-boundary-contract-declaration.schema.json",
+          "kind": "external-boundary-contract-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-10-provider_recovery/realization-profile-binding-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/realization-profile-binding-declaration.schema.json",
+          "kind": "realization-profile-binding-declaration"
+        }
+      ],
+      "expected": {
+        "manifestAssessmentStatus": "NOT_ASSESSED",
+        "manifestClaimOutcome": "INDETERMINATE",
+        "schemaDocumentsValid": true,
+        "allReferencesResolveToA1": true,
+        "machineResult": "PASS_STRUCTURAL_ONLY",
+        "architectureConformance": "NOT_ESTABLISHED"
+      },
+      "evidenceBoundary": "Schema validation and referential integrity only; no HYBRID/ASSESSMENT satisfaction, certification or runtime behavior inferred"
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-011",
+      "type": "SCENARIO_DECLARATION_SET",
+      "scenarioId": "HDIP-CLA-A9-11",
+      "description": "Schema-valid illustrative A9 scenario declarations; retain unresolved architectural conformance",
+      "manifestPath": "static/specs/hdip-cla/0.1/a9/examples/a9-11-compound_cross_family/manifest.json",
+      "declarations": [
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-11-compound_cross_family/lifecycle-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/lifecycle-declaration.schema.json",
+          "kind": "lifecycle-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-11-compound_cross_family/profile-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/profile-declaration.schema.json",
+          "kind": "profile-declaration"
+        },
+        {
+          "path": "static/specs/hdip-cla/0.1/a9/examples/a9-11-compound_cross_family/realization-profile-binding-declaration.json",
+          "schemaPath": "static/specs/hdip-cla/0.1/a8/realization-profile-binding-declaration.schema.json",
+          "kind": "realization-profile-binding-declaration"
+        }
+      ],
+      "expected": {
+        "manifestAssessmentStatus": "NOT_ASSESSED",
+        "manifestClaimOutcome": "INDETERMINATE",
+        "schemaDocumentsValid": true,
+        "allReferencesResolveToA1": true,
+        "machineResult": "PASS_STRUCTURAL_ONLY",
+        "architectureConformance": "NOT_ESTABLISHED"
+      },
+      "evidenceBoundary": "Schema validation and referential integrity only; no HYBRID/ASSESSMENT satisfaction, certification or runtime behavior inferred"
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-012",
+      "type": "CROSS_CORPUS_STRUCTURAL",
+      "check": "M15_FLOW_COVERAGE",
+      "description": "All ten frozen M15 representative flows have illustrative corpus coverage",
+      "expected": {
+        "machineResult": "PASS_STRUCTURAL_ONLY",
+        "architectureConformance": "NOT_ESTABLISHED"
+      }
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-013",
+      "type": "CROSS_CORPUS_STRUCTURAL",
+      "check": "A8_SCHEMA_REGISTRY",
+      "description": "All six A8 declaration types have valid positive examples in the corpus",
+      "expected": {
+        "machineResult": "PASS_STRUCTURAL_ONLY",
+        "architectureConformance": "NOT_ESTABLISHED"
+      }
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-014",
+      "type": "CROSS_CORPUS_STRUCTURAL",
+      "check": "A1_REFERENCE_RESOLUTION",
+      "description": "Scenario M12/M13/M14/M15 references resolve to A1 identifiers",
+      "expected": {
+        "machineResult": "PASS_STRUCTURAL_ONLY",
+        "architectureConformance": "NOT_ESTABLISHED"
+      }
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-015",
+      "type": "CROSS_CORPUS_STRUCTURAL",
+      "check": "M16_ASSESSMENT_BOUNDARY",
+      "description": "Positive fixtures do not assert automatic M16 SATISFIED or CONFORMANT",
+      "expected": {
+        "machineResult": "PASS_STRUCTURAL_ONLY",
+        "architectureConformance": "NOT_ESTABLISHED"
+      }
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-016",
+      "type": "CROSS_CORPUS_STRUCTURAL",
+      "check": "M17_AUTHORITY_PRESERVATION",
+      "description": "Corpus manifests explicitly remain illustrative and in scope of frozen M17 authority",
+      "expected": {
+        "machineResult": "PASS_STRUCTURAL_ONLY",
+        "architectureConformance": "NOT_ESTABLISHED"
+      }
+    }
+  ]
+}

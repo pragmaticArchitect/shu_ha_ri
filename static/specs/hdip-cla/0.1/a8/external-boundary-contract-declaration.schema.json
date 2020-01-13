@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kivanura.org/specs/hdip-cla/0.1/a8/external-boundary-contract-declaration.schema.json",
+  "title": "external-boundary-contract-declaration",
+  "type": "object",
+  "required": [
+    "recordId",
+    "version",
+    "scope",
+    "sourceAuthority",
+    "boundaryFamilyIds",
+    "boundaryInstanceRef",
+    "interactionContractRef",
+    "externalAuthorityRefs",
+    "accessAuthorizationDistinctFromConsequenceAuthorization",
+    "notAnAPIOrLegalContractByDefinition"
+  ],
+  "properties": {
+    "recordId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceAuthority": {
+      "enum": [
+        "HDIP-CLA-0.1-M17"
+      ]
+    },
+    "boundaryFamilyIds": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "HDIP-BND-01",
+          "HDIP-BND-02",
+          "HDIP-BND-03",
+          "HDIP-BND-04",
+          "HDIP-BND-05",
+          "HDIP-BND-06",
+          "HDIP-BND-07",
+          "HDIP-BND-08",
+          "HDIP-BND-09",
+          "HDIP-BND-10",
+          "HDIP-BND-11",
+          "HDIP-BND-12"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "boundaryInstanceRef": {
+      "type": "string",
+      "minLength": 1
+    },
+    "interactionContractRef": {
+      "type": "string",
+      "minLength": 1
+    },
+    "externalAuthorityRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "boundaryObligations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "evidenceObligations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "accessAuthorizationDistinctFromConsequenceAuthorization": {
+      "const": true
+    },
+    "notAnAPIOrLegalContractByDefinition": {
+      "const": true
+    }
+  },
+  "additionalProperties": false
+}

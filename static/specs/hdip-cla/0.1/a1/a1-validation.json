@@ -1,0 +1,292 @@
+{
+  "stage": "HDIP-CLA-A1",
+  "title": "Canonical Architecture Element Registry",
+  "baseline": "shu_ha_ri-hdip-cla-m17-complete.zip",
+  "summary": {
+    "status": "PASS",
+    "checksTotal": 53,
+    "checksPassed": 53,
+    "checksFailed": 0,
+    "registrySha256": "96c12b18bfcc114210acf24a1275add66a6d4aab9eae1e757863dad4da1432e4",
+    "elements": 209,
+    "sourceIds": 170,
+    "machineAssignedIds": 39,
+    "addedFiles": [
+      "docs/architecture/executable/hdip-cla-0.1-a1-canonical-architecture-element-registry.md",
+      "docs/architecture/executable/hdip-cla-0.1-executable-programme.md",
+      "static/specs/hdip-cla/0.1/a1/a1-validation.json",
+      "static/specs/hdip-cla/0.1/a1/architecture-element-registry.csv",
+      "static/specs/hdip-cla/0.1/a1/architecture-element-registry.json"
+    ],
+    "modifiedFiles": [
+      "sidebars.ts"
+    ]
+  },
+  "checks": [
+    {
+      "check": "json_parse",
+      "status": "PASS",
+      "detail": "parsed"
+    },
+    {
+      "check": "registry_id",
+      "status": "PASS",
+      "detail": "HDIP-CLA-0.1-A1-ARCHITECTURE-ELEMENT-REGISTRY"
+    },
+    {
+      "check": "element_count_209",
+      "status": "PASS",
+      "detail": "209"
+    },
+    {
+      "check": "unique_ids",
+      "status": "PASS",
+      "detail": "209"
+    },
+    {
+      "check": "count_plane",
+      "status": "PASS",
+      "detail": "5"
+    },
+    {
+      "check": "count_foundation",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "check": "count_overlay",
+      "status": "PASS",
+      "detail": "9"
+    },
+    {
+      "check": "count_architecture_building_block",
+      "status": "PASS",
+      "detail": "22"
+    },
+    {
+      "check": "count_logical_registry",
+      "status": "PASS",
+      "detail": "5"
+    },
+    {
+      "check": "count_registry_specialization",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "check": "count_architecture_construct",
+      "status": "PASS",
+      "detail": "3"
+    },
+    {
+      "check": "count_projection_compilation_artifact",
+      "status": "PASS",
+      "detail": "7"
+    },
+    {
+      "check": "count_lifecycle",
+      "status": "PASS",
+      "detail": "2"
+    },
+    {
+      "check": "count_experience_projection",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "check": "count_lifecycle_projection",
+      "status": "PASS",
+      "detail": "3"
+    },
+    {
+      "check": "count_lifecycle_stage",
+      "status": "PASS",
+      "detail": "19"
+    },
+    {
+      "check": "count_interaction_family",
+      "status": "PASS",
+      "detail": "4"
+    },
+    {
+      "check": "count_interaction",
+      "status": "PASS",
+      "detail": "21"
+    },
+    {
+      "check": "count_boundary_class",
+      "status": "PASS",
+      "detail": "6"
+    },
+    {
+      "check": "count_boundary_family",
+      "status": "PASS",
+      "detail": "12"
+    },
+    {
+      "check": "count_realization_pattern",
+      "status": "PASS",
+      "detail": "8"
+    },
+    {
+      "check": "count_profile_pattern",
+      "status": "PASS",
+      "detail": "6"
+    },
+    {
+      "check": "count_reference_view",
+      "status": "PASS",
+      "detail": "10"
+    },
+    {
+      "check": "count_representative_flow",
+      "status": "PASS",
+      "detail": "10"
+    },
+    {
+      "check": "count_architecture_invariant",
+      "status": "PASS",
+      "detail": "48"
+    },
+    {
+      "check": "count_conformance_subject_class",
+      "status": "PASS",
+      "detail": "6"
+    },
+    {
+      "check": "source_id_count_170",
+      "status": "PASS",
+      "detail": "170"
+    },
+    {
+      "check": "machine_id_count_39",
+      "status": "PASS",
+      "detail": "39"
+    },
+    {
+      "check": "planes_exact",
+      "status": "PASS",
+      "detail": "['HDIP-P1', 'HDIP-P2', 'HDIP-P3', 'HDIP-P4', 'HDIP-P5']"
+    },
+    {
+      "check": "foundation_exact",
+      "status": "PASS",
+      "detail": "HDIP-FND"
+    },
+    {
+      "check": "overlays_exact",
+      "status": "PASS",
+      "detail": "['HDIP-X1', 'HDIP-X2', 'HDIP-X3', 'HDIP-X4', 'HDIP-X5', 'HDIP-X6', 'HDIP-X7', 'HDIP-X8', 'HDIP-X9']"
+    },
+    {
+      "check": "interactions_exact",
+      "status": "PASS",
+      "detail": "1..21"
+    },
+    {
+      "check": "boundaries_exact",
+      "status": "PASS",
+      "detail": "1..12"
+    },
+    {
+      "check": "invariants_exact",
+      "status": "PASS",
+      "detail": "1..48"
+    },
+    {
+      "check": "views_exact",
+      "status": "PASS",
+      "detail": "1..10"
+    },
+    {
+      "check": "flows_exact",
+      "status": "PASS",
+      "detail": "1..10"
+    },
+    {
+      "check": "rp_exact",
+      "status": "PASS",
+      "detail": "1..8"
+    },
+    {
+      "check": "pp_exact",
+      "status": "PASS",
+      "detail": "1..6"
+    },
+    {
+      "check": "pdep_stages",
+      "status": "PASS",
+      "detail": "0..10"
+    },
+    {
+      "check": "sscf_stages",
+      "status": "PASS",
+      "detail": "1..8"
+    },
+    {
+      "check": "all_source_documents_exist",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "compatibility_targets_exist",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "csv_element_count",
+      "status": "PASS",
+      "detail": "209"
+    },
+    {
+      "check": "csv_id_parity",
+      "status": "PASS",
+      "detail": "209"
+    },
+    {
+      "check": "docusaurus_doc_ids_unique",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "sidebar_refs_resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "a1_rule_count_48",
+      "status": "PASS",
+      "detail": "48"
+    },
+    {
+      "check": "a1_rule_sequence",
+      "status": "PASS",
+      "detail": "['01', '02', '03', '46', '47', '48']"
+    },
+    {
+      "check": "a1_antipattern_count_18",
+      "status": "PASS",
+      "detail": "18"
+    },
+    {
+      "check": "expected_added_files",
+      "status": "PASS",
+      "detail": "['docs/architecture/executable/hdip-cla-0.1-a1-canonical-architecture-element-registry.md', 'docs/architecture/executable/hdip-cla-0.1-executable-programme.md', 'static/specs/hdip-cla/0.1/a1/a1-validation.json', 'static/specs/hdip-cla/0.1/a1/architecture-element-registry.csv', 'static/specs/hdip-cla/0.1/a1/architecture-element-registry.json']"
+    },
+    {
+      "check": "expected_modified_files",
+      "status": "PASS",
+      "detail": "['sidebars.ts']"
+    },
+    {
+      "check": "no_removed_files",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "m17_spec_unchanged",
+      "status": "PASS",
+      "detail": "byte-identical"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "recordId": "HDIP-CLA-A9-04-CONSUMER_EXPERIENCE_PROJECTION_DECLARATION",
+  "version": "0.1",
+  "scope": "Illustrative Intent-First Product Consumption; non-normative and NOT_ASSESSED",
+  "sourceAuthority": "HDIP-CLA-0.1-M17",
+  "projectionKind": "CONSUMER_EXPERIENCE_PROJECTION",
+  "lifecycleRef": "HDIP-CLA-A9-04-LIFECYCLE_DECLARATION",
+  "personaOrConsumerContext": "EXAMPLE-CONSUMER",
+  "notAPlaneOrABB": true
+}

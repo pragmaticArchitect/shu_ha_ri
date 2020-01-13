@@ -1,0 +1,18 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-046",
+  "category": "EVIDENCE_BOUNDARY",
+  "title": "External-provider boundary assurance unresolved",
+  "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+  "m16TraceRefs": [
+    "M16-I43"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "check": "INSUFFICIENT_ACCOUNTABLE_EVIDENCE",
+  "assertion": {
+    "invariantId": "M16-I43",
+    "declaredMachineChecksPassed": true,
+    "materialHumanAssessmentPending": true,
+    "acceptedEvidenceRef": null,
+    "scopeRationaleAccepted": false
+  }
+}

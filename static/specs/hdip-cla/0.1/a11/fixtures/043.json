@@ -1,0 +1,18 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-043",
+  "category": "EVIDENCE_BOUNDARY",
+  "title": "Product qualification evidence is absent",
+  "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+  "m16TraceRefs": [
+    "M16-I18"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "check": "INSUFFICIENT_ACCOUNTABLE_EVIDENCE",
+  "assertion": {
+    "invariantId": "M16-I18",
+    "declaredMachineChecksPassed": true,
+    "materialHumanAssessmentPending": true,
+    "acceptedEvidenceRef": null,
+    "scopeRationaleAccepted": false
+  }
+}

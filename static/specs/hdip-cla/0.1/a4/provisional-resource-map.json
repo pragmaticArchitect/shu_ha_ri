@@ -1,0 +1,16 @@
+{
+  "status": "PROVISIONAL_NOT_CANONICAL",
+  "a5OwnsCanonicalIRI": true,
+  "resourceBases": {
+    "element": "urn:hdip-cla:0.1:element:",
+    "external": "urn:hdip-cla:0.1:external:",
+    "derivation": "urn:hdip-cla:0.1:derivation:",
+    "historical": "urn:hdip-cla:0.1:historical:",
+    "relationRecord": "urn:hdip-cla:0.1:relation-record:",
+    "traceRecord": "urn:hdip-cla:0.1:trace-record:",
+    "relationshipPredicate": "urn:hdip-cla:0.1:predicate:",
+    "vocabulary": "urn:hdip-cla:0.1:vocabulary:"
+  },
+  "encoding": "RFC3986 percent encoding via urllib.parse.quote(safe=-._~)",
+  "identityContract": "Decode suffix to original A1/A2/A3 token; A4 URI scheme is a reversible serialization device only."
+}

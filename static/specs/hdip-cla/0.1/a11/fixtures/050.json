@@ -1,0 +1,18 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-050",
+  "category": "EVIDENCE_BOUNDARY",
+  "title": "Profile monotonicity judgement outstanding",
+  "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+  "m16TraceRefs": [
+    "M16-I48"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "check": "INSUFFICIENT_ACCOUNTABLE_EVIDENCE",
+  "assertion": {
+    "invariantId": "M16-I48",
+    "declaredMachineChecksPassed": true,
+    "materialHumanAssessmentPending": true,
+    "acceptedEvidenceRef": null,
+    "scopeRationaleAccepted": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "recordId": "EXAMPLE-001",
+  "version": "0.1",
+  "scope": "Illustrative bounded declaration (not certified)",
+  "sourceAuthority": "HDIP-CLA-0.1-M17",
+  "realizationPatternRefs": [
+    "M14-RP-02"
+  ],
+  "profileDeclarationRefs": [
+    "EXAMPLE-PROFILE"
+  ],
+  "mappedLogicalResponsibilityRefs": [
+    "P2-ABB-01"
+  ],
+  "mappingDoesNotTransferAuthority": true
+}

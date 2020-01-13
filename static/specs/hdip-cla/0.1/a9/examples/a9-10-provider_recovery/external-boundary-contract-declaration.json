@@ -1,0 +1,17 @@
+{
+  "recordId": "HDIP-CLA-A9-10-EXTERNAL_BOUNDARY_CONTRACT_DECLARATION",
+  "version": "0.1",
+  "scope": "Illustrative Provider Failure, Migration, Rebinding & Recovery; non-normative and NOT_ASSESSED",
+  "sourceAuthority": "HDIP-CLA-0.1-M17",
+  "boundaryFamilyIds": [
+    "HDIP-BND-08",
+    "HDIP-BND-12"
+  ],
+  "boundaryInstanceRef": "EXAMPLE-DOWNSTREAM",
+  "interactionContractRef": "EXAMPLE-INT-CONTRACT",
+  "externalAuthorityRefs": [
+    "EXAMPLE-DECISION-AUTHORITY"
+  ],
+  "accessAuthorizationDistinctFromConsequenceAuthorization": true,
+  "notAnAPIOrLegalContractByDefinition": true
+}

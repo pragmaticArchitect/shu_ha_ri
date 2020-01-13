@@ -1,0 +1,16 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-032",
+  "category": "EXPLICIT_CONTRADICTION",
+  "title": "Data, Information and Intelligence merged",
+  "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+  "m16TraceRefs": [
+    "M16-I16"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "check": "DATA_INFORMATION_INTELLIGENCE_ARE_IDENTICAL",
+  "assertion": {
+    "code": "DATA_INFORMATION_INTELLIGENCE_ARE_IDENTICAL",
+    "declared": true,
+    "fixtureOnly": true
+  }
+}

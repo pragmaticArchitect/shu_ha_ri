@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kivanura.org/specs/hdip-cla/0.1/a8/consumer-experience-projection-declaration.schema.json",
+  "title": "consumer-experience-projection-declaration",
+  "type": "object",
+  "required": [
+    "recordId",
+    "version",
+    "scope",
+    "sourceAuthority",
+    "projectionKind",
+    "lifecycleRef",
+    "personaOrConsumerContext",
+    "notAPlaneOrABB"
+  ],
+  "properties": {
+    "recordId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceAuthority": {
+      "enum": [
+        "HDIP-CLA-0.1-M17"
+      ]
+    },
+    "projectionKind": {
+      "const": "CONSUMER_EXPERIENCE_PROJECTION"
+    },
+    "lifecycleRef": {
+      "type": "string",
+      "minLength": 1
+    },
+    "personaOrConsumerContext": {
+      "type": "string",
+      "minLength": 1
+    },
+    "governedProductOrCapabilityRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "accessAndUsageContractRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "notAPlaneOrABB": {
+      "const": true
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,19 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-022",
+  "category": "REFERENCE_NEGATIVE",
+  "title": "Duplicate A1 source identity",
+  "expectedDisposition": "MACHINE_REJECTED",
+  "m16TraceRefs": [
+    "M16-I15"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "sourceDocument": "static/specs/hdip-cla/0.1/a1/architecture-element-registry.json",
+  "mutations": [
+    {
+      "op": "replace",
+      "path": "/elements/1/id",
+      "value": "HDIP-P1"
+    }
+  ],
+  "check": "A1_UNIQUE_IDENTITIES"
+}

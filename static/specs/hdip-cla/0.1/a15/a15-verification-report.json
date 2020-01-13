@@ -1,0 +1,81 @@
+{
+  "a14LiveRegressionExecutedByVerifier": false,
+  "architectureConformance": "NOT_ESTABLISHED",
+  "checks": [
+    {
+      "detail": {},
+      "findings": [],
+      "id": "AUTHORITY_AND_CLAIM_BOUNDARY",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "excludedCount": 3,
+        "hashedFileCount": 257
+      },
+      "findings": [],
+      "id": "COMPLETE_PACKAGE_INVENTORY",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "verifiedFiles": 257
+      },
+      "findings": [],
+      "id": "SHA256_CONTENT_INTEGRITY",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "lockedPredecessors": 250
+      },
+      "findings": [],
+      "id": "FROZEN_AND_PREDECESSOR_AUTHORITY_LOCK",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "a1Elements": 209,
+        "a2Relationships": 911,
+        "a2Traceability": 332,
+        "m16Invariants": 48
+      },
+      "findings": [],
+      "id": "CANONICAL_COUNTS_AND_IDENTITY_PRESERVATION",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "storedGates": 10
+      },
+      "findings": [],
+      "id": "A14_REGRESSION_EVIDENCE_CHAIN",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "openDependencies": 5
+      },
+      "findings": [],
+      "id": "UNRESOLVED_DEPENDENCIES_EXPLICIT",
+      "status": "PASS"
+    },
+    {
+      "detail": {},
+      "findings": [],
+      "id": "RELEASE_DOCUMENTATION_AND_NAVIGATION",
+      "status": "PASS"
+    }
+  ],
+  "checksPassed": 8,
+  "checksTotal": 8,
+  "externalApproval": "NOT_ASSERTED",
+  "findings": [],
+  "fullOwlReasoningRun": false,
+  "independentShaclProcessorRun": false,
+  "machineAssignedM16Results": 0,
+  "productionPublicationApproval": "NOT_ASSERTED",
+  "releaseDisposition": "FORMALIZATION_PACKAGE_CLOSED_BOUNDED",
+  "reportId": "HDIP-CLA-0.1-A15-VERIFICATION",
+  "status": "PASS_BOUNDED_RELEASE_INTEGRITY"
+}

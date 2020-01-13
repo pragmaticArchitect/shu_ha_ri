@@ -1,0 +1,16 @@
+{
+  "recordId": "HDIP-CLA-A9-09-REALIZATION_PROFILE_BINDING_DECLARATION",
+  "version": "0.1",
+  "scope": "Illustrative Federated Cross-Domain Product Consumption; non-normative and NOT_ASSESSED",
+  "sourceAuthority": "HDIP-CLA-0.1-M17",
+  "realizationPatternRefs": [
+    "M14-RP-03"
+  ],
+  "profileDeclarationRefs": [
+    "HDIP-CLA-A9-09-PROFILE_DECLARATION"
+  ],
+  "mappedLogicalResponsibilityRefs": [
+    "P2-ABB-01"
+  ],
+  "mappingDoesNotTransferAuthority": true
+}

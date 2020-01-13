@@ -1,0 +1,125 @@
+{
+  "stage": "A10",
+  "humanReadableAuthority": "M17",
+  "scope": "POSITIVE_STRUCTURAL_ONLY",
+  "result": "PASS",
+  "positiveTestCases": 16,
+  "positivePassed": 16,
+  "positiveFailed": 0,
+  "declarationDocumentsCovered": 35,
+  "scenariosCovered": 11,
+  "m15FlowCount": 10,
+  "negativeFaultInjectionDetected": true,
+  "m16InvariantResult": "NOT_ASSESSED",
+  "overallConformance": "NOT_ESTABLISHED",
+  "originalA9FileCount": 166,
+  "predecessorFilesModifiedOnly": [
+    "sidebars.ts",
+    "docs/architecture/executable/hdip-cla-0.1-executable-programme.md"
+  ],
+  "unintendedPredecessorChanges": [],
+  "execution": {
+    "command": "python static/specs/hdip-cla/0.1/a10/run_positive_tests.py",
+    "validator": "jsonschema Draft202012Validator",
+    "docusaurusBuildRun": false,
+    "independentShaclRun": false
+  },
+  "checks": [
+    {
+      "testId": "HDIP-CLA-A10-POS-001",
+      "machineResult": "PASS_STRUCTURAL_ONLY",
+      "architectureConformance": "NOT_ESTABLISHED",
+      "errors": []
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-002",
+      "machineResult": "PASS_STRUCTURAL_ONLY",
+      "architectureConformance": "NOT_ESTABLISHED",
+      "errors": []
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-003",
+      "machineResult": "PASS_STRUCTURAL_ONLY",
+      "architectureConformance": "NOT_ESTABLISHED",
+      "errors": []
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-004",
+      "machineResult": "PASS_STRUCTURAL_ONLY",
+      "architectureConformance": "NOT_ESTABLISHED",
+      "errors": []
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-005",
+      "machineResult": "PASS_STRUCTURAL_ONLY",
+      "architectureConformance": "NOT_ESTABLISHED",
+      "errors": []
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-006",
+      "machineResult": "PASS_STRUCTURAL_ONLY",
+      "architectureConformance": "NOT_ESTABLISHED",
+      "errors": []
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-007",
+      "machineResult": "PASS_STRUCTURAL_ONLY",
+      "architectureConformance": "NOT_ESTABLISHED",
+      "errors": []
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-008",
+      "machineResult": "PASS_STRUCTURAL_ONLY",
+      "architectureConformance": "NOT_ESTABLISHED",
+      "errors": []
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-009",
+      "machineResult": "PASS_STRUCTURAL_ONLY",
+      "architectureConformance": "NOT_ESTABLISHED",
+      "errors": []
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-010",
+      "machineResult": "PASS_STRUCTURAL_ONLY",
+      "architectureConformance": "NOT_ESTABLISHED",
+      "errors": []
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-011",
+      "machineResult": "PASS_STRUCTURAL_ONLY",
+      "architectureConformance": "NOT_ESTABLISHED",
+      "errors": []
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-012",
+      "machineResult": "PASS_STRUCTURAL_ONLY",
+      "architectureConformance": "NOT_ESTABLISHED",
+      "errors": []
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-013",
+      "machineResult": "PASS_STRUCTURAL_ONLY",
+      "architectureConformance": "NOT_ESTABLISHED",
+      "errors": []
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-014",
+      "machineResult": "PASS_STRUCTURAL_ONLY",
+      "architectureConformance": "NOT_ESTABLISHED",
+      "errors": []
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-015",
+      "machineResult": "PASS_STRUCTURAL_ONLY",
+      "architectureConformance": "NOT_ESTABLISHED",
+      "errors": []
+    },
+    {
+      "testId": "HDIP-CLA-A10-POS-016",
+      "machineResult": "PASS_STRUCTURAL_ONLY",
+      "architectureConformance": "NOT_ESTABLISHED",
+      "errors": []
+    }
+  ]
+}

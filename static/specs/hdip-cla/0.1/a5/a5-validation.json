@@ -1,0 +1,30 @@
+{
+  "stage": "A5",
+  "status": "COMPLETE",
+  "result": "PASS",
+  "counts": {
+    "a1Elements": 209,
+    "a2Relationships": 911,
+    "a2TraceabilityRecords": 332,
+    "a3Invariants": 48,
+    "a4SourceTriples": 13727,
+    "a5CanonicalTriples": 13727,
+    "namespaceScopeMappings": 9
+  },
+  "checks": {
+    "oneToOneResourceRemap": "PASS",
+    "allSourceTriplesMapped": "PASS",
+    "turtleRoundTrip": "PASS",
+    "jsonLdRoundTrip": "PASS",
+    "noProvisionalURNResources": "PASS",
+    "noSourceIdentifierMutation": "PASS",
+    "sourceA4Unmodified": "PASS",
+    "owlSameAsAbsent": "PASS"
+  },
+  "limitations": [
+    "HTTP dereferenceability not verified; hosting/deployment required",
+    "A6 SHACL rules not implemented",
+    "A12 assessment engine not implemented",
+    "A4 metadata describes historical A4 provisional policy and is retained verbatim in A5 export"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "exampleId": "HDIP-CLA-A9-07",
+  "title": "Governing Revocation During Active Operation",
+  "scenarioKind": "GOVERNING_REVOCATION",
+  "normativeStatus": "ILLUSTRATIVE_ONLY",
+  "assessmentStatus": "NOT_ASSESSED",
+  "claimOutcome": "INDETERMINATE",
+  "family": "NOT_APPLICABLE",
+  "m15FlowRefs": [
+    "M15-FLOW-07"
+  ],
+  "m12InteractionRefs": [
+    "HDIP-M12-INT-08",
+    "HDIP-M12-INT-16"
+  ],
+  "m13BoundaryRefs": [
+    "HDIP-BND-05"
+  ],
+  "m14ProfileRef": "M14-PP-05",
+  "m14RealizationPatternRef": "M14-RP-08",
+  "declarations": [
+    {
+      "kind": "interaction-contract-declaration",
+      "path": "examples/a9-07-governing_revocation/interaction-contract-declaration.json",
+      "schema": "../a8/interaction-contract-declaration.schema.json"
+    },
+    {
+      "kind": "external-boundary-contract-declaration",
+      "path": "examples/a9-07-governing_revocation/external-boundary-contract-declaration.json",
+      "schema": "../a8/external-boundary-contract-declaration.schema.json"
+    },
+    {
+      "kind": "profile-declaration",
+      "path": "examples/a9-07-governing_revocation/profile-declaration.json",
+      "schema": "../a8/profile-declaration.schema.json"
+    }
+  ],
+  "architecturalBoundary": "Revocation scope, temporal consequence and historical evidence must be retained.",
+  "historicalTruthPolicy": "Preserve evidence as-of governing versions; no rewriting later",
+  "caveats": [
+    "Schema-valid is not invariant SATISFIED",
+    "No Product qualification, entitlement or consequential Decision authority implied",
+    "Example-specific declaration fields are not normative M17 requirements"
+  ]
+}

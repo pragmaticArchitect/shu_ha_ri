@@ -1,0 +1,19 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-017",
+  "category": "SCHEMA_NEGATIVE",
+  "title": "CEP impersonates a Plane or ABB",
+  "expectedDisposition": "MACHINE_REJECTED",
+  "m16TraceRefs": [
+    "M16-I28"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "sourceDocument": "static/specs/hdip-cla/0.1/a9/examples/a9-04-intent_consumption/consumer-experience-projection-declaration.json",
+  "mutations": [
+    {
+      "op": "replace",
+      "path": "/notAPlaneOrABB",
+      "value": false
+    }
+  ],
+  "schemaDocument": "static/specs/hdip-cla/0.1/a8/consumer-experience-projection-declaration.schema.json"
+}

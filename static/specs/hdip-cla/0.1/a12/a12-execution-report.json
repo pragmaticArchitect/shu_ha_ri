@@ -1,0 +1,985 @@
+{
+  "reportId": "HDIP-CLA-0.1-A12-EXECUTION-REPORT",
+  "version": "0.1-A12",
+  "authority": "M17_FROZEN_HUMAN_READABLE",
+  "machineGate": "PASS",
+  "checks": [
+    {
+      "id": "A1_A2_A3_INTEGRITY",
+      "result": "PASS",
+      "counts": {
+        "elements": 209,
+        "relationships": 911,
+        "traceability": 332,
+        "invariants": 48
+      },
+      "modes": {
+        "HYBRID": 37,
+        "STRUCTURAL": 7,
+        "ASSESSMENT": 4
+      },
+      "issues": []
+    },
+    {
+      "id": "A7_SCHEMA_REGRESSION",
+      "result": "PASS",
+      "cases": [
+        {
+          "schema": "a1-architecture-elements",
+          "result": "PASS",
+          "errors": []
+        },
+        {
+          "schema": "a2-relationship-traceability",
+          "result": "PASS",
+          "errors": []
+        },
+        {
+          "schema": "a3-invariant-conformance",
+          "result": "PASS",
+          "errors": []
+        },
+        {
+          "schema": "a5-canonical-iri-policy",
+          "result": "PASS",
+          "errors": []
+        },
+        {
+          "schema": "a5-jsonld-context",
+          "result": "PASS",
+          "errors": []
+        },
+        {
+          "schema": "a5-expanded-graph",
+          "result": "PASS",
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "A5_GRAPH_A6_LOCAL_SHACL_SUBSET",
+      "result": "PASS",
+      "turtleTriples": 13727,
+      "jsonLdTriples": 13727,
+      "rdfIsomorphic": true,
+      "localShapeDefects": [],
+      "independentSHACL": "NOT_RUN"
+    },
+    {
+      "id": "A10_POSITIVE_TESTS",
+      "result": "PASS",
+      "cases": 16,
+      "passed": 16,
+      "issues": [],
+      "results": [
+        {
+          "testId": "HDIP-CLA-A10-POS-001",
+          "machineResult": "PASS_STRUCTURAL_ONLY",
+          "architectureConformance": "NOT_ESTABLISHED",
+          "errors": []
+        },
+        {
+          "testId": "HDIP-CLA-A10-POS-002",
+          "machineResult": "PASS_STRUCTURAL_ONLY",
+          "architectureConformance": "NOT_ESTABLISHED",
+          "errors": []
+        },
+        {
+          "testId": "HDIP-CLA-A10-POS-003",
+          "machineResult": "PASS_STRUCTURAL_ONLY",
+          "architectureConformance": "NOT_ESTABLISHED",
+          "errors": []
+        },
+        {
+          "testId": "HDIP-CLA-A10-POS-004",
+          "machineResult": "PASS_STRUCTURAL_ONLY",
+          "architectureConformance": "NOT_ESTABLISHED",
+          "errors": []
+        },
+        {
+          "testId": "HDIP-CLA-A10-POS-005",
+          "machineResult": "PASS_STRUCTURAL_ONLY",
+          "architectureConformance": "NOT_ESTABLISHED",
+          "errors": []
+        },
+        {
+          "testId": "HDIP-CLA-A10-POS-006",
+          "machineResult": "PASS_STRUCTURAL_ONLY",
+          "architectureConformance": "NOT_ESTABLISHED",
+          "errors": []
+        },
+        {
+          "testId": "HDIP-CLA-A10-POS-007",
+          "machineResult": "PASS_STRUCTURAL_ONLY",
+          "architectureConformance": "NOT_ESTABLISHED",
+          "errors": []
+        },
+        {
+          "testId": "HDIP-CLA-A10-POS-008",
+          "machineResult": "PASS_STRUCTURAL_ONLY",
+          "architectureConformance": "NOT_ESTABLISHED",
+          "errors": []
+        },
+        {
+          "testId": "HDIP-CLA-A10-POS-009",
+          "machineResult": "PASS_STRUCTURAL_ONLY",
+          "architectureConformance": "NOT_ESTABLISHED",
+          "errors": []
+        },
+        {
+          "testId": "HDIP-CLA-A10-POS-010",
+          "machineResult": "PASS_STRUCTURAL_ONLY",
+          "architectureConformance": "NOT_ESTABLISHED",
+          "errors": []
+        },
+        {
+          "testId": "HDIP-CLA-A10-POS-011",
+          "machineResult": "PASS_STRUCTURAL_ONLY",
+          "architectureConformance": "NOT_ESTABLISHED",
+          "errors": []
+        },
+        {
+          "testId": "HDIP-CLA-A10-POS-012",
+          "machineResult": "PASS_STRUCTURAL_ONLY",
+          "architectureConformance": "NOT_ESTABLISHED",
+          "errors": []
+        },
+        {
+          "testId": "HDIP-CLA-A10-POS-013",
+          "machineResult": "PASS_STRUCTURAL_ONLY",
+          "architectureConformance": "NOT_ESTABLISHED",
+          "errors": []
+        },
+        {
+          "testId": "HDIP-CLA-A10-POS-014",
+          "machineResult": "PASS_STRUCTURAL_ONLY",
+          "architectureConformance": "NOT_ESTABLISHED",
+          "errors": []
+        },
+        {
+          "testId": "HDIP-CLA-A10-POS-015",
+          "machineResult": "PASS_STRUCTURAL_ONLY",
+          "architectureConformance": "NOT_ESTABLISHED",
+          "errors": []
+        },
+        {
+          "testId": "HDIP-CLA-A10-POS-016",
+          "machineResult": "PASS_STRUCTURAL_ONLY",
+          "architectureConformance": "NOT_ESTABLISHED",
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "A11_NEGATIVE_BOUNDARY_TESTS",
+      "result": "PASS",
+      "cases": 54,
+      "matched": 54,
+      "dispositions": {
+        "MACHINE_REJECTED": 33,
+        "FLAGGED_DECLARED_CONTRADICTION": 11,
+        "INDETERMINATE_REVIEW_REQUIRED": 10
+      },
+      "issues": [],
+      "results": [
+        {
+          "caseId": "HDIP-CLA-A11-CASE-001",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "42 is not of type 'string'"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-002",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "'relationships' is a required property"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-003",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "'invariants' is a required property"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-004",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "'https://kivanura.org/specs/hdip-cla/0.1/id/' was expected"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-005",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "'@context' is a required property"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-006",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "[{'number': 0, 'name': 'Preconditions'}, {'number': 1, 'name': 'Intent Record'}, {'number': 2, 'name': 'Authority Confirmation'}, {'number': 3, 'name': 'Policy Intent'}, {'number': 4, 'name': 'Semantic Descriptor (DPROD Draft)'}, {'number': 5, 'name'"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-007",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "True was expected"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-008",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "'familySpecializationAuthorityRef' is a required property"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-009",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "'HDIP-M12-INT-99' is not one of ['HDIP-M12-INT-01', 'HDIP-M12-INT-02', 'HDIP-M12-INT-03', 'HDIP-M12-INT-04', 'HDIP-M12-INT-05', 'HDIP-M12-INT-06', 'HDIP-M12-INT-07', 'HDIP-M12-INT-08', 'HDIP-M12-INT-09', 'HDIP-M12-INT-10', 'HDIP-M12-INT-11', 'HDIP-M1"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-010",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "'HDIP-P6' is not one of ['HDIP-P1', 'HDIP-P2', 'HDIP-P3', 'HDIP-P4', 'HDIP-P5']"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-011",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "True was expected"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-012",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "True was expected"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-013",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "[] should be non-empty"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-014",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "'WAIVE_TO_PASS' is not one of ['SELECT', 'REQUIRE', 'TIGHTEN', 'CONTEXTUALIZE', 'SPECIALIZE', 'NARROW', 'EXTEND', 'ADD_EVIDENCE', 'RESTRICT_REALIZATION']"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-015",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "True was expected"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-016",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "'invariantApplicabilityMatrix' is a required property"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-017",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "True was expected"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-018",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "True was expected"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-019",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "'OTHER-ARCHITECTURE' is not one of ['HDIP-CLA-0.1-M17']"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-020",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "['M14-PP-04', 'M14-PP-04'] has non-unique elements"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-021",
+          "category": "SCHEMA_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "{'invalid': 'graph'} is not of type 'array'"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-022",
+          "category": "REFERENCE_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "DUPLICATE_ARCHITECTURE_ID"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-023",
+          "category": "REFERENCE_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "UNRESOLVED_A1_SOURCE:HDIP-CLA-A2-REL-0001"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-024",
+          "category": "REFERENCE_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "UNRESOLVED_A1_TARGET:HDIP-CLA-A2-REL-0001"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-025",
+          "category": "REFERENCE_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "UNRESOLVED_EXTERNAL_TARGET:HDIP-CLA-A2-REL-0849"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-026",
+          "category": "REFERENCE_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "UNRESOLVED_MANIFEST_REFERENCE:M15-FLOW-99"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-027",
+          "category": "REFERENCE_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "UNRESOLVED_MANIFEST_REFERENCE:HDIP-M12-INT-99"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-028",
+          "category": "MANIFEST_GUARD",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "UNSUPPORTED_EXAMPLE_CLAIM:normativeStatus"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-029",
+          "category": "MANIFEST_GUARD",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "UNSUPPORTED_EXAMPLE_CLAIM:claimOutcome"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-030",
+          "category": "MANIFEST_GUARD",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "UNSUPPORTED_EXAMPLE_CLAIM:assessmentStatus"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-031",
+          "category": "EXPLICIT_CONTRADICTION",
+          "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "actualDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "expectationMatched": true,
+          "diagnostics": [
+            "Explicit fixture assertion contradicts a named frozen architecture distinction; no real-world implementation finding"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-032",
+          "category": "EXPLICIT_CONTRADICTION",
+          "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "actualDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "expectationMatched": true,
+          "diagnostics": [
+            "Explicit fixture assertion contradicts a named frozen architecture distinction; no real-world implementation finding"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-033",
+          "category": "EXPLICIT_CONTRADICTION",
+          "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "actualDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "expectationMatched": true,
+          "diagnostics": [
+            "Explicit fixture assertion contradicts a named frozen architecture distinction; no real-world implementation finding"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-034",
+          "category": "EXPLICIT_CONTRADICTION",
+          "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "actualDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "expectationMatched": true,
+          "diagnostics": [
+            "Explicit fixture assertion contradicts a named frozen architecture distinction; no real-world implementation finding"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-035",
+          "category": "EXPLICIT_CONTRADICTION",
+          "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "actualDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "expectationMatched": true,
+          "diagnostics": [
+            "Explicit fixture assertion contradicts a named frozen architecture distinction; no real-world implementation finding"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-036",
+          "category": "EXPLICIT_CONTRADICTION",
+          "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "actualDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "expectationMatched": true,
+          "diagnostics": [
+            "Explicit fixture assertion contradicts a named frozen architecture distinction; no real-world implementation finding"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-037",
+          "category": "EXPLICIT_CONTRADICTION",
+          "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "actualDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "expectationMatched": true,
+          "diagnostics": [
+            "Explicit fixture assertion contradicts a named frozen architecture distinction; no real-world implementation finding"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-038",
+          "category": "EXPLICIT_CONTRADICTION",
+          "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "actualDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "expectationMatched": true,
+          "diagnostics": [
+            "Explicit fixture assertion contradicts a named frozen architecture distinction; no real-world implementation finding"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-039",
+          "category": "EXPLICIT_CONTRADICTION",
+          "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "actualDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "expectationMatched": true,
+          "diagnostics": [
+            "Explicit fixture assertion contradicts a named frozen architecture distinction; no real-world implementation finding"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-040",
+          "category": "EXPLICIT_CONTRADICTION",
+          "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "actualDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "expectationMatched": true,
+          "diagnostics": [
+            "Explicit fixture assertion contradicts a named frozen architecture distinction; no real-world implementation finding"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-041",
+          "category": "EXPLICIT_CONTRADICTION",
+          "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "actualDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+          "expectationMatched": true,
+          "diagnostics": [
+            "Explicit fixture assertion contradicts a named frozen architecture distinction; no real-world implementation finding"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-042",
+          "category": "EVIDENCE_BOUNDARY",
+          "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "actualDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "M16 HYBRID judgement/evidence remains unresolved; machine metadata insufficient"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-043",
+          "category": "EVIDENCE_BOUNDARY",
+          "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "actualDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "M16 HYBRID judgement/evidence remains unresolved; machine metadata insufficient"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-044",
+          "category": "EVIDENCE_BOUNDARY",
+          "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "actualDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "M16 HYBRID judgement/evidence remains unresolved; machine metadata insufficient"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-045",
+          "category": "EVIDENCE_BOUNDARY",
+          "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "actualDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "M16 HYBRID judgement/evidence remains unresolved; machine metadata insufficient"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-046",
+          "category": "EVIDENCE_BOUNDARY",
+          "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "actualDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "M16 HYBRID judgement/evidence remains unresolved; machine metadata insufficient"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-047",
+          "category": "EVIDENCE_BOUNDARY",
+          "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "actualDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "M16 HYBRID judgement/evidence remains unresolved; machine metadata insufficient"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-048",
+          "category": "EVIDENCE_BOUNDARY",
+          "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "actualDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "M16 HYBRID judgement/evidence remains unresolved; machine metadata insufficient"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-049",
+          "category": "EVIDENCE_BOUNDARY",
+          "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "actualDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "M16 ASSESSMENT judgement/evidence remains unresolved; machine metadata insufficient"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-050",
+          "category": "EVIDENCE_BOUNDARY",
+          "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "actualDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "M16 HYBRID judgement/evidence remains unresolved; machine metadata insufficient"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-051",
+          "category": "EVIDENCE_BOUNDARY",
+          "expectedDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "actualDisposition": "INDETERMINATE_REVIEW_REQUIRED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "M16 HYBRID judgement/evidence remains unresolved; machine metadata insufficient"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-052",
+          "category": "SHACL_SUBSET_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "minCount:https://kivanura.org/specs/hdip-cla/0.1/id/ontology/source"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-053",
+          "category": "SHACL_SUBSET_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "nodeKind:https://kivanura.org/specs/hdip-cla/0.1/id/ontology/target"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        },
+        {
+          "caseId": "HDIP-CLA-A11-CASE-054",
+          "category": "SHACL_SUBSET_NEGATIVE",
+          "expectedDisposition": "MACHINE_REJECTED",
+          "actualDisposition": "MACHINE_REJECTED",
+          "expectationMatched": true,
+          "diagnostics": [
+            "maxCount:https://kivanura.org/specs/hdip-cla/0.1/id/ontology/id"
+          ],
+          "m16InvariantResult": "NOT_EVALUATED",
+          "overallConformance": "NOT_ESTABLISHED"
+        }
+      ]
+    }
+  ],
+  "sourceSnapshotSha256": "1412669d2f4d65df97ac30c9ef4fd11682ef8e7028d8d2c0e75b761c93eea93e",
+  "sourceCount": 132,
+  "sourceHashes": {
+    "docs/architecture/cla/hdip-cla-0.1-m17-cross-artifact-reconciliation-freeze.md": "285b638bff141eeadb5b86a3f6b44bcc8c63a5cd8cbc1a52a2275deec6faa33f",
+    "static/specs/hdip-cla/0.1/a1/architecture-element-registry.json": "96c12b18bfcc114210acf24a1275add66a6d4aab9eae1e757863dad4da1432e4",
+    "static/specs/hdip-cla/0.1/a10/positive-test-suite.json": "9d31fef98f0a69ef39f22b6f2590ee718c96e64bd14e4142e5bbca732a206720",
+    "static/specs/hdip-cla/0.1/a10/run_positive_tests.py": "38750f38818fe8784477eb80d7eea893941e99f53cfea3d1268411914b2a949e",
+    "static/specs/hdip-cla/0.1/a11/fixtures/001.json": "a948863ce6b8fc8607537f389302f70080bfb35c3005ff804253523e861ab239",
+    "static/specs/hdip-cla/0.1/a11/fixtures/002.json": "502ba119e6b20ddaf631aa866debfff38360b2e5c27c4fbd6234aeb0ab324f08",
+    "static/specs/hdip-cla/0.1/a11/fixtures/003.json": "da6a3831c51939541ea47c11be5f3ef2597a12f1d9ce10414dd067e10161106c",
+    "static/specs/hdip-cla/0.1/a11/fixtures/004.json": "caf95278421278257c18e5ded4cf9d94e315f48ae9704cd1d3439308b2069ad0",
+    "static/specs/hdip-cla/0.1/a11/fixtures/005.json": "4627c055db9bb597c974d2a48cc9051f757419a3f79d1222fed525775803370e",
+    "static/specs/hdip-cla/0.1/a11/fixtures/006.json": "d4783bf5cbd307aaa7ad5c9838ce8900b9d050f01c2d21575b44f45026cddfb4",
+    "static/specs/hdip-cla/0.1/a11/fixtures/007.json": "afd7d8f7e8a3b3e0c79836ada3617884b363082456746fd7758d53b80f6f9692",
+    "static/specs/hdip-cla/0.1/a11/fixtures/008.json": "41e9a2048f7615a22e818afec4bce188c8471b3842c42b00664ffeca2be6cd67",
+    "static/specs/hdip-cla/0.1/a11/fixtures/009.json": "010a15e4db528b39ba330548ad42bddd1bf36e4bee8db37b73aeb5235b99197d",
+    "static/specs/hdip-cla/0.1/a11/fixtures/010.json": "611c4331e899312c9a9e47f16580365706f132a8f1e5e10341912d1b206108af",
+    "static/specs/hdip-cla/0.1/a11/fixtures/011.json": "5d4ce8cf788949bbad5370fdf207782074d654d5c7d551256020483b6ffbde6a",
+    "static/specs/hdip-cla/0.1/a11/fixtures/012.json": "1ff64624d22079e8e0a5483117e5564ccad1a7b969bdd5daec18a02160cc1074",
+    "static/specs/hdip-cla/0.1/a11/fixtures/013.json": "f110148217c312defe9b068695346999f09e581f59f7a0657c4c3715f422bd23",
+    "static/specs/hdip-cla/0.1/a11/fixtures/014.json": "dc0eb1a0ba6d59376daf3c56dc8822d318af207ec604498c046ef666a1eb16c6",
+    "static/specs/hdip-cla/0.1/a11/fixtures/015.json": "aa160058f61362d2dde2c122863a42b260e36e7d20f87c911de281503995a4b1",
+    "static/specs/hdip-cla/0.1/a11/fixtures/016.json": "a372814d0a2327b5a906704973c117700f726201ffe4dc1335968900bb4de088",
+    "static/specs/hdip-cla/0.1/a11/fixtures/017.json": "c7f8c0feedbd8c4e6b2b625fa00dcc44d100a900b07a673bd778736af9de6764",
+    "static/specs/hdip-cla/0.1/a11/fixtures/018.json": "72accce64e07b9f440c48490f1105f09227aea9a4ceb11e777ba65dedfdd1384",
+    "static/specs/hdip-cla/0.1/a11/fixtures/019.json": "8cbe16d11d76e13b83a046f6b7787ae01cab1ba244061476d61807ee5dca3720",
+    "static/specs/hdip-cla/0.1/a11/fixtures/020.json": "0f4c32043f9331627d808e42034f6961db58099183083642553748729a9e59cb",
+    "static/specs/hdip-cla/0.1/a11/fixtures/021.json": "190eb931edc95fc8ccaf84cb3d02c5ad47717a5588405dabc4b9b30d1879fc82",
+    "static/specs/hdip-cla/0.1/a11/fixtures/022.json": "a92be2e2e2bf2e979fb2e2767b88a5379edfdc36cfc466f7b6ec186923a39960",
+    "static/specs/hdip-cla/0.1/a11/fixtures/023.json": "fc5e2edae9ad7da4470b958f82c7fad9d0fb64bad513bdcfef20e776d7f3c7e8",
+    "static/specs/hdip-cla/0.1/a11/fixtures/024.json": "dd852684205f23987de0e3b20f4b586c603d9fcf54db48c2a80de47e3832083a",
+    "static/specs/hdip-cla/0.1/a11/fixtures/025.json": "3ab87fa29e8245075cf559d55733233ec8c361f2794510fd4f5ff5d919ede756",
+    "static/specs/hdip-cla/0.1/a11/fixtures/026.json": "9a6c33d2116e0a9e782abb247095b8cb86202420bbc52755665d4a8f2943dc26",
+    "static/specs/hdip-cla/0.1/a11/fixtures/027.json": "3ad184a8efe9d0ffd34e56710125c91bd6ff84c5e076e0ad6ed7f297180ac9ce",
+    "static/specs/hdip-cla/0.1/a11/fixtures/028.json": "2e2c3c3ebc03daca7e9d7534d632ee604cff78431d07973fc27ec5aad72c6c2f",
+    "static/specs/hdip-cla/0.1/a11/fixtures/029.json": "63456ee82f8f130fca525fdf8880a286478af6dd602d4cd70b10c6edc49e55a8",
+    "static/specs/hdip-cla/0.1/a11/fixtures/030.json": "7a07fa6d9732911a6860f042f1e7d1b98a22bda06e6fd479b1feb495beab71b3",
+    "static/specs/hdip-cla/0.1/a11/fixtures/031.json": "ffeb065e6a07952b662a71ff0a3bb48a5e118655aa26cbd6bac606a26f00e6ab",
+    "static/specs/hdip-cla/0.1/a11/fixtures/032.json": "bb0f76e8cab43e7c397e2e73493e3be71010e8d1c3e4916436913f645902a4be",
+    "static/specs/hdip-cla/0.1/a11/fixtures/033.json": "d7970015631b58aac100df926fb98b056e2cb4eca8dc324cf10a04d65cc6d495",
+    "static/specs/hdip-cla/0.1/a11/fixtures/034.json": "9e64cbe74cdeb7d1a751a1710945412de14f0451b0bb4cbf0e15d8af128d4c2d",
+    "static/specs/hdip-cla/0.1/a11/fixtures/035.json": "76a0ef957b1358914356d4ca812b5560ddb80cc79458ea9eae8f2495c8289f9a",
+    "static/specs/hdip-cla/0.1/a11/fixtures/036.json": "e747882a63efafc4262ec39f170c02235301f589ada29aaa82b80b5e5540e3db",
+    "static/specs/hdip-cla/0.1/a11/fixtures/037.json": "1b1e9d025369925951090b60ae9196b9058b28cde5ccb59c7a9fac612e4d4657",
+    "static/specs/hdip-cla/0.1/a11/fixtures/038.json": "f7a07d39b88ec7b3e14f8e3ae381c256c0f08ead5113ae712b7727dd971c87a9",
+    "static/specs/hdip-cla/0.1/a11/fixtures/039.json": "a2379c585a55beee4e1730731ff6432a0d15cf587939b672d6d74f8fce3e4491",
+    "static/specs/hdip-cla/0.1/a11/fixtures/040.json": "73d15a656265bb121633769e95a24768c3e24b05fec194ea7de1fa86b20270a7",
+    "static/specs/hdip-cla/0.1/a11/fixtures/041.json": "9e5d23f7717ad20a8b6ee3f28d23b61cff9a0f1d1d7baac004ca92a2871bf310",
+    "static/specs/hdip-cla/0.1/a11/fixtures/042.json": "6c7b47c5ea61de763400a031e08e789e78f7206ab87e94481f0c88c47f1d6fc9",
+    "static/specs/hdip-cla/0.1/a11/fixtures/043.json": "cba5d4d29adbb60a98314724f205950dded0ad98ea319977e002305a35acbe84",
+    "static/specs/hdip-cla/0.1/a11/fixtures/044.json": "7dd76012cb4623b2b0e951c5904164b3f4d013f33d3c4f515df8ae803e663bfe",
+    "static/specs/hdip-cla/0.1/a11/fixtures/045.json": "ede03d2d6f7222db57280163aa884d06928f99d4dc85ea227439bca086509db2",
+    "static/specs/hdip-cla/0.1/a11/fixtures/046.json": "81cc7f3cb816b7a77e107be94e595de63aa4001f371310a6076b8234b1b63f95",
+    "static/specs/hdip-cla/0.1/a11/fixtures/047.json": "ddb7e51b0f9bb04da2a71b616018f239720ead53c1c2d18744902ede2dde8dcb",
+    "static/specs/hdip-cla/0.1/a11/fixtures/048.json": "a3fd60a14f527d2cdccf60b03ff73727047d89d6732deaf549c659b595be5162",
+    "static/specs/hdip-cla/0.1/a11/fixtures/049.json": "977f6229e2a327ef3b713e763c4272a33a20186d77b291a0f94506807b843e46",
+    "static/specs/hdip-cla/0.1/a11/fixtures/050.json": "ce2dba2dd453d97a585d7c2cccafc710bdd6650808be62b5c77264989355de9f",
+    "static/specs/hdip-cla/0.1/a11/fixtures/051.json": "a863802476b87cffc0e22fe85dbc1c4d750d2560788670e23e868552a609b4ad",
+    "static/specs/hdip-cla/0.1/a11/fixtures/052.json": "55953b77a420946b911efca6935843b27b6ef5f24b316fd9950201318c461ebf",
+    "static/specs/hdip-cla/0.1/a11/fixtures/053.json": "008c756bda40949a4c506e4c2e3ef6138187448d65a6567f5fb50454a538c263",
+    "static/specs/hdip-cla/0.1/a11/fixtures/054.json": "e9d3b08466fcd9daf314ad18819de003fb591ec7edd4bca32ece1511ecf1e0a2",
+    "static/specs/hdip-cla/0.1/a11/negative-boundary-test-suite.json": "08b993ad697cecd1a1378118bd6532f0bde2b9e5152beba0faa2122f78bd08a4",
+    "static/specs/hdip-cla/0.1/a11/run_negative_boundary_tests.py": "b91884c050915ae593fcb8ce2519bff4b615358d2bc0a5d577229c5973727596",
+    "static/specs/hdip-cla/0.1/a12/assessment-intake.schema.json": "df30bbd85df5fb32152d84b255875c3e6469ad9bf2de0980e6a876350bb6fb4d",
+    "static/specs/hdip-cla/0.1/a12/run_conformance.py": "854e0f970758b3fbf034930f027506ddfbc88c3286bda2c163b1443f388862a9",
+    "static/specs/hdip-cla/0.1/a12/runner-policy.json": "0352eba74b4f921ea612c0c2d3daa2ce3865803c1b32ac2a7630a972405a8d66",
+    "static/specs/hdip-cla/0.1/a2/relationship-traceability-registry.json": "6e05bad57f97d9797de821a1e4bbc6db90c369ab31f03284941b76a2a0571d4f",
+    "static/specs/hdip-cla/0.1/a3/invariant-conformance-catalogue.json": "057962691320348fde21423b10be27658c7c63ed4873b22c98fb607223936364",
+    "static/specs/hdip-cla/0.1/a5/canonical-architecture-graph.jsonld": "ee0ea0a972af3d5979a71bf0dc4b7270c8c378e444bc5e398177dd962bff681d",
+    "static/specs/hdip-cla/0.1/a5/canonical-architecture-graph.ttl": "8fc979b225c6c98c0040e3d06c2a467f3ae35b6e37fae43085326bfeca44194a",
+    "static/specs/hdip-cla/0.1/a5/canonical-iri-policy.json": "ecf10fbf3e9c250ff991a032a90a20feee1b7768c2e0a3a8c1091a57f367ecd6",
+    "static/specs/hdip-cla/0.1/a5/hdip-cla-context.jsonld": "1148614828cf8b0eb5908048867145ca89854295ec775a6320ae83b3c9f162fe",
+    "static/specs/hdip-cla/0.1/a6/architecture-structural-shapes.ttl": "5b7c052f00f34e261d04a0bc13b7004fdb1a43d10967dde8b6f6eedea885953f",
+    "static/specs/hdip-cla/0.1/a6/fixture-negative-bad-target-nodekind.ttl": "98852f60ffe8836d1eeb2107bdb5a93d556603c39fecdab383d8e3e5e9f0d99a",
+    "static/specs/hdip-cla/0.1/a6/fixture-negative-duplicate-id.ttl": "0da8adeb8d0d37c41c157230c8547238f196dcf121a4c2d2bf210348c9d38735",
+    "static/specs/hdip-cla/0.1/a6/fixture-negative-missing-source.ttl": "f8f6bcf3d80d09e50ea15ad631bdce9dc02b0f3a58bd786e2a80c5db6ed6f709",
+    "static/specs/hdip-cla/0.1/a7/a1-architecture-elements.schema.json": "4317e9d6d31535136321ae3ea47579a7d7c56b4c9ba643722a694032e4e17628",
+    "static/specs/hdip-cla/0.1/a7/a2-relationship-traceability.schema.json": "96b0fa73c55551134da27ab50389c1b8fe74e7814a63d91aa46624da1073d2db",
+    "static/specs/hdip-cla/0.1/a7/a3-invariant-conformance.schema.json": "32d9764dc364176f1ce83c63145c6f663a68ac84244ac8573c0fea34e80381d5",
+    "static/specs/hdip-cla/0.1/a7/a5-canonical-iri-policy.schema.json": "8e9c86f7de0b9c6e6544cffe2f9ea3312a0ec3b9152a11743d56c7e0756e8a1f",
+    "static/specs/hdip-cla/0.1/a7/a5-expanded-graph.schema.json": "7771ad9970bf910b5f3c8aa42f2cc8d349f761c08b6862e9e0e8c84ec203c98d",
+    "static/specs/hdip-cla/0.1/a7/a5-jsonld-context.schema.json": "64886ab96e54ce27660c6710be547beae819c5a44e4b73ef34d192be68341d6f",
+    "static/specs/hdip-cla/0.1/a8/consumer-experience-projection-declaration.schema.json": "fd8cc022b5f7b4b9801665731800d9e195f8efd99dadbf9ca75a788191194b1b",
+    "static/specs/hdip-cla/0.1/a8/external-boundary-contract-declaration.schema.json": "35e06db54013bba4552d4156b67ff3caa899fefec035b94c9d24f66464bea1b1",
+    "static/specs/hdip-cla/0.1/a8/interaction-contract-declaration.schema.json": "0ac4617dc2effa6f4993589301623bb23f4768b0c5b9a683ff2707e29c0db65b",
+    "static/specs/hdip-cla/0.1/a8/lifecycle-declaration.schema.json": "0787efb1749c93359199b8a6ff51730e296f45cee52d0616f02f986b1454df6a",
+    "static/specs/hdip-cla/0.1/a8/profile-declaration.schema.json": "55ca3b813305d4f5ea1e87a15a63bff630cc59f99e2791d19b9a4c8a1cb23c76",
+    "static/specs/hdip-cla/0.1/a8/realization-profile-binding-declaration.schema.json": "f5277639fe589d6b308cf1f6de44175826f701246d3308c8c914b03cce2a4535",
+    "static/specs/hdip-cla/0.1/a9/example-corpus.json": "3bc92eb7f42aa1ea021dc85054e862e4cb5f4ad783bc30f2915d05b415e48699",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-01-data_pdep/lifecycle-declaration.json": "019bf6def5a51f7c72e803e62b03943178501b5a66ee5f0371d616938e5ffa20",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-01-data_pdep/manifest.json": "72740f27ca603b4bf298b5c2afdebe343cf95ae872d0b181ef8ec6301494748e",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-01-data_pdep/profile-declaration.json": "ebd19e5604de5e1b5735c6d178641ca6362884180b93c8b0a531a65cdc72a3e7",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-01-data_pdep/realization-profile-binding-declaration.json": "4f49d46e0a10578844539f8f28ec7eec8a692703abb5248c21b5e7d0decab78a",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-02-information_formation/lifecycle-declaration.json": "c5b80ebb59cbd71c4db7ace930a4f265f809a2b1b6521df604f3b71b6dd60f36",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-02-information_formation/manifest.json": "482cd16d895bcfebed10e19166e668ec4d300974272559fcf1155707689ebb90",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-02-information_formation/profile-declaration.json": "1fed493149122414ffca7c7597eec56934844241816ee36782ec28944aefa017",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-02-information_formation/realization-profile-binding-declaration.json": "c997a5aaa748e3b2b80db8984db1c6448a8e4427e588ed75c1a48f4e93e39b45",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-03-ai_external_provider/external-boundary-contract-declaration.json": "7cbb08fa5a847800434731e9c731e2f33bd37e5e43b46b3686239d5cb17d7042",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-03-ai_external_provider/lifecycle-declaration.json": "8d2cb7ae6f2beaa8469949ca883440692b08e15178e482ce3fd9238bd40a572b",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-03-ai_external_provider/manifest.json": "ccde1e5ac1db8d7c2a03f504a660f44951d46298c24ccb74e698f0c183f6ebdc",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-03-ai_external_provider/profile-declaration.json": "c0335a7e61d7fa438c5d6fa37118419f6e4d6fc0c252fa7641e41a3bbdf4dcca",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-03-ai_external_provider/realization-profile-binding-declaration.json": "20cb7cf19590cb1e1af3f060a63ec2e1cfe21e8b6127e0ca7bb769bfd3465386",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-04-intent_consumption/consumer-experience-projection-declaration.json": "c740af070d8ef163373fa6e7a1dfae82493bdc07d8059f18ca10d8d4441c9098",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-04-intent_consumption/interaction-contract-declaration.json": "7c9e5630c3a5384cd09738a28b37b11bea5e7eecb2b0830fbfc396ecfda88c7f",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-04-intent_consumption/lifecycle-declaration.json": "8276838efd6446a7e98013933e7fce533c1d8817e72f3b2709265782539978eb",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-04-intent_consumption/manifest.json": "b59cf14a507232175dfc23fe280d725f9ab3d4f80edf35efcfe6bcafa559402f",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-05-repeated_runtime/consumer-experience-projection-declaration.json": "bbbe6ebfdc073c827e5086822e4d62efe78b2e01f5b91f4546500f7666c1e44c",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-05-repeated_runtime/interaction-contract-declaration.json": "bc57bbbb36526f672750bb380cd51140adbe8390a803e925972a0748bb933e2d",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-05-repeated_runtime/lifecycle-declaration.json": "ca8beda45194b4b2df457c9e7bc5d0986198edbe550a011cf2c4d014a05db083",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-05-repeated_runtime/manifest.json": "024cd7ed80d7bd0aae327b5caf45fd403f2de29c44984c6b436f831a38bd06cf",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-06-access_denial/external-boundary-contract-declaration.json": "5b1ec23746e2f6f67a91fca3d3fe624344d6feafb454868364cc67e26f020feb",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-06-access_denial/interaction-contract-declaration.json": "77fb9cfc55b8c6b0ba099af117a9fe2cfd671ff589d9f1c6120759669095c832",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-06-access_denial/lifecycle-declaration.json": "1e2c29ac812521ea5b0a389e6a7e9f28efd69ac43678beba01ae2cfc2c49b90b",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-06-access_denial/manifest.json": "1b24dd584989b2edb4904eeb5d1c3c5ef8139c9ecfe718e770fd1b560fc95329",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-07-governing_revocation/external-boundary-contract-declaration.json": "00b85e618a65d3a88d3ded5c457e852d72647c32ab8ab3b0a91935402faca318",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-07-governing_revocation/interaction-contract-declaration.json": "057901db7f69b19971e074488ae9b0a9d3f7b1afd25f518279d92e3f1d2523ac",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-07-governing_revocation/manifest.json": "d0bf8e1e1661b1a9d72962688812274c5a476503a169018a53555f0fa59d435e",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-07-governing_revocation/profile-declaration.json": "0067f64451df1eee5d210fc691168b9acac91f0c062b9cc231313ed829131e9e",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-08-outcome_evolution/interaction-contract-declaration.json": "6480a6e8b8f76aba6db288c5a4df8333ce183c84fb55fb09dc39f752c5084c01",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-08-outcome_evolution/lifecycle-declaration.json": "c12c8ecb4fa0bb36796f35460d1c86e7123b38f68f3d7075a6577745299afcb0",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-08-outcome_evolution/manifest.json": "aeb68ea397ef9c87e902180090bc02d4fd22956b79578dc40a526a7ac0542ff3",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-08-outcome_evolution/profile-declaration.json": "b0378860915efb005b81ccbdcaf5d0c9a60dd093651972894b7207a01159769f",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-09-federated_consumption/external-boundary-contract-declaration.json": "4b4b99adfe8e86b0233408efbdf453ddb474482c812b8ce153c07b0c2bd45eaa",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-09-federated_consumption/lifecycle-declaration.json": "68d2667e7848bf3014b62c701a7b9ae6d92e09d2660184466b808e7f188d8cb7",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-09-federated_consumption/manifest.json": "b14a41559a90268a664cde913732927b0682d4d06dba100a01911442e3d61ab5",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-09-federated_consumption/profile-declaration.json": "90eaf3574fc3cf59be94a8b692471127638c1440f02b421dc4c68b607b3f18f5",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-09-federated_consumption/realization-profile-binding-declaration.json": "1f8afa433b31c6ccee2899367c226d189ab8bcce0f5ace25494ae31d7721a81b",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-10-provider_recovery/external-boundary-contract-declaration.json": "4e0d3e9de881301bad7b2942c2b00fdcf9f6e7f1a09ea086a710ab610393b98f",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-10-provider_recovery/lifecycle-declaration.json": "ef81a44ea1639ef8d126410151b241eb498997a56564243034258b85a4c2e917",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-10-provider_recovery/manifest.json": "b91ac135e563c314f060ec53292d2d6f065258b49d6a9b465d9be5d747f2d8cf",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-10-provider_recovery/realization-profile-binding-declaration.json": "98abebc7a2f4a9de288bded6c8f2efd59987ddd893394379c810556db2972d47",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-11-compound_cross_family/lifecycle-declaration.json": "8944a2c57d2d977d82d0848e8caa5b1993c90b0098972bf1e9b3505bab5d8033",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-11-compound_cross_family/manifest.json": "d4e8095015fbbcdada0f73668883826b5f954b28a439562d9d4e7ce826b5387a",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-11-compound_cross_family/profile-declaration.json": "502b0f76786b033905425a869550a67076234531b455dd748229190f2b1a4872",
+    "static/specs/hdip-cla/0.1/a9/examples/a9-11-compound_cross_family/realization-profile-binding-declaration.json": "77ff719517fe010d5fcb8c60a152555a831732ec90ea6e8af16636181c469767"
+  },
+  "runFingerprint": "ea4b8d1c8b7ae2385b3da3240eee93ee39cd5b000487482cdc00b7729f8e8db2",
+  "assessmentIntake": null,
+  "architectureConformance": "NOT_ESTABLISHED",
+  "machineAssignedM16Results": 0,
+  "independentSHACLProcessorRun": false,
+  "docusaurusBuildRun": false,
+  "limitations": [
+    "Machine test PASS proves bounded formalization checks only.",
+    "A11 synthetic contradictions do not prove real-world violations.",
+    "Local A6 SHACL subset does not substitute for independent SHACL processing.",
+    "External M16 assessor identities, evidence and past assessment digests are not authenticated.",
+    "No automatically established M16 conformance outcome."
+  ]
+}

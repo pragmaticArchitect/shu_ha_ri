@@ -1,0 +1,41 @@
+{
+  "id": "HDIP-CLA-0.1-A14-VALIDATION",
+  "status": "PASSED_BOUNDED_REGRESSION",
+  "humanReadableAuthority": "M17_FROZEN_HUMAN_READABLE",
+  "expectedMachineDisposition": "PASS_BOUNDED_REGRESSION",
+  "runnerGatesPassed": 10,
+  "runnerGatesTotal": 10,
+  "predecessorLockedBytesVerified": 243,
+  "A10PositiveCasesPassed": 16,
+  "A11NegativeBoundaryCasesMatched": 54,
+  "A12MachineGatesPassed": 5,
+  "A13ReconciledAssertions": 1715,
+  "A8SchemaFixturesPassed": 12,
+  "A12GuardTestsPassed": 12,
+  "A13GuardTestsPassed": 10,
+  "A14MutationGuardTestsPassed": 16,
+  "negativeIncompleteRunnerProbe": "FAIL_CLOSED_AS_EXPECTED",
+  "predecessorRepositoryFileCount": 245,
+  "predecessorUnchangedFiles": 243,
+  "predecessorIntentionallyChangedFiles": [
+    "docs/architecture/executable/hdip-cla-0.1-executable-programme.md",
+    "sidebars.ts"
+  ],
+  "newFiles": [
+    "docs/architecture/executable/hdip-cla-0.1-a14-regression-suite.md",
+    "static/specs/hdip-cla/0.1/a14/a13-predecessor-lock.json",
+    "static/specs/hdip-cla/0.1/a14/a14-regression-policy.json",
+    "static/specs/hdip-cla/0.1/a14/a14-regression-report.json",
+    "static/specs/hdip-cla/0.1/a14/a14-validation.json",
+    "static/specs/hdip-cla/0.1/a14/run_regression.py",
+    "static/specs/hdip-cla/0.1/a14/test_regression.py"
+  ],
+  "predecessorFilesRemoved": 0,
+  "architectureConformance": "NOT_ESTABLISHED",
+  "machineAssignedM16Results": 0,
+  "independentShaclProcessorValidation": "NOT_RUN",
+  "fullOwlEntailmentReasoning": "NOT_RUN",
+  "docusaurusBuild": "NOT_RUN",
+  "m16RealizationConformance": "NOT_ESTABLISHED",
+  "externalAuthorityAttestation": "NOT_PERFORMED"
+}

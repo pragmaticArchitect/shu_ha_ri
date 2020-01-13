@@ -1,0 +1,12 @@
+@prefix ns1: <https://kivanura.org/specs/hdip-cla/0.1/id/ontology/> .
+
+<https://kivanura.org/specs/hdip-cla/0.1/id/relationship-assertion/HDIP-CLA-A2-REL-0001> a ns1:RelationshipAssertion ;
+    ns1:assertionClass "PROFILE" ;
+    ns1:id "HDIP-CLA-A2-REL-0001" ;
+    ns1:modality "CANONICAL_SPECIALIZATION" ;
+    ns1:relationshipType <https://kivanura.org/specs/hdip-cla/0.1/id/relationship/APPLIES_TO_PROFILE_PATTERN> ;
+    ns1:source <https://kivanura.org/specs/hdip-cla/0.1/id/element/HDIP-REG-D01> ;
+    ns1:sourceDocument "docs/architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns.md" ;
+    ns1:target "not-an-iri" ;
+    ns1:targetScope "A1_ELEMENT" .
+

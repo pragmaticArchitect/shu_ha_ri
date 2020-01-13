@@ -1,0 +1,17 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-031",
+  "category": "EXPLICIT_CONTRADICTION",
+  "title": "Co-location asserted to grant semantic authority",
+  "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+  "m16TraceRefs": [
+    "M16-I01",
+    "M16-I05"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "check": "SHARED_REALIZATION_GRANTS_SEMANTIC_AUTHORITY",
+  "assertion": {
+    "code": "SHARED_REALIZATION_GRANTS_SEMANTIC_AUTHORITY",
+    "declared": true,
+    "fixtureOnly": true
+  }
+}

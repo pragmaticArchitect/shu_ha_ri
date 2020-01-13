@@ -1,0 +1,120 @@
+{
+  "summary": {
+    "stage": "A6",
+    "status": "STRUCTURAL_LAYER_IMPLEMENTED",
+    "authority": "M17 frozen human-readable",
+    "graphTripleCount": 13727,
+    "shapeTripleCount": 98,
+    "nodeShapes": 5,
+    "predecessorFileCount": 79,
+    "unchangedPredecessorFiles": 77,
+    "localChecksPassed": 93,
+    "localChecksTotal": 93,
+    "negativeFixtures": [
+      {
+        "fixture": "missing-source",
+        "violations": 1
+      },
+      {
+        "fixture": "bad-target-nodekind",
+        "violations": 1
+      },
+      {
+        "fixture": "duplicate-id",
+        "violations": 1
+      }
+    ],
+    "testEngine": "local SHACL-Core-property-constraint subset (not independent SHACL processor)",
+    "independentSHACLProcessorValidated": false,
+    "docusaurusBuildExecuted": false,
+    "outcome": "PASS_WITH_DECLARED_VALIDATION_BOUNDARY"
+  },
+  "focusedChecks": [
+    {
+      "check": "source_triple_count",
+      "passed": true,
+      "detail": 13727
+    },
+    {
+      "check": "source_relationship_count",
+      "passed": true,
+      "detail": 911
+    },
+    {
+      "check": "source_traceability_count",
+      "passed": true,
+      "detail": 332
+    },
+    {
+      "check": "a1_identity_count",
+      "passed": true,
+      "detail": 209
+    },
+    {
+      "check": "invariant_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mode_distribution",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no_same_as",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "graph_resource_iri_scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "portable_shape_subset_on_source_graph",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "turtle_shapes_parse",
+      "passed": true,
+      "detail": 98
+    },
+    {
+      "check": "positive_fixture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "negative_fixture_missing-source",
+      "passed": true,
+      "detail": [
+        "https://kivanura.org/specs/hdip-cla/0.1/id/relationship-assertion/HDIP-CLA-A2-REL-0001 https://kivanura.org/specs/hdip-cla/0.1/id/ontology/source minCount"
+      ]
+    },
+    {
+      "check": "negative_fixture_bad-target-nodekind",
+      "passed": true,
+      "detail": [
+        "https://kivanura.org/specs/hdip-cla/0.1/id/relationship-assertion/HDIP-CLA-A2-REL-0001 https://kivanura.org/specs/hdip-cla/0.1/id/ontology/target nodeKind"
+      ]
+    },
+    {
+      "check": "negative_fixture_duplicate-id",
+      "passed": true,
+      "detail": [
+        "https://kivanura.org/specs/hdip-cla/0.1/id/relationship-assertion/HDIP-CLA-A2-REL-0001 https://kivanura.org/specs/hdip-cla/0.1/id/ontology/id maxCount"
+      ]
+    },
+    {
+      "check": "sidebar_added",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "programme_updated",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

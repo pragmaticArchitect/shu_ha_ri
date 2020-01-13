@@ -1,0 +1,18 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-006",
+  "category": "SCHEMA_NEGATIVE",
+  "title": "Data PDEP missing final stage",
+  "expectedDisposition": "MACHINE_REJECTED",
+  "m16TraceRefs": [
+    "M16-I26"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "sourceDocument": "static/specs/hdip-cla/0.1/a9/examples/a9-01-data_pdep/lifecycle-declaration.json",
+  "mutations": [
+    {
+      "op": "remove",
+      "path": "/stageSet/10"
+    }
+  ],
+  "schemaDocument": "static/specs/hdip-cla/0.1/a8/lifecycle-declaration.schema.json"
+}

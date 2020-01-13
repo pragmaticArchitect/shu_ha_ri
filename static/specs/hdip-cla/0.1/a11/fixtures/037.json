@@ -1,0 +1,16 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-037",
+  "category": "EXPLICIT_CONTRADICTION",
+  "title": "Latest declared equivalent to governed-current",
+  "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+  "m16TraceRefs": [
+    "M16-I38"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "check": "LATEST_VERSION_ALWAYS_GOVERNED_CURRENT",
+  "assertion": {
+    "code": "LATEST_VERSION_ALWAYS_GOVERNED_CURRENT",
+    "declared": true,
+    "fixtureOnly": true
+  }
+}

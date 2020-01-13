@@ -1,0 +1,47 @@
+{
+  "stage": "A11",
+  "status": "NEGATIVE_BOUNDARY_TEST_CORPUS_COMPLETE",
+  "authority": "M17_FROZEN_HUMAN_READABLE",
+  "baseline": "A10_COMPLETE",
+  "testCaseCount": 54,
+  "fixtureCategoryCounts": {
+    "SCHEMA_NEGATIVE": 21,
+    "REFERENCE_NEGATIVE": 6,
+    "MANIFEST_GUARD": 3,
+    "EXPLICIT_CONTRADICTION": 11,
+    "EVIDENCE_BOUNDARY": 10,
+    "SHACL_SUBSET_NEGATIVE": 3
+  },
+  "resultCounts": {
+    "MACHINE_REJECTED": 33,
+    "FLAGGED_DECLARED_CONTRADICTION": 11,
+    "INDETERMINATE_REVIEW_REQUIRED": 10
+  },
+  "expectedOutcomesMatched": 54,
+  "expectedOutcomesMismatched": 0,
+  "positiveA10RegressionPassed": 16,
+  "positiveA10RegressionTotal": 16,
+  "counterfactualFailureProbePassed": true,
+  "predecessorFileCount": 170,
+  "predecessorFilesUnchanged": 168,
+  "predecessorFilesChangedIntentionally": [
+    "docs/architecture/executable/hdip-cla-0.1-executable-programme.md",
+    "sidebars.ts"
+  ],
+  "predecessorFilesRemoved": [],
+  "m16AssessmentPerformed": false,
+  "architectureConformance": "NOT_ESTABLISHED",
+  "independentSHACLProcessorExecuted": false,
+  "docusaurusBuildExecuted": false,
+  "dependencies": [
+    "jsonschema",
+    "rdflib"
+  ],
+  "limitations": [
+    "A6 SHACL coverage uses only supported local A6 Core property subset; no independent SHACL processor",
+    "Explicit synthetic contradictions are not verified real-world implementation facts",
+    "Missing judgement/evidence stays indeterminate pending an accountable M16 assessment",
+    "A12 generalized conformance engine is not implemented in A11"
+  ],
+  "outcome": "PASS_WITH_ASSESSMENT_BOUNDARY"
+}

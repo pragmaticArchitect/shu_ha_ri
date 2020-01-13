@@ -1,0 +1,17 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-038",
+  "category": "EXPLICIT_CONTRADICTION",
+  "title": "Machine proof claimed for HYBRID mode",
+  "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+  "m16TraceRefs": [
+    "M16-I25",
+    "M16-I37"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "check": "HYBRID_CHECKS_AUTOMATICALLY_PROVE_SATISFACTION",
+  "assertion": {
+    "code": "HYBRID_CHECKS_AUTOMATICALLY_PROVE_SATISFACTION",
+    "declared": true,
+    "fixtureOnly": true
+  }
+}

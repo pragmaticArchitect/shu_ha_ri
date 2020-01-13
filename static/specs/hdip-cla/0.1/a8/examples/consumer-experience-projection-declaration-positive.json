@@ -1,0 +1,10 @@
+{
+  "recordId": "EXAMPLE-001",
+  "version": "0.1",
+  "scope": "Illustrative bounded declaration (not certified)",
+  "sourceAuthority": "HDIP-CLA-0.1-M17",
+  "projectionKind": "CONSUMER_EXPERIENCE_PROJECTION",
+  "lifecycleRef": "EXAMPLE-SSCF",
+  "personaOrConsumerContext": "EXAMPLE-CONSUMER",
+  "notAPlaneOrABB": true
+}

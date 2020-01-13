@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kivanura.org/specs/hdip-cla/0.1/a8/realization-profile-binding-declaration.schema.json",
+  "title": "realization-profile-binding-declaration",
+  "type": "object",
+  "required": [
+    "recordId",
+    "version",
+    "scope",
+    "sourceAuthority",
+    "realizationPatternRefs",
+    "profileDeclarationRefs",
+    "mappedLogicalResponsibilityRefs",
+    "mappingDoesNotTransferAuthority"
+  ],
+  "properties": {
+    "recordId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceAuthority": {
+      "enum": [
+        "HDIP-CLA-0.1-M17"
+      ]
+    },
+    "realizationPatternRefs": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "M14-RP-01",
+          "M14-RP-02",
+          "M14-RP-03",
+          "M14-RP-04",
+          "M14-RP-05",
+          "M14-RP-06",
+          "M14-RP-07",
+          "M14-RP-08"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "profileDeclarationRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "mappedLogicalResponsibilityRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "realizationUnits": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "externalAuthorityRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "mappingDoesNotTransferAuthority": {
+      "const": true
+    }
+  },
+  "additionalProperties": false
+}

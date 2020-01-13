@@ -1,0 +1,46 @@
+{
+  "exampleId": "HDIP-CLA-A9-10",
+  "title": "Provider Failure, Migration, Rebinding & Recovery",
+  "scenarioKind": "PROVIDER_RECOVERY",
+  "normativeStatus": "ILLUSTRATIVE_ONLY",
+  "assessmentStatus": "NOT_ASSESSED",
+  "claimOutcome": "INDETERMINATE",
+  "family": "INTELLIGENCE",
+  "m15FlowRefs": [
+    "M15-FLOW-10"
+  ],
+  "m12InteractionRefs": [
+    "HDIP-M12-INT-10",
+    "HDIP-M12-INT-16"
+  ],
+  "m13BoundaryRefs": [
+    "HDIP-BND-08",
+    "HDIP-BND-12"
+  ],
+  "m14ProfileRef": "M14-PP-03",
+  "m14RealizationPatternRef": "M14-RP-08",
+  "declarations": [
+    {
+      "kind": "lifecycle-declaration",
+      "path": "examples/a9-10-provider_recovery/lifecycle-declaration.json",
+      "schema": "../a8/lifecycle-declaration.schema.json"
+    },
+    {
+      "kind": "external-boundary-contract-declaration",
+      "path": "examples/a9-10-provider_recovery/external-boundary-contract-declaration.json",
+      "schema": "../a8/external-boundary-contract-declaration.schema.json"
+    },
+    {
+      "kind": "realization-profile-binding-declaration",
+      "path": "examples/a9-10-provider_recovery/realization-profile-binding-declaration.json",
+      "schema": "../a8/realization-profile-binding-declaration.schema.json"
+    }
+  ],
+  "architecturalBoundary": "Rebinding cannot erase provenance, governed versions or historical execution context.",
+  "historicalTruthPolicy": "Preserve evidence as-of governing versions; no rewriting later",
+  "caveats": [
+    "Schema-valid is not invariant SATISFIED",
+    "No Product qualification, entitlement or consequential Decision authority implied",
+    "Example-specific declaration fields are not normative M17 requirements"
+  ]
+}

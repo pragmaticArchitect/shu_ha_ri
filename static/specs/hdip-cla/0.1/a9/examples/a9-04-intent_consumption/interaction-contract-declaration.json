@@ -1,0 +1,18 @@
+{
+  "recordId": "HDIP-CLA-A9-04-INTERACTION_CONTRACT_DECLARATION",
+  "version": "0.1",
+  "scope": "Illustrative Intent-First Product Consumption; non-normative and NOT_ASSESSED",
+  "sourceAuthority": "HDIP-CLA-0.1-M17",
+  "interactionId": "HDIP-M12-INT-11",
+  "interactionContractVersion": "0.1",
+  "producerPlaneRefs": [
+    "HDIP-P1"
+  ],
+  "consumerPlaneRefs": [
+    "HDIP-P2"
+  ],
+  "logicalContractNotTechnologyBinding": true,
+  "governingContextRefs": [
+    "Illustrative governing context; source and target planes require per-interaction review"
+  ]
+}

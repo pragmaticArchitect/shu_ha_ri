@@ -1,0 +1,89 @@
+{
+  "id": "HDIP-CLA-0.1-A13-DISPOSITION-LEDGER",
+  "status": "PASS_BOUNDED_RECONCILIATION",
+  "sourceAuthority": "docs/architecture/cla/hdip-cla-0.1-m17-cross-artifact-reconciliation-freeze.md",
+  "testedAssertedCount": 1715,
+  "passedCount": 1715,
+  "detectedFormalizationDefects": 0,
+  "gateDispositions": [
+    {
+      "gate": "FROZEN_M17_INVENTORY",
+      "status": "PASS",
+      "checked": 24,
+      "passed": 24,
+      "findings": []
+    },
+    {
+      "gate": "M16_A1_A2_A3_CONFORMANCE_SEMANTICS",
+      "status": "PASS",
+      "checked": 107,
+      "passed": 107,
+      "findings": []
+    },
+    {
+      "gate": "A1_A2_A3_A5_GRAPH_EXACT_REPRESENTATION",
+      "status": "PASS",
+      "checked": 1501,
+      "passed": 1501,
+      "findings": []
+    },
+    {
+      "gate": "A4_TO_A5_IRI_AND_RDF_EQUIVALENCE",
+      "status": "PASS",
+      "checked": 15,
+      "passed": 15,
+      "findings": []
+    },
+    {
+      "gate": "A6_A7_A8_SCHEMA_AND_SHAPE_COHERENCE",
+      "status": "PASS",
+      "checked": 15,
+      "passed": 15,
+      "findings": []
+    },
+    {
+      "gate": "A9_A10_A11_A12_CORPUS_AND_RUNNER",
+      "status": "PASS",
+      "checked": 31,
+      "passed": 31,
+      "findings": []
+    },
+    {
+      "gate": "M17_COMPATIBILITY_AUTHORITY_SEPARATION",
+      "status": "PASS",
+      "checked": 22,
+      "passed": 22,
+      "findings": []
+    }
+  ],
+  "verificationLimitations": [
+    {
+      "id": "LIM-SHACL",
+      "status": "NOT_INDEPENDENTLY_VERIFIED",
+      "meaning": "A6 SHACL uses bounded local evaluator, no independent SHACL processor test"
+    },
+    {
+      "id": "LIM-BUILD",
+      "status": "NOT_RUN",
+      "meaning": "No Docusaurus/npm build included in A13 reconciliation"
+    },
+    {
+      "id": "LIM-M16-ASSESSMENT",
+      "status": "OUTSIDE_MACHINE_BOUNDARY",
+      "meaning": "No accountable HYBRID/ASSESSMENT satisfaction or real implementation certification"
+    },
+    {
+      "id": "LIM-OWL",
+      "status": "NOT_INDEPENDENTLY_VERIFIED",
+      "meaning": "No full OWL reasoner/entailment profile certification"
+    },
+    {
+      "id": "LIM-EXTERNAL",
+      "status": "OUTSIDE_MACHINE_BOUNDARY",
+      "meaning": "No authoritative GEDRM/GEARM/GEAIRM/BPS/Product-family semantic attestation"
+    }
+  ],
+  "m16ConformanceNotEstablished": true,
+  "reconciliationIsNotCertification": true,
+  "remediation": "Never resolve disagreement by silent human-source edits; propose source-led formalization correction or governed errata."
+}

@@ -1,0 +1,24 @@
+token,disposition,meaning
+SELECT,PERMITTED,Select an applicable baseline option or pattern.
+REQUIRE,PERMITTED,Make an optional/conditional baseline responsibility mandatory within Profile scope.
+TIGHTEN,PERMITTED,"Strengthen a threshold, control, evidence or lifecycle obligation."
+CONTEXTUALIZE,PERMITTED,Bind a baseline concept to a bounded enterprise/domain context without redefining it.
+SPECIALIZE,PERMITTED,Introduce a family/domain specialization consistent with the parent authority.
+NARROW,PERMITTED,Reduce allowed choices or topology/interaction options for a bounded risk/context reason.
+EXTEND,PERMITTED,Add local obligations/fields/controls that do not conflict with core meaning.
+ADD_EVIDENCE,PERMITTED,"Require stronger/additional evidence, assurance or human review."
+RESTRICT_REALIZATION,PERMITTED,Constrain permitted M14 patterns/localities/providers for the bounded Profile.
+WEAKEN_CORE,PROHIBITED,Reduce an applicable core invariant or mandatory baseline obligation.
+WAIVE_TO_PASS,PROHIBITED,Waive a violation and still report Profile/Core conformance.
+REDEFINE_EXTERNAL_SEMANTICS,PROHIBITED,Take ownership of GEDRM/GEARM/GEAIRM or other external semantics.
+REDEFINE_PRODUCTNESS,PROHIBITED,Redefine BPS/PIN Product qualification or Product Intrinsic Nature.
+TRANSFER_AUTHORITY,PROHIBITED,"Infer Data, Product, policy or Decision authority from platform participation."
+COLLAPSE_PRODUCT_FAMILIES,PROHIBITED,Erase Data/Information/AI Product-family distinctions.
+UNIVERSALIZE_SPECIALIZATION,PROHIBITED,"Impose a Data-, Information- or Intelligence-specific lifecycle/construct on all families without authority/evidence."
+REMOVE_APPLICABLE_OVERLAY,PROHIBITED,Suppress an applicable X1-X9 obligation because implementation is inconvenient.
+REMOVE_EVIDENCE_OBLIGATION,PROHIBITED,Eliminate material evidence/currentness/history requirements needed by the parent baseline.
+REDEFINE_CANONICAL_STRUCTURE,PROHIBITED,"Silently rename/redefine P1-P5, X1-X9, ABBs or M12/M13 identities as different architecture semantics."
+CONFLATE_REGISTRY_CATALOG_MARKETPLACE,PROHIBITED,Erase their canonical responsibility distinction.
+INFER_PRODUCTNESS,PROHIBITED,"Create Product status from registration, publication, deployment, exposure or repeated use."
+REWRITE_HISTORY,PROHIBITED,Project latest Profile/policy/topology state backwards onto earlier occurrences.
+N/A_BY_CONVENIENCE,PROHIBITED,Mark a material core obligation not applicable merely to avoid remediation.

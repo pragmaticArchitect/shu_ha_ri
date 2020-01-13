@@ -1,0 +1,17 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-033",
+  "category": "EXPLICIT_CONTRADICTION",
+  "title": "Data PDEP stages imposed universally",
+  "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+  "m16TraceRefs": [
+    "M16-I19",
+    "M16-I26"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "check": "DATA_PDEP_UNIVERSAL_FOR_ALL_FAMILIES",
+  "assertion": {
+    "code": "DATA_PDEP_UNIVERSAL_FOR_ALL_FAMILIES",
+    "declared": true,
+    "fixtureOnly": true
+  }
+}

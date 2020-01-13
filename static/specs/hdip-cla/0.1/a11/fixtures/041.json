@@ -1,0 +1,16 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-041",
+  "category": "EXPLICIT_CONTRADICTION",
+  "title": "Provider realization claims adjacent conformance",
+  "expectedDisposition": "FLAGGED_DECLARED_CONTRADICTION",
+  "m16TraceRefs": [
+    "M16-I47"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "check": "REALIZATION_PATTERN_INHERITS_ADJACENT_CONFORMANCE",
+  "assertion": {
+    "code": "REALIZATION_PATTERN_INHERITS_ADJACENT_CONFORMANCE",
+    "declared": true,
+    "fixtureOnly": true
+  }
+}

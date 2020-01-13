@@ -1,0 +1,40 @@
+{
+  "id": "HDIP-CLA-0.1-A5-IRI-POLICY",
+  "status": "CANONICAL_SPECIFICATION_IDENTIFIERS",
+  "humanReadableAuthority": "M17_FROZEN",
+  "canonicalBase": "https://kivanura.org/specs/hdip-cla/0.1/id/",
+  "publisherDomain": "kivanura.org",
+  "dereferenceability": "NOT_TESTED_OR_CLAIMED",
+  "uriChange": "A4 provisional to A5 canonical only; frozen source identifiers and semantics unchanged",
+  "identityScopes": {
+    "element": "element/",
+    "external": "external-reference/",
+    "derivation": "derivation-reference/",
+    "historical": "historical-term/",
+    "relationRecord": "relationship-assertion/",
+    "traceRecord": "traceability-assertion/",
+    "relationshipPredicate": "relationship/",
+    "vocabulary": "vocabulary/",
+    "ontology": "ontology/"
+  },
+  "encoding": {
+    "method": "RFC3986 percent-encoding",
+    "safe": "-._~",
+    "decode": "percent-decode final suffix; do not lowercase or normalize source identifiers",
+    "reserved": "No fragment/hash-dependent identity inference"
+  },
+  "versioning": {
+    "specification": "0.1 embedded in stable canonical resource IRI",
+    "semanticChange": "governed new version; do not mutate historical assertions",
+    "serializations": "Turtle, N-Triples, JSON-LD share one canonical IRI per source identity",
+    "historical": "historical aliases remain historical-term resources; never owl:sameAs"
+  },
+  "externalAuthorities": "Scoped references to external authority identifiers, never assertions of ownership; no impersonation of issuer IRIs",
+  "iriGovernance": {
+    "authorityBoundary": "HDIP-CLA machine identity, not semantic/Product/Data/policy/Decision authority",
+    "domainPublication": "Requires site owner and deployment confirmation; unresolved IRIs do not invalidate logical graph identity",
+    "iriRedirectPolicy": "once publicly published do not repurpose identifiers; preserve redirects when possible",
+    "noInference": "No owl:sameAs, owl:equivalentClass, inverse/transitive characteristics or closed world defaults"
+  },
+  "a4GraphMetadata": "A4 provisional metadata retained as literal historical source assertion, not active A5 policy"
+}

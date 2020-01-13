@@ -1,0 +1,19 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-023",
+  "category": "REFERENCE_NEGATIVE",
+  "title": "A2 A1-scoped source unresolved",
+  "expectedDisposition": "MACHINE_REJECTED",
+  "m16TraceRefs": [
+    "M16-I15"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "sourceDocument": "static/specs/hdip-cla/0.1/a2/relationship-traceability-registry.json",
+  "mutations": [
+    {
+      "op": "replace",
+      "path": "/relationships/0/source",
+      "value": "NO-SUCH-A1-ID"
+    }
+  ],
+  "check": "A2_RELATIONSHIP_ENDPOINTS"
+}

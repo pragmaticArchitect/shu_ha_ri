@@ -1,0 +1,38 @@
+{
+  "recordId": "HDIP-CLA-A9-08-PROFILE_DECLARATION",
+  "version": "0.1",
+  "scope": "Illustrative Outcome / Value Feedback into Product Evolution; non-normative and NOT_ASSESSED",
+  "sourceAuthority": "HDIP-CLA-0.1-M17",
+  "profilePatternRefs": [
+    "M14-PP-01"
+  ],
+  "dimensions": {
+    "identityVersion": {},
+    "scope": {},
+    "parentBaseline": {},
+    "externalAuthorities": {},
+    "applicablePlanesABBs": {},
+    "applicableOverlays": {},
+    "lifecycleSpecialization": {},
+    "registryProjectionSpecialization": {},
+    "interactionSpecialization": {},
+    "boundarySpecialization": {},
+    "allowedRealizationPatterns": {},
+    "evidenceAssurance": {},
+    "nonApplicabilityRationale": {},
+    "conformanceClaim": {},
+    "invariantApplicabilityMatrix": {},
+    "specializationOperationRecord": {},
+    "profileCompositionConflictRecord": {},
+    "profileAssessmentEvidenceState": {}
+  },
+  "specializationOperations": [
+    {
+      "operation": "TIGHTEN",
+      "baselineReference": "M16-I01",
+      "rationale": "Illustrative stricter constraint only; no assessment of fulfilment"
+    }
+  ],
+  "assessmentStatus": "NOT_ASSESSED",
+  "noWaiverOfCoreInvariants": true
+}

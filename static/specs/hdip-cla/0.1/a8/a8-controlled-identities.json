@@ -1,0 +1,149 @@
+{
+  "dataPdepStages": [
+    {
+      "number": 0,
+      "name": "Preconditions"
+    },
+    {
+      "number": 1,
+      "name": "Intent Record"
+    },
+    {
+      "number": 2,
+      "name": "Authority Confirmation"
+    },
+    {
+      "number": 3,
+      "name": "Policy Intent"
+    },
+    {
+      "number": 4,
+      "name": "Semantic Descriptor (DPROD Draft)"
+    },
+    {
+      "number": 5,
+      "name": "Business Assertions / Evidence Rules"
+    },
+    {
+      "number": 6,
+      "name": "Usage Contract"
+    },
+    {
+      "number": 7,
+      "name": "Product Preview (Abstract)"
+    },
+    {
+      "number": 8,
+      "name": "Compilation"
+    },
+    {
+      "number": 9,
+      "name": "Deployment"
+    },
+    {
+      "number": 10,
+      "name": "DPROD Finalization & Registration"
+    }
+  ],
+  "sscfStages": [
+    {
+      "number": 1,
+      "name": "Declare Consumption Intent"
+    },
+    {
+      "number": 2,
+      "name": "Resolve Product Set"
+    },
+    {
+      "number": 3,
+      "name": "Evaluate Product Fit and Request Access"
+    },
+    {
+      "number": 4,
+      "name": "Provision Purpose-Bound Access"
+    },
+    {
+      "number": 5,
+      "name": "Consume Through CEP"
+    },
+    {
+      "number": 6,
+      "name": "Capture Usage Signals"
+    },
+    {
+      "number": 7,
+      "name": "Compute and Observe Product Signals"
+    },
+    {
+      "number": 8,
+      "name": "Decision, Feedback & Creation Loop"
+    }
+  ],
+  "m12Interactions": [
+    "HDIP-M12-INT-01",
+    "HDIP-M12-INT-02",
+    "HDIP-M12-INT-03",
+    "HDIP-M12-INT-04",
+    "HDIP-M12-INT-05",
+    "HDIP-M12-INT-06",
+    "HDIP-M12-INT-07",
+    "HDIP-M12-INT-08",
+    "HDIP-M12-INT-09",
+    "HDIP-M12-INT-10",
+    "HDIP-M12-INT-11",
+    "HDIP-M12-INT-12",
+    "HDIP-M12-INT-13",
+    "HDIP-M12-INT-14",
+    "HDIP-M12-INT-15",
+    "HDIP-M12-INT-16",
+    "HDIP-M12-INT-17",
+    "HDIP-M12-INT-18",
+    "HDIP-M12-INT-19",
+    "HDIP-M12-INT-20",
+    "HDIP-M12-INT-21"
+  ],
+  "m13BoundaryFamilies": [
+    "HDIP-BND-01",
+    "HDIP-BND-02",
+    "HDIP-BND-03",
+    "HDIP-BND-04",
+    "HDIP-BND-05",
+    "HDIP-BND-06",
+    "HDIP-BND-07",
+    "HDIP-BND-08",
+    "HDIP-BND-09",
+    "HDIP-BND-10",
+    "HDIP-BND-11",
+    "HDIP-BND-12"
+  ],
+  "m14ProfilePatterns": [
+    "M14-PP-01",
+    "M14-PP-02",
+    "M14-PP-03",
+    "M14-PP-04",
+    "M14-PP-05",
+    "M14-PP-06"
+  ],
+  "m14RealizationPatterns": [
+    "M14-RP-01",
+    "M14-RP-02",
+    "M14-RP-03",
+    "M14-RP-04",
+    "M14-RP-05",
+    "M14-RP-06",
+    "M14-RP-07",
+    "M14-RP-08"
+  ],
+  "permittedProfileOperations": [
+    "SELECT",
+    "REQUIRE",
+    "TIGHTEN",
+    "CONTEXTUALIZE",
+    "SPECIALIZE",
+    "NARROW",
+    "EXTEND",
+    "ADD_EVIDENCE",
+    "RESTRICT_REALIZATION"
+  ],
+  "authority": "Frozen M17; M10-M14 and M16 source; this catalogue is representational"
+}

@@ -1,0 +1,1689 @@
+{
+  "catalogueId": "HDIP-CLA-A3-INVARIANT-CONFORMANCE-CATALOGUE",
+  "catalogueVersion": "0.1",
+  "status": "COMPLETE",
+  "humanReadableAuthority": [
+    "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md",
+    "docs/architecture/cla/hdip-cla-0.1-m17-cross-artifact-reconciliation-freeze.md"
+  ],
+  "a1IdentityRegistry": "/specs/hdip-cla/0.1/a1/architecture-element-registry.json",
+  "a2RelationshipTraceabilityRegistry": "/specs/hdip-cla/0.1/a2/relationship-traceability-registry.json",
+  "fidelityPolicy": {
+    "humanReadablePrecedence": true,
+    "noSilentRedesign": true,
+    "assessmentModeBoundaryPreserved": true,
+    "conditionalPositiveOutcomeDefined": false,
+    "note": "A3 formalizes M16 conformance semantics. It does not make HYBRID or ASSESSMENT invariants machine-decidable."
+  },
+  "summary": {
+    "architectureInvariants": 48,
+    "invariantFamilies": 7,
+    "assessmentModes": 3,
+    "applicabilityStates": 3,
+    "invariantResults": 4,
+    "conformanceSubjectClasses": 6,
+    "claimTypes": 3,
+    "overallOutcomes": 3,
+    "evidencePackageDimensions": 18,
+    "profileDimensions": 18,
+    "permittedProfileOperations": 9,
+    "prohibitedProfileOperations": 14,
+    "antiPatterns": 20,
+    "normativeRules": 64
+  },
+  "invariantFamilies": [
+    {
+      "number": 1,
+      "name": "Authority, semantics and jurisdiction",
+      "members": [
+        "M16-I01",
+        "M16-I02",
+        "M16-I03",
+        "M16-I04",
+        "M16-I05",
+        "M16-I06",
+        "M16-I07"
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Responsibility, structure and topology",
+      "members": [
+        "M16-I08",
+        "M16-I09",
+        "M16-I10",
+        "M16-I11",
+        "M16-I12",
+        "M16-I13",
+        "M16-I14",
+        "M16-I15"
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Data, Information, Intelligence and Product identity",
+      "members": [
+        "M16-I16",
+        "M16-I17",
+        "M16-I18",
+        "M16-I19",
+        "M16-I20",
+        "M16-I21"
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Governed self-service, lifecycle and experience",
+      "members": [
+        "M16-I22",
+        "M16-I23",
+        "M16-I24",
+        "M16-I25",
+        "M16-I26",
+        "M16-I27",
+        "M16-I28"
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Projection, compilation, registry and discovery",
+      "members": [
+        "M16-I29",
+        "M16-I30",
+        "M16-I31",
+        "M16-I32",
+        "M16-I33",
+        "M16-I34"
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Evidence, trust, version and historical meaning",
+      "members": [
+        "M16-I35",
+        "M16-I36",
+        "M16-I37",
+        "M16-I38",
+        "M16-I39",
+        "M16-I40"
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Derived conformance closure",
+      "members": [
+        "M16-I41",
+        "M16-I42",
+        "M16-I43",
+        "M16-I44",
+        "M16-I45",
+        "M16-I46",
+        "M16-I47",
+        "M16-I48"
+      ]
+    }
+  ],
+  "assessmentModes": [
+    {
+      "token": "STRUCTURAL",
+      "meaning": "Material portions can be checked from declared architecture structure, identifiers, mappings or versioned configuration.",
+      "typicalEvidence": "Architecture registry, mapping graph/table, declared lifecycle/profile structure, identifier/version checks.",
+      "automationCeiling": "May support decisive machine checks only for conditions fully represented by the formal artifacts; does not prove runtime correctness or assurance."
+    },
+    {
+      "token": "HYBRID",
+      "meaning": "Structural checks are useful but sufficient assessment also requires interpretation of authority, semantics, behavior, evidence or context.",
+      "typicalEvidence": "Structural evidence plus architecture review, contract evidence, policy/currentness evidence, runtime samples.",
+      "automationCeiling": "Machine checks may support assessment; accountable review is required for final satisfaction."
+    },
+    {
+      "token": "ASSESSMENT",
+      "meaning": "Accountable judgement is primary; machine checks can support but cannot safely determine the conclusion by themselves.",
+      "typicalEvidence": "Architecture rationale, assurance review, contextual trust/fitness assessment, governance judgement.",
+      "automationCeiling": "Machine support only; final satisfaction cannot be asserted automatically."
+    }
+  ],
+  "applicabilityStates": [
+    {
+      "token": "APPLICABLE",
+      "meaning": "The invariant architectural condition materially arises within the assessed subject/scope.",
+      "finalResultAllowed": [
+        "SATISFIED",
+        "VIOLATED",
+        "INDETERMINATE"
+      ]
+    },
+    {
+      "token": "NOT_APPLICABLE",
+      "meaning": "The condition genuinely does not arise in the bounded scope and that conclusion is justified.",
+      "finalResultAllowed": [
+        "NOT_APPLICABLE"
+      ]
+    },
+    {
+      "token": "UNDETERMINED",
+      "meaning": "During assessment, applicability itself cannot yet be established.",
+      "finalResultAllowed": [
+        "INDETERMINATE"
+      ],
+      "assessmentStateOnly": true
+    }
+  ],
+  "invariantResults": [
+    {
+      "token": "SATISFIED",
+      "meaning": "The applicable invariant has sufficient evidence to establish satisfaction."
+    },
+    {
+      "token": "VIOLATED",
+      "meaning": "The applicable invariant is demonstrably violated."
+    },
+    {
+      "token": "INDETERMINATE",
+      "meaning": "Available evidence cannot establish satisfaction or violation with the confidence required by the invariant."
+    },
+    {
+      "token": "NOT_APPLICABLE",
+      "meaning": "The invariant condition genuinely does not arise in the bounded scope and the rationale is justified."
+    }
+  ],
+  "conformanceSubjectClasses": [
+    {
+      "id": "CS1",
+      "name": "Enterprise HDIP Architecture",
+      "meaning": "Enterprise-wide or multi-domain HDIP target/current architecture."
+    },
+    {
+      "id": "CS2",
+      "name": "Domain / Portfolio HDIP Architecture",
+      "meaning": "A Data, Information, Intelligence or cross-domain bounded architecture."
+    },
+    {
+      "id": "CS3",
+      "name": "Governed HDIP Profile",
+      "meaning": "A concrete enterprise/domain/Product-family/high-assurance/Data-Mesh specialization."
+    },
+    {
+      "id": "CS4",
+      "name": "Platform / Solution Architecture",
+      "meaning": "A bounded platform, solution or capability architecture claiming HDIP alignment."
+    },
+    {
+      "id": "CS5",
+      "name": "Product / Capability Realization Architecture",
+      "meaning": "A bounded Product or non-Product capability realization using applicable PDEP/SSCF/runtime responsibilities."
+    },
+    {
+      "id": "CS6",
+      "name": "Concrete Realization Mapping",
+      "meaning": "The mapping from canonical/Profile architecture into actual deployed/human/provider Realization Units."
+    }
+  ],
+  "claimTypes": [
+    {
+      "token": "CORE_ARCHITECTURE_CONFORMANCE",
+      "name": "Core Architecture Conformance",
+      "meaning": "The subject preserves all applicable M16 core invariants and the applicable responsibilities/contracts of the HDIP-CLA 0.1 baseline."
+    },
+    {
+      "token": "PROFILE_CONFORMANCE",
+      "name": "Profile Conformance",
+      "meaning": "The subject is Core-conformant and satisfies a named, governed, M16-valid HDIP Profile."
+    },
+    {
+      "token": "REALIZATION_MAPPING_CONFORMANCE",
+      "name": "Realization Mapping Conformance",
+      "meaning": "A concrete implementation mapping faithfully realizes the claimed Core/Profile architecture, including traceability to Realization Units, M12 contracts, M13 boundaries/EBCs, evidence responsibilities, currentness and failure/recovery obligations."
+    }
+  ],
+  "overallOutcomes": [
+    {
+      "token": "CONFORMANT",
+      "meaning": "Every applicable core invariant is SATISFIED; N/A results have justified scope rationale; all obligations required by the claim type are satisfied."
+    },
+    {
+      "token": "NONCONFORMANT",
+      "meaning": "At least one applicable core invariant is VIOLATED, or a mandatory claim-type obligation is demonstrably violated."
+    },
+    {
+      "token": "INDETERMINATE",
+      "meaning": "No applicable core invariant is known to be violated, but one or more material applicable obligations cannot be determined with sufficient evidence."
+    }
+  ],
+  "claimScopeMinimum": [
+    "subject identity",
+    "subject version",
+    "claim type",
+    "organizational / solution scope",
+    "architecture boundary",
+    "HDIP-CLA baseline version",
+    "applicable Profile(s)",
+    "assessment time / version"
+  ],
+  "evidencePackage": [
+    {
+      "number": 1,
+      "name": "Subject identity/version",
+      "minimumContent": "Stable subject ID and assessed version."
+    },
+    {
+      "number": 2,
+      "name": "Claim type",
+      "minimumContent": "Core, Profile or Realization Mapping."
+    },
+    {
+      "number": 3,
+      "name": "Scope / architecture boundary",
+      "minimumContent": "Organizational, solution, Product/capability and logical boundary."
+    },
+    {
+      "number": 4,
+      "name": "HDIP baseline",
+      "minimumContent": "HDIP-CLA version used for assessment."
+    },
+    {
+      "number": 5,
+      "name": "Profile identity/version",
+      "minimumContent": "Applicable concrete Profile(s), if any."
+    },
+    {
+      "number": 6,
+      "name": "External authority map",
+      "minimumContent": "GEDRM/GEARM/GEAIRM, BPS/PIN, Product-family, policy/legal, Decision/action and other authorities relied upon."
+    },
+    {
+      "number": 7,
+      "name": "Plane responsibility coverage",
+      "minimumContent": "Applicable P1-P5 responsibility coverage."
+    },
+    {
+      "number": 8,
+      "name": "Overlay applicability",
+      "minimumContent": "X1-X9 applicability and evidence/control responsibilities."
+    },
+    {
+      "number": 9,
+      "name": "ABB / responsibility mapping",
+      "minimumContent": "Canonical/specialized ABB and embedded responsibility realization."
+    },
+    {
+      "number": 10,
+      "name": "Registry / projection / compilation map",
+      "minimumContent": "Applicable M09 Registries, HPD/RRG/SYNCTX/RGB/Realization Plan/Blueprint Binding/Compilation Record responsibilities."
+    },
+    {
+      "number": 11,
+      "name": "Lifecycle / experience map",
+      "minimumContent": "PDEP, SSCF and CEP applicability/specialization."
+    },
+    {
+      "number": 12,
+      "name": "Interaction Contract map",
+      "minimumContent": "Material M12 interactions and contract obligations."
+    },
+    {
+      "number": 13,
+      "name": "External Boundary map",
+      "minimumContent": "Material M13 Boundary Families, Boundary Instances and EBCs."
+    },
+    {
+      "number": 14,
+      "name": "Realization / Profile map",
+      "minimumContent": "M14 Realization Pattern(s), Realization Units and Profile obligations."
+    },
+    {
+      "number": 15,
+      "name": "Version/currentness/historical state",
+      "minimumContent": "Material versions, effective/currentness state and assessment time."
+    },
+    {
+      "number": 16,
+      "name": "Invariant assessment record",
+      "minimumContent": "Applicability, mode, result, rationale and evidence references for M16-I01..I48."
+    },
+    {
+      "number": 17,
+      "name": "Limitations / N/A / unresolved evidence",
+      "minimumContent": "Explicit gaps, N/A rationale, indeterminate conditions and unresolved dependencies."
+    },
+    {
+      "number": 18,
+      "name": "Accountability / retention",
+      "minimumContent": "Accountable assessor/authority, assessment version/time and retained evidence location/reference."
+    }
+  ],
+  "profileDimensions": [
+    "identity/version",
+    "scope",
+    "parent baseline",
+    "external authorities",
+    "applicable Planes/ABBs",
+    "applicable Overlays",
+    "lifecycle specialization",
+    "registry/projection specialization",
+    "interaction specialization",
+    "boundary specialization",
+    "allowed realization patterns",
+    "evidence/assurance",
+    "non-applicability rationale",
+    "conformance claim",
+    "invariant applicability matrix",
+    "specialization-operation record",
+    "Profile composition/conflict record",
+    "Profile assessment/evidence state"
+  ],
+  "profileOperations": [
+    {
+      "token": "SELECT",
+      "disposition": "PERMITTED",
+      "meaning": "Select an applicable baseline option or pattern."
+    },
+    {
+      "token": "REQUIRE",
+      "disposition": "PERMITTED",
+      "meaning": "Make an optional/conditional baseline responsibility mandatory within Profile scope."
+    },
+    {
+      "token": "TIGHTEN",
+      "disposition": "PERMITTED",
+      "meaning": "Strengthen a threshold, control, evidence or lifecycle obligation."
+    },
+    {
+      "token": "CONTEXTUALIZE",
+      "disposition": "PERMITTED",
+      "meaning": "Bind a baseline concept to a bounded enterprise/domain context without redefining it."
+    },
+    {
+      "token": "SPECIALIZE",
+      "disposition": "PERMITTED",
+      "meaning": "Introduce a family/domain specialization consistent with the parent authority."
+    },
+    {
+      "token": "NARROW",
+      "disposition": "PERMITTED",
+      "meaning": "Reduce allowed choices or topology/interaction options for a bounded risk/context reason."
+    },
+    {
+      "token": "EXTEND",
+      "disposition": "PERMITTED",
+      "meaning": "Add local obligations/fields/controls that do not conflict with core meaning."
+    },
+    {
+      "token": "ADD_EVIDENCE",
+      "disposition": "PERMITTED",
+      "meaning": "Require stronger/additional evidence, assurance or human review."
+    },
+    {
+      "token": "RESTRICT_REALIZATION",
+      "disposition": "PERMITTED",
+      "meaning": "Constrain permitted M14 patterns/localities/providers for the bounded Profile."
+    },
+    {
+      "token": "WEAKEN_CORE",
+      "disposition": "PROHIBITED",
+      "meaning": "Reduce an applicable core invariant or mandatory baseline obligation."
+    },
+    {
+      "token": "WAIVE_TO_PASS",
+      "disposition": "PROHIBITED",
+      "meaning": "Waive a violation and still report Profile/Core conformance."
+    },
+    {
+      "token": "REDEFINE_EXTERNAL_SEMANTICS",
+      "disposition": "PROHIBITED",
+      "meaning": "Take ownership of GEDRM/GEARM/GEAIRM or other external semantics."
+    },
+    {
+      "token": "REDEFINE_PRODUCTNESS",
+      "disposition": "PROHIBITED",
+      "meaning": "Redefine BPS/PIN Product qualification or Product Intrinsic Nature."
+    },
+    {
+      "token": "TRANSFER_AUTHORITY",
+      "disposition": "PROHIBITED",
+      "meaning": "Infer Data, Product, policy or Decision authority from platform participation."
+    },
+    {
+      "token": "COLLAPSE_PRODUCT_FAMILIES",
+      "disposition": "PROHIBITED",
+      "meaning": "Erase Data/Information/AI Product-family distinctions."
+    },
+    {
+      "token": "UNIVERSALIZE_SPECIALIZATION",
+      "disposition": "PROHIBITED",
+      "meaning": "Impose a Data-, Information- or Intelligence-specific lifecycle/construct on all families without authority/evidence."
+    },
+    {
+      "token": "REMOVE_APPLICABLE_OVERLAY",
+      "disposition": "PROHIBITED",
+      "meaning": "Suppress an applicable X1-X9 obligation because implementation is inconvenient."
+    },
+    {
+      "token": "REMOVE_EVIDENCE_OBLIGATION",
+      "disposition": "PROHIBITED",
+      "meaning": "Eliminate material evidence/currentness/history requirements needed by the parent baseline."
+    },
+    {
+      "token": "REDEFINE_CANONICAL_STRUCTURE",
+      "disposition": "PROHIBITED",
+      "meaning": "Silently rename/redefine P1-P5, X1-X9, ABBs or M12/M13 identities as different architecture semantics."
+    },
+    {
+      "token": "CONFLATE_REGISTRY_CATALOG_MARKETPLACE",
+      "disposition": "PROHIBITED",
+      "meaning": "Erase their canonical responsibility distinction."
+    },
+    {
+      "token": "INFER_PRODUCTNESS",
+      "disposition": "PROHIBITED",
+      "meaning": "Create Product status from registration, publication, deployment, exposure or repeated use."
+    },
+    {
+      "token": "REWRITE_HISTORY",
+      "disposition": "PROHIBITED",
+      "meaning": "Project latest Profile/policy/topology state backwards onto earlier occurrences."
+    },
+    {
+      "token": "N/A_BY_CONVENIENCE",
+      "disposition": "PROHIBITED",
+      "meaning": "Mark a material core obligation not applicable merely to avoid remediation."
+    }
+  ],
+  "realizationMappingMinimum": [
+    "canonical/Profile responsibility",
+    "Realization Unit(s) / human process / adjacent system",
+    "locality / provider / admin owner",
+    "M12 contract(s)",
+    "M13 boundary/EBC(s)",
+    "evidence/currentness producer",
+    "failure/recovery behavior",
+    "applicable Profile(s)"
+  ],
+  "machineCheckabilityExamples": {
+    "safelyAutomatable": [
+      "identifier presence/uniqueness",
+      "declared version relationships",
+      "required field presence",
+      "declared Plane/Overlay/ABB coverage",
+      "M12 interaction identifier/reference consistency",
+      "M13 Boundary/EBC declaration completeness",
+      "Profile parent/version declaration",
+      "prohibited direct identifier collisions",
+      "selected lifecycle stage/projection synchronization where mechanically represented",
+      "evidence-reference presence and staleness flags where time semantics are explicit"
+    ],
+    "hybrid": [
+      "whether a local semantic extension has captured external authority",
+      "whether two implementations truly preserve Product-family distinction",
+      "whether compilation has manufactured a relationship from weak evidence",
+      "whether an Access Decision has leaked into consequential-action authority",
+      "whether a provider substitution is semantically/contractually safe",
+      "whether historical reconstruction is materially sufficient"
+    ],
+    "assessmentOnly": [
+      "contextual trust / Fitness for Use",
+      "adequacy of accountable human judgement",
+      "architecture significance of a semantic/authority gap",
+      "proportionality of a high-assurance Profile",
+      "whether a complex realization introduces unacceptable hidden authority or evidence coupling"
+    ]
+  },
+  "historicalClaimLifecycle": {
+    "versionedAndTimeBound": true,
+    "eventsAreIllustrativeNotExhaustive": true,
+    "exampleEvents": [
+      "reassessment",
+      "supersession",
+      "withdrawal",
+      "expiration",
+      "scope narrowing",
+      "Profile version change",
+      "architecture version change",
+      "provider migration",
+      "policy revocation"
+    ],
+    "historicalNonRewrite": true
+  },
+  "assessmentWorkflow": [
+    "Identify Conformance Subject, version, scope and claim type.",
+    "Identify HDIP-CLA baseline and applicable concrete Profile(s).",
+    "Identify external semantic/Product/policy/Data/Decision authorities.",
+    "Determine applicable P1-P5 responsibilities and X1-X9 Overlays.",
+    "Trace canonical/specialized ABB and embedded responsibility realization.",
+    "Identify applicable M09 Registry/projection/compilation responsibilities.",
+    "Identify PDEP / SSCF / CEP lifecycle/experience applicability.",
+    "Identify material M12 Interaction Contracts.",
+    "Identify material M13 Boundary Families / EBCs.",
+    "Record M14 Realization Pattern(s), Profile(s) and Realization Mapping.",
+    "Select the smallest useful M15 Reference View/Flow set for review.",
+    "Assess M16-I01..I48 applicability.",
+    "Gather STRUCTURAL, HYBRID and ASSESSMENT evidence.",
+    "Record invariant results with rationale/evidence references.",
+    "Determine overall outcome: CONFORMANT / NONCONFORMANT / INDETERMINATE.",
+    "Record accountable assessor/authority, assessment version and time.",
+    "Preserve the Conformance Evidence Package for historical reconstruction.",
+    "Define change triggers that require scoped reassessment."
+  ],
+  "antiPatterns": [
+    "Diagram Match Conformance",
+    "Technology Badge Conformance",
+    "Terminology Conformance",
+    "Percentage Conformance",
+    "Waiver-to-Pass",
+    "Not-Applicable Shopping",
+    "Inherited Platform Conformance",
+    "Profile Rewrites Core",
+    "Profile Owns External Semantics",
+    "Vendor Becomes ABB",
+    "Structural-Only Assurance",
+    "Telemetry-Only Evidence Package",
+    "Latest-Only Assessment",
+    "One Global Claim",
+    "Adjacent Conformance Leakage",
+    "Pattern Means Conformant",
+    "Maturity Equals Conformance",
+    "Automated Judgement Theatre",
+    "Gate-Count Conformance",
+    "Registration/Productness Conformance"
+  ],
+  "invariants": [
+    {
+      "id": "M16-I01",
+      "name": "Semantic authority preservation",
+      "familyNumber": 1,
+      "family": "Authority, semantics and jurisdiction",
+      "canonicalCondition": "HDIP-CLA SHALL NOT incompatibly redefine concepts, relationships or invariants owned by GEDRM, GEARM, GEAIRM or other applicable semantic authorities.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I01",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0041",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I02",
+      "name": "Product authority preservation",
+      "familyNumber": 1,
+      "family": "Authority, semantics and jurisdiction",
+      "canonicalCondition": "Generic Product identity, Product Intrinsic Nature and Product qualification SHALL remain governed by BPS/PIN rather than inferred by HDIP.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I02",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0042",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I03",
+      "name": "Product-family authority preservation",
+      "familyNumber": 1,
+      "family": "Authority, semantics and jurisdiction",
+      "canonicalCondition": "Data Product, Information Product, AI Product and other Product-family qualification/classification SHALL remain with the applicable Product-family authority.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I03",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0043",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I04",
+      "name": "Scoped authority",
+      "familyNumber": 1,
+      "family": "Authority, semantics and jurisdiction",
+      "canonicalCondition": "Authority used by HDIP SHALL be explicit for an applicable scope, role, purpose, lifecycle state and/or jurisdiction where those distinctions matter; platform participation SHALL NOT imply universal authority.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I04",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0044",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I05",
+      "name": "Shared-realization non-transfer",
+      "familyNumber": 1,
+      "family": "Authority, semantics and jurisdiction",
+      "canonicalCondition": "Co-location, shared storage, shared runtime, shared registry, shared UI or shared platform realization SHALL NOT by itself transfer semantic, Product, policy, decision or ownership authority.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I05",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0045",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I06",
+      "name": "Semantic-gap escalation",
+      "familyNumber": 1,
+      "family": "Authority, semantics and jurisdiction",
+      "canonicalCondition": "Where HDIP needs a semantic concept not owned by HDIP, the gap SHALL be referred to or extended through the appropriate semantic authority rather than silently minted as platform semantics.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I06",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0046",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I07",
+      "name": "Authority non-transitivity",
+      "familyNumber": 1,
+      "family": "Authority, semantics and jurisdiction",
+      "canonicalCondition": "Authority, approval, entitlement, policy applicability or ownership SHALL NOT become automatically transitive merely because a dependency, composition or interaction crosses an HDIP boundary.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I07",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0047",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I08",
+      "name": "Responsibility before component",
+      "familyNumber": 2,
+      "family": "Responsibility, structure and topology",
+      "canonicalCondition": "A canonical HDIP ABB or mandatory implementation responsibility SHALL be justified by explicit architectural responsibility; a noun, tool, service label or historical box alone is insufficient.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I08",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0048",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I09",
+      "name": "Logical plane semantics",
+      "familyNumber": 2,
+      "family": "Responsibility, structure and topology",
+      "canonicalCondition": "A future HDIP Plane SHALL represent a coherent logical responsibility grouping and SHALL NOT imply a mandatory system, deployment unit, network tier, team, organizational boundary or lifecycle step.",
+      "assessmentMode": "STRUCTURAL",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I09",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0049",
+      "automationBoundary": "STRUCTURAL_CHECKS_MAY_BE_DECISIVE_ONLY_WHERE_THE_FORMALIZED_EVIDENCE_FULLY_COVERS_THE_INVARIANT_CONDITION"
+    },
+    {
+      "id": "M16-I10",
+      "name": "Topology independence",
+      "familyNumber": 2,
+      "family": "Responsibility, structure and topology",
+      "canonicalCondition": "HDIP-CLA conformance SHALL NOT depend on centralized, federated, distributed, edge, embedded, provider-managed or hybrid deployment topology unless a narrower Profile explicitly requires it.",
+      "assessmentMode": "ASSESSMENT",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I10",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0050",
+      "automationBoundary": "ACCOUNTABLE_JUDGEMENT_PRIMARY_MACHINE_SUPPORT_ONLY"
+    },
+    {
+      "id": "M16-I11",
+      "name": "Many-to-many realization",
+      "familyNumber": 2,
+      "family": "Responsibility, structure and topology",
+      "canonicalCondition": "One implementation MAY realize responsibilities from several HDIP logical structures, and one HDIP responsibility MAY be distributed across several implementations.",
+      "assessmentMode": "STRUCTURAL",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I11",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0051",
+      "automationBoundary": "STRUCTURAL_CHECKS_MAY_BE_DECISIVE_ONLY_WHERE_THE_FORMALIZED_EVIDENCE_FULLY_COVERS_THE_INVARIANT_CONDITION"
+    },
+    {
+      "id": "M16-I12",
+      "name": "Source-plane non-equivalence",
+      "familyNumber": 2,
+      "family": "Responsibility, structure and topology",
+      "canonicalCondition": "GEDRA, GEARA and GEAIRA plane numbering, placement or lexical similarity SHALL NOT force one-to-one HDIP plane mapping.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I12",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0052",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I13",
+      "name": "Cross-cutting visibility",
+      "familyNumber": 2,
+      "family": "Responsibility, structure and topology",
+      "canonicalCondition": "A responsibility that is cross-cutting in an applicable source architecture SHALL NOT be silently localized into one future HDIP plane without explicit justification that preserves its cross-cutting obligations.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I13",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0053",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I14",
+      "name": "Foundation separation",
+      "familyNumber": 2,
+      "family": "Responsibility, structure and topology",
+      "canonicalCondition": "Compute, storage, networking, messaging, identity infrastructure, orchestration and other utility capabilities SHALL NOT acquire semantic, Product, governance or domain authority merely because they enable those responsibilities.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I14",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0054",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I15",
+      "name": "Architecture traceability",
+      "familyNumber": 2,
+      "family": "Responsibility, structure and topology",
+      "canonicalCondition": "Every future canonical HDIP Plane, Overlay, ABB and material interaction SHALL trace to upstream responsibilities, explicit enterprise platform requirements and/or justified HDIP-specific coordination responsibilities.",
+      "assessmentMode": "STRUCTURAL",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I15",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0055",
+      "automationBoundary": "STRUCTURAL_CHECKS_MAY_BE_DECISIVE_ONLY_WHERE_THE_FORMALIZED_EVIDENCE_FULLY_COVERS_THE_INVARIANT_CONDITION"
+    },
+    {
+      "id": "M16-I16",
+      "name": "Domain distinction",
+      "familyNumber": 3,
+      "family": "Data, Information, Intelligence and Product identity",
+      "canonicalCondition": "Data, Information and Intelligence SHALL remain distinguishable architectural/semantic concerns even where one platform capability co-realizes responsibilities from more than one domain.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I16",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0056",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I17",
+      "name": "No cross-domain inheritance",
+      "familyNumber": 3,
+      "family": "Data, Information, Intelligence and Product identity",
+      "canonicalCondition": "A Data-specific, Information-specific or Intelligence-specific construct SHALL NOT automatically generalize to the other domains through shared implementation or naming similarity.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I17",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0057",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I18",
+      "name": "No automatic Productness",
+      "familyNumber": 3,
+      "family": "Data, Information, Intelligence and Product identity",
+      "canonicalCondition": "Composition, generation, transformation, persistence, deployment, publication, registration, cataloguing, marketplace presence, API exposure, repeated use or consumption SHALL NOT by itself establish Product identity.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I18",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0058",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I19",
+      "name": "Product-family distinction",
+      "familyNumber": 3,
+      "family": "Data, Information, Intelligence and Product identity",
+      "canonicalCondition": "Co-realization of Data Products, Information Products and AI Products SHALL NOT collapse them into one HDIP-local Product family or type.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I19",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0059",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I20",
+      "name": "Composition non-inheritance",
+      "familyNumber": 3,
+      "family": "Data, Information, Intelligence and Product identity",
+      "canonicalCondition": "Using, depending on, containing, deriving from or invoking a Product/capability SHALL NOT by itself transfer its Product family, ontology type, ownership or authority to the dependent/composed result.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I20",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0060",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I21",
+      "name": "Direct capability validity",
+      "familyNumber": 3,
+      "family": "Data, Information, Intelligence and Product identity",
+      "canonicalCondition": "HDIP SHALL be able to support governed Data, Information or Intelligence capability use where Product qualification is not intended; Productization SHALL NOT be a mandatory gateway for every governed interaction.",
+      "assessmentMode": "ASSESSMENT",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I21",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0061",
+      "automationBoundary": "ACCOUNTABLE_JUDGEMENT_PRIMARY_MACHINE_SUPPORT_ONLY"
+    },
+    {
+      "id": "M16-I22",
+      "name": "Governed self-service",
+      "familyNumber": 4,
+      "family": "Governed self-service, lifecycle and experience",
+      "canonicalCondition": "Self-service SHALL operate inside applicable authority, policy, security, privacy, quality, evidence and lifecycle constraints; self-service SHALL NOT mean unrestricted infrastructure or data access.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I22",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0062",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I23",
+      "name": "Intent/compilation separation",
+      "familyNumber": 4,
+      "family": "Governed self-service, lifecycle and experience",
+      "canonicalCondition": "Participant-declared intent, business semantics and accountable judgement SHALL remain distinguishable from platform resolution, compilation, provisioning and automation.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I23",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0063",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I24",
+      "name": "Automation non-ownership",
+      "familyNumber": 4,
+      "family": "Governed self-service, lifecycle and experience",
+      "canonicalCondition": "HDIP automation SHALL NOT transfer Product ownership, Data authority, policy authority or decision accountability to the compiler/runtime merely because the platform performs most technical work.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I24",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0064",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I25",
+      "name": "Judgement honesty",
+      "familyNumber": 4,
+      "family": "Governed self-service, lifecycle and experience",
+      "canonicalCondition": "Architecture/governance decisions requiring contextual or accountable judgement SHALL NOT be represented as machine-proven solely because metadata, telemetry, rules or model outputs exist.",
+      "assessmentMode": "ASSESSMENT",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I25",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0065",
+      "automationBoundary": "ACCOUNTABLE_JUDGEMENT_PRIMARY_MACHINE_SUPPORT_ONLY"
+    },
+    {
+      "id": "M16-I26",
+      "name": "PDEP canonical lifecycle identity",
+      "familyNumber": 4,
+      "family": "Governed self-service, lifecycle and experience",
+      "canonicalCondition": "PDEP SHALL remain the canonical HDIP Product Development and Evolution Process identity; historical SSPD terminology MAY remain only for traceability and SHALL NOT become a competing lifecycle.",
+      "assessmentMode": "STRUCTURAL",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [
+        "HDIP-CLA-A2-REL-0182"
+      ],
+      "a2GovernedElementIds": [
+        "HDIP-CLA-LIFECYCLE-PDEP"
+      ],
+      "sourceInvariantId": "M04-I26",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0066",
+      "automationBoundary": "STRUCTURAL_CHECKS_MAY_BE_DECISIVE_ONLY_WHERE_THE_FORMALIZED_EVIDENCE_FULLY_COVERS_THE_INVARIANT_CONDITION"
+    },
+    {
+      "id": "M16-I27",
+      "name": "Progressive PDEP projection",
+      "familyNumber": 4,
+      "family": "Governed self-service, lifecycle and experience",
+      "canonicalCondition": "PDEP G0 and PDEP Spec A MAY compress/group canonical stages for progressive disclosure, while PDEP Spec C SHALL remain synchronized with the canonical applicable detailed PDEP lifecycle.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [
+        "HDIP-CLA-A2-REL-0183",
+        "HDIP-CLA-A2-REL-0184",
+        "HDIP-CLA-A2-REL-0185",
+        "HDIP-CLA-A2-REL-0186"
+      ],
+      "a2GovernedElementIds": [
+        "HDIP-CLA-LIFECYCLE-PDEP",
+        "HDIP-CLA-PROJECTION-PDEP-G0",
+        "HDIP-CLA-PROJECTION-PDEP-SPEC-A",
+        "HDIP-CLA-PROJECTION-PDEP-SPEC-C"
+      ],
+      "sourceInvariantId": "M04-I27",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0067",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I28",
+      "name": "Experience non-authority",
+      "familyNumber": 4,
+      "family": "Governed self-service, lifecycle and experience",
+      "canonicalCondition": "Interactive flow players, diagrams, dashboards and experience projections SHALL NOT independently create lifecycle stages, authority, Product identity, ABBs or architecture semantics.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [
+        "HDIP-CLA-A2-REL-0187",
+        "HDIP-CLA-A2-REL-0188",
+        "HDIP-CLA-A2-REL-0189",
+        "HDIP-CLA-A2-REL-0190",
+        "HDIP-CLA-A2-REL-0191",
+        "HDIP-CLA-A2-REL-0192",
+        "HDIP-CLA-A2-REL-0193",
+        "HDIP-CLA-A2-REL-0194",
+        "HDIP-CLA-A2-REL-0195",
+        "HDIP-CLA-A2-REL-0196",
+        "HDIP-CLA-A2-REL-0197",
+        "HDIP-CLA-A2-REL-0198",
+        "HDIP-CLA-A2-REL-0199",
+        "HDIP-CLA-A2-REL-0200",
+        "HDIP-CLA-A2-REL-0201",
+        "HDIP-CLA-A2-REL-0202",
+        "HDIP-CLA-A2-REL-0203",
+        "HDIP-CLA-A2-REL-0204",
+        "HDIP-CLA-A2-REL-0205",
+        "HDIP-CLA-A2-REL-0206",
+        "HDIP-CLA-A2-REL-0207"
+      ],
+      "a2GovernedElementIds": [
+        "HDIP-CLA-EXPERIENCE-CEP",
+        "M15-FLOW-01",
+        "M15-FLOW-02",
+        "M15-FLOW-03",
+        "M15-FLOW-04",
+        "M15-FLOW-05",
+        "M15-FLOW-06",
+        "M15-FLOW-07",
+        "M15-FLOW-08",
+        "M15-FLOW-09",
+        "M15-FLOW-10",
+        "M15-V01",
+        "M15-V02",
+        "M15-V03",
+        "M15-V04",
+        "M15-V05",
+        "M15-V06",
+        "M15-V07",
+        "M15-V08",
+        "M15-V09",
+        "M15-V10"
+      ],
+      "sourceInvariantId": "M04-I28",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0068",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I29",
+      "name": "Projection non-authority",
+      "familyNumber": 5,
+      "family": "Projection, compilation, registry and discovery",
+      "canonicalCondition": "HPD, SYNCTX, resolved graphs, compiled governance bundles, compilation packs and similar HDIP-generated projections SHALL NOT override the authoritative semantics or governance sources they reference.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [
+        "HDIP-CLA-A2-REL-0208",
+        "HDIP-CLA-A2-REL-0209",
+        "HDIP-CLA-A2-REL-0210",
+        "HDIP-CLA-A2-REL-0211",
+        "HDIP-CLA-A2-REL-0212",
+        "HDIP-CLA-A2-REL-0213",
+        "HDIP-CLA-A2-REL-0214"
+      ],
+      "a2GovernedElementIds": [
+        "HDIP-CLA-ART-BLUEPRINT-BINDING",
+        "HDIP-CLA-ART-COMPILATION-RECORD",
+        "HDIP-CLA-ART-HPD",
+        "HDIP-CLA-ART-REALIZATION-PLAN",
+        "HDIP-CLA-ART-RGB",
+        "HDIP-CLA-ART-RRG",
+        "HDIP-CLA-ART-SYNCTX"
+      ],
+      "sourceInvariantId": "M04-I29",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0069",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I30",
+      "name": "Compiler non-invention",
+      "familyNumber": 5,
+      "family": "Projection, compilation, registry and discovery",
+      "canonicalCondition": "HDIP resolution/compilation SHALL NOT manufacture semantic relationships, Product identity, policy authority, joinability, provenance, dependencies or obligations from weak evidence or naming similarity.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I30",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0070",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I31",
+      "name": "Logical registry independence",
+      "familyNumber": 5,
+      "family": "Projection, compilation, registry and discovery",
+      "canonicalCondition": "ADS, Product, Schema, Policy, Capability and Blueprint registry responsibilities SHALL remain logically distinguishable even where one implementation realizes several of them.",
+      "assessmentMode": "STRUCTURAL",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [
+        "HDIP-CLA-A2-REL-0215",
+        "HDIP-CLA-A2-REL-0216",
+        "HDIP-CLA-A2-REL-0217",
+        "HDIP-CLA-A2-REL-0218",
+        "HDIP-CLA-A2-REL-0219",
+        "HDIP-CLA-A2-REL-0220"
+      ],
+      "a2GovernedElementIds": [
+        "HDIP-REG-01",
+        "HDIP-REG-02",
+        "HDIP-REG-03",
+        "HDIP-REG-04",
+        "HDIP-REG-05",
+        "HDIP-REG-D01"
+      ],
+      "sourceInvariantId": "M04-I31",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0071",
+      "automationBoundary": "STRUCTURAL_CHECKS_MAY_BE_DECISIVE_ONLY_WHERE_THE_FORMALIZED_EVIDENCE_FULLY_COVERS_THE_INVARIANT_CONDITION"
+    },
+    {
+      "id": "M16-I32",
+      "name": "Registry non-qualification",
+      "familyNumber": 5,
+      "family": "Projection, compilation, registry and discovery",
+      "canonicalCondition": "Registration SHALL NOT by itself prove authoritative status, Product status, control effectiveness, semantic correctness, fitness or HDIP conformance.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I32",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0072",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I33",
+      "name": "Registry/catalog/marketplace distinction",
+      "familyNumber": 5,
+      "family": "Projection, compilation, registry and discovery",
+      "canonicalCondition": "Registry, Catalog and Marketplace responsibilities SHALL NOT be treated as architectural synonyms even when exposed through one user experience or implementation.",
+      "assessmentMode": "STRUCTURAL",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [
+        "HDIP-CLA-A2-REL-0221",
+        "HDIP-CLA-A2-REL-0222",
+        "HDIP-CLA-A2-REL-0223",
+        "HDIP-CLA-A2-REL-0224",
+        "HDIP-CLA-A2-REL-0225",
+        "HDIP-CLA-A2-REL-0226",
+        "HDIP-CLA-A2-REL-0227",
+        "HDIP-CLA-A2-REL-0228"
+      ],
+      "a2GovernedElementIds": [
+        "HDIP-CLA-CONSTRUCT-CATALOG",
+        "HDIP-CLA-CONSTRUCT-MARKETPLACE",
+        "HDIP-REG-01",
+        "HDIP-REG-02",
+        "HDIP-REG-03",
+        "HDIP-REG-04",
+        "HDIP-REG-05",
+        "HDIP-REG-D01"
+      ],
+      "sourceInvariantId": "M04-I33",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0073",
+      "automationBoundary": "STRUCTURAL_CHECKS_MAY_BE_DECISIVE_ONLY_WHERE_THE_FORMALIZED_EVIDENCE_FULLY_COVERS_THE_INVARIANT_CONDITION"
+    },
+    {
+      "id": "M16-I34",
+      "name": "Shared registry realization allowed",
+      "familyNumber": 5,
+      "family": "Projection, compilation, registry and discovery",
+      "canonicalCondition": "HDIP MAY consolidate registry implementation where operationally useful provided logical identities, ownership, contracts, lifecycle and authority boundaries remain distinguishable.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I34",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0074",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I35",
+      "name": "Evidence by construction",
+      "familyNumber": 6,
+      "family": "Evidence, trust, version and historical meaning",
+      "canonicalCondition": "Material HDIP interactions SHOULD emit or retain applicable provenance, control, quality, observability and lifecycle evidence sufficient for later reconstruction and assessment.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I35",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0075",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I36",
+      "name": "Trust is contextual",
+      "familyNumber": 6,
+      "family": "Evidence, trust, version and historical meaning",
+      "canonicalCondition": "Platform location, certification label, popularity, centralization, Product status or registry presence SHALL NOT be treated as universal proof of trust or fitness; trust assessment SHALL remain contextual and evidence-based.",
+      "assessmentMode": "ASSESSMENT",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I36",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0076",
+      "automationBoundary": "ACCOUNTABLE_JUDGEMENT_PRIMARY_MACHINE_SUPPORT_ONLY"
+    },
+    {
+      "id": "M16-I37",
+      "name": "Missing evidence is not positive evidence",
+      "familyNumber": 6,
+      "family": "Evidence, trust, version and historical meaning",
+      "canonicalCondition": "Missing, stale, inaccessible or materially ambiguous evidence SHALL NOT be interpreted as positive assurance.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I37",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0077",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I38",
+      "name": "Version/currentness distinction",
+      "familyNumber": 6,
+      "family": "Evidence, trust, version and historical meaning",
+      "canonicalCondition": "Version identity, latest/newest status and governed currentness SHALL remain distinguishable; newest SHALL NOT automatically mean current or approved.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I38",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0078",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I39",
+      "name": "Historical truth",
+      "familyNumber": 6,
+      "family": "Evidence, trust, version and historical meaning",
+      "canonicalCondition": "Later supersession, revocation, re-evaluation, upstream change, rollback or re-publication SHALL NOT silently rewrite which semantics, Product Version, policy/control, dependency, context or realization governed a historical occurrence.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I39",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0079",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I40",
+      "name": "Provenance is not assurance",
+      "familyNumber": 6,
+      "family": "Evidence, trust, version and historical meaning",
+      "canonicalCondition": "Provenance and lineage SHALL support traceability but SHALL NOT by themselves prove correctness, authorization, control effectiveness, assurance or Fitness for Use.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [],
+      "a2GovernedElementIds": [],
+      "sourceInvariantId": "M04-I40",
+      "a2AncestryTraceId": "HDIP-CLA-A2-TRACE-0080",
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I41",
+      "name": "Canonical structure integrity",
+      "familyNumber": 7,
+      "family": "Derived conformance closure",
+      "canonicalCondition": "A conformant HDIP architecture SHALL preserve the canonical identity and responsibility meaning of P1-P5, X1-X9, HDIP-FND and the M08 ABB catalogue; implementation grouping, view projection or profile specialization SHALL NOT silently redefine those canonical structures.",
+      "assessmentMode": "STRUCTURAL",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [
+        "HDIP-CLA-A2-REL-0229",
+        "HDIP-CLA-A2-REL-0230",
+        "HDIP-CLA-A2-REL-0231",
+        "HDIP-CLA-A2-REL-0232",
+        "HDIP-CLA-A2-REL-0233",
+        "HDIP-CLA-A2-REL-0234",
+        "HDIP-CLA-A2-REL-0235",
+        "HDIP-CLA-A2-REL-0236",
+        "HDIP-CLA-A2-REL-0237",
+        "HDIP-CLA-A2-REL-0238",
+        "HDIP-CLA-A2-REL-0239",
+        "HDIP-CLA-A2-REL-0240",
+        "HDIP-CLA-A2-REL-0241",
+        "HDIP-CLA-A2-REL-0242",
+        "HDIP-CLA-A2-REL-0243",
+        "HDIP-CLA-A2-REL-0244",
+        "HDIP-CLA-A2-REL-0245",
+        "HDIP-CLA-A2-REL-0246",
+        "HDIP-CLA-A2-REL-0247",
+        "HDIP-CLA-A2-REL-0248",
+        "HDIP-CLA-A2-REL-0249",
+        "HDIP-CLA-A2-REL-0250",
+        "HDIP-CLA-A2-REL-0251",
+        "HDIP-CLA-A2-REL-0252",
+        "HDIP-CLA-A2-REL-0253",
+        "HDIP-CLA-A2-REL-0254",
+        "HDIP-CLA-A2-REL-0255",
+        "HDIP-CLA-A2-REL-0256",
+        "HDIP-CLA-A2-REL-0257",
+        "HDIP-CLA-A2-REL-0258",
+        "HDIP-CLA-A2-REL-0259",
+        "HDIP-CLA-A2-REL-0260",
+        "HDIP-CLA-A2-REL-0261",
+        "HDIP-CLA-A2-REL-0262",
+        "HDIP-CLA-A2-REL-0263",
+        "HDIP-CLA-A2-REL-0264",
+        "HDIP-CLA-A2-REL-0265"
+      ],
+      "a2GovernedElementIds": [
+        "HDIP-FND",
+        "HDIP-P1",
+        "HDIP-P1-ABB-01",
+        "HDIP-P1-ABB-02",
+        "HDIP-P1-ABB-03",
+        "HDIP-P2",
+        "HDIP-P2-ABB-01",
+        "HDIP-P2-ABB-02",
+        "HDIP-P2-ABB-03",
+        "HDIP-P2-ABB-04",
+        "HDIP-P3",
+        "HDIP-P3-ABB-01",
+        "HDIP-P3-ABB-02",
+        "HDIP-P3-ABB-03",
+        "HDIP-P4",
+        "HDIP-P4-ABB-01",
+        "HDIP-P4-ABB-02",
+        "HDIP-P4-ABB-03",
+        "HDIP-P5",
+        "HDIP-P5-ABB-01",
+        "HDIP-P5-ABB-02",
+        "HDIP-X1",
+        "HDIP-X1-ABB-01",
+        "HDIP-X2",
+        "HDIP-X3",
+        "HDIP-X3-ABB-01",
+        "HDIP-X4",
+        "HDIP-X4-ABB-01",
+        "HDIP-X5",
+        "HDIP-X5-ABB-01",
+        "HDIP-X6",
+        "HDIP-X6-ABB-01",
+        "HDIP-X7",
+        "HDIP-X7-ABB-01",
+        "HDIP-X8",
+        "HDIP-X9",
+        "HDIP-X9-ABB-01"
+      ],
+      "sourceInvariantId": null,
+      "a2AncestryTraceId": null,
+      "automationBoundary": "STRUCTURAL_CHECKS_MAY_BE_DECISIVE_ONLY_WHERE_THE_FORMALIZED_EVIDENCE_FULLY_COVERS_THE_INVARIANT_CONDITION"
+    },
+    {
+      "id": "M16-I42",
+      "name": "Interaction-contract preservation",
+      "familyNumber": 7,
+      "family": "Derived conformance closure",
+      "canonicalCondition": "Material interactions SHALL preserve the applicable M12 Interaction Contract identity and obligations even when the participating responsibilities are co-located, embedded, distributed, provider-operated or implemented through a mechanism other than a network API.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [
+        "HDIP-CLA-A2-REL-0266",
+        "HDIP-CLA-A2-REL-0267",
+        "HDIP-CLA-A2-REL-0268",
+        "HDIP-CLA-A2-REL-0269",
+        "HDIP-CLA-A2-REL-0270",
+        "HDIP-CLA-A2-REL-0271",
+        "HDIP-CLA-A2-REL-0272",
+        "HDIP-CLA-A2-REL-0273",
+        "HDIP-CLA-A2-REL-0274",
+        "HDIP-CLA-A2-REL-0275",
+        "HDIP-CLA-A2-REL-0276",
+        "HDIP-CLA-A2-REL-0277",
+        "HDIP-CLA-A2-REL-0278",
+        "HDIP-CLA-A2-REL-0279",
+        "HDIP-CLA-A2-REL-0280",
+        "HDIP-CLA-A2-REL-0281",
+        "HDIP-CLA-A2-REL-0282",
+        "HDIP-CLA-A2-REL-0283",
+        "HDIP-CLA-A2-REL-0284",
+        "HDIP-CLA-A2-REL-0285",
+        "HDIP-CLA-A2-REL-0286"
+      ],
+      "a2GovernedElementIds": [
+        "HDIP-M12-INT-01",
+        "HDIP-M12-INT-02",
+        "HDIP-M12-INT-03",
+        "HDIP-M12-INT-04",
+        "HDIP-M12-INT-05",
+        "HDIP-M12-INT-06",
+        "HDIP-M12-INT-07",
+        "HDIP-M12-INT-08",
+        "HDIP-M12-INT-09",
+        "HDIP-M12-INT-10",
+        "HDIP-M12-INT-11",
+        "HDIP-M12-INT-12",
+        "HDIP-M12-INT-13",
+        "HDIP-M12-INT-14",
+        "HDIP-M12-INT-15",
+        "HDIP-M12-INT-16",
+        "HDIP-M12-INT-17",
+        "HDIP-M12-INT-18",
+        "HDIP-M12-INT-19",
+        "HDIP-M12-INT-20",
+        "HDIP-M12-INT-21"
+      ],
+      "sourceInvariantId": null,
+      "a2AncestryTraceId": null,
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I43",
+      "name": "External-boundary jurisdiction preservation",
+      "familyNumber": 7,
+      "family": "Derived conformance closure",
+      "canonicalCondition": "Material crossings of an M13 Boundary Family SHALL preserve the applicable external authority, jurisdiction, currentness, evidence and failure obligations; physical co-location or shared-provider realization SHALL NOT erase the logical boundary.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [
+        "HDIP-CLA-A2-REL-0287",
+        "HDIP-CLA-A2-REL-0288",
+        "HDIP-CLA-A2-REL-0289",
+        "HDIP-CLA-A2-REL-0290",
+        "HDIP-CLA-A2-REL-0291",
+        "HDIP-CLA-A2-REL-0292",
+        "HDIP-CLA-A2-REL-0293",
+        "HDIP-CLA-A2-REL-0294",
+        "HDIP-CLA-A2-REL-0295",
+        "HDIP-CLA-A2-REL-0296",
+        "HDIP-CLA-A2-REL-0297",
+        "HDIP-CLA-A2-REL-0298"
+      ],
+      "a2GovernedElementIds": [
+        "HDIP-BND-01",
+        "HDIP-BND-02",
+        "HDIP-BND-03",
+        "HDIP-BND-04",
+        "HDIP-BND-05",
+        "HDIP-BND-06",
+        "HDIP-BND-07",
+        "HDIP-BND-08",
+        "HDIP-BND-09",
+        "HDIP-BND-10",
+        "HDIP-BND-11",
+        "HDIP-BND-12"
+      ],
+      "sourceInvariantId": null,
+      "a2AncestryTraceId": null,
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I44",
+      "name": "Product-access / consequence separation",
+      "familyNumber": 7,
+      "family": "Derived conformance closure",
+      "canonicalCondition": "Product or Product-Port access approval, entitlement or successful consumption SHALL NOT by itself authorize a downstream consequential Decision, Tool use, Digital Action or Physical Action where separate point-of-use authority is applicable.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [
+        "HDIP-CLA-A2-REL-0299",
+        "HDIP-CLA-A2-REL-0300",
+        "HDIP-CLA-A2-REL-0301",
+        "HDIP-CLA-A2-REL-0302"
+      ],
+      "a2GovernedElementIds": [
+        "HDIP-BND-10",
+        "HDIP-BND-11",
+        "HDIP-P4-ABB-02",
+        "HDIP-P4-ABB-03"
+      ],
+      "sourceInvariantId": null,
+      "a2AncestryTraceId": null,
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I45",
+      "name": "Lifecycle / runtime non-equivalence",
+      "familyNumber": 7,
+      "family": "Derived conformance closure",
+      "canonicalCondition": "PDEP, SSCF and CEP SHALL remain lifecycle/experience compositions and SHALL NOT be interpreted as mandatory synchronous runtime pipelines; an established governed runtime MAY reuse current lifecycle state until material change requires re-evaluation.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [
+        "HDIP-CLA-A2-REL-0303",
+        "HDIP-CLA-A2-REL-0304",
+        "HDIP-CLA-A2-REL-0305"
+      ],
+      "a2GovernedElementIds": [
+        "HDIP-CLA-EXPERIENCE-CEP",
+        "HDIP-CLA-LIFECYCLE-PDEP",
+        "HDIP-CLA-LIFECYCLE-SSCF"
+      ],
+      "sourceInvariantId": null,
+      "a2AncestryTraceId": null,
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I46",
+      "name": "Realization mapping traceability",
+      "familyNumber": 7,
+      "family": "Derived conformance closure",
+      "canonicalCondition": "A concrete realization claiming HDIP alignment SHALL retain traceability from applicable canonical responsibilities, ABBs, Interaction Contracts, Boundary Families and Profile obligations to the Realization Units, human processes or adjacent systems that satisfy them.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [
+        "HDIP-CLA-A2-REL-0306",
+        "HDIP-CLA-A2-REL-0307",
+        "HDIP-CLA-A2-REL-0308",
+        "HDIP-CLA-A2-REL-0309",
+        "HDIP-CLA-A2-REL-0310",
+        "HDIP-CLA-A2-REL-0311",
+        "HDIP-CLA-A2-REL-0312",
+        "HDIP-CLA-A2-REL-0313",
+        "HDIP-CLA-A2-REL-0314"
+      ],
+      "a2GovernedElementIds": [
+        "CS6",
+        "M14-RP-01",
+        "M14-RP-02",
+        "M14-RP-03",
+        "M14-RP-04",
+        "M14-RP-05",
+        "M14-RP-06",
+        "M14-RP-07",
+        "M14-RP-08"
+      ],
+      "sourceInvariantId": null,
+      "a2AncestryTraceId": null,
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I47",
+      "name": "Adjacent-conformance independence",
+      "familyNumber": 7,
+      "family": "Derived conformance closure",
+      "canonicalCondition": "HDIP conformance SHALL NOT by itself establish conformance to GEDRA, GEARA, GEAIRA, BPS/PIN, a Product-family specification, an external standard or provider certification, and conformance to an adjacent specification SHALL NOT by itself establish HDIP conformance.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [
+        "HDIP-CLA-A2-REL-0315",
+        "HDIP-CLA-A2-REL-0316",
+        "HDIP-CLA-A2-REL-0317",
+        "HDIP-CLA-A2-REL-0318",
+        "HDIP-CLA-A2-REL-0319",
+        "HDIP-CLA-A2-REL-0320",
+        "HDIP-CLA-A2-REL-0321",
+        "HDIP-CLA-A2-REL-0322",
+        "HDIP-CLA-A2-REL-0323",
+        "HDIP-CLA-A2-REL-0324",
+        "HDIP-CLA-A2-REL-0325",
+        "HDIP-CLA-A2-REL-0326"
+      ],
+      "a2GovernedElementIds": [
+        "HDIP-BND-01",
+        "HDIP-BND-02",
+        "HDIP-BND-03",
+        "HDIP-BND-04",
+        "HDIP-BND-05",
+        "HDIP-BND-06",
+        "HDIP-BND-07",
+        "HDIP-BND-08",
+        "HDIP-BND-09",
+        "HDIP-BND-10",
+        "HDIP-BND-11",
+        "HDIP-BND-12"
+      ],
+      "sourceInvariantId": null,
+      "a2AncestryTraceId": null,
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    },
+    {
+      "id": "M16-I48",
+      "name": "Profile monotonicity",
+      "familyNumber": 7,
+      "family": "Derived conformance closure",
+      "canonicalCondition": "An HDIP Profile MAY select, tighten, contextualize, specialize, narrow and extend the baseline for a bounded scope, but SHALL NOT weaken, waive or incompatibly redefine an applicable core invariant or transfer authority from an external semantic, Product, policy or Decision authority.",
+      "assessmentMode": "HYBRID",
+      "sourceDocuments": [
+        "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md"
+      ],
+      "a2GovernedElementRelationshipIds": [
+        "HDIP-CLA-A2-REL-0327",
+        "HDIP-CLA-A2-REL-0328",
+        "HDIP-CLA-A2-REL-0329",
+        "HDIP-CLA-A2-REL-0330",
+        "HDIP-CLA-A2-REL-0331",
+        "HDIP-CLA-A2-REL-0332"
+      ],
+      "a2GovernedElementIds": [
+        "M14-PP-01",
+        "M14-PP-02",
+        "M14-PP-03",
+        "M14-PP-04",
+        "M14-PP-05",
+        "M14-PP-06"
+      ],
+      "sourceInvariantId": null,
+      "a2AncestryTraceId": null,
+      "automationBoundary": "MACHINE_ASSISTED_ACCOUNTABLE_REVIEW_REQUIRED_FOR_FINAL_SATISFACTION"
+    }
+  ]
+}

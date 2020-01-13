@@ -1,0 +1,456 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kivanura.org/specs/hdip-cla/0.1/a7/a2-relationship-traceability.schema.json",
+  "title": "HDIP-CLA 0.1 A7 — a2-relationship-traceability document structure",
+  "description": "Validates serialization structure. Does not establish architectural conformance or replace M17.",
+  "x-hdip-source": "static/specs/hdip-cla/0.1/a2/relationship-traceability-registry.json",
+  "type": "object",
+  "properties": {
+    "registryId": {
+      "type": "string"
+    },
+    "registryVersion": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "humanReadableAuthority": {
+      "type": "object",
+      "properties": {
+        "baseline": {
+          "type": "string"
+        },
+        "freezeStage": {
+          "type": "string"
+        },
+        "sourceDocument": {
+          "type": "string"
+        },
+        "precedenceRule": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "a1IdentityRegistry": {
+      "type": "object",
+      "properties": {
+        "registryId": {
+          "type": "string"
+        },
+        "elementCount": {
+          "type": "integer"
+        },
+        "path": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "relationshipPolicy": {
+      "type": "object",
+      "properties": {
+        "closedWorld": {
+          "type": "boolean"
+        },
+        "absenceMeansNoCanonicalAssertionNotImpossibility": {
+          "type": "boolean"
+        },
+        "noRelationshipImpliesEquivalenceUnlessTypeSaysSo": {
+          "type": "boolean"
+        },
+        "noRelationshipImpliesAuthorityTransfer": {
+          "type": "boolean"
+        },
+        "noTransitiveInferenceUnlessExplicitlyDefined": {
+          "type": "boolean"
+        },
+        "historicalCompatibilityTermsAreNotCanonicalElements": {
+          "type": "boolean"
+        },
+        "externalReferencesDoNotBecomeA1Elements": {
+          "type": "boolean"
+        },
+        "iriAssignmentDeferredTo": {
+          "type": "string"
+        },
+        "schemaConstraintFormalizationDeferredTo": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "summary": {
+      "type": "object",
+      "properties": {
+        "a1ElementCount": {
+          "type": "integer"
+        },
+        "relationshipTypeCount": {
+          "type": "integer"
+        },
+        "relationshipCount": {
+          "type": "integer"
+        },
+        "traceabilityRecordCount": {
+          "type": "integer"
+        },
+        "externalReferenceCount": {
+          "type": "integer"
+        },
+        "countsByRelationshipType": {
+          "type": "object",
+          "properties": {
+            "APPLIES_TO_PROFILE_PATTERN": {
+              "type": "integer"
+            },
+            "CLASSIFIED_BY_BOUNDARY_CLASS": {
+              "type": "integer"
+            },
+            "CONSUMES_ARTIFACT": {
+              "type": "integer"
+            },
+            "CONTAINS_INTERACTION": {
+              "type": "integer"
+            },
+            "CONTAINS_STAGE": {
+              "type": "integer"
+            },
+            "DATA_PROFILE_VIEW_OF": {
+              "type": "integer"
+            },
+            "DECOMPOSED_TO": {
+              "type": "integer"
+            },
+            "DERIVED_FROM_RCF": {
+              "type": "integer"
+            },
+            "FLOW_CROSSES_BOUNDARY": {
+              "type": "integer"
+            },
+            "FLOW_USES_INTERACTION": {
+              "type": "integer"
+            },
+            "FLOW_USES_PROFILE_PATTERN": {
+              "type": "integer"
+            },
+            "FLOW_USES_REALIZATION_PATTERN": {
+              "type": "integer"
+            },
+            "GOVERNS_ELEMENT": {
+              "type": "integer"
+            },
+            "HAS_SOURCE_PLANE": {
+              "type": "integer"
+            },
+            "HAS_TARGET_PLANE": {
+              "type": "integer"
+            },
+            "HISTORICAL_ALIAS_OF": {
+              "type": "integer"
+            },
+            "HISTORICAL_EXPANSION_OF": {
+              "type": "integer"
+            },
+            "PARTICIPATES_IN": {
+              "type": "integer"
+            },
+            "PRESERVES_SOURCE_INVARIANT": {
+              "type": "integer"
+            },
+            "PRIMARY_HOSTED_BY": {
+              "type": "integer"
+            },
+            "PRODUCES_ARTIFACT": {
+              "type": "integer"
+            },
+            "PRODUCT_SCOPED_VIEW_OF": {
+              "type": "integer"
+            },
+            "PROJECTS_ELEMENT": {
+              "type": "integer"
+            },
+            "PROJECTS_LIFECYCLE": {
+              "type": "integer"
+            },
+            "REFERENCES_EXTERNAL_AUTHORITY": {
+              "type": "integer"
+            },
+            "RESPONSIBILITIES_MAP_TO": {
+              "type": "integer"
+            },
+            "RETIRED_TO": {
+              "type": "integer"
+            },
+            "SOURCE_REFERENCE_WITHIN": {
+              "type": "integer"
+            },
+            "SPECIALIZED_VIEW_OF": {
+              "type": "integer"
+            },
+            "SPECIALIZES_ELEMENT": {
+              "type": "integer"
+            },
+            "STRENGTHENS_ELEMENT": {
+              "type": "integer"
+            },
+            "USES_EXPERIENCE_PROJECTION": {
+              "type": "integer"
+            }
+          },
+          "required": [],
+          "additionalProperties": true
+        },
+        "countsByAssertionClass": {
+          "type": "object",
+          "properties": {
+            "APPLICABILITY": {
+              "type": "integer"
+            },
+            "AUTHORITY_REFERENCE": {
+              "type": "integer"
+            },
+            "CANONICAL": {
+              "type": "integer"
+            },
+            "COMPATIBILITY": {
+              "type": "integer"
+            },
+            "INVARIANT_SCOPE": {
+              "type": "integer"
+            },
+            "LIFECYCLE_INPUT": {
+              "type": "integer"
+            },
+            "LIFECYCLE_OUTPUT": {
+              "type": "integer"
+            },
+            "PROFILE": {
+              "type": "integer"
+            },
+            "PROJECTION": {
+              "type": "integer"
+            },
+            "REPRESENTATIVE_FLOW": {
+              "type": "integer"
+            },
+            "TRACEABILITY": {
+              "type": "integer"
+            },
+            "VIEW_COVERAGE": {
+              "type": "integer"
+            }
+          },
+          "required": [],
+          "additionalProperties": true
+        },
+        "countsByTraceType": {
+          "type": "object",
+          "properties": {
+            "EXTERNAL_AUTHORITY_REFERENCE": {
+              "type": "integer"
+            },
+            "INVARIANT_ANCESTRY": {
+              "type": "integer"
+            },
+            "RESPONSIBILITY_ANCESTRY": {
+              "type": "integer"
+            },
+            "SOURCE_DOCUMENT": {
+              "type": "integer"
+            }
+          },
+          "required": [],
+          "additionalProperties": true
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "relationshipTypes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "allowedTargetScopes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "category": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "impliesAuthorityTransfer": {
+            "type": "boolean"
+          },
+          "impliesEquivalence": {
+            "type": "boolean"
+          },
+          "inverseHint": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "label": {
+            "type": "string"
+          },
+          "symmetric": {
+            "type": "boolean"
+          },
+          "transitive": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "allowedTargetScopes",
+          "category",
+          "code",
+          "description",
+          "impliesAuthorityTransfer",
+          "impliesEquivalence",
+          "inverseHint",
+          "label",
+          "symmetric",
+          "transitive"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "externalReferences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "name"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 18,
+      "maxItems": 18
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "assertionClass": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "modality": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "sourceDocument": {
+            "type": "string"
+          },
+          "target": {
+            "type": "string"
+          },
+          "targetScope": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "assertionClass",
+          "id",
+          "modality",
+          "source",
+          "sourceDocument",
+          "target",
+          "targetScope",
+          "type"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 911,
+      "maxItems": 911
+    },
+    "traceabilityRecords": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "subject": {
+            "type": "string"
+          },
+          "target": {
+            "type": "string"
+          },
+          "targetKind": {
+            "type": "string"
+          },
+          "traceType": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "source",
+          "subject",
+          "target",
+          "targetKind",
+          "traceType"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 332,
+      "maxItems": 332
+    }
+  },
+  "required": [
+    "registryId",
+    "registryVersion",
+    "relationshipTypes",
+    "externalReferences",
+    "relationships",
+    "traceabilityRecords"
+  ],
+  "additionalProperties": true
+}

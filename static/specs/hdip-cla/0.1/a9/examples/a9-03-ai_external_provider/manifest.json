@@ -1,0 +1,50 @@
+{
+  "exampleId": "HDIP-CLA-A9-03",
+  "title": "AI Product / Intelligence Capability Realization with External Provider",
+  "scenarioKind": "AI_EXTERNAL_PROVIDER",
+  "normativeStatus": "ILLUSTRATIVE_ONLY",
+  "assessmentStatus": "NOT_ASSESSED",
+  "claimOutcome": "INDETERMINATE",
+  "family": "INTELLIGENCE",
+  "m15FlowRefs": [
+    "M15-FLOW-03"
+  ],
+  "m12InteractionRefs": [
+    "HDIP-M12-INT-09",
+    "HDIP-M12-INT-19"
+  ],
+  "m13BoundaryRefs": [
+    "HDIP-BND-12"
+  ],
+  "m14ProfileRef": "M14-PP-03",
+  "m14RealizationPatternRef": "M14-RP-07",
+  "declarations": [
+    {
+      "kind": "lifecycle-declaration",
+      "path": "examples/a9-03-ai_external_provider/lifecycle-declaration.json",
+      "schema": "../a8/lifecycle-declaration.schema.json"
+    },
+    {
+      "kind": "external-boundary-contract-declaration",
+      "path": "examples/a9-03-ai_external_provider/external-boundary-contract-declaration.json",
+      "schema": "../a8/external-boundary-contract-declaration.schema.json"
+    },
+    {
+      "kind": "profile-declaration",
+      "path": "examples/a9-03-ai_external_provider/profile-declaration.json",
+      "schema": "../a8/profile-declaration.schema.json"
+    },
+    {
+      "kind": "realization-profile-binding-declaration",
+      "path": "examples/a9-03-ai_external_provider/realization-profile-binding-declaration.json",
+      "schema": "../a8/realization-profile-binding-declaration.schema.json"
+    }
+  ],
+  "architecturalBoundary": "External model/provider participation never creates transferred Product, policy or Decision authority.",
+  "historicalTruthPolicy": "Preserve evidence as-of governing versions; no rewriting later",
+  "caveats": [
+    "Schema-valid is not invariant SATISFIED",
+    "No Product qualification, entitlement or consequential Decision authority implied",
+    "Example-specific declaration fields are not normative M17 requirements"
+  ]
+}

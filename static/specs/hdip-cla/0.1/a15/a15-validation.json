@@ -1,0 +1,67 @@
+{
+  "a14LiveRegression": {
+    "executed": true,
+    "exitCode": 0,
+    "gatesPassed": 10,
+    "gatesTotal": 10,
+    "liveOutputMatchesStoredCanonicalA14Report": true,
+    "reportSha256": "85c085cebef46d419a48f6f41c046d94e8a45701af9fd442549f8ac20434d07d",
+    "result": "PASS_BOUNDED_REGRESSION"
+  },
+  "a15CounterfactualTests": {
+    "passed": 12,
+    "total": 12
+  },
+  "a15StaticVerification": {
+    "gatesPassed": 8,
+    "gatesTotal": 8,
+    "result": "PASS_BOUNDED_RELEASE_INTEGRITY"
+  },
+  "architectureConformance": "NOT_ESTABLISHED",
+  "authority": "M17_FROZEN_HUMAN_READABLE",
+  "baseline": "A14_CUMULATIVE_COMPLETE_REPOSITORY",
+  "docusaurusProductionBuild": "NOT_RUN",
+  "externalApproval": "NOT_ASSERTED",
+  "externalAuthorityAttestation": "NOT_PERFORMED",
+  "fullOWLEntailmentReasoning": "NOT_RUN",
+  "independentSHACLProcessor": "NOT_RUN",
+  "intentionallyModifiedPaths": [
+    "docs/architecture/executable/hdip-cla-0.1-executable-programme.md",
+    "sidebars.ts"
+  ],
+  "machineAssignedM16Results": 0,
+  "manifestInventorySha256": "44ae6752814f6e553d43e29f9624b07e6a90c686b6cac1ab9f237759aac21ff4",
+  "newFilePaths": [
+    "docs/architecture/executable/hdip-cla-0.1-a15-executable-release-closure.md",
+    "static/specs/hdip-cla/0.1/a15/RELEASE.md",
+    "static/specs/hdip-cla/0.1/a15/a15-release-manifest.json",
+    "static/specs/hdip-cla/0.1/a15/a15-release-policy.json",
+    "static/specs/hdip-cla/0.1/a15/a15-validation.json",
+    "static/specs/hdip-cla/0.1/a15/a15-verification-report.json",
+    "static/specs/hdip-cla/0.1/a15/run_release_verification.py",
+    "static/specs/hdip-cla/0.1/a15/test_release_verification.py"
+  ],
+  "noProductionBuildReason": "Node dependencies not installed in release tree; no build attempted",
+  "note": "All successful results refer to bounded technical representation and integrity, not real-system M16 conformance.",
+  "productionPublicationApproval": "NOT_ASSERTED",
+  "realizationSpecificM16Assessment": "NOT_ESTABLISHED",
+  "releaseArchiveDigests": "External sidecar only; archive cannot self-hash within packaged report",
+  "releaseDisposition": "FORMALIZATION_PACKAGE_CLOSED_BOUNDED",
+  "releaseSignature": "NONE",
+  "reportId": "HDIP-CLA-0.1-A15-VALIDATION",
+  "repositoryInventory": {
+    "modifiedPredecessorFiles": 2,
+    "newFiles": 8,
+    "predecessorFiles": 252,
+    "removedPredecessorFiles": 0,
+    "selfReferentialAndGeneratedReportExclusions": [
+      "static/specs/hdip-cla/0.1/a15/a15-release-manifest.json",
+      "static/specs/hdip-cla/0.1/a15/a15-validation.json",
+      "static/specs/hdip-cla/0.1/a15/a15-verification-report.json"
+    ],
+    "sha256InventoryFiles": 257,
+    "totalFiles": 260,
+    "unchangedPredecessorFiles": 250
+  },
+  "status": "PASS_BOUNDED_EXECUTABLE_RELEASE_CLOSURE"
+}

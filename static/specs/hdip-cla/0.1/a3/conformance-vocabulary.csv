@@ -1,0 +1,23 @@
+category,token,name,meaning
+ASSESSMENT_MODE,STRUCTURAL,STRUCTURAL,"Material portions can be checked from declared architecture structure, identifiers, mappings or versioned configuration."
+ASSESSMENT_MODE,HYBRID,HYBRID,"Structural checks are useful but sufficient assessment also requires interpretation of authority, semantics, behavior, evidence or context."
+ASSESSMENT_MODE,ASSESSMENT,ASSESSMENT,Accountable judgement is primary; machine checks can support but cannot safely determine the conclusion by themselves.
+APPLICABILITY_STATE,APPLICABLE,APPLICABLE,The invariant architectural condition materially arises within the assessed subject/scope.
+APPLICABILITY_STATE,NOT_APPLICABLE,NOT_APPLICABLE,The condition genuinely does not arise in the bounded scope and that conclusion is justified.
+APPLICABILITY_STATE,UNDETERMINED,UNDETERMINED,"During assessment, applicability itself cannot yet be established."
+INVARIANT_RESULT,SATISFIED,SATISFIED,The applicable invariant has sufficient evidence to establish satisfaction.
+INVARIANT_RESULT,VIOLATED,VIOLATED,The applicable invariant is demonstrably violated.
+INVARIANT_RESULT,INDETERMINATE,INDETERMINATE,Available evidence cannot establish satisfaction or violation with the confidence required by the invariant.
+INVARIANT_RESULT,NOT_APPLICABLE,NOT_APPLICABLE,The invariant condition genuinely does not arise in the bounded scope and the rationale is justified.
+CONFORMANCE_OUTCOME,CONFORMANT,CONFORMANT,Every applicable core invariant is SATISFIED; N/A results have justified scope rationale; all obligations required by the claim type are satisfied.
+CONFORMANCE_OUTCOME,NONCONFORMANT,NONCONFORMANT,"At least one applicable core invariant is VIOLATED, or a mandatory claim-type obligation is demonstrably violated."
+CONFORMANCE_OUTCOME,INDETERMINATE,INDETERMINATE,"No applicable core invariant is known to be violated, but one or more material applicable obligations cannot be determined with sufficient evidence."
+CLAIM_TYPE,CORE_ARCHITECTURE_CONFORMANCE,Core Architecture Conformance,The subject preserves all applicable M16 core invariants and the applicable responsibilities/contracts of the HDIP-CLA 0.1 baseline.
+CLAIM_TYPE,PROFILE_CONFORMANCE,Profile Conformance,"The subject is Core-conformant and satisfies a named, governed, M16-valid HDIP Profile."
+CLAIM_TYPE,REALIZATION_MAPPING_CONFORMANCE,Realization Mapping Conformance,"A concrete implementation mapping faithfully realizes the claimed Core/Profile architecture, including traceability to Realization Units, M12 contracts, M13 boundaries/EBCs, evidence responsibilities, currentness and failure/recovery obligations."
+SUBJECT_CLASS,CS1,Enterprise HDIP Architecture,Enterprise-wide or multi-domain HDIP target/current architecture.
+SUBJECT_CLASS,CS2,Domain / Portfolio HDIP Architecture,"A Data, Information, Intelligence or cross-domain bounded architecture."
+SUBJECT_CLASS,CS3,Governed HDIP Profile,A concrete enterprise/domain/Product-family/high-assurance/Data-Mesh specialization.
+SUBJECT_CLASS,CS4,Platform / Solution Architecture,"A bounded platform, solution or capability architecture claiming HDIP alignment."
+SUBJECT_CLASS,CS5,Product / Capability Realization Architecture,A bounded Product or non-Product capability realization using applicable PDEP/SSCF/runtime responsibilities.
+SUBJECT_CLASS,CS6,Concrete Realization Mapping,The mapping from canonical/Profile architecture into actual deployed/human/provider Realization Units.

@@ -1,0 +1,21 @@
+{
+  "policyId": "HDIP-CLA-0.1-A15-RELEASE-POLICY",
+  "releaseVersion": "0.1",
+  "scope": "SPECIFICATION_EXECUTABLE_FORMALIZATION",
+  "normativePrecedence": ["M17_FROZEN_HUMAN_READABLE", "A1_TO_A15_DERIVED_MACHINE_REPRESENTATION"],
+  "allowedReleaseDisposition": "FORMALIZATION_PACKAGE_CLOSED_BOUNDED",
+  "allowedMachineVerificationStatus": "PASS_BOUNDED_RELEASE_INTEGRITY",
+  "architectureConformance": "NOT_ESTABLISHED",
+  "automaticM16ResultAssignmentAllowed": false,
+  "externalApproval": "NOT_ASSERTED",
+  "productionPublicationApproval": "NOT_ASSERTED",
+  "profileWaiverToPassAllowed": false,
+  "historicalClaimOverwriteAllowed": false,
+  "automaticRebaselineAllowed": false,
+  "intendedDistribution": "LOCAL_RELEASE_PACKAGE_SUBJECT_TO_GOVERNED_PUBLICATION",
+  "semanticProductPolicyDecisionAuthorityTransferAllowed": false,
+  "releaseIntegrityDoesNotImply": ["M16_CONFORMANT", "EXTERNAL_AUTHORITY_ENDORSEMENT", "IMPLEMENTATION_CERTIFICATION", "PRODUCT_QUALIFICATION", "PRODUCTION_DEPLOYMENT_APPROVAL"],
+  "versionPolicy": "M17-governed errata/change and explicit new release evidence; no silent replacement of frozen historical meaning",
+  "unsignedRelease": true,
+  "inventoryExclusionRationale": "Exclude manifest itself and generated reports to avoid self-referential hashing. All other shipped repository files must be hashed and present."
+}

@@ -1,0 +1,120 @@
+{
+  "corpusId": "HDIP-CLA-0.1-A9-CANONICAL-EXAMPLE-CORPUS",
+  "version": "0.1-A9",
+  "authority": "M17 human-readable baseline; examples are illustrative only",
+  "exampleCount": 11,
+  "examples": [
+    {
+      "id": "HDIP-CLA-A9-01",
+      "path": "examples/a9-01-data_pdep/manifest.json",
+      "title": "Data Product Development, Realization & Publication",
+      "family": "DATA",
+      "flowRefs": [
+        "M15-FLOW-01"
+      ],
+      "declarationCount": 3
+    },
+    {
+      "id": "HDIP-CLA-A9-02",
+      "path": "examples/a9-02-information_formation/manifest.json",
+      "title": "Information Product Formation from Governed Products/Capabilities",
+      "family": "INFORMATION",
+      "flowRefs": [
+        "M15-FLOW-02"
+      ],
+      "declarationCount": 3
+    },
+    {
+      "id": "HDIP-CLA-A9-03",
+      "path": "examples/a9-03-ai_external_provider/manifest.json",
+      "title": "AI Product / Intelligence Capability Realization with External Provider",
+      "family": "INTELLIGENCE",
+      "flowRefs": [
+        "M15-FLOW-03"
+      ],
+      "declarationCount": 4
+    },
+    {
+      "id": "HDIP-CLA-A9-04",
+      "path": "examples/a9-04-intent_consumption/manifest.json",
+      "title": "Intent-First Product Consumption",
+      "family": "NOT_APPLICABLE",
+      "flowRefs": [
+        "M15-FLOW-04"
+      ],
+      "declarationCount": 3
+    },
+    {
+      "id": "HDIP-CLA-A9-05",
+      "path": "examples/a9-05-repeated_runtime/manifest.json",
+      "title": "Established-State Repeated Runtime Consumption",
+      "family": "NOT_APPLICABLE",
+      "flowRefs": [
+        "M15-FLOW-05"
+      ],
+      "declarationCount": 3
+    },
+    {
+      "id": "HDIP-CLA-A9-06",
+      "path": "examples/a9-06-access_denial/manifest.json",
+      "title": "Access Denial, Constraint & Product Substitution",
+      "family": "NOT_APPLICABLE",
+      "flowRefs": [
+        "M15-FLOW-06"
+      ],
+      "declarationCount": 3
+    },
+    {
+      "id": "HDIP-CLA-A9-07",
+      "path": "examples/a9-07-governing_revocation/manifest.json",
+      "title": "Governing Revocation During Active Operation",
+      "family": "NOT_APPLICABLE",
+      "flowRefs": [
+        "M15-FLOW-07"
+      ],
+      "declarationCount": 3
+    },
+    {
+      "id": "HDIP-CLA-A9-08",
+      "path": "examples/a9-08-outcome_evolution/manifest.json",
+      "title": "Outcome / Value Feedback into Product Evolution",
+      "family": "DATA",
+      "flowRefs": [
+        "M15-FLOW-08"
+      ],
+      "declarationCount": 3
+    },
+    {
+      "id": "HDIP-CLA-A9-09",
+      "path": "examples/a9-09-federated_consumption/manifest.json",
+      "title": "Federated Cross-Domain Product Consumption",
+      "family": "NOT_APPLICABLE",
+      "flowRefs": [
+        "M15-FLOW-09"
+      ],
+      "declarationCount": 4
+    },
+    {
+      "id": "HDIP-CLA-A9-10",
+      "path": "examples/a9-10-provider_recovery/manifest.json",
+      "title": "Provider Failure, Migration, Rebinding & Recovery",
+      "family": "INTELLIGENCE",
+      "flowRefs": [
+        "M15-FLOW-10"
+      ],
+      "declarationCount": 3
+    },
+    {
+      "id": "HDIP-CLA-A9-11",
+      "path": "examples/a9-11-compound_cross_family/manifest.json",
+      "title": "Compound Data / Information / Intelligence Product Composition",
+      "family": "COMPOUND",
+      "flowRefs": [
+        "M15-FLOW-02",
+        "M15-FLOW-03"
+      ],
+      "declarationCount": 3
+    }
+  ],
+  "disclaimer": "Schema validity is not architectural conformance; no new canonical architectural identities or requirements."
+}

@@ -1,0 +1,53 @@
+{
+  "policyId": "HDIP-CLA-0.1-A14-REGRESSION-POLICY",
+  "version": "0.1-A14",
+  "humanReadableAuthority": "M17_FROZEN_HUMAN_READABLE",
+  "sourceAuthorityPrecedence": [
+    "M17_FROZEN_HUMAN_READABLE",
+    "M16_NORMATIVE_INVARIANTS",
+    "A1_A13_FORMALIZATION",
+    "A14_MACHINE_EVIDENCE_ONLY"
+  ],
+  "lockedSource": "a13-predecessor-lock.json",
+  "predecessorLockRule": "243 A13 predecessor files must match their recorded SHA-256 bytes; no automatic rebasing or silent remediation",
+  "onlyMutablePredecessorPaths": [
+    "docs/architecture/executable/hdip-cla-0.1-executable-programme.md",
+    "sidebars.ts"
+  ],
+  "expectedGates": [
+    "A13_PREDECESSOR_SHA256_LOCK",
+    "A10_POSITIVE_SUITE",
+    "A11_NEGATIVE_BOUNDARY_SUITE",
+    "A12_INTEGRATED_MACHINE_EVIDENCE",
+    "A13_FROZEN_SOURCE_RECONCILIATION",
+    "A8_POSITIVE_NEGATIVE_SCHEMA_FIXTURES",
+    "A12_MUTATION_GUARDS",
+    "A13_MUTATION_GUARDS",
+    "A14_MUTATION_GUARDS",
+    "M16_NO_AUTOMATED_CONFORMANCE_PROMOTION"
+  ],
+  "fixedCanonicalInventory": {
+    "A1Elements": 209,
+    "A2Relationships": 911,
+    "A2TraceabilityRecords": 332,
+    "M16Invariants": 48,
+    "M16AssessmentModes": {
+      "STRUCTURAL": 7,
+      "HYBRID": 37,
+      "ASSESSMENT": 4
+    },
+    "A10PositiveCases": 16,
+    "A11NegativeBoundaryCases": 54,
+    "A13Assertions": 1715
+  },
+  "expectedMachineResult": "PASS_BOUNDED_REGRESSION",
+  "failureResult": "REGRESSION_FAILURE_OR_INCOMPLETE",
+  "overallM16ConformanceNeverMachineAssigned": true,
+  "invariantM16ResultsNeverMachineAssigned": true,
+  "independentShaclProcessorIsNotClaimed": true,
+  "fullOwlEntailmentNotClaimed": true,
+  "externalAuthorityAttestationNotClaimed": true,
+  "releaseClosureDeferredTo": "A15",
+  "canonicalConformanceStatus": "NOT_ESTABLISHED",
+  "baselineEvolution": "Governed change/errata or later version only; no automatic approval, waivers or exception by score"
+}

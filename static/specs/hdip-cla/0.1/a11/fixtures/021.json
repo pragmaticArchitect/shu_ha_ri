@@ -1,0 +1,21 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-021",
+  "category": "SCHEMA_NEGATIVE",
+  "title": "Expanded JSON-LD graph is not a node array",
+  "expectedDisposition": "MACHINE_REJECTED",
+  "m16TraceRefs": [
+    "M16-I41"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "sourceDocument": "static/specs/hdip-cla/0.1/a5/canonical-architecture-graph.jsonld",
+  "mutations": [
+    {
+      "op": "replace",
+      "path": "",
+      "value": {
+        "invalid": "graph"
+      }
+    }
+  ],
+  "schemaDocument": "static/specs/hdip-cla/0.1/a7/a5-expanded-graph.schema.json"
+}

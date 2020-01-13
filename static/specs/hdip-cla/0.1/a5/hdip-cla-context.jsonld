@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "@vocab": "https://kivanura.org/specs/hdip-cla/0.1/id/ontology/",
+    "id": "@id",
+    "type": "@type",
+    "element": "https://kivanura.org/specs/hdip-cla/0.1/id/element/",
+    "ext": "https://kivanura.org/specs/hdip-cla/0.1/id/external-reference/",
+    "deriv": "https://kivanura.org/specs/hdip-cla/0.1/id/derivation-reference/",
+    "hist": "https://kivanura.org/specs/hdip-cla/0.1/id/historical-term/",
+    "assertion": "https://kivanura.org/specs/hdip-cla/0.1/id/relationship-assertion/",
+    "trace": "https://kivanura.org/specs/hdip-cla/0.1/id/traceability-assertion/",
+    "relation": "https://kivanura.org/specs/hdip-cla/0.1/id/relationship/",
+    "term": "https://kivanura.org/specs/hdip-cla/0.1/id/vocabulary/",
+    "cla": "https://kivanura.org/specs/hdip-cla/0.1/id/ontology/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "source": {
+      "@id": "cla:source",
+      "@type": "@id"
+    },
+    "target": {
+      "@id": "cla:target",
+      "@type": "@id"
+    },
+    "subject": {
+      "@id": "cla:subject",
+      "@type": "@id"
+    },
+    "relationshipType": {
+      "@id": "cla:relationshipType",
+      "@type": "@id"
+    },
+    "governedElement": {
+      "@id": "cla:governedElement",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "sourceInvariant": {
+      "@id": "cla:sourceInvariant",
+      "@type": "@id"
+    }
+  }
+}

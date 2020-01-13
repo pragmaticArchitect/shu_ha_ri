@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kivanura.org/specs/hdip-cla/0.1/a8/interaction-contract-declaration.schema.json",
+  "title": "interaction-contract-declaration",
+  "type": "object",
+  "required": [
+    "recordId",
+    "version",
+    "scope",
+    "sourceAuthority",
+    "interactionId",
+    "interactionContractVersion",
+    "producerPlaneRefs",
+    "consumerPlaneRefs",
+    "logicalContractNotTechnologyBinding"
+  ],
+  "properties": {
+    "recordId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceAuthority": {
+      "enum": [
+        "HDIP-CLA-0.1-M17"
+      ]
+    },
+    "interactionId": {
+      "enum": [
+        "HDIP-M12-INT-01",
+        "HDIP-M12-INT-02",
+        "HDIP-M12-INT-03",
+        "HDIP-M12-INT-04",
+        "HDIP-M12-INT-05",
+        "HDIP-M12-INT-06",
+        "HDIP-M12-INT-07",
+        "HDIP-M12-INT-08",
+        "HDIP-M12-INT-09",
+        "HDIP-M12-INT-10",
+        "HDIP-M12-INT-11",
+        "HDIP-M12-INT-12",
+        "HDIP-M12-INT-13",
+        "HDIP-M12-INT-14",
+        "HDIP-M12-INT-15",
+        "HDIP-M12-INT-16",
+        "HDIP-M12-INT-17",
+        "HDIP-M12-INT-18",
+        "HDIP-M12-INT-19",
+        "HDIP-M12-INT-20",
+        "HDIP-M12-INT-21"
+      ]
+    },
+    "interactionContractVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "producerPlaneRefs": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "HDIP-P1",
+          "HDIP-P2",
+          "HDIP-P3",
+          "HDIP-P4",
+          "HDIP-P5"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "consumerPlaneRefs": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "HDIP-P1",
+          "HDIP-P2",
+          "HDIP-P3",
+          "HDIP-P4",
+          "HDIP-P5"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "governingContextRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "authorityRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "evidenceObligations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "temporalSemantics": {
+      "type": "object"
+    },
+    "deliveryRetrySideEffects": {
+      "type": "object"
+    },
+    "outcomeMapping": {
+      "type": "object"
+    },
+    "logicalContractNotTechnologyBinding": {
+      "const": true
+    }
+  },
+  "additionalProperties": false
+}

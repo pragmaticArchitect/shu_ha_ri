@@ -1,0 +1,23 @@
+{
+  "id": "HDIP-CLA-0.1-A7-STRUCTURAL-SCHEMA-POLICY",
+  "status": "A7_COMPLETE",
+  "baseline": "M17_FROZEN",
+  "dialect": "https://json-schema.org/draft/2020-12/schema",
+  "scope": "Document serialization structure; not architecture conformance, external semantic authority, or runtime evidence",
+  "schemaTargets": {
+    "a1-architecture-elements": "static/specs/hdip-cla/0.1/a1/architecture-element-registry.json",
+    "a2-relationship-traceability": "static/specs/hdip-cla/0.1/a2/relationship-traceability-registry.json",
+    "a3-invariant-conformance": "static/specs/hdip-cla/0.1/a3/invariant-conformance-catalogue.json",
+    "a5-canonical-iri-policy": "static/specs/hdip-cla/0.1/a5/canonical-iri-policy.json",
+    "a5-jsonld-context": "static/specs/hdip-cla/0.1/a5/hdip-cla-context.jsonld",
+    "a5-expanded-graph": "static/specs/hdip-cla/0.1/a5/canonical-architecture-graph.jsonld"
+  },
+  "crossDocumentIntegrity": "Evaluated separately; JSON Schema alone does not prove cross-file referential integrity",
+  "rdfConstraints": "A6 SHACL, not superseded",
+  "lifecycleContracts": "A8, not defined here",
+  "conformanceRunner": "A12, not defined here",
+  "jsonLdModel": "A5 expanded JSON-LD, graph equivalence must be evaluated with RDF parser separately",
+  "iriAuthority": "A5 canonical IRI policy",
+  "m16AssessmentBoundary": "HYBRID and ASSESSMENT cannot be automatically declared SATISFIED by schema validation",
+  "validationSemantic": "Schema PASS proves only that the provided JSON instance meets the stated structural schema"
+}

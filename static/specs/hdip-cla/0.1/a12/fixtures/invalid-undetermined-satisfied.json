@@ -1,0 +1,26 @@
+{
+  "subjectId": "ILLUSTRATIVE-UNASSESSED-SUBJECT",
+  "subjectVersion": "draft-01",
+  "subjectClass": "CS4",
+  "claimType": "CORE_ARCHITECTURE_CONFORMANCE",
+  "scope": "Illustrative bounded architecture; no implementation review",
+  "baseline": "HDIP-CLA-0.1-M17",
+  "assessmentVersion": "draft-01",
+  "assessedAt": "2026-10-14T00:00:00Z",
+  "assessorIdentifier": "UNASSIGNED_EXAMPLE_ONLY",
+  "declaredOutcome": "INDETERMINATE",
+  "invariantAssessments": [
+    {
+      "invariantId": "M16-I01",
+      "applicability": "UNDETERMINED",
+      "result": "SATISFIED",
+      "rationale": "Authority review not supplied"
+    },
+    {
+      "invariantId": "M16-I41",
+      "applicability": "APPLICABLE",
+      "result": "INDETERMINATE",
+      "rationale": "Structure evidence pending"
+    }
+  ]
+}

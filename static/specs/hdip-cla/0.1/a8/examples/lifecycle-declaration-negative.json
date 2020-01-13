@@ -1,0 +1,51 @@
+{
+  "recordId": "EXAMPLE-001",
+  "version": "0.1",
+  "scope": "Illustrative bounded declaration (not certified)",
+  "sourceAuthority": "HDIP-CLA-0.1-M17",
+  "lifecycleKind": "PDEP",
+  "productFamily": "DATA",
+  "stageSet": [
+    {
+      "number": 0,
+      "name": "Preconditions"
+    },
+    {
+      "number": 1,
+      "name": "Intent Record"
+    },
+    {
+      "number": 2,
+      "name": "Authority Confirmation"
+    },
+    {
+      "number": 3,
+      "name": "Policy Intent"
+    },
+    {
+      "number": 4,
+      "name": "Semantic Descriptor (DPROD Draft)"
+    },
+    {
+      "number": 5,
+      "name": "Business Assertions / Evidence Rules"
+    },
+    {
+      "number": 6,
+      "name": "Usage Contract"
+    },
+    {
+      "number": 7,
+      "name": "Product Preview (Abstract)"
+    },
+    {
+      "number": 8,
+      "name": "Compilation"
+    },
+    {
+      "number": 9,
+      "name": "Deployment"
+    }
+  ],
+  "logicalNotRuntimePipeline": true
+}

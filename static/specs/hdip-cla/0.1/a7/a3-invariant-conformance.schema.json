@@ -1,0 +1,482 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kivanura.org/specs/hdip-cla/0.1/a7/a3-invariant-conformance.schema.json",
+  "title": "HDIP-CLA 0.1 A7 — a3-invariant-conformance document structure",
+  "description": "Validates serialization structure. Does not establish architectural conformance or replace M17.",
+  "x-hdip-source": "static/specs/hdip-cla/0.1/a3/invariant-conformance-catalogue.json",
+  "type": "object",
+  "properties": {
+    "catalogueId": {
+      "type": "string"
+    },
+    "catalogueVersion": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "humanReadableAuthority": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "a1IdentityRegistry": {
+      "type": "string"
+    },
+    "a2RelationshipTraceabilityRegistry": {
+      "type": "string"
+    },
+    "fidelityPolicy": {
+      "type": "object",
+      "properties": {
+        "humanReadablePrecedence": {
+          "type": "boolean"
+        },
+        "noSilentRedesign": {
+          "type": "boolean"
+        },
+        "assessmentModeBoundaryPreserved": {
+          "type": "boolean"
+        },
+        "conditionalPositiveOutcomeDefined": {
+          "type": "boolean"
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "summary": {
+      "type": "object",
+      "properties": {
+        "architectureInvariants": {
+          "type": "integer"
+        },
+        "invariantFamilies": {
+          "type": "integer"
+        },
+        "assessmentModes": {
+          "type": "integer"
+        },
+        "applicabilityStates": {
+          "type": "integer"
+        },
+        "invariantResults": {
+          "type": "integer"
+        },
+        "conformanceSubjectClasses": {
+          "type": "integer"
+        },
+        "claimTypes": {
+          "type": "integer"
+        },
+        "overallOutcomes": {
+          "type": "integer"
+        },
+        "evidencePackageDimensions": {
+          "type": "integer"
+        },
+        "profileDimensions": {
+          "type": "integer"
+        },
+        "permittedProfileOperations": {
+          "type": "integer"
+        },
+        "prohibitedProfileOperations": {
+          "type": "integer"
+        },
+        "antiPatterns": {
+          "type": "integer"
+        },
+        "normativeRules": {
+          "type": "integer"
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "invariantFamilies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "members": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "name": {
+            "type": "string"
+          },
+          "number": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "members",
+          "name",
+          "number"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "assessmentModes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "automationCeiling": {
+            "type": "string"
+          },
+          "meaning": {
+            "type": "string"
+          },
+          "token": {
+            "type": "string"
+          },
+          "typicalEvidence": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "automationCeiling",
+          "meaning",
+          "token",
+          "typicalEvidence"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "applicabilityStates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "assessmentStateOnly": {
+            "type": "boolean"
+          },
+          "finalResultAllowed": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "meaning": {
+            "type": "string"
+          },
+          "token": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "finalResultAllowed",
+          "meaning",
+          "token"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "invariantResults": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "meaning": {
+            "type": "string"
+          },
+          "token": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "meaning",
+          "token"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "conformanceSubjectClasses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "meaning": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "meaning",
+          "name"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "claimTypes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "meaning": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "token": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "meaning",
+          "name",
+          "token"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "overallOutcomes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "meaning": {
+            "type": "string"
+          },
+          "token": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "meaning",
+          "token"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "claimScopeMinimum": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidencePackage": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "minimumContent": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "number": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "minimumContent",
+          "name",
+          "number"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "profileDimensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "profileOperations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "disposition": {
+            "type": "string"
+          },
+          "meaning": {
+            "type": "string"
+          },
+          "token": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "disposition",
+          "meaning",
+          "token"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "realizationMappingMinimum": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "machineCheckabilityExamples": {
+      "type": "object",
+      "properties": {
+        "safelyAutomatable": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "hybrid": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "assessmentOnly": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "historicalClaimLifecycle": {
+      "type": "object",
+      "properties": {
+        "versionedAndTimeBound": {
+          "type": "boolean"
+        },
+        "eventsAreIllustrativeNotExhaustive": {
+          "type": "boolean"
+        },
+        "exampleEvents": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "historicalNonRewrite": {
+          "type": "boolean"
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "assessmentWorkflow": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "antiPatterns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "invariants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "a2AncestryTraceId": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "a2GovernedElementIds": {
+            "type": "array"
+          },
+          "a2GovernedElementRelationshipIds": {
+            "type": "array"
+          },
+          "assessmentMode": {
+            "enum": [
+              "STRUCTURAL",
+              "HYBRID",
+              "ASSESSMENT"
+            ]
+          },
+          "automationBoundary": {
+            "type": "string"
+          },
+          "canonicalCondition": {
+            "type": "string"
+          },
+          "family": {
+            "type": "string"
+          },
+          "familyNumber": {
+            "type": "integer"
+          },
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "sourceDocuments": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "sourceInvariantId": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          }
+        },
+        "required": [
+          "a2AncestryTraceId",
+          "a2GovernedElementIds",
+          "a2GovernedElementRelationshipIds",
+          "assessmentMode",
+          "automationBoundary",
+          "canonicalCondition",
+          "family",
+          "familyNumber",
+          "id",
+          "name",
+          "sourceDocuments",
+          "sourceInvariantId"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 48,
+      "maxItems": 48
+    }
+  },
+  "required": [
+    "catalogueId",
+    "catalogueVersion",
+    "invariants",
+    "assessmentModes",
+    "invariantResults",
+    "overallOutcomes"
+  ],
+  "additionalProperties": true
+}

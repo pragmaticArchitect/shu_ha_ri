@@ -1,0 +1,28 @@
+{
+  "specification": "HDIP-CLA 0.1 A6",
+  "authority": "M17 frozen human-readable baseline",
+  "purpose": "Structural fidelity checks for A1-A5 specification graph, not realization certification",
+  "invariantModes": {
+    "STRUCTURAL": "potentially decidable where structural evidence and semantics suffice",
+    "HYBRID": "accountable judgement required for satisfaction",
+    "ASSESSMENT": "accountable judgement required for satisfaction"
+  },
+  "noAutomaticConformanceClaim": true,
+  "closedWorldForSpecificationSnapshot": true,
+  "openWorldForArchitectureSemantics": true,
+  "shaclEntailment": "none",
+  "scope": "architecture-specification-graph",
+  "deferred": [
+    "A7 JSON schemas",
+    "A8 lifecycle/contract/profile schemas",
+    "A9 example corpus",
+    "A10/A11 positive-negative full test corpus",
+    "A12 runtime conformance engine"
+  ],
+  "requiresIndependentSHACLEngineVerification": true,
+  "prohibitedAutomaticOutcomes": [
+    "CONDITIONALLY_CONFORMANT",
+    "HYBRID_AUTOMATIC_SATISFIED",
+    "ASSESSMENT_AUTOMATIC_SATISFIED"
+  ]
+}

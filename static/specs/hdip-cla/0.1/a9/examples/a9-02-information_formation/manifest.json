@@ -1,0 +1,45 @@
+{
+  "exampleId": "HDIP-CLA-A9-02",
+  "title": "Information Product Formation from Governed Products/Capabilities",
+  "scenarioKind": "INFORMATION_FORMATION",
+  "normativeStatus": "ILLUSTRATIVE_ONLY",
+  "assessmentStatus": "NOT_ASSESSED",
+  "claimOutcome": "INDETERMINATE",
+  "family": "INFORMATION",
+  "m15FlowRefs": [
+    "M15-FLOW-02"
+  ],
+  "m12InteractionRefs": [
+    "HDIP-M12-INT-09",
+    "HDIP-M12-INT-19"
+  ],
+  "m13BoundaryRefs": [
+    "HDIP-BND-02"
+  ],
+  "m14ProfileRef": "M14-PP-02",
+  "m14RealizationPatternRef": "M14-RP-02",
+  "declarations": [
+    {
+      "kind": "lifecycle-declaration",
+      "path": "examples/a9-02-information_formation/lifecycle-declaration.json",
+      "schema": "../a8/lifecycle-declaration.schema.json"
+    },
+    {
+      "kind": "profile-declaration",
+      "path": "examples/a9-02-information_formation/profile-declaration.json",
+      "schema": "../a8/profile-declaration.schema.json"
+    },
+    {
+      "kind": "realization-profile-binding-declaration",
+      "path": "examples/a9-02-information_formation/realization-profile-binding-declaration.json",
+      "schema": "../a8/realization-profile-binding-declaration.schema.json"
+    }
+  ],
+  "architecturalBoundary": "Information-specific family lifecycle; no Data PDEP universalization.",
+  "historicalTruthPolicy": "Preserve evidence as-of governing versions; no rewriting later",
+  "caveats": [
+    "Schema-valid is not invariant SATISFIED",
+    "No Product qualification, entitlement or consequential Decision authority implied",
+    "Example-specific declaration fields are not normative M17 requirements"
+  ]
+}

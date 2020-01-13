@@ -1,0 +1,41 @@
+{
+  "id": "HDIP-CLA-0.1-A13-VALIDATION",
+  "status": "PASSED_BOUNDED_RECONCILIATION",
+  "humanReadableAuthority": "M17_FROZEN_HUMAN_READABLE",
+  "reconciliationGates": 7,
+  "reconciliationAssertions": 1715,
+  "reconciliationAssertionsPassed": 1715,
+  "formalizationDefectsDetected": 0,
+  "mutationGuardTestsPassed": 10,
+  "deterministicCliReport": true,
+  "cliExitCode": 0,
+  "previousRepositoryFileCount": 238,
+  "previousFilesByteIdentical": 236,
+  "previousFilesChangedIntentionally": [
+    "docs/architecture/executable/hdip-cla-0.1-executable-programme.md",
+    "sidebars.ts"
+  ],
+  "previousFilesRemoved": 0,
+  "newFiles": [
+    "docs/architecture/executable/hdip-cla-0.1-a13-cross-artifact-reconciliation.md",
+    "static/specs/hdip-cla/0.1/a13/a13-disposition-ledger.json",
+    "static/specs/hdip-cla/0.1/a13/a13-reconciliation-policy.json",
+    "static/specs/hdip-cla/0.1/a13/a13-reconciliation-report.json",
+    "static/specs/hdip-cla/0.1/a13/a13-validation.json",
+    "static/specs/hdip-cla/0.1/a13/run_reconciliation.py",
+    "static/specs/hdip-cla/0.1/a13/test_reconciliation.py"
+  ],
+  "overlayFileCount": 9,
+  "completeRepositoryFileCount": 245,
+  "sourceHashCount": 48,
+  "sourceSnapshotSha256": "5913e69a6345ea61a9990a61dbbf631b0429e865625772a3086737631d055b56",
+  "docusaurusBuild": "NOT_RUN",
+  "independentShaclValidation": "NOT_RUN",
+  "owlReasonerProof": "NOT_RUN",
+  "m16ImplementationConformance": "NOT_ESTABLISHED",
+  "notes": [
+    "Checker interprets historical term resources using original HIST:: token, not stripped label.",
+    "A2 relationshipType is encoded as an RDF IRI, not a string literal.",
+    "No canonical predecessor bytes were rewritten to make the checks pass."
+  ]
+}

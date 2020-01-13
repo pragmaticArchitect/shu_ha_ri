@@ -1,0 +1,19 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-026",
+  "category": "REFERENCE_NEGATIVE",
+  "title": "A9 manifest uses nonexistent M15 flow",
+  "expectedDisposition": "MACHINE_REJECTED",
+  "m16TraceRefs": [
+    "M16-I15"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "sourceDocument": "static/specs/hdip-cla/0.1/a9/examples/a9-07-governing_revocation/manifest.json",
+  "mutations": [
+    {
+      "op": "replace",
+      "path": "/m15FlowRefs/0",
+      "value": "M15-FLOW-99"
+    }
+  ],
+  "check": "A9_MANIFEST_REFERENCES"
+}

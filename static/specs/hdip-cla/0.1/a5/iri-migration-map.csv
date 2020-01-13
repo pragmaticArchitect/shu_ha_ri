@@ -1,0 +1,10 @@
+scope,a4ProvisionalBase,a5CanonicalBase,identityRule,authority
+element,urn:hdip-cla:0.1:element:,https://kivanura.org/specs/hdip-cla/0.1/id/element/,percent-encoded original suffix unchanged,HDIP-CLA representation only
+external,urn:hdip-cla:0.1:external:,https://kivanura.org/specs/hdip-cla/0.1/id/external-reference/,percent-encoded original suffix unchanged,HDIP-CLA representation only
+derivation,urn:hdip-cla:0.1:derivation:,https://kivanura.org/specs/hdip-cla/0.1/id/derivation-reference/,percent-encoded original suffix unchanged,HDIP-CLA representation only
+historical,urn:hdip-cla:0.1:historical:,https://kivanura.org/specs/hdip-cla/0.1/id/historical-term/,percent-encoded original suffix unchanged,HDIP-CLA representation only
+relationRecord,urn:hdip-cla:0.1:relation-record:,https://kivanura.org/specs/hdip-cla/0.1/id/relationship-assertion/,percent-encoded original suffix unchanged,HDIP-CLA representation only
+traceRecord,urn:hdip-cla:0.1:trace-record:,https://kivanura.org/specs/hdip-cla/0.1/id/traceability-assertion/,percent-encoded original suffix unchanged,HDIP-CLA representation only
+relationshipPredicate,urn:hdip-cla:0.1:predicate:,https://kivanura.org/specs/hdip-cla/0.1/id/relationship/,percent-encoded original suffix unchanged,HDIP-CLA representation only
+vocabulary,urn:hdip-cla:0.1:vocabulary:,https://kivanura.org/specs/hdip-cla/0.1/id/vocabulary/,percent-encoded original suffix unchanged,HDIP-CLA representation only
+ontology,urn:hdip-cla:0.1:a4:,https://kivanura.org/specs/hdip-cla/0.1/id/ontology/,percent-encoded original suffix unchanged,HDIP-CLA representation only

@@ -1,0 +1,46 @@
+{
+  "exampleId": "HDIP-CLA-A9-06",
+  "title": "Access Denial, Constraint & Product Substitution",
+  "scenarioKind": "ACCESS_DENIAL",
+  "normativeStatus": "ILLUSTRATIVE_ONLY",
+  "assessmentStatus": "NOT_ASSESSED",
+  "claimOutcome": "INDETERMINATE",
+  "family": "NOT_APPLICABLE",
+  "m15FlowRefs": [
+    "M15-FLOW-06"
+  ],
+  "m12InteractionRefs": [
+    "HDIP-M12-INT-06",
+    "HDIP-M12-INT-12",
+    "HDIP-M12-INT-21"
+  ],
+  "m13BoundaryRefs": [
+    "HDIP-BND-06"
+  ],
+  "m14ProfileRef": "M14-PP-05",
+  "m14RealizationPatternRef": "M14-RP-03",
+  "declarations": [
+    {
+      "kind": "lifecycle-declaration",
+      "path": "examples/a9-06-access_denial/lifecycle-declaration.json",
+      "schema": "../a8/lifecycle-declaration.schema.json"
+    },
+    {
+      "kind": "interaction-contract-declaration",
+      "path": "examples/a9-06-access_denial/interaction-contract-declaration.json",
+      "schema": "../a8/interaction-contract-declaration.schema.json"
+    },
+    {
+      "kind": "external-boundary-contract-declaration",
+      "path": "examples/a9-06-access_denial/external-boundary-contract-declaration.json",
+      "schema": "../a8/external-boundary-contract-declaration.schema.json"
+    }
+  ],
+  "architecturalBoundary": "Denial/substitution must respect independently accountable access authority.",
+  "historicalTruthPolicy": "Preserve evidence as-of governing versions; no rewriting later",
+  "caveats": [
+    "Schema-valid is not invariant SATISFIED",
+    "No Product qualification, entitlement or consequential Decision authority implied",
+    "Example-specific declaration fields are not normative M17 requirements"
+  ]
+}

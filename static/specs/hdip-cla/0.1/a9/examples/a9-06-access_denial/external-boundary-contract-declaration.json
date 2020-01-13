@@ -1,0 +1,16 @@
+{
+  "recordId": "HDIP-CLA-A9-06-EXTERNAL_BOUNDARY_CONTRACT_DECLARATION",
+  "version": "0.1",
+  "scope": "Illustrative Access Denial, Constraint & Product Substitution; non-normative and NOT_ASSESSED",
+  "sourceAuthority": "HDIP-CLA-0.1-M17",
+  "boundaryFamilyIds": [
+    "HDIP-BND-06"
+  ],
+  "boundaryInstanceRef": "EXAMPLE-DOWNSTREAM",
+  "interactionContractRef": "EXAMPLE-INT-CONTRACT",
+  "externalAuthorityRefs": [
+    "EXAMPLE-DECISION-AUTHORITY"
+  ],
+  "accessAuthorizationDistinctFromConsequenceAuthorization": true,
+  "notAnAPIOrLegalContractByDefinition": true
+}

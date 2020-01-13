@@ -1,0 +1,18 @@
+{
+  "caseId": "HDIP-CLA-A11-CASE-016",
+  "category": "SCHEMA_NEGATIVE",
+  "title": "Profile omits M16 dimension",
+  "expectedDisposition": "MACHINE_REJECTED",
+  "m16TraceRefs": [
+    "M16-I48"
+  ],
+  "interpretationBoundary": "Test outcome applies only to the deliberately constructed fixture; it is not an M16 invariant result or implementation certification.",
+  "sourceDocument": "static/specs/hdip-cla/0.1/a9/examples/a9-11-compound_cross_family/profile-declaration.json",
+  "mutations": [
+    {
+      "op": "remove",
+      "path": "/dimensions/invariantApplicabilityMatrix"
+    }
+  ],
+  "schemaDocument": "static/specs/hdip-cla/0.1/a8/profile-declaration.schema.json"
+}

@@ -1,0 +1,25 @@
+{
+  "stage": "A4",
+  "status": "COMPLETE",
+  "result": "PASS",
+  "checks": {
+    "a1Elements": 209,
+    "a2Relationships": 911,
+    "a2Traceability": 332,
+    "a2RelationshipTypes": 32,
+    "a2ExternalReferences": 18,
+    "a3Invariants": 48,
+    "tripleCount": 13727,
+    "turtleRoundTrip": "PASS",
+    "a2DirectEdges": "PASS",
+    "a3CanonicalConditions": "PASS",
+    "owlSameAsAssertions": 0,
+    "canonicalIRIClaims": 0
+  },
+  "limitations": [
+    "No A5 canonical IRIs assigned",
+    "No A6 SHACL conformance constraints",
+    "No A12 runtime conformance runner",
+    "A3 hybrid and assessment invariants require accountable judgement"
+  ]
+}

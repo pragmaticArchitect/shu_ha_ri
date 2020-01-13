@@ -1,0 +1,47 @@
+{
+  "exampleId": "HDIP-CLA-A9-11",
+  "title": "Compound Data / Information / Intelligence Product Composition",
+  "scenarioKind": "COMPOUND_CROSS_FAMILY",
+  "normativeStatus": "ILLUSTRATIVE_ONLY",
+  "assessmentStatus": "NOT_ASSESSED",
+  "claimOutcome": "INDETERMINATE",
+  "family": "COMPOUND",
+  "m15FlowRefs": [
+    "M15-FLOW-02",
+    "M15-FLOW-03"
+  ],
+  "m12InteractionRefs": [
+    "HDIP-M12-INT-09",
+    "HDIP-M12-INT-11"
+  ],
+  "m13BoundaryRefs": [
+    "HDIP-BND-02",
+    "HDIP-BND-03"
+  ],
+  "m14ProfileRef": "M14-PP-04",
+  "m14RealizationPatternRef": "M14-RP-04",
+  "declarations": [
+    {
+      "kind": "lifecycle-declaration",
+      "path": "examples/a9-11-compound_cross_family/lifecycle-declaration.json",
+      "schema": "../a8/lifecycle-declaration.schema.json"
+    },
+    {
+      "kind": "profile-declaration",
+      "path": "examples/a9-11-compound_cross_family/profile-declaration.json",
+      "schema": "../a8/profile-declaration.schema.json"
+    },
+    {
+      "kind": "realization-profile-binding-declaration",
+      "path": "examples/a9-11-compound_cross_family/realization-profile-binding-declaration.json",
+      "schema": "../a8/realization-profile-binding-declaration.schema.json"
+    }
+  ],
+  "architecturalBoundary": "Compound is a Product family Profile; component co-location does not merge family semantics.",
+  "historicalTruthPolicy": "Preserve evidence as-of governing versions; no rewriting later",
+  "caveats": [
+    "Schema-valid is not invariant SATISFIED",
+    "No Product qualification, entitlement or consequential Decision authority implied",
+    "Example-specific declaration fields are not normative M17 requirements"
+  ]
+}

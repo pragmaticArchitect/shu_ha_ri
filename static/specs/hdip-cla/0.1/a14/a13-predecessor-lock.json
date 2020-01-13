@@ -1,0 +1,987 @@
+{
+  "registryId": "HDIP-CLA-0.1-A14-A13-PREDECESSOR-LOCK",
+  "baselineStage": "A13",
+  "sourceZip": "shu_ha_ri-hdip-cla-a13-complete.zip",
+  "sourceZipSha256": "7096039ee8231c87444b1a8aa1f5b867705272f9ba49b10bc3178b93d38bbc92",
+  "frozenHumanAuthority": "M17",
+  "lockedFileCount": 243,
+  "exemptFromByteLock": [
+    "docs/architecture/executable/hdip-cla-0.1-executable-programme.md",
+    "sidebars.ts"
+  ],
+  "baselineUpdatePolicy": "NEVER_AUTOMATICALLY_REBASELINE; governed correction/version only",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "c01a44fbe44c382f76f556294e890f09c25226e199c7e1843d35b164cca6d05c"
+    },
+    {
+      "path": "INITIAL_BASELINE.md",
+      "sha256": "7ebd1334a09236b3c3b1ea8635ab89a71779f102c9ad7373f5bfd1011926ceb0"
+    },
+    {
+      "path": "README.md",
+      "sha256": "801a78d357e2e0471dd068824897e95f4e8b418b0667160cd4b628b8369a409f"
+    },
+    {
+      "path": "docs/architecture/cla/hdip-cla-0.1-m01-charter.md",
+      "sha256": "36721f67ff079bb4dbbdf52ec968ccb1b4db3dbe653c6aff778acfea7d18a549"
+    },
+    {
+      "path": "docs/architecture/cla/hdip-cla-0.1-m02-upstream-responsibility-intake.md",
+      "sha256": "51039adec2e08695475849f56b7339065f056fd9514520d3ac7e99cbdc045580"
+    },
+    {
+      "path": "docs/architecture/cla/hdip-cla-0.1-m03-existing-hdip-construct-inventory.md",
+      "sha256": "d0a560d01d8d69420c40e2cff5e0247d2a982c8e3ef3a724df9cd5429d220478"
+    },
+    {
+      "path": "docs/architecture/cla/hdip-cla-0.1-m04-principles-design-invariants.md",
+      "sha256": "e0dba87b0ae734a04d5d931db5069b26776c9b94a9ca69d9b24c74f88ec38cca"
+    },
+    {
+      "path": "docs/architecture/cla/hdip-cla-0.1-m05-responsibility-convergence-separation.md",
+      "sha256": "7f1e2821325029c353df8b5f1aedbe0f938349a6c48ac2e31d14daf4ce9fcabd"
+    },
+    {
+      "path": "docs/architecture/cla/hdip-cla-0.1-m06-canonical-logical-plane-derivation.md",
+      "sha256": "7e9a9e156701c0ce621223ed0f42428ddbb9cfae5318c3efabc50d733d3c2e1a"
+    },
+    {
+      "path": "docs/architecture/cla/hdip-cla-0.1-m07-cross-cutting-overlay-derivation.md",
+      "sha256": "1dd05f93a4579be4086d4c9dbedd7fbc7a6d298b2cee6a7c79ad2ddc679443c1"
+    },
+    {
+      "path": "docs/architecture/cla/hdip-cla-0.1-m08-canonical-logical-abb-catalogue.md",
+      "sha256": "054d5da5409c2564d24dcf11845658b394b391cc14ce3fdf35860af8d5ab1454"
+    },
+    {
+      "path": "docs/architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture.md",
+      "sha256": "4bf0e8fd10b07ae88b29209a7306a6df405381aa96f662c2d5454545bf89de12"
+    },
+    {
+      "path": "docs/architecture/cla/hdip-cla-0.1-m10-pdep-architecture.md",
+      "sha256": "3626462e1232989fd5408ffa3263df3e5924f96cb7f6240d9556efc767b51707"
+    },
+    {
+      "path": "docs/architecture/cla/hdip-cla-0.1-m11-sscf-cep-architecture.md",
+      "sha256": "abf35b82c1e67274877dc294a8cd904c31fb3a50bf7834b374e02a60145641ec"
+    },
+    {
+      "path": "docs/architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model.md",
+      "sha256": "f28f7a6ab32415bffb6115593b705eb98a860c696cbd070082a27a2c191a1f1d"
+    },
+    {
+      "path": "docs/architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model.md",
+      "sha256": "c3a528283c5bb99d5f468f1b6a66dcfa33530af9d7b8ef3edb5fde3d69ec2ce1"
+    },
+    {
+      "path": "docs/architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns.md",
+      "sha256": "b4cf8f6ae3dbdd87ab7dc05190313297ac5b20c3ea96676425923d20122f9b58"
+    },
+    {
+      "path": "docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views.md",
+      "sha256": "69d8de5bb21b14f38aa285f6f9b9d1da2560e3dda7c59c218e41e8afa7d74e4b"
+    },
+    {
+      "path": "docs/architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model.md",
+      "sha256": "f754866c08f5b0c4e8059b2fad8c14525037acff548392b06cbe51d4cd6d04b8"
+    },
+    {
+      "path": "docs/architecture/cla/hdip-cla-0.1-m17-cross-artifact-reconciliation-freeze.md",
+      "sha256": "285b638bff141eeadb5b86a3f6b44bcc8c63a5cd8cbc1a52a2275deec6faa33f"
+    },
+    {
+      "path": "docs/architecture/executable/hdip-cla-0.1-a1-canonical-architecture-element-registry.md",
+      "sha256": "8ac44f75f67d42618f8e1c9cd3a728e0cc38fa5deeee68cdc55f4627b7406a13"
+    },
+    {
+      "path": "docs/architecture/executable/hdip-cla-0.1-a10-positive-conformance-tests.md",
+      "sha256": "2a6e7e87aea6bfea237d8a07dacd1f25f1a4ee2f4393c02a283d045dd03de2c0"
+    },
+    {
+      "path": "docs/architecture/executable/hdip-cla-0.1-a11-negative-boundary-test-cases.md",
+      "sha256": "bc32c0cdf329953f5d7eef09dac0c4531b1458f22163ef1c97bd076f014427a2"
+    },
+    {
+      "path": "docs/architecture/executable/hdip-cla-0.1-a12-automated-conformance-runner.md",
+      "sha256": "71067bc72a082168fe2e68645be7f411726473429b302a8b38e177a2d7905700"
+    },
+    {
+      "path": "docs/architecture/executable/hdip-cla-0.1-a13-cross-artifact-reconciliation.md",
+      "sha256": "ba8377a8bc9f2fff1b77eee47dccc80e3d0d40132b7991036d46ebbf8edee131"
+    },
+    {
+      "path": "docs/architecture/executable/hdip-cla-0.1-a2-canonical-relationship-traceability-registry.md",
+      "sha256": "0dca33e5cda1cb077703904d5963c1ab6d2040a867227a09be7780bd8fbd778f"
+    },
+    {
+      "path": "docs/architecture/executable/hdip-cla-0.1-a3-invariant-conformance-catalogue.md",
+      "sha256": "94e9ebc337930c12cf824ef70bb7c81bd6cb4b09ea251ad48c8d0f28c5e8629a"
+    },
+    {
+      "path": "docs/architecture/executable/hdip-cla-0.1-a4-rdf-owl-architecture-graph.md",
+      "sha256": "b5ec57d3b8f160dec9151187f3006bfa69311820c2ac0e553808245fb41ac959"
+    },
+    {
+      "path": "docs/architecture/executable/hdip-cla-0.1-a5-jsonld-canonical-iri.md",
+      "sha256": "1f088a9678b89f183317b2e077e41e064d3959e2b3226093ab6f45118a70abb1"
+    },
+    {
+      "path": "docs/architecture/executable/hdip-cla-0.1-a6-shacl-constraint-layer.md",
+      "sha256": "d5da93efa4a09fb7b6effb5023e28cc1ddfc548bb05c391e005cfba212dc08e3"
+    },
+    {
+      "path": "docs/architecture/executable/hdip-cla-0.1-a7-structural-json-jsonld-schemas.md",
+      "sha256": "1d91a8b7c9d88232c5aa270ba7b8e87bba5269061b7a368101519982c6270b7d"
+    },
+    {
+      "path": "docs/architecture/executable/hdip-cla-0.1-a8-lifecycle-contract-profile-schemas.md",
+      "sha256": "07d334095a8543dda7b818a7ae2b64fb2ca64e8d9e56dea30fbfc1ee12be8730"
+    },
+    {
+      "path": "docs/architecture/executable/hdip-cla-0.1-a9-canonical-example-corpus.md",
+      "sha256": "ddea20ba854ee267ebf174319a6f6f2f37f3c3ae0ffc56ca94a1d40c1e34e34b"
+    },
+    {
+      "path": "docs/architecture/hdip-cla-0.1-programme.md",
+      "sha256": "891a199f14b0f4c3306f6ed43802ce028bf57d0db0a514ade67978cd9e00f597"
+    },
+    {
+      "path": "docs/data-management/hdip-enterprise-level1-data-architecture-requirements.md",
+      "sha256": "e7f68d5933f4a81bd71fc17fa26b28d929c3ad878d6f1c5bb4fc3b95a56b46ab"
+    },
+    {
+      "path": "docs/foundations/hdip-brief.md",
+      "sha256": "8ac170beab4619e7abe6500cbfd76872384cabb3d83ccf30a548c7b220f6265f"
+    },
+    {
+      "path": "docs/introduction.md",
+      "sha256": "677778b76b68124b173856aee3d8cc836392a60e58a73dae25410eef78350439"
+    },
+    {
+      "path": "docs/product-consumption/hdip-product-consumption-stages.md",
+      "sha256": "9cb5a8df0d9ae184dacea1c561a9f3f829357d6679d6c6b46819a35c208cf2e5"
+    },
+    {
+      "path": "docs/product-development/hdip-data-product-development-stages.md",
+      "sha256": "60d08bbc2143c34595e2e6a2b5a19e7d79b51222117c25258ef494172b4f030b"
+    },
+    {
+      "path": "docs/product-projections/hdip-product-descriptor.md",
+      "sha256": "6c0de5cf0506e5a9041b50803c2bc170e66b1ee665b70e9c72ea25a4c6a7f25c"
+    },
+    {
+      "path": "docs/synthetic-context/hdip-synctx-ontology.md",
+      "sha256": "d12ac2046b8636304129b6ce362a2018e176c4a39280987b3f3a10234cf48fd2"
+    },
+    {
+      "path": "docs/synthetic-context/hdip-synctx-pdep-inference.md",
+      "sha256": "15b4099c0c20e9f8a73f4cfd989f3e48a4e6243eb1045669a173f432bab8b2fc"
+    },
+    {
+      "path": "docs/synthetic-context/hdip-synthetic-context.md",
+      "sha256": "b38c6a518a69ba64af54b6dcde42eca19415353c000f37777e1765a9b705bde3"
+    },
+    {
+      "path": "docusaurus.config.ts",
+      "sha256": "609b686c3254efcba42c129f3bc91aa69125a081e449b5275deb60f3cf2bb248"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "c71c85a29a83c5881b7b736d399bace9d64818bb29e0b8949fbc206dd31f8be5"
+    },
+    {
+      "path": "package.json",
+      "sha256": "b7733a218040cc54ca5e781d5d1836514a6870e9893e42ecaeb45b9dcfe1def8"
+    },
+    {
+      "path": "src/css/custom.css",
+      "sha256": "74f02a4e25e5367a2b20e9a46c8d9e751d7e15b37b6c53e68ca0a5dbd0c51602"
+    },
+    {
+      "path": "src/pages/index.module.css",
+      "sha256": "588b87235694956381cddf4d6d7d6ff168d2ee02e1fd0677b2536b5619af3e3c"
+    },
+    {
+      "path": "src/pages/index.tsx",
+      "sha256": "d67f7b0cd1386bec863cb93f8a5e45ed3c85c8eef2330c09c1410d15a9f5dcea"
+    },
+    {
+      "path": "static/img/hdip/data-asset-to-data-product-guidance.png",
+      "sha256": "eedd2b44005473a911cadee884ba20eef72aeb0faa4f8da9d1c6c8f204ee6c2f"
+    },
+    {
+      "path": "static/img/hdip/dii-wormhole-concept.png",
+      "sha256": "4c168b33ab5cfce69de9d927437778d79fefa1ba44f3d1b0dc4f86de5eceab69"
+    },
+    {
+      "path": "static/img/hdip/dpo.png",
+      "sha256": "81f21c3fbe0587345e0702b16bfe4bebc44c04861bc0e93ec0d71daddc93da76"
+    },
+    {
+      "path": "static/img/hdip/hdip-ap-dp-cep-specC.png",
+      "sha256": "e25fdc476e50efff35f4ba68aad763a008c26c3ac6e226c93dfdbe67ca208a91"
+    },
+    {
+      "path": "static/img/hdip/hdip-dp-pdep-specC.png",
+      "sha256": "f317aaa095fafb381ecad0f676a8fed6096f0c67ab3d0b75d0e1d26e8cf26b70"
+    },
+    {
+      "path": "static/img/hdip/hdip_architecture-basic.png",
+      "sha256": "7632525de8ecaa11dc99dc2093221cccaf0813ed63d8f3c794aac180ae4c94b3"
+    },
+    {
+      "path": "static/img/hdip/ipo.png",
+      "sha256": "b8660a853eb614db06c78700850160c96e19f4852a7f21135ebbb9605d9caac1"
+    },
+    {
+      "path": "static/img/hdip/legacy/HDIP-FOUNDATION.png",
+      "sha256": "8201a606752d990240274fe04894965a6440dff1f02b1fdc1c524f7c0a077647"
+    },
+    {
+      "path": "static/img/hdip/legacy/PDIMP.png",
+      "sha256": "eb9582b09a3397a3623531f86c4df5ed833791a0f92352760005d0ba2cb868e3"
+    },
+    {
+      "path": "static/img/hdip/logo.svg",
+      "sha256": "9cba53404cf513f436ce5dd68b9f766df5205c891224f97ca5cc4129d257a164"
+    },
+    {
+      "path": "static/img/hdip/lvl1edmr.png",
+      "sha256": "c9b195f437f8cad12cac4f2887452f5312fa5906e133ee83bed7846c555f5ddc"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a1/a1-validation.json",
+      "sha256": "3bb2c98dc59f76363db12e8e002de8bb95e0f06fe511cae0a279cdc05051f079"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a1/architecture-element-registry.csv",
+      "sha256": "720f94b25159035a016502860664f1c5391515bd1c1d5851a45052676ce2ad91"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a1/architecture-element-registry.json",
+      "sha256": "96c12b18bfcc114210acf24a1275add66a6d4aab9eae1e757863dad4da1432e4"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a10/a10-validation.json",
+      "sha256": "33438cf0aa259d14db9a03c4e02370f9884b9947ba65e0e175598bcaae435fc2"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a10/positive-test-suite.json",
+      "sha256": "9d31fef98f0a69ef39f22b6f2590ee718c96e64bd14e4142e5bbca732a206720"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a10/run_positive_tests.py",
+      "sha256": "38750f38818fe8784477eb80d7eea893941e99f53cfea3d1268411914b2a949e"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/a11-test-results.json",
+      "sha256": "398e17ec2bc73b95d464722fc806bdb44f5805a5d6aee484c2bc812ce265c80d"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/a11-validation.json",
+      "sha256": "b5bd43d8852ef83e6bfcd5c93c7fa778630b01cfb7aa07f51ce358e5f6fd9dc7"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/001.json",
+      "sha256": "a948863ce6b8fc8607537f389302f70080bfb35c3005ff804253523e861ab239"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/002.json",
+      "sha256": "502ba119e6b20ddaf631aa866debfff38360b2e5c27c4fbd6234aeb0ab324f08"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/003.json",
+      "sha256": "da6a3831c51939541ea47c11be5f3ef2597a12f1d9ce10414dd067e10161106c"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/004.json",
+      "sha256": "caf95278421278257c18e5ded4cf9d94e315f48ae9704cd1d3439308b2069ad0"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/005.json",
+      "sha256": "4627c055db9bb597c974d2a48cc9051f757419a3f79d1222fed525775803370e"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/006.json",
+      "sha256": "d4783bf5cbd307aaa7ad5c9838ce8900b9d050f01c2d21575b44f45026cddfb4"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/007.json",
+      "sha256": "afd7d8f7e8a3b3e0c79836ada3617884b363082456746fd7758d53b80f6f9692"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/008.json",
+      "sha256": "41e9a2048f7615a22e818afec4bce188c8471b3842c42b00664ffeca2be6cd67"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/009.json",
+      "sha256": "010a15e4db528b39ba330548ad42bddd1bf36e4bee8db37b73aeb5235b99197d"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/010.json",
+      "sha256": "611c4331e899312c9a9e47f16580365706f132a8f1e5e10341912d1b206108af"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/011.json",
+      "sha256": "5d4ce8cf788949bbad5370fdf207782074d654d5c7d551256020483b6ffbde6a"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/012.json",
+      "sha256": "1ff64624d22079e8e0a5483117e5564ccad1a7b969bdd5daec18a02160cc1074"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/013.json",
+      "sha256": "f110148217c312defe9b068695346999f09e581f59f7a0657c4c3715f422bd23"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/014.json",
+      "sha256": "dc0eb1a0ba6d59376daf3c56dc8822d318af207ec604498c046ef666a1eb16c6"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/015.json",
+      "sha256": "aa160058f61362d2dde2c122863a42b260e36e7d20f87c911de281503995a4b1"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/016.json",
+      "sha256": "a372814d0a2327b5a906704973c117700f726201ffe4dc1335968900bb4de088"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/017.json",
+      "sha256": "c7f8c0feedbd8c4e6b2b625fa00dcc44d100a900b07a673bd778736af9de6764"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/018.json",
+      "sha256": "72accce64e07b9f440c48490f1105f09227aea9a4ceb11e777ba65dedfdd1384"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/019.json",
+      "sha256": "8cbe16d11d76e13b83a046f6b7787ae01cab1ba244061476d61807ee5dca3720"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/020.json",
+      "sha256": "0f4c32043f9331627d808e42034f6961db58099183083642553748729a9e59cb"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/021.json",
+      "sha256": "190eb931edc95fc8ccaf84cb3d02c5ad47717a5588405dabc4b9b30d1879fc82"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/022.json",
+      "sha256": "a92be2e2e2bf2e979fb2e2767b88a5379edfdc36cfc466f7b6ec186923a39960"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/023.json",
+      "sha256": "fc5e2edae9ad7da4470b958f82c7fad9d0fb64bad513bdcfef20e776d7f3c7e8"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/024.json",
+      "sha256": "dd852684205f23987de0e3b20f4b586c603d9fcf54db48c2a80de47e3832083a"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/025.json",
+      "sha256": "3ab87fa29e8245075cf559d55733233ec8c361f2794510fd4f5ff5d919ede756"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/026.json",
+      "sha256": "9a6c33d2116e0a9e782abb247095b8cb86202420bbc52755665d4a8f2943dc26"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/027.json",
+      "sha256": "3ad184a8efe9d0ffd34e56710125c91bd6ff84c5e076e0ad6ed7f297180ac9ce"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/028.json",
+      "sha256": "2e2c3c3ebc03daca7e9d7534d632ee604cff78431d07973fc27ec5aad72c6c2f"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/029.json",
+      "sha256": "63456ee82f8f130fca525fdf8880a286478af6dd602d4cd70b10c6edc49e55a8"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/030.json",
+      "sha256": "7a07fa6d9732911a6860f042f1e7d1b98a22bda06e6fd479b1feb495beab71b3"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/031.json",
+      "sha256": "ffeb065e6a07952b662a71ff0a3bb48a5e118655aa26cbd6bac606a26f00e6ab"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/032.json",
+      "sha256": "bb0f76e8cab43e7c397e2e73493e3be71010e8d1c3e4916436913f645902a4be"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/033.json",
+      "sha256": "d7970015631b58aac100df926fb98b056e2cb4eca8dc324cf10a04d65cc6d495"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/034.json",
+      "sha256": "9e64cbe74cdeb7d1a751a1710945412de14f0451b0bb4cbf0e15d8af128d4c2d"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/035.json",
+      "sha256": "76a0ef957b1358914356d4ca812b5560ddb80cc79458ea9eae8f2495c8289f9a"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/036.json",
+      "sha256": "e747882a63efafc4262ec39f170c02235301f589ada29aaa82b80b5e5540e3db"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/037.json",
+      "sha256": "1b1e9d025369925951090b60ae9196b9058b28cde5ccb59c7a9fac612e4d4657"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/038.json",
+      "sha256": "f7a07d39b88ec7b3e14f8e3ae381c256c0f08ead5113ae712b7727dd971c87a9"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/039.json",
+      "sha256": "a2379c585a55beee4e1730731ff6432a0d15cf587939b672d6d74f8fce3e4491"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/040.json",
+      "sha256": "73d15a656265bb121633769e95a24768c3e24b05fec194ea7de1fa86b20270a7"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/041.json",
+      "sha256": "9e5d23f7717ad20a8b6ee3f28d23b61cff9a0f1d1d7baac004ca92a2871bf310"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/042.json",
+      "sha256": "6c7b47c5ea61de763400a031e08e789e78f7206ab87e94481f0c88c47f1d6fc9"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/043.json",
+      "sha256": "cba5d4d29adbb60a98314724f205950dded0ad98ea319977e002305a35acbe84"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/044.json",
+      "sha256": "7dd76012cb4623b2b0e951c5904164b3f4d013f33d3c4f515df8ae803e663bfe"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/045.json",
+      "sha256": "ede03d2d6f7222db57280163aa884d06928f99d4dc85ea227439bca086509db2"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/046.json",
+      "sha256": "81cc7f3cb816b7a77e107be94e595de63aa4001f371310a6076b8234b1b63f95"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/047.json",
+      "sha256": "ddb7e51b0f9bb04da2a71b616018f239720ead53c1c2d18744902ede2dde8dcb"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/048.json",
+      "sha256": "a3fd60a14f527d2cdccf60b03ff73727047d89d6732deaf549c659b595be5162"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/049.json",
+      "sha256": "977f6229e2a327ef3b713e763c4272a33a20186d77b291a0f94506807b843e46"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/050.json",
+      "sha256": "ce2dba2dd453d97a585d7c2cccafc710bdd6650808be62b5c77264989355de9f"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/051.json",
+      "sha256": "a863802476b87cffc0e22fe85dbc1c4d750d2560788670e23e868552a609b4ad"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/052.json",
+      "sha256": "55953b77a420946b911efca6935843b27b6ef5f24b316fd9950201318c461ebf"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/053.json",
+      "sha256": "008c756bda40949a4c506e4c2e3ef6138187448d65a6567f5fb50454a538c263"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/fixtures/054.json",
+      "sha256": "e9d3b08466fcd9daf314ad18819de003fb591ec7edd4bca32ece1511ecf1e0a2"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/negative-boundary-test-suite.json",
+      "sha256": "08b993ad697cecd1a1378118bd6532f0bde2b9e5152beba0faa2122f78bd08a4"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a11/run_negative_boundary_tests.py",
+      "sha256": "b91884c050915ae593fcb8ce2519bff4b615358d2bc0a5d577229c5973727596"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a12/a12-execution-report.json",
+      "sha256": "32a5f09aa301eaa503fa23713e1b69c89711476a2a75770cf6474bccb9205ca9"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a12/a12-validation.json",
+      "sha256": "be12dfd484602b44f70a317940e23baf01866c8fc6682aa90bc0e305e76875e5"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a12/assessment-intake.schema.json",
+      "sha256": "df30bbd85df5fb32152d84b255875c3e6469ad9bf2de0980e6a876350bb6fb4d"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a12/fixtures/invalid-undetermined-satisfied.json",
+      "sha256": "270235f0edb6884f1cf75622c252ad75ae32fadf686b6470278980a33478879d"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a12/fixtures/partial-review-required.json",
+      "sha256": "e517ff52d92ff0251f261ab709e0aa83711f6075e41d49db84f00a760f62a8f3"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a12/run_conformance.py",
+      "sha256": "854e0f970758b3fbf034930f027506ddfbc88c3286bda2c163b1443f388862a9"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a12/runner-policy.json",
+      "sha256": "0352eba74b4f921ea612c0c2d3daa2ce3865803c1b32ac2a7630a972405a8d66"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a12/test_runner.py",
+      "sha256": "cac77a8279be814f6de834d59aa611e4bfe5868621bb9a6b836d89b697a79853"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a13/a13-disposition-ledger.json",
+      "sha256": "a21f9e67fdce8e193e4ffd56c49fdc766d117bb3756bc7270ea728dc4df31623"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a13/a13-reconciliation-policy.json",
+      "sha256": "a302d94887d200fbb0e83375a50a908fe349a71b229b3b4df4487ef402cb2a7b"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a13/a13-reconciliation-report.json",
+      "sha256": "0469e12b1fca4ce2c836c8bb3112aec08669763898dc6b1d0571eb7d2b0d9dc0"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a13/a13-validation.json",
+      "sha256": "6de3513669d149cb2be3f5225791c2dc0f489b889edb410cb3b62a4c84993bb5"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a13/run_reconciliation.py",
+      "sha256": "b2021047593d5c9f4d4488875811f1bad043ef1b2e779222d92ab16d9a632721"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a13/test_reconciliation.py",
+      "sha256": "a8e8fc325d8f72f426e02a3da668aecf00a581936afe267dd7be4cbb43edd985"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a2/a2-validation.json",
+      "sha256": "e0a558e5bc52f5af7cad6ad6d1a7dc350739e85b0e808ff135d9ee97223291a7"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a2/relationship-registry.csv",
+      "sha256": "f4180b7d0672b99467a81eb6d85634dc5578b8d737748232928fe720cb286af2"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a2/relationship-traceability-registry.json",
+      "sha256": "6e05bad57f97d9797de821a1e4bbc6db90c369ab31f03284941b76a2a0571d4f"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a2/traceability-registry.csv",
+      "sha256": "0de31aed0d712e08509b5455e720a5acb2751d22c00340ef5ad9fd3edccd45f4"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a3/a3-validation.json",
+      "sha256": "b5ae52c91d2c8d3220d47d4b1108a36830b948f28fb5a67d646e6b4654395357"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a3/conformance-vocabulary.csv",
+      "sha256": "414fd6f948be8ce80142920f183eb971b604e0cf25473b07629ec44db7b84891"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a3/evidence-package.csv",
+      "sha256": "3e9a5c18b43e5784df4c38b115b74530838c587396fd7fe2604a9fa9c0ac5c92"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a3/invariant-catalogue.csv",
+      "sha256": "72f96bc6a44529c02ff936b3205f1c1639d336123b059e3bf0a4c18041756ecc"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a3/invariant-conformance-catalogue.json",
+      "sha256": "057962691320348fde21423b10be27658c7c63ed4873b22c98fb607223936364"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a3/profile-operations.csv",
+      "sha256": "dffac4fc32858cd0b6f7f2a88a58ee0f2d4ef28feb68333a09bb29d5c37afa57"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a4/a4-validation.json",
+      "sha256": "7fd9b5fc3ea124d694500adc451a429dd32dd2c6a93f7e872c53c5c0cb7a3a35"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a4/architecture-graph.nt",
+      "sha256": "552c7ece4c9e71bbd8ef779b3b8eddb7807b5a7a113d5ec771c8d54bd2a08b0d"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a4/architecture-graph.ttl",
+      "sha256": "54b4c0d321f686ce4c4e168f150a741cd0299d3196bb6f0f45041d45db3c06a8"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a4/provisional-resource-map.json",
+      "sha256": "b926e875067bbc83c7628bc9042023f4e25f082226ad2237409f6002eb08b2fd"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a5/a5-validation.json",
+      "sha256": "f4a7b1587deda9223162ab58a7e48f003f10237a7bc50f5b5654dd4ae346f7ef"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a5/canonical-architecture-graph.jsonld",
+      "sha256": "ee0ea0a972af3d5979a71bf0dc4b7270c8c378e444bc5e398177dd962bff681d"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a5/canonical-architecture-graph.nt",
+      "sha256": "bddd267b44b272aea8f976118a4344288dd33045ad48806c7fe2022b25e1af36"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a5/canonical-architecture-graph.ttl",
+      "sha256": "8fc979b225c6c98c0040e3d06c2a467f3ae35b6e37fae43085326bfeca44194a"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a5/canonical-iri-policy.json",
+      "sha256": "ecf10fbf3e9c250ff991a032a90a20feee1b7768c2e0a3a8c1091a57f367ecd6"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a5/hdip-cla-context.jsonld",
+      "sha256": "1148614828cf8b0eb5908048867145ca89854295ec775a6320ae83b3c9f162fe"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a5/iri-migration-map.csv",
+      "sha256": "d7c7490dc33b0c92969106d2103ba662d14231fc03f6dea28094cc5ec1381355"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a6/a6-constraint-policy.json",
+      "sha256": "f04df779d216413435975b456bd65c57fb3dbfd0f095eee6deaa0ff2b808f353"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a6/a6-validation.json",
+      "sha256": "20d63a6fcaf3d4bbff5b01438a10c2684b00c4b72fa2a9b36c3963aa62019498"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a6/architecture-structural-shapes.ttl",
+      "sha256": "5b7c052f00f34e261d04a0bc13b7004fdb1a43d10967dde8b6f6eedea885953f"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a6/fixture-negative-bad-target-nodekind.ttl",
+      "sha256": "98852f60ffe8836d1eeb2107bdb5a93d556603c39fecdab383d8e3e5e9f0d99a"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a6/fixture-negative-duplicate-id.ttl",
+      "sha256": "0da8adeb8d0d37c41c157230c8547238f196dcf121a4c2d2bf210348c9d38735"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a6/fixture-negative-missing-source.ttl",
+      "sha256": "f8f6bcf3d80d09e50ea15ad631bdce9dc02b0f3a58bd786e2a80c5db6ed6f709"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a6/fixture-positive.ttl",
+      "sha256": "d51884160e5b5896fc047693c54b0c018d69868bcba6c4ca626bca2e1e6b6a3b"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a7/a1-architecture-elements.schema.json",
+      "sha256": "4317e9d6d31535136321ae3ea47579a7d7c56b4c9ba643722a694032e4e17628"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a7/a2-relationship-traceability.schema.json",
+      "sha256": "96b0fa73c55551134da27ab50389c1b8fe74e7814a63d91aa46624da1073d2db"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a7/a3-invariant-conformance.schema.json",
+      "sha256": "32d9764dc364176f1ce83c63145c6f663a68ac84244ac8573c0fea34e80381d5"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a7/a5-canonical-iri-policy.schema.json",
+      "sha256": "8e9c86f7de0b9c6e6544cffe2f9ea3312a0ec3b9152a11743d56c7e0756e8a1f"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a7/a5-expanded-graph.schema.json",
+      "sha256": "7771ad9970bf910b5f3c8aa42f2cc8d349f761c08b6862e9e0e8c84ec203c98d"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a7/a5-jsonld-context.schema.json",
+      "sha256": "64886ab96e54ce27660c6710be547beae819c5a44e4b73ef34d192be68341d6f"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a7/a7-schema-policy.json",
+      "sha256": "439baa63866ed532585dc5d19ebb2b041d38a03bc4c158f735f659f358aeb985"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a7/a7-validation.json",
+      "sha256": "ad9503e89b11520b370b4e745545c7096bb4758932f92a1d4ed5079271f726b9"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/a8-controlled-identities.json",
+      "sha256": "8d04541d26e248a7a7fdb5047608d5106c2fe76011ca7b55eaa21a6123ec2c82"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/a8-validation.json",
+      "sha256": "126a052b6594fd91723b4fd251baa272185b48894ce405c99da01e8a98d751e9"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/consumer-experience-projection-declaration.schema.json",
+      "sha256": "fd8cc022b5f7b4b9801665731800d9e195f8efd99dadbf9ca75a788191194b1b"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/examples/consumer-experience-projection-declaration-negative.json",
+      "sha256": "3883a50b5974f5ddaa6b2524d05d5ab7e6d0208674bd0b2b033853befc3d05b1"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/examples/consumer-experience-projection-declaration-positive.json",
+      "sha256": "a90154f9225b9008f9b1d0a2424b506052471aa7330717d348acd32e6b439854"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/examples/external-boundary-contract-declaration-negative.json",
+      "sha256": "927bc3eedc3551af126618a16b186dc6ad856680a5cf89364dadb6190fb15e2a"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/examples/external-boundary-contract-declaration-positive.json",
+      "sha256": "7b945c88c42319ed70ad6d1bdd43d91d5e10758f79216b2a4418144cb3ff88a8"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/examples/interaction-contract-declaration-negative.json",
+      "sha256": "fc1beef11e2d49a56f5409cf90dc02b7b5bcf653ee87e1cf09c53f3e62a28bd6"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/examples/interaction-contract-declaration-positive.json",
+      "sha256": "dfa03d524f53ac2c56d46497da4cb9f6d3df5045ab2583a036198968d22ffb39"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/examples/lifecycle-declaration-negative.json",
+      "sha256": "e8177b7954175da6e4b5e48e83b13f0a0f77420acfbc6980782418de39e61a8e"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/examples/lifecycle-declaration-positive.json",
+      "sha256": "1888b72ca4008f8629df15c2b4cb28a01e68f6819c60eac470424c2b66ccfb9b"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/examples/profile-declaration-negative.json",
+      "sha256": "4a4c8944f271c6bd46bebd0af1b3e4bb16d3907306fd6ce50eb06ca7ba938727"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/examples/profile-declaration-positive.json",
+      "sha256": "4b8b2d88df2856f9b293d56abafda2feeddd34a0f60b3d7dcc72883b0e5f6c98"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/examples/realization-profile-binding-declaration-negative.json",
+      "sha256": "0e24230020b532aad9948c11884b365bfd76fd2cefeee294c59bdbc759abd468"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/examples/realization-profile-binding-declaration-positive.json",
+      "sha256": "8dbd066ee72ced5a902f8da0bc25e1c6896d8f0576c2bab0fd8557d46cf2b94b"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/external-boundary-contract-declaration.schema.json",
+      "sha256": "35e06db54013bba4552d4156b67ff3caa899fefec035b94c9d24f66464bea1b1"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/interaction-contract-declaration.schema.json",
+      "sha256": "0ac4617dc2effa6f4993589301623bb23f4768b0c5b9a683ff2707e29c0db65b"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/lifecycle-declaration.schema.json",
+      "sha256": "0787efb1749c93359199b8a6ff51730e296f45cee52d0616f02f986b1454df6a"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/profile-declaration.schema.json",
+      "sha256": "55ca3b813305d4f5ea1e87a15a63bff630cc59f99e2791d19b9a4c8a1cb23c76"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a8/realization-profile-binding-declaration.schema.json",
+      "sha256": "f5277639fe589d6b308cf1f6de44175826f701246d3308c8c914b03cce2a4535"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/a9-validation.json",
+      "sha256": "b7c8f2a73eaae8005601e9d62f6044b4bde08be968609a36f4942843821dd9b2"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/example-corpus.json",
+      "sha256": "3bc92eb7f42aa1ea021dc85054e862e4cb5f4ad783bc30f2915d05b415e48699"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-01-data_pdep/lifecycle-declaration.json",
+      "sha256": "019bf6def5a51f7c72e803e62b03943178501b5a66ee5f0371d616938e5ffa20"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-01-data_pdep/manifest.json",
+      "sha256": "72740f27ca603b4bf298b5c2afdebe343cf95ae872d0b181ef8ec6301494748e"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-01-data_pdep/profile-declaration.json",
+      "sha256": "ebd19e5604de5e1b5735c6d178641ca6362884180b93c8b0a531a65cdc72a3e7"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-01-data_pdep/realization-profile-binding-declaration.json",
+      "sha256": "4f49d46e0a10578844539f8f28ec7eec8a692703abb5248c21b5e7d0decab78a"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-02-information_formation/lifecycle-declaration.json",
+      "sha256": "c5b80ebb59cbd71c4db7ace930a4f265f809a2b1b6521df604f3b71b6dd60f36"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-02-information_formation/manifest.json",
+      "sha256": "482cd16d895bcfebed10e19166e668ec4d300974272559fcf1155707689ebb90"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-02-information_formation/profile-declaration.json",
+      "sha256": "1fed493149122414ffca7c7597eec56934844241816ee36782ec28944aefa017"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-02-information_formation/realization-profile-binding-declaration.json",
+      "sha256": "c997a5aaa748e3b2b80db8984db1c6448a8e4427e588ed75c1a48f4e93e39b45"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-03-ai_external_provider/external-boundary-contract-declaration.json",
+      "sha256": "7cbb08fa5a847800434731e9c731e2f33bd37e5e43b46b3686239d5cb17d7042"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-03-ai_external_provider/lifecycle-declaration.json",
+      "sha256": "8d2cb7ae6f2beaa8469949ca883440692b08e15178e482ce3fd9238bd40a572b"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-03-ai_external_provider/manifest.json",
+      "sha256": "ccde1e5ac1db8d7c2a03f504a660f44951d46298c24ccb74e698f0c183f6ebdc"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-03-ai_external_provider/profile-declaration.json",
+      "sha256": "c0335a7e61d7fa438c5d6fa37118419f6e4d6fc0c252fa7641e41a3bbdf4dcca"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-03-ai_external_provider/realization-profile-binding-declaration.json",
+      "sha256": "20cb7cf19590cb1e1af3f060a63ec2e1cfe21e8b6127e0ca7bb769bfd3465386"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-04-intent_consumption/consumer-experience-projection-declaration.json",
+      "sha256": "c740af070d8ef163373fa6e7a1dfae82493bdc07d8059f18ca10d8d4441c9098"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-04-intent_consumption/interaction-contract-declaration.json",
+      "sha256": "7c9e5630c3a5384cd09738a28b37b11bea5e7eecb2b0830fbfc396ecfda88c7f"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-04-intent_consumption/lifecycle-declaration.json",
+      "sha256": "8276838efd6446a7e98013933e7fce533c1d8817e72f3b2709265782539978eb"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-04-intent_consumption/manifest.json",
+      "sha256": "b59cf14a507232175dfc23fe280d725f9ab3d4f80edf35efcfe6bcafa559402f"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-05-repeated_runtime/consumer-experience-projection-declaration.json",
+      "sha256": "bbbe6ebfdc073c827e5086822e4d62efe78b2e01f5b91f4546500f7666c1e44c"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-05-repeated_runtime/interaction-contract-declaration.json",
+      "sha256": "bc57bbbb36526f672750bb380cd51140adbe8390a803e925972a0748bb933e2d"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-05-repeated_runtime/lifecycle-declaration.json",
+      "sha256": "ca8beda45194b4b2df457c9e7bc5d0986198edbe550a011cf2c4d014a05db083"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-05-repeated_runtime/manifest.json",
+      "sha256": "024cd7ed80d7bd0aae327b5caf45fd403f2de29c44984c6b436f831a38bd06cf"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-06-access_denial/external-boundary-contract-declaration.json",
+      "sha256": "5b1ec23746e2f6f67a91fca3d3fe624344d6feafb454868364cc67e26f020feb"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-06-access_denial/interaction-contract-declaration.json",
+      "sha256": "77fb9cfc55b8c6b0ba099af117a9fe2cfd671ff589d9f1c6120759669095c832"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-06-access_denial/lifecycle-declaration.json",
+      "sha256": "1e2c29ac812521ea5b0a389e6a7e9f28efd69ac43678beba01ae2cfc2c49b90b"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-06-access_denial/manifest.json",
+      "sha256": "1b24dd584989b2edb4904eeb5d1c3c5ef8139c9ecfe718e770fd1b560fc95329"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-07-governing_revocation/external-boundary-contract-declaration.json",
+      "sha256": "00b85e618a65d3a88d3ded5c457e852d72647c32ab8ab3b0a91935402faca318"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-07-governing_revocation/interaction-contract-declaration.json",
+      "sha256": "057901db7f69b19971e074488ae9b0a9d3f7b1afd25f518279d92e3f1d2523ac"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-07-governing_revocation/manifest.json",
+      "sha256": "d0bf8e1e1661b1a9d72962688812274c5a476503a169018a53555f0fa59d435e"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-07-governing_revocation/profile-declaration.json",
+      "sha256": "0067f64451df1eee5d210fc691168b9acac91f0c062b9cc231313ed829131e9e"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-08-outcome_evolution/interaction-contract-declaration.json",
+      "sha256": "6480a6e8b8f76aba6db288c5a4df8333ce183c84fb55fb09dc39f752c5084c01"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-08-outcome_evolution/lifecycle-declaration.json",
+      "sha256": "c12c8ecb4fa0bb36796f35460d1c86e7123b38f68f3d7075a6577745299afcb0"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-08-outcome_evolution/manifest.json",
+      "sha256": "aeb68ea397ef9c87e902180090bc02d4fd22956b79578dc40a526a7ac0542ff3"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-08-outcome_evolution/profile-declaration.json",
+      "sha256": "b0378860915efb005b81ccbdcaf5d0c9a60dd093651972894b7207a01159769f"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-09-federated_consumption/external-boundary-contract-declaration.json",
+      "sha256": "4b4b99adfe8e86b0233408efbdf453ddb474482c812b8ce153c07b0c2bd45eaa"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-09-federated_consumption/lifecycle-declaration.json",
+      "sha256": "68d2667e7848bf3014b62c701a7b9ae6d92e09d2660184466b808e7f188d8cb7"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-09-federated_consumption/manifest.json",
+      "sha256": "b14a41559a90268a664cde913732927b0682d4d06dba100a01911442e3d61ab5"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-09-federated_consumption/profile-declaration.json",
+      "sha256": "90eaf3574fc3cf59be94a8b692471127638c1440f02b421dc4c68b607b3f18f5"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-09-federated_consumption/realization-profile-binding-declaration.json",
+      "sha256": "1f8afa433b31c6ccee2899367c226d189ab8bcce0f5ace25494ae31d7721a81b"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-10-provider_recovery/external-boundary-contract-declaration.json",
+      "sha256": "4e0d3e9de881301bad7b2942c2b00fdcf9f6e7f1a09ea086a710ab610393b98f"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-10-provider_recovery/lifecycle-declaration.json",
+      "sha256": "ef81a44ea1639ef8d126410151b241eb498997a56564243034258b85a4c2e917"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-10-provider_recovery/manifest.json",
+      "sha256": "b91ac135e563c314f060ec53292d2d6f065258b49d6a9b465d9be5d747f2d8cf"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-10-provider_recovery/realization-profile-binding-declaration.json",
+      "sha256": "98abebc7a2f4a9de288bded6c8f2efd59987ddd893394379c810556db2972d47"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-11-compound_cross_family/lifecycle-declaration.json",
+      "sha256": "8944a2c57d2d977d82d0848e8caa5b1993c90b0098972bf1e9b3505bab5d8033"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-11-compound_cross_family/manifest.json",
+      "sha256": "d4e8095015fbbcdada0f73668883826b5f954b28a439562d9d4e7ce826b5387a"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-11-compound_cross_family/profile-declaration.json",
+      "sha256": "502b0f76786b033905425a869550a67076234531b455dd748229190f2b1a4872"
+    },
+    {
+      "path": "static/specs/hdip-cla/0.1/a9/examples/a9-11-compound_cross_family/realization-profile-binding-declaration.json",
+      "sha256": "77ff719517fe010d5fcb8c60a152555a831732ec90ea6e8af16636181c469767"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "c89e26211dc33cadd5ca52c215916f4df0353ad74291361a495560273566f03b"
+    }
+  ]
+}
