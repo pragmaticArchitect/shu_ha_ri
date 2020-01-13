@@ -29,6 +29,7 @@ const config = {
         {to: '/docs/pmdd/overview', label: 'PMDD', position: 'left'},
         {to: '/INFOPCH-PMDD-guidance', label: 'Agent Guidance', position: 'left'},
         {to: '/ip-maturity-checklist', label: 'Information Product Maturity Checklist', position: 'left'},
+        {to: '/hdip-ip-flow-basic', label: 'HDIP © IP SSPD G0', position: 'left'},
         {to: '/docs/integration/hdip-upos', label: 'HDIP & UPOS', position: 'left'},
       ],
     },

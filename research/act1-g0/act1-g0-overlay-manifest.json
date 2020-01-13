@@ -1,0 +1,41 @@
+{
+  "id": "INFOPS-0.1-ACT1-G0-overlay",
+  "decision_authority": "ACT1-G0-D03 APPROVED_FOR_ISOLATED_IMPLEMENTATION_PREPARATION",
+  "design_basis": [
+    "ACT1-I01\u2013I11",
+    "G0-I01\u2013I10",
+    "ACT1-G0-D02 F01\u2013F12 and AC01\u2013AC12",
+    "HDIP-CLA M15-V03"
+  ],
+  "status": "PREPARED_NOT_OWNER_ACCEPTED_NOT_DEPLOYED",
+  "source_reference": "BPS src/components/FlowPlayerBasic.tsx (presentation only)",
+  "build_evidence": "NOT_ESTABLISHED",
+  "browser_evidence": "NOT_ESTABLISHED",
+  "files": [
+    {
+      "path": "docusaurus.config.js",
+      "bytes": 2417,
+      "sha256": "69cbecf8eeaa2c1fd693567a73d462b6f826607c3eb47157e4b19bc4c91ac138"
+    },
+    {
+      "path": "src/components/IPFlowPlayerBasic.css",
+      "bytes": 4914,
+      "sha256": "4db2b4fc61a064c1a05e978415f57a81f0908cfcf97cf3abe93bb1dba248ab6b"
+    },
+    {
+      "path": "src/components/IPFlowPlayerBasic.tsx",
+      "bytes": 7773,
+      "sha256": "3c5d9c2b83e7eb3664acde093e09015ce210e4ba76f120d382d6a2ede297a37a"
+    },
+    {
+      "path": "src/data/IPG0Flow.ts",
+      "bytes": 10285,
+      "sha256": "7a4f41ebb7f48c1f851f9e9060529584aaf264c3c2b38b15d801af7dbf53fb3a"
+    },
+    {
+      "path": "src/pages/hdip-ip-flow-basic.tsx",
+      "bytes": 610,
+      "sha256": "be34f11cf96abec7b9e323960645250e1158cf0bc750a8d342520cd761cb66f7"
+    }
+  ]
+}
