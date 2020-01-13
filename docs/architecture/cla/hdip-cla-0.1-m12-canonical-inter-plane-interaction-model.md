@@ -48,7 +48,7 @@ M12 is constrained by the architecture frozen through M11:
 - **M10** - PDEP cross-Plane development/evolution lifecycle;
 - **M11** - SSCF / CEP consumption and runtime lifecycle.
 
-M08 already identified the principal contract-bearing boundaries, including P1 -> P2 governed design context, P2 -> P3 realization binding, P3 <-> P4 runtime/provision interactions and P4/P3 -> P5 evidence. M10 and M11 add lifecycle-specific interaction obligations that M12 now normalizes into one canonical model.
+M08 already identified the principal contract-bearing boundaries, including P1 -> P2 governed design context, P2 -> P3 realization binding, P3 \<-> P4 runtime/provision interactions and P4/P3 -> P5 evidence. M10 and M11 add lifecycle-specific interaction obligations that M12 now normalizes into one canonical model.
 
 ---
 
