@@ -1,7 +1,7 @@
 {
   "overlay": "INFOPS-0.1-IPCH16-FIRST-PASS",
-  "package_date": "2026-11-18",
-  "baseline": "INFOPS-0.1-IPCH15-First-Pass-overlay-2026-11-17.zip (prepared; deployment unconfirmed)",
+  "package_date": "2019-11-18",
+  "baseline": "INFOPS-0.1-IPCH15-First-Pass-overlay-2019-11-17.zip (prepared; deployment unconfirmed)",
   "decisions": [
     "INFOPS-0.1-IPCH-P01-D39-F01 APPROVED_EXPERIMENTAL_E0",
     "INFOPS-0.1-IPCH-P01-D40-F01 APPROVED_EXPERIMENTAL_E0"
