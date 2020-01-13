@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="INFOPS mark">
+  <rect width="64" height="64" rx="13" fill="#092d47"/>
+  <rect x="12" y="13" width="40" height="38" rx="7" fill="none" stroke="#54dbd2" stroke-width="3"/>
+  <path d="M21 23H43M21 32H37M21 41H43" fill="none" stroke="#f3faff" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="44" cy="32" r="4" fill="#54dbd2"/>
+</svg>

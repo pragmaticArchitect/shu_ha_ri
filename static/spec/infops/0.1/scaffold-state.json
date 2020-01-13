@@ -1,0 +1,10 @@
+{
+  "project": "INFOPS",
+  "plannedSpecificationVersion": "0.1",
+  "releaseStatus": "PRE_P01_SCAFFOLD",
+  "normative": false,
+  "qualifiedInformationProductRulesPublished": false,
+  "infopchCataloguePublished": false,
+  "pmddWeightsPublished": false,
+  "description": "Scaffold state only. This is not a Product descriptor or conformance artifact."
+}
