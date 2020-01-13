@@ -26,6 +26,18 @@ Even with Data Mesh adoption, many organizations still face:
 
 ## 2. What is HDIP©?
 
+### Canonical HDIP logical architecture (HDIP-CLA 0.1)
+
+The diagram below is the current **M15-V01 Canonical Logical Platform View**: one holistic enterprise logical architecture across Data, Information and Intelligence. It shows the five canonical logical Planes, nine cross-cutting Overlays, shared Foundation, and externally preserved authorities. It is a logical responsibility view, **not** a physical platform topology or mandatory runtime pipeline.
+
+[![HDIP-CLA 0.1 canonical logical architecture overview: five logical Planes, nine cross-cutting Overlays and a shared Foundation](/img/hdip/cla/hdip-cla-0.1-m15-v01-canonical-logical-platform-preview.png)](/img/hdip/cla/hdip-cla-0.1-m15-v01-canonical-logical-platform.svg)
+
+[View the detailed M15-V01 companion page](/docs/architecture/cla/views/hdip-cla-0.1-m15-v01-canonical-logical-platform) · [Open full-size SVG](/img/hdip/cla/hdip-cla-0.1-m15-v01-canonical-logical-platform.svg) · [Editable draw.io source](/diagrams/hdip-cla/0.1/hdip-cla-0.1-m15-v01-canonical-logical-platform.drawio.xml)
+
+### Earlier HDIP and supporting illustrations
+
+The following illustrations are retained to explain earlier HDIP concepts and related Product/Platform ideas. In particular, the **2017–2019 HDIP architecture illustration** uses historical PDEP/CEP/COVP and governance terminology; it is **not** the canonical five-Plane model established by HDIP-CLA 0.1.
+
 ![Diagram](/img/hdip/legacy/PDIMP.png)
 
 ![Diagram](/img/hdip/hdip_architecture-basic.png)

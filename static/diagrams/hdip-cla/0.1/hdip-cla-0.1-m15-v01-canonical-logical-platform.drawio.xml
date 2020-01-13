@@ -1,0 +1,592 @@
+<mxfile host="app.diagrams.net" agent="HDIP-CLA Visual Pack">
+  <diagram name="HDIP-CLA M15-V01" id="HDIP-CLA-0.1-M15-V01">
+    <mxGraphModel dx="696" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2330" background="#061322" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="canvas-base" parent="1" style="rounded=1;arcSize=0;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#061322;strokeColor=#061322;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="2330" width="3000" as="geometry" />
+        </mxCell>
+        <mxCell id="header-bg" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#03213C;strokeColor=#02B5FF;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="184" width="2980" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="header-title" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=53;fontColor=#C5E6FF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP 0.1 - Holistic Data, Information and Intelligence Platform" vertex="1">
+          <mxGeometry height="63" width="2940" x="30" y="19" as="geometry" />
+        </mxCell>
+        <mxCell id="header-subtitle" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=38;fontColor=#58C4FF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Canonical Logical Architecture - M15-V01" vertex="1">
+          <mxGeometry height="43" width="2940" x="30" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="header-proposition" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=26;fontColor=#D3E9F9;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="One holistic enterprise logical architecture across Data, Information and Intelligence" vertex="1">
+          <mxGeometry height="32" width="2940" x="30" y="131" as="geometry" />
+        </mxCell>
+        <mxCell id="header-qualification" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#9FB4C7;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Logical responsibility architecture - not a physical deployment topology or mandatory execution pipeline" vertex="1">
+          <mxGeometry height="24" width="2940" x="30" y="161" as="geometry" />
+        </mxCell>
+        <mxCell id="external-semantic-panel" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0A1B2A;strokeColor=#02B5FF;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="183" width="944" x="12" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="external-semantic-title" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=28;fontColor=#A8DCFF;fontStyle=1;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Semantic Authorities" vertex="1">
+          <mxGeometry height="42" width="520" x="25" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="external-semantic-ownership" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#9FB4C7;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Outside HDIP Ownership" vertex="1">
+          <mxGeometry height="38" width="320" x="610" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="external-semantic-box-GEDRM" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="104" width="292" x="27" y="264" as="geometry" />
+        </mxCell>
+        <mxCell id="external-semantic-label-GEDRM" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=26;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="GEDRM" vertex="1">
+          <mxGeometry height="37" width="276" x="35" y="277" as="geometry" />
+        </mxCell>
+        <mxCell id="external-semantic-desc-GEDRM" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Data" vertex="1">
+          <mxGeometry height="32" width="276" x="35" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="external-semantic-box-GEARM" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="104" width="292" x="333" y="264" as="geometry" />
+        </mxCell>
+        <mxCell id="external-semantic-label-GEARM" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=26;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="GEARM" vertex="1">
+          <mxGeometry height="37" width="276" x="341" y="277" as="geometry" />
+        </mxCell>
+        <mxCell id="external-semantic-desc-GEARM" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Information / Analytics" vertex="1">
+          <mxGeometry height="32" width="276" x="341" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="external-semantic-box-GEAIRM" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="104" width="292" x="639" y="264" as="geometry" />
+        </mxCell>
+        <mxCell id="external-semantic-label-GEAIRM" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=26;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="GEAIRM" vertex="1">
+          <mxGeometry height="37" width="276" x="647" y="277" as="geometry" />
+        </mxCell>
+        <mxCell id="external-semantic-desc-GEAIRM" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Intelligence" vertex="1">
+          <mxGeometry height="32" width="276" x="647" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="external-peer-panel" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0A1B2A;strokeColor=#02B5FF;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="183" width="778" x="970" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="external-peer-title" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=27;fontColor=#A8DCFF;fontStyle=1;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Peer Reference Architectures" vertex="1">
+          <mxGeometry height="42" width="520" x="983" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="external-peer-ownership" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=18;fontColor=#9FB4C7;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Outside HDIP Ownership" vertex="1">
+          <mxGeometry height="38" width="225" x="1501" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="external-peer-content-box" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="102" width="741" x="988" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="external-peer-content" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=32;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="GEDRA  ·  GEARA  ·  GEAIRA" vertex="1">
+          <mxGeometry height="86" width="716" x="1000" y="271" as="geometry" />
+        </mxCell>
+        <mxCell id="external-enterprise-panel" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0A1B2A;strokeColor=#02B5FF;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="183" width="1226" x="1762" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="external-enterprise-title" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=27;fontColor=#A8DCFF;fontStyle=1;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Enterprise &amp; Adjacent Authorities" vertex="1">
+          <mxGeometry height="42" width="740" x="1774" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="external-enterprise-ownership" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#9FB4C7;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Outside HDIP Ownership" vertex="1">
+          <mxGeometry height="38" width="399" x="2560" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="external-enterprise-box-1" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="102" width="216" x="1777" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="external-enterprise-text-1" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Policy / legal /&#xa;control" vertex="1">
+          <mxGeometry height="70" width="206" x="1782" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="external-enterprise-box-2" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="102" width="235" x="2003" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="external-enterprise-text-2" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Authoritative&#xa;producer / source" vertex="1">
+          <mxGeometry height="70" width="225" x="2008" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="external-enterprise-box-3" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="102" width="209" x="2248" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="external-enterprise-text-3" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Identity /&#xa;entitlement" vertex="1">
+          <mxGeometry height="70" width="199" x="2253" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="external-enterprise-box-4" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="102" width="250" x="2467" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="external-enterprise-text-4" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Consequential&#xa;Decision / Action" vertex="1">
+          <mxGeometry height="70" width="240" x="2472" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="external-enterprise-box-5" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="102" width="221" x="2727" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="external-enterprise-text-5" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="External&#xa;standards" vertex="1">
+          <mxGeometry height="70" width="211" x="2732" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="product-lens-bar" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#032241;strokeColor=#02B5FF;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="88" width="2976" x="12" y="404" as="geometry" />
+        </mxCell>
+        <mxCell id="product-lens-title" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=32;fontColor=#BDDEFA;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="BPS/PIN + Applicable Product-family Specifications" vertex="1">
+          <mxGeometry height="40" width="2930" x="35" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="product-lens-secondary" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Orthogonal Product Lens - Product qualification is independent of registration, compilation and deployment" vertex="1">
+          <mxGeometry height="28" width="2930" x="35" y="452" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-CORE" parent="1" style="rounded=1;arcSize=2;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#081B2C;strokeColor=#02B5FF;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="1578" width="2393" x="12" y="508" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-CORE-heading" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=37;fontColor=#C4E6FF;fontStyle=1;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP - Enterprise Logical Platform Composition &amp; Realization" vertex="1">
+          <mxGeometry height="62" width="2349" x="36" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P1" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#95C9F1;strokeColor=#02B5FF;strokeWidth=2.5;" value="" vertex="1">
+          <mxGeometry height="176" width="2352" x="31" y="582" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P1-heading" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=30;fontColor=#071827;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P1 - Governed Intent, Definition &amp; Authority Context" vertex="1">
+          <mxGeometry height="48" width="2325" x="45" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P1-ABB-01" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2.0;" value="" vertex="1">
+          <mxGeometry height="101" width="754" x="49" y="641" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P1-ABB-01-id" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=25;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P1-ABB-01" vertex="1">
+          <mxGeometry height="36" width="726" x="63" y="653" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P1-ABB-01-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Governed Intent &amp; Use Context Boundary" vertex="1">
+          <mxGeometry height="45" width="726" x="63" y="693" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P1-ABB-02" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2.0;" value="" vertex="1">
+          <mxGeometry height="101" width="754" x="823" y="641" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P1-ABB-02-id" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=25;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P1-ABB-02" vertex="1">
+          <mxGeometry height="36" width="726" x="837" y="653" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P1-ABB-02-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Semantic Reference &amp; Design Context Boundary" vertex="1">
+          <mxGeometry height="45" width="726" x="837" y="693" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P1-ABB-03" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2.0;" value="" vertex="1">
+          <mxGeometry height="101" width="754" x="1597" y="641" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P1-ABB-03-id" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=25;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P1-ABB-03" vertex="1">
+          <mxGeometry height="36" width="726" x="1611" y="653" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P1-ABB-03-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Authority &amp; Accountability Context Boundary" vertex="1">
+          <mxGeometry height="45" width="726" x="1611" y="693" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P2" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#95C9F1;strokeColor=#02B5FF;strokeWidth=2.5;" value="" vertex="1">
+          <mxGeometry height="498" width="776" x="31" y="774" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P2-heading" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=25;fontColor=#071827;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P2 - Discovery, Composition &amp; Realization" vertex="1">
+          <mxGeometry height="52" width="756" x="41" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P3" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#95C9F1;strokeColor=#02B5FF;strokeWidth=2.5;" value="" vertex="1">
+          <mxGeometry height="498" width="776" x="819" y="774" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P3-heading" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=27;fontColor=#071827;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P3 - Runtime, Formation &amp; Execution" vertex="1">
+          <mxGeometry height="52" width="756" x="829" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P4" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#95C9F1;strokeColor=#02B5FF;strokeWidth=2.5;" value="" vertex="1">
+          <mxGeometry height="498" width="776" x="1607" y="774" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P4-heading" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=25;fontColor=#071827;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P4 - Provision, Consumption &amp; Integration" vertex="1">
+          <mxGeometry height="52" width="756" x="1617" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P2-ABB-01" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2.0;" value="" vertex="1">
+          <mxGeometry height="97" width="744" x="48" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P2-ABB-01-id" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=25;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P2-ABB-01" vertex="1">
+          <mxGeometry height="36" width="716" x="62" y="847" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P2-ABB-01-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Governed Discovery &amp; Navigation Boundary" vertex="1">
+          <mxGeometry height="41" width="716" x="62" y="887" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P2-ABB-02" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2.0;" value="" vertex="1">
+          <mxGeometry height="97" width="744" x="48" y="939" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P2-ABB-02-id" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=25;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P2-ABB-02" vertex="1">
+          <mxGeometry height="36" width="716" x="62" y="951" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P2-ABB-02-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Dependency, Composition &amp; Compatibility Boundary" vertex="1">
+          <mxGeometry height="41" width="716" x="62" y="991" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P2-ABB-03" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2.0;" value="" vertex="1">
+          <mxGeometry height="97" width="744" x="48" y="1043" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P2-ABB-03-id" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=25;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P2-ABB-03" vertex="1">
+          <mxGeometry height="36" width="716" x="62" y="1055" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P2-ABB-03-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Resolution, Validation &amp; Compilation Boundary" vertex="1">
+          <mxGeometry height="41" width="716" x="62" y="1095" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P2-ABB-04" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2.0;" value="" vertex="1">
+          <mxGeometry height="97" width="744" x="48" y="1147" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P2-ABB-04-id" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=25;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P2-ABB-04" vertex="1">
+          <mxGeometry height="36" width="716" x="62" y="1159" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P2-ABB-04-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Realization &amp; Deployment Binding Boundary" vertex="1">
+          <mxGeometry height="41" width="716" x="62" y="1199" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P3-ABB-01" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2.0;" value="" vertex="1">
+          <mxGeometry height="125" width="744" x="836" y="836" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P3-ABB-01-accent" parent="1" style="rounded=1;arcSize=0;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#1889FF;strokeColor=#1889FF;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="105" width="14" x="848" y="846" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P3-ABB-01-id" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=25;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P3-ABB-01" vertex="1">
+          <mxGeometry height="36" width="695" x="873" y="848" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P3-ABB-01-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Data Processing &amp; Movement Runtime Boundary" vertex="1">
+          <mxGeometry height="69" width="695" x="873" y="888" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P3-ABB-01-family" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#1889FF;fontStyle=1;align=right;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="(Data)" vertex="1">
+          <mxGeometry height="35" width="192" x="1373" y="844" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P3-ABB-02" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2.0;" value="" vertex="1">
+          <mxGeometry height="125" width="744" x="836" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P3-ABB-02-accent" parent="1" style="rounded=1;arcSize=0;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#28D7D7;strokeColor=#28D7D7;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="105" width="14" x="848" y="985" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P3-ABB-02-id" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=25;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P3-ABB-02" vertex="1">
+          <mxGeometry height="36" width="695" x="873" y="987" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P3-ABB-02-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Information Formation &amp; Analytical Runtime Boundary" vertex="1">
+          <mxGeometry height="69" width="695" x="873" y="1027" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P3-ABB-02-family" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#28D7D7;fontStyle=1;align=right;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="(Information)" vertex="1">
+          <mxGeometry height="35" width="192" x="1373" y="983" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P3-ABB-03" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2.0;" value="" vertex="1">
+          <mxGeometry height="125" width="744" x="836" y="1114" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P3-ABB-03-accent" parent="1" style="rounded=1;arcSize=0;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#A0DE76;strokeColor=#A0DE76;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="105" width="14" x="848" y="1124" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P3-ABB-03-id" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=25;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P3-ABB-03" vertex="1">
+          <mxGeometry height="36" width="695" x="873" y="1126" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P3-ABB-03-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Intelligence Execution Runtime Boundary" vertex="1">
+          <mxGeometry height="69" width="695" x="873" y="1166" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P3-ABB-03-family" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#A0DE76;fontStyle=1;align=right;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="(Intelligence)" vertex="1">
+          <mxGeometry height="35" width="192" x="1373" y="1122" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P4-ABB-01" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2.0;" value="" vertex="1">
+          <mxGeometry height="125" width="744" x="1624" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P4-ABB-01-id" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=25;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P4-ABB-01" vertex="1">
+          <mxGeometry height="36" width="716" x="1638" y="847" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P4-ABB-01-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Provision &amp; Interface Exposure Boundary" vertex="1">
+          <mxGeometry height="69" width="716" x="1638" y="887" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P4-ABB-02" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2.0;" value="" vertex="1">
+          <mxGeometry height="125" width="744" x="1624" y="974" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P4-ABB-02-id" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=25;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P4-ABB-02" vertex="1">
+          <mxGeometry height="36" width="716" x="1638" y="986" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P4-ABB-02-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Consumer Access &amp; Consumption Boundary" vertex="1">
+          <mxGeometry height="69" width="716" x="1638" y="1026" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P4-ABB-03" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2.0;" value="" vertex="1">
+          <mxGeometry height="125" width="744" x="1624" y="1113" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P4-ABB-03-id" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=25;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P4-ABB-03" vertex="1">
+          <mxGeometry height="36" width="716" x="1638" y="1125" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P4-ABB-03-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Downstream Integration &amp; Workflow Mediation Boundary" vertex="1">
+          <mxGeometry height="69" width="716" x="1638" y="1165" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P5" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#95C9F1;strokeColor=#02B5FF;strokeWidth=2.5;" value="" vertex="1">
+          <mxGeometry height="163" width="2352" x="31" y="1287" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P5-heading" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=30;fontColor=#071827;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P5 - Outcome, Value &amp; Evolution" vertex="1">
+          <mxGeometry height="48" width="2320" x="45" y="1291" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P5-ABB-01" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2.0;" value="" vertex="1">
+          <mxGeometry height="87" width="1149" x="48" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P5-ABB-01-id" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=25;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P5-ABB-01" vertex="1">
+          <mxGeometry height="36" width="1121" x="62" y="1362" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P5-ABB-01-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Outcome, Effectiveness &amp; Feedback Boundary" vertex="1">
+          <mxGeometry height="31" width="1121" x="62" y="1402" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P5-ABB-02" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2.0;" value="" vertex="1">
+          <mxGeometry height="87" width="1155" x="1210" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P5-ABB-02-id" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=25;fontColor=#F5FAFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-P5-ABB-02" vertex="1">
+          <mxGeometry height="36" width="1127" x="1224" y="1362" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-P5-ABB-02-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Value Assessment &amp; Evolution Boundary" vertex="1">
+          <mxGeometry height="31" width="1127" x="1224" y="1402" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X-overlays-group" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#95C9F1;strokeColor=#02B5FF;strokeWidth=2.5;" value="" vertex="1">
+          <mxGeometry height="422" width="2352" x="31" y="1467" as="geometry" />
+        </mxCell>
+        <mxCell id="overlays-heading" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=29;fontColor=#071827;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Cross-Cutting Overlays - Orthogonal Across Applicable HDIP Planes" vertex="1">
+          <mxGeometry height="54" width="2325" x="45" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X1" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="103" width="754" x="48" y="1534" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X1-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#B7DFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-X1  Governance, Policy, Control &amp; Compliance" vertex="1">
+          <mxGeometry height="39" width="734" x="58" y="1541" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X1-ABB-01" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="X1-ABB-01 - Governance Applicability &amp; Control Coordination Boundary" vertex="1">
+          <mxGeometry height="51" width="726" x="62" y="1579" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X2" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="103" width="754" x="824" y="1534" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X2-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#B7DFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-X2  Security, Privacy, Identity &amp; Entitlement" vertex="1">
+          <mxGeometry height="39" width="734" x="834" y="1541" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X2-desc" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Canonical Overlay - no standalone ABB in 0.1" vertex="1">
+          <mxGeometry height="51" width="726" x="838" y="1579" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X3" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="103" width="754" x="1600" y="1534" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X3-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#B7DFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-X3  Provenance, Evidence &amp; Traceability" vertex="1">
+          <mxGeometry height="39" width="734" x="1610" y="1541" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X3-ABB-01" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="X3-ABB-01 - Provenance &amp; Evidence Correlation Boundary" vertex="1">
+          <mxGeometry height="51" width="726" x="1614" y="1579" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X4" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="103" width="754" x="48" y="1647" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X4-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#B7DFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-X4  Observability, Telemetry &amp; Auditability" vertex="1">
+          <mxGeometry height="39" width="734" x="58" y="1654" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X4-ABB-01" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="X4-ABB-01 - Observability &amp; Telemetry Boundary" vertex="1">
+          <mxGeometry height="51" width="726" x="62" y="1692" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X5" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="103" width="754" x="824" y="1647" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X5-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#B7DFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-X5  Quality, Fitness &amp; Trust Evidence" vertex="1">
+          <mxGeometry height="39" width="734" x="834" y="1654" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X5-ABB-01" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="X5-ABB-01 - Quality, Fitness &amp; Trust Evidence Boundary" vertex="1">
+          <mxGeometry height="51" width="726" x="838" y="1692" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X6" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="103" width="754" x="1600" y="1647" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X6-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#B7DFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-X6  Evaluation &amp; Assurance" vertex="1">
+          <mxGeometry height="39" width="734" x="1610" y="1654" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X6-ABB-01" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="X6-ABB-01 - Evaluation &amp; Assurance Boundary" vertex="1">
+          <mxGeometry height="51" width="726" x="1614" y="1692" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X7" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="103" width="754" x="48" y="1760" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X7-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#B7DFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-X7  Lifecycle, Version, Currentness &amp; Change" vertex="1">
+          <mxGeometry height="39" width="734" x="58" y="1767" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X7-ABB-01" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="X7-ABB-01 - Lifecycle &amp; Change Coordination Boundary" vertex="1">
+          <mxGeometry height="51" width="726" x="62" y="1805" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X8" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="103" width="754" x="824" y="1760" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X8-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#B7DFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-X8  Resilience, Safety, Failure &amp; Recovery" vertex="1">
+          <mxGeometry height="39" width="734" x="834" y="1767" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X8-desc" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Canonical Overlay - no standalone ABB in 0.1" vertex="1">
+          <mxGeometry height="51" width="726" x="838" y="1805" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X9" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="103" width="754" x="1600" y="1760" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X9-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#B7DFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-X9  Economic &amp; Cost Accountability" vertex="1">
+          <mxGeometry height="39" width="734" x="1610" y="1767" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-X9-ABB-01" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="X9-ABB-01 - Economic &amp; Cost Accountability Boundary" vertex="1">
+          <mxGeometry height="51" width="726" x="1614" y="1805" as="geometry" />
+        </mxCell>
+        <mxCell id="HDIP-FND" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0B1F31;strokeColor=#02B5FF;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="166" width="2352" x="31" y="1904" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-heading" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=28;fontColor=#B5DFFB;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-FND - Shared Platform / Utility Foundation" vertex="1">
+          <mxGeometry height="42" width="2320" x="48" y="1912" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-principle" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=18;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Foundation enables realization; it does not establish semantics, Product qualification, policy authority or enterprise accountability." vertex="1">
+          <mxGeometry height="28" width="2320" x="48" y="1954" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-1" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#071827;strokeColor=#02B5FF;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="54" width="224.8" x="48" y="1994" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-label-1" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="compute" vertex="1">
+          <mxGeometry height="42" width="218.8" x="51" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-2" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#071827;strokeColor=#02B5FF;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="54" width="224.8" x="280.8" y="1994" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-label-2" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="storage" vertex="1">
+          <mxGeometry height="42" width="218.8" x="283.8" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-3" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#071827;strokeColor=#02B5FF;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="54" width="224.8" x="513.6" y="1994" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-label-3" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="network" vertex="1">
+          <mxGeometry height="42" width="218.8" x="516.6" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-4" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#071827;strokeColor=#02B5FF;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="54" width="224.8" x="746.4" y="1994" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-label-4" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="identity" vertex="1">
+          <mxGeometry height="42" width="218.8" x="749.4" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-5" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#071827;strokeColor=#02B5FF;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="54" width="224.8" x="979.2" y="1994" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-label-5" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="messaging" vertex="1">
+          <mxGeometry height="42" width="218.8" x="982.2" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-6" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#071827;strokeColor=#02B5FF;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="54" width="224.8" x="1212" y="1994" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-label-6" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="orchestration" vertex="1">
+          <mxGeometry height="42" width="218.8" x="1215" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-7" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#071827;strokeColor=#02B5FF;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="54" width="224.8" x="1444.8" y="1994" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-label-7" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="CI/CD" vertex="1">
+          <mxGeometry height="42" width="218.8" x="1447.8" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-8" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#071827;strokeColor=#02B5FF;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="54" width="224.8" x="1677.6" y="1994" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-label-8" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="hosting" vertex="1">
+          <mxGeometry height="42" width="218.8" x="1680.6" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-9" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#071827;strokeColor=#02B5FF;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="54" width="224.8" x="1910.4" y="1994" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-label-9" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="backup/DR" vertex="1">
+          <mxGeometry height="42" width="218.8" x="1913.4" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-10" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#071827;strokeColor=#02B5FF;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="54" width="224.8" x="2143.2" y="1994" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation-tech-label-10" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="runtime services" vertex="1">
+          <mxGeometry height="42" width="218.8" x="2146.2" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-architecture-bg" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0A1B2A;strokeColor=#02B5FF;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="297" width="567" x="2420" y="508" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-architecture-head" parent="1" style="rounded=1;arcSize=22;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#7BCB45;strokeColor=#7BCB45;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="52" width="543" x="2432" y="519" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-architecture-title" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=26;fontColor=#09180D;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;rounded=1;roundedPerimeter=1;arcSize=50;" value="Key Architectural Distinctions" vertex="1">
+          <mxGeometry height="47" width="470" x="2440" y="521" as="geometry" />
+        </mxCell>
+        <mxCell id="note-A-0" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#F5FAFF;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="• Plane ≠ deployment tier" vertex="1">
+          <mxGeometry height="35" width="507" x="2452" y="581" as="geometry" />
+        </mxCell>
+        <mxCell id="note-A-1" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#F5FAFF;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="• Overlay ≠ centralized service" vertex="1">
+          <mxGeometry height="35" width="507" x="2452" y="621" as="geometry" />
+        </mxCell>
+        <mxCell id="note-A-2" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#F5FAFF;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="• ABB ≠ physical component" vertex="1">
+          <mxGeometry height="35" width="507" x="2452" y="661" as="geometry" />
+        </mxCell>
+        <mxCell id="note-A-3" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#F5FAFF;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="• Product lens ≠ Product Plane" vertex="1">
+          <mxGeometry height="35" width="507" x="2452" y="701" as="geometry" />
+        </mxCell>
+        <mxCell id="note-A-4" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=22;fontColor=#F5FAFF;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="• Foundation ≠ authority" vertex="1">
+          <mxGeometry height="35" width="507" x="2452" y="741" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-modelling-bg" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0A1B2A;strokeColor=#02B5FF;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="391" width="567" x="2420" y="817" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-modelling-head" parent="1" style="rounded=1;arcSize=30;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#7BCB45;strokeColor=#7BCB45;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="52" width="543" x="2432" y="828" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-modelling-title" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=26;fontColor=#09180D;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Modelling Rules" vertex="1">
+          <mxGeometry height="47" width="527" x="2440" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="note-M-0" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#F5FAFF;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="• HDIP is one integrated logical architecture" vertex="1">
+          <mxGeometry height="54" width="510" x="2449" y="893" as="geometry" />
+        </mxCell>
+        <mxCell id="note-M-1" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#F5FAFF;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="• Data, Information and Intelligence responsibilities remain distinct" vertex="1">
+          <mxGeometry height="54" width="510" x="2449" y="953" as="geometry" />
+        </mxCell>
+        <mxCell id="note-M-2" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#F5FAFF;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="• Architecture is graph-shaped, not a universal linear pipeline" vertex="1">
+          <mxGeometry height="54" width="510" x="2449" y="1013" as="geometry" />
+        </mxCell>
+        <mxCell id="note-M-3" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#F5FAFF;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="• Shared realization does not transfer authority" vertex="1">
+          <mxGeometry height="54" width="510" x="2449" y="1073" as="geometry" />
+        </mxCell>
+        <mxCell id="note-M-4" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=20;fontColor=#F5FAFF;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="• Visual omission does not waive obligations" vertex="1">
+          <mxGeometry height="54" width="510" x="2449" y="1133" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-legend-bg" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0A1B2A;strokeColor=#02B5FF;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="277" width="567" x="2420" y="1221" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-legend-head" parent="1" style="rounded=1;arcSize=19;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#7BCB45;strokeColor=#7BCB45;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="52" width="543" x="2432" y="1232" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-legend-title" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=26;fontColor=#09180D;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="D / I / I Legend" vertex="1">
+          <mxGeometry height="47" width="527" x="2440" y="1234" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-swatch-0" parent="1" style="rounded=1;arcSize=2;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#1889FF;strokeColor=#1889FF;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="23" width="74" x="2466" y="1305" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-label-0" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=23;fontColor=#F5FAFF;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Data" vertex="1">
+          <mxGeometry height="39" width="383" x="2569" y="1297" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-swatch-1" parent="1" style="rounded=1;arcSize=2;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#28D7D7;strokeColor=#28D7D7;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="23" width="74" x="2466" y="1348" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-label-1" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=23;fontColor=#F5FAFF;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Information" vertex="1">
+          <mxGeometry height="39" width="383" x="2569" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-swatch-2" parent="1" style="rounded=1;arcSize=2;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#A0DE76;strokeColor=#A0DE76;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="23" width="74" x="2466" y="1391" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-label-2" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=23;fontColor=#F5FAFF;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Intelligence" vertex="1">
+          <mxGeometry height="39" width="383" x="2569" y="1383" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-divider" parent="1" style="rounded=1;arcSize=0;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#02B5FF;strokeColor=#02B5FF;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="2" width="477" x="2465" y="1425" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-note" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=19;fontColor=#D3E9F9;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Responsibility markers within one architecture" vertex="1">
+          <mxGeometry height="52" width="501" x="2453" y="1435" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-historical-bg" parent="1" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#0A1B2A;strokeColor=#02B5FF;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="576" width="567" x="2420" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-historical-head" parent="1" style="rounded=1;arcSize=4;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#7BCB45;strokeColor=#7BCB45;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="52" width="543" x="2432" y="1521" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-historical-title" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=26;fontColor=#09180D;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Historical Terminology Guard" vertex="1">
+          <mxGeometry height="47" width="527" x="2440" y="1523" as="geometry" />
+        </mxCell>
+        <mxCell id="note-H-0" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#F5FAFF;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="• PDEP = Product Development &amp; Evolution; not a Plane" vertex="1">
+          <mxGeometry height="88" width="515" x="2446" y="1587" as="geometry" />
+        </mxCell>
+        <mxCell id="note-H-1" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#F5FAFF;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="• CEP = Consumer Experience Projection; not a Plane" vertex="1">
+          <mxGeometry height="88" width="515" x="2446" y="1681" as="geometry" />
+        </mxCell>
+        <mxCell id="note-H-2" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#F5FAFF;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="• Historical COVP responsibilities mainly decompose across X4, X9 and P5" vertex="1">
+          <mxGeometry height="121" width="515" x="2446" y="1775" as="geometry" />
+        </mxCell>
+        <mxCell id="note-H-3" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=21;fontColor=#F5FAFF;fontStyle=0;align=left;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="• Historical Governance Plane and Utility Plane do not replace the canonical Overlay and Foundation models" vertex="1">
+          <mxGeometry height="150" width="515" x="2446" y="1902" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-statement-bg" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#032241;strokeColor=#02B5FF;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="164" width="2976" x="12" y="2101" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-statement" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=27;fontColor=#C9E4F6;fontStyle=1;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP composes and realizes governed Data, Information and Intelligence responsibilities as one enterprise logical platform&#xa;while preserving independent semantic, Product, policy, source and Decision authorities." vertex="1">
+          <mxGeometry height="108" width="2160" x="33" y="2117" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-divider" parent="1" style="rounded=1;arcSize=0;whiteSpace=wrap;html=0;glass=0;shadow=0;fillColor=#02B5FF;strokeColor=#02B5FF;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="119" width="3" x="2215" y="2122" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-source" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=18;fontColor=#F5FAFF;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="HDIP-CLA 0.1  ·  M15-V01  ·  Frozen M17 human-readable architecture" vertex="1">
+          <mxGeometry height="51" width="726" x="2231" y="2122" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-qualification" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=17;fontColor=#9FB4C7;fontStyle=2;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Canonical Reference View projection - not vendor topology,&#xa;not mandatory runtime sequence, not conformance certification." vertex="1">
+          <mxGeometry height="55" width="726" x="2231" y="2178" as="geometry" />
+        </mxCell>
+        <mxCell id="copyright-line" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=16;fontColor=#A6B6C4;fontStyle=0;align=center;verticalAlign=middle;spacing=0;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;" value="Copyrighted material 2017-2019 kivanura.org Kaizen" vertex="1">
+          <mxGeometry height="29" width="2976" x="12" y="2278" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

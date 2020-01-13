@@ -10,6 +10,12 @@ This page records the programme structure for deriving the canonical logical arc
 
 The programme is responsibility-first and deliberately avoids freezing logical planes, overlays or Architecture Building Blocks before the upstream responsibilities and existing HDIP constructs have been systematically analysed.
 
+## Canonical visual overview
+
+The [HDIP-CLA 0.1 M15-V01 Canonical Logical Platform View](/docs/architecture/cla/views/hdip-cla-0.1-m15-v01-canonical-logical-platform) is the primary visual entry point for the frozen architecture. It depicts the five canonical logical Planes, nine Overlays, shared Foundation and externally preserved authority boundaries as **one** Data, Information and Intelligence platform architecture.
+
+This is a presentation-only projection of the [M15 Reference Views](/docs/architecture/cla/hdip-cla-0.1-m15-canonical-reference-views) and [M17 frozen baseline](/docs/architecture/cla/hdip-cla-0.1-m17-cross-artifact-reconciliation-freeze), not an amendment to either.
+
 ## Programme stages
 
 | Stage | Purpose |

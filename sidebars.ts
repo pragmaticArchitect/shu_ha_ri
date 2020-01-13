@@ -23,6 +23,13 @@ const sidebars: SidebarsConfig = {
         'architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model',
         'architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns',
         'architecture/cla/hdip-cla-0.1-m15-canonical-reference-views',
+        {
+          type: 'category',
+          label: 'Canonical Architecture Visuals',
+          items: [
+            'architecture/cla/views/hdip-cla-0.1-m15-v01-canonical-logical-platform',
+          ],
+        },
         'architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model',
         'architecture/cla/hdip-cla-0.1-m17-cross-artifact-reconciliation-freeze',
       ],
