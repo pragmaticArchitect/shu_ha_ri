@@ -1,23 +1,31 @@
 {
   "recordId": "INFOPS-P01-S04-TA01-EVAL-10-F01-CLOSURE-EFFECT-0.1",
-  "classification": "OWNER_APPROVED_PROSPECTIVE_CLOSURE_NOT_YET_EFFECTIVE",
-  "asOf": "2026-11-07",
+  "classification": "OWNER_ATTESTED_PROSPECTIVE_CONDITIONAL_RESEARCH_CLOSURE_EFFECTIVE",
+  "asOf": "2026-11-08",
   "sourceDecision": "TA01-EVAL-10-F01",
   "ownerDisposition": "APPROVE",
   "approvedClauses": "F01.1-F01.18",
   "authorizedUnder": "INFOPS-P01-S04-PCI-0.1",
   "constitutiveMandate": "INFOPS-GOV-MANDATE-0.1",
   "approvedTarget": "CLOSED_CONDITIONAL_RESEARCH (ONTOLOGY_AND_NORMATIVE_READINESS_UNRESOLVED)",
-  "approvalState": "APPROVED_NOT_EFFECTIVE",
-  "actualEffectiveS04Status": "NOT_CLOSED",
+  "approvalState": "APPROVED_EFFECTIVE",
+  "actualEffectiveS04Status": "CLOSED_CONDITIONAL_RESEARCH (ONTOLOGY_AND_NORMATIVE_READINESS_UNRESOLVED)",
   "effectuation": {
-    "qualifyingCommit": "NOT_ESTABLISHED",
-    "qualifyingGitBranch": "NOT_RECORDED",
-    "actualAdoptionDate": "NOT_ESTABLISHED",
-    "actualClosureEffectiveDate": "NOT_ESTABLISHED",
-    "rule": "No earlier than owner approval, valid instrument effectiveness, first qualifying Git commit of approved PC-10 closure record on governing branch, and satisfaction of applicable mandatory conditions; if a later date is explicitly set it governs.",
+    "qualifyingCommit": "7ddea588a1c6d7088878fc0bc294bf37012dce1e",
+    "qualifyingGitBranch": "develop",
+    "actualAdoptionDate": "2026-11-06",
+    "actualClosureEffectiveDate": "2026-11-08",
+    "rule": "Owner-approved PC-10 before owner-attested qualifying Git commit; owner-attested final applicability reconciliation 2026-11-08; date of closure-effect recognition 2026-11-08, not backdated.",
     "commitOfThisPreparedOverlayIsNotAutomaticallyVerified": "TRUE",
-    "knownApplicableMandatoryPrerequisiteCheck": "REQUIRED_BEFORE_EFFECT"
+    "knownApplicableMandatoryPrerequisiteCheck": "SATISFIED_OWNER_ATTESTED_2026-11-08_NO_KNOWN_CONFLICT_IN_RECONCILED_SCOPE",
+    "qualifyingCommitTimestampReported": "2026-11-06T18:13:12+01:00",
+    "approvalBeforeCommit": "CONFIRMED_OWNER_ATTESTED",
+    "commitContainsApprovedDecision": "CONFIRMED_OWNER_ATTESTED",
+    "gitIndependentVerification": "NOT_PERFORMED",
+    "instrumentOperationalEffectiveness": "OWNER_ATTESTED_WITH_PRIOR_PROVENANCE_QUALIFICATIONS",
+    "effectivenessDetermination": "ESTABLISHED_OWNER_ATTESTED_2026-11-08",
+    "reconciliationDate": "2026-11-08",
+    "newOverlayDoesNotConstituteOriginalAdoptionCommit": true
   },
   "historicalC06": {
     "status": "APPROVED_NOT_EFFECTIVE",
@@ -35,7 +43,7 @@
     "c02IndependentRepositoryAudit": "NOT_ESTABLISHED",
     "ra01": "ACCEPTED_BOUNDED_UNRESOLVED",
     "ra02": "ACCEPTED_BOUNDED_UNRESOLVED",
-    "materialContradictionGate": "MUST_RESOLVE_BEFORE_CLOSURE_EFFECT"
+    "materialContradictionGate": "RECONCILED_OWNER_ATTESTED_NO_KNOWN_APPLICABLE_UNRESOLVED_CONFLICT_2026-11-08; FUTURE_AUTHENTIC_CONTRADICTIONS_REMAIN_ACTIONABLE"
   },
   "v01": {
     "generalActivity": "VERIFICATION_ACTIVITY_SUSPENDED_CONDITIONAL",
