@@ -1,0 +1,82 @@
+{
+  "programme": "INFOPS-0.1-ACT1",
+  "activity": "ACT1-SC-D03",
+  "evidence_class": "EXPERIMENTAL_E0",
+  "owner_authorization": "APPROVED_FOR_ISOLATED_IMPLEMENTATION_PREPARATION",
+  "implementation_acceptance": "PENDING",
+  "live_repository_integrated": false,
+  "deployment_authorized": false,
+  "source_references": [
+    "BPS FlowPlayerDetailed.tsx inspected as non-normative presentation grammar",
+    "INFOPS G0/Spec A owner-reported deployments",
+    "HDIP-CLA M15-V03 frozen",
+    "ACT1-SC-D01/D02/D03 owner decisions"
+  ],
+  "verification": {
+    "typescript_tsx_syntax": "PASS",
+    "static_graph": "PASS",
+    "zip_integrity": "PASS",
+    "manifest_checksums": "PASS",
+    "navbar_owner_snippet_preview": "PASS_SYNTHETIC_FIXTURE_ONLY",
+    "docusaurus_build": "NOT_VERIFIED",
+    "browser_interaction": "NOT_EXECUTED",
+    "SC_AC01_SC_AC18_full_acceptance": "NOT_COMPLETED"
+  },
+  "files": [
+    {
+      "path": "shu_ha_ri/src/data/IPSpecCFlow.ts",
+      "sha256": "35677e2f7746e88cffbe73d0df9c758e6a5b675bc87ff087d900576538837007",
+      "bytes": 35845
+    },
+    {
+      "path": "shu_ha_ri/src/components/IPFlowPlayerSpecC.tsx",
+      "sha256": "73740e917aeab721c4d9169e6b48bf79f58cb25ee24443528c8ce00a61e455bb",
+      "bytes": 12714
+    },
+    {
+      "path": "shu_ha_ri/src/components/IPFlowPlayerSpecC.css",
+      "sha256": "32721ee115bcab28895b514bddc3f393f32fd72f9f72912140dc7546d9cc348c",
+      "bytes": 6420
+    },
+    {
+      "path": "shu_ha_ri/src/components/IPSpecCEvidenceInspector.tsx",
+      "sha256": "561852a9e0d5b8e2408441baa310b93e6dbd1caa6bded535f7c9fd6e3d7b300c",
+      "bytes": 1553
+    },
+    {
+      "path": "shu_ha_ri/src/components/IPSpecCIdentityInspector.tsx",
+      "sha256": "8830444d1a99fa8c44ef2d0328624a4288199185cd36a47088936ce6bedecf6a",
+      "bytes": 978
+    },
+    {
+      "path": "shu_ha_ri/src/pages/hdip-ip-flow-sc.tsx",
+      "sha256": "5d47977527dd8a03b6533e3808fd3c6e3111e6899a43edfaa588a9a7b3037d8a",
+      "bytes": 605
+    },
+    {
+      "path": "shu_ha_ri/research/act1-spec-c/act1-sc-static-verification.json",
+      "sha256": "5198e7c6ff7f29d1271f9a5bcae8eb84f2edb65eb023e25b7eeed9e3f0d526a8",
+      "bytes": 7439
+    },
+    {
+      "path": "integration/hdip-ip-sspd-spec-c-navbar.patch",
+      "sha256": "bc6a34c52b239b449312b3eb48fb9f36cbfbf049fec603f87da4f042dcbac045",
+      "bytes": 623
+    },
+    {
+      "path": "integration/merge_spec_c_navbar.py",
+      "sha256": "3a3f6efe65082299c21579ceecd926493d50291b02ecf6899ef054044c7d27e6",
+      "bytes": 2165
+    },
+    {
+      "path": "README-APPLY-SPEC-C.md",
+      "sha256": "704308acec6584df12c06600fb58ee5380ef3d7e5f4633481f8e28c8f1f8490a",
+      "bytes": 5339
+    },
+    {
+      "path": "PACKAGING-VERIFICATION-NOTES.md",
+      "sha256": "87bc9f02b65dc93b644b43e14b31b23f831482e3f44da6fd51008f7c90c74cb5",
+      "bytes": 1324
+    }
+  ]
+}

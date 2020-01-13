@@ -1,0 +1,230 @@
+{
+  "purpose": "ACT1-SC-D03 isolated source checks, NOT owner acceptance or normative verification",
+  "checks": [
+    {
+      "name": "TS/TSX syntax src/data/IPSpecCFlow.ts",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "TS/TSX syntax src/components/IPFlowPlayerSpecC.tsx",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "TS/TSX syntax src/components/IPSpecCEvidenceInspector.tsx",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "TS/TSX syntax src/components/IPSpecCIdentityInspector.tsx",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "TS/TSX syntax src/pages/hdip-ip-flow-sc.tsx",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "four unique lanes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "twelve nonmandatory domains",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "three branches",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "unique node identities",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "unique link identities",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "five inherited interaction types",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "eight additional annotation types",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "valid graph endpoints",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "all node/link domains defined",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "all path/moment domain and graph IDs valid",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "eight experience moments per branch",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "consume no new product artifacts/compiler",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "consume SSCF handoff",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "SSCF visible on every branch",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "independent authority distinguished from services",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "identity dimensions complete",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "evidence levels/absence honest",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "E0 research disclosure in renderer",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "IPRO rather than family-neutral PRO lane",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "Docusaurus route and cross-view navigation",
+      "status": "PASS",
+      "details": ""
+    }
+  ],
+  "syntax": {
+    "src/data/IPSpecCFlow.ts": "PASS",
+    "src/components/IPFlowPlayerSpecC.tsx": "PASS",
+    "src/components/IPSpecCEvidenceInspector.tsx": "PASS",
+    "src/components/IPSpecCIdentityInspector.tsx": "PASS",
+    "src/pages/hdip-ip-flow-sc.tsx": "PASS"
+  },
+  "static_graph": {
+    "lanes": 4,
+    "nodes": 50,
+    "links": 50,
+    "domains": 12,
+    "moments_per_branch": 8,
+    "paths": [
+      "consume",
+      "evolve",
+      "create"
+    ],
+    "identity_dimensions": 8,
+    "illustrative_evidence": 7
+  },
+  "full_typecheck": "NOT_VERIFIED",
+  "docusaurus_build": "NOT_VERIFIED",
+  "actual_browser_qa": "NOT_EXECUTED",
+  "screen_reader_qa": "NOT_EXECUTED",
+  "navbar_live_integration": "NOT_EXECUTED",
+  "SC_AC01_to_SC_AC18": {
+    "SC-AC10": {
+      "status": "PASS_STATIC_ONLY",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    },
+    "SC-AC11": {
+      "status": "PASS_STATIC_ONLY",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    },
+    "SC-AC12": {
+      "status": "PASS_STATIC_ONLY",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    },
+    "SC-AC13": {
+      "status": "PASS_STATIC_ONLY",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    },
+    "SC-AC14": {
+      "status": "NOT_VERIFIED_BROWSER",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    },
+    "SC-AC15": {
+      "status": "PASS_STATIC_ONLY",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    },
+    "SC-AC16": {
+      "status": "PASS_STATIC_ONLY",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    },
+    "SC-AC17": {
+      "status": "NOT_VERIFIED_BROWSER",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    },
+    "SC-AC18": {
+      "status": "PASS_STATIC_ONLY",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    },
+    "SC-AC01": {
+      "status": "PASS_STATIC_ONLY",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    },
+    "SC-AC02": {
+      "status": "PASS_STATIC_ONLY",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    },
+    "SC-AC03": {
+      "status": "PASS_STATIC_ONLY",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    },
+    "SC-AC04": {
+      "status": "PASS_STATIC_ONLY",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    },
+    "SC-AC05": {
+      "status": "PASS_STATIC_ONLY",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    },
+    "SC-AC06": {
+      "status": "PASS_STATIC_ONLY",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    },
+    "SC-AC07": {
+      "status": "PASS_STATIC_ONLY",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    },
+    "SC-AC08": {
+      "status": "PASS_STATIC_ONLY",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    },
+    "SC-AC09": {
+      "status": "PASS_STATIC_ONLY",
+      "qualification": "Static checks cannot establish full acceptance. Requires owner architectural review and (where applicable) build/browser tests."
+    }
+  }
+}
