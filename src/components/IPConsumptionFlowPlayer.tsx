@@ -1,81 +1,66 @@
 import React,{useEffect,useMemo,useRef,useState} from 'react';
 import {sscfModel,type ConsumptionView,type ConsumptionScenario} from '../data/IPConsumptionFlow';
+import manifest from '../data/IPConsumptionProjectionManifest.json';
 import './IPConsumptionFlow.css';
-const titles:Record<ConsumptionView,string>={basic:'G0 — Consumer Experience',sa:'Spec A — Structured Interactions',sc:'Spec C — Detailed Consumption Architecture'};
-const viewSummary:Record<ConsumptionView,string>={basic:'What does the consumer need, and how can an existing Product deliver value?',sa:'Which consumer, SSCF, independent authority and artifact responsibilities interact?',sc:'Which exact identities, competent decisions, occurrences and evidence support the consumption context?'};
-const views:[ConsumptionView,string][]=[['basic','G0'],['sa','Spec A'],['sc','Spec C']];
-const pathFor:Record<ConsumptionView,string>={basic:'/hdip-product-consumption-basic',sa:'/hdip-product-consumption-sa',sc:'/hdip-product-consumption-sc'};
-const scenarioKeys=Object.keys(sscfModel.scenarios) as ConsumptionScenario[];
+
+type PElement = (typeof manifest.views.basic)[number] | (typeof manifest.views.sa)[number] | (typeof manifest.views.sc)[number];
+type PLink = (typeof manifest.displayRelations.basic)[number] | (typeof manifest.displayRelations.sa)[number] | (typeof manifest.displayRelations.sc)[number];
+const titles:Record<ConsumptionView,string>={basic:'G0 — Consumer Experience',sa:'Spec A — Responsibility Interactions',sc:'Spec C — Detailed Identity & Evidence'};
+const subtitles:Record<ConsumptionView,string>={basic:'WHAT can a consumer accomplish through an existing governed Product?',sa:'WHO participates, HOW do responsibilities interact, and WHO has authority?',sc:'WHICH exact governing references, identities and evidence substantiate consumption?'};
+const paths:Record<ConsumptionView,string>={basic:'/hdip-product-consumption-basic',sa:'/hdip-product-consumption-sa',sc:'/hdip-product-consumption-sc'};
+const viewOptions:[ConsumptionView,string][]=[['basic','G0 Consumer'],['sa','Spec A Responsibility'],['sc','Spec C Evidence']];
+const scenarios=Object.keys(sscfModel.scenarios) as ConsumptionScenario[];
+const saLanes=[{name:'L1 — Product Consumer (PCON)',ids:['SA-E01','SA-E02','SA-E03']},{name:'L2 — HDIP SSCF',ids:['SA-E04','SA-E05','SA-E06']},{name:'L3 — Independent Authorities & Services',ids:['SA-E07','SA-E08','SA-E09']},{name:'L4 — Governed Artifacts & Outcomes',ids:['SA-E10','SA-E11','SA-E12']}];
+const scGroups=[{name:'Consumer & Product',start:0,end:4},{name:'Meaning & Contract',start:4,end:8},{name:'Authority & Access',start:8,end:12},{name:'Realization & Execution',start:12,end:16},{name:'Delivery & Evidence',start:16,end:20},{name:'Economics & Evolution',start:20,end:24}];
+const g0Paths=[{name:'Direct consumption',description:'A suitable Product is consumed through an actual supported interface, if applicable access is satisfied.'},{name:'Access unresolved',description:'Request or reference a competent determination. Discovery never confers entitlement.'},{name:'Alternatives or stop',description:'Explore other Products, defer or stop. No creation is compulsory.'},{name:'Conditional PDEP',description:'An unmet need can be referred for independently governed evolution or creation.'}];
 export default function IPConsumptionFlowPlayer({view}:{view:ConsumptionView}):React.JSX.Element {
+ const elements:ReadonlyArray<PElement>=manifest.views[view];
+ const relations:ReadonlyArray<PLink>=manifest.displayRelations[view];
  const moments=sscfModel.moments[view];
  const [moment,setMoment]=useState(0),[playing,setPlaying]=useState(false);
- const [family,setFamily]=useState<string>(sscfModel.families[1]);
- const [persona,setPersona]=useState<string>(sscfModel.personas[1]);
- const [scenario,setScenario]=useState<ConsumptionScenario>('direct');
- const [focus,setFocus]=useState<string|null>(null),[all,setAll]=useState(false);
- const [inspector,setInspector]=useState<'nodes'|'identities'|'evidence'>('nodes');
- const active=moments[moment]||moments[0];
- const nodeIds=useMemo(()=>new Set<string>([...active.nodeIds,...sscfModel.scenarios[scenario].focus]),[active,scenario]);
- const focused=sscfModel.nodes.find(n=>n.id===focus);
- const links=sscfModel.links.filter(l=>all||nodeIds.has(l.source)&&nodeIds.has(l.target)||focus===l.source||focus===l.target);
- const diagramRef=useRef<HTMLElement|null>(null);
- const nodeRefs=useRef<Record<string,HTMLButtonElement|null>>({});
- const [geometry,setGeometry]=useState<{width:number;height:number;paths:Record<string,string>}>({width:1,height:1,paths:{}});
+ const [family,setFamily]=useState<string>(sscfModel.families[1]),[persona,setPersona]=useState<string>(sscfModel.personas[0]);
+ const [scenario,setScenario]=useState<ConsumptionScenario>('direct'),[selected,setSelected]=useState<string|null>(null);
+ const [showAll,setShowAll]=useState(false),[inspect,setInspect]=useState<'explain'|'edges'|'evidence'>('explain');
+ const [g0Path,setG0Path]=useState(0);
+ const diagram=useRef<HTMLDivElement|null>(null),refs=useRef<Record<string,HTMLButtonElement|null>>({});
+ const [pathsGeometry,setPathsGeometry]=useState<Record<string,string>>({});
+ const current=moments[moment]||moments[0];
+ const scopedNodes=useMemo(()=>new Set<string>([...current.nodeIds,...sscfModel.scenarios[scenario].focus]),[current,scenario]);
+ const relevant=(e:PElement)=>e.canonicalNodeRefs.some(id=>scopedNodes.has(id));
+ const selectedElement=elements.find(e=>e.id===selected);
+ const shownRelations=relations.filter(edge=>showAll||Boolean(selected&&[edge.source,edge.target].includes(selected))||elements.some(e=>e.id===edge.source&&relevant(e))&&elements.some(e=>e.id===edge.target&&relevant(e)));
+ useEffect(()=>{if(!playing)return;if(moment>=moments.length-1){setPlaying(false);return;}const timer=window.setTimeout(()=>setMoment(v=>Math.min(v+1,moments.length-1)),2100);return()=>window.clearTimeout(timer);},[playing,moment,moments.length]);
+ const go=(m:number)=>{setMoment(Math.max(0,Math.min(moments.length-1,m)));setPlaying(false);};
  useEffect(()=>{
-   const diagram=diagramRef.current;
-   if(!diagram)return;
-   let frame=0;
-   const measure=()=>{
-     window.cancelAnimationFrame(frame);
-     frame=window.requestAnimationFrame(()=>{
-       const diagramBox=diagram.getBoundingClientRect();
-       const paths:Record<string,string>={};
-       for(const relation of sscfModel.links){
-         const source=nodeRefs.current[relation.source]?.getBoundingClientRect();
-         const target=nodeRefs.current[relation.target]?.getBoundingClientRect();
-         if(!source||!target)continue;
-         const sx=source.left+source.width/2-diagramBox.left;
-         const sy=source.top+source.height/2-diagramBox.top;
-         const tx=target.left+target.width/2-diagramBox.left;
-         const ty=target.top+target.height/2-diagramBox.top;
-         const dx=tx-sx,dy=ty-sy;
-         // Paths end at card edges; a curve, not a straight line through the cards.
-         if(Math.abs(dx)>80){
-           const startX=sx+(dx>0?source.width/2:-source.width/2);
-           const endX=tx+(dx>0?-target.width/2:target.width/2);
-           const bend=(endX-startX)*.43;
-           paths[relation.id]=`M ${startX} ${sy} C ${startX+bend} ${sy}, ${endX-bend} ${ty}, ${endX} ${ty}`;
-         }else{
-           const startY=sy+(dy>0?source.height/2:-source.height/2);
-           const endY=ty+(dy>0?-target.height/2:target.height/2);
-           const bend=(endY-startY)*.42;
-           paths[relation.id]=`M ${sx} ${startY} C ${sx+24} ${startY+bend}, ${tx-24} ${endY-bend}, ${tx} ${endY}`;
-         }
-       }
-       setGeometry({width:Math.max(1,diagramBox.width),height:Math.max(1,diagramBox.height),paths});
-     });
-   };
-   measure();
-   const observer=typeof ResizeObserver!=='undefined'?new ResizeObserver(measure):null;
-   if(observer){observer.observe(diagram);Object.values(nodeRefs.current).forEach(node=>{if(node)observer.observe(node);});}
-   window.addEventListener('resize',measure);
-   return()=>{window.cancelAnimationFrame(frame);observer?.disconnect();window.removeEventListener('resize',measure);};
- },[]);
- const activeLinkIds=new Set(sscfModel.links.filter(l=>nodeIds.has(l.source)&&nodeIds.has(l.target)).map(l=>l.id));
-
- useEffect(()=>{if(!playing)return;if(moment>=moments.length-1){setPlaying(false);return;}const t=window.setTimeout(()=>setMoment(n=>Math.min(n+1,moments.length-1)),2000);return()=>window.clearTimeout(t);},[moment,moments.length,playing]);
- const move=(value:number)=>{setMoment(Math.max(0,Math.min(moments.length-1,value)));setPlaying(false);setFocus(null);};
- return <main className="ipcon">
- <header className="ipcon-header"><p className="ipcon-eyebrow">INFOPS 0.1 · ACT2 · HDIP SSCF · Experimental E0</p><h1>Generic HDIP Product Consumption — {titles[view]}</h1><p>{viewSummary[view]}</p><div className="ipcon-badges"><span>Product-family agnostic</span><span>Illustrative, not a mandatory lifecycle</span><span>Independent authority retained</span></div></header>
- <nav className="ipcon-views" aria-label="SSCF architecture views">{views.map(([key,text])=><a key={key} href={pathFor[key]} aria-current={view===key?'page':undefined}>{text}</a>)}</nav>
- <section className="ipcon-controls" aria-label="Consumer context and illustrative compatibility"><div><label htmlFor="ipcon-family">Product Family</label><select id="ipcon-family" value={family} onChange={e=>setFamily(e.target.value)}>{sscfModel.families.map(x=><option key={x}>{x}</option>)}</select></div><div><label htmlFor="ipcon-persona">CEP / persona example</label><select id="ipcon-persona" value={persona} onChange={e=>setPersona(e.target.value)}>{sscfModel.personas.map(x=><option key={x}>{x}</option>)}</select></div><p role="note">Illustration: <strong>{family}</strong> viewed through a <strong>{persona}</strong> experience. This selection does not establish compatibility, supported Product ports, entitlement, Product Family or fitness.</p></section>
- <section className="ipcon-scenarios" aria-label="Consumption condition"><label htmlFor="ipcon-scenario">Illustrative consumption condition</label><select id="ipcon-scenario" value={scenario} onChange={e=>{setScenario(e.target.value as ConsumptionScenario);setFocus(null);}}>{scenarioKeys.map(k=><option key={k} value={k}>{sscfModel.scenarios[k].name}</option>)}</select><p>{sscfModel.scenarios[scenario].description}</p></section>
- <section className="ipcon-story" aria-label="Illustrative narration"><div className="ipcon-play"><button onClick={()=>move(0)}>Reset</button><button onClick={()=>move(moment-1)} disabled={moment===0}>Previous</button><button onClick={()=>setPlaying(v=>!v)}>{playing?'Pause':'Play'}</button><button onClick={()=>move(moment+1)} disabled={moment===moments.length-1}>Next</button><span>Moment {moment+1} of {moments.length}</span></div><p className="ipcon-eyebrow">{active.id} · Illustrative logical interaction</p><h2>{active.title}</h2><p>{active.summary}</p><div className="ipcon-moments" aria-label="Narrative moment selector">{moments.map((x,i)=><button key={x.id} onClick={()=>move(i)} aria-current={i===moment?'step':undefined}>{i+1}</button>)}</div></section>
- <div className="ipcon-toolbar"><label><input type="checkbox" checked={all} onChange={e=>setAll(e.target.checked)}/> Show every logical relationship</label><button onClick={()=>{setFocus(null);setAll(false);}}>Clear inspection</button></div>
- <div className="ipcon-layout"><section className="ipcon-lanes" ref={diagramRef} aria-label="Four-lane shared SSCF model"><svg className="ipcon-connectors" width={geometry.width} height={geometry.height} viewBox={`0 0 ${geometry.width} ${geometry.height}`} aria-hidden="true"><defs><marker id="ipcon-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#64748b"/></marker><marker id="ipcon-arrow-highlight" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#0e766f"/></marker></defs>{links.filter(l=>Boolean(geometry.paths[l.id])).map(l=><path key={l.id} d={geometry.paths[l.id]} className={activeLinkIds.has(l.id)?'ipcon-connector-active':''} markerEnd={`url(#${activeLinkIds.has(l.id)?'ipcon-arrow-highlight':'ipcon-arrow'})`}/>)}</svg>{sscfModel.lanes.map(l=><div className="ipcon-lane" key={l.id}><header><h3>{l.title}</h3><p>{l.hint}</p></header><div className="ipcon-node-list">{sscfModel.nodes.filter(n=>n.lane===l.id).map(n=><button key={n.id} ref={el=>{nodeRefs.current[n.id]=el;}} className={'ipcon-node '+(nodeIds.has(n.id)?'ipcon-active ':'')+(focus===n.id?'ipcon-focused':'')} aria-pressed={focus===n.id} onClick={()=>{setFocus(n.id);setInspector('nodes');setPlaying(false);}}><strong>{n.title}</strong><small>{n.subtitle}</small><span>{n.kind==='authority'?'Independent authority':n.kind==='service'?'Shared service':n.kind}</span></button>)}</div></div>)}</section><aside className="ipcon-inspector"><div className="ipcon-tabs" role="group" aria-label="Inspect SSCF architecture"><button aria-pressed={inspector==='nodes'} onClick={()=>setInspector('nodes')}>Interactions</button><button aria-pressed={inspector==='identities'} onClick={()=>setInspector('identities')}>Identities</button><button aria-pressed={inspector==='evidence'} onClick={()=>setInspector('evidence')}>Evidence</button></div>
- {inspector==='nodes'?<><h3>{focused?focused.title:'Typed relationships'}</h3>{focused?<p>{focused.description}</p>:<p>Select a node or inspect the typed links below. A reference does not establish independent authority.</p>}<div className="ipcon-edges">{links.map(e=><button key={e.id} onClick={()=>{setFocus(e.source);setPlaying(false);}}><strong>{e.interaction}</strong><small>{e.source} → {e.target}</small><span>{e.annotation} · {e.id}</span></button>)}</div></>:null}
- {inspector==='identities'?<><h3>Identity & version boundaries</h3>{sscfModel.identities.map((x,i)=><details key={x.title} open={i===0}><summary>{x.title}</summary><p>{x.meaning}</p></details>)}</>:null}
- {inspector==='evidence'?<><h3>Evidence inspection — illustrative</h3><dl><dt>Exact subject and claim</dt><dd>Which Product/Version, context and assertion are in scope?</dd><dt>Governing references</dt><dd>Product-family, semantics, source, policy and applicable assurance independently competent.</dd><dt>Evidence provenance</dt><dd>Declaration, reference, authentic execution, delivered Information and observation are distinct.</dd><dt>Evaluation</dt><dd>Unknown, absent, insufficient, contradicted and historical do not collapse into pass/fail.</dd><dt>Decision/currentness</dt><dd>Competent decision, purpose and time separately attributable; access does not authorize consequential action.</dd><dt>E0 / E1 / E2</dt><dd>E0 visualization only. Parent G06: 62 E0 designs unexecuted; E1 = 0; E2 = 0. Playback creates no empirical evidence.</dd></dl></>:null}</aside></div>
- <footer className="ipcon-footer"><h3>Non-normative architectural boundaries</h3><p><strong>Consumer is not Owner:</strong> PCON does not automatically become PRO, DPRO, IPRO or AIPRO. Product Family and CEP are orthogonal.</p><p><strong>No automatic approvals:</strong> Discovery is not Productness, contract is not entitlement, enforcement is not consequential action authorization, and multi-Product use is not independently qualified Compound Product.</p><p><strong>Information integrity:</strong> Product/Version, Promise, semantic method, contract, port/provider, invocation, execution occurrence, delivered Information occurrence, evidence, assessment and currentness remain distinct.</p><p><strong>Economics:</strong> X9 indicative cost versus P5 actual observed value. Enterprise funding authority remains external.</p><p><strong>Governance:</strong> Frozen M15-V03; D42 deferred to 1.0; Q0–Q5 research limits; F06/F14/F16 unresolved; 24 OPEN obligations; First Pass ACTIVE_NOT_CLOSED; Second Pass NOT_STARTED; normative release NOT_AUTHORIZED.</p><nav aria-label="PDEP views"><a href="/hdip-ip-flow-basic">ACT1 G0</a><a href="/hdip-ip-flow-sa">ACT1 Spec A</a><a href="/hdip-ip-flow-sc">ACT1 Spec C</a></nav></footer>
+  const root=diagram.current;if(!root)return;let frame=0;
+  const update=()=>{window.cancelAnimationFrame(frame);frame=window.requestAnimationFrame(()=>{
+   const rootBox=root.getBoundingClientRect();const geometry:Record<string,string>={};
+   for(const edge of relations){const a=refs.current[edge.source]?.getBoundingClientRect(),b=refs.current[edge.target]?.getBoundingClientRect();if(!a||!b)continue;
+    const ax=a.left+a.width/2-rootBox.left,ay=a.top+a.height/2-rootBox.top,bx=b.left+b.width/2-rootBox.left,by=b.top+b.height/2-rootBox.top;
+    const dx=bx-ax,dy=by-ay;
+    if(Math.abs(dx)>60){const x1=ax+(dx>0?a.width/2:-a.width/2),x2=bx+(dx>0?-b.width/2:b.width/2),bend=(x2-x1)*.45;geometry[edge.id]=`M${x1} ${ay} C${x1+bend} ${ay},${x2-bend} ${by},${x2} ${by}`;}
+    else{const y1=ay+(dy>0?a.height/2:-a.height/2),y2=by+(dy>0?-b.height/2:b.height/2);geometry[edge.id]=`M${ax} ${y1} C${ax+20} ${(y1+y2)/2},${bx-20} ${(y1+y2)/2},${bx} ${y2}`;}
+   }
+   setPathsGeometry(geometry);
+  });};update();const obs=typeof ResizeObserver==='undefined'?null:new ResizeObserver(update);obs?.observe(root);Object.values(refs.current).forEach(el=>{if(el)obs?.observe(el);});window.addEventListener('resize',update);return()=>{window.cancelAnimationFrame(frame);obs?.disconnect();window.removeEventListener('resize',update);};
+ },[view,relations]);
+ const card=(e:PElement)=><button type="button" key={e.id} ref={el=>{refs.current[e.id]=el;}} onClick={()=>{setSelected(e.id);setInspect('explain');setPlaying(false);}} aria-pressed={selected===e.id} className={'ipcon-projnode '+(relevant(e)?'ipcon-projactive ':'')+(selected===e.id?'ipcon-projselected':'')}><small className="ipcon-projid">{e.id}</small><strong>{e.title}</strong><span>{e.canonicalDimensions.join(' · ')}</span></button>;
+ return <main className={'ipcon ipcon-projection ipcon-view-'+view}>
+ <header className="ipcon-header"><p className="ipcon-eyebrow">INFOPS 0.1 · ACT2-VR · Experimental E0 · Non-normative</p><h1>Generic HDIP Product Consumption — {titles[view]}</h1><p>{subtitles[view]}</p><div className="ipcon-badges"><span>One canonical SSCF model</span><span>7 / 6 / 8 illustrative moments</span><span>Independent authorities</span></div></header>
+ <nav className="ipcon-views" aria-label="SSCF architecture views">{viewOptions.map(([id,label])=><a key={id} href={paths[id]} aria-current={view===id?'page':undefined}>{label}</a>)}</nav>
+ <section className="ipcon-controls" aria-label="Illustrative Product Family and CEP context"><div><label htmlFor="pcon-family">Product Family</label><select id="pcon-family" value={family} onChange={e=>setFamily(e.target.value)}>{sscfModel.families.map(x=><option key={x}>{x}</option>)}</select></div><div><label htmlFor="pcon-cep">CEP / persona example</label><select id="pcon-cep" value={persona} onChange={e=>setPersona(e.target.value)}>{sscfModel.personas.map(x=><option key={x}>{x}</option>)}</select></div><p role="note"><strong>{family} · {persona}</strong> — illustrative preference only, never Product qualification, interface compatibility or access entitlement.</p></section>
+ <section className="ipcon-scenarios"><label htmlFor="pcon-scenario">Explore a conditional outcome</label><select id="pcon-scenario" value={scenario} onChange={e=>{setScenario(e.target.value as ConsumptionScenario);setSelected(null);}}>{scenarios.map(k=><option key={k} value={k}>{sscfModel.scenarios[k].name}</option>)}</select><p>{sscfModel.scenarios[scenario].description}</p></section>
+ <section className="ipcon-story"><div className="ipcon-play"><button onClick={()=>go(0)}>Reset</button><button onClick={()=>go(moment-1)} disabled={moment===0}>Previous</button><button onClick={()=>setPlaying(v=>!v)} aria-pressed={playing}>{playing?'Pause':'Play'}</button><button onClick={()=>go(moment+1)} disabled={moment===moments.length-1}>Next</button><span>Illustrative moment {moment+1} / {moments.length}</span></div><p className="ipcon-eyebrow">{current.id} · Narrative, not mandatory sequence</p><h2>{current.title}</h2><p>{current.summary}</p><div className="ipcon-moments" aria-label="Choose narrative moment">{moments.map((x,i)=><button key={x.id} aria-current={moment===i?'step':undefined} onClick={()=>go(i)} title={x.title}>{i+1}</button>)}</div></section>
+ <section className="ipcon-projintro"><h2>{view==='basic'?'Consumer experience map':view==='sa'?'Four-lane responsibility interactions':'Identity, authority & evidence graph'}</h2><p>{view==='basic'?'The pathway below is deliberately simplified. Access and suitability are conditional, not automatic.':view==='sa'?'Four independently distinct responsibility perspectives. Directed edges represent illustrative responsibility relationships.':'Select any detailed element to inspect exact canonical references and governing caveats.'}</p><label><input type="checkbox" checked={showAll} onChange={e=>setShowAll(e.target.checked)}/> Show all displayed relationships</label></section>
+ <div className="ipcon-projlayout"><div ref={diagram} className={'ipcon-projdiagram ipcon-projdiagram-'+view} aria-label={titles[view]+' visual projection'}>
+ <svg className="ipcon-projconnectors" aria-hidden="true"><defs><marker id={'pcon-arrow-'+view} markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7Z" fill="currentColor"/></marker></defs>{shownRelations.map(e=>pathsGeometry[e.id]?<path key={e.id} className={e.canonicalRelationshipRefs.length?'ipcon-projedge':'ipcon-projnarrative'} d={pathsGeometry[e.id]} markerEnd={'url(#pcon-arrow-'+view+')'}/>:null)}</svg>
+ {view==='basic'?<><div className="ipcon-consumergrid">{elements.slice(0,6).map(card)}</div><div className="ipcon-outcomes"><h3>Not every journey ends in consumption</h3><div className="ipcon-outcomecards">{elements.slice(6).map(card)}</div><p>Permission unresolved · No suitable Product · Composition · Change · Stop/defer · Conditional PDEP referral</p></div><div className="ipcon-choices" aria-label="Consumer path examples"><label htmlFor="pcon-path">Illustrative consumer outcome</label><select id="pcon-path" value={g0Path} onChange={e=>setG0Path(Number(e.target.value))}>{g0Paths.map((p,i)=><option key={p.name} value={i}>{p.name}</option>)}</select><p>{g0Paths[g0Path].description}</p></div></>
+ :view==='sa'?<div className="ipcon-salanes">{saLanes.map(lane=><section className="ipcon-salane" key={lane.name}><h3>{lane.name}</h3>{lane.ids.map(id=>elements.filter(e=>e.id===id).map(card))}</section>)}</div>
+ :<div className="ipcon-scgroups">{scGroups.map(group=><section className="ipcon-scgroup" key={group.name}><h3>{group.name}</h3><div>{elements.slice(group.start,group.end).map(card)}</div></section>)}</div>}
+ </div><aside className="ipcon-inspector"><h3>{selectedElement?selectedElement.title:'Inspect this view'}</h3><div className="ipcon-tabs" role="group" aria-label="Inspection mode"><button aria-pressed={inspect==='explain'} onClick={()=>setInspect('explain')}>Grounding</button><button aria-pressed={inspect==='edges'} onClick={()=>setInspect('edges')}>Edges</button><button aria-pressed={inspect==='evidence'} onClick={()=>setInspect('evidence')}>Evidence</button></div>
+ {inspect==='explain'?selectedElement?<><p><strong>Visual ID:</strong> {selectedElement.id} · {selectedElement.operation}</p><p><strong>Canonical nodes:</strong> {selectedElement.canonicalNodeRefs.join(', ')}</p><p><strong>Canonical links:</strong> {selectedElement.canonicalRelationshipRefs.join(', ')||'none'}</p><p><strong>Related views:</strong> {selectedElement.relatedProjectionRefs.join(', ')}</p><p><strong>Authority boundary:</strong> {selectedElement.authorityCaveats.join(' ')}</p><p><strong>Evidence boundary:</strong> {selectedElement.evidenceCaveats.join(' ')}</p></>:<p>Choose a projected node. Canonical node and edge IDs, many-to-many cross-view references and authority caveats are inspectable; drawing a reference does not prove operational conformance.</p>:null}
+ {inspect==='edges'?<div className="ipcon-edges">{shownRelations.map(e=><button key={e.id} onClick={()=>setSelected(e.source)}><strong>{e.source} → {e.target}</strong><small>{e.label} · {e.kind}</small><span>Canonical links: {e.canonicalRelationshipRefs.join(', ')||'none — narrative association'}</span></button>)}</div>:null}
+ {inspect==='evidence'?<dl><dt>Subject and claim</dt><dd>Product/Version, purpose, contract, realization or occurrence must be separately identifiable where applicable.</dd><dt>Authority</dt><dd>Productness, semantics, source, policy, entitlement, assurance, consequential action and investment remain independently competent.</dd><dt>Provenance and assessment</dt><dd>A reference is not authentic evidence; evidence is not automatically sufficient; evaluation is not automatically authorization.</dd><dt>Time and occurrence</dt><dd>Invocation, execution, delivered result, historical applicability and currentness are distinct. Information occurrence is conditional by family.</dd><dt>Economics</dt><dd>X9 estimates are not P5 actual cost/value or investment authorization.</dd><dt>Evidence class</dt><dd>E0 design projection only. No new E1/E2 empirical execution results.</dd></dl>:null}</aside></div>
+ <footer className="ipcon-footer"><h3>Preserved architectural boundaries</h3><p>PCON is not PRO, DPRO, IPRO or AIPRO. Product Family is orthogonal to CEP. Direct consumption does not require new Product creation; composition does not automatically confer Compound qualification; PDEP referral is conditional.</p><p>Governing reference ≠ competent determination ≠ enforcement ≠ consequential authorization. Product/Version, Promise, semantics/method, contract, port, realization, invocation, execution, result occurrence, evidence and currentness remain distinct.</p><p>X9 indicative economics versus P5 observed results; investment authority remains external. Experimental E0 diagram only. Frozen M15-V03; D42 deferred; Q0–Q5; F06/F14/F16 unresolved; 24 OPEN obligations; First Pass ACTIVE_NOT_CLOSED; Second Pass NOT_STARTED; normative release NOT_AUTHORIZED.</p><nav aria-label="ACT1 Product Development and Evolution views"><a href="/hdip-ip-flow-basic">ACT1 G0</a><a href="/hdip-ip-flow-sa">ACT1 Spec A</a><a href="/hdip-ip-flow-sc">ACT1 Spec C</a></nav></footer>
  </main>;
 }

@@ -1,0 +1,475 @@
+{
+  "status": "ISOLATED_PACKAGE_PREPARED_OWNER_ACCEPTANCE_NOT_ESTABLISHED",
+  "baseline": {
+    "canonicalNodes": 36,
+    "canonicalRelationships": 38,
+    "sources": [
+      "/mnt/data/vr_d08/baseline/shu_ha_ri/src/data/IPConsumptionFlow.ts",
+      "/mnt/data/vr_d08/baseline/shu_ha_ri/src/components/IPConsumptionFlowPlayer.tsx",
+      "/mnt/data/vr_d08/baseline/shu_ha_ri/src/components/IPConsumptionFlow.css"
+    ],
+    "parityWithDeployedRepo": "NOT_VERIFIED"
+  },
+  "staticChecks": {
+    "model_baseline_36_38": true,
+    "immutable_canonical_source": true,
+    "three_views_exact_elements": true,
+    "moments_7_6_8": true,
+    "valid_node_refs": true,
+    "valid_edge_refs": true,
+    "complete_node_coverage": true,
+    "complete_relation_coverage": true,
+    "valid_moment_refs": true,
+    "valid_cross_view_refs": true,
+    "valid_display_relation_refs": true,
+    "all_elements_have_authority_evidence_caveats": true,
+    "pages_unchanged": true,
+    "source_components_unchanged": true,
+    "separate_structure": true,
+    "dynamic_lookups_not_approvals": true,
+    "typescript_jsx_transpilation": true,
+    "guard_dry_run_passes": true,
+    "guard_rejects_modified_canonical": true
+  },
+  "typescriptTranspilation": {
+    "errors": [],
+    "jsBytes": 20225
+  },
+  "criteria": [
+    {
+      "id": "PC-AC01",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "PC-AC02",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "PC-AC03",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "PC-AC04",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "PC-AC05",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "PC-AC06",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "PC-AC07",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "PC-AC08",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "PC-AC09",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "PC-AC10",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "PC-AC11",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "PC-AC12",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "PC-AC13",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "PC-AC14",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "PC-AC15",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "PC-AC16",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-G0-AC01",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-G0-AC02",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-G0-AC03",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-G0-AC04",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-G0-AC05",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-G0-AC06",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-G0-AC07",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-G0-AC08",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-G0-AC09",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-G0-AC10",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-G0-AC11",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-G0-AC12",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SA-AC01",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SA-AC02",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SA-AC03",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SA-AC04",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SA-AC05",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SA-AC06",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SA-AC07",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SA-AC08",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SA-AC09",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SA-AC10",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SA-AC11",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SA-AC12",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SC-AC01",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SC-AC02",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SC-AC03",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SC-AC04",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SC-AC05",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SC-AC06",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SC-AC07",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SC-AC08",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SC-AC09",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SC-AC10",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SC-AC11",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SC-AC12",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SC-AC13",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-SC-AC14",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-XV-AC01",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-XV-AC02",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-XV-AC03",
+      "result": "PASS",
+      "evidence": "manifest and verification-report.json",
+      "limitation": "Manifest coverage verified against candidate 8/12/24 inventories; applicability is descriptive rather than independently approved for each real Product."
+    },
+    {
+      "id": "VR-XV-AC04",
+      "result": "PASS",
+      "evidence": "verification-report.json:valid_node_refs,valid_edge_refs",
+      "limitation": "All canonical node and relationship references resolve within the inspected local source baseline; not deployed repository parity."
+    },
+    {
+      "id": "VR-XV-AC05",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-XV-AC06",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-XV-AC07",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-XV-AC08",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-XV-AC09",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-XV-AC10",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-XV-AC11",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    },
+    {
+      "id": "VR-XV-AC12",
+      "result": "NOT_VERIFIED",
+      "evidence": null,
+      "limitation": "Full criterion requires design-specific semantic review and/or target Docusaurus/browser verification. Static subchecks are separately reported, not automatically promoted to criterion PASS."
+    }
+  ],
+  "summary": {
+    "PASS": 2,
+    "FAIL": 0,
+    "NOT_VERIFIED": 64
+  },
+  "engineeringGates": {
+    "G1_SOURCE_INTEGRITY": [
+      "PASS",
+      "Local inspected overlay baseline only"
+    ],
+    "G2_STRUCTURAL_DIFFERENTIATION": [
+      "NOT_VERIFIED",
+      "Distinct source structures exist; browser pre-playback visual inspection not executed"
+    ],
+    "G3_AUTHORITY_INTEGRITY": [
+      "NOT_VERIFIED",
+      "Static disclaimers present; independent semantic adversarial review not executed"
+    ],
+    "G4_FUNCTIONAL_BEHAVIOUR": [
+      "NOT_VERIFIED",
+      "React/Docusaurus environment and browser test not available"
+    ],
+    "G5_INTEGRATION_SAFETY": [
+      "NOT_VERIFIED",
+      "Guard script dry-run verified on local synthetic baseline; deployed repo parity unknown"
+    ],
+    "G6_EVIDENCE_SUFFICIENCY": [
+      "PASS",
+      "Unverified claims explicitly segregated; all criteria individually classified"
+    ]
+  },
+  "limitations": [
+    "No installed React/Docusaurus packages in the isolated source tree; full Docusaurus build not executed.",
+    "No rendered browser screenshots or functional keyboard/accessibility tests.",
+    "Original canonical nodes group some identities (invocation and execution, evidence and currentness); projection elaborates them as views without claiming new canonical facts.",
+    "Canonical source representation is exactly preserved; deployed repository parity has not been independently established.",
+    "A full independent semantic authority and evidence review remains pending.",
+    "Owner acceptance and deployment require separate dispositions."
+  ]
+}

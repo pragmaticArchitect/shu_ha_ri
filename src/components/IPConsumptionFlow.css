@@ -8,3 +8,27 @@
 .ipcon-connectors>path.ipcon-connector-active{stroke:#0e766f;stroke-opacity:.94;stroke-width:2.2;stroke-dasharray:none}
 @media (prefers-reduced-motion:reduce){.ipcon-connectors *{transition:none!important;animation:none!important}}
 @media print{.ipcon-connectors{display:none}}
+/* ACT2-VR-D08 isolated, experimental E0 view differentiation: additive to existing styles */
+.ipcon-projintro{border:1px solid var(--line);border-radius:12px;padding:.8rem 1rem;margin:1rem 0;background:var(--ifm-background-surface-color,#fff)}
+.ipcon-projintro h2{font-size:1.12rem;margin:.2rem 0}.ipcon-projintro p{font-size:.84rem}.ipcon-projintro label{font-size:.78rem}
+.ipcon-projlayout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:1rem;align-items:start}
+.ipcon-projdiagram{position:relative;isolation:isolate;min-width:0;border:1px solid var(--line);border-radius:12px;padding:1rem;background:var(--ifm-background-surface-color,#fff)}
+.ipcon-projconnectors{position:absolute;inset:0;width:100%;height:100%;z-index:3;pointer-events:none;overflow:visible;color:#0e766f}
+.ipcon-projconnectors path{fill:none;stroke:currentColor;stroke-width:1.7;opacity:.45;vector-effect:non-scaling-stroke}
+.ipcon-projconnectors path.ipcon-projnarrative{stroke-dasharray:5 4;opacity:.45}
+.ipcon-projnode{position:relative;z-index:2;display:flex;flex-direction:column;gap:.4rem;min-height:94px;width:100%;text-align:left!important;padding:.75rem!important;background:var(--ifm-background-color,#fff)!important;border:1px solid #a8bfcd!important;white-space:normal;overflow-wrap:anywhere}
+.ipcon-projnode strong{font-size:.85rem;line-height:1.3}.ipcon-projnode span{font-size:.68rem;color:var(--muted)}.ipcon-projid{font-size:.67rem;color:#0e766f;font-weight:700}
+.ipcon-projnode.ipcon-projactive{background:#e8f6f2!important;border-color:#0e766f!important}.ipcon-projnode.ipcon-projselected{outline:3px solid #0e766f;outline-offset:1px}
+.ipcon-consumergrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2.4rem 2rem;padding:1rem}
+.ipcon-view-basic .ipcon-projnode{min-height:105px;text-align:center!important;align-items:center;justify-content:center;border-radius:14px!important}
+.ipcon-view-basic .ipcon-projnode strong{font-size:1rem}.ipcon-outcomes{border-top:2px dashed #adc4c9;padding:1rem;margin-top:.6rem}.ipcon-outcomes h3{font-size:.96rem}.ipcon-outcomecards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem}.ipcon-outcomes>p{font-size:.72rem;color:var(--muted)}
+.ipcon-choices{margin-top:1.2rem;background:#eef7f5;border-radius:8px;padding:1rem}.ipcon-choices label{display:block;font-weight:650;font-size:.8rem}.ipcon-choices p{font-size:.83rem;margin-bottom:0}
+.ipcon-salanes{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.55rem}
+.ipcon-salane{border:1px solid var(--line);border-radius:9px;padding:.5rem;min-width:0;background:#f5f8fa}.ipcon-salane h3{font-size:.82rem;line-height:1.3;min-height:58px;padding:.5rem;background:#dfeee9;border-radius:6px;margin:0 0 1rem}.ipcon-salane .ipcon-projnode{margin-bottom:1.5rem;min-height:112px;padding:.55rem!important}.ipcon-salane .ipcon-projnode strong{font-size:.76rem}
+.ipcon-scgroups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.ipcon-scgroup{border:1px solid var(--line);border-radius:9px;padding:.6rem;background:#f5f8fa;min-width:0}.ipcon-scgroup h3{font-size:.92rem;margin:.2rem 0 .8rem}.ipcon-scgroup>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.55rem}.ipcon-scgroup .ipcon-projnode{min-height:100px;padding:.55rem!important}.ipcon-scgroup .ipcon-projnode strong{font-size:.75rem}
+.ipcon-projection .ipcon-inspector{top:.8rem}.ipcon-projection .ipcon-inspector p,.ipcon-projection .ipcon-inspector dd{overflow-wrap:anywhere}
+@media(max-width:1150px){.ipcon-projlayout{grid-template-columns:1fr}.ipcon-projection .ipcon-inspector{position:static;max-height:none}}
+@media(max-width:780px){.ipcon-salanes{grid-template-columns:repeat(2,minmax(0,1fr))}.ipcon-scgroups{grid-template-columns:1fr}}
+@media(max-width:480px){.ipcon-consumergrid,.ipcon-outcomecards,.ipcon-salanes{grid-template-columns:1fr}.ipcon-scgroup>div{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.ipcon-projection *{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+@media print{.ipcon-projconnectors{display:none}}

@@ -1,0 +1,2274 @@
+{
+  "status": "E0_NON_NORMATIVE",
+  "canonicalBaseline": {
+    "nodeCount": 36,
+    "relationshipCount": 38,
+    "source": "IPConsumptionFlow.ts from 2019-11-20 original plus arrow-fix overlay"
+  },
+  "views": {
+    "basic": [
+      {
+        "id": "G0-E01",
+        "title": "Consumer need",
+        "canonicalNodeRefs": [
+          "intent"
+        ],
+        "canonicalDimensions": [
+          "C01"
+        ],
+        "narrativeRefs": [
+          "PC-G0-P01"
+        ],
+        "authorityCaveats": [
+          "PCON declares intent; not a Product Owner."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "SELECT",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "basic",
+        "canonicalRelationshipRefs": [
+          "R01"
+        ],
+        "relatedProjectionRefs": [
+          "SA-E01",
+          "SC-E01",
+          "SC-E02"
+        ]
+      },
+      {
+        "id": "G0-E02",
+        "title": "Discover Products",
+        "canonicalNodeRefs": [
+          "discover",
+          "resolve",
+          "catalog",
+          "resolution-set"
+        ],
+        "canonicalDimensions": [
+          "C02",
+          "C03"
+        ],
+        "narrativeRefs": [
+          "PC-G0-P02"
+        ],
+        "authorityCaveats": [
+          "Discovery does not establish qualification or access."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "basic",
+        "canonicalRelationshipRefs": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R31"
+        ],
+        "relatedProjectionRefs": [
+          "SA-E02",
+          "SA-E04",
+          "SA-E09",
+          "SA-E10"
+        ]
+      },
+      {
+        "id": "G0-E03",
+        "title": "Understand & select",
+        "canonicalNodeRefs": [
+          "evaluate",
+          "interpret",
+          "product-id",
+          "semantic-id",
+          "contract-id"
+        ],
+        "canonicalDimensions": [
+          "C03",
+          "C04",
+          "C05"
+        ],
+        "narrativeRefs": [
+          "PC-G0-P03"
+        ],
+        "authorityCaveats": [
+          "Selection does not authorize use or redefine semantics."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "basic",
+        "canonicalRelationshipRefs": [
+          "R04",
+          "R05",
+          "R06",
+          "R07",
+          "R08",
+          "R09",
+          "R10",
+          "R11",
+          "R17"
+        ],
+        "relatedProjectionRefs": [
+          "SA-E02",
+          "SA-E05",
+          "SA-E10",
+          "SC-E03",
+          "SC-E04",
+          "SC-E05",
+          "SC-E06",
+          "SC-E07",
+          "SC-E20"
+        ]
+      },
+      {
+        "id": "G0-E04",
+        "title": "Access, where needed",
+        "canonicalNodeRefs": [
+          "request",
+          "access",
+          "policy-authority",
+          "entitlement-authority",
+          "access-decision"
+        ],
+        "canonicalDimensions": [
+          "C05",
+          "C06",
+          "C07"
+        ],
+        "narrativeRefs": [
+          "PC-G0-P04"
+        ],
+        "authorityCaveats": [
+          "Competent entitlement decision and technical enforcement are distinct."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "basic",
+        "canonicalRelationshipRefs": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ],
+        "relatedProjectionRefs": [
+          "SA-E03",
+          "SA-E05",
+          "SA-E08",
+          "SA-E11",
+          "SC-E02",
+          "SC-E11",
+          "SC-E14",
+          "SC-E20"
+        ]
+      },
+      {
+        "id": "G0-E05",
+        "title": "Consume existing Product",
+        "canonicalNodeRefs": [
+          "consume",
+          "cep",
+          "deliver",
+          "interface-binding",
+          "invocation"
+        ],
+        "canonicalDimensions": [
+          "C07",
+          "C08",
+          "C09"
+        ],
+        "narrativeRefs": [
+          "PC-G0-P05"
+        ],
+        "authorityCaveats": [
+          "Only supported interfaces and applicable permission; execution is not proved."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "basic",
+        "canonicalRelationshipRefs": [
+          "R18",
+          "R19",
+          "R20",
+          "R21",
+          "R22",
+          "R23",
+          "R24",
+          "R27",
+          "R38"
+        ],
+        "relatedProjectionRefs": [
+          "SA-E03",
+          "SA-E06",
+          "SA-E11",
+          "SC-E08",
+          "SC-E13",
+          "SC-E14",
+          "SC-E15",
+          "SC-E16"
+        ]
+      },
+      {
+        "id": "G0-E06",
+        "title": "Observe value",
+        "canonicalNodeRefs": [
+          "observe",
+          "outcome",
+          "assessment",
+          "evidence-service",
+          "information-occurrence"
+        ],
+        "canonicalDimensions": [
+          "C09",
+          "C10",
+          "C11"
+        ],
+        "narrativeRefs": [
+          "PC-G0-P06"
+        ],
+        "authorityCaveats": [
+          "X9 indicative is not P5 actual; occurrence/quality require independent evidence."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "basic",
+        "canonicalRelationshipRefs": [
+          "R24",
+          "R25",
+          "R26",
+          "R27",
+          "R28",
+          "R29",
+          "R37"
+        ],
+        "relatedProjectionRefs": [
+          "SA-E09",
+          "SA-E11",
+          "SA-E12",
+          "SC-E17",
+          "SC-E18",
+          "SC-E19",
+          "SC-E20",
+          "SC-E21",
+          "SC-E22"
+        ]
+      },
+      {
+        "id": "G0-E07",
+        "title": "Explore alternatives",
+        "canonicalNodeRefs": [
+          "feedback",
+          "reentry",
+          "composition",
+          "compound"
+        ],
+        "canonicalDimensions": [
+          "C01",
+          "C02",
+          "C11"
+        ],
+        "narrativeRefs": [
+          "PC-G0-P07"
+        ],
+        "authorityCaveats": [
+          "Composition does not automatically qualify Compound Product."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "basic",
+        "canonicalRelationshipRefs": [
+          "R29",
+          "R30",
+          "R31",
+          "R32",
+          "R34",
+          "R35",
+          "R36"
+        ],
+        "relatedProjectionRefs": [
+          "SA-E03",
+          "SA-E06",
+          "SA-E11",
+          "SC-E23",
+          "SC-E24"
+        ]
+      },
+      {
+        "id": "G0-E08",
+        "title": "Optional PDEP referral",
+        "canonicalNodeRefs": [
+          "pdep",
+          "handoff"
+        ],
+        "canonicalDimensions": [
+          "C11"
+        ],
+        "narrativeRefs": [
+          "PC-G0-P07"
+        ],
+        "authorityCaveats": [
+          "Referral does not authorize creation, ownership or investment."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "basic",
+        "canonicalRelationshipRefs": [
+          "R32",
+          "R33"
+        ],
+        "relatedProjectionRefs": [
+          "SA-E06",
+          "SA-E12",
+          "SC-E24"
+        ]
+      }
+    ],
+    "sa": [
+      {
+        "id": "SA-E01",
+        "title": "Consumer intent",
+        "canonicalNodeRefs": [
+          "intent"
+        ],
+        "canonicalDimensions": [
+          "C01"
+        ],
+        "narrativeRefs": [
+          "PC-SA-P01"
+        ],
+        "authorityCaveats": [
+          "Consumer is not Product Owner."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "SELECT",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sa",
+        "canonicalRelationshipRefs": [
+          "R01"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E01",
+          "SC-E01",
+          "SC-E02"
+        ]
+      },
+      {
+        "id": "SA-E02",
+        "title": "Evaluation & selection",
+        "canonicalNodeRefs": [
+          "discover",
+          "evaluate"
+        ],
+        "canonicalDimensions": [
+          "C01",
+          "C02",
+          "C03"
+        ],
+        "narrativeRefs": [
+          "PC-SA-P02"
+        ],
+        "authorityCaveats": [
+          "Selection is not qualification."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sa",
+        "canonicalRelationshipRefs": [
+          "R04",
+          "R05",
+          "R11"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E02",
+          "G0-E03"
+        ]
+      },
+      {
+        "id": "SA-E03",
+        "title": "Request & feedback",
+        "canonicalNodeRefs": [
+          "request",
+          "consume",
+          "feedback"
+        ],
+        "canonicalDimensions": [
+          "C01",
+          "C09",
+          "C11"
+        ],
+        "narrativeRefs": [
+          "PC-SA-P03",
+          "PC-SA-P05",
+          "PC-SA-P06"
+        ],
+        "authorityCaveats": [
+          "Request and feedback are not competent decisions."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sa",
+        "canonicalRelationshipRefs": [
+          "R11",
+          "R12",
+          "R22",
+          "R23",
+          "R27",
+          "R29",
+          "R30",
+          "R32",
+          "R38"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E04",
+          "G0-E05",
+          "G0-E07",
+          "SC-E02",
+          "SC-E16",
+          "SC-E23"
+        ]
+      },
+      {
+        "id": "SA-E04",
+        "title": "Discovery & resolution",
+        "canonicalNodeRefs": [
+          "resolve"
+        ],
+        "canonicalDimensions": [
+          "C02",
+          "C03"
+        ],
+        "narrativeRefs": [
+          "PC-SA-P01",
+          "PC-SA-P02"
+        ],
+        "authorityCaveats": [
+          "SSCF resolves references, not Productness."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "SELECT",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sa",
+        "canonicalRelationshipRefs": [
+          "R01",
+          "R02",
+          "R31"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E02"
+        ]
+      },
+      {
+        "id": "SA-E05",
+        "title": "Contract & authority orchestration",
+        "canonicalNodeRefs": [
+          "interpret",
+          "access"
+        ],
+        "canonicalDimensions": [
+          "C04",
+          "C05",
+          "C06"
+        ],
+        "narrativeRefs": [
+          "PC-SA-P02",
+          "PC-SA-P03"
+        ],
+        "authorityCaveats": [
+          "Orchestration is not authority determination."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sa",
+        "canonicalRelationshipRefs": [
+          "R05",
+          "R06",
+          "R07",
+          "R10",
+          "R12",
+          "R13",
+          "R15",
+          "R17"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E03",
+          "G0-E04",
+          "SC-E14"
+        ]
+      },
+      {
+        "id": "SA-E06",
+        "title": "CEP & consumption enablement",
+        "canonicalNodeRefs": [
+          "cep",
+          "deliver",
+          "composition",
+          "reentry",
+          "pdep"
+        ],
+        "canonicalDimensions": [
+          "C07",
+          "C08",
+          "C11"
+        ],
+        "narrativeRefs": [
+          "PC-SA-P04",
+          "PC-SA-P06"
+        ],
+        "authorityCaveats": [
+          "Enablement is not independent permission or new Product creation."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sa",
+        "canonicalRelationshipRefs": [
+          "R18",
+          "R19",
+          "R21",
+          "R22",
+          "R30",
+          "R31",
+          "R32",
+          "R33",
+          "R34",
+          "R35"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E05",
+          "G0-E07",
+          "G0-E08",
+          "SC-E13",
+          "SC-E14",
+          "SC-E15",
+          "SC-E23",
+          "SC-E24"
+        ]
+      },
+      {
+        "id": "SA-E07",
+        "title": "Product & semantic authorities",
+        "canonicalNodeRefs": [
+          "prod-authority",
+          "sem-authority"
+        ],
+        "canonicalDimensions": [
+          "C03",
+          "C04",
+          "C06"
+        ],
+        "narrativeRefs": [
+          "PC-SA-P02"
+        ],
+        "authorityCaveats": [
+          "Separate Product and semantic competence."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sa",
+        "canonicalRelationshipRefs": [
+          "R08",
+          "R09",
+          "R36"
+        ],
+        "relatedProjectionRefs": [
+          "SC-E03",
+          "SC-E05",
+          "SC-E09",
+          "SC-E10"
+        ]
+      },
+      {
+        "id": "SA-E08",
+        "title": "Policy & entitlement authorities",
+        "canonicalNodeRefs": [
+          "policy-authority",
+          "entitlement-authority",
+          "action-authority",
+          "investment-authority"
+        ],
+        "canonicalDimensions": [
+          "C05",
+          "C06"
+        ],
+        "narrativeRefs": [
+          "PC-SA-P03"
+        ],
+        "authorityCaveats": [
+          "Access, consequential actions and investment authorities remain separate."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sa",
+        "canonicalRelationshipRefs": [
+          "R13",
+          "R14",
+          "R15",
+          "R16",
+          "R37",
+          "R38"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E04",
+          "SC-E11",
+          "SC-E12"
+        ]
+      },
+      {
+        "id": "SA-E09",
+        "title": "Registries, source & assurance",
+        "canonicalNodeRefs": [
+          "catalog",
+          "source-authority",
+          "evidence-service"
+        ],
+        "canonicalDimensions": [
+          "C02",
+          "C06",
+          "C09"
+        ],
+        "narrativeRefs": [
+          "PC-SA-P02",
+          "PC-SA-P05"
+        ],
+        "authorityCaveats": [
+          "Shared services are not by themselves authorities."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sa",
+        "canonicalRelationshipRefs": [
+          "R02",
+          "R03",
+          "R20",
+          "R26"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E02",
+          "G0-E06",
+          "SC-E10",
+          "SC-E18"
+        ]
+      },
+      {
+        "id": "SA-E10",
+        "title": "Product references & contracts",
+        "canonicalNodeRefs": [
+          "product-id",
+          "semantic-id",
+          "contract-id",
+          "resolution-set"
+        ],
+        "canonicalDimensions": [
+          "C03",
+          "C04",
+          "C05"
+        ],
+        "narrativeRefs": [
+          "PC-SA-P02"
+        ],
+        "authorityCaveats": [
+          "Versioned Product, meaning and contract remain distinct."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sa",
+        "canonicalRelationshipRefs": [
+          "R03",
+          "R04",
+          "R06",
+          "R07",
+          "R08",
+          "R09",
+          "R10",
+          "R17"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E02",
+          "G0-E03",
+          "SC-E03",
+          "SC-E04",
+          "SC-E05",
+          "SC-E06",
+          "SC-E07",
+          "SC-E20"
+        ]
+      },
+      {
+        "id": "SA-E11",
+        "title": "Decisions, bindings & delivery",
+        "canonicalNodeRefs": [
+          "access-decision",
+          "interface-binding",
+          "invocation",
+          "information-occurrence",
+          "compound"
+        ],
+        "canonicalDimensions": [
+          "C06",
+          "C07",
+          "C08",
+          "C09"
+        ],
+        "narrativeRefs": [
+          "PC-SA-P03",
+          "PC-SA-P04"
+        ],
+        "authorityCaveats": [
+          "Delivery does not prove result correctness or Compound qualification."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sa",
+        "canonicalRelationshipRefs": [
+          "R14",
+          "R16",
+          "R18",
+          "R19",
+          "R20",
+          "R21",
+          "R23",
+          "R24",
+          "R25",
+          "R35",
+          "R36"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E04",
+          "G0-E05",
+          "G0-E06",
+          "G0-E07",
+          "SC-E08",
+          "SC-E11",
+          "SC-E13",
+          "SC-E14",
+          "SC-E15",
+          "SC-E16",
+          "SC-E17",
+          "SC-E20",
+          "SC-E24"
+        ]
+      },
+      {
+        "id": "SA-E12",
+        "title": "Evidence, economics & handoff",
+        "canonicalNodeRefs": [
+          "assessment",
+          "outcome",
+          "handoff"
+        ],
+        "canonicalDimensions": [
+          "C09",
+          "C10",
+          "C11"
+        ],
+        "narrativeRefs": [
+          "PC-SA-P05",
+          "PC-SA-P06"
+        ],
+        "authorityCaveats": [
+          "Assessment, observed value and referral have separate competence."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sa",
+        "canonicalRelationshipRefs": [
+          "R25",
+          "R26",
+          "R28",
+          "R29",
+          "R33",
+          "R37"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E06",
+          "G0-E08",
+          "SC-E18",
+          "SC-E19",
+          "SC-E20",
+          "SC-E22",
+          "SC-E24"
+        ]
+      }
+    ],
+    "sc": [
+      {
+        "id": "SC-E01",
+        "title": "Consumer context",
+        "canonicalNodeRefs": [
+          "intent"
+        ],
+        "canonicalDimensions": [
+          "C01"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P01"
+        ],
+        "authorityCaveats": [
+          "Illustrative; not an authenticated consumer."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "SELECT",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R01"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E01",
+          "SA-E01"
+        ]
+      },
+      {
+        "id": "SC-E02",
+        "title": "Intent & purpose",
+        "canonicalNodeRefs": [
+          "intent",
+          "request"
+        ],
+        "canonicalDimensions": [
+          "C01"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P01"
+        ],
+        "authorityCaveats": [
+          "Purpose does not confer permission."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R01",
+          "R11",
+          "R12"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E01",
+          "G0-E04",
+          "SA-E01",
+          "SA-E03"
+        ]
+      },
+      {
+        "id": "SC-E03",
+        "title": "Product identity & family",
+        "canonicalNodeRefs": [
+          "product-id",
+          "prod-authority"
+        ],
+        "canonicalDimensions": [
+          "C03"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P02"
+        ],
+        "authorityCaveats": [
+          "Productness has competent independent authority."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R06",
+          "R09",
+          "R36"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E03",
+          "SA-E07",
+          "SA-E10"
+        ]
+      },
+      {
+        "id": "SC-E04",
+        "title": "Product Version & Promise",
+        "canonicalNodeRefs": [
+          "product-id"
+        ],
+        "canonicalDimensions": [
+          "C03"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P02"
+        ],
+        "authorityCaveats": [
+          "Version and Promise must not collapse into contract."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "SELECT",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R06",
+          "R09"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E03",
+          "SA-E10"
+        ]
+      },
+      {
+        "id": "SC-E05",
+        "title": "Semantic definition/version",
+        "canonicalNodeRefs": [
+          "semantic-id",
+          "sem-authority"
+        ],
+        "canonicalDimensions": [
+          "C04"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P03"
+        ],
+        "authorityCaveats": [
+          "Meaning has independent authority."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R07",
+          "R08"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E03",
+          "SA-E07",
+          "SA-E10"
+        ]
+      },
+      {
+        "id": "SC-E06",
+        "title": "Method/version when applicable",
+        "canonicalNodeRefs": [
+          "semantic-id"
+        ],
+        "canonicalDimensions": [
+          "C04"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P03"
+        ],
+        "authorityCaveats": [
+          "Method is conditional, not mandatory across families."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "SELECT",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R07",
+          "R08"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E03",
+          "SA-E10"
+        ]
+      },
+      {
+        "id": "SC-E07",
+        "title": "Consumption contract",
+        "canonicalNodeRefs": [
+          "contract-id"
+        ],
+        "canonicalDimensions": [
+          "C05"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P03"
+        ],
+        "authorityCaveats": [
+          "Contract is not entitlement."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "SELECT",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R10",
+          "R17"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E03",
+          "SA-E10"
+        ]
+      },
+      {
+        "id": "SC-E08",
+        "title": "Product port & capability",
+        "canonicalNodeRefs": [
+          "interface-binding"
+        ],
+        "canonicalDimensions": [
+          "C05",
+          "C07"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P04"
+        ],
+        "authorityCaveats": [
+          "Port support must be independently established."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "SELECT",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R19",
+          "R20",
+          "R21"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E05",
+          "SA-E11"
+        ]
+      },
+      {
+        "id": "SC-E09",
+        "title": "Product/family authority",
+        "canonicalNodeRefs": [
+          "prod-authority"
+        ],
+        "canonicalDimensions": [
+          "C03",
+          "C06"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P02"
+        ],
+        "authorityCaveats": [
+          "Reference does not prove authority exercised."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "SELECT",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R09",
+          "R36"
+        ],
+        "relatedProjectionRefs": [
+          "SA-E07"
+        ]
+      },
+      {
+        "id": "SC-E10",
+        "title": "Semantic/source authority",
+        "canonicalNodeRefs": [
+          "sem-authority",
+          "source-authority"
+        ],
+        "canonicalDimensions": [
+          "C04",
+          "C06"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P03"
+        ],
+        "authorityCaveats": [
+          "Semantic and source competence stay distinct."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R08",
+          "R20"
+        ],
+        "relatedProjectionRefs": [
+          "SA-E07",
+          "SA-E09"
+        ]
+      },
+      {
+        "id": "SC-E11",
+        "title": "Policy & entitlement",
+        "canonicalNodeRefs": [
+          "policy-authority",
+          "entitlement-authority",
+          "access-decision"
+        ],
+        "canonicalDimensions": [
+          "C06"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P03"
+        ],
+        "authorityCaveats": [
+          "Policy, determination, validity and access enforcement separate."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R13",
+          "R14",
+          "R15",
+          "R16",
+          "R18"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E04",
+          "SA-E08",
+          "SA-E11"
+        ]
+      },
+      {
+        "id": "SC-E12",
+        "title": "Consequential authority",
+        "canonicalNodeRefs": [
+          "action-authority"
+        ],
+        "canonicalDimensions": [
+          "C06"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P03"
+        ],
+        "authorityCaveats": [
+          "Consumption permission does not confer action permission."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "SELECT",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R38"
+        ],
+        "relatedProjectionRefs": [
+          "SA-E08"
+        ]
+      },
+      {
+        "id": "SC-E13",
+        "title": "CEP / interface binding",
+        "canonicalNodeRefs": [
+          "cep",
+          "interface-binding"
+        ],
+        "canonicalDimensions": [
+          "C07"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P04"
+        ],
+        "authorityCaveats": [
+          "Experience does not requalify Product family."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E05",
+          "SA-E06",
+          "SA-E11"
+        ]
+      },
+      {
+        "id": "SC-E14",
+        "title": "Technical enforcement",
+        "canonicalNodeRefs": [
+          "access",
+          "deliver",
+          "access-decision"
+        ],
+        "canonicalDimensions": [
+          "C06",
+          "C08"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P04"
+        ],
+        "authorityCaveats": [
+          "Technical enforcement is not competent determination."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R12",
+          "R13",
+          "R14",
+          "R15",
+          "R16",
+          "R17",
+          "R18",
+          "R19"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E04",
+          "G0-E05",
+          "SA-E05",
+          "SA-E06",
+          "SA-E11"
+        ]
+      },
+      {
+        "id": "SC-E15",
+        "title": "Provider / realization",
+        "canonicalNodeRefs": [
+          "interface-binding",
+          "deliver"
+        ],
+        "canonicalDimensions": [
+          "C08"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P04"
+        ],
+        "authorityCaveats": [
+          "Binding is distinct from Product identity."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R18",
+          "R19",
+          "R20",
+          "R21"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E05",
+          "SA-E06",
+          "SA-E11"
+        ]
+      },
+      {
+        "id": "SC-E16",
+        "title": "Invocation / execution",
+        "canonicalNodeRefs": [
+          "invocation",
+          "consume"
+        ],
+        "canonicalDimensions": [
+          "C08"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P05",
+          "PC-SC-P06"
+        ],
+        "authorityCaveats": [
+          "Invocation and execution are distinct; baseline aggregates them."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R22",
+          "R23",
+          "R24",
+          "R27",
+          "R38"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E05",
+          "SA-E03",
+          "SA-E11"
+        ]
+      },
+      {
+        "id": "SC-E17",
+        "title": "Delivered Product result",
+        "canonicalNodeRefs": [
+          "information-occurrence"
+        ],
+        "canonicalDimensions": [
+          "C09"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P06"
+        ],
+        "authorityCaveats": [
+          "Information occurrence only where independently applicable."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "SELECT",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R24",
+          "R25"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E06",
+          "SA-E11"
+        ]
+      },
+      {
+        "id": "SC-E18",
+        "title": "Evidence & provenance",
+        "canonicalNodeRefs": [
+          "assessment",
+          "evidence-service"
+        ],
+        "canonicalDimensions": [
+          "C09"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P06"
+        ],
+        "authorityCaveats": [
+          "Evidence is not proof of sufficiency."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R25",
+          "R26"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E06",
+          "SA-E09",
+          "SA-E12"
+        ]
+      },
+      {
+        "id": "SC-E19",
+        "title": "Claim / evaluation",
+        "canonicalNodeRefs": [
+          "assessment"
+        ],
+        "canonicalDimensions": [
+          "C09"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P07"
+        ],
+        "authorityCaveats": [
+          "Evaluation does not automatically confer approval."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "SELECT",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R25",
+          "R26"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E06",
+          "SA-E12"
+        ]
+      },
+      {
+        "id": "SC-E20",
+        "title": "History & currentness",
+        "canonicalNodeRefs": [
+          "assessment",
+          "access-decision",
+          "product-id"
+        ],
+        "canonicalDimensions": [
+          "C09"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P07"
+        ],
+        "authorityCaveats": [
+          "Current applicability cannot be inferred from historical reference."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R06",
+          "R09",
+          "R14",
+          "R16",
+          "R18",
+          "R25",
+          "R26"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E03",
+          "G0-E04",
+          "G0-E06",
+          "SA-E10",
+          "SA-E11",
+          "SA-E12"
+        ]
+      },
+      {
+        "id": "SC-E21",
+        "title": "X9 indicative economics",
+        "canonicalNodeRefs": [
+          "observe"
+        ],
+        "canonicalDimensions": [
+          "C10"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P07"
+        ],
+        "authorityCaveats": [
+          "Estimate, not observed expenditure or authorization."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "SELECT",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R27",
+          "R28"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E06"
+        ]
+      },
+      {
+        "id": "SC-E22",
+        "title": "P5 actual usage/value",
+        "canonicalNodeRefs": [
+          "outcome",
+          "observe"
+        ],
+        "canonicalDimensions": [
+          "C10"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P07"
+        ],
+        "authorityCaveats": [
+          "Requires authentic attributable observation."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R27",
+          "R28",
+          "R29",
+          "R37"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E06",
+          "SA-E12"
+        ]
+      },
+      {
+        "id": "SC-E23",
+        "title": "Feedback / context change",
+        "canonicalNodeRefs": [
+          "feedback",
+          "reentry"
+        ],
+        "canonicalDimensions": [
+          "C11"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P08"
+        ],
+        "authorityCaveats": [
+          "Targeted review; no mandatory universal restart."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R29",
+          "R30",
+          "R31",
+          "R32",
+          "R34"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E07",
+          "SA-E03",
+          "SA-E06"
+        ]
+      },
+      {
+        "id": "SC-E24",
+        "title": "PDEP / composition boundary",
+        "canonicalNodeRefs": [
+          "pdep",
+          "handoff",
+          "composition",
+          "compound"
+        ],
+        "canonicalDimensions": [
+          "C11"
+        ],
+        "narrativeRefs": [
+          "PC-SC-P08"
+        ],
+        "authorityCaveats": [
+          "Neither referral nor composition automatically qualifies a Product."
+        ],
+        "evidenceCaveats": [
+          "Experimental E0 projection; not proof of authorization, runtime occurrence or conformance."
+        ],
+        "operation": "AGGREGATE",
+        "applicability": "conditional by Product family, CEP, scenario and competent authority",
+        "view": "sc",
+        "canonicalRelationshipRefs": [
+          "R32",
+          "R33",
+          "R34",
+          "R35",
+          "R36"
+        ],
+        "relatedProjectionRefs": [
+          "G0-E07",
+          "G0-E08",
+          "SA-E06",
+          "SA-E11",
+          "SA-E12"
+        ]
+      }
+    ]
+  },
+  "displayRelations": {
+    "basic": [
+      {
+        "id": "basic-01",
+        "source": "G0-E01",
+        "target": "G0-E02",
+        "canonicalRelationshipRefs": [
+          "R01"
+        ],
+        "kind": "NARRATIVE_PATH",
+        "label": "Possible path"
+      },
+      {
+        "id": "basic-02",
+        "source": "G0-E02",
+        "target": "G0-E03",
+        "canonicalRelationshipRefs": [
+          "R04"
+        ],
+        "kind": "NARRATIVE_PATH",
+        "label": "Possible path"
+      },
+      {
+        "id": "basic-03",
+        "source": "G0-E03",
+        "target": "G0-E04",
+        "canonicalRelationshipRefs": [
+          "R11",
+          "R17"
+        ],
+        "kind": "NARRATIVE_PATH",
+        "label": "Possible path"
+      },
+      {
+        "id": "basic-04",
+        "source": "G0-E04",
+        "target": "G0-E05",
+        "canonicalRelationshipRefs": [
+          "R18"
+        ],
+        "kind": "NARRATIVE_PATH",
+        "label": "Possible path"
+      },
+      {
+        "id": "basic-05",
+        "source": "G0-E05",
+        "target": "G0-E06",
+        "canonicalRelationshipRefs": [
+          "R24",
+          "R27"
+        ],
+        "kind": "NARRATIVE_PATH",
+        "label": "Possible path"
+      },
+      {
+        "id": "basic-06",
+        "source": "G0-E06",
+        "target": "G0-E07",
+        "canonicalRelationshipRefs": [
+          "R29"
+        ],
+        "kind": "NARRATIVE_PATH",
+        "label": "Possible path"
+      },
+      {
+        "id": "basic-07",
+        "source": "G0-E07",
+        "target": "G0-E08",
+        "canonicalRelationshipRefs": [
+          "R32"
+        ],
+        "kind": "NARRATIVE_PATH",
+        "label": "Possible path"
+      }
+    ],
+    "sa": [
+      {
+        "id": "sa-01",
+        "source": "SA-E01",
+        "target": "SA-E04",
+        "canonicalRelationshipRefs": [
+          "R01"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DECLARES"
+      },
+      {
+        "id": "sa-02",
+        "source": "SA-E04",
+        "target": "SA-E09",
+        "canonicalRelationshipRefs": [
+          "R02"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "RESOLVES"
+      },
+      {
+        "id": "sa-03",
+        "source": "SA-E09",
+        "target": "SA-E10",
+        "canonicalRelationshipRefs": [
+          "R03"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "PRODUCES_OR_REFERENCES"
+      },
+      {
+        "id": "sa-04",
+        "source": "SA-E02",
+        "target": "SA-E05",
+        "canonicalRelationshipRefs": [
+          "R05"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DECLARES"
+      },
+      {
+        "id": "sa-05",
+        "source": "SA-E05",
+        "target": "SA-E07",
+        "canonicalRelationshipRefs": [],
+        "kind": "ILLUSTRATIVE_ASSOCIATION",
+        "label": "Related responsibility"
+      },
+      {
+        "id": "sa-06",
+        "source": "SA-E05",
+        "target": "SA-E08",
+        "canonicalRelationshipRefs": [
+          "R13",
+          "R15"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "RESOLVES, RESOLVES"
+      },
+      {
+        "id": "sa-07",
+        "source": "SA-E03",
+        "target": "SA-E05",
+        "canonicalRelationshipRefs": [
+          "R12"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DECLARES"
+      },
+      {
+        "id": "sa-08",
+        "source": "SA-E08",
+        "target": "SA-E11",
+        "canonicalRelationshipRefs": [
+          "R14",
+          "R16"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DETERMINES, DETERMINES"
+      },
+      {
+        "id": "sa-09",
+        "source": "SA-E11",
+        "target": "SA-E06",
+        "canonicalRelationshipRefs": [
+          "R18",
+          "R21"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "PRODUCES_OR_REFERENCES, PRODUCES_OR_REFERENCES"
+      },
+      {
+        "id": "sa-10",
+        "source": "SA-E06",
+        "target": "SA-E03",
+        "canonicalRelationshipRefs": [
+          "R22"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "OBSERVES_OR_HANDS_OFF"
+      },
+      {
+        "id": "sa-11",
+        "source": "SA-E06",
+        "target": "SA-E12",
+        "canonicalRelationshipRefs": [
+          "R33"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "PRODUCES_OR_REFERENCES"
+      },
+      {
+        "id": "sa-12",
+        "source": "SA-E12",
+        "target": "SA-E03",
+        "canonicalRelationshipRefs": [
+          "R29"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "OBSERVES_OR_HANDS_OFF"
+      }
+    ],
+    "sc": [
+      {
+        "id": "sc-01",
+        "source": "SC-E05",
+        "target": "SC-E06",
+        "canonicalRelationshipRefs": [
+          "R08"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DETERMINES"
+      },
+      {
+        "id": "sc-02",
+        "source": "SC-E10",
+        "target": "SC-E05",
+        "canonicalRelationshipRefs": [
+          "R08"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DETERMINES"
+      },
+      {
+        "id": "sc-03",
+        "source": "SC-E10",
+        "target": "SC-E06",
+        "canonicalRelationshipRefs": [
+          "R08"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DETERMINES"
+      },
+      {
+        "id": "sc-04",
+        "source": "SC-E03",
+        "target": "SC-E04",
+        "canonicalRelationshipRefs": [
+          "R09"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DETERMINES"
+      },
+      {
+        "id": "sc-05",
+        "source": "SC-E03",
+        "target": "SC-E20",
+        "canonicalRelationshipRefs": [
+          "R09"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DETERMINES"
+      },
+      {
+        "id": "sc-06",
+        "source": "SC-E09",
+        "target": "SC-E03",
+        "canonicalRelationshipRefs": [
+          "R09"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DETERMINES"
+      },
+      {
+        "id": "sc-07",
+        "source": "SC-E09",
+        "target": "SC-E04",
+        "canonicalRelationshipRefs": [
+          "R09"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DETERMINES"
+      },
+      {
+        "id": "sc-08",
+        "source": "SC-E09",
+        "target": "SC-E20",
+        "canonicalRelationshipRefs": [
+          "R09"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DETERMINES"
+      },
+      {
+        "id": "sc-09",
+        "source": "SC-E02",
+        "target": "SC-E14",
+        "canonicalRelationshipRefs": [
+          "R12"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DECLARES"
+      },
+      {
+        "id": "sc-10",
+        "source": "SC-E14",
+        "target": "SC-E11",
+        "canonicalRelationshipRefs": [
+          "R13",
+          "R15"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "RESOLVES, RESOLVES"
+      },
+      {
+        "id": "sc-11",
+        "source": "SC-E11",
+        "target": "SC-E14",
+        "canonicalRelationshipRefs": [
+          "R14",
+          "R16",
+          "R18"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DETERMINES, DETERMINES"
+      },
+      {
+        "id": "sc-12",
+        "source": "SC-E11",
+        "target": "SC-E20",
+        "canonicalRelationshipRefs": [
+          "R14",
+          "R16"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DETERMINES, DETERMINES"
+      },
+      {
+        "id": "sc-13",
+        "source": "SC-E07",
+        "target": "SC-E14",
+        "canonicalRelationshipRefs": [
+          "R17"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "PRODUCES_OR_REFERENCES"
+      },
+      {
+        "id": "sc-14",
+        "source": "SC-E11",
+        "target": "SC-E15",
+        "canonicalRelationshipRefs": [
+          "R18"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "PRODUCES_OR_REFERENCES"
+      },
+      {
+        "id": "sc-15",
+        "source": "SC-E14",
+        "target": "SC-E15",
+        "canonicalRelationshipRefs": [
+          "R18",
+          "R19"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "PRODUCES_OR_REFERENCES, RESOLVES"
+      },
+      {
+        "id": "sc-16",
+        "source": "SC-E20",
+        "target": "SC-E14",
+        "canonicalRelationshipRefs": [
+          "R18"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "PRODUCES_OR_REFERENCES"
+      },
+      {
+        "id": "sc-17",
+        "source": "SC-E20",
+        "target": "SC-E15",
+        "canonicalRelationshipRefs": [
+          "R18"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "PRODUCES_OR_REFERENCES"
+      },
+      {
+        "id": "sc-18",
+        "source": "SC-E14",
+        "target": "SC-E08",
+        "canonicalRelationshipRefs": [
+          "R19"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "RESOLVES"
+      },
+      {
+        "id": "sc-19",
+        "source": "SC-E14",
+        "target": "SC-E13",
+        "canonicalRelationshipRefs": [
+          "R19"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "RESOLVES"
+      },
+      {
+        "id": "sc-20",
+        "source": "SC-E15",
+        "target": "SC-E08",
+        "canonicalRelationshipRefs": [
+          "R19"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "RESOLVES"
+      },
+      {
+        "id": "sc-21",
+        "source": "SC-E15",
+        "target": "SC-E13",
+        "canonicalRelationshipRefs": [
+          "R19",
+          "R21"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "RESOLVES, PRODUCES_OR_REFERENCES"
+      },
+      {
+        "id": "sc-22",
+        "source": "SC-E10",
+        "target": "SC-E08",
+        "canonicalRelationshipRefs": [
+          "R20"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DETERMINES"
+      },
+      {
+        "id": "sc-23",
+        "source": "SC-E10",
+        "target": "SC-E13",
+        "canonicalRelationshipRefs": [
+          "R20"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DETERMINES"
+      },
+      {
+        "id": "sc-24",
+        "source": "SC-E10",
+        "target": "SC-E15",
+        "canonicalRelationshipRefs": [
+          "R20"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DETERMINES"
+      },
+      {
+        "id": "sc-25",
+        "source": "SC-E08",
+        "target": "SC-E13",
+        "canonicalRelationshipRefs": [
+          "R21"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "PRODUCES_OR_REFERENCES"
+      },
+      {
+        "id": "sc-26",
+        "source": "SC-E13",
+        "target": "SC-E16",
+        "canonicalRelationshipRefs": [
+          "R22"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "OBSERVES_OR_HANDS_OFF"
+      },
+      {
+        "id": "sc-27",
+        "source": "SC-E16",
+        "target": "SC-E17",
+        "canonicalRelationshipRefs": [
+          "R24"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "PRODUCES_OR_REFERENCES"
+      },
+      {
+        "id": "sc-28",
+        "source": "SC-E17",
+        "target": "SC-E18",
+        "canonicalRelationshipRefs": [
+          "R25"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "PRODUCES_OR_REFERENCES"
+      },
+      {
+        "id": "sc-29",
+        "source": "SC-E17",
+        "target": "SC-E19",
+        "canonicalRelationshipRefs": [
+          "R25"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "PRODUCES_OR_REFERENCES"
+      },
+      {
+        "id": "sc-30",
+        "source": "SC-E17",
+        "target": "SC-E20",
+        "canonicalRelationshipRefs": [
+          "R25"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "PRODUCES_OR_REFERENCES"
+      },
+      {
+        "id": "sc-31",
+        "source": "SC-E18",
+        "target": "SC-E19",
+        "canonicalRelationshipRefs": [
+          "R26"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "PRODUCES_OR_REFERENCES"
+      },
+      {
+        "id": "sc-32",
+        "source": "SC-E18",
+        "target": "SC-E20",
+        "canonicalRelationshipRefs": [
+          "R26"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "PRODUCES_OR_REFERENCES"
+      },
+      {
+        "id": "sc-33",
+        "source": "SC-E16",
+        "target": "SC-E21",
+        "canonicalRelationshipRefs": [
+          "R27"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "OBSERVES_OR_HANDS_OFF"
+      },
+      {
+        "id": "sc-34",
+        "source": "SC-E16",
+        "target": "SC-E22",
+        "canonicalRelationshipRefs": [
+          "R27"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "OBSERVES_OR_HANDS_OFF"
+      },
+      {
+        "id": "sc-35",
+        "source": "SC-E21",
+        "target": "SC-E22",
+        "canonicalRelationshipRefs": [
+          "R28"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "PRODUCES_OR_REFERENCES"
+      },
+      {
+        "id": "sc-36",
+        "source": "SC-E22",
+        "target": "SC-E23",
+        "canonicalRelationshipRefs": [
+          "R29"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "OBSERVES_OR_HANDS_OFF"
+      },
+      {
+        "id": "sc-37",
+        "source": "SC-E23",
+        "target": "SC-E24",
+        "canonicalRelationshipRefs": [
+          "R32",
+          "R34"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "OBSERVES_OR_HANDS_OFF, RESOLVES"
+      },
+      {
+        "id": "sc-38",
+        "source": "SC-E03",
+        "target": "SC-E24",
+        "canonicalRelationshipRefs": [
+          "R36"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DETERMINES"
+      },
+      {
+        "id": "sc-39",
+        "source": "SC-E09",
+        "target": "SC-E24",
+        "canonicalRelationshipRefs": [
+          "R36"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DETERMINES"
+      },
+      {
+        "id": "sc-40",
+        "source": "SC-E12",
+        "target": "SC-E16",
+        "canonicalRelationshipRefs": [
+          "R38"
+        ],
+        "kind": "CANONICAL_DERIVED",
+        "label": "DETERMINES"
+      }
+    ]
+  },
+  "canonicalResponsibilities": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10",
+    "C11"
+  ],
+  "reconciliationScenarios": [
+    "access",
+    "discovery",
+    "direct-consumption",
+    "outcome-evidence",
+    "composition",
+    "conditional-pdep"
+  ],
+  "knownLimitation": "Granularity of canonical invocation/execution, specific semantic method and currentness is grouped in original canonical nodes; projection is a conceptual refinement, not verified separate canonical identities."
+}
