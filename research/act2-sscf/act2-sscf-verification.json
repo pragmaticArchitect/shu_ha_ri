@@ -1,0 +1,213 @@
+{
+  "scope": "ACT2-D03 isolated experimental E0 SSCF overlay",
+  "checks": {
+    "typescript_transpilation": {
+      "status": "PASS",
+      "output": "{\"files\":8,\"errors\":[]}"
+    },
+    "reconstructed_navbar_js_syntax": {
+      "status": "PASS",
+      "detail": ""
+    },
+    "guarded_navbar_merge": {
+      "status": "PASS",
+      "detail": "Prepared /mnt/data/act2_work/test-docusaurus.config.js.act2.preview\nReview diff, test build, then integrate only under owner authorization."
+    },
+    "merged_navbar_js_syntax": {
+      "status": "PASS",
+      "detail": ""
+    },
+    "guard_refuses_missing_act1": {
+      "status": "PASS",
+      "detail": "REFUSE: expected ACT1/maturity entries absent: /hdip-ip-flow-sc"
+    },
+    "shared_graph_Basic": {
+      "status": "PASS"
+    },
+    "shared_graph_SpecA": {
+      "status": "PASS"
+    },
+    "shared_graph_SpecC": {
+      "status": "PASS"
+    },
+    "persona_independent": {
+      "status": "PASS"
+    },
+    "family_independent": {
+      "status": "PASS"
+    },
+    "branch_conditions": {
+      "status": "PASS"
+    },
+    "moments_accessible": {
+      "status": "PASS"
+    },
+    "evidence_inspection": {
+      "status": "PASS"
+    },
+    "conditional_pdep": {
+      "status": "PASS"
+    },
+    "non_normative_disclosure": {
+      "status": "PASS"
+    },
+    "x9_p5": {
+      "status": "PASS"
+    },
+    "access_vs_action": {
+      "status": "PASS"
+    },
+    "product_consumption": {
+      "status": "PASS"
+    },
+    "project_typecheck": {
+      "status": "NOT_VERIFIED",
+      "reason": "Project node_modules/browser or live deployed config not available in the isolated inspection environment."
+    },
+    "docusaurus_build": {
+      "status": "NOT_VERIFIED",
+      "reason": "Project node_modules/browser or live deployed config not available in the isolated inspection environment."
+    },
+    "browser_end_to_end": {
+      "status": "NOT_VERIFIED",
+      "reason": "Project node_modules/browser or live deployed config not available in the isolated inspection environment."
+    },
+    "responsive_visual_qa": {
+      "status": "NOT_VERIFIED",
+      "reason": "Project node_modules/browser or live deployed config not available in the isolated inspection environment."
+    },
+    "live_navbar_compatibility": {
+      "status": "NOT_VERIFIED",
+      "reason": "Project node_modules/browser or live deployed config not available in the isolated inspection environment."
+    }
+  },
+  "acceptance_criteria": {
+    "PC-AC01": {
+      "status": "PASS_STATIC_ONLY",
+      "evidence": [
+        "shared_graph_Basic",
+        "shared_graph_SpecA",
+        "shared_graph_SpecC"
+      ],
+      "note": "Static validation alone does not establish owner acceptance or full runtime conformance."
+    },
+    "PC-AC02": {
+      "status": "PASS_STATIC_ONLY",
+      "evidence": [
+        "product_consumption"
+      ],
+      "note": "Static validation alone does not establish owner acceptance or full runtime conformance."
+    },
+    "PC-AC03": {
+      "status": "PASS_STATIC_ONLY",
+      "evidence": [
+        "persona_independent",
+        "family_independent"
+      ],
+      "note": "Static validation alone does not establish owner acceptance or full runtime conformance."
+    },
+    "PC-AC04": {
+      "status": "PASS_STATIC_ONLY",
+      "evidence": [
+        "shared_graph_Basic",
+        "shared_graph_SpecA",
+        "shared_graph_SpecC"
+      ],
+      "note": "Static validation alone does not establish owner acceptance or full runtime conformance."
+    },
+    "PC-AC05": {
+      "status": "PASS_STATIC_ONLY",
+      "evidence": [
+        "product_consumption"
+      ],
+      "note": "Static validation alone does not establish owner acceptance or full runtime conformance."
+    },
+    "PC-AC06": {
+      "status": "PASS_STATIC_ONLY",
+      "evidence": [
+        "evidence_inspection"
+      ],
+      "note": "Static validation alone does not establish owner acceptance or full runtime conformance."
+    },
+    "PC-AC07": {
+      "status": "PASS_STATIC_ONLY",
+      "evidence": [
+        "access_vs_action"
+      ],
+      "note": "Static validation alone does not establish owner acceptance or full runtime conformance."
+    },
+    "PC-AC08": {
+      "status": "PASS_STATIC_ONLY",
+      "evidence": [
+        "conditional_pdep"
+      ],
+      "note": "Static validation alone does not establish owner acceptance or full runtime conformance."
+    },
+    "PC-AC09": {
+      "status": "PASS_STATIC_ONLY",
+      "evidence": [
+        "persona_independent"
+      ],
+      "note": "Static validation alone does not establish owner acceptance or full runtime conformance."
+    },
+    "PC-AC10": {
+      "status": "PASS_STATIC_ONLY",
+      "evidence": [
+        "branch_conditions"
+      ],
+      "note": "Static validation alone does not establish owner acceptance or full runtime conformance."
+    },
+    "PC-AC11": {
+      "status": "PASS_STATIC_ONLY",
+      "evidence": [
+        "evidence_inspection"
+      ],
+      "note": "Static validation alone does not establish owner acceptance or full runtime conformance."
+    },
+    "PC-AC12": {
+      "status": "PASS_STATIC_ONLY",
+      "evidence": [
+        "x9_p5"
+      ],
+      "note": "Static validation alone does not establish owner acceptance or full runtime conformance."
+    },
+    "PC-AC13": {
+      "status": "PASS_STATIC_ONLY",
+      "evidence": [
+        "branch_conditions"
+      ],
+      "note": "Static validation alone does not establish owner acceptance or full runtime conformance."
+    },
+    "PC-AC14": {
+      "status": "NOT_VERIFIED",
+      "evidence": [
+        "browser_end_to_end",
+        "responsive_visual_qa"
+      ],
+      "note": "Static validation alone does not establish owner acceptance or full runtime conformance."
+    },
+    "PC-AC15": {
+      "status": "NOT_VERIFIED",
+      "evidence": [
+        "guarded_navbar_merge",
+        "live_navbar_compatibility"
+      ],
+      "note": "Static validation alone does not establish owner acceptance or full runtime conformance."
+    },
+    "PC-AC16": {
+      "status": "PASS_STATIC_ONLY",
+      "evidence": [
+        "non_normative_disclosure"
+      ],
+      "note": "Static validation alone does not establish owner acceptance or full runtime conformance."
+    }
+  },
+  "counts": {
+    "nodes": 36,
+    "links": 38,
+    "g0_moments": 7,
+    "sa_moments": 6,
+    "sc_moments": 8
+  },
+  "verification_note": "PASS_STATIC_ONLY is not a full acceptance pass. No authentic E1/E2 runs or live repository modification."
+}
