@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="1610" version="1.1" viewBox="0 0 2400 1610" width="2400">
+  <defs>
+    <marker id="arrow" markerHeight="11" markerUnits="strokeWidth" markerWidth="11" orient="auto" refX="10" refY="5">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5CCFF8"/>
+    </marker>
+    <marker id="amberarrow" markerHeight="11" markerUnits="strokeWidth" markerWidth="11" orient="auto" refX="10" refY="5">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#D9990A"/>
+    </marker>
+  </defs>
+  <rect fill="#061624" height="1610" width="2400" x="0" y="0"/>
+  <rect fill="#063B5A" height="96" rx="8" ry="8" stroke="#5CCFF8" stroke-width="2" width="2380" x="10" y="10"/>
+  <text fill="#9BC5F6" font-family="DejaVu Sans, Arial, sans-serif" font-size="35" font-style="normal" font-weight="700" text-anchor="middle" x="1200" y="55">HDIP 0.1 — M15-V07: Governance, Security, Access &amp; Consequence</text>
+  <text fill="#4CE1D8" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-style="normal" font-weight="700" text-anchor="middle" x="1200" y="84">Governed Product access does not confer authority for downstream Decisions or Actions</text>
+  <rect fill="#0A2238" height="206" rx="8" ry="8" stroke="#75ADE0" stroke-width="1.5" width="1840" x="10" y="118"/>
+  <text fill="#9BC5F6" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-style="normal" font-weight="700" text-anchor="middle" x="930" y="148">EXTERNAL, INDEPENDENTLY GOVERNED AUTHORITIES</text>
+  <rect fill="#0C2A43" height="128" rx="6" ry="6" stroke="#75ADE0" stroke-width="1.25" width="890" x="26" y="164"/>
+  <rect fill="#2C6F39" height="40" rx="5" width="888" x="27" y="165"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-style="normal" font-weight="700" text-anchor="middle" x="471.0" y="192">BND-05 — Enterprise Policy, Legal &amp; Control Authority</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="46" y="231">Policy authorship · Legal interpretation · Risk/control ownership</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="46" y="256">Exceptions, waivers and accountable governance decisions</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="46" y="281">Authority remains external to HDIP compilation/enforcement</text>
+  <rect fill="#0C2A43" height="128" rx="6" ry="6" stroke="#75ADE0" stroke-width="1.25" width="893" x="940" y="164"/>
+  <rect fill="#1C6797" height="40" rx="5" width="891" x="941" y="165"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-style="normal" font-weight="700" text-anchor="middle" x="1386.5" y="192">BND-06 — Identity, Security, Privacy &amp; Entitlement</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="960" y="231">Identity provider · IAM/PAM · Consent/privacy · Entitlements</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="960" y="256">Authentication, credentials, purpose and scoped access facts</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="960" y="281">Identity and entitlement are not universal authority</text>
+  <text fill="#C2D5E3" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="400" text-anchor="middle" x="930" y="313">External authority is referenced or consulted, not silently transferred to the HDIP platform.</text>
+  <polyline fill="none" marker-end="url(#arrow)" points="460,293 460,334 927,334 927,393" stroke="#49ABB3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+  <polyline fill="none" marker-end="url(#arrow)" points="1410,293 1410,350 1531,350 1531,393" stroke="#5CCFF8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+  <rect fill="#0A2238" height="214" rx="8" ry="8" stroke="#75ADE0" stroke-width="1.5" width="1840" x="10" y="360"/>
+  <text fill="#9BC5F6" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-style="normal" font-weight="700" text-anchor="middle" x="930" y="385">HDIP — GOVERNED CONTEXT AND CROSS-CUTTING COORDINATION</text>
+  <rect fill="#0C2A43" height="129" rx="6" ry="6" stroke="#75ADE0" stroke-width="1.25" width="551" x="26" y="396"/>
+  <rect fill="#195A94" height="40" rx="5" width="549" x="27" y="397"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="700" text-anchor="middle" x="301.5" y="424">P1 — Governed Intent, Definition &amp; Authority Context</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="46" y="463">Purpose, mandate, accountability, semantic references</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="46" y="488">Policy applicability and governing obligations</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="46" y="513">INT-03 P1 → P4: governing consumption context</text>
+  <rect fill="#0C2A43" height="129" rx="6" ry="6" stroke="#75ADE0" stroke-width="1.25" width="554" x="593" y="396"/>
+  <rect fill="#337D23" height="40" rx="5" width="552" x="594" y="397"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-style="normal" font-weight="700" text-anchor="middle" x="870.0" y="424">X1 — Governance, Policy, Control &amp; Compliance</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="613" y="463">Resolve applicability · Compile/control obligations</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="613" y="488">Coordinate enforcement and evidence; retain authority</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="613" y="513">External BND-05 owns policy/legal/control meaning</text>
+  <rect fill="#0C2A43" height="129" rx="6" ry="6" stroke="#75ADE0" stroke-width="1.25" width="671" x="1163" y="396"/>
+  <rect fill="#0B668C" height="40" rx="5" width="669" x="1164" y="397"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-style="normal" font-weight="700" text-anchor="middle" x="1498.5" y="424">X2 — Security, Privacy, Identity &amp; Entitlement</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1183" y="463">Identity/authentication/entitlement &amp; privacy context</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1183" y="488">Point-of-use scope, purpose, currentness checks</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1183" y="513">BND-06 preserves enterprise security jurisdiction</text>
+  <text fill="#C2D5E3" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="middle" x="930" y="561">Governing change and revocation: INT-08 P1 → affected P2/P3/P4/P5 · Clarification: INT-06 P4 → P1</text>
+  <rect fill="#0A2238" height="446" rx="8" ry="8" stroke="#75ADE0" stroke-width="2" width="1840" x="10" y="590"/>
+  <rect fill="#0C4E78" height="48" rx="8" width="1840" x="10" y="590"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-style="normal" font-weight="700" text-anchor="middle" x="930" y="621">P4 — PROVISION, CONSUMPTION &amp; INTEGRATION: GOVERNED PRODUCT ACCESS</text>
+  <text fill="#5CCFF8" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="middle" x="930" y="657">Illustrative access-decision responsibilities; not five mandatory runtime hops</text>
+  <rect fill="#0C2A43" height="231" rx="6" ry="6" stroke="#75ADE0" stroke-width="1.25" width="334" x="27" y="687"/>
+  <rect fill="#155F9F" height="40" rx="5" width="332" x="28" y="688"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-style="normal" font-weight="700" text-anchor="middle" x="194.0" y="715">PCON / BND-10</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="47" y="754">Human, system or</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="47" y="779">agentic consumer</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="47" y="804">Declared intent &amp; purpose</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="47" y="829">Identity / role context</text>
+  <polyline fill="none" marker-end="url(#arrow)" points="361,802 385,802" stroke="#5CCFF8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect fill="#0C2A43" height="231" rx="6" ry="6" stroke="#75ADE0" stroke-width="1.25" width="334" x="387" y="687"/>
+  <rect fill="#0D7496" height="40" rx="5" width="332" x="388" y="688"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-style="normal" font-weight="700" text-anchor="middle" x="554.0" y="715">Governed Evaluation</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="407" y="754">Applicable policy (X1)</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="407" y="779">Identity/entitlement (X2)</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="407" y="804">Product, Port and version</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="407" y="829">Fitness &amp; currentness</text>
+  <polyline fill="none" marker-end="url(#arrow)" points="721,802 745,802" stroke="#5CCFF8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect fill="#0C2A43" height="231" rx="6" ry="6" stroke="#75ADE0" stroke-width="1.25" width="334" x="747" y="687"/>
+  <rect fill="#336F3B" height="40" rx="5" width="332" x="748" y="688"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-style="normal" font-weight="700" text-anchor="middle" x="914.0" y="715">SSCF Access Decision</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="767" y="754">ALLOW · DENY ·</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="767" y="779">CONDITIONAL</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="767" y="804">Purpose/Port/scope</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="767" y="829">Accountable decision</text>
+  <polyline fill="none" marker-end="url(#arrow)" points="1081,802 1105,802" stroke="#5CCFF8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect fill="#0C2A43" height="231" rx="6" ry="6" stroke="#75ADE0" stroke-width="1.25" width="334" x="1107" y="687"/>
+  <rect fill="#B3831B" height="40" rx="5" width="332" x="1108" y="688"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-style="normal" font-weight="700" text-anchor="middle" x="1274.0" y="715">Access Descriptor</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="1127" y="754">Usage Contract</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="1127" y="779">Bound permission and</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="1127" y="804">Port/Version obligations</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="1127" y="829">Expiry / revocation</text>
+  <polyline fill="none" marker-end="url(#arrow)" points="1441,802 1465,802" stroke="#5CCFF8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect fill="#0C2A43" height="231" rx="6" ry="6" stroke="#75ADE0" stroke-width="1.25" width="334" x="1467" y="687"/>
+  <rect fill="#13619B" height="40" rx="5" width="332" x="1468" y="688"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-style="normal" font-weight="700" text-anchor="middle" x="1634.0" y="715">Governed Product Port</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="1487" y="754">Data · Information ·</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="1487" y="779">Intelligence capability</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="1487" y="804">Result or effect exposed</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="1487" y="829">P3 invoked if applicable</text>
+  <text fill="#9BC5F6" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-style="normal" font-weight="700" text-anchor="middle" x="930" y="952">Product entitlement authorizes a governed Product/Port use only — not every subsequent downstream purpose or consequence.</text>
+  <text fill="#C2D5E3" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="middle" x="930" y="982">P2 provides Product/contract resolution; P4 mediates consumer access; INT-17 / INT-18 govern applicable P4 ↔ P3 invocation/results.</text>
+  <text fill="#C2D5E3" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="middle" x="930" y="1008">A valid decision remains subject to scope, governing purpose, policy change, version/currentness and applicable evidence.</text>
+  <rect fill="#0A2238" height="270" rx="8" ry="8" stroke="#75ADE0" stroke-width="1.5" width="1840" x="10" y="1052"/>
+  <text fill="#9BC5F6" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-style="normal" font-weight="700" text-anchor="middle" x="930" y="1082">AFTER ACCESS: DISTINCT CONSUMPTION AND CONSEQUENCE RESPONSIBILITIES</text>
+  <rect fill="#092E35" height="203" rx="8" ry="8" stroke="#49ABB3" stroke-width="2" width="853" x="26" y="1096"/>
+  <text fill="#80DECA" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-style="normal" font-weight="700" text-anchor="middle" x="452" y="1127">Ordinary governed consumption — no new Decision authority</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="58" y="1163">Explore, browse or query Product content</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="58" y="1192">Use dashboards, reports, APIs or analytical views</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="58" y="1221">Feed operational/consumption evidence to P5</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="400" text-anchor="start" x="58" y="1250">No Product creation is implied by consumption</text>
+  <rect fill="#332819" height="203" rx="8" ry="8" stroke="#D9990A" stroke-width="2" width="920" x="914" y="1096"/>
+  <text fill="#FFD27E" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-style="normal" font-weight="700" text-anchor="middle" x="1374" y="1127">BND-11 — Independently governed Decision / Action</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-style="normal" font-weight="700" text-anchor="start" x="944" y="1165">Product output / Recommendation</text>
+  <text fill="#FFD27E" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-style="normal" font-weight="700" text-anchor="start" x="1222" y="1166">↓</text>
+  <text fill="#FFD27E" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-style="normal" font-weight="700" text-anchor="start" x="944" y="1203">Decision  →  point-of-use Authorization  →  Action</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="944" y="1238">Consequential controls, mandate &amp; human oversight where applicable</text>
+  <text fill="#C2D5E3" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="400" text-anchor="start" x="944" y="1269">GEAIRA / enterprise authority controls the applicable consequence</text>
+  <polyline fill="none" marker-end="url(#amberarrow)" points="880,1200 910,1200" stroke="#D9990A" stroke-dasharray="6 5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <text fill="#D9990A" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-style="normal" font-weight="700" text-anchor="middle" x="895" y="1185">NOT automatic</text>
+  <rect fill="#0A2238" height="128" rx="8" ry="8" stroke="#75ADE0" stroke-width="1.5" width="1840" x="10" y="1336"/>
+  <text fill="#9BC5F6" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-style="normal" font-weight="700" text-anchor="middle" x="930" y="1360">CROSS-CUTTING OVERLAYS — ORTHOGONAL TO THE FIVE PLANES</text>
+  <rect fill="#4A890C" height="74" rx="5" ry="5" stroke="#5CCFF8" stroke-width="1" width="199" x="26" y="1373"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="700" text-anchor="middle" x="125.5" y="1395">X1  Governance</text>
+  <text fill="#DCECF5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-style="normal" font-weight="400" text-anchor="middle" x="125.5" y="1422">Policy / control</text>
+  <rect fill="#147EA0" height="74" rx="5" ry="5" stroke="#5CCFF8" stroke-width="1" width="199" x="229" y="1373"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="700" text-anchor="middle" x="328.5" y="1395">X2  Security / Identity</text>
+  <text fill="#DCECF5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-style="normal" font-weight="400" text-anchor="middle" x="328.5" y="1422">Entitlement / privacy</text>
+  <rect fill="#0C314D" height="74" rx="5" ry="5" stroke="#476C84" stroke-width="1" width="199" x="432" y="1373"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="700" text-anchor="middle" x="531.5" y="1395">X3  Provenance</text>
+  <text fill="#DCECF5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-style="normal" font-weight="400" text-anchor="middle" x="531.5" y="1422">Evidence / trace</text>
+  <rect fill="#0C314D" height="74" rx="5" ry="5" stroke="#476C84" stroke-width="1" width="199" x="635" y="1373"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="700" text-anchor="middle" x="734.5" y="1395">X4  Observability</text>
+  <text fill="#DCECF5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-style="normal" font-weight="400" text-anchor="middle" x="734.5" y="1422">Telemetry / audit</text>
+  <rect fill="#0C314D" height="74" rx="5" ry="5" stroke="#476C84" stroke-width="1" width="199" x="838" y="1373"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="700" text-anchor="middle" x="937.5" y="1395">X5  Quality / Fitness</text>
+  <text fill="#DCECF5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-style="normal" font-weight="400" text-anchor="middle" x="937.5" y="1422">Trust evidence</text>
+  <rect fill="#0C314D" height="74" rx="5" ry="5" stroke="#476C84" stroke-width="1" width="199" x="1041" y="1373"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="700" text-anchor="middle" x="1140.5" y="1395">X6  Evaluation</text>
+  <text fill="#DCECF5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-style="normal" font-weight="400" text-anchor="middle" x="1140.5" y="1422">Assurance</text>
+  <rect fill="#0C314D" height="74" rx="5" ry="5" stroke="#476C84" stroke-width="1" width="199" x="1244" y="1373"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="700" text-anchor="middle" x="1343.5" y="1395">X7  Lifecycle</text>
+  <text fill="#DCECF5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-style="normal" font-weight="400" text-anchor="middle" x="1343.5" y="1422">Version / currentness</text>
+  <rect fill="#0C314D" height="74" rx="5" ry="5" stroke="#476C84" stroke-width="1" width="199" x="1447" y="1373"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="700" text-anchor="middle" x="1546.5" y="1395">X8  Resilience</text>
+  <text fill="#DCECF5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-style="normal" font-weight="400" text-anchor="middle" x="1546.5" y="1422">Safety / recovery</text>
+  <rect fill="#0C314D" height="74" rx="5" ry="5" stroke="#476C84" stroke-width="1" width="199" x="1650" y="1373"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="700" text-anchor="middle" x="1749.5" y="1395">X9  Economic</text>
+  <text fill="#DCECF5" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-style="normal" font-weight="400" text-anchor="middle" x="1749.5" y="1422">Cost accountability</text>
+  <rect fill="#49ABB3" height="49" rx="6" ry="6" stroke="#7ED4DA" stroke-width="1" width="1840" x="10" y="1476"/>
+  <text fill="#062534" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-style="normal" font-weight="700" text-anchor="middle" x="930" y="1506">HDIP-FND — Shared Platform / Utility Foundation: compute, storage, messaging, IAM integration and runtime enablement</text>
+  <rect fill="#063B5A" height="65" rx="7" ry="7" stroke="#5CCFF8" stroke-width="1" width="2380" x="10" y="1535"/>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="55" y="1565">HDIP-CLA 0.1 · M15-V07 · Frozen M17 semantics · Presentation-only Reference View · No prescribed deployment topology or approval workflow</text>
+  <text fill="#C2D5E3" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" font-style="normal" font-weight="400" text-anchor="end" x="2348" y="1589">Copyrighted material 2017-2019 kivanura.org Kaizen</text>
+  <rect fill="#0A2238" height="333" rx="8" ry="8" stroke="#5CCFF8" stroke-width="1.5" width="525" x="1865" y="118"/>
+  <rect fill="#4A890C" height="39" rx="5" width="507" x="1874" y="127"/>
+  <text fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-style="normal" font-weight="700" text-anchor="middle" x="2127.5" y="154">KEY ARCHITECTURAL DISTINCTIONS</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="195">Identity ≠ authority ≠ ownership ≠ entitlement</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="229">Authentication ≠ authorization</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="263">Policy authority ≠ enforcement engine</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="297">Product access ≠ consequential authorization</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="331">Recommendation ≠ Decision ≠ Authorization ≠ Action</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="365">An AI Agent is not automatically a delegated authority</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="399">Registration, access or runtime success ≠ Product qualification</text>
+  <rect fill="#0A2238" height="262" rx="8" ry="8" stroke="#5CCFF8" stroke-width="1.5" width="525" x="1865" y="467"/>
+  <rect fill="#4A890C" height="39" rx="5" width="507" x="1874" y="476"/>
+  <text fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-style="normal" font-weight="700" text-anchor="middle" x="2127.5" y="503">M13 JURISDICTION BOUNDARIES</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="545">BND-05 — External policy, legal &amp; control owners</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="576">BND-06 — IAM, security, privacy &amp; entitlement</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="607">BND-10 — Consumer / downstream integration</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="638">BND-11 — Decision, action &amp; consequence</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="669">Authority boundaries persist across the path.</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="700">No transitive entitlement from an upstream Port.</text>
+  <rect fill="#0A2238" height="307" rx="8" ry="8" stroke="#5CCFF8" stroke-width="1.5" width="525" x="1865" y="745"/>
+  <rect fill="#4A890C" height="39" rx="5" width="507" x="1874" y="754"/>
+  <text fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-style="normal" font-weight="700" text-anchor="middle" x="2127.5" y="781">SELECTED M12 INTERACTIONS</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="827">INT-03   P1 → P4 governing consumption context</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="857">INT-06   P4 → P1 access/purpose clarification</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="887">INT-08   P1 → affected P2–P5 revocation</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="917">INT-12   P4 → P2 provisioning/access constraints</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="947">INT-17   P4 → P3 typed runtime invocation</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="977">INT-18   P3 → P4 runtime results or effects</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="1007">INT-20   P4 → P5 consumption/usage evidence</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="1037">No arrow transfers authority by itself.</text>
+  <rect fill="#0A2238" height="274" rx="8" ry="8" stroke="#5CCFF8" stroke-width="1.5" width="525" x="1865" y="1068"/>
+  <rect fill="#4A890C" height="39" rx="5" width="507" x="1874" y="1077"/>
+  <text fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-style="normal" font-weight="700" text-anchor="middle" x="2127.5" y="1104">SCOPE &amp; GUARDRAILS</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="1148">Applies to Data, Information, Intelligence and</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="1177">eligible Compound Products where relevant.</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="1206">P1 and P4 are canonical Planes; X1/X2 Overlays.</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="1235">Point-of-use Decision / Action control remains</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="1264">with the applicable enterprise / GEAIRA authority.</text>
+  <rect fill="#0A2238" height="167" rx="8" ry="8" stroke="#5CCFF8" stroke-width="1.5" width="525" x="1865" y="1358"/>
+  <rect fill="#4A890C" height="37" rx="5" width="507" x="1874" y="1367"/>
+  <text fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-style="normal" font-weight="700" text-anchor="middle" x="2127.5" y="1393">VIEW CONTEXT</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="1432">M15-V07  Governance, Security, Access &amp; Consequence</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="1459">Principal  P1 · P4 · X1 · X2</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="1486">Boundary  BND-05/06/10/11</text>
+  <text fill="#F6FAFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="400" text-anchor="start" x="1885" y="1513">Not shown  Physical IAM/provision topology</text>
+<text x="1885.0" y="1287.0" fill="#E7C66E" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="700">Investment &amp; Funding Governance — enterprise-specific</text><text x="1885.0" y="1310.0" fill="#E8F1FA" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="400">Funding / approval / delegation: enterprise choices</text><text x="1885.0" y="1333.0" fill="#E8F1FA" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-style="normal" font-weight="400">X9 evidence ≠ funding approval; no mandated gate</text></svg>

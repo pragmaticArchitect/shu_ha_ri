@@ -81,6 +81,15 @@ The semantic corpus **remains outside HDIP's source authority**; Registry entrie
 
 Governed discovery can support either **pure consumption** or **intentional Product creation/evolution**. Metadata search, semantic search, Concierge and agent-mediated discovery can serve **both** purposes; discovery does not automatically establish a new Product.
 
+
+### Governance, security, access and consequence (M15-V07)
+
+**M15-V07 — Governance, Security, Access & Consequence** distinguishes external policy/legal/control authority (**BND-05**), independently governed identity/security/entitlement (**BND-06**), governed Product access through **P4/X1/X2**, and consequential Decision/Action authority (**BND-11**) after downstream integration (**BND-10**). **Investment & Funding Governance** is shown as an enterprise-specific adjacent concern: X9 supports cost and economic evidence, but HDIP imposes no universal funding approval gate.
+
+[![M15-V07: governance, security, Product access and consequential authority boundaries](/img/hdip/cla/hdip-cla-0.1-m15-v07-governance-security-access-consequence-preview.png)](/img/hdip/cla/hdip-cla-0.1-m15-v07-governance-security-access-consequence.svg)
+
+[Read the M15-V07 companion page](/docs/architecture/cla/views/hdip-cla-0.1-m15-v07-governance-security-access-consequence) · [Open full-size SVG](/img/hdip/cla/hdip-cla-0.1-m15-v07-governance-security-access-consequence.svg) · [Editable draw.io source](/diagrams/hdip-cla/0.1/hdip-cla-0.1-m15-v07-governance-security-access-consequence.drawio.xml)
+
 ### Earlier HDIP and supporting illustrations
 
 The following illustrations are retained to explain earlier HDIP concepts and related Product/Platform ideas. In particular, the **2017–2019 HDIP architecture illustration** uses historical PDEP/CEP/COVP and governance terminology; it is **not** the canonical five-Plane model established by HDIP-CLA 0.1.

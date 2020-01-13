@@ -26,6 +26,8 @@ The [M15-V05 Runtime, Formation & Execution View](/docs/architecture/cla/views/h
 
 The [M15-V06 Product Consumption & Consumer Experience View](/docs/architecture/cla/views/hdip-cla-0.1-m15-v06-product-consumption-consumer-experience) illustrates the **frozen SSCF lifecycle and CEP experience composition** across the five Planes. It shows the three valid entry modes (intent-first, browse-first and established-state), the **eight canonical SSCF stages**, governed consumer artifacts, and the optional transition from discovery/consumption into **PDEP** where a new or evolved Product is intentionally constituted.
 
+The [M15-V07 Governance, Security, Access & Consequence View](/docs/architecture/cla/views/hdip-cla-0.1-m15-v07-governance-security-access-consequence) clarifies why governing policy/legal/control authority, identity and entitlement, **purpose-bound Product access** and downstream **consequential Decision/Action authorization** must remain distinct. It preserves **BND-05, BND-06, BND-10 and BND-11** jurisdiction boundaries, with **Investment & Funding Governance** acknowledged as an **enterprise-specific adjacent authority**; HDIP X9 provides economic evidence without prescribing funding approval.
+
 ## Programme stages
 
 | Stage | Purpose |
