@@ -1,0 +1,71 @@
+{
+  "project": "INFOPS",
+  "programme": "INFOPS-P01-S04",
+  "overlay": "V01-F01-F07",
+  "asOf": "2026-11-04",
+  "baseline": "User supplied INFOPS(2).zip, already containing G01-G07 and C01-C06 research overlays",
+  "researchProjectionNotNormative": true,
+  "clauseRepresentation": "EDITORIAL_SUMMARIES_NOT_VERBATIM",
+  "approvalCounts": {
+    "g01ToG07": 65,
+    "s04C01ToC06": 6,
+    "s04V01F01ToF07": 7,
+    "v01Clauses": 112
+  },
+  "effectiveS04": "NOT_CLOSED",
+  "verificationActivity": "VERIFICATION_ACTIVITY_SUSPENDED_CONDITIONAL",
+  "paths": [
+    {
+      "path": "shu_ha_ri/research/p01-s04/s04-v01-f01-f07-owner-approved-decisions.json",
+      "operation": "added"
+    },
+    {
+      "path": "shu_ha_ri/research/p01-s04/s04-v01-verification-activity-state.json",
+      "operation": "added"
+    },
+    {
+      "path": "shu_ha_ri/docs/ontology/p01-stage-04-v01-owner-approved-decisions.md",
+      "operation": "added"
+    },
+    {
+      "path": "shu_ha_ri/docs/ontology/p01-stage-04-v01-verification-activity.md",
+      "operation": "added"
+    },
+    {
+      "path": "shu_ha_ri/docs/ontology/p01-stage-04-owner-decisions.md",
+      "operation": "modified"
+    },
+    {
+      "path": "shu_ha_ri/docs/ontology/p01-stage-04-overview.md",
+      "operation": "modified"
+    },
+    {
+      "path": "shu_ha_ri/docs/ontology/p01-stage-04-s04-conditional-closure-effect.md",
+      "operation": "modified"
+    },
+    {
+      "path": "shu_ha_ri/docs/ontology/p01-stage-04-release-holds.md",
+      "operation": "modified"
+    },
+    {
+      "path": "shu_ha_ri/research/p01-s04/research-state.json",
+      "operation": "modified"
+    },
+    {
+      "path": "shu_ha_ri/research/p01-s04/owner-decision-register.json",
+      "operation": "modified"
+    },
+    {
+      "path": "shu_ha_ri/sidebars.js",
+      "operation": "modified"
+    },
+    {
+      "path": "shu_ha_ri/scripts/validate-infops-p01-s04-v01.py",
+      "operation": "added"
+    },
+    {
+      "path": "shu_ha_ri/research/p01-s04/s04-v01-overlay-manifest.json",
+      "operation": "added"
+    }
+  ]
+}

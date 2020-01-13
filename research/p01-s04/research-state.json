@@ -1,7 +1,7 @@
 {
   "project": "INFOPS",
   "stage": "P01-S04",
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-04",
   "kind": "OWNER_REVIEW_RESEARCH_STATUS_NOT_RELEASE",
   "normative": false,
   "actualProductsQualified": 0,
@@ -26,7 +26,7 @@
   "publicationAuthorized": false,
   "historicalS03ScaffoldStatePreserved": true,
   "ownerApprovalIsNotNormativeRelease": true,
-  "nextDecision": "S04_CLOSURE_EFFECTIVENESS_PENDING_ORIGINAL_STAGE_CRITERIA_VERIFICATION_NO_NEXT_STAGE_AUTHORIZED",
+  "nextDecision": "V01_ACTIVITY_SUSPENDED_CONDITIONAL_PENDING_NEW_ADMISSIBLE_EVIDENCE_OR_SEPARATE_AUTHORIZATION_NO_SUCCESSOR_STAGE_AUTHORIZED",
   "ownerReviewedResearchDecisionsTotal": 65,
   "explicitApprovalsWithResearchSummaryAvailable": 65,
   "s02OwnerApprovedResearchDecisions": 6,
@@ -76,5 +76,16 @@
   "s04ClosureEffectiveness": "PENDING_ORIGINAL_STAGE_PREREQUISITE_VERIFICATION",
   "s04OriginalStageCriteriaIndependentlyVerified": false,
   "s04IndependentRepositoryAuditEstablished": false,
-  "s04ClosureDecisionSeriesCompleted": true
+  "s04ClosureDecisionSeriesCompleted": true,
+  "s04V01OwnerApprovedDecisions": 7,
+  "s04V01ApprovedClauseCount": 112,
+  "s04V01ApprovalRegister": "research/p01-s04/s04-v01-f01-f07-owner-approved-decisions.json",
+  "s04V01ActivityStateRegister": "research/p01-s04/s04-v01-verification-activity-state.json",
+  "s04V01VerificationSeriesClosed": false,
+  "s04V01VerificationActivity": "VERIFICATION_ACTIVITY_SUSPENDED_CONDITIONAL",
+  "s04V01OriginalStageCharter": "NOT_VERIFIED",
+  "s04V01OriginalStageAmendments": "NOT_VERIFIED",
+  "s04V01CompleteClosureCriteria": "NOT_ESTABLISHED",
+  "s04V01CriterionSatisfaction": "NOT_PERFORMED",
+  "s04V01BoundedRecovery": "PERFORMED_WITH_LIMITATIONS"
 }

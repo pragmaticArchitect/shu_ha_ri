@@ -46,3 +46,7 @@ The approved G07 decision-sequence plan is separate from the 65 substantive rese
 ## Change boundary
 
 This site projection reflects an already-approved owner conversation decision. Producing an overlay does not by itself apply changes to a remote repository, verify the current Netlify deployment, run tests, qualify Products or authorize normative publication.
+
+## V01 F01–F07 owner approval and conditional activity suspension — 4 November 2026
+
+Seven V01 prerequisite-verification decisions (**112 clauses**) were expressly approved separately from the **65** historical G01–G07 substantive decisions and **six** C01–C06 consolidation decisions. F05 authorized bounded read-only source recovery; F06 recorded limited results; F07 conditionally **suspended further verification activity** (`VERIFICATION_ACTIVITY_SUSPENDED_CONDITIONAL`). The V01 series is **NOT_CLOSED**. Original S04 charter/amendments remain **NOT_VERIFIED**, complete binding criteria **NOT_ESTABLISHED**, criterion satisfaction **NOT_PERFORMED**, and C02 independent repository audit **NOT_ESTABLISHED**. C06 F01.6/F01.29 remains binding and **effective S04 remains `NOT_CLOSED`**. No further work is automatically initiated. See [V01 approved findings](./p01-stage-04-v01-owner-approved-decisions.md) and [V01 verification status](./p01-stage-04-v01-verification-activity.md).

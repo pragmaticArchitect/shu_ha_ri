@@ -57,3 +57,7 @@ The structured owner-reviewed hold record is `research/p01-s04/normative-release
 ## S04 C01–C06 owner decision effect — 3 November 2026
 
 All six S04 consolidation decisions have been owner-approved. **Every G03-R01–R12 normative-release hold remains OPEN**, and **every G06-RO01–RO12 residual obligation remains OPEN**. S04 C06 authorizes a target conditional research closure only; **effective S04 remains `NOT_CLOSED`** pending verification of original stage prerequisites. No source adoption, waiver, E1/E2 test result, normative readiness or publication permission follows. See [S04 closure-effect record](./p01-stage-04-s04-conditional-closure-effect.md).
+
+## V01 activity suspension — no waiver (4 November 2026)
+
+Owner-approved `S04-V01-F07` places only **further V01 stage-prerequisite verification activity** in `VERIFICATION_ACTIVITY_SUSPENDED_CONDITIONAL`. V01 and S04 remain `NOT_CLOSED`; all twelve `G03-R01–R12` normative-release holds and twelve `G06-RO01–RO12` residual obligations remain **OPEN**. The original S04 charter and amendments are `NOT_VERIFIED`, complete criteria `NOT_ESTABLISHED`, and C02 exhaustive independent repository audit `NOT_ESTABLISHED`. No obligation or normative source is satisfied, waived, amended, adopted or authorized by the suspension. See [V01 verification activity](./p01-stage-04-v01-verification-activity.md).

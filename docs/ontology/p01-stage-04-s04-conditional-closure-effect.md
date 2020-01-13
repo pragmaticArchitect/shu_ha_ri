@@ -34,3 +34,7 @@ sidebar_label: P01-S04 - Closure Effect
 - INFOPROD, INFOPDS, Information DPP Profile and maturity constructs remain unadopted. No source pins/schemas, new tests, forward work, successor stage or normative release authorized.
 
 **Source representation:** editorial summaries of approved conversation findings, not verbatim individual clauses. See [C01–C06 decision summaries](./p01-stage-04-s04-owner-approved-decisions.md) and `research/p01-s04/s04-conditional-closure-effect-record.json`.
+
+## V01 F01–F07 verification and suspension status — 4 November 2026
+
+All seven owner-approved V01 decisions (112 clauses) are projected separately from the 65 historical G01–G07 substantive and six C01–C06 consolidation decisions. **V01-F07 conditionally suspends further prerequisite-verification activity; it does not close the V01 series or make the C06 conditional S04 closure target effective.** The bounded F05/F06 source recovery has not authenticated the original S04 charter/amendments or complete mandatory closure criteria. Original charter/amendments `NOT_VERIFIED`; complete criteria `NOT_ESTABLISHED`; criterion satisfaction `NOT_PERFORMED`. F01.6/F01.29 safeguard and C02 independent-audit limitation retained. **Effective S04 is `NOT_CLOSED`**. See [V01 activity](./p01-stage-04-v01-verification-activity.md).

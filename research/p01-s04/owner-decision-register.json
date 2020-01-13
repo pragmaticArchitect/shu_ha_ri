@@ -1,11 +1,11 @@
 {
   "project": "INFOPS",
   "programme": "INFOPS-P01-S04",
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-04",
   "normative": false,
   "publicationAuthorized": false,
   "recordType": "CONVERSATIONAL_OWNER_REVIEW_PROJECTION",
-  "basis": "65 distinct approved G01-G07 substantive research decisions (G01 15, G02 7, G03 10, G04 9, G05 8, G06 8, G07 8). Six additional S04-C01-C06 consolidation approvals separately recorded. S04 C06 target closure APPROVED but not effective pending original stage prerequisite verification; S04 remains NOT_CLOSED.",
+  "basis": "65 distinct approved G01-G07 substantive research decisions (G01 15, G02 7, G03 10, G04 9, G05 8, G06 8, G07 8). Six additional S04-C01-C06 consolidation approvals separately recorded. S04 C06 target closure APPROVED but not effective pending original stage prerequisite verification; S04 remains NOT_CLOSED. Seven further V01-F01-F07 owner-approved verification findings (112 editorial clause summaries) are separately recorded; activity suspended conditionally while effective S04 remains NOT_CLOSED.",
   "provenanceWarning": "Original S02/S03 proposal snapshots remain intact. Their 15 subsequent research approvals, forming the S04-G01 closure basis, are now independently recorded in s02-s03-owner-approvals.json; full deliberations and individual amendment diffs were not supplied.",
   "gates": [
     {
@@ -1038,5 +1038,15 @@
   "s04CurrentEffectiveStatus": "NOT_CLOSED",
   "s04ClosureEffectiveness": "PENDING_ORIGINAL_STAGE_PREREQUISITE_VERIFICATION",
   "s04OriginalCompletionCriteriaVerified": false,
-  "s04ExhaustiveIndependentRepositoryAuditEstablished": false
+  "s04ExhaustiveIndependentRepositoryAuditEstablished": false,
+  "s04V01OwnerApprovalCount": 7,
+  "s04V01ApprovedClauseCount": 112,
+  "s04V01ApprovalRegister": "research/p01-s04/s04-v01-f01-f07-owner-approved-decisions.json",
+  "s04V01ActivityStatusRegister": "research/p01-s04/s04-v01-verification-activity-state.json",
+  "s04V01VerificationActivity": "VERIFICATION_ACTIVITY_SUSPENDED_CONDITIONAL",
+  "s04V01VerificationSeriesClosed": false,
+  "s04V01OriginalAuthority": "NOT_VERIFIED",
+  "s04V01CompleteCriteria": "NOT_ESTABLISHED",
+  "s04V01CriterionSatisfaction": "NOT_PERFORMED",
+  "s04V01BoundedSourceExamination": "PERFORMED_WITH_LIMITATIONS"
 }

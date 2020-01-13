@@ -43,6 +43,8 @@ module.exports = {
       'ontology/p01-stage-04-g07-closure-record',
       'ontology/p01-stage-04-s04-owner-approved-decisions',
       'ontology/p01-stage-04-s04-conditional-closure-effect',
+      'ontology/p01-stage-04-v01-owner-approved-decisions',
+      'ontology/p01-stage-04-v01-verification-activity',
     ]},
     {type: 'category', label: 'Information Product characteristics', items: [
       'infopch/overview',
