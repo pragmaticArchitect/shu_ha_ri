@@ -8,7 +8,7 @@ const config = {
   organizationName: 'YOUR_GITHUB_ORG',
   projectName: 'YOUR_REPOSITORY_NAME', // Replace with actual GitHub repository name.
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {hooks: {onBrokenMarkdownLinks: 'warn'}},
   trailingSlash: false,
   i18n: {defaultLocale: 'en', locales: ['en']},
   presets: [
