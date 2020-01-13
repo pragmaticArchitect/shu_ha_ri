@@ -1,0 +1,209 @@
+{
+  "project": "INFOPS",
+  "overlayId": "INFOPS-P01-S04-G04-D01-D09-OWNER-APPROVED-CLOSURE",
+  "asOf": "2026-10-20",
+  "normative": false,
+  "releaseAuthorized": false,
+  "gateClosureStatus": "CLOSED_CONDITIONAL_RESEARCH",
+  "appliesTo": "INFOPS-P01-S04-G01-G03-owner-approvals-complete.zip",
+  "baseArchiveSha256": "57e5050dc21095789dd6d01b54859ba48fac0989c11b0e68d9f50c90a1c5ec6f",
+  "sourceArchiveFileCount": 82,
+  "sourceZipRoot": "shu_ha_ri/",
+  "archiveOverlayRoot": "",
+  "modifiedPaths": [
+    "README.md",
+    "docs/intro.md",
+    "docs/ontology/overview.md",
+    "docs/ontology/p01-stage-04-g01-closure-basis.md",
+    "docs/ontology/p01-stage-04-g04-plan.md",
+    "docs/ontology/p01-stage-04-overview.md",
+    "docs/ontology/p01-stage-04-owner-decisions.md",
+    "docs/ontology/p01-stage-04-release-holds.md",
+    "docs/specification/overview.md",
+    "docs/specification/roadmap.md",
+    "docs/specification/status.md",
+    "package.json",
+    "research/p01-s04/owner-decision-register.json",
+    "research/p01-s04/research-state.json",
+    "scripts/validate-infops-p01-s04.py",
+    "sidebars.js",
+    "src/pages/index.js"
+  ],
+  "addedPaths": [
+    "docs/ontology/p01-stage-04-g04-closure-record.md",
+    "docs/ontology/p01-stage-04-g04-owner-approved-decisions.md",
+    "research/p01-s04/g04-case-reconciliation.json",
+    "research/p01-s04/g04-falsification-reconciliation.json",
+    "research/p01-s04/g04-overlay-manifest.json",
+    "research/p01-s04/g04-owner-approved-decisions.json",
+    "research/p01-s04/g04-preclosure-baseline-integrity.json",
+    "scripts/validate-infops-p01-s04-g04.py"
+  ],
+  "addedCount": 8,
+  "modifiedCount": 17,
+  "payload": [
+    {
+      "path": "README.md",
+      "kind": "MODIFIED",
+      "sha256": "916f8eda6b7935c4553956babc705d8752aa0d6dd3393a5b4b83ed7be010d98c",
+      "sizeBytes": 10650
+    },
+    {
+      "path": "docs/intro.md",
+      "kind": "MODIFIED",
+      "sha256": "e7c3a1323c8213be138c3643e21b8459c1bb301b4f914dce9f2d8a27c4db4ce1",
+      "sizeBytes": 2379
+    },
+    {
+      "path": "docs/ontology/overview.md",
+      "kind": "MODIFIED",
+      "sha256": "e963cea9915c6f5ada7dfca141573ed993fba6e1e9c4b0e0dc2e4d5eaf31d917",
+      "sizeBytes": 4097
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-g01-closure-basis.md",
+      "kind": "MODIFIED",
+      "sha256": "5148a7ccd71eb9f2fe7b7f6c0d2558809471162658bb5677cee0393d82c1a520",
+      "sizeBytes": 5108
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-g04-closure-record.md",
+      "kind": "ADDED",
+      "sha256": "49bf80b927b142e96410199a3c524a1f87da74089a860387779e5cfb7bfb0c0d",
+      "sizeBytes": 9553
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-g04-owner-approved-decisions.md",
+      "kind": "ADDED",
+      "sha256": "059a3f392a9502b40023d4402b6bb52cbbeb091cda2d57d93c2575044fdbe853",
+      "sizeBytes": 35268
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-g04-plan.md",
+      "kind": "MODIFIED",
+      "sha256": "7857b74617e4336db4b96ea41d238a97a749e00fbe9b729f81fb32920808fd87",
+      "sizeBytes": 5724
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-overview.md",
+      "kind": "MODIFIED",
+      "sha256": "7e3f598221daa217c59de2f90f80c5e5698befc92cd9dcc87a90841728324956",
+      "sizeBytes": 4812
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-owner-decisions.md",
+      "kind": "MODIFIED",
+      "sha256": "3596275f8bf5cd40fcb1849ffada8f2c869cbc844198fadb6e447deff045f5bd",
+      "sizeBytes": 43355
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-release-holds.md",
+      "kind": "MODIFIED",
+      "sha256": "d6313edbf15dd06993e01e952019fa9a6877e077aebb4dd33892384e8190d3df",
+      "sizeBytes": 3807
+    },
+    {
+      "path": "docs/specification/overview.md",
+      "kind": "MODIFIED",
+      "sha256": "6e2ba75b6a125c16ccf485dd570cb3b2f2a8e6e083dfe2f0898891eedd35cbe4",
+      "sizeBytes": 2607
+    },
+    {
+      "path": "docs/specification/roadmap.md",
+      "kind": "MODIFIED",
+      "sha256": "a95e6782f25fc2940dc1c3a57b08dff05aa37aaa90512aa2ee02aaa23dd5b2f3",
+      "sizeBytes": 3175
+    },
+    {
+      "path": "docs/specification/status.md",
+      "kind": "MODIFIED",
+      "sha256": "2f7dd74d22230edee20ca8ad859b5e6e267a37c14509058e653a317d1409e4e7",
+      "sizeBytes": 2315
+    },
+    {
+      "path": "package.json",
+      "kind": "MODIFIED",
+      "sha256": "ce2a12b6b6e44c3cd948e633eef012ec7bbe7df26e303734238fdc9c8ba493cb",
+      "sizeBytes": 871
+    },
+    {
+      "path": "research/p01-s04/g04-case-reconciliation.json",
+      "kind": "ADDED",
+      "sha256": "a6c1be0a5eef4c553048cae92b7235c7071e460515eea5124c793931778be9af",
+      "sizeBytes": 9700
+    },
+    {
+      "path": "research/p01-s04/g04-falsification-reconciliation.json",
+      "kind": "ADDED",
+      "sha256": "aece189cc9ed602ecd73d9923afa94186d814afe3643f895db7f688770ee954b",
+      "sizeBytes": 3408
+    },
+    {
+      "path": "research/p01-s04/g04-owner-approved-decisions.json",
+      "kind": "ADDED",
+      "sha256": "f46a060a44b70c1a8e292b591421c733c4a8c3f78f9cf9c4b95eaf13052a45d2",
+      "sizeBytes": 47680
+    },
+    {
+      "path": "research/p01-s04/g04-preclosure-baseline-integrity.json",
+      "kind": "ADDED",
+      "sha256": "5c2d6aa5709cecce5526dcd6d22aa5634e6948fb5f7238833deb4134c0e97dd2",
+      "sizeBytes": 12969
+    },
+    {
+      "path": "research/p01-s04/owner-decision-register.json",
+      "kind": "MODIFIED",
+      "sha256": "52820b94dc72cb282c2ebe843c65eb9bdde2461976441abe7bca7b2e3051cd80",
+      "sizeBytes": 20327
+    },
+    {
+      "path": "research/p01-s04/research-state.json",
+      "kind": "MODIFIED",
+      "sha256": "ff82a70ca769685381f3260b0102c93d6452035623d7d9c2173060863615778e",
+      "sizeBytes": 1734
+    },
+    {
+      "path": "scripts/validate-infops-p01-s04-g04.py",
+      "kind": "ADDED",
+      "sha256": "dccaa26f96eacda6058883921ccd3817f7d2dbbe03bfa76870f68319a04741c6",
+      "sizeBytes": 10286
+    },
+    {
+      "path": "scripts/validate-infops-p01-s04.py",
+      "kind": "MODIFIED",
+      "sha256": "68b96efce97d5712c24c28d66ed1f5e124396d971896e9b31066b3215542f5bb",
+      "sizeBytes": 15227
+    },
+    {
+      "path": "sidebars.js",
+      "kind": "MODIFIED",
+      "sha256": "8baaf9284a5561d5942738d2fbb232fcc1acf35e690353eecfc1d31f96053fc6",
+      "sizeBytes": 2416
+    },
+    {
+      "path": "src/pages/index.js",
+      "kind": "MODIFIED",
+      "sha256": "d9a42a7b4caf17c393e2b36e5b0cb953b8b7611d39352abfd745343a1e7b91ef",
+      "sizeBytes": 3030
+    }
+  ],
+  "selfHashExcluded": true,
+  "priorHistoricalManifest": "research/p01-s04/overlay-manifest.json",
+  "priorBaselineAttestation": "research/p01-s04/g04-preclosure-baseline-integrity.json",
+  "ownerApprovalRegister": "research/p01-s04/g04-owner-approved-decisions.json",
+  "unchangedHistoricalResearchEvidence": true,
+  "allG03ReleaseHoldsRemainOpen": true,
+  "G05toG07NotStarted": true,
+  "qualificationCertificatesIssued": 0,
+  "deploymentNote": "Apply over exact 82-file G01-G03 owner-approvals-complete ZIP contents, not over original 60-file INFOPS.zip.",
+  "reviewRepair": {
+    "reason": "Master p01-stage-04-owner-decisions.md contained only terse G04 summaries at end; reader expected complete approved substantive findings; historical proposed plan ended with stale no-approvals sentence.",
+    "correctedMainOwnerRegister": "docs/ontology/p01-stage-04-owner-decisions.md",
+    "sourceDetailedOwnerApprovals": "docs/ontology/p01-stage-04-g04-owner-approved-decisions.md",
+    "allNineFullFindingsReplicatedInMainRegister": true,
+    "staleHistoricalStatusCorrected": true,
+    "contentParityEnforcedInValidator": true,
+    "sourceBaseline": "INFOPS-P01-S04-G01-G03-owner-approvals-complete.zip",
+    "normative": false
+  }
+}

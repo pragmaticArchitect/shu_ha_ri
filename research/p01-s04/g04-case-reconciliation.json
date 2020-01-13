@@ -1,0 +1,372 @@
+{
+  "project": "INFOPS",
+  "gate": "G04",
+  "researchOnly": true,
+  "normative": false,
+  "asOf": "2026-10-20",
+  "decision": "G04-D09-F01",
+  "source": "research/p01-s02/cases.json",
+  "sourceSha256": "770b64be7cc628a786382e37c986a50dac29484b08b67bda83c02556b0062d4f",
+  "sourceHypothetical": true,
+  "productQualificationIssued": false,
+  "count": 36,
+  "statuses": {
+    "BOUNDARY_UNRESOLVED": 7,
+    "COMPETING_FAMILY": 4,
+    "IDENTITY_OR_OCCURRENCE": 4,
+    "INVARIANCE_SUPPORTED": 7,
+    "PRODUCTNESS_NOT_SHOWN": 4,
+    "PROVISIONAL_INFO_CANDIDATE": 6,
+    "SEMANTIC_CHANGE": 4
+  },
+  "cases": [
+    {
+      "caseId": "C01",
+      "scenario": "Governed Payment Lifecycle dataset",
+      "researchDisposition": "COMPETING_FAMILY"
+    },
+    {
+      "caseId": "C02",
+      "scenario": "Dataset with settlement-duration and corridor measures",
+      "researchDisposition": "BOUNDARY_UNRESOLVED"
+    },
+    {
+      "caseId": "C03",
+      "scenario": "One-off internal KPI dashboard",
+      "researchDisposition": "PRODUCTNESS_NOT_SHOWN"
+    },
+    {
+      "caseId": "C04",
+      "scenario": "Reusable corridor-performance subscription",
+      "researchDisposition": "PROVISIONAL_INFO_CANDIDATE"
+    },
+    {
+      "caseId": "C05",
+      "scenario": "Versioned analytical PDF brief",
+      "researchDisposition": "PROVISIONAL_INFO_CANDIDATE"
+    },
+    {
+      "caseId": "C06",
+      "scenario": "Human-curated market interpretation",
+      "researchDisposition": "PROVISIONAL_INFO_CANDIDATE"
+    },
+    {
+      "caseId": "C07",
+      "scenario": "BI tool offering arbitrary calculations",
+      "researchDisposition": "COMPETING_FAMILY"
+    },
+    {
+      "caseId": "C08",
+      "scenario": "AI Product summarizes settlement metrics",
+      "researchDisposition": "BOUNDARY_UNRESOLVED"
+    },
+    {
+      "caseId": "C09",
+      "scenario": "Governed AI inference service",
+      "researchDisposition": "COMPETING_FAMILY"
+    },
+    {
+      "caseId": "C10",
+      "scenario": "Threshold-driven late-settlement alert",
+      "researchDisposition": "BOUNDARY_UNRESOLVED"
+    },
+    {
+      "caseId": "C11",
+      "scenario": "Information offering consuming another Information Product",
+      "researchDisposition": "PROVISIONAL_INFO_CANDIDATE"
+    },
+    {
+      "caseId": "C12",
+      "scenario": "Metric + explanation + simulation",
+      "researchDisposition": "BOUNDARY_UNRESOLVED"
+    },
+    {
+      "caseId": "C13",
+      "scenario": "Refreshing fraud-monitoring report with AI inputs",
+      "researchDisposition": "PROVISIONAL_INFO_CANDIDATE"
+    },
+    {
+      "caseId": "C14",
+      "scenario": "Ad hoc direct analytical consumption",
+      "researchDisposition": "PRODUCTNESS_NOT_SHOWN"
+    },
+    {
+      "caseId": "C15",
+      "scenario": "Same metrics/ports with different semantics",
+      "researchDisposition": "SEMANTIC_CHANGE"
+    },
+    {
+      "caseId": "C16",
+      "scenario": "Historical report after metric change",
+      "researchDisposition": "IDENTITY_OR_OCCURRENCE"
+    },
+    {
+      "caseId": "C17",
+      "scenario": "Marketplace chart with high maturity",
+      "researchDisposition": "PRODUCTNESS_NOT_SHOWN"
+    },
+    {
+      "caseId": "C18",
+      "scenario": "Commercial bundle: feed + analysis + AI recommendations",
+      "researchDisposition": "BOUNDARY_UNRESOLVED"
+    },
+    {
+      "caseId": "C19",
+      "scenario": "Published annual research analysis",
+      "researchDisposition": "PROVISIONAL_INFO_CANDIDATE"
+    },
+    {
+      "caseId": "C20",
+      "scenario": "Generic mathematical / analytics API",
+      "researchDisposition": "COMPETING_FAMILY"
+    },
+    {
+      "caseId": "C21",
+      "scenario": "Data Product with VWAP and semantic metadata",
+      "researchDisposition": "BOUNDARY_UNRESOLVED"
+    },
+    {
+      "caseId": "C22",
+      "scenario": "Same Crypto Market Info intent, three enterprises",
+      "researchDisposition": "INVARIANCE_SUPPORTED"
+    },
+    {
+      "caseId": "C23",
+      "scenario": "AI-powered/AI-created Comic, Movie, Car or Rocket",
+      "researchDisposition": "INVARIANCE_SUPPORTED"
+    },
+    {
+      "caseId": "C24",
+      "scenario": "Market information promise changes into trading intelligence",
+      "researchDisposition": "SEMANTIC_CHANGE"
+    },
+    {
+      "caseId": "C25",
+      "scenario": "Repository, build archive and multiple deployments",
+      "researchDisposition": "IDENTITY_OR_OCCURRENCE"
+    },
+    {
+      "caseId": "C26",
+      "scenario": "External mathematics API in Info Product runtime",
+      "researchDisposition": "INVARIANCE_SUPPORTED"
+    },
+    {
+      "caseId": "C27",
+      "scenario": "Same numeric values, different populations or periods",
+      "researchDisposition": "SEMANTIC_CHANGE"
+    },
+    {
+      "caseId": "C28",
+      "scenario": "Different asset/time parameters for one Product",
+      "researchDisposition": "IDENTITY_OR_OCCURRENCE"
+    },
+    {
+      "caseId": "C29",
+      "scenario": "Governance-free AI-generated market narrative",
+      "researchDisposition": "PRODUCTNESS_NOT_SHOWN"
+    },
+    {
+      "caseId": "C30",
+      "scenario": "Static governed information edition; engine retired",
+      "researchDisposition": "INVARIANCE_SUPPORTED"
+    },
+    {
+      "caseId": "C31",
+      "scenario": "A subscription bundling information and autonomous trade execution",
+      "researchDisposition": "BOUNDARY_UNRESOLVED"
+    },
+    {
+      "caseId": "C32",
+      "scenario": "Same bounded analytical publication delivered by PDF or API",
+      "researchDisposition": "INVARIANCE_SUPPORTED"
+    },
+    {
+      "caseId": "C33",
+      "scenario": "AI-generated explanation supplements governed VWAP",
+      "researchDisposition": "INVARIANCE_SUPPORTED"
+    },
+    {
+      "caseId": "C34",
+      "scenario": "PFI replaces specified VWAP with a different estimator",
+      "researchDisposition": "SEMANTIC_CHANGE"
+    },
+    {
+      "caseId": "C35",
+      "scenario": "Same spec independently owned by three enterprises",
+      "researchDisposition": "IDENTITY_OR_OCCURRENCE"
+    },
+    {
+      "caseId": "C36",
+      "scenario": "A shared runtime serves ten informational Products",
+      "researchDisposition": "INVARIANCE_SUPPORTED"
+    }
+  ],
+  "s03Source": "research/p01-s03/case-evaluations.json",
+  "s03SourceSha256": "317bcbde834608d73ebff68b7ee8b8e5c8773a0529c02211c7e521bcdacf44f6",
+  "s03SourceCaseCount": 20,
+  "s03Cases": [
+    {
+      "caseId": "S03-T01",
+      "researchDisposition": "COMPETING_FAMILY_PLAUSIBLE",
+      "sourceCaseIds": [
+        "C02",
+        "C21"
+      ]
+    },
+    {
+      "caseId": "S03-T02",
+      "researchDisposition": "PROVISIONAL_INFORMATION_MATCH",
+      "sourceCaseIds": [
+        "C04",
+        "C15",
+        "C27"
+      ]
+    },
+    {
+      "caseId": "S03-T03",
+      "researchDisposition": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseIds": [
+        "C02",
+        "C21"
+      ]
+    },
+    {
+      "caseId": "S03-T04",
+      "researchDisposition": "COMPETING_FAMILY_PLAUSIBLE",
+      "sourceCaseIds": [
+        "C07",
+        "C20"
+      ]
+    },
+    {
+      "caseId": "S03-T05",
+      "researchDisposition": "PROVISIONAL_INFORMATION_MATCH",
+      "sourceCaseIds": [
+        "C05",
+        "C19",
+        "C30"
+      ]
+    },
+    {
+      "caseId": "S03-T06",
+      "researchDisposition": "PRODUCTNESS_UNESTABLISHED",
+      "sourceCaseIds": [
+        "C03",
+        "C14"
+      ]
+    },
+    {
+      "caseId": "S03-T07",
+      "researchDisposition": "CONFLICT_REVIEW",
+      "sourceCaseIds": [
+        "C12",
+        "C20"
+      ]
+    },
+    {
+      "caseId": "S03-T08",
+      "researchDisposition": "PROVISIONAL_INFORMATION_MATCH",
+      "sourceCaseIds": [
+        "C04",
+        "C12",
+        "C28"
+      ]
+    },
+    {
+      "caseId": "S03-T09",
+      "researchDisposition": "COMPETING_FAMILY_PLAUSIBLE",
+      "sourceCaseIds": [
+        "C09"
+      ]
+    },
+    {
+      "caseId": "S03-T10",
+      "researchDisposition": "REALIZATION_INVARIANCE_CONDITIONAL",
+      "sourceCaseIds": [
+        "C08",
+        "C13",
+        "C33"
+      ]
+    },
+    {
+      "caseId": "S03-T11",
+      "researchDisposition": "CONFLICT_REVIEW",
+      "sourceCaseIds": [
+        "C18",
+        "C31"
+      ]
+    },
+    {
+      "caseId": "S03-T12",
+      "researchDisposition": "CONFLICT_REVIEW",
+      "sourceCaseIds": [
+        "C10"
+      ]
+    },
+    {
+      "caseId": "S03-T13",
+      "researchDisposition": "COMPETING_FAMILY_PLAUSIBLE",
+      "sourceCaseIds": [
+        "C23"
+      ]
+    },
+    {
+      "caseId": "S03-T14",
+      "researchDisposition": "COMPETING_FAMILY_PLAUSIBLE",
+      "sourceCaseIds": [
+        "C02"
+      ]
+    },
+    {
+      "caseId": "S03-T15",
+      "researchDisposition": "PROVISIONAL_INFORMATION_MATCH",
+      "sourceCaseIds": [
+        "C06",
+        "C27"
+      ]
+    },
+    {
+      "caseId": "S03-T16",
+      "researchDisposition": "CONFLICT_REVIEW",
+      "sourceCaseIds": [
+        "C05",
+        "C12"
+      ]
+    },
+    {
+      "caseId": "S03-T17",
+      "researchDisposition": "REALIZATION_INVARIANCE_CONDITIONAL",
+      "sourceCaseIds": [
+        "C22",
+        "C26",
+        "C35"
+      ]
+    },
+    {
+      "caseId": "S03-T18",
+      "researchDisposition": "SEMANTIC_CHANGE_REVIEW",
+      "sourceCaseIds": [
+        "C24",
+        "C27",
+        "C34"
+      ]
+    },
+    {
+      "caseId": "S03-T19",
+      "researchDisposition": "REALIZATION_INVARIANCE_CONDITIONAL",
+      "sourceCaseIds": [
+        "C28"
+      ]
+    },
+    {
+      "caseId": "S03-T20",
+      "researchDisposition": "REALIZATION_INVARIANCE_CONDITIONAL",
+      "sourceCaseIds": [
+        "C25",
+        "C36"
+      ]
+    }
+  ],
+  "noCaseDispositionsChanged": true,
+  "controlledVariantsDoNotReplaceOriginalSubjects": true
+}

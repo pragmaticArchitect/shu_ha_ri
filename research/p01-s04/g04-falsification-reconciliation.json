@@ -1,0 +1,170 @@
+{
+  "project": "INFOPS",
+  "gate": "G04",
+  "researchOnly": true,
+  "normative": false,
+  "asOf": "2026-10-20",
+  "source": "research/p01-s02/hypothesis-tests.json",
+  "sourceSha256": "489492c5ec215aa141e83372f262926d41ce231e5c5f02656cb59953edd93ed7",
+  "count": 16,
+  "statuses": {
+    "CONDITIONALLY_SUPPORTED": 1,
+    "COUNTEREXAMPLE_TO_RULE": 11,
+    "SUPPORTED_UNDER_PREMISES": 1,
+    "UNRESOLVED": 3
+  },
+  "tests": [
+    {
+      "testId": "F01",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C03",
+        "C05",
+        "C17",
+        "C32"
+      ]
+    },
+    {
+      "testId": "F02",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C05",
+        "C19",
+        "C26",
+        "C30"
+      ]
+    },
+    {
+      "testId": "F03",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C02",
+        "C21",
+        "C27"
+      ]
+    },
+    {
+      "testId": "F04",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C08",
+        "C23",
+        "C33"
+      ]
+    },
+    {
+      "testId": "F05",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C07",
+        "C20"
+      ]
+    },
+    {
+      "testId": "F06",
+      "hypotheticalInference": "UNRESOLVED",
+      "linkedCaseIds": [
+        "C03",
+        "C04",
+        "C14",
+        "C17"
+      ]
+    },
+    {
+      "testId": "F07",
+      "hypotheticalInference": "SUPPORTED_UNDER_PREMISES",
+      "linkedCaseIds": [
+        "C06",
+        "C19",
+        "C27",
+        "C29"
+      ]
+    },
+    {
+      "testId": "F08",
+      "hypotheticalInference": "CONDITIONALLY_SUPPORTED",
+      "linkedCaseIds": [
+        "C22",
+        "C26",
+        "C32",
+        "C36"
+      ]
+    },
+    {
+      "testId": "F09",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C24",
+        "C34"
+      ]
+    },
+    {
+      "testId": "F10",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C15",
+        "C27",
+        "C34"
+      ]
+    },
+    {
+      "testId": "F11",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C28"
+      ]
+    },
+    {
+      "testId": "F12",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C22",
+        "C25",
+        "C35"
+      ]
+    },
+    {
+      "testId": "F13",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C03",
+        "C14",
+        "C17"
+      ]
+    },
+    {
+      "testId": "F14",
+      "hypotheticalInference": "UNRESOLVED",
+      "linkedCaseIds": [
+        "C12",
+        "C18",
+        "C31"
+      ]
+    },
+    {
+      "testId": "F15",
+      "hypotheticalInference": "COUNTEREXAMPLE_TO_RULE",
+      "linkedCaseIds": [
+        "C10",
+        "C31"
+      ]
+    },
+    {
+      "testId": "F16",
+      "hypotheticalInference": "UNRESOLVED",
+      "linkedCaseIds": [
+        "C02",
+        "C12",
+        "C18",
+        "C21",
+        "C31"
+      ]
+    }
+  ],
+  "noFalsificationOutcomesChanged": true,
+  "Q1_Q4UniversalNecessityProven": false,
+  "Q0_Q4JointSufficiencyProven": false,
+  "formalCounterexampleToFullConjunctionProven": false,
+  "empiricalClassifierMetricsEstablished": false,
+  "qualificationIssued": false
+}

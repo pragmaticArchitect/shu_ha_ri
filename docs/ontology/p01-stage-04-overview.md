@@ -5,41 +5,44 @@ sidebar_label: P01-S04 - Overview
 
 # INFOPS-P01-S04 - Qualification Boundary Reconciliation
 
-> **OWNER-REVIEWED RESEARCH / NON-NORMATIVE (19 October 2026).** G01, G02 and G03 have completed owner review. G03 has **conditional research-gate closure**; its source-adoption blockers are preserved. **G04 is prepared, not yet adjudicated.** This is not an adopted INFOPS 0.1 standard and cannot certify a Product.
+> **OWNER-APPROVED CONDITIONAL RESEARCH (20 October 2026) - NON-NORMATIVE.** G01, G02, G03 and **G04** have completed owner review. G04-D09-F01 explicitly closed G04 as **CLOSED - CONDITIONAL RESEARCH**, preserving 36 original S02 hypothetical case dispositions, 16 S02 tests, 20 S03 cases and all twelve G03 source/release holds. G05-G07 remain PENDING; no INFOPS normative release or real Product qualification is authorized.
 
-## Programme position
+## Stage 4 programme position
 
-| S04 gate | Review status | What the status does NOT mean |
+| Gate | Current research status | What closure does not establish |
 |---|---|---|
-| G01 - Individual findings | Closed at owner-reviewed research level (15/15 findings) | No qualification or publication release |
-| G02 - Qualification conditions | Closed at conditional research level (7/7 approved) | Q0-Q4 jointly sufficient or universally necessary |
-| G03 - Upstream source authority | **Closed at conditional research level (10/10 owner decisions)** | Exact source Versions adopted or interoperability fully certified |
-| G04 - Competing-family and Compound | Prepared; owner decisions pending | Counterexamples already adjudicated |
-| G05 - Qualification / realization / maturity / authorization | Pending | Product lifecycle and maturity rules adopted |
-| G06 - Evidence and assessment formalization | Pending | Passport, semantic or deployment conformance certified |
-| G07 - Publication and normative adoption | Pending | Any normative INFOPS 0.1 release authorized |
+| G01 | Closed - 15/15 S02 (6) and S03 (9) approved antecedent decisions | Generic Productness or normative adoption |
+| G02 | Closed - conditional research, 7/7 decisions | Necessity or sufficiency of Q0-Q4 |
+| G03 | Closed - conditional research, 10/10 decisions | Canonical source adoption or cross-source conformance |
+| **G04** | **Closed - conditional research, 9/9 owner-approved decisions** | Normative Product-family classifier or Product certificate |
+| G05 | Pending; NOT STARTED | Product qualification / realization / maturity / authorization adopted |
+| G06 | Pending; NOT STARTED | Executable qualification or DPP/descriptor conformance certified |
+| G07 | Pending; NOT STARTED | Normative INFOPS 0.1 release or publication authorized |
 
-## Governing research distinctions
+**Decision count:** 15 + 7 + 10 + 9 = **41 distinct approved research decisions** across G01-G04. The fifteen S02/S03 decisions are G01's closure basis and are counted once, not twice.
 
-- **Q0:** independently evidenced generic BPS Productness precedes definitive family claims. Q1-Q4 are candidate Information-family characteristics; Q5 is an adjudication/evidence gate, not an ontological property. Their necessity, logical independence and joint sufficiency remain unproven.
-- **BPS/PIN** owns generic Product and PIN meanings. **GEARM** owns Information and Information Proposition meanings. **INFOPS** may later establish the Information Product Family subject to approved qualification requirements.
-- **INFOPROD** (semantic description), **INFOPDS** (eligible realization), **BPS DPP and its prospective Information Profile** (trust/evidence), and **HDIP HPD** (operational projection) are different artifacts with different authorities.
-- Data, AI, Service, Creative and Compound Product interpretations require evidence under the applicable independent authorities. Dependency and implementation technology do not transfer intrinsic Product Family.
-- A Product's intrinsic family is not determined by its use of HDIP, UPOS, an AI Product, a data pipeline, a continuous analytical engine, a publication format or a marketplace listing.
-- Passport issuance, integrity checks, technical conformance, maturity and decision/action authorization do not independently confer Productness or Information-family qualification.
+## Governing research conclusions
 
-## Research documentation
+- **Q0** inherits independent BPS Productness. **Q1-Q4** remain candidate Information Family differentiators; universal necessity remains **NOT ESTABLISHED**. **Q5** is procedural adjudication, not an intrinsic Product property. **Q0-Q4 joint sufficiency remains NOT ESTABLISHED** (not formally disproven).
+- Governing informational VBE/EVC and semantic constitution must be assessed from exact Product subject, Promise, PIN and GEARM meaning; technology, calculated metrics, AI participation, output format, runtime or maturity do not determine Family.
+- Independent Data, Service, AI, Creative and BPS Compound Product authority remains preserved. Universal cross-family exclusivity and eligible Compound decisions are **not** established.
+- Meaning-bearing semantics, Product instance, Version, realization and occurrences are distinct. PFI and HDIP implement eligible HOW and do not confer semantic or Productness authority.
+- **INFOPROD** (future semantic descriptor), **INFOPDS** (future realization specification), **HPD** (HDIP operational projection), and **BPS DPP Core/future Information Profile** (trust) are separate; none is normatively adopted by G04 closure.
+- Actual Product qualification, real PFI semantic equivalence, conformance, issuance, maturity, assurance, operational authorization and normative publication require independent evidence and decisions.
 
-- [Owner-reviewed decision register](./p01-stage-04-owner-decisions.md) - G01-G03 dispositions and evidence limitations.
-- [Source authority and adoption register](./p01-stage-04-source-authorities.md) - upstream jurisdictions, candidate Versions, interoperability boundaries.
-- [INFOPROD, INFOPDS, HPD and DPP separation](./p01-stage-04-artifact-boundaries.md) - preserved owner amendments.
-- [Normative source-adoption and release holds](./p01-stage-04-release-holds.md) - unresolved source pins, compatibility and qualification dependencies.
-- [Proposed G04 adversarial review sequence](./p01-stage-04-g04-plan.md) - not yet owner-approved decisions.
+## Current decision and closure records
 
-The structured, **non-normative** registers are stored under `research/p01-s04/`. The prior S03 candidate rules and case inventories remain unchanged and remain controlling evidence for their original stage; this overlay adds the distinct S04 owner-review record rather than rewriting history.
+- [G04 owner-approved decisions D01-D09](./p01-stage-04-g04-owner-approved-decisions.md) - all nine approved research findings and case-preservation obligations.
+- [G04 final conditional gate-closure record](./p01-stage-04-g04-closure-record.md) - Q0-Q5, C01-C36, F01-F16, S03-T01-T20, all G03-R01-R12 holds.
+- [S04 owner-decision register G01-G04](./p01-stage-04-owner-decisions.md) - approved antecedents and status.
+- [S04-G01 closure basis](./p01-stage-04-g01-closure-basis.md), [S02 approvals](./p01-stage-02-owner-approved-decisions.md) and [S03 approvals](./p01-stage-03-owner-approved-decisions.md).
+- [Upstream research authority inventory](./p01-stage-04-source-authorities.md), [INFOPROD/INFOPDS/HPD/DPP boundaries](./p01-stage-04-artifact-boundaries.md), [G03 unresolved normative-release holds](./p01-stage-04-release-holds.md).
+- [Historical G04 proposed review plan](./p01-stage-04-g04-plan.md) - as initially prepared; current subsequent owner decisions are recorded separately.
 
-## Gate closure and reopening discipline
+The existing S01-S03 research sources and prior G01-G03 approval records retain their original historical authorship and provenance. Current G04 decisions are new addenda, not silent rewrites of that evidence.
 
-**S04-G03 = CLOSED_CONDITIONAL_RESEARCH.** G03-D10-F01 was approved on 19 October 2026. It accepts a conceptually coherent authority model suitable for continued adversarial research, but not normative source adoption. Any material source incompatibility, revised upstream authority, invalid source reference, or disputed foundational definition requires reconciliation of the affected G03 decision before normative adoption.
+## Closure and release boundary
 
-**S04-G04-D01 is the next proposed substantive owner decision.** The G04 sequence was prepared after G03 closure; no G04 finding is accepted merely by deploying these research pages.
+**G04-D09-F01 was owner-approved 20 October 2026.** G04 is `CLOSED_CONDITIONAL_RESEARCH`. This gate closure is **not** a claim of adopted INFOPS qualification, complete upstream source pins, normative Product descriptor/passport schema, actual Product certification, or approved S04-G05/G06/G07 work.
+
+All G03-R01-R12 obligations remain open. No Product-family exclusivity or Compound rule is silently invented. Subsequent programme activity requires separate owner instructions.

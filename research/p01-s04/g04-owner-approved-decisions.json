@@ -1,0 +1,1001 @@
+{
+  "project": "INFOPS",
+  "programme": "INFOPS-P01-S04",
+  "gate": "G04",
+  "recordType": "CONVERSATION_LEVEL_OWNER_APPROVED_CONDITIONAL_RESEARCH",
+  "asOf": "2026-10-20",
+  "status": "CLOSED_CONDITIONAL_RESEARCH",
+  "normative": false,
+  "normativeReleaseAuthorized": false,
+  "actualProductsQualified": 0,
+  "ownerReviewedCount": 9,
+  "approvedCount": 9,
+  "closureDecisionId": "G04-D09-F01",
+  "basis": "Explicit owner APPROVE dispositions for nine proposals G04-D01-F01 through G04-D09-F01 in this conversation, incorporating reviewed findings.",
+  "historicalPlan": "research/p01-s04/g04-proposed-owner-review-sequence.json",
+  "historicalPlanStatus": "PROPOSED_NOT_APPROVED_AS_OF_PRIOR_RECORD;_SUPERSEDED_BY_THIS_OWNER_REGISTER",
+  "decisions": [
+    {
+      "id": "G04-D01-F01",
+      "gate": "G04",
+      "title": "Competing-Family Adjudication Protocol, Exact Product Subject and Evidence Discipline",
+      "ownerDisposition": "APPROVED",
+      "ownerReviewedResearch": true,
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "researchOnly": true,
+      "qualificationIssued": false,
+      "publicationAuthorized": false,
+      "summary": "Establish an exact-subject and evidence-bounded procedure for competing-family research; Q5 is procedural and Q0 remains independently BPS-governed.",
+      "linkedS02CaseIds": [
+        "C03",
+        "C14",
+        "C17",
+        "C29"
+      ],
+      "clauses": [
+        {
+          "topic": "Review purpose",
+          "position": "G04 investigates competing Product-family interpretations and Compound candidates adversarially; it is research, not certification."
+        },
+        {
+          "topic": "Exact subject",
+          "position": "Identify assessed subject, Product/Version, scope, governing Promise, accountable authority, constituents, dependencies, realizations and informational occurrences before classification."
+        },
+        {
+          "topic": "Productness precedence",
+          "position": "Examine independent BPS/PIN Productness as Q0 before making definitive Information-family claims; INFOPS does not award Productness."
+        },
+        {
+          "topic": "Candidate intrinsic conditions",
+          "position": "Q1-Q4 remain investigatory differentiators with universal necessity and joint sufficiency unproven."
+        },
+        {
+          "topic": "Q5 is procedural",
+          "position": "Competing-family and Compound review is a procedural/evidential gate and not an intrinsic Product property."
+        },
+        {
+          "topic": "Independent jurisdiction",
+          "position": "Compare Data, AI, Service, Creative, other and Compound interpretations through their independently applicable authorities, not locally invented certification."
+        },
+        {
+          "topic": "Promise and PIN",
+          "position": "Investigate governed Product Promise, VBE, EVC, constitution and identity rather than technical labels, formats, hosting or marketing categories."
+        },
+        {
+          "topic": "Multi-promise restraint",
+          "position": "Where separately material Promises or essences are credible, preserve separate subjects and possible Compound interpretation rather than forcing a single Family."
+        },
+        {
+          "topic": "Dependency non-inheritance",
+          "position": "A Product does not inherit the intrinsic Family of consumed or constituting capabilities merely because it depends on them."
+        },
+        {
+          "topic": "Semantic fidelity",
+          "position": "Evaluate meaning-affecting context, assumptions, method, population, temporal rules and Promise separately from numerical equality."
+        },
+        {
+          "topic": "Realization invariance",
+          "position": "Different eligible PFI paths, runtime, publication medium, hosting and AI assistance do not independently determine Family when governing commitments remain equivalent."
+        },
+        {
+          "topic": "Falsification",
+          "position": "Use positive, negative, near-miss and conflicting cases to challenge necessity of individual conditions and sufficiency of their conjunction."
+        },
+        {
+          "topic": "Evidence discipline",
+          "position": "Distinguish observed facts, governing claims, inferred interpretations, assumptions, counterarguments, source/Version references, gaps and reviewer provenance."
+        },
+        {
+          "topic": "Fail-closed uncertainty",
+          "position": "Do not issue definitive qualification where Productness, primary Promise, source authorities or Compound boundaries remain unresolved."
+        },
+        {
+          "topic": "Independent assessments",
+          "position": "Keep Productness, family, INFOPROD, INFOPDS, HPD, DPP, conformance, readiness, maturity, issuance and authorization determinations separate."
+        },
+        {
+          "topic": "Source and release boundary",
+          "position": "Carry all G03 adoption and compatibility holds; approving the method does not authorize normative INFOPS qualification or publication."
+        }
+      ],
+      "originalCaseDispositions": {
+        "C03": "PRODUCTNESS_NOT_SHOWN",
+        "C14": "PRODUCTNESS_NOT_SHOWN",
+        "C17": "PRODUCTNESS_NOT_SHOWN",
+        "C29": "PRODUCTNESS_NOT_SHOWN"
+      }
+    },
+    {
+      "id": "G04-D02-F01",
+      "gate": "G04",
+      "title": "Enriched Data versus Information Product-family Boundary",
+      "ownerDisposition": "APPROVED",
+      "ownerReviewedResearch": true,
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "researchOnly": true,
+      "qualificationIssued": false,
+      "publicationAuthorized": false,
+      "summary": "Rich Data with derived measures is not thereby Information; C02 and C21 remain BOUNDARY_UNRESOLVED with independent Data/Information and Compound jurisdiction.",
+      "linkedS02CaseIds": [
+        "C01",
+        "C02",
+        "C21",
+        "C27"
+      ],
+      "clauses": [
+        {
+          "topic": "GEDRM and Data authority",
+          "position": "GEDRM/GEDRA and applicable Data Product specifications retain generic Data, Data Asset and Data Product jurisdictions."
+        },
+        {
+          "topic": "GEARM authority",
+          "position": "GEARM retains Information, Information Proposition and analytical semantic meaning; an Information Proposition does not itself establish Productness."
+        },
+        {
+          "topic": "Enrichment insufficiency",
+          "position": "Calculated metrics, VWAP, derived attributes, semantic metadata and contextual definitions do not alone establish Information Product-family membership."
+        },
+        {
+          "topic": "Independent Productness",
+          "position": "The same exact subject must establish BPS Productness before definitive family qualification."
+        },
+        {
+          "topic": "Information hypothesis",
+          "position": "Investigate primary informational VBE/EVC through the constituted Promise, coherent informational proposition(s), interpretation, semantic commitments and identity."
+        },
+        {
+          "topic": "Promise corroboration",
+          "position": "Marketing descriptions or changed Promise wording alone are not evidence of governing intrinsic nature."
+        },
+        {
+          "topic": "No narrative condition",
+          "position": "Numerical values, tables, documents or APIs may embody an informational Product; no universal narrative or dashboard presentation is required."
+        },
+        {
+          "topic": "No mandatory pipeline",
+          "position": "A Product is not obliged to traverse a fixed Data Product to Information Product processing chain."
+        },
+        {
+          "topic": "Independent Data qualification",
+          "position": "INFOPS cannot override independently applicable Data Product criteria; external Data DPDS descriptor conformance is not Information qualification."
+        },
+        {
+          "topic": "Distinct subjects and dependencies",
+          "position": "A separately constituted Information Product may consume Data without inheriting Data Product identity; shared computation or outputs do not merge Product subjects."
+        },
+        {
+          "topic": "No universal exclusivity",
+          "position": "Data and Information claims for the exact same Product subject may remain unresolved; neither a universal exclusivity rule nor automatic Compound status is established."
+        },
+        {
+          "topic": "C02 retained",
+          "position": "C02 settlement-duration/corridor measures remains BOUNDARY_UNRESOLVED; controlled variants may represent derived Data, separately constituted Information or direct non-Product analytical consumption."
+        },
+        {
+          "topic": "C21 retained",
+          "position": "C21 VWAP-rich Data remains BOUNDARY_UNRESOLVED; semantic richness cannot silently reclassify the Product."
+        },
+        {
+          "topic": "Semantic/identity evolution",
+          "position": "Changes in calculation, definitions, population, methods, time semantics or Promise require relevant semantic, Version and qualification reassessment."
+        },
+        {
+          "topic": "Artifacts and sources",
+          "position": "INFOPROD, INFOPDS, HPD, BPS DPP and all source-adoption holds remain separate and non-normative."
+        }
+      ],
+      "originalCaseDispositions": {
+        "C01": "COMPETING_FAMILY",
+        "C02": "BOUNDARY_UNRESOLVED",
+        "C21": "BOUNDARY_UNRESOLVED",
+        "C27": "SEMANTIC_CHANGE"
+      }
+    },
+    {
+      "id": "G04-D03-F01",
+      "gate": "G04",
+      "title": "Generic Analytics Service versus Information Product-family Boundary",
+      "ownerDisposition": "APPROVED",
+      "ownerReviewedResearch": true,
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "researchOnly": true,
+      "qualificationIssued": false,
+      "publicationAuthorized": false,
+      "summary": "General-purpose analytical capability does not automatically qualify as Information; C07/C20 remain conditional COMPETING_FAMILY with Service classification unverified.",
+      "linkedS02CaseIds": [
+        "C04",
+        "C07",
+        "C20"
+      ],
+      "clauses": [
+        {
+          "topic": "BPS Service authority",
+          "position": "BPS/PIN retains generic Productness and Service Product-family qualification; INFOPS does not invent a universal Service ontology."
+        },
+        {
+          "topic": "Service and delivery labels",
+          "position": "Application, API, SaaS, subscription, interactive UI and hosted execution are not intrinsically Service-family certificates."
+        },
+        {
+          "topic": "Analytics insufficiency",
+          "position": "Computation, visualization or capacity to generate Information does not independently establish Information Productness."
+        },
+        {
+          "topic": "Productness",
+          "position": "The exact assessed subject requires independent BPS Productness before definitive Family determination."
+        },
+        {
+          "topic": "VBE/EVC assessment",
+          "position": "Distinguish general analytical functionality from intentionally constituted governed informational value through Product Promise, VBE, EVC, constitution and identity."
+        },
+        {
+          "topic": "Meaning-bearing constitution",
+          "position": "An Information candidate is bounded by governing informational objective, context, definitions and interpretation, independent of its execution engine."
+        },
+        {
+          "topic": "Interactive products",
+          "position": "Consumer queries, parameterization and exploration do not automatically disqualify an Information Product within a coherent governing informational contract."
+        },
+        {
+          "topic": "No numeric boundedness ceiling",
+          "position": "Do not invent universal maximum metric, question, parameter, output or interaction counts."
+        },
+        {
+          "topic": "General capability restraint",
+          "position": "Arbitrary consumer-defined analytical operations are not converted to Information Family merely because their outputs have meaning."
+        },
+        {
+          "topic": "Independent constitution",
+          "position": "A qualified Information Product may depend on BI platforms or generic analytical APIs without inheriting their Family."
+        },
+        {
+          "topic": "Overlap uncertainty",
+          "position": "Overlapping Service and Information promises remain open for BPS/family authority and Product-boundary adjudication."
+        },
+        {
+          "topic": "Compound restraint",
+          "position": "Multiple material Promises invite Product-boundary and Compound research, not automatic Compound qualification."
+        },
+        {
+          "topic": "C07 retained",
+          "position": "C07 general-purpose BI tool remains conditional COMPETING_FAMILY; controlled variants may represent non-Product, Information Product or unresolved multiple Promises."
+        },
+        {
+          "topic": "C20 retained",
+          "position": "C20 general mathematics/analytics API remains conditional COMPETING_FAMILY; Service qualification of the actual subject is independently required."
+        },
+        {
+          "topic": "Realization and semantics",
+          "position": "Substitution of analytical engines or APIs does not independently change Family if governed semantics and contracts remain materially equivalent."
+        },
+        {
+          "topic": "Separation and limits",
+          "position": "INFOPROD, INFOPDS, HPD, BPS DPP and source blockers remain distinct; no normative qualifier or Product certification is issued."
+        }
+      ],
+      "originalCaseDispositions": {
+        "C04": "PROVISIONAL_INFO_CANDIDATE",
+        "C07": "COMPETING_FAMILY",
+        "C20": "COMPETING_FAMILY"
+      }
+    },
+    {
+      "id": "G04-D04-F01",
+      "gate": "G04",
+      "title": "AI Product versus Information Product-family Boundary",
+      "ownerDisposition": "APPROVED",
+      "ownerReviewedResearch": true,
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "researchOnly": true,
+      "qualificationIssued": false,
+      "publicationAuthorized": false,
+      "summary": "AI participation or intelligence effects do not automatically change the containing Product Family; AIPS AQ1-AQ5 are independently authoritative.",
+      "linkedS02CaseIds": [
+        "C08",
+        "C09",
+        "C13",
+        "C24",
+        "C33"
+      ],
+      "clauses": [
+        {
+          "topic": "BPS generic authority",
+          "position": "BPS/PIN retains generic Productness, Product Kind/Family, identity and Compound authority."
+        },
+        {
+          "topic": "AIPS qualification",
+          "position": "AIPS retains AI Product qualification, AQ1-AQ5, AQE, intelligence propositions, Product Types and AI Product-Version semantics."
+        },
+        {
+          "topic": "GEARM and AI semantics",
+          "position": "GEARM retains Information; GEAIRM/GEAIRA retain generic enterprise AI semantics/architecture, not AIPS qualification."
+        },
+        {
+          "topic": "No AI inheritance",
+          "position": "AI inputs, dependencies, generation, orchestration, prior use or material contribution do not automatically change the containing Product into an AI Product."
+        },
+        {
+          "topic": "Exact subjects",
+          "position": "Distinguish AI Product, Information Product, Product Version, AI Primitive, Model, Agent, score, explanation, other output and runtime occurrence."
+        },
+        {
+          "topic": "Qualification conjunction",
+          "position": "Claims of AI Productness require independently applicable AIPS conditions; a qualifying AI Primitive path alone is insufficient."
+        },
+        {
+          "topic": "Information with AI",
+          "position": "An Information Product may depend materially on AI while its primary constituted Promise and EVC remain informational."
+        },
+        {
+          "topic": "No model-only shortcut",
+          "position": "Neither LLM/model ownership nor a learned-model-only condition universally determines AI Productness."
+        },
+        {
+          "topic": "Outputs not classifiers",
+          "position": "Scores, predictions, recommendations, narratives and explanations are not by themselves Productness or Family predicates."
+        },
+        {
+          "topic": "Material Promise change",
+          "position": "Adding a distinct governed intelligence Promise demands Product/Version and applicable AIPS/family reassessment; a mere engine change does not."
+        },
+        {
+          "topic": "Semantic and assurance fidelity",
+          "position": "AI-assisted interpretation must honor governing definitions, assumptions, provenance, method and Product Promise; AQE status may affect dependent assurance without automatically changing intrinsic Family."
+        },
+        {
+          "topic": "Decision/Action boundary",
+          "position": "A recommendation or AI effect does not itself authorize consequential Decision or Action."
+        },
+        {
+          "topic": "Compound and AI topology",
+          "position": "Potential co-essential intelligence/informational Promises remain unresolved under BPS; AIPS Primary/Derived/Composite is distinct from BPS Compound."
+        },
+        {
+          "topic": "C08 retained",
+          "position": "C08 AI-generated settlement summary remains BOUNDARY_UNRESOLVED, distinguishing occurrences, Information, AI and bundled Products."
+        },
+        {
+          "topic": "C09 retained",
+          "position": "C09 governed AI inference service remains conditional COMPETING_FAMILY; no AIPS certification inferred."
+        },
+        {
+          "topic": "C13 retained",
+          "position": "C13 AI-assisted fraud-monitoring report remains PROVISIONAL_INFO_CANDIDATE, conditional on Productness, Information semantics and AI-dependency governance."
+        },
+        {
+          "topic": "C24 retained",
+          "position": "C24 evolved market Information to trading intelligence remains SEMANTIC_CHANGE; changed Promise requires reassessment without predetermining Family."
+        },
+        {
+          "topic": "C33 retained",
+          "position": "C33 supplementary AI VWAP explanation remains INVARIANCE_SUPPORTED conditional on unchanged informational meaning and conformance."
+        },
+        {
+          "topic": "Artifact separation",
+          "position": "INFOPROD, INFOPDS, AIPROD, AIPDS, HPD and universal BPS DPP with separate family Profiles remain independently governed."
+        },
+        {
+          "topic": "Research/release status",
+          "position": "Source pins, AIPS release limitations, interoperability and normative INFOPS adoption remain unresolved."
+        }
+      ],
+      "originalCaseDispositions": {
+        "C08": "BOUNDARY_UNRESOLVED",
+        "C09": "COMPETING_FAMILY",
+        "C13": "PROVISIONAL_INFO_CANDIDATE",
+        "C24": "SEMANTIC_CHANGE",
+        "C33": "INVARIANCE_SUPPORTED"
+      }
+    },
+    {
+      "id": "G04-D05-F01",
+      "gate": "G04",
+      "title": "Creative, Editorial, Static and Human-Curated Information Product Boundaries",
+      "ownerDisposition": "APPROVED",
+      "ownerReviewedResearch": true,
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "researchOnly": true,
+      "qualificationIssued": false,
+      "publicationAuthorized": false,
+      "summary": "Neither active analytical execution nor informative creative content determines Family; C05/C06/C19 provisional, C23/C30 invariance, C29/C32 supporting controls.",
+      "linkedS02CaseIds": [
+        "C05",
+        "C06",
+        "C19",
+        "C23",
+        "C29",
+        "C30",
+        "C32"
+      ],
+      "clauses": [
+        {
+          "topic": "BPS/Creative authority",
+          "position": "BPS retains generic Product/Creative/Compound authority; BOPS, GRNPS and other relevant specifications retain respective Book/Graphic Novel and content Product jurisdictions."
+        },
+        {
+          "topic": "GEARM semantics",
+          "position": "GEARM retains Information, Information Proposition and human/analytical semantic formation authority."
+        },
+        {
+          "topic": "Productness",
+          "position": "Publication, factuality, copyright, readership, editorial work and versioned distribution cannot independently establish Productness."
+        },
+        {
+          "topic": "Human formation",
+          "position": "Human authorship, research, judgement, curation and editorial synthesis may legitimately form Information without an owned analytical engine."
+        },
+        {
+          "topic": "Static products",
+          "position": "A historical governed Information edition can retain its Promise and intrinsic Family without ongoing computation or authoring machinery."
+        },
+        {
+          "topic": "Promise and constitution",
+          "position": "Distinguish creative/literary intrinsic value from governed informational VBE through actual Product Promise, EVC, context, semantic commitments and PIN."
+        },
+        {
+          "topic": "Creative factuality restraint",
+          "position": "Creative/Content Products do not automatically become Information Products merely because they teach, cite evidence or contain meaningful facts."
+        },
+        {
+          "topic": "Information presentation restraint",
+          "position": "Narrative, illustration, editorial style, document form or Book-native structure do not automatically exclude Information-family candidates."
+        },
+        {
+          "topic": "No uniform epistemic mechanism",
+          "position": "Applicable evidence, context and method must fit the actual informational Promise; no single global peer-review method, citation-count or numerical analytic requirement is invented."
+        },
+        {
+          "topic": "Work/edition/rendition identities",
+          "position": "Distinguish governing Product subject, work, Product Version, editorial edition, release, publication package, rendition and output occurrence."
+        },
+        {
+          "topic": "Historical meaning",
+          "position": "Preserve effective-time semantic context, material historical definitions and accountable changes; freshness/maintenance obligations evaluated independently."
+        },
+        {
+          "topic": "AI non-inheritance",
+          "position": "AI-assisted creative or human-curated work does not acquire AI Family solely through production mechanism."
+        },
+        {
+          "topic": "Cross-family overlap",
+          "position": "Potentially independently material creative and informational Promises remain open for BPS/family boundary adjudication, not automatic Compound classification."
+        },
+        {
+          "topic": "C05 retained",
+          "position": "C05 analytical PDF brief remains PROVISIONAL_INFO_CANDIDATE."
+        },
+        {
+          "topic": "C06 retained",
+          "position": "C06 human-curated market interpretation remains PROVISIONAL_INFO_CANDIDATE."
+        },
+        {
+          "topic": "C19 retained",
+          "position": "C19 annual research analysis remains PROVISIONAL_INFO_CANDIDATE despite absence of live analytic machinery."
+        },
+        {
+          "topic": "C23 retained",
+          "position": "C23 AI-created/assisted Creative Product remains INVARIANCE_SUPPORTED under unchanged intrinsic Promise."
+        },
+        {
+          "topic": "C30 retained",
+          "position": "C30 static Information edition after authoring engine retirement remains INVARIANCE_SUPPORTED under its historical Promise."
+        },
+        {
+          "topic": "Supporting C29/C32",
+          "position": "C29 remains PRODUCTNESS_NOT_SHOWN; C32 PDF/API substitution remains INVARIANCE_SUPPORTED under equivalent governing commitments."
+        },
+        {
+          "topic": "Artifacts and source limits",
+          "position": "INFOPROD, INFOPDS, HPD, BPS DPP, BOPS/GRNPS descriptors and all release blockers retain independent authority."
+        }
+      ],
+      "originalCaseDispositions": {
+        "C05": "PROVISIONAL_INFO_CANDIDATE",
+        "C06": "PROVISIONAL_INFO_CANDIDATE",
+        "C19": "PROVISIONAL_INFO_CANDIDATE",
+        "C23": "INVARIANCE_SUPPORTED",
+        "C29": "PRODUCTNESS_NOT_SHOWN",
+        "C30": "INVARIANCE_SUPPORTED",
+        "C32": "INVARIANCE_SUPPORTED"
+      }
+    },
+    {
+      "id": "G04-D06-F01",
+      "gate": "G04",
+      "title": "Multi-Promise, Product Constitution and Compound Product Boundaries",
+      "ownerDisposition": "APPROVED",
+      "ownerReviewedResearch": true,
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "researchOnly": true,
+      "qualificationIssued": false,
+      "publicationAuthorized": false,
+      "summary": "Separate coherent Information, dependencies, multiple Products, commercial bundles, higher-order Products and potential Compound subjects; C12/C18/C31 unresolved.",
+      "linkedS02CaseIds": [
+        "C12",
+        "C18",
+        "C31"
+      ],
+      "clauses": [
+        {
+          "topic": "BPS authority",
+          "position": "BPS/PIN retains generic Productness, Product/Version identity, intrinsic Family and Compound qualification."
+        },
+        {
+          "topic": "Exact subject",
+          "position": "Separate one constituted Product, several constituent Products, an integrated higher-order Product, mere commercial bundle and unresolved candidate Compound."
+        },
+        {
+          "topic": "Multiplicity restraint",
+          "position": "Outputs, metrics, propositions, capabilities, dependencies, Products and commercial Promises are not ontologically interchangeable."
+        },
+        {
+          "topic": "Coherent informational Product",
+          "position": "One bounded informational objective may involve several metrics, explanations or simulations without automatic Compound classification."
+        },
+        {
+          "topic": "Bundle Productness",
+          "position": "A bundle or composition cannot inherit Productness merely because its components are independently qualified Products."
+        },
+        {
+          "topic": "Dependency non-inheritance",
+          "position": "Material reliance on Data, AI, Service or Creative components does not automatically confer their intrinsic Family."
+        },
+        {
+          "topic": "Essentiality restraint",
+          "position": "Being essential to implementation or contractual delivery does not itself establish a second co-essential intrinsic VBE."
+        },
+        {
+          "topic": "Co-essential uncertainty",
+          "position": "Independently material intrinsic contributions may require BPS Compound adjudication; no INFOPS Compound criterion is invented."
+        },
+        {
+          "topic": "No automatic Compound",
+          "position": "Shared runtime, commercial entitlements, API gateways, multiple outputs or AI participation do not independently establish Compound Productness."
+        },
+        {
+          "topic": "Higher-order Product",
+          "position": "A newly constituted integrated Product with a genuinely distinct higher-order Promise needs its own Productness and Family assessment."
+        },
+        {
+          "topic": "AIPS terminology",
+          "position": "AIPS Primary, Derived and Composite intelligence derivation remains distinct from BPS cross-family Compound."
+        },
+        {
+          "topic": "Decision/Action",
+          "position": "Information, Recommendation, Decision, Action and authorization are separately governed; automated execution is not automatically AI or Compound."
+        },
+        {
+          "topic": "Counterfactual limits",
+          "position": "Dependency removal, substitution, decomposition and Promise mutation support research but alone do not prove Compound Productness."
+        },
+        {
+          "topic": "Product change",
+          "position": "Material new essential value, constitution or Promise requires Product/Version and Family reassessment."
+        },
+        {
+          "topic": "C12 retained",
+          "position": "C12 metrics, explanation and simulation remains BOUNDARY_UNRESOLVED."
+        },
+        {
+          "topic": "C18 retained",
+          "position": "C18 commercial Data/analysis/AI bundle remains BOUNDARY_UNRESOLVED."
+        },
+        {
+          "topic": "C31 retained",
+          "position": "C31 interpreted market Information plus autonomous trading execution remains BOUNDARY_UNRESOLVED."
+        },
+        {
+          "topic": "No universal exclusivity",
+          "position": "Data/Information, Service/Information, AI/Information and Creative/Information overlaps remain unresolved without adopted governing rules."
+        },
+        {
+          "topic": "Product passport subjects",
+          "position": "Independent Product identities/Versions and BPS DPP subject/evidence are not automatically merged by commercial packaging or potential Compound claims."
+        },
+        {
+          "topic": "Source and normative limits",
+          "position": "BPS Compound authority, Q0-Q4 sufficiency, canonical sources and relevant descriptor/assurance obligations remain open."
+        }
+      ],
+      "originalCaseDispositions": {
+        "C12": "BOUNDARY_UNRESOLVED",
+        "C18": "BOUNDARY_UNRESOLVED",
+        "C31": "BOUNDARY_UNRESOLVED"
+      }
+    },
+    {
+      "id": "G04-D07-F01",
+      "gate": "G04",
+      "title": "Product Identity, Semantic Change and Realization Invariance",
+      "ownerDisposition": "APPROVED",
+      "ownerReviewedResearch": true,
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "researchOnly": true,
+      "qualificationIssued": false,
+      "publicationAuthorized": false,
+      "summary": "Separate Product Family/Kind, Product subject, Version, semantic meaning, realization and occurrence; preserve C15/C16/C22/C25-C28/C32/C34-C36.",
+      "linkedS02CaseIds": [
+        "C15",
+        "C16",
+        "C22",
+        "C25",
+        "C26",
+        "C27",
+        "C28",
+        "C32",
+        "C34",
+        "C35",
+        "C36"
+      ],
+      "clauses": [
+        {
+          "topic": "BPS/PIN identity authority",
+          "position": "BPS/PIN retains Productness, Family/Kind, intrinsic Product identity, governing Product/Version and Promise authority."
+        },
+        {
+          "topic": "Identity dimensions",
+          "position": "Family, Kind, separately constituted Product, Product Version, GEARM semantic definition, realization, deployment and occurrence remain distinct."
+        },
+        {
+          "topic": "Instance non-equivalence",
+          "position": "The same Product Kind, semantic specification, numerical output or runtime does not make separately governed Products the same instance."
+        },
+        {
+          "topic": "GEARM meaning",
+          "position": "GEARM governs definitions, context, analytical methods, historical semantic versions and Definition/Occurrence distinctions."
+        },
+        {
+          "topic": "Meaning-bearing constitution",
+          "position": "Governing Information Need/intent, context, interpretation, methods, population, temporal semantics and assumptions are independent of implementation machinery."
+        },
+        {
+          "topic": "Conditional invariance",
+          "position": "Changing eligible providers, engines, APIs, deployments, PFI paths, hosting or publication format does not independently establish Family change."
+        },
+        {
+          "topic": "Invariance vs conformance",
+          "position": "Intrinsic Family continuity, Product identity, semantic equivalence and operational conformance require separate evidence."
+        },
+        {
+          "topic": "No payload shortcut",
+          "position": "Identical numbers, schemas, metric labels or ports do not prove equivalent semantic meaning or Product identity."
+        },
+        {
+          "topic": "Occurrence and parameters",
+          "position": "Permitted runtime context values and output occurrences do not automatically constitute new Product Versions; changed governing context rules may."
+        },
+        {
+          "topic": "Historical semantics",
+          "position": "History remains governed by the semantic definitions and effective periods applicable when an occurrence was formed or published."
+        },
+        {
+          "topic": "Latest vs current",
+          "position": "Latest source/Product/definition/policy Versions do not silently overwrite historical evidence or automatically become eligible for an existing consumer."
+        },
+        {
+          "topic": "Authorized evolution",
+          "position": "Material changes in governing meaning, Promise or essential constitution require accountable semantic/Product-Version/family assessment."
+        },
+        {
+          "topic": "Unauthorized drift",
+          "position": "PFI, compiler, external provider or runtime success does not authorize changing governing metric semantics; incorrect substitution is assessed as nonconformance."
+        },
+        {
+          "topic": "Provider and dependencies",
+          "position": "External mathematics/AI capability substitution requires eligible contract, binding and assurance assessment without automatic Family inheritance."
+        },
+        {
+          "topic": "C15 retained",
+          "position": "C15 matching metric/port with changed meaning remains SEMANTIC_CHANGE."
+        },
+        {
+          "topic": "C16 retained",
+          "position": "C16 historical report after metric revision remains IDENTITY_OR_OCCURRENCE."
+        },
+        {
+          "topic": "C22 retained",
+          "position": "C22 equivalent informational Kind across three enterprise-specific realizations remains INVARIANCE_SUPPORTED conditional on evidence."
+        },
+        {
+          "topic": "C25 retained",
+          "position": "C25 repository/build/deployments versus Product subject remains IDENTITY_OR_OCCURRENCE."
+        },
+        {
+          "topic": "C26 retained",
+          "position": "C26 external mathematics API dependency substitution remains INVARIANCE_SUPPORTED under governed equivalence."
+        },
+        {
+          "topic": "C27 retained",
+          "position": "C27 equal numeric results with different governed meaning remains SEMANTIC_CHANGE; permitted occurrence parameter changes remain distinguished."
+        },
+        {
+          "topic": "C28 retained",
+          "position": "C28 permitted asset/time parameter variation remains IDENTITY_OR_OCCURRENCE."
+        },
+        {
+          "topic": "C32 retained",
+          "position": "C32 PDF/API representation substitution remains INVARIANCE_SUPPORTED under preserved meaning."
+        },
+        {
+          "topic": "C34 retained",
+          "position": "C34 PFI replacing specified VWAP with an unapproved estimator remains SEMANTIC_CHANGE; unauthorized drift is not new semantic authority."
+        },
+        {
+          "topic": "C35 retained",
+          "position": "C35 independently owned enterprise Product subjects using the same Kind/spec remain IDENTITY_OR_OCCURRENCE."
+        },
+        {
+          "topic": "C36 retained",
+          "position": "C36 shared runtime serving many independent Products remains INVARIANCE_SUPPORTED."
+        },
+        {
+          "topic": "Artifact boundaries",
+          "position": "INFOPROD, INFOPDS, HPD, Blueprint Binding, Compilation Record and BPS DPP have separate jurisdiction."
+        },
+        {
+          "topic": "Source/release limitations",
+          "position": "No normative Product identity/qualification, real semantic-equivalence proof or full conformance is issued."
+        }
+      ],
+      "originalCaseDispositions": {
+        "C15": "SEMANTIC_CHANGE",
+        "C16": "IDENTITY_OR_OCCURRENCE",
+        "C22": "INVARIANCE_SUPPORTED",
+        "C25": "IDENTITY_OR_OCCURRENCE",
+        "C26": "INVARIANCE_SUPPORTED",
+        "C27": "SEMANTIC_CHANGE",
+        "C28": "IDENTITY_OR_OCCURRENCE",
+        "C32": "INVARIANCE_SUPPORTED",
+        "C34": "SEMANTIC_CHANGE",
+        "C35": "IDENTITY_OR_OCCURRENCE",
+        "C36": "INVARIANCE_SUPPORTED"
+      }
+    },
+    {
+      "id": "G04-D08-F01",
+      "gate": "G04",
+      "title": "Cross-Case Necessity, Joint Sufficiency and False-Positive/False-Negative Assessment",
+      "ownerDisposition": "APPROVED",
+      "ownerReviewedResearch": true,
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "researchOnly": true,
+      "qualificationIssued": false,
+      "publicationAuthorized": false,
+      "summary": "Q1-Q4 universal necessity and Q0-Q4 joint sufficiency NOT_ESTABLISHED; avoid claiming empirical classifier rates from hypothetical cases.",
+      "linkedS02CaseIds": [
+        "C02",
+        "C07",
+        "C09",
+        "C12",
+        "C18",
+        "C20",
+        "C21",
+        "C31"
+      ],
+      "clauses": [
+        {
+          "topic": "Logical strength",
+          "position": "Hypothetical supporting cases do not prove universal necessity/sufficiency; counterexamples to proxy rules do not automatically refute the fully specified Q0-Q4 conjunction."
+        },
+        {
+          "topic": "Q0",
+          "position": "Independent BPS Productness is a generic prerequisite requiring exact-subject evidence and adopted BPS source authority."
+        },
+        {
+          "topic": "Q1",
+          "position": "Primary informational VBE remains a candidate with non-circular boundedness/coherence criteria and universal necessity not established."
+        },
+        {
+          "topic": "Q2",
+          "position": "Meaning-bearing constitution remains investigatory, with human/editorial/static/AI and machine-executable formation allowed where eligible."
+        },
+        {
+          "topic": "Q3",
+          "position": "Consumable informational EVC remains candidate; no universal active runtime, owned engine, API or delivery-form requirement."
+        },
+        {
+          "topic": "Q4",
+          "position": "Coherent PIN/identity remains generic BPS-aligned; family-specific universal necessity not established."
+        },
+        {
+          "topic": "Q5",
+          "position": "Competing-family and Compound review is procedural/evidential and not an intrinsic Product attribute."
+        },
+        {
+          "topic": "Necessity status",
+          "position": "Q1-Q4 individually universally necessary: NOT_ESTABLISHED; this is not a proof they are unnecessary."
+        },
+        {
+          "topic": "Joint sufficiency status",
+          "position": "Q0-Q4 sufficient for Information Product Family: NOT_ESTABLISHED; this is not a formal refutation of the conjunction."
+        },
+        {
+          "topic": "False-positive controls",
+          "position": "Challenge classification of non-Product Information, enriched Data, generic Analytics, AI effects, Creative content and multi-Promise bundles."
+        },
+        {
+          "topic": "False-negative controls",
+          "position": "Challenge overly narrow engine, active-refresh, narrative, interaction-count, AI-exclusion, single-Promise and realization-uniformity requirements."
+        },
+        {
+          "topic": "No empirical rates",
+          "position": "No precision, recall, false-positive rate or false-negative rate is claimed from hypothetical unadjudicated casework."
+        },
+        {
+          "topic": "Evidence discipline",
+          "position": "Cases with unknown governing authority, Productness or contradictory Promise retain INSUFFICIENT_EVIDENCE, CONFLICT_REVIEW or BOUNDARY_UNRESOLVED as appropriate."
+        },
+        {
+          "topic": "Case preservation",
+          "position": "G04 does not rewrite C01-C36 original hypothetical dispositions, S02 F01-F16 falsification outcomes or S03-T01-T20 research assessments."
+        },
+        {
+          "topic": "Authority preservation",
+          "position": "BPS, GEARM, Data/AI/Service/Creative families, BPS Compound and HDIP/UPOS remain independently authoritative; no family precedence invented."
+        },
+        {
+          "topic": "Artifact and qualification separation",
+          "position": "INFOPROD, INFOPDS, HPD, BPS DPP, operational conformance, trust, readiness, maturity and authorization are separate."
+        },
+        {
+          "topic": "Normative-source holds",
+          "position": "Canonical source pins, compound rules, compatibility, necessary/sufficient evidence and explicit release authorization remain open."
+        },
+        {
+          "topic": "Next gate scope",
+          "position": "D08 acceptance permits only G04-D09 conditional research gate closure assessment, not normative adoption."
+        }
+      ],
+      "originalCaseDispositions": {
+        "C02": "BOUNDARY_UNRESOLVED",
+        "C07": "COMPETING_FAMILY",
+        "C09": "COMPETING_FAMILY",
+        "C12": "BOUNDARY_UNRESOLVED",
+        "C18": "BOUNDARY_UNRESOLVED",
+        "C20": "COMPETING_FAMILY",
+        "C21": "BOUNDARY_UNRESOLVED",
+        "C31": "BOUNDARY_UNRESOLVED"
+      }
+    },
+    {
+      "id": "G04-D09-F01",
+      "gate": "G04",
+      "title": "Consolidated Conditional Research Findings and Gate Closure Assessment",
+      "ownerDisposition": "APPROVED",
+      "ownerReviewedResearch": true,
+      "decisionDate": "2026-10-20",
+      "normative": false,
+      "researchOnly": true,
+      "qualificationIssued": false,
+      "publicationAuthorized": false,
+      "summary": "Close G04 as CLOSED_CONDITIONAL_RESEARCH, preserving original cases/tests, all Q0-Q5 proof limits, independent authorities, 12 G03 release holds, and G05-G07 pending.",
+      "linkedS02CaseIds": [],
+      "clauses": [
+        {
+          "topic": "Nine owner decisions",
+          "position": "G04-D01-F01 through G04-D09-F01 are owner-approved conditional research findings; G04-D09 approves their consolidation."
+        },
+        {
+          "topic": "Research scope",
+          "position": "Competing-family, Product boundary, identity, semantic invariance and qualification-falsification research review is complete within its stated evidence limits."
+        },
+        {
+          "topic": "No normative inference",
+          "position": "Owner review acceptance does not adopt normative INFOPS Product qualification, real Product certification, executable conformance or publication."
+        },
+        {
+          "topic": "Historical evidence",
+          "position": "Original S01-S03 research, S02 C01-C36 cases, F01-F16 tests, S03-T01-T20 hypothetical evaluations and historic S02/S03 PROPOSED source snapshots remain distinct and unchanged."
+        },
+        {
+          "topic": "Case dispositions",
+          "position": "Original conditional dispositions remain authoritative for their hypothetical subjects; G04 controlled variants do not overwrite them."
+        },
+        {
+          "topic": "Q0",
+          "position": "Independent BPS Productness remains prerequisite to definitive Product-family qualification."
+        },
+        {
+          "topic": "Q1-Q4",
+          "position": "Universal necessity and logical independence of candidate Information-family conditions are NOT_ESTABLISHED."
+        },
+        {
+          "topic": "Q0-Q4",
+          "position": "Joint sufficiency is NOT_ESTABLISHED, not formally disproven."
+        },
+        {
+          "topic": "Q5",
+          "position": "Competing-family and Compound review remains a procedural evidence gate, not constitutive Product semantics."
+        },
+        {
+          "topic": "False-positive and false-negative research",
+          "position": "Hypothetical tests show proxy vulnerabilities, not measured classifier precision/recall or independently adjudicated real Product labels."
+        },
+        {
+          "topic": "Independent source authorities",
+          "position": "BPS/PIN, GEDRM/GEDRA, GEARM/GEARA, AIPS/GEAIRM/GEAIRA, BOPS/GRNPS, HDIP-CLA/UPOS and all applicable family authorities remain separate."
+        },
+        {
+          "topic": "Compound boundary",
+          "position": "BPS retains Compound authority; family overlaps remain open without universal exclusivity or ad hoc precedence."
+        },
+        {
+          "topic": "Identity/realization",
+          "position": "Family/Kind, Product subject, Version, semantic meaning, realization, deployment and occurrence remain distinct."
+        },
+        {
+          "topic": "PFI non-authority",
+          "position": "Golden paths, hosting and compiled machinery cannot create Productness or silently change the governing Promise or meaning."
+        },
+        {
+          "topic": "Artifact distinctions",
+          "position": "INFOPROD semantics, INFOPDS realization, HPD projection, BPS DPP trust and family-native descriptors do not substitute for one another."
+        },
+        {
+          "topic": "DPP universality",
+          "position": "BPS DPP Core is conceptually universal; canonical Core namespace/Version, Information Profile and issuance/conformance remain unadopted."
+        },
+        {
+          "topic": "Independent assessments",
+          "position": "Productness, Family qualification, operational/semantic conformance, assurance, passport issuance, maturity and authorization remain separate."
+        },
+        {
+          "topic": "Open G03 holds",
+          "position": "All G03-R01-R12 unresolved source, qualification, interoperability and release obligations remain open; G04 resolves none."
+        },
+        {
+          "topic": "Gate closure",
+          "position": "S04-G04 is CLOSED_CONDITIONAL_RESEARCH effective 2026-10-20 by explicit D09 owner approval."
+        },
+        {
+          "topic": "Other gates",
+          "position": "G01-G03 remain closed research; G05-G07 PENDING and S04 overall not closed."
+        },
+        {
+          "topic": "No automatic next step",
+          "position": "D09 does not start G05-G07 or authorize repository publication, Product certification, schemas or a normative release."
+        },
+        {
+          "topic": "Conversation provenance",
+          "position": "Owner decisions originate from the 2026-10-20 conversation; this overlay materializes their reviewed positions and does not assert a live GitHub merge or external authority consent."
+        }
+      ],
+      "originalCaseDispositions": {}
+    }
+  ],
+  "qStatus": {
+    "Q0": "INHERITED_INDEPENDENT_BPS_PRODUCTNESS_PREREQUISITE",
+    "Q1": "CANDIDATE_UNIVERSAL_NECESSITY_NOT_ESTABLISHED",
+    "Q2": "CANDIDATE_UNIVERSAL_NECESSITY_NOT_ESTABLISHED",
+    "Q3": "CANDIDATE_UNIVERSAL_NECESSITY_NOT_ESTABLISHED",
+    "Q4": "CANDIDATE_UNIVERSAL_NECESSITY_NOT_ESTABLISHED",
+    "Q5": "PROCEDURAL_ADJUDICATION_NOT_INTRINSIC_PRODUCT_PROPERTY",
+    "Q0_Q4_jointSufficiency": "NOT_ESTABLISHED",
+    "conjunctionFormallyRefuted": false,
+    "empiricalFalsePositiveNegativeRatesEstablished": false
+  },
+  "unresolvedFamilyOverlaps": [
+    "DATA_INFORMATION",
+    "SERVICE_INFORMATION",
+    "AI_INFORMATION",
+    "CREATIVE_INFORMATION",
+    "COMPOUND_SINGLE_FAMILY"
+  ],
+  "allG03ReleaseHoldsRemainOpen": true,
+  "subsequentGates": {
+    "G05": "PENDING",
+    "G06": "PENDING",
+    "G07": "PENDING"
+  },
+  "originalS02S03CaseSourcesUntouched": true,
+  "repositoryPublicationNotAuthorized": true,
+  "releaseOrCertificationNotAuthorized": true
+}

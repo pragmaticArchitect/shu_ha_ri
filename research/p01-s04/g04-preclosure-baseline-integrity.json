@@ -1,0 +1,342 @@
+{
+  "project": "INFOPS",
+  "gate": "G04",
+  "recordType": "PRE_G04_SOURCE_ARCHIVE_HASHES",
+  "sourceArchive": "INFOPS-P01-S04-G01-G03-owner-approvals-complete.zip",
+  "sourceArchiveSha256": "57e5050dc21095789dd6d01b54859ba48fac0989c11b0e68d9f50c90a1c5ec6f",
+  "sourceArchiveFileCount": 82,
+  "sourceArchiveZipRoot": "shu_ha_ri/",
+  "asOf": "2026-10-20",
+  "normative": false,
+  "purpose": "Preserve all baseline-file checksums before adding G04 owner approvals; historical G01-G03 overlay manifest is NOT rewritten.",
+  "files": [
+    {
+      "path": "INFOPS-P01-S04-MERGE-NOTES.md",
+      "sha256": "2529d347c34b0fa63f218a7ede7c5058f3baa6427438ee77104c92199d241817"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c06913456cebe7dc8c876d8702a29dfbb1d2542b271158bec7d541ba4c3cdf45"
+    },
+    {
+      "path": "docs/conformance/overview.md",
+      "sha256": "3a0bb3acfd46ebd41ef29139c161bdafed16dd55347500c755b0d07b82ee76b1"
+    },
+    {
+      "path": "docs/descriptors/strategy.md",
+      "sha256": "22b6549e0115f7b9f0cb1838f37ee7c1b30fcf9ba4cacece97bf36c805c3009f"
+    },
+    {
+      "path": "docs/foundations/authority-map.md",
+      "sha256": "61f2d967f1622b8128046e78e48fc26cca253a1b2d7a09420c14b0590b7ccd23"
+    },
+    {
+      "path": "docs/foundations/crude-oil-to-driver-teaching-analogy.md",
+      "sha256": "1f7d71a93cffaf0360979efbee2d990bb9f95ff9b7419f35b5b2232da397170a"
+    },
+    {
+      "path": "docs/governance/change-control.md",
+      "sha256": "fc2a0a34027ccc6a750e98d24414463d3ed4a43ef248ea1da270b47ce5fc57ea"
+    },
+    {
+      "path": "docs/governance/contributing.md",
+      "sha256": "9fb9a981bbcf5383d71b3635fb70311b9550c0d36be97ae3a3e10db1fc7fd5c5"
+    },
+    {
+      "path": "docs/infopch/overview.md",
+      "sha256": "da073c837fe8c9d5a7707514c4ae6bc9e1096c3eeae636d0e1f0bc5ff60f4dfe"
+    },
+    {
+      "path": "docs/integration/hdip-upos.md",
+      "sha256": "8713379fd0aba383da91db4cd4143ced10a6e7d4c1038adf6ccf50c76d7f1a4c"
+    },
+    {
+      "path": "docs/intro.md",
+      "sha256": "03892f214da4efbe17ccdf1dd5a01a3f796af2dd7052b723ff7e21aa77df1b70"
+    },
+    {
+      "path": "docs/ontology/overview.md",
+      "sha256": "52feb2f0c1f94bc914163a9cb9210ad769c784ea9bc7f55c57d856ca95d36325"
+    },
+    {
+      "path": "docs/ontology/p01-stage-01-authority-and-ontology-baseline.md",
+      "sha256": "859bb9f2b7dc5ee2e15c7f2bf0cda26a96ce8635585b4ddfba9246705ce9b25c"
+    },
+    {
+      "path": "docs/ontology/p01-stage-01-classification-cases.md",
+      "sha256": "21f3d693021edaaa913553e3e188211c37ede07fc40acc742f1e89fd5f21b052"
+    },
+    {
+      "path": "docs/ontology/p01-stage-01-ontology-review.md",
+      "sha256": "46e526ad5739a21f1811224b50ef4adb9d84b7b6d9e492c76bcd61d6dad9cbea"
+    },
+    {
+      "path": "docs/ontology/p01-stage-01-realization-stress-tests.md",
+      "sha256": "649fad02ae46558d789a15452a38eb83a094792460bc0331a1ad39b889fe61c6"
+    },
+    {
+      "path": "docs/ontology/p01-stage-02-case-disposition-ledger.md",
+      "sha256": "181133aca1461096495a811a863acf888964372c683996483db47ca5fd5c33f7"
+    },
+    {
+      "path": "docs/ontology/p01-stage-02-cross-enterprise-realization-tests.md",
+      "sha256": "c15fc34f3cd78b74d4affc2d8b7bf7710f120877f42518699cd9b2f25e6f5779"
+    },
+    {
+      "path": "docs/ontology/p01-stage-02-hypothesis-dispositions.md",
+      "sha256": "fca9d2c169d1058f031c3ed762dca3e93f2b1c7d9863b96c778f7b4a4cc6d20c"
+    },
+    {
+      "path": "docs/ontology/p01-stage-02-owner-approved-decisions.md",
+      "sha256": "f90f9e89b5094f73f8b8a187fea11c35b5b880c7ed9d3d0447f90f0bb9f41aeb"
+    },
+    {
+      "path": "docs/ontology/p01-stage-02-pin-differentiation-falsification.md",
+      "sha256": "aa29ab64eb57767aaa314ffdd9f411e0ee03936145bc9dc6f7ce6154869e0a16"
+    },
+    {
+      "path": "docs/ontology/p01-stage-03-boundary-casework.md",
+      "sha256": "81ded9b19910771bd9232102007f0f48edaeb356a83b484469b07f5784c8f65a"
+    },
+    {
+      "path": "docs/ontology/p01-stage-03-candidate-qualification-rules.md",
+      "sha256": "34ed70c4d57fd87f6af1b87effa784297d7371cbefe71ab639545332e9e9c258"
+    },
+    {
+      "path": "docs/ontology/p01-stage-03-decision-procedure.md",
+      "sha256": "53fed6b6279db23c481e8f829fdcabcd28efacf91683a6960234441d343e29e3"
+    },
+    {
+      "path": "docs/ontology/p01-stage-03-owner-approved-decisions.md",
+      "sha256": "085f5a8d7d9fc8dbb3b9a7f0545645f884aa75211b9001fa8e2be5ef27793fc9"
+    },
+    {
+      "path": "docs/ontology/p01-stage-03-pfi-semantic-invariance.md",
+      "sha256": "736c1433f3cd559a34d503655d3ce481de0120e97ab18d848c10ceb2b6421114"
+    },
+    {
+      "path": "docs/ontology/p01-stage-03-review-decisions.md",
+      "sha256": "f0deded80275fd1b48b9eb3f8c7a30f8e07dc4b16b359b1005010888d976de6d"
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-artifact-boundaries.md",
+      "sha256": "db1e76f074d73a87db0d65e10d23caaadc0102a97dbaffcd33ca563d8ceb336e"
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-g01-closure-basis.md",
+      "sha256": "c1bd8ec31e14a22b7bab29ea39d04fe84dcc1b7513cd94e78e1e44999d5a5f7c"
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-g04-plan.md",
+      "sha256": "33746ef6608aee5b172a1edd9dc55fbec287c96dc4fb6ac8cddfc3e0b71ac740"
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-overview.md",
+      "sha256": "6b07038b831c2bd3378e4b40a7fe2b2aeaf33f46937e1ce7671639bb52aed337"
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-owner-decisions.md",
+      "sha256": "ec7637d5cdeb1411413e188f28dc8398e00307d56779dc5aa2af07f92458b012"
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-release-holds.md",
+      "sha256": "975abe93c60c0126fd125c6d8177dfb6728309a10e45b1ad32ca04079fa4d18a"
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-source-authorities.md",
+      "sha256": "954af50bac0050a948e537bbe13d253666f7b581550f337504febf34aa9329dc"
+    },
+    {
+      "path": "docs/ontology/qualification-boundary.md",
+      "sha256": "6d88b0a6aa1d7f8cf437661decb6cee77853f9c08a929c1e6a1bfb7b22414aa5"
+    },
+    {
+      "path": "docs/pmdd/assessment-guidance.md",
+      "sha256": "76d364d9bc361158694b2b6512643d53bb4ef4ff6f49c9201638646606c88654"
+    },
+    {
+      "path": "docs/pmdd/overview.md",
+      "sha256": "d21570745c0cf88bafb45227c0b04723c94c2d1d3e0cf540afb9ea13e0cf0a4f"
+    },
+    {
+      "path": "docs/reference-implementation/overview.md",
+      "sha256": "8c4a9a856e98fcf7c4fb5a7dc1864e161a11b4522e144ee36a710bed319b4cd2"
+    },
+    {
+      "path": "docs/reference/glossary.md",
+      "sha256": "663430bebd57d5efb39b7c3ae6be3b3b0f9f0ba6e31b230f3ce445535bb9e3e4"
+    },
+    {
+      "path": "docs/specification/overview.md",
+      "sha256": "06be6001f29e3b274d32134b38f334ac1b8cc7935c119bd52b802b86fde7691a"
+    },
+    {
+      "path": "docs/specification/roadmap.md",
+      "sha256": "5cdea8be29228ac25424bdc26b2d25e43e59f1933b526053c4e148e65eb99196"
+    },
+    {
+      "path": "docs/specification/status.md",
+      "sha256": "659609d0795e2f511be5d8c4d63bf563b2b43fd9789c6570dec1ee64a62a1c9a"
+    },
+    {
+      "path": "docusaurus.config.js",
+      "sha256": "78553f60e98cc8c9708342163426c14ecfe2e99ca87580bfe38be0ddde12ada3"
+    },
+    {
+      "path": "package.json",
+      "sha256": "f4b77381ea28e0e3ba99f314ec18c3b3470f949aec1e7cbedccff485ed8d7395"
+    },
+    {
+      "path": "research/p01-s02/cases.json",
+      "sha256": "770b64be7cc628a786382e37c986a50dac29484b08b67bda83c02556b0062d4f"
+    },
+    {
+      "path": "research/p01-s02/hypothesis-tests.json",
+      "sha256": "489492c5ec215aa141e83372f262926d41ce231e5c5f02656cb59953edd93ed7"
+    },
+    {
+      "path": "research/p01-s02/owner-approval-addendum.json",
+      "sha256": "7c8831a2713c0d2b11e02800feb23c01c2e19a53d02cf4dd5f650d450cf8f084"
+    },
+    {
+      "path": "research/p01-s02/realization-experiments.json",
+      "sha256": "ec0126dccba5e71c3861e0b32ab032dd5639aa57e07368ce1483ad720992497d"
+    },
+    {
+      "path": "research/p01-s02/research-decisions.json",
+      "sha256": "e38f2edf5172d3a938f15af1b9afe4fabbb6c440debb78ce5f710370ca0c8a8b"
+    },
+    {
+      "path": "research/p01-s03/baseline-integrity.json",
+      "sha256": "2991c5a3de5c8beec9d5c379b57772f4ca069a8876c7cdbbb2e849ca11cb256b"
+    },
+    {
+      "path": "research/p01-s03/candidate-rules.json",
+      "sha256": "125f78e8d7d4288035a3fbf5829308c5576a46869d8d9b9b8ffc141ea48924ee"
+    },
+    {
+      "path": "research/p01-s03/case-evaluations.json",
+      "sha256": "317bcbde834608d73ebff68b7ee8b8e5c8773a0529c02211c7e521bcdacf44f6"
+    },
+    {
+      "path": "research/p01-s03/owner-approval-addendum.json",
+      "sha256": "8b1965878f425c6a7a2c6e1d4115387d63f186e48ab96fef40456d119a4e4709"
+    },
+    {
+      "path": "research/p01-s03/review-decisions.json",
+      "sha256": "fc6552e17fd3a8027c0f25918f25460461eff16c485effb97691f3bebb5e5754"
+    },
+    {
+      "path": "research/p01-s03/teaching-analogy.json",
+      "sha256": "93cb5d50ff78665b80e79f0457cecd332cb661c4c4b6834ad5a3103251bc1d66"
+    },
+    {
+      "path": "research/p01-s04/baseline-reconciliation.json",
+      "sha256": "e8cf7526df0783f5fe47f58e07d184343bb9d1aa22af8b0b170897bbedf6b630"
+    },
+    {
+      "path": "research/p01-s04/g04-proposed-owner-review-sequence.json",
+      "sha256": "d79d80fc8353e8c6957b17405a0426cf47635bf20d4d8788d47a87bc178ec46d"
+    },
+    {
+      "path": "research/p01-s04/normative-release-holds.json",
+      "sha256": "8aae6f7e9fe353f0f1b3f902ce9de2cef56a094e4ce5d15a6528e9668d08d97b"
+    },
+    {
+      "path": "research/p01-s04/overlay-manifest.json",
+      "sha256": "64352865497d22a446c0ee6a370ff5d16d2cebc633840dd1c1b854d2be7eb1b3"
+    },
+    {
+      "path": "research/p01-s04/owner-decision-register.json",
+      "sha256": "6d37292eec5103f720fceb81ab8b111a8eb4edfbbb81cb5ad73a0fc1384ca4a5"
+    },
+    {
+      "path": "research/p01-s04/research-state.json",
+      "sha256": "d366846960fc8b7366995ec03edf0ee49d4106a51eda32a6a3f00069d4b8d281"
+    },
+    {
+      "path": "research/p01-s04/s02-s03-owner-approvals.json",
+      "sha256": "e1a003f18fee3101e6b7ba8e8c9209109b1311a0e073a6db62882ef2c5122c6b"
+    },
+    {
+      "path": "research/p01-s04/s03-protected-file-hashes.json",
+      "sha256": "714b42408d6ca4d6e4a25aa51c6e9140556c881c9cb07a3dc049a45b0538927c"
+    },
+    {
+      "path": "research/p01-s04/source-authority-register.json",
+      "sha256": "5e44b70a48f41131b875a6c4a9a8397f53fd0259370aefbbff441e439ad9d40b"
+    },
+    {
+      "path": "scripts/run-p01-s02-synthetic-probes.py",
+      "sha256": "811031902d48ebcfdad5a0f49041ae2b15042982ee2e5f022d4805ec8517eb79"
+    },
+    {
+      "path": "scripts/validate-infops-p01-s02.py",
+      "sha256": "9675e5d0c2d18324065c78a8b30015e05ccea96b6d959bf2d162a2e0e23e1045"
+    },
+    {
+      "path": "scripts/validate-infops-p01-s03.py",
+      "sha256": "79c4a399ce2ba2264d1dfbc0e210f331d6267a6aee7ba865ca5079a6c3127d02"
+    },
+    {
+      "path": "scripts/validate-infops-p01-s04.py",
+      "sha256": "a547eb649105cac653fbdcee5a1b11d2eb0f29750099d251aa4c927d0ab8d4ea"
+    },
+    {
+      "path": "scripts/validate-infops-scaffold.py",
+      "sha256": "9643288b4ec05c71f532759e5532e7047df2b561811f7e3c5d5e5e639440c08e"
+    },
+    {
+      "path": "sidebars.js",
+      "sha256": "059aa8fe32a80aaf0f15ccd7e5586813c312bbf7cee4e8d62087811948aba77e"
+    },
+    {
+      "path": "src/css/custom.css",
+      "sha256": "5b6bc170eff27b7fdb2c8211689bd990766de64a8eacf95775a15e30fbd8f2ab"
+    },
+    {
+      "path": "src/pages/INFOPCH-PMDD-guidance/index.md",
+      "sha256": "8e719df059889b86049b92cccfbc9510505b5ad9c14102cc678ba3abab052e6e"
+    },
+    {
+      "path": "src/pages/index.js",
+      "sha256": "05630f2905f73d17a1c8aa854cfcbc22ffa74a05699967f16c4d58f034afa1b3"
+    },
+    {
+      "path": "src/pages/index.module.css",
+      "sha256": "dc3a01e453dc2f4176c907b6c3018a365d4660a93f1d7bb0e0cc87232d1a1b23"
+    },
+    {
+      "path": "static/img/favicon.svg",
+      "sha256": "91ddeff5765fd3ae011cf862b6de09606d4f06641864bb6560bad037748cf6bc"
+    },
+    {
+      "path": "static/img/infops-mark.svg",
+      "sha256": "d880d97bde87200ff42f821055c552d49fb3eb08f73aebd300d50ffdecc714b2"
+    },
+    {
+      "path": "static/spec/infops/0.1/README.md",
+      "sha256": "2e3f204e92a54c5e5df2770e7af8a79eeb16c6f4fd1309dcaed43e56f823fa29"
+    },
+    {
+      "path": "static/spec/infops/0.1/scaffold-state.json",
+      "sha256": "b40da5e02e00f64571bc31ba48df827c1ad2299dee9c884ff817c716c2c6cda5"
+    },
+    {
+      "path": "templates/agent-assessment-guidance.md",
+      "sha256": "e1b8beb29f96614587c177b6c15d315c15a9269c424832b066b87ae06b076fae"
+    },
+    {
+      "path": "templates/infopch-characteristic.md",
+      "sha256": "87d658f842cef3a83486a61d6c05c2437234a7e928912be2a3c5a90295998950"
+    },
+    {
+      "path": "templates/qualification-case.md",
+      "sha256": "1fc1b3a1d7c3c276837495513702164f93bd446fdd0f1da3db5091e7639d96b9"
+    }
+  ]
+}

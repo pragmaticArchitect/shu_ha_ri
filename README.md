@@ -8,30 +8,34 @@ INFOPS will define Information Product family qualification consistent with **BP
 
 The original P01 Stage 1 baseline and review remain preserved. Stage 2 (`docs/ontology/p01-stage-02-pin-differentiation-falsification.md`) contains 36 conditional case dispositions, ten PFI thought experiments and 16 falsification tests. Stage 3 adds `docs/ontology/p01-stage-03-candidate-qualification-rules.md`, a review procedure, 20 additional boundary cases, a PFI invariance protocol and explicit owner review decisions. The original and refined KivaNura crude-oil-to-driver analogy is retained at `docs/foundations/crude-oil-to-driver-teaching-analogy.md` as **informative only**. The `research/p01-s02/` and `research/p01-s03/` files are non-normative evidence/traceability records and scripts do **not** certify any Product or PFI. **Joint sufficiency of candidate qualification conditions is unproven**; no INFOPCH maturity assessment, descriptor contract or conformance claim has been issued.
 
-## Owner-reviewed Stage 4 overlay (19 October 2026)
+## Owner-reviewed Stage 4 consolidation (20 October 2026)
 
-**G01 (15/15), G02 (7/7) and G03 (10/10) owner-reviewed research findings have completed review.** G03-D10-F01 conditionally closes the source authority research gate; BPS/PIN, GEARM and BPS DPP normative source adoption is incomplete, and **G04 has not yet started**. Original S03 evidence and historic PROPOSED decisions remain preserved in their own sources.
+**G01 (15/15), G02 (7/7), G03 (10/10), and G04 (9/9) have completed conditional owner-reviewed research.** G04-D09-F01 approved `CLOSED_CONDITIONAL_RESEARCH` closure on 20 October 2026. This gives **41 distinct approved research decisions**, counting the fifteen S02/S03 antecedents once as the G01 closure basis. **G05-G07 are PENDING and NOT STARTED.** INFOPS 0.1 is NOT a normative qualification standard and all G03-R01-R12 release holds remain open.
 
-S04 review pages: `docs/ontology/p01-stage-04-overview.md` (gateway), `p01-stage-04-owner-decisions.md`, `p01-stage-04-source-authorities.md`, `p01-stage-04-artifact-boundaries.md`, `p01-stage-04-release-holds.md`, and `p01-stage-04-g04-plan.md`. Research-only JSON evidence is in `research/p01-s04/`, checked by `scripts/validate-infops-p01-s04.py`.
+Primary source and decision pages:
 
-- Owner-approved architecture direction: Information-native **INFOPROD** (semantic descriptor) and **INFOPDS** (realization/deployment contract); **BPS DPP** is cross-family and will have an Information-specific trust Profile; **HDIP HPD** remains a non-authoritative operational projection.
-- All these proposed artifacts are **non-normative**. No Information Product is certified, no DPP Profile is released, and the necessary/sufficient Product-family predicate remains unproven.
-- The source S03 cumulative ZIP contains **68 repository files**. The S04 overlay is relative to that baseline and contains only S04-added or S04-modified paths. It is **not** a full repository checkout and contains no `.git` data.
-- The source available for packaging records G01 as **15 owner-reviewed findings**, but does not contain their verbatim individual texts. This overlay preserves the gate-level finding without inventing missing G01 descriptions.
+- [S04 overview](docs/ontology/p01-stage-04-overview.md), [G01-G04 owner decision register](docs/ontology/p01-stage-04-owner-decisions.md).
+- [G04 owner-approved decisions D01-D09](docs/ontology/p01-stage-04-g04-owner-approved-decisions.md) - full reviewed research findings.
+- [G04 final closure record](docs/ontology/p01-stage-04-g04-closure-record.md) - approval, case/test reconciliation, Q0-Q5, normative holds and next-gate limits.
+- [Source authority](docs/ontology/p01-stage-04-source-authorities.md), [artifact boundaries](docs/ontology/p01-stage-04-artifact-boundaries.md), [release holds](docs/ontology/p01-stage-04-release-holds.md).
 
-### Applying the S04 overlay
+Machine-readable G04 approvals are in `research/p01-s04/g04-owner-approved-decisions.json`. Reconciliation ledgers cover **36 original S02 cases**, **16 original S02 tests**, and **20 original S03 cases**, without modifying those earlier research files. The earlier G04 proposal plan and G01-G03 manifest remain historical snapshots; current approved dispositions reside in separate registers.
 
-From the **root of an INFOPS checkout that already includes P01-S03**, extract the S04 ZIP preserving relative paths. Review its changed file list before committing; retain any environment-specific `package-lock.json`, site URLs and local customization. This overlay does **not** update `.git`, remote branches, third-party repositories or machine-readable normative INFOPS schemas.
+**Q0** remains independently assessed BPS Productness; **Q1-Q4 universal necessity** and **Q0-Q4 joint sufficiency** remain **NOT ESTABLISHED**. **Q5** is a procedural competing-family and Compound review gate, not intrinsic Product nature. Cross-family overlaps and BPS Compound authority remain unresolved. No empirical classifier metrics or real Product certifications are claimed.
+
+Architectural research direction: **INFOPROD** = future Information-specific semantic descriptor; **INFOPDS** = future realization/deployment specification; **BPS DPP Core** = cross-family trust with future Information Profile; **HDIP HPD** = operational Product-Version projection. All remain independently governed and do not become normative by G04 approval.
+
+### Applying the G04 incremental owner-decision overlay
+
+Apply the new G04 ZIP **on top of exactly the previously delivered `INFOPS-P01-S04-G01-G03-owner-approvals-complete.zip` repository state**. The ZIP paths are relative to the INFOPS checkout root. Preserve `.git`, your existing `package-lock.json`, site deployment settings and independently changed files. Examine the overlay manifest before committing.
 
 ```bash
-unzip -o infops-0.1-p01-s04-g01-g03-owner-reviewed-research-overlay.zip
+unzip -o INFOPS-P01-S04-G04-D01-D09-owner-closure-overlay.zip
 npm run validate
 npm run build
 ```
 
-The `npm run validate` command runs both the preserved S01-S03 validators and the new S04 owner-review research validator. `npm run build` requires locally available Docusaurus dependencies (or a connected Netlify/CI build environment).
-
-The initial structure deliberately resembles the AIPS Docusaurus approach: documentation, characteristics/guidance, descriptors, machine-readable `static/spec` assets, validation scripts and CI.
+The G04 overlay neither updates remote GitHub nor writes normative Product qualification schemas. `npm run validate` checks previous S01-S03 research and current S04/G04 owner-approved research. The full Docusaurus build requires dependencies installed in the local or CI environment.
 
 ## Run locally
 
@@ -56,13 +60,13 @@ npm run serve
 
 ## GitHub / stage overlays
 
-For an **existing INFOPS repository already deployed on Netlify**, apply the **P01-S04 owner-reviewed research overlay ZIP** on top of the exact uploaded `INFOPS.zip` checkout rather than replacing the checkout. Its repository-relative paths contain only files added or modified since the S03 cumulative research baseline; retain your own `package-lock.json`, repository-specific configuration and independent files. Run `npm run validate` and `npm run build`, review and commit the changes.
+For an INFOPS repository already containing the G01-G03 owner-approved consolidation, apply the **G04 incremental overlay** at checkout root. For a repository still at original `INFOPS.zip`, use the earlier owner-baseline-to-G01-G03 overlay first, then this G04 overlay; do not substitute one for the other. Preserve `package-lock.json`, `.git`, environment settings and independently changed files. Run `npm run validate` and `npm run build` before committing.
 
 The full updated repository ZIP retains your original top-level `shu_ha_ri/` folder; the smaller overlay is rooted at the repo root. See `INFOPS-P01-S04-MERGE-NOTES.md` for the actual baseline-specific deployment instructions. After validating your local checkout:
 
 ```bash
 git add .
-git commit -m "Record INFOPS P01 S04 owner-reviewed G01-G03 research"
+git commit -m "Record INFOPS P01 S04 G04 D01-D09 conditional research closure"
 git push -u origin HEAD
 ```
 
@@ -106,6 +110,18 @@ SITE_URL=https://docs.example.org BASE_URL=/ npm run build
 ├── docusaurus.config.js
 └── sidebars.js
 ```
+
+
+### Owner-approved S02/S03 research decisions and S04-G01 closure
+
+The owner subsequently approved **S02-D01 to D06 (6)** and **S03-D01 to D09 (9)**, incorporating reviewed refinements. These **15 antecedent approvals** form the **S04-G01 research closure basis**, without creating another set of G01 decision IDs or double-counting the 32 S04-G01/G02/G03 owner-reviewed research decisions.
+
+- [S02 approval addendum](docs/ontology/p01-stage-02-owner-approved-decisions.md)
+- [S03 approval addendum](docs/ontology/p01-stage-03-owner-approved-decisions.md)
+- [S04-G01 closure basis](docs/ontology/p01-stage-04-g01-closure-basis.md)
+- Machine register: `research/p01-s04/s02-s03-owner-approvals.json`
+
+The original S02/S03 `PROPOSED` research files remain unchanged as historical source snapshots; **they no longer describe the current owner disposition**. The later approvals are non-normative, leave Q1–Q4 necessity and joint sufficiency unproven, and do not authorize Product certification, INFOPROD, INFOPDS, BPS DPP Profile or INFOPS 0.1 normative release.
 
 ## Authority and release rules
 

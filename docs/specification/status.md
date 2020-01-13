@@ -4,24 +4,29 @@ title: Status & Release Posture
 
 # Status and release posture
 
-> **CURRENT OWNER-REVIEWED RESEARCH POSITION (19 October 2026) - NOT NORMATIVE.** S04-G01, G02 and G03 are closed at their owner-reviewed research level. G03 closure is **conditional**, subject to source-version and adoption holds. G04 has been prepared but has not received owner disposition.
+> **CURRENT OWNER-REVIEWED POSITION (20 October 2026): G01-G04 CLOSED AT RESEARCH LEVEL; NOT NORMATIVE.** G04-D09-F01 approved conditional research closure. G05-G07 have not started. None of the twelve G03 source/release holds is discharged.
 
 | Area | State |
 |---|---|
-| Site / repository | Docusaurus baseline; existing Netlify/Webpack compatibility preserved |
-| P01-S01, S02, S03 source history | Preserved non-normative source files and historical S03 draft decision ledger |
-| **P01-S04-G01** | **CLOSED** - 15/15 owner-reviewed research findings; original G01 per-finding texts not reproduced in this overlay |
-| **P01-S04-G02** | **CLOSED** - seven owner-reviewed Q0-Q5/X01 research findings, with no sufficiency proof |
-| **P01-S04-G03** | **CLOSED - CONDITIONAL RESEARCH** - ten owner-reviewed decisions through D10; normative source adoption NOT READY |
-| **P01-S04-G04** | Prepared proposed nine-decision review sequence; **NOT YET OWNER ADJUDICATED** |
-| G05/G06/G07 | Pending; qualification/realization/maturity separation, evidence, and normative release governance |
-| BPS/PIN, GEARM and BPS DPP normative pins | Incomplete; release/adoption blockers carried forward |
-| INFOPROD, INFOPDS, Information DPP Profile | Architectural direction approved; formal semantic/deployment/trust specifications not yet adopted |
-| HDIP HPD | Operational projection only; not a family qualification or passport authority |
-| Actual Products qualified | **Zero** |
-| INFOPS family necessary-and-sufficient predicate | **Not established** |
-| INFOPS 0.1 normative publication | **NOT RELEASED / NOT AUTHORIZED** |
+| Programme | INFOPS 0.1 - non-normative research and proposed Product-family specification |
+| P01 S01 | Original research baseline preserved |
+| P01 S02 | 36 hypothetical cases, 16 falsification tests; six owner decisions subsequently approved forming G01 antecedents |
+| P01 S03 | Q0-Q5 candidate rules, 20 additional hypothetical evaluations; nine owner decisions subsequently approved forming G01 antecedents |
+| S04 G01 | CLOSED - owner-approved S02/S03 antecedents (15/15) |
+| S04 G02 | CLOSED - CONDITIONAL RESEARCH (7/7) |
+| S04 G03 | CLOSED - CONDITIONAL RESEARCH (10/10) |
+| **S04 G04** | **CLOSED - CONDITIONAL RESEARCH (9/9; G04-D09-F01 approved 2026-10-20)** |
+| S04 G05-G07 | PENDING; NOT STARTED |
+| P01 S04 overall | NOT CLOSED |
+| BPS Productness | Independent Product qualification precondition; normative source pin open |
+| Q1-Q4 necessity | NOT ESTABLISHED |
+| Q0-Q4 joint sufficiency | NOT ESTABLISHED (not formally disproven) |
+| Q5 | Competing-family adjudication procedure, not intrinsic Product property |
+| All G03-R01-R12 holds | OPEN |
+| Actual Product qualification/certification | NONE |
+| INFOPROD/INFOPDS/Information DPP Profile | NOT NORMATIVELY ISSUED |
+| Normative INFOPS 0.1 release/publication | NOT AUTHORIZED |
 
-See the [S04 overview](../ontology/p01-stage-04-overview.md), [owner decision register](../ontology/p01-stage-04-owner-decisions.md), [source authority inventory](../ontology/p01-stage-04-source-authorities.md), [artifact boundaries](../ontology/p01-stage-04-artifact-boundaries.md), [release holds](../ontology/p01-stage-04-release-holds.md) and [G04 proposed review plan](../ontology/p01-stage-04-g04-plan.md).
+Review [S04 owner research](../ontology/p01-stage-04-overview.md), [the G04 owner-approved findings](../ontology/p01-stage-04-g04-owner-approved-decisions.md), [G04 gate closure](../ontology/p01-stage-04-g04-closure-record.md), [G01-G04 decision register](../ontology/p01-stage-04-owner-decisions.md) and [unresolved G03 release holds](../ontology/p01-stage-04-release-holds.md).
 
-`research/p01-s04/research-state.json` records the current conversational owner-review projection. The earlier `static/spec/infops/0.1/scaffold-state.json` remains at its original S03 draft state on purpose, preserving historical traceability and the original S03 validator. Neither file constitutes a normative released INFOPS specification.
+The original S02/S03 research snapshots and historical `static/spec/infops/0.1/scaffold-state.json` remain preserved. The current owner-review projection is `research/p01-s04/research-state.json` and is explicitly non-normative. Neither state file constitutes an approved Information Product qualification or deployed conformance evidence.

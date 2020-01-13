@@ -8,9 +8,9 @@ title: INFOPS 0.1 - Programme Overview
 
 S01 established the ontology/authority hypotheses and early Product-family cases. S02 challenged shortcuts with 36 hypothetical cases, 16 falsification rules and ten PFI experiments. S03 prepared Q0-Q5 research criteria and 20 additional boundary cases. These original documents remain intact.
 
-**S04 status:** G01 is closed at owner-reviewed research level (15/15), G02 is closed with seven approved conditional findings, and G03 is closed **conditional research** with ten approved owner decisions through G03-D10-F01. G03 normative source-adoption status remains **NOT READY**; G04 adversarial family adjudication is prepared but not yet approved or begun.
+**S04 status:** G01 (15/15), G02 (7/7), G03 (10/10) and **G04 (9/9)** are closed at owner-reviewed research level. **G04-D09-F01** conditionally closed competing-family, Product-boundary, identity and falsification research on 20 October 2026. G03 normative source-adoption status remains **NOT READY**; G05-G07 remain pending and not started.
 
-Read [S04 owner research overview](../ontology/p01-stage-04-overview.md), [decision ledger](../ontology/p01-stage-04-owner-decisions.md), [upstream authority and versions](../ontology/p01-stage-04-source-authorities.md), [release holds](../ontology/p01-stage-04-release-holds.md) and [G04 plan](../ontology/p01-stage-04-g04-plan.md).
+Read [S04 owner research overview](../ontology/p01-stage-04-overview.md), [decision ledger](../ontology/p01-stage-04-owner-decisions.md), [upstream authority and versions](../ontology/p01-stage-04-source-authorities.md), [release holds](../ontology/p01-stage-04-release-holds.md) and [G04 approved findings](../ontology/p01-stage-04-g04-owner-approved-decisions.md) and [gate closure](../ontology/p01-stage-04-g04-closure-record.md).
 
 ### Approved architectural direction, not published artifact schemas
 

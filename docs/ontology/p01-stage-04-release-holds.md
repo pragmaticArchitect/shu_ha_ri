@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - Release Holds
 
 # G03 conditional closure: normative release blockers
 
-> **RESEARCH GATE CLOSED / NORMATIVE ADOPTION NOT READY.** These are retained source and compatibility obligations after owner approval of G03-D10-F01. Research may proceed to G04 with clearly stated candidate authority versions; certification and normative publication remain blocked.
+> **G03 AND G04 RESEARCH GATES CLOSED; NORMATIVE ADOPTION NOT READY (20 October 2026).** G04-D09-F01 conditionally closed the G04 research review, but none of the twelve G03-R01-R12 source/adoption blockers is resolved. The original Follow-up entries reflect G03 planning references and do NOT imply G04 has satisfied those holds. Certification and normative publication remain blocked.
 
 ## Tracked release holds
 
@@ -38,7 +38,7 @@ sidebar_label: P01-S04 - Release Holds
 | Assessment | Current conclusion |
 |---|---|
 | G01-G03 owner-reviewed research | **CLOSED** (G03 conditional) |
-| G04 competing-family adjudication | **PREPARED; NOT BEGUN** |
+| G04 competing-family adjudication | **CLOSED - CONDITIONAL RESEARCH (9/9 approved)** |
 | Exact normative source pinning | **INCOMPLETE** |
 | Definitive family necessary/sufficient proof | **NOT ESTABLISHED** |
 | INFOPROD / INFOPDS / Information DPP Profile | **NOT NORMATIVELY SPECIFIED** |

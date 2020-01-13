@@ -52,6 +52,6 @@ The owner-provided one-line summaries and approval count are available, but a fu
 
 ## Preserved boundary
 
-S02/S03 approvals and G01 closure authorize only the continuation of controlled research into the Information Product Family. Q0 remains independent BPS Productness; Q1-Q4 are investigatory Information-specific conditions with unproven necessity and joint sufficiency; Q5 remains procedural and not an intrinsic PIN dimension. INFOPROD, INFOPDS, HPD and BPS DPP remain separate authorities/artifacts. G04 is prepared but not owner-adjudicated; G03 source-version adoption blockers remain open.
+S02/S03 approvals and G01 closure authorize only the continuation of controlled research into the Information Product Family. Q0 remains independent BPS Productness; Q1-Q4 are investigatory Information-specific conditions with unproven necessity and joint sufficiency; Q5 remains procedural and not an intrinsic PIN dimension. INFOPROD, INFOPDS, HPD and BPS DPP remain separate authorities/artifacts. At the time of this G01 closure record G04 was prepared but not owner-adjudicated. Subsequently G04-D01-F01 through G04-D09-F01 were owner-approved on 20 October 2026 and G04 closed as conditional research; see [current G04 closure](./p01-stage-04-g04-closure-record.md). G03 source-version adoption blockers remain open.
 
 See the [S04 decision register](./p01-stage-04-owner-decisions.md), [source authority register](./p01-stage-04-source-authorities.md), [release holds](./p01-stage-04-release-holds.md) and [G04 proposed review](./p01-stage-04-g04-plan.md).

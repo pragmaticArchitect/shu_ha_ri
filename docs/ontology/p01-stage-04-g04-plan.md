@@ -5,7 +5,9 @@ sidebar_label: P01-S04 - G04 Review Plan
 
 # G04 competing-family and Compound Product adjudication
 
-> **PREPARED ONLY - G04 NOT YET OWNER-ADJUDICATED.** The sequence below is a proposed review programme following conditional G03 closure. IDs, scope and case allocation may be amended during owner review. No finding is approved merely by including it here.
+> **HISTORICAL PLAN SNAPSHOT (19 October 2026), SUPERSEDED BY LATER OWNER APPROVALS (20 October 2026).** The current G04 state is **CLOSED - CONDITIONAL RESEARCH**; see the [approved G04 decisions](./p01-stage-04-g04-owner-approved-decisions.md) and [final gate closure](./p01-stage-04-g04-closure-record.md). The original prospective programme wording below is retained for provenance.
+
+> **AS PREPARED BEFORE OWNER REVIEW - G04 NOT YET OWNER-ADJUDICATED.** The sequence below is a proposed review programme following conditional G03 closure. IDs, scope and case allocation may be amended during owner review. No finding is approved merely by including it here.
 
 ## Proposed one-decision-at-a-time sequence
 
@@ -51,4 +53,4 @@ Keep `PROVISIONAL_INFO_CANDIDATE`, `COMPETING_FAMILY`, `PRODUCTNESS_NOT_SHOWN`, 
 6. Carry unresolved source/adoption and Compound Product questions to G05-G07 without forced closure.
 7. Record each substantive finding under a distinct owner disposition before proceeding to the next decision.
 
-**Next proposed owner decision:** `G04-D01-F01 - Adjudication protocol, exact Product subject and evidence discipline`. Neither G04-D01 nor any later G04 item is approved by this overlay.
+**Historical as-prepared next action (19 October 2026, now superseded):** At the time this plan was written, `G04-D01-F01` was the next proposed review and no G04 items had been owner-approved. **Current owner decision (20 October 2026):** All nine `G04-D01-F01`–`G04-D09-F01` findings are now **APPROVED** as conditional research, and G04 is `CLOSED_CONDITIONAL_RESEARCH`. See the [S04 owner decision register](./p01-stage-04-owner-decisions.md), [full G04 approved findings](./p01-stage-04-g04-owner-approved-decisions.md) and [G04 closure record](./p01-stage-04-g04-closure-record.md).

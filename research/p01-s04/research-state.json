@@ -1,7 +1,7 @@
 {
   "project": "INFOPS",
   "stage": "P01-S04",
-  "asOf": "2026-10-19",
+  "asOf": "2026-10-20",
   "kind": "OWNER_REVIEW_RESEARCH_STATUS_NOT_RELEASE",
   "normative": false,
   "actualProductsQualified": 0,
@@ -9,7 +9,7 @@
     "G01": "CLOSED_OWNER_REVIEWED_RESEARCH",
     "G02": "CLOSED_CONDITIONAL_RESEARCH",
     "G03": "CLOSED_CONDITIONAL_RESEARCH",
-    "G04": "PREPARED_NOT_STARTED",
+    "G04": "CLOSED_CONDITIONAL_RESEARCH",
     "G05": "PENDING",
     "G06": "PENDING",
     "G07": "PENDING"
@@ -26,7 +26,20 @@
   "publicationAuthorized": false,
   "historicalS03ScaffoldStatePreserved": true,
   "ownerApprovalIsNotNormativeRelease": true,
-  "nextDecision": "G04-D01-F01_NOT_YET_PRESENTED_OR_ADOPTED",
-  "ownerReviewedResearchDecisionsTotal": 32,
-  "explicitApprovalsWithResearchSummaryAvailable": 17
+  "nextDecision": "G05_NOT_STARTED_PENDING_SEPARATE_OWNER_INSTRUCTION",
+  "ownerReviewedResearchDecisionsTotal": 41,
+  "explicitApprovalsWithResearchSummaryAvailable": 41,
+  "s02OwnerApprovedResearchDecisions": 6,
+  "s03OwnerApprovedResearchDecisions": 9,
+  "g01OwnerApprovedAntecedentDecisions": 15,
+  "g01ClosureBasisVerifiedFromOwnerRegister": true,
+  "g01ClosureBasisRegister": "research/p01-s04/s02-s03-owner-approvals.json",
+  "originalS02S03ResearchProposalSnapshotsPreserved": true,
+  "g04OwnerDecisions": 9,
+  "g04OwnerApprovalRegister": "research/p01-s04/g04-owner-approved-decisions.json",
+  "g04ClosureDecision": "G04-D09-F01",
+  "g04ClosureDate": "2026-10-20",
+  "g04CaseReconciliation": "research/p01-s04/g04-case-reconciliation.json",
+  "informationFamilyUniversalNecessityProven": false,
+  "stageS04Closed": false
 }
