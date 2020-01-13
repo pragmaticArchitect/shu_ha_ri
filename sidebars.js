@@ -59,7 +59,7 @@ module.exports = {
       'integration/hdip-upos','reference-implementation/overview',
     ]},
     {type: 'category', label: 'Governance & reference', items: [
-      'governance/change-control','governance/contributing','reference/glossary',
+      'governance/infops-research-stage-mandate.md','governance/change-control','governance/contributing','reference/glossary',
     ]},
   ],
 };
