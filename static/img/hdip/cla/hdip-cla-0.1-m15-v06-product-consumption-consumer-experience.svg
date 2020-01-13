@@ -1,0 +1,304 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1700" viewBox="0 0 2400 1700">
+<rect width="2400" height="1700" fill="#04121D"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#31C9F6"/></marker></defs>
+<rect x="10" y="10" width="2380" height="97" rx="9" fill="#063659" stroke="#16B8F6" stroke-width="2"/>
+<text x="1200" y="54" fill="#9BC5F6" font-size="33" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">HDIP 0.1 — M15-V06: Product Consumption &amp; Consumer Experience (SSCF / CEP)</text>
+<text x="1200" y="85" fill="#22E0EF" font-size="18" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Governed discovery for consumption or optional creation  ·  Purpose-bound access  ·  Evidence-driven value and evolution</text>
+<rect x="12" y="118" width="1710" height="216" rx="7" fill="#071E2E" stroke="#16B8F6" stroke-width="2"/>
+<rect x="14" y="120" width="1706" height="39" rx="6" fill="#06415E" stroke="#16B8F6" stroke-width="1.2"/>
+<text x="867.0" y="146.85" fill="#EFFAFF" font-size="21" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Consumers, entry modes and governed discovery</text>
+<rect x="24" y="168" width="310" height="152" rx="7" fill="#071E2E" stroke="#167EDD" stroke-width="1.8"/>
+<rect x="24" y="168" width="310" height="41" rx="6" fill="#167EDD" stroke="#167EDD" stroke-width="0.5"/>
+<text x="179.0" y="196" fill="#04121D" font-size="19" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Product Consumer (PCON)</text>
+<text x="39" y="238" fill="#EFFAFF" font-size="14" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">• Human, system or agentic</text>
+<text x="39" y="267" fill="#EFFAFF" font-size="14" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">• Purpose + identity context</text>
+<text x="39" y="296" fill="#EFFAFF" font-size="14" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">• Access ≠ delegated authority</text>
+<rect x="344" y="168" width="704" height="152" rx="7" fill="#0A293E" stroke="#49ABB3" stroke-width="1.4"/>
+<text x="696" y="192" fill="#22E0EF" font-size="17" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Canonical entry modes</text>
+<rect x="356" y="207" width="215" height="41" rx="5" fill="#093C50" stroke="#49ABB3" stroke-width="1"/>
+<text x="463.5" y="232.9" fill="#EFFAFF" font-size="15" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Intent-first</text>
+<text x="463" y="273" fill="#A8C8DB" font-size="13" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Declare purpose</text>
+<text x="463" y="294" fill="#A8C8DB" font-size="13" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">before resolution</text>
+<rect x="584" y="207" width="215" height="41" rx="5" fill="#093C50" stroke="#49ABB3" stroke-width="1"/>
+<text x="691.5" y="232.9" fill="#EFFAFF" font-size="15" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Browse-first</text>
+<text x="691" y="273" fill="#A8C8DB" font-size="13" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Explore initially;</text>
+<text x="691" y="294" fill="#A8C8DB" font-size="13" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">confirm CIR before access</text>
+<rect x="812" y="207" width="215" height="41" rx="5" fill="#093C50" stroke="#49ABB3" stroke-width="1"/>
+<text x="919.5" y="232.9" fill="#EFFAFF" font-size="15" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Established-state</text>
+<text x="919" y="273" fill="#A8C8DB" font-size="13" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Reuse valid access;</text>
+<text x="919" y="294" fill="#A8C8DB" font-size="13" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">no forced rediscovery</text>
+<rect x="1059" y="168" width="651" height="152" rx="7" fill="#0A293E" stroke="#49ABB3" stroke-width="1.4"/>
+<text x="1384" y="193" fill="#22E0EF" font-size="16" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Discovery experiences — creation and consumption</text>
+<rect x="1072" y="209" width="307" height="39" rx="5" fill="#08314C" stroke="#16B8F6" stroke-width="1"/>
+<text x="1225.5" y="233.9" fill="#EFFAFF" font-size="15" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Metadata search</text>
+<rect x="1387" y="209" width="307" height="39" rx="5" fill="#08314C" stroke="#16B8F6" stroke-width="1"/>
+<text x="1540.5" y="233.9" fill="#EFFAFF" font-size="15" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Semantic search</text>
+<rect x="1072" y="256" width="307" height="39" rx="5" fill="#08314C" stroke="#16B8F6" stroke-width="1"/>
+<text x="1225.5" y="280.9" fill="#EFFAFF" font-size="15" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Concierge</text>
+<rect x="1387" y="256" width="307" height="39" rx="5" fill="#08314C" stroke="#16B8F6" stroke-width="1"/>
+<text x="1540.5" y="280.9" fill="#EFFAFF" font-size="15" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">AI agent-mediated</text>
+<rect x="12" y="345" width="1710" height="605" rx="7" fill="#071E2E" stroke="#16B8F6" stroke-width="2"/>
+<rect x="14" y="347" width="1706" height="45" rx="6" fill="#06415E" stroke="#16B8F6" stroke-width="1.2"/>
+<text x="867.0" y="376.85" fill="#EFFAFF" font-size="21" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">SSCF — Canonical Eight-Stage Product Consumption Lifecycle (M11)</text>
+<text x="867.0" y="418" fill="#22E0EF" font-size="17" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Lifecycle responsibilities — not eight mandatory synchronous runtime calls</text>
+<rect x="24" y="437" width="409" height="214" rx="8" fill="#0A293E" stroke="#167EDD" stroke-width="2"/>
+<rect x="26" y="439" width="405" height="50" rx="5" fill="#167EDD" stroke="#167EDD" stroke-width="0"/>
+<text x="52" y="471" fill="#04121D" font-size="24" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">1</text>
+<text x="237" y="469" fill="#04121D" font-size="17" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Declare Consumption Intent</text>
+<rect x="36" y="504" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="228.5" y="528.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Consumption Intent Record (CIR)</text>
+<rect x="36" y="548" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="228.5" y="572.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Purpose, context and outcome</text>
+<rect x="36" y="592" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="228.5" y="616.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Identity / accountability context</text>
+<rect x="447" y="437" width="409" height="214" rx="8" fill="#0A293E" stroke="#49ABB3" stroke-width="2"/>
+<rect x="449" y="439" width="405" height="50" rx="5" fill="#49ABB3" stroke="#49ABB3" stroke-width="0"/>
+<text x="475" y="471" fill="#04121D" font-size="24" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">2</text>
+<text x="660" y="469" fill="#04121D" font-size="17" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Resolve Product Set</text>
+<rect x="459" y="504" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="651.5" y="528.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">P2 governed discovery / navigation</text>
+<rect x="459" y="548" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="651.5" y="572.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Candidate Products + fit rationale</text>
+<rect x="459" y="592" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="651.5" y="616.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Semantic and metadata resolution</text>
+<rect x="870" y="437" width="409" height="214" rx="8" fill="#0A293E" stroke="#12A1B6" stroke-width="2"/>
+<rect x="872" y="439" width="405" height="50" rx="5" fill="#12A1B6" stroke="#12A1B6" stroke-width="0"/>
+<text x="898" y="471" fill="#04121D" font-size="24" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">3</text>
+<text x="1083" y="469" fill="#04121D" font-size="13" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Evaluate Product Fit and Request Access</text>
+<rect x="882" y="504" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="1074.5" y="527.68" fill="#EFFAFF" font-size="13" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Fit and entitlement remain distinct</text>
+<rect x="882" y="548" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="1074.5" y="572.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Suitability for declared purpose</text>
+<rect x="882" y="592" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="1074.5" y="616.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">SSCF Access Decision</text>
+<rect x="1293" y="437" width="409" height="214" rx="8" fill="#0A293E" stroke="#E5AD16" stroke-width="2"/>
+<rect x="1295" y="439" width="405" height="50" rx="5" fill="#E5AD16" stroke="#E5AD16" stroke-width="0"/>
+<text x="1321" y="471" fill="#04121D" font-size="24" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">4</text>
+<text x="1506" y="469" fill="#04121D" font-size="14" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Provision Purpose-Bound Access</text>
+<rect x="1305" y="504" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="1497.5" y="528.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">P4 binds approved access</text>
+<rect x="1305" y="548" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="1497.5" y="572.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Access Descriptor + Usage Contract</text>
+<rect x="1305" y="592" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="1497.5" y="616.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Existing Product Port; no new Port</text>
+<rect x="24" y="665" width="409" height="214" rx="8" fill="#0A293E" stroke="#167EDD" stroke-width="2"/>
+<rect x="26" y="667" width="405" height="50" rx="5" fill="#167EDD" stroke="#167EDD" stroke-width="0"/>
+<text x="52" y="699" fill="#04121D" font-size="24" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">5</text>
+<text x="237" y="697" fill="#04121D" font-size="17" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Consume Through CEP</text>
+<rect x="36" y="732" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="228.5" y="756.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Consumer context and experience</text>
+<rect x="36" y="776" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="228.5" y="799.68" fill="#EFFAFF" font-size="13" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Queries · dashboards · APIs · agents</text>
+<rect x="36" y="820" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="228.5" y="844.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">P3 typed runtime where applicable</text>
+<rect x="447" y="665" width="409" height="214" rx="8" fill="#0A293E" stroke="#49ABB3" stroke-width="2"/>
+<rect x="449" y="667" width="405" height="50" rx="5" fill="#49ABB3" stroke="#49ABB3" stroke-width="0"/>
+<text x="475" y="699" fill="#04121D" font-size="24" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">6</text>
+<text x="660" y="697" fill="#04121D" font-size="17" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Capture Usage Signals</text>
+<rect x="459" y="732" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="651.5" y="756.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">P4 consumption occurrence evidence</text>
+<rect x="459" y="776" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="651.5" y="800.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">X3 provenance · X4 telemetry</text>
+<rect x="459" y="820" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="651.5" y="844.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Scoped usage and access records</text>
+<rect x="870" y="665" width="409" height="214" rx="8" fill="#0A293E" stroke="#9963DA" stroke-width="2"/>
+<rect x="872" y="667" width="405" height="50" rx="5" fill="#9963DA" stroke="#9963DA" stroke-width="0"/>
+<text x="898" y="699" fill="#04121D" font-size="24" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">7</text>
+<text x="1083" y="697" fill="#04121D" font-size="14" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Compute and Observe Product Signals</text>
+<rect x="882" y="732" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="1074.5" y="756.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">X4 · X5 · X6 · X9 contributions</text>
+<rect x="882" y="776" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="1074.5" y="800.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">P5 interprets relevant evidence</text>
+<rect x="882" y="820" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="1074.5" y="844.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Usage ≠ cost ≠ outcome ≠ value</text>
+<rect x="1293" y="665" width="409" height="214" rx="8" fill="#0A293E" stroke="#56A70A" stroke-width="2"/>
+<rect x="1295" y="667" width="405" height="50" rx="5" fill="#56A70A" stroke="#56A70A" stroke-width="0"/>
+<text x="1321" y="699" fill="#04121D" font-size="24" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">8</text>
+<text x="1506" y="697" fill="#04121D" font-size="14" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Decision, Feedback &amp; Creation Loop</text>
+<rect x="1305" y="732" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="1497.5" y="756.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Continue · stop · substitute</text>
+<rect x="1305" y="776" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="1497.5" y="799.68" fill="#EFFAFF" font-size="13" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Feedback and improvement / re-entry</text>
+<rect x="1305" y="820" width="385" height="38" rx="5" fill="#061D2E" stroke="#265A75" stroke-width="1"/>
+<text x="1497.5" y="844.04" fill="#EFFAFF" font-size="14" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Optional PDEP only if warranted</text>
+<line x1="435" y1="541" x2="445" y2="541" stroke="#31C9F6" stroke-width="2"  marker-end="url(#arrow)"/>
+<line x1="858" y1="541" x2="868" y2="541" stroke="#31C9F6" stroke-width="2"  marker-end="url(#arrow)"/>
+<line x1="1281" y1="541" x2="1291" y2="541" stroke="#31C9F6" stroke-width="2"  marker-end="url(#arrow)"/>
+<line x1="435" y1="769" x2="445" y2="769" stroke="#31C9F6" stroke-width="2"  marker-end="url(#arrow)"/>
+<line x1="858" y1="769" x2="868" y2="769" stroke="#31C9F6" stroke-width="2"  marker-end="url(#arrow)"/>
+<line x1="1281" y1="769" x2="1291" y2="769" stroke="#31C9F6" stroke-width="2"  marker-end="url(#arrow)"/>
+<text x="868" y="924" fill="#A8C8DB" font-size="14" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Stage 8 may preserve an existing consumption path, trigger adaptation, or intentionally enter PDEP; Productness is never automatic.</text>
+<rect x="12" y="960" width="1710" height="179" rx="7" fill="#071E2E" stroke="#16B8F6" stroke-width="2"/>
+<rect x="14" y="962" width="1706" height="39" rx="6" fill="#07425B" stroke="#16B8F6" stroke-width="1.2"/>
+<text x="867.0" y="988.5" fill="#EFFAFF" font-size="20" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Plane Participation — one HDIP architecture, distinct logical responsibilities</text>
+<rect x="24" y="1014" width="328" height="113" rx="5" fill="#0A293E" stroke="#9BC5F6" stroke-width="1.5"/>
+<text x="188" y="1041" fill="#EFFAFF" font-size="14" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">P1 — Governing Context</text>
+<text x="188" y="1072" fill="#A8C8DB" font-size="13" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Purpose, semantic meaning,</text>
+<text x="188" y="1096" fill="#A8C8DB" font-size="13" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">mandate and access context</text>
+<rect x="364" y="1014" width="328" height="113" rx="5" fill="#0A293E" stroke="#49ABB3" stroke-width="1.5"/>
+<text x="528" y="1041" fill="#EFFAFF" font-size="14" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">P2 — Discovery / Resolution</text>
+<text x="528" y="1072" fill="#A8C8DB" font-size="13" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Catalog projection, Product Set,</text>
+<text x="528" y="1096" fill="#A8C8DB" font-size="13" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">fit and compatibility context</text>
+<rect x="704" y="1014" width="328" height="113" rx="5" fill="#0A293E" stroke="#9963DA" stroke-width="1.5"/>
+<text x="868" y="1041" fill="#EFFAFF" font-size="14" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">P3 — Typed Runtime (if needed)</text>
+<text x="868" y="1072" fill="#A8C8DB" font-size="13" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Data processing · Information</text>
+<text x="868" y="1096" fill="#A8C8DB" font-size="13" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">formation · Intelligence execution</text>
+<rect x="1044" y="1014" width="328" height="113" rx="5" fill="#0A293E" stroke="#E5AD16" stroke-width="1.5"/>
+<text x="1208" y="1041" fill="#EFFAFF" font-size="14" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">P4 — CEP / Provision / Access</text>
+<text x="1208" y="1072" fill="#A8C8DB" font-size="13" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Marketplace, access, Product Ports,</text>
+<text x="1208" y="1096" fill="#A8C8DB" font-size="13" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">delivery and downstream integration</text>
+<rect x="1384" y="1014" width="328" height="113" rx="5" fill="#0A293E" stroke="#56A70A" stroke-width="1.5"/>
+<text x="1548" y="1041" fill="#EFFAFF" font-size="14" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">P5 — Outcomes / Evolution</text>
+<text x="1548" y="1072" fill="#A8C8DB" font-size="13" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Feedback, effectiveness and value;</text>
+<text x="1548" y="1096" fill="#A8C8DB" font-size="13" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">continuation or governed change</text>
+<rect x="12" y="1150" width="1710" height="145" rx="7" fill="#071E2E" stroke="#16B8F6" stroke-width="2"/>
+<rect x="14" y="1152" width="1706" height="39" rx="6" fill="#07425B" stroke="#16B8F6" stroke-width="1.2"/>
+<text x="867.0" y="1178.15" fill="#EFFAFF" font-size="19" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">CEP — Consumer Experience Projection (P2 discovery + P4 consumption, with P5 feedback)</text>
+<rect x="24" y="1203" width="409" height="77" rx="6" fill="#0A293E" stroke="#49ABB3" stroke-width="1.2"/>
+<text x="228" y="1232" fill="#EFFAFF" font-size="17" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Discovery / selection</text>
+<text x="228" y="1261" fill="#A8C8DB" font-size="12.5" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Search · Marketplace · Concierge · Agent</text>
+<rect x="447" y="1203" width="409" height="77" rx="6" fill="#0A293E" stroke="#49ABB3" stroke-width="1.2"/>
+<text x="651" y="1232" fill="#EFFAFF" font-size="17" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Governed access</text>
+<text x="651" y="1261" fill="#A8C8DB" font-size="12.5" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Purpose · entitlement · Product Ports</text>
+<rect x="870" y="1203" width="409" height="77" rx="6" fill="#0A293E" stroke="#E5AD16" stroke-width="1.2"/>
+<text x="1074" y="1232" fill="#EFFAFF" font-size="17" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Consumption experiences</text>
+<text x="1074" y="1261" fill="#A8C8DB" font-size="12.5" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Query · dashboard · API · stream · agent</text>
+<rect x="1293" y="1203" width="409" height="77" rx="6" fill="#0A293E" stroke="#56A70A" stroke-width="1.2"/>
+<text x="1497" y="1232" fill="#EFFAFF" font-size="17" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Value and feedback</text>
+<text x="1497" y="1261" fill="#A8C8DB" font-size="12.5" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Observe · continue · substitute · improve</text>
+<rect x="12" y="1305" width="1710" height="141" rx="7" fill="#071E2E" stroke="#16B8F6" stroke-width="2"/>
+<rect x="14" y="1307" width="1706" height="36" rx="6" fill="#07425B" stroke="#16B8F6" stroke-width="1.2"/>
+<text x="867.0" y="1331.65" fill="#EFFAFF" font-size="19" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Two valid outcomes after Discovery and Consumption</text>
+<rect x="24" y="1354" width="820" height="79" rx="6" fill="#0A293E" stroke="#49ABB3" stroke-width="1.7"/>
+<text x="434" y="1383" fill="#EFFAFF" font-size="17" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">A — Pure Consumption / Exploration</text>
+<text x="434" y="1409" fill="#A8C8DB" font-size="13.5" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Find · access · inspect · query · visualize · continue — no new Product needed</text>
+<rect x="862" y="1354" width="848" height="79" rx="6" fill="#0A293E" stroke="#9963DA" stroke-width="1.7"/>
+<text x="1286" y="1383" fill="#EFFAFF" font-size="16.5" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">B — Optional, Intentional Product Creation / Evolution</text>
+<text x="1286" y="1409" fill="#A8C8DB" font-size="13.5" font-weight="normal" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Re-use discovery evidence → PDEP, with separate Product qualification</text>
+<rect x="12" y="1456" width="1710" height="89" rx="7" fill="#071E2E" stroke="#16B8F6" stroke-width="1.5"/>
+<text x="867.0" y="1481" fill="#9BC5F6" font-size="17" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Versioned / Governed Consumer Artifacts &amp; Evidence (as applicable)</text>
+<rect x="24" y="1495" width="236" height="40" rx="5" fill="#0C3452" stroke="#16B8F6" stroke-width="1"/>
+<text x="142.0" y="1519.86" fill="#EFFAFF" font-size="13.5" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">CIR</text>
+<rect x="267" y="1495" width="236" height="40" rx="5" fill="#0C3452" stroke="#16B8F6" stroke-width="1"/>
+<text x="385.0" y="1519.14" fill="#EFFAFF" font-size="11.5" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Product Resolution Set</text>
+<rect x="510" y="1495" width="236" height="40" rx="5" fill="#0C3452" stroke="#16B8F6" stroke-width="1"/>
+<text x="628.0" y="1519.86" fill="#EFFAFF" font-size="13.5" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">SSCF Access Decision</text>
+<rect x="753" y="1495" width="236" height="40" rx="5" fill="#0C3452" stroke="#16B8F6" stroke-width="1"/>
+<text x="871.0" y="1519.86" fill="#EFFAFF" font-size="13.5" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Access Descriptor</text>
+<rect x="996" y="1495" width="236" height="40" rx="5" fill="#0C3452" stroke="#16B8F6" stroke-width="1"/>
+<text x="1114.0" y="1519.86" fill="#EFFAFF" font-size="13.5" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Usage Contract</text>
+<rect x="1239" y="1495" width="236" height="40" rx="5" fill="#0C3452" stroke="#16B8F6" stroke-width="1"/>
+<text x="1357.0" y="1519.86" fill="#EFFAFF" font-size="13.5" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Consumption Evidence</text>
+<rect x="1482" y="1495" width="236" height="40" rx="5" fill="#0C3452" stroke="#16B8F6" stroke-width="1"/>
+<text x="1600.0" y="1519.86" fill="#EFFAFF" font-size="13.5" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Outcome / Feedback</text>
+<rect x="12" y="1555" width="1710" height="82" rx="7" fill="#071E2E" stroke="#16B8F6" stroke-width="1.5"/>
+<rect x="14" y="1557" width="1706" height="30" rx="6" fill="#9BC5F6" stroke="#16B8F6" stroke-width="1.2"/>
+<text x="867.0" y="1577.6" fill="#04121D" font-size="16" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">X1–X9 — Cross-Cutting Overlays (orthogonal; apply according to context)</text>
+<rect x="23" y="1597" width="182" height="29" rx="5" fill="#061929" stroke="#16B8F6" stroke-width="1"/>
+<text x="114.0" y="1615.28" fill="#EFFAFF" font-size="10.5" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">X1 Governance / Policy</text>
+<rect x="212" y="1597" width="182" height="29" rx="5" fill="#061929" stroke="#16B8F6" stroke-width="1"/>
+<text x="303.0" y="1615.28" fill="#EFFAFF" font-size="10.5" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">X2 Security / Entitlement</text>
+<rect x="401" y="1597" width="182" height="29" rx="5" fill="#061929" stroke="#16B8F6" stroke-width="1"/>
+<text x="492.0" y="1615.28" fill="#EFFAFF" font-size="10.5" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">X3 Provenance / Evidence</text>
+<rect x="590" y="1597" width="182" height="29" rx="5" fill="#061929" stroke="#16B8F6" stroke-width="1"/>
+<text x="681.0" y="1615.28" fill="#EFFAFF" font-size="10.5" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">X4 Telemetry</text>
+<rect x="779" y="1597" width="182" height="29" rx="5" fill="#061929" stroke="#16B8F6" stroke-width="1"/>
+<text x="870.0" y="1615.28" fill="#EFFAFF" font-size="10.5" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">X5 Quality / Fitness</text>
+<rect x="968" y="1597" width="182" height="29" rx="5" fill="#061929" stroke="#16B8F6" stroke-width="1"/>
+<text x="1059.0" y="1615.28" fill="#EFFAFF" font-size="10.5" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">X6 Evaluation / Assurance</text>
+<rect x="1157" y="1597" width="182" height="29" rx="5" fill="#061929" stroke="#16B8F6" stroke-width="1"/>
+<text x="1248.0" y="1615.28" fill="#EFFAFF" font-size="10.5" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">X7 Lifecycle / Currentness</text>
+<rect x="1346" y="1597" width="182" height="29" rx="5" fill="#061929" stroke="#16B8F6" stroke-width="1"/>
+<text x="1437.0" y="1615.28" fill="#EFFAFF" font-size="10.5" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">X8 Resilience / Recovery</text>
+<rect x="1535" y="1597" width="182" height="29" rx="5" fill="#061929" stroke="#16B8F6" stroke-width="1"/>
+<text x="1626.0" y="1615.28" fill="#EFFAFF" font-size="10.5" font-weight="medium" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">X9 Cost Accountability</text>
+<rect x="12" y="1646" width="1710" height="30" rx="4" fill="#49ABB3" stroke="#16B8F6" stroke-width="1"/>
+<text x="867.0" y="1668" fill="#04121D" font-size="14" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">HDIP-FND — Shared Platform / Utility Foundation: enabling technology, not semantic, Product, policy or Decision authority</text>
+<rect x="1735" y="118" width="653" height="335" rx="8" fill="#031827" stroke="#16B8F6" stroke-width="1.8"/>
+<rect x="1738" y="121" width="647" height="41" rx="3" fill="#56A70A" stroke="#56A70A" stroke-width="1"/>
+<text x="2061.5" y="149" fill="#EFFAFF" font-size="20" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Key Architecture Distinctions</text>
+<text x="1765" y="186" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">Discovery serves BOTH consumption and</text>
+<text x="1765" y="204" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">intentional Product creation / evolution.</text>
+<text x="1749" y="186" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="231" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">P2 owns governed discovery / resolution;</text>
+<text x="1765" y="249" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">P4 mediates consumer-facing CEP.</text>
+<text x="1749" y="231" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="276" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">Consumer Product fit ≠ access entitlement.</text>
+<text x="1765" y="294" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">Access ≠ consequential Decision authority.</text>
+<text x="1749" y="276" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="321" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">SSCF stage order ≠ mandatory runtime pipeline.</text>
+<text x="1749" y="321" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="348" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">Product discovery, use and composition</text>
+<text x="1765" y="366" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">do not automatically create a Product.</text>
+<text x="1749" y="348" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<rect x="1735" y="463" width="653" height="278" rx="8" fill="#031827" stroke="#16B8F6" stroke-width="1.8"/>
+<rect x="1738" y="466" width="647" height="41" rx="3" fill="#56A70A" stroke="#56A70A" stroke-width="1"/>
+<text x="2061.5" y="494" fill="#EFFAFF" font-size="20" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Three Supported Entry Modes</text>
+<text x="1765" y="531" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">INTENT-FIRST: declare a consumption need</text>
+<text x="1765" y="549" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">and CIR before governed resolution.</text>
+<text x="1749" y="531" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="576" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">BROWSE-FIRST: explore first; confirm CIR</text>
+<text x="1765" y="594" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">before purpose-bound Product access.</text>
+<text x="1749" y="576" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="621" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">ESTABLISHED-STATE: reuse valid CIR,</text>
+<text x="1765" y="639" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">Access Decision, descriptor and contracts.</text>
+<text x="1749" y="621" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="666" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">Currentness / entitlement changes may</text>
+<text x="1765" y="684" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">require re-evaluation or re-entry.</text>
+<text x="1749" y="666" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<rect x="1735" y="750" width="653" height="278" rx="8" fill="#031827" stroke="#16B8F6" stroke-width="1.8"/>
+<rect x="1738" y="753" width="647" height="41" rx="3" fill="#56A70A" stroke="#56A70A" stroke-width="1"/>
+<text x="2061.5" y="781" fill="#EFFAFF" font-size="20" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Concierge / Agent Mediation</text>
+<text x="1765" y="818" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">Metadata search, semantic search, Concierge</text>
+<text x="1765" y="836" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">and agent-mediated discovery can assist</text>
+<text x="1765" y="854" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">BOTH creators and consumers.</text>
+<text x="1749" y="818" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="881" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">No agent is a new canonical Plane or ABB.</text>
+<text x="1749" y="881" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="908" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">Agency does not imply delegated authority,</text>
+<text x="1765" y="926" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">policy ownership or Product qualification.</text>
+<text x="1749" y="908" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="953" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">P3 Intelligence execution may participate</text>
+<text x="1765" y="971" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">when an applicable capability is invoked.</text>
+<text x="1749" y="953" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<rect x="1735" y="1037" width="653" height="295" rx="8" fill="#031827" stroke="#16B8F6" stroke-width="1.8"/>
+<rect x="1738" y="1040" width="647" height="41" rx="3" fill="#56A70A" stroke="#56A70A" stroke-width="1"/>
+<text x="2061.5" y="1068" fill="#EFFAFF" font-size="20" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">Consumer Scope &amp; Authority</text>
+<text x="1765" y="1105" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">Human users, systems, workflows, agents</text>
+<text x="1765" y="1123" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">and eligible Product consumers.</text>
+<text x="1749" y="1105" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="1150" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">Products: Data, Information, Intelligence</text>
+<text x="1765" y="1168" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">and applicable Compound Products.</text>
+<text x="1749" y="1150" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="1195" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">Marketplace presence ≠ qualification,</text>
+<text x="1765" y="1213" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">fitness, entitlement or access approval.</text>
+<text x="1749" y="1195" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="1240" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">Consumer Access Descriptor ≠ Product Port.</text>
+<text x="1765" y="1258" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">Recommendation ≠ Decision ≠ Action.</text>
+<text x="1749" y="1240" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="1285" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">P5 interpretation remains distinct from</text>
+<text x="1765" y="1303" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">X3 evidence, X4 telemetry and X9 cost.</text>
+<text x="1749" y="1285" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<rect x="1735" y="1341" width="653" height="335" rx="8" fill="#031827" stroke="#16B8F6" stroke-width="1.8"/>
+<rect x="1738" y="1344" width="647" height="41" rx="3" fill="#56A70A" stroke="#56A70A" stroke-width="1"/>
+<text x="2061.5" y="1372" fill="#EFFAFF" font-size="20" font-weight="bold" text-anchor="middle" font-style="normal" font-family="DejaVu Sans, sans-serif">View Context / Reading Notes</text>
+<text x="1765" y="1409" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">Canonical view: M15-V06 · HDIP-CLA 0.1</text>
+<text x="1749" y="1409" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="1436" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">Normative sources: frozen M11, M15, M17.</text>
+<text x="1749" y="1436" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="1463" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">Shows logical responsibilities and lifecycle</text>
+<text x="1765" y="1481" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">possibilities, not vendor/runtime topology.</text>
+<text x="1749" y="1463" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="1508" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">PDEP is conditional, outside SSCF stages.</text>
+<text x="1765" y="1526" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">CEP is a projection, never a sixth Plane.</text>
+<text x="1749" y="1508" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="1553" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">The eight stages may be reused or revisited</text>
+<text x="1765" y="1571" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">without 8 synchronous calls per event.</text>
+<text x="1749" y="1553" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<text x="1765" y="1598" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">No new architecture identity or authority</text>
+<text x="1765" y="1616" fill="#EFFAFF" font-size="13" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">is created by this illustration.</text>
+<text x="1749" y="1598" fill="#ADE92D" font-size="18" font-weight="bold" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">•</text>
+<rect x="10" y="1681" width="2380" height="15" rx="3" fill="#063659" stroke="#16B8F6" stroke-width="0.7"/>
+<text x="24" y="1692" fill="#A8C8DB" font-size="9" font-weight="normal" text-anchor="start" font-style="normal" font-family="DejaVu Sans, sans-serif">Copyrighted material 2017-2019 kivanura.org Kaizen</text>
+<text x="2380" y="1692" fill="#9BC5F6" font-size="9" font-weight="normal" text-anchor="end" font-style="normal" font-family="DejaVu Sans, sans-serif">M15-V06 · Illustration for review · Frozen M17 authority remains unchanged</text>
+</svg>

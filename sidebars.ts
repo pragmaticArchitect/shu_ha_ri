@@ -32,6 +32,7 @@ const sidebars: SidebarsConfig = {
             'architecture/cla/views/hdip-cla-0.1-m15-v03-product-development-evolution',
             'architecture/cla/views/hdip-cla-0.1-m15-v04-registry-resolution-projection-compilation',
             'architecture/cla/views/hdip-cla-0.1-m15-v05-runtime-formation-execution',
+            'architecture/cla/views/hdip-cla-0.1-m15-v06-product-consumption-consumer-experience',
           ],
         },
         'architecture/cla/hdip-cla-0.1-m16-architecture-invariants-conformance-model',

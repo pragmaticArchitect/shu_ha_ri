@@ -70,6 +70,15 @@ The semantic corpus **remains outside HDIP's source authority**; Registry entrie
 
 [Read the M15-V05 companion page](/docs/architecture/cla/views/hdip-cla-0.1-m15-v05-runtime-formation-execution) · [Open full-size SVG](/img/hdip/cla/hdip-cla-0.1-m15-v05-runtime-formation-execution.svg) · [Editable draw.io source](/diagrams/hdip-cla/0.1/hdip-cla-0.1-m15-v05-runtime-formation-execution.drawio.xml)
 
+
+### Product consumption and consumer experience (M15-V06)
+
+**M15-V06 — Product Consumption & Consumer Experience (SSCF / CEP)** focuses on the governed consumer journey from intent to consumption, evidence and feedback. It visualizes the **eight-stage SSCF lifecycle**, CEP as a consumer-facing projection, **intent-first / browse-first / established-state** entry modes, and the critical distinction that discovery may support either **pure consumption** or an **optional, intentional transition into PDEP** when a new or evolved Product is required.
+
+[![HDIP M15-V06 Product Consumption and Consumer Experience](/img/hdip/cla/hdip-cla-0.1-m15-v06-product-consumption-consumer-experience-preview.png)](/img/hdip/cla/hdip-cla-0.1-m15-v06-product-consumption-consumer-experience.svg)
+
+[Read the M15-V06 companion page](/docs/architecture/cla/views/hdip-cla-0.1-m15-v06-product-consumption-consumer-experience) · [Open full-size SVG](/img/hdip/cla/hdip-cla-0.1-m15-v06-product-consumption-consumer-experience.svg) · [Editable draw.io source](/diagrams/hdip-cla/0.1/hdip-cla-0.1-m15-v06-product-consumption-consumer-experience.drawio.xml)
+
 Governed discovery can support either **pure consumption** or **intentional Product creation/evolution**. Metadata search, semantic search, Concierge and agent-mediated discovery can serve **both** purposes; discovery does not automatically establish a new Product.
 
 ### Earlier HDIP and supporting illustrations

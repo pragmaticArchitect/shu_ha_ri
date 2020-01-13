@@ -24,6 +24,8 @@ The [M15-V04 Registry, Resolution, Projection & Compilation View](/docs/architec
 
 The [M15-V05 Runtime, Formation & Execution View](/docs/architecture/cla/views/hdip-cla-0.1-m15-v05-runtime-formation-execution) presents the **three peer P3 ABB responsibilities** for Data processing, Information formation and Intelligence execution. It links P3 to P1 governing context, P2 binding/rebinding, P4 governed discovery/consumption and P5 outcome/value/evolution, preserving the choice between **pure consumption** and optional, intentionally qualified Product creation.
 
+The [M15-V06 Product Consumption & Consumer Experience View](/docs/architecture/cla/views/hdip-cla-0.1-m15-v06-product-consumption-consumer-experience) illustrates the **frozen SSCF lifecycle and CEP experience composition** across the five Planes. It shows the three valid entry modes (intent-first, browse-first and established-state), the **eight canonical SSCF stages**, governed consumer artifacts, and the optional transition from discovery/consumption into **PDEP** where a new or evolved Product is intentionally constituted.
+
 ## Programme stages
 
 | Stage | Purpose |
