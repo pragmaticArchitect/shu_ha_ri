@@ -57,6 +57,8 @@ module.exports = {
     {type: 'category', label: 'Information Product characteristics', items: [
       'infopch/overview',
       'infopch/IPCH01',
+      'infopch/IPCH02',
+      'infopch/ipch02-research-status',
       'infopch/ipch01-research-status',
     ]},
     {type: 'category', label: 'PMDD', items: [

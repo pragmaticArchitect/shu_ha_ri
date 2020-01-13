@@ -1,0 +1,39 @@
+{
+  "overlay": "INFOPS-0.1-IPCH02-FIRST-PASS",
+  "date": "2019-11-17",
+  "baseline": "INFOPS-0.1-IPCH01-PMDD-Agent-Navigation-overlay-2019-11-17.zip (reported deployed)",
+  "decision": "INFOPS-0.1-IPCH-P01-D12-F01 APPROVED_EXPERIMENTAL_E0",
+  "guide": "IPCH02.md FIRST-PASS-DRAFT-01 DRAFT_PREPARED_ACCEPTED",
+  "publication": "PENDING_OPERATOR_DEPLOYMENT",
+  "normative_release": "NOT_AUTHORIZED",
+  "ipch01_g4_g6": "NOT_EXECUTED",
+  "ipch02_second_pass": "NOT_STARTED",
+  "source_limits": "PRESERVED",
+  "open_obligations": 24,
+  "files": {
+    "docs/infopch/IPCH02.md": {
+      "sha256": "b2d7f24cdf7063779e65733417b7119ad8670a8661fd506c4d2fcf64988de91b",
+      "bytes": 24132
+    },
+    "docs/infopch/ipch02-research-status.md": {
+      "sha256": "ede88bd2bdb405c63adea547d0cb74601c32289069c5b59f3e3748daf49b3486",
+      "bytes": 3288
+    },
+    "docs/infopch/overview.md": {
+      "sha256": "8aa3b25acfec178442aa91bfc163398302d9cf33a7b75406a5f35fea7c606212",
+      "bytes": 13474
+    },
+    "docs/pmdd/ipch-maturity-guidance.md": {
+      "sha256": "fb106b6d7494b4b0ac99e7c57329d895afcf68357f6f89a19c290ce38f2a167a",
+      "bytes": 3892
+    },
+    "sidebars.js": {
+      "sha256": "0a40ddb3121cc7771f14b42464a3c1ef5832b27158a511175d00596fd163c18c",
+      "bytes": 3535
+    },
+    "src/pages/INFOPCH-PMDD-guidance/index.md": {
+      "sha256": "d88925b5695620897fda7ca8f01bc830f1a51758bc1acd4142f62650a0280c81",
+      "bytes": 2175
+    }
+  }
+}

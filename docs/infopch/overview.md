@@ -5,7 +5,7 @@ description: Experimental 16-characteristic catalogue for the bounded INFOPS 0.1
 
 # Information Product Characteristics (IPCH)
 
-> **Status — APPROVED EXPERIMENTAL E0 CATALOGUE; NON-NORMATIVE RESEARCH.** The accountable owner approved `INFOPS-0.1-IPCH-P01-D01-F01` (F01.1–F01.16) as the **16-characteristic catalogue**. D02–D05 subsequently established experimental assessment and guidance controls. For IPCH01 only, D07–D10 accepted a guidance draft, its revision and a G2 PASS / G3 PASS_WITH_QUALIFICATIONS documentary review. **G4–G6 have not been executed; no individual guide is finally approved.** This page does not verify live repository adoption or authorize a normative release.
+> **Status — APPROVED EXPERIMENTAL E0 CATALOGUE; NON-NORMATIVE RESEARCH.** The accountable owner approved `INFOPS-0.1-IPCH-P01-D01-F01` (F01.1–F01.16) as the **16-characteristic catalogue**. D02–D05 subsequently established experimental assessment and guidance controls. For IPCH01, D07–D10 accepted a guidance draft, its revision and a G2 PASS / G3 PASS_WITH_QUALIFICATIONS documentary review. IPCH02 First-Pass mandatory criteria were accepted under D11 and its experimental guidance draft under D12. **Outstanding Second-Pass work remains; no individual guide is finally approved.** This page does not verify live repository adoption or authorize a normative release.
 
 ![Radial infographic depicting sixteen Information Product characteristics, from Domain-Owned through Interoperable & Composable.](/img/information-product-characteristics-ipch-0.1.png)
 
@@ -28,6 +28,8 @@ The first fourteen characteristic names follow the shared DPCH/AIPCH foundation.
 The Information Product has an identifiable accountable domain and Product authority governing its purpose, informational Promise, meaning, and evolution. Ownership concerns the **Product and its business intent**, not merely the team hosting its analytics implementation.
 
 ### IPCH02 — Deployable
+
+**[Read the experimental IPCH02 Deployable PMDD guidance](./IPCH02.md)** (`FIRST-PASS-DRAFT-01`; accepted under D12; Second-Pass review outstanding). [Research and publication status](./ipch02-research-status.md).
 
 The Information Product can be independently provisioned, published, managed and evolved through governed Product-oriented mechanisms. Mature deployability supports Product Owner self-service: the owner governs **what** is required, while an appropriate realization environment handles **how** it is implemented; owning a dedicated calculation engine is not a prerequisite.
 
