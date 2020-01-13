@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - G04 Decisions
 
 # G04 owner-approved conditional research findings
 
-> **OWNER APPROVED, 20 October 2026 - NON-NORMATIVE.** All G04-D01-F01 through G04-D09-F01 received explicit owner `APPROVE` dispositions in conversation. G04 is `CLOSED_CONDITIONAL_RESEARCH`. These are research/governance conclusions, not Product qualifications, proofs of Q0-Q4 sufficiency, or final INFOPS release.
+> **OWNER APPROVED, 20 October 2020 - NON-NORMATIVE.** All G04-D01-F01 through G04-D09-F01 received explicit owner `APPROVE` dispositions in conversation. G04 is `CLOSED_CONDITIONAL_RESEARCH`. These are research/governance conclusions, not Product qualifications, proofs of Q0-Q4 sufficiency, or final INFOPS release.
 
 The full machine-readable approved finding statements, case references and provenance are recorded in `research/p01-s04/g04-owner-approved-decisions.json`. The original proposed G04 review plan and earlier S02/S03 historical research snapshots remain preserved without rewriting their as-authored status.
 
@@ -27,7 +27,7 @@ The full machine-readable approved finding statements, case references and prove
 
 ### G04-D01-F01 - Competing-Family Adjudication Protocol, Exact Product Subject and Evidence Discipline {#g04-d01-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Establish an exact-subject and evidence-bounded procedure for competing-family research; Q5 is procedural and Q0 remains independently BPS-governed.
 
@@ -54,7 +54,7 @@ The full machine-readable approved finding statements, case references and prove
 
 ### G04-D02-F01 - Enriched Data versus Information Product-family Boundary {#g04-d02-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Rich Data with derived measures is not thereby Information; C02 and C21 remain BOUNDARY_UNRESOLVED with independent Data/Information and Compound jurisdiction.
 
@@ -80,7 +80,7 @@ The full machine-readable approved finding statements, case references and prove
 
 ### G04-D03-F01 - Generic Analytics Service versus Information Product-family Boundary {#g04-d03-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** General-purpose analytical capability does not automatically qualify as Information; C07/C20 remain conditional COMPETING_FAMILY with Service classification unverified.
 
@@ -107,7 +107,7 @@ The full machine-readable approved finding statements, case references and prove
 
 ### G04-D04-F01 - AI Product versus Information Product-family Boundary {#g04-d04-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** AI participation or intelligence effects do not automatically change the containing Product Family; AIPS AQ1-AQ5 are independently authoritative.
 
@@ -138,7 +138,7 @@ The full machine-readable approved finding statements, case references and prove
 
 ### G04-D05-F01 - Creative, Editorial, Static and Human-Curated Information Product Boundaries {#g04-d05-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Neither active analytical execution nor informative creative content determines Family; C05/C06/C19 provisional, C23/C30 invariance, C29/C32 supporting controls.
 
@@ -169,7 +169,7 @@ The full machine-readable approved finding statements, case references and prove
 
 ### G04-D06-F01 - Multi-Promise, Product Constitution and Compound Product Boundaries {#g04-d06-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Separate coherent Information, dependencies, multiple Products, commercial bundles, higher-order Products and potential Compound subjects; C12/C18/C31 unresolved.
 
@@ -200,7 +200,7 @@ The full machine-readable approved finding statements, case references and prove
 
 ### G04-D07-F01 - Product Identity, Semantic Change and Realization Invariance {#g04-d07-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Separate Product Family/Kind, Product subject, Version, semantic meaning, realization and occurrence; preserve C15/C16/C22/C25-C28/C32/C34-C36.
 
@@ -238,7 +238,7 @@ The full machine-readable approved finding statements, case references and prove
 
 ### G04-D08-F01 - Cross-Case Necessity, Joint Sufficiency and False-Positive/False-Negative Assessment {#g04-d08-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Q1-Q4 universal necessity and Q0-Q4 joint sufficiency NOT_ESTABLISHED; avoid claiming empirical classifier rates from hypothetical cases.
 
@@ -267,7 +267,7 @@ The full machine-readable approved finding statements, case references and prove
 
 ### G04-D09-F01 - Consolidated Conditional Research Findings and Gate Closure Assessment {#g04-d09-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Close G04 as CLOSED_CONDITIONAL_RESEARCH, preserving original cases/tests, all Q0-Q5 proof limits, independent authorities, 12 G03 release holds, and G05-G07 pending.
 
@@ -289,10 +289,10 @@ The full machine-readable approved finding statements, case references and prove
 - **DPP universality.** BPS DPP Core is conceptually universal; canonical Core namespace/Version, Information Profile and issuance/conformance remain unadopted.
 - **Independent assessments.** Productness, Family qualification, operational/semantic conformance, assurance, passport issuance, maturity and authorization remain separate.
 - **Open G03 holds.** All G03-R01-R12 unresolved source, qualification, interoperability and release obligations remain open; G04 resolves none.
-- **Gate closure.** S04-G04 is CLOSED_CONDITIONAL_RESEARCH effective 2026-10-20 by explicit D09 owner approval.
+- **Gate closure.** S04-G04 is CLOSED_CONDITIONAL_RESEARCH effective 2020-10-20 by explicit D09 owner approval.
 - **Other gates.** G01-G03 remain closed research; G05-G07 PENDING and S04 overall not closed.
 - **No automatic next step.** D09 does not start G05-G07 or authorize repository publication, Product certification, schemas or a normative release.
-- **Conversation provenance.** Owner decisions originate from the 2026-10-20 conversation; this overlay materializes their reviewed positions and does not assert a live GitHub merge or external authority consent.
+- **Conversation provenance.** Owner decisions originate from the 2020-10-20 conversation; this overlay materializes their reviewed positions and does not assert a live GitHub merge or external authority consent.
 
 ---
 

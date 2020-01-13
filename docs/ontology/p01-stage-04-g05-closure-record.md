@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - G05 Closure
 
 # G05 final owner closure — non-normative research
 
-> **APPROVED 20 OCTOBER 2026 — `CLOSED_CONDITIONAL_RESEARCH`.** The owner explicitly approved `G05-D08-F01` after separately approving `G05-D01-F01` through `G05-D07-F01`. This is closure of G05 owner-reviewed research, not qualification, Product certification, source adoption, DPP issuance, conformance approval, S04 closure, or INFOPS normative publication.
+> **APPROVED 20 OCTOBER 2020 — `CLOSED_CONDITIONAL_RESEARCH`.** The owner explicitly approved `G05-D08-F01` after separately approving `G05-D01-F01` through `G05-D07-F01`. This is closure of G05 owner-reviewed research, not qualification, Product certification, source adoption, DPP issuance, conformance approval, S04 closure, or INFOPS normative publication.
 
 ## Owner decision and counts
 

@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - G07 Closure
 
 # G07 conditional research closure — normative readiness not established
 
-**Owner approval:** `G07-D08-F01 = APPROVE`, 3 November 2026. G07 is **`CLOSED_CONDITIONAL_RESEARCH (NORMATIVE_READINESS_NOT_ESTABLISHED)`** with 8/8 research decisions approved. Programme substantive approvals: **65** (57 through G06 plus eight G07 decisions). G07 decision-sequence planning was a separate planning disposition and is not counted as a substantive approval.
+**Owner approval:** `G07-D08-F01 = APPROVE`, 3 November 2020. G07 is **`CLOSED_CONDITIONAL_RESEARCH (NORMATIVE_READINESS_NOT_ESTABLISHED)`** with 8/8 research decisions approved. Programme substantive approvals: **65** (57 through G06 plus eight G07 decisions). G07 decision-sequence planning was a separate planning disposition and is not counted as a substantive approval.
 
 > Closing this research gate records completion of a bounded normative-readiness and source-authority study. It **does not** establish intrinsic Information-family necessity or sufficiency, measured semantic fidelity, adopted source authorities, normative schemas, actual Product qualification, G03 hold closure, S04 closure or authorized publication.
 

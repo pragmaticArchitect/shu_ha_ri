@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - C01-C06 Decisions
 
 # S04-C01–C06 — approved owner-review decisions
 
-> **Owner approved 3 November 2026; non-normative.** Six S04 consolidation decisions are approved **separately** from the 65 substantive G01–G07 research approvals. C06 approves a **target** conditional research closure, but effective stage status is **NOT_CLOSED** pending original S04 prerequisite verification. This repository projection uses **editorial summaries** of the approved clauses, **not verbatim transcriptions**.
+> **Owner approved 3 November 2020; non-normative.** Six S04 consolidation decisions are approved **separately** from the 65 substantive G01–G07 research approvals. C06 approves a **target** conditional research closure, but effective stage status is **NOT_CLOSED** pending original S04 prerequisite verification. This repository projection uses **editorial summaries** of the approved clauses, **not verbatim transcriptions**.
 
 | Decision | Subject | Clauses | Owner disposition |
 |---|---|---:|---|

@@ -5,13 +5,13 @@ sidebar_label: P01-S04 - G06 Decisions
 
 # G06 — Owner-approved conditional research (E0 design only)
 
-> **OWNER APPROVED (2 November 2026).** D01–D08 approved. G06 `CLOSED_CONDITIONAL_RESEARCH (E0_DESIGN_ONLY)`. No E1 or E2 executions; 62 E0 designs, 12 unresolved G06 residual obligations, all G03-R01–R12 holds OPEN. G07 NOT_STARTED. Nothing normative or certified.
+> **OWNER APPROVED (2 November 2020).** D01–D08 approved. G06 `CLOSED_CONDITIONAL_RESEARCH (E0_DESIGN_ONLY)`. No E1 or E2 executions; 62 E0 designs, 12 unresolved G06 residual obligations, all G03-R01–R12 holds OPEN. G07 NOT_STARTED. Nothing normative or certified.
 
 **Source fidelity:** D01–D06 positions below are detailed substantive synopses supplied by the owner-approved handoff, not falsely claimed verbatim clauses. D07 and D08 entries are faithful clause-level repository summaries of owner-approved conversation findings.
 
 ## G06-D01-F01 — Empirical Realization Equivalence, Semantic Fidelity and Negative Conformance Evidence - Scope and Research Charter
 
-**Owner disposition:** APPROVE (2026-10-20); **status:** non-normative conditional research.
+**Owner disposition:** APPROVE (2020-10-20); **status:** non-normative conditional research.
 
 - **F01.1.** G06 scope assesses realization equivalence, semantic fidelity and negative evidence; it does not acquire qualification authority.
 - **F01.2.** Identify governing Product, semantics and contract; assumed qualification stays hypothetical.
@@ -27,7 +27,7 @@ sidebar_label: P01-S04 - G06 Decisions
 
 ## G06-D02-F01 — Governing Semantic Baseline, Independent Test Oracle, Contract and Evidence Fixtures
 
-**Owner disposition:** APPROVE (2026-10-20); **status:** non-normative conditional research.
+**Owner disposition:** APPROVE (2020-10-20); **status:** non-normative conditional research.
 
 - **F01.1.** Provisional Version-identifiable research baseline is not adopted GEARM norm.
 - **F01.2.** Separate Product Kind/instance/Version, Proposition, semantic definition/Version, realization and occurrence.
@@ -44,7 +44,7 @@ sidebar_label: P01-S04 - G06 Decisions
 
 ## G06-D03-F01 — Three Controlled Realization Patterns - Materialized, External Mathematics and AI-Assisted Information Formation
 
-**Owner disposition:** APPROVE (2026-10-20); **status:** non-normative conditional research.
+**Owner disposition:** APPROVE (2020-10-20); **status:** non-normative conditional research.
 
 - **F01.1.** Patterns A/B/C share the research semantic baseline and applicable contracts.
 - **F01.2.** Separate technology, Product Kind, instance/Version, realization, provider and occurrence.
@@ -63,7 +63,7 @@ sidebar_label: P01-S04 - G06 Decisions
 
 ## G06-D04-F01 — Positive Cross-Realization Semantic Equivalence and Metamorphic Evidence
 
-**Owner disposition:** APPROVE (2026-10-20); **status:** non-normative conditional research.
+**Owner disposition:** APPROVE (2020-10-20); **status:** non-normative conditional research.
 
 - **F01.1.** Scope positive equivalence to exact subject, baseline, Version, realization and context.
 - **F01.2.** Assess common-mode oracle risks.
@@ -82,7 +82,7 @@ sidebar_label: P01-S04 - G06 Decisions
 
 ## G06-D05-F01 — Negative Semantic, Operational, Provider and AI-Conformance Falsification Tests
 
-**Owner disposition:** APPROVE (2026-10-21); **status:** non-normative conditional research.
+**Owner disposition:** APPROVE (2020-10-21); **status:** non-normative conditional research.
 
 - **F01.1.** Challenge semantic, operational, provider, AI and assessment integrity without qualification authority.
 - **F01.2.** Use paired references and mutations with causal attribution.
@@ -103,7 +103,7 @@ sidebar_label: P01-S04 - G06 Decisions
 
 ## G06-D06-F01 — Product Identity, Semantic Version, Realization, Provenance, Currentness and Compilation Traceability
 
-**Owner disposition:** APPROVE (2026-11-02); **status:** non-normative conditional research.
+**Owner disposition:** APPROVE (2020-11-02); **status:** non-normative conditional research.
 
 - **F01.1.** Trace logical identity, semantics, realization, compilation, execution, evidence and currentness without imposed ledger.
 - **F01.2.** Separate Kind, Product, Version, provider, realization, edition/constituent and occurrence.
@@ -124,7 +124,7 @@ sidebar_label: P01-S04 - G06 Decisions
 
 ## G06-D07-F01 — Cross-Case Adversarial Replay, Detection Coverage and Evidence Sufficiency
 
-**Owner disposition:** APPROVE (2026-11-02); **status:** non-normative conditional research.
+**Owner disposition:** APPROVE (2020-11-02); **status:** non-normative conditional research.
 
 - **F01.1.** E0 replay is structured logical walkthrough, not runtime execution.
 - **F01.2.** Bind claims to exact subject, identities, Versions, occurrences, evidence and context.
@@ -145,7 +145,7 @@ sidebar_label: P01-S04 - G06 Decisions
 
 ## G06-D08-F01 — Consolidated Evidence Research, Residual Obligations and Conditional Gate Closure Assessment
 
-**Owner disposition:** APPROVE (2026-11-02); **status:** non-normative conditional research.
+**Owner disposition:** APPROVE (2020-11-02); **status:** non-normative conditional research.
 
 - **F01.1.** G06 closes conditionally at E0 design level only; not empirical validation or normative qualification.
 - **F01.2.** Inherit G06-D01 through D07 without replacing or reopening approvals.

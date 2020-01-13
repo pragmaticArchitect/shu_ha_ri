@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - Owner Decisions
 
 # S04 owner-reviewed decisions — historical G01–G05 and G06/G07 addenda
 
-> **Research provenance / non-normative.** These dispositions record owner approvals provided in conversation through 20 October 2026. The owner explicitly approved S02-D01–D06 and S03-D01–D09 with reviewed refinements, forming the 15/15 S04-G01 research closure basis. Their original draft ledgers retain historical `PROPOSED` states; the separate approval addenda now record the later explicit decisions. No normative INFOPS release is authorized.
+> **Research provenance / non-normative.** These dispositions record owner approvals provided in conversation through 20 October 2020. The owner explicitly approved S02-D01–D06 and S03-D01–D09 with reviewed refinements, forming the 15/15 S04-G01 research closure basis. Their original draft ledgers retain historical `PROPOSED` states; the separate approval addenda now record the later explicit decisions. No normative INFOPS release is authorized.
 
 ## Gate closure counts
 
@@ -20,7 +20,7 @@ sidebar_label: P01-S04 - Owner Decisions
 
 ## G05 — Eight owner-approved decisions (full substantive record)
 
-> **CURRENT OWNER POSITION — 20 October 2026.** All G05-D01-F01 through G05-D08-F01 findings are explicitly owner-approved conditional research, and G05 is `CLOSED_CONDITIONAL_RESEARCH`. The complete substantive clauses are embedded here and must remain in parity with the dedicated [G05 decision page](./p01-stage-04-g05-owner-approved-decisions.md) and `research/p01-s04/g05-owner-approved-decisions.json`. D07 hypothetical probes and G03-R01–R12 release holds remain distinct. No G06/G07 initiation or normative release is implied.
+> **CURRENT OWNER POSITION — 20 October 2020.** All G05-D01-F01 through G05-D08-F01 findings are explicitly owner-approved conditional research, and G05 is `CLOSED_CONDITIONAL_RESEARCH`. The complete substantive clauses are embedded here and must remain in parity with the dedicated [G05 decision page](./p01-stage-04-g05-owner-approved-decisions.md) and `research/p01-s04/g05-owner-approved-decisions.json`. D07 hypothetical probes and G03-R01–R12 release holds remain distinct. No G06/G07 initiation or normative release is implied.
 
 ### Decision overview
 
@@ -39,7 +39,7 @@ sidebar_label: P01-S04 - Owner Decisions
 
 #### G05-D01-F01 - Independent Qualification, Evidence, Conformance, Maturity and Authorization Boundaries {#g05-d01-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Nine independent conceptual determination categories A1-A9; legitimate shared evidence but no cross-authority substitution.
 
@@ -57,7 +57,7 @@ sidebar_label: P01-S04 - Owner Decisions
 
 #### G05-D02-F01 - Assessment Subjects, Evidence Provenance, Evaluation Decisions and Currentness {#g05-d02-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Exact subject/Version/context discipline and claim/evidence/provenance/verification/evaluation/decision/attestation/issuance/currentness separation.
 
@@ -76,7 +76,7 @@ sidebar_label: P01-S04 - Owner Decisions
 
 #### G05-D03-F01 - Generic Productness, Information Product-family Qualification and Semantic Conformance Boundaries {#g05-d03-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Generic Productness, Information-family candidature, governed semantic conformance, realization and other families do not substitute for one another.
 
@@ -93,7 +93,7 @@ sidebar_label: P01-S04 - Owner Decisions
 
 #### G05-D04-F01 - INFOPDS Realization, Semantic Fidelity, Operational Conformance and HPD Projection Boundaries {#g05-d04-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Realization accountability without Product/semantic authority transfer; semantic fidelity, deployment conformance and HPD projection distinct.
 
@@ -111,7 +111,7 @@ sidebar_label: P01-S04 - Owner Decisions
 
 #### G05-D05-F01 - BPS DPP Core, Information Product DPP Profile, Claim Verification, Issuance and Trust Boundaries {#g05-d05-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Cross-family BPS DPP Core source, possible Information-specific profile, claims, verification, evaluation, issuance and trust separated.
 
@@ -130,7 +130,7 @@ sidebar_label: P01-S04 - Owner Decisions
 
 #### G05-D06-F01 - INFOPCH/PMDD Maturity, Assurance, Fitness, Consumption Authorization and Consequential Action Boundaries {#g05-d06-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Maturity after independent qualification; assurance, fitness, Product access, decision/action authorization and value distinct.
 
@@ -149,7 +149,7 @@ sidebar_label: P01-S04 - Owner Decisions
 
 #### G05-D07-F01 - Cross-Case Falsification, Determination Independence and Dependency Tests {#g05-d07-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Six prior G05 findings challenged with controlled adverse cases while preserving legitimate dependencies, original case/test dispositions and epistemic limits.
 
@@ -169,7 +169,7 @@ sidebar_label: P01-S04 - Owner Decisions
 
 #### G05-D08-F01 - Consolidated G05 Conditional Research Findings, Residual Obligations and Gate Closure Assessment {#g05-d08-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Reconcile G05-D01-D07 and close G05 as CLOSED_CONDITIONAL_RESEARCH with every qualification/source/release hold intact.
 
@@ -189,7 +189,7 @@ sidebar_label: P01-S04 - Owner Decisions
 
 ## G04 — Nine owner-approved decisions (full substantive record)
 
-> **HISTORICAL G04 CLOSURE POSITION — 20 October 2026, BEFORE G05 REVIEW.** `G04-D01-F01` through `G04-D09-F01` were all **APPROVED** as conditional research. G04 is `CLOSED_CONDITIONAL_RESEARCH`. These findings **do not** establish normative INFOPS Product qualification, certify Products or resolve G03-R01–R12 release blockers.
+> **HISTORICAL G04 CLOSURE POSITION — 20 October 2020, BEFORE G05 REVIEW.** `G04-D01-F01` through `G04-D09-F01` were all **APPROVED** as conditional research. G04 is `CLOSED_CONDITIONAL_RESEARCH`. These findings **do not** establish normative INFOPS Product qualification, certify Products or resolve G03-R01–R12 release blockers.
 
 The complete, owner-approved substantive clauses appear **directly in this master register below**. They are reproduced from the independently navigable [G04 owner-approved decisions](./p01-stage-04-g04-owner-approved-decisions.md) and the machine-readable `research/p01-s04/g04-owner-approved-decisions.json`. The source-of-truth and master-register copies are checked for content parity by the G04 validator.
 
@@ -211,7 +211,7 @@ The complete, owner-approved substantive clauses appear **directly in this maste
 
 #### G04-D01-F01 - Competing-Family Adjudication Protocol, Exact Product Subject and Evidence Discipline {#g04-d01-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Establish an exact-subject and evidence-bounded procedure for competing-family research; Q5 is procedural and Q0 remains independently BPS-governed.
 
@@ -238,7 +238,7 @@ The complete, owner-approved substantive clauses appear **directly in this maste
 
 #### G04-D02-F01 - Enriched Data versus Information Product-family Boundary {#g04-d02-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Rich Data with derived measures is not thereby Information; C02 and C21 remain BOUNDARY_UNRESOLVED with independent Data/Information and Compound jurisdiction.
 
@@ -264,7 +264,7 @@ The complete, owner-approved substantive clauses appear **directly in this maste
 
 #### G04-D03-F01 - Generic Analytics Service versus Information Product-family Boundary {#g04-d03-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** General-purpose analytical capability does not automatically qualify as Information; C07/C20 remain conditional COMPETING_FAMILY with Service classification unverified.
 
@@ -291,7 +291,7 @@ The complete, owner-approved substantive clauses appear **directly in this maste
 
 #### G04-D04-F01 - AI Product versus Information Product-family Boundary {#g04-d04-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** AI participation or intelligence effects do not automatically change the containing Product Family; AIPS AQ1-AQ5 are independently authoritative.
 
@@ -322,7 +322,7 @@ The complete, owner-approved substantive clauses appear **directly in this maste
 
 #### G04-D05-F01 - Creative, Editorial, Static and Human-Curated Information Product Boundaries {#g04-d05-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Neither active analytical execution nor informative creative content determines Family; C05/C06/C19 provisional, C23/C30 invariance, C29/C32 supporting controls.
 
@@ -353,7 +353,7 @@ The complete, owner-approved substantive clauses appear **directly in this maste
 
 #### G04-D06-F01 - Multi-Promise, Product Constitution and Compound Product Boundaries {#g04-d06-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Separate coherent Information, dependencies, multiple Products, commercial bundles, higher-order Products and potential Compound subjects; C12/C18/C31 unresolved.
 
@@ -384,7 +384,7 @@ The complete, owner-approved substantive clauses appear **directly in this maste
 
 #### G04-D07-F01 - Product Identity, Semantic Change and Realization Invariance {#g04-d07-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Separate Product Family/Kind, Product subject, Version, semantic meaning, realization and occurrence; preserve C15/C16/C22/C25-C28/C32/C34-C36.
 
@@ -422,7 +422,7 @@ The complete, owner-approved substantive clauses appear **directly in this maste
 
 #### G04-D08-F01 - Cross-Case Necessity, Joint Sufficiency and False-Positive/False-Negative Assessment {#g04-d08-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Q1-Q4 universal necessity and Q0-Q4 joint sufficiency NOT_ESTABLISHED; avoid claiming empirical classifier rates from hypothetical cases.
 
@@ -451,7 +451,7 @@ The complete, owner-approved substantive clauses appear **directly in this maste
 
 #### G04-D09-F01 - Consolidated Conditional Research Findings and Gate Closure Assessment {#g04-d09-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2026). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
 
 **Research summary:** Close G04 as CLOSED_CONDITIONAL_RESEARCH, preserving original cases/tests, all Q0-Q5 proof limits, independent authorities, 12 G03 release holds, and G05-G07 pending.
 
@@ -473,10 +473,10 @@ The complete, owner-approved substantive clauses appear **directly in this maste
 - **DPP universality.** BPS DPP Core is conceptually universal; canonical Core namespace/Version, Information Profile and issuance/conformance remain unadopted.
 - **Independent assessments.** Productness, Family qualification, operational/semantic conformance, assurance, passport issuance, maturity and authorization remain separate.
 - **Open G03 holds.** All G03-R01-R12 unresolved source, qualification, interoperability and release obligations remain open; G04 resolves none.
-- **Gate closure.** S04-G04 is CLOSED_CONDITIONAL_RESEARCH effective 2026-10-20 by explicit D09 owner approval.
+- **Gate closure.** S04-G04 is CLOSED_CONDITIONAL_RESEARCH effective 2020-10-20 by explicit D09 owner approval.
 - **Other gates.** G01-G03 remain closed research; G05-G07 PENDING and S04 overall not closed.
 - **No automatic next step.** D09 does not start G05-G07 or authorize repository publication, Product certification, schemas or a normative release.
-- **Conversation provenance.** Owner decisions originate from the 2026-10-20 conversation; this overlay materializes their reviewed positions and does not assert a live GitHub merge or external authority consent.
+- **Conversation provenance.** Owner decisions originate from the 2020-10-20 conversation; this overlay materializes their reviewed positions and does not assert a live GitHub merge or external authority consent.
 
 ---
 
@@ -548,18 +548,18 @@ The S02 and S03 source proposal documents and JSON registers retain their histor
 
 ## Next action
 
-G05 was subsequently approved and conditionally closed on 20 October 2026; see the [G05 closure](./p01-stage-04-g05-closure-record.md). **G06 and G07 remain PENDING, NOT STARTED.** No repository deployment, Product certification or normative release follows automatically from either G04 or G05 owner approval.
+G05 was subsequently approved and conditionally closed on 20 October 2020; see the [G05 closure](./p01-stage-04-g05-closure-record.md). **G06 and G07 remain PENDING, NOT STARTED.** No repository deployment, Product certification or normative release follows automatically from either G04 or G05 owner approval.
 
 
 ---
 
-# G06 — Eight approved conditional research decisions (2 November 2026)
+# G06 — Eight approved conditional research decisions (2 November 2020)
 
 **G06 closure**: `CLOSED_CONDITIONAL_RESEARCH (E0_DESIGN_ONLY)`; 62 E0 designs, zero E1/E2 executions, all 12 residual obligations outstanding, all 12 G03 holds open; G07 not started. The following clause-level approved findings are included here substantively, not merely linked. D01–D06 are handoff synopses rather than verbatim source clauses.
 
 ## G06-D01-F01 — Empirical Realization Equivalence, Semantic Fidelity and Negative Conformance Evidence - Scope and Research Charter
 
-**Owner disposition:** APPROVE (2026-10-20); **status:** non-normative conditional research.
+**Owner disposition:** APPROVE (2020-10-20); **status:** non-normative conditional research.
 
 - **F01.1.** G06 scope assesses realization equivalence, semantic fidelity and negative evidence; it does not acquire qualification authority.
 - **F01.2.** Identify governing Product, semantics and contract; assumed qualification stays hypothetical.
@@ -575,7 +575,7 @@ G05 was subsequently approved and conditionally closed on 20 October 2026; see t
 
 ## G06-D02-F01 — Governing Semantic Baseline, Independent Test Oracle, Contract and Evidence Fixtures
 
-**Owner disposition:** APPROVE (2026-10-20); **status:** non-normative conditional research.
+**Owner disposition:** APPROVE (2020-10-20); **status:** non-normative conditional research.
 
 - **F01.1.** Provisional Version-identifiable research baseline is not adopted GEARM norm.
 - **F01.2.** Separate Product Kind/instance/Version, Proposition, semantic definition/Version, realization and occurrence.
@@ -592,7 +592,7 @@ G05 was subsequently approved and conditionally closed on 20 October 2026; see t
 
 ## G06-D03-F01 — Three Controlled Realization Patterns - Materialized, External Mathematics and AI-Assisted Information Formation
 
-**Owner disposition:** APPROVE (2026-10-20); **status:** non-normative conditional research.
+**Owner disposition:** APPROVE (2020-10-20); **status:** non-normative conditional research.
 
 - **F01.1.** Patterns A/B/C share the research semantic baseline and applicable contracts.
 - **F01.2.** Separate technology, Product Kind, instance/Version, realization, provider and occurrence.
@@ -611,7 +611,7 @@ G05 was subsequently approved and conditionally closed on 20 October 2026; see t
 
 ## G06-D04-F01 — Positive Cross-Realization Semantic Equivalence and Metamorphic Evidence
 
-**Owner disposition:** APPROVE (2026-10-20); **status:** non-normative conditional research.
+**Owner disposition:** APPROVE (2020-10-20); **status:** non-normative conditional research.
 
 - **F01.1.** Scope positive equivalence to exact subject, baseline, Version, realization and context.
 - **F01.2.** Assess common-mode oracle risks.
@@ -630,7 +630,7 @@ G05 was subsequently approved and conditionally closed on 20 October 2026; see t
 
 ## G06-D05-F01 — Negative Semantic, Operational, Provider and AI-Conformance Falsification Tests
 
-**Owner disposition:** APPROVE (2026-10-21); **status:** non-normative conditional research.
+**Owner disposition:** APPROVE (2020-10-21); **status:** non-normative conditional research.
 
 - **F01.1.** Challenge semantic, operational, provider, AI and assessment integrity without qualification authority.
 - **F01.2.** Use paired references and mutations with causal attribution.
@@ -651,7 +651,7 @@ G05 was subsequently approved and conditionally closed on 20 October 2026; see t
 
 ## G06-D06-F01 — Product Identity, Semantic Version, Realization, Provenance, Currentness and Compilation Traceability
 
-**Owner disposition:** APPROVE (2026-11-02); **status:** non-normative conditional research.
+**Owner disposition:** APPROVE (2020-11-02); **status:** non-normative conditional research.
 
 - **F01.1.** Trace logical identity, semantics, realization, compilation, execution, evidence and currentness without imposed ledger.
 - **F01.2.** Separate Kind, Product, Version, provider, realization, edition/constituent and occurrence.
@@ -672,7 +672,7 @@ G05 was subsequently approved and conditionally closed on 20 October 2026; see t
 
 ## G06-D07-F01 — Cross-Case Adversarial Replay, Detection Coverage and Evidence Sufficiency
 
-**Owner disposition:** APPROVE (2026-11-02); **status:** non-normative conditional research.
+**Owner disposition:** APPROVE (2020-11-02); **status:** non-normative conditional research.
 
 - **F01.1.** E0 replay is structured logical walkthrough, not runtime execution.
 - **F01.2.** Bind claims to exact subject, identities, Versions, occurrences, evidence and context.
@@ -693,7 +693,7 @@ G05 was subsequently approved and conditionally closed on 20 October 2026; see t
 
 ## G06-D08-F01 — Consolidated Evidence Research, Residual Obligations and Conditional Gate Closure Assessment
 
-**Owner disposition:** APPROVE (2026-11-02); **status:** non-normative conditional research.
+**Owner disposition:** APPROVE (2020-11-02); **status:** non-normative conditional research.
 
 - **F01.1.** G06 closes conditionally at E0 design level only; not empirical validation or normative qualification.
 - **F01.2.** Inherit G06-D01 through D07 without replacing or reopening approvals.
@@ -716,7 +716,7 @@ G05 was subsequently approved and conditionally closed on 20 October 2026; see t
 
 
 
-## G07 owner-reviewed research approvals — 3 November 2026
+## G07 owner-reviewed research approvals — 3 November 2020
 
 All eight `G07-D01-F01` through `G07-D08-F01` decisions were expressly owner-approved as non-normative conditional research. G07 is **`CLOSED_CONDITIONAL_RESEARCH (NORMATIVE_READINESS_NOT_ESTABLISHED)`**; programme owner-approved substantive research decisions **65**. The G07 planning disposition is not double-counted.
 
@@ -734,7 +734,7 @@ All eight `G07-D01-F01` through `G07-D08-F01` decisions were expressly owner-app
 Full clause-level research summaries: [G07 owner-approved decisions](./p01-stage-04-g07-owner-approved-decisions.md). Closure: [G07 research closure](./p01-stage-04-g07-closure-record.md). All `G06-RO01–RO12` and `G03-R01–R12` remain **OPEN**; G06 E0 62 designs, E1 0, E2 0. Q0–Q5 and F06/F14/F16 are unchanged. S04 is NOT_CLOSED. No normative source pins/schemas, tests or publication are authorized. Earlier dated records above remain historical snapshots and must not be interpreted as the current gate status.
 
 
-## S04 stage consolidation — owner approvals, 3 November 2026
+## S04 stage consolidation — owner approvals, 3 November 2020
 
 C01–C06 are **six approved S04 consolidation decisions**, separate from the **65** original substantive G01–G07 research decisions. C01 charter (22 clauses), C02 evidence integrity (24), C03 ontology/artifact authority (24), C04 residual obligations (26), C05 closure recommendation (28), and C06 closure decision (30) were expressly approved.
 
@@ -742,7 +742,7 @@ C01–C06 are **six approved S04 consolidation decisions**, separate from the **
 
 See [S04 C01–C06 approved findings](./p01-stage-04-s04-owner-approved-decisions.md) and [conditional closure effect](./p01-stage-04-s04-conditional-closure-effect.md).
 
-## S04 V01 owner-reviewed prerequisite verification approvals — 4 November 2026
+## S04 V01 owner-reviewed prerequisite verification approvals — 4 November 2020
 
 Seven non-normative V01 decisions (112 owner-approved clauses) recorded separately from 65 substantive G01–G07 and six consolidation approvals. The following clause-level texts are **editorial substantive summaries**, not verbatim decision transcripts. V01 activity conditionally suspended; V01 and S04 both `NOT_CLOSED`.
 

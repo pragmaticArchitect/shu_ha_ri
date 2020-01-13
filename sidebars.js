@@ -60,6 +60,7 @@ module.exports = {
       'governance/change-control','governance/contributing',
       'governance/infops-p01-s04-ta01-pc01-pc10-owner-assessments',
       'governance/infops-p01-s04-pc10-owner-approved-pending-effect',
+      'governance/infops-p01-tb-b01-owner-approved-research-charter',
       'reference/glossary',
     ]},
   ],

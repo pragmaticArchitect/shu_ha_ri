@@ -5,7 +5,7 @@ sidebar_label: P01-S03 - Approved Decisions
 
 # INFOPS-P01-S03 - Owner-approved research decisions
 
-> **OWNER-APPROVED RESEARCH / NOT NORMATIVE (recorded in repository 19 October 2026).** These nine reviewed dispositions were supplied by the owner after the original S03 research draft. They form part of the **15-decision basis for S04-G01 research-gate closure**. Approval incorporates the reviewed refinements, but does not adopt an Information Product Family classifier, prove necessity/sufficiency, or authorize publication.
+> **OWNER-APPROVED RESEARCH / NOT NORMATIVE (recorded in repository 19 October 2020).** These nine reviewed dispositions were supplied by the owner after the original S03 research draft. They form part of the **15-decision basis for S04-G01 research-gate closure**. Approval incorporates the reviewed refinements, but does not adopt an Information Product Family classifier, prove necessity/sufficiency, or authorize publication.
 
 ## Subsequent owner disposition
 

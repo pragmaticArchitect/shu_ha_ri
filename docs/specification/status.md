@@ -4,7 +4,7 @@ title: Status & Release Posture
 
 # Status and release posture
 
-> **CURRENT OWNER-REVIEWED POSITION (20 October 2026): G01-G05 CLOSED AT RESEARCH LEVEL; NOT NORMATIVE.** G05-D08-F01 approved conditional research closure (8/8). G06/G07 have not started. None of the twelve G03 source/release holds is discharged.
+> **CURRENT OWNER-REVIEWED POSITION (20 October 2020): G01-G05 CLOSED AT RESEARCH LEVEL; NOT NORMATIVE.** G05-D08-F01 approved conditional research closure (8/8). G06/G07 have not started. None of the twelve G03 source/release holds is discharged.
 
 | Area | State |
 |---|---|
@@ -15,7 +15,7 @@ title: Status & Release Posture
 | S04 G01 | CLOSED - owner-approved S02/S03 antecedents (15/15) |
 | S04 G02 | CLOSED - CONDITIONAL RESEARCH (7/7) |
 | S04 G03 | CLOSED - CONDITIONAL RESEARCH (10/10) |
-| **S04 G04** | **CLOSED - CONDITIONAL RESEARCH (9/9; G04-D09-F01 approved 2026-10-20)** |
+| **S04 G04** | **CLOSED - CONDITIONAL RESEARCH (9/9; G04-D09-F01 approved 2020-10-20)** |
 | **S04 G05** | **CLOSED_CONDITIONAL_RESEARCH (8/8; G05-D08-F01 approved)** |
 | S04 G06/G07 | PENDING; NOT STARTED |
 | P01 S04 overall | NOT CLOSED |

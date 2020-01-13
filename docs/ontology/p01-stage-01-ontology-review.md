@@ -5,7 +5,7 @@ sidebar_label: P01-S01 - Ontology Review
 
 # INFOPS-P01-S01 - Ontology review and proposed dispositions
 
-> **Status: REVIEW DRAFT / NON-NORMATIVE (18 October 2026).** This is a review addendum to [the original Stage 1 baseline](./p01-stage-01-authority-and-ontology-baseline.md). It does not overwrite H01-H10, approve Information Product qualification, establish new BPS/GEARM/HDIP normative rules, award Product-family membership, or accept Stage 1 on anyone's behalf. All conclusions are proposed for review. Subsequent P01 work must test and govern them.
+> **Status: REVIEW DRAFT / NON-NORMATIVE (18 October 2020).** This is a review addendum to [the original Stage 1 baseline](./p01-stage-01-authority-and-ontology-baseline.md). It does not overwrite H01-H10, approve Information Product qualification, establish new BPS/GEARM/HDIP normative rules, award Product-family membership, or accept Stage 1 on anyone's behalf. All conclusions are proposed for review. Subsequent P01 work must test and govern them.
 
 ## 1. Review scope, input and authority
 

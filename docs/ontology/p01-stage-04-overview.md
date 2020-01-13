@@ -5,11 +5,11 @@ sidebar_label: P01-S04 - Overview
 
 # INFOPS-P01-S04 — Qualification boundary reconciliation
 
-> **S04-C01–C06 OWNER-APPROVED — 3 NOVEMBER 2026.** All six consolidation decisions approved. **C06 approves conditional research-stage closure as a target, but effective S04 remains `NOT_CLOSED` pending original stage-prerequisite verification (F01.6/F01.29).** Exhaustive independent repository audit NOT_ESTABLISHED. Historical G01–G07 approvals remain **65**; G06 E0=62, E1=0, E2=0; G06-RO01–RO12 and G03-R01–R12 OPEN; no normative release. [S04 decision summaries](./p01-stage-04-s04-owner-approved-decisions.md) · [S04 closure effect](./p01-stage-04-s04-conditional-closure-effect.md).
+> **S04-C01–C06 OWNER-APPROVED — 3 NOVEMBER 2020.** All six consolidation decisions approved. **C06 approves conditional research-stage closure as a target, but effective S04 remains `NOT_CLOSED` pending original stage-prerequisite verification (F01.6/F01.29).** Exhaustive independent repository audit NOT_ESTABLISHED. Historical G01–G07 approvals remain **65**; G06 E0=62, E1=0, E2=0; G06-RO01–RO12 and G03-R01–R12 OPEN; no normative release. [S04 decision summaries](./p01-stage-04-s04-owner-approved-decisions.md) · [S04 closure effect](./p01-stage-04-s04-conditional-closure-effect.md).
 
 
 
-> **OWNER-APPROVED CONDITIONAL RESEARCH — 3 NOVEMBER 2026.** G01–G07 research gates closed (G06 E0 design-only; G07 normative readiness not established). All **65** substantive research decisions approved. **S04 remains NOT_CLOSED**. All twelve G03 normative-release holds and twelve G06 residual obligations remain OPEN; no E1/E2 executions and no normative release.
+> **OWNER-APPROVED CONDITIONAL RESEARCH — 3 NOVEMBER 2020.** G01–G07 research gates closed (G06 E0 design-only; G07 normative readiness not established). All **65** substantive research decisions approved. **S04 remains NOT_CLOSED**. All twelve G03 normative-release holds and twelve G06 residual obligations remain OPEN; no E1/E2 executions and no normative release.
 
 ## Current gate position
 
@@ -47,6 +47,6 @@ The approved G07 decision-sequence plan is separate from the 65 substantive rese
 
 This site projection reflects an already-approved owner conversation decision. Producing an overlay does not by itself apply changes to a remote repository, verify the current Netlify deployment, run tests, qualify Products or authorize normative publication.
 
-## V01 F01–F07 owner approval and conditional activity suspension — 4 November 2026
+## V01 F01–F07 owner approval and conditional activity suspension — 4 November 2020
 
 Seven V01 prerequisite-verification decisions (**112 clauses**) were expressly approved separately from the **65** historical G01–G07 substantive decisions and **six** C01–C06 consolidation decisions. F05 authorized bounded read-only source recovery; F06 recorded limited results; F07 conditionally **suspended further verification activity** (`VERIFICATION_ACTIVITY_SUSPENDED_CONDITIONAL`). The V01 series is **NOT_CLOSED**. Original S04 charter/amendments remain **NOT_VERIFIED**, complete binding criteria **NOT_ESTABLISHED**, criterion satisfaction **NOT_PERFORMED**, and C02 independent repository audit **NOT_ESTABLISHED**. C06 F01.6/F01.29 remains binding and **effective S04 remains `NOT_CLOSED`**. No further work is automatically initiated. See [V01 approved findings](./p01-stage-04-v01-owner-approved-decisions.md) and [V01 verification status](./p01-stage-04-v01-verification-activity.md).

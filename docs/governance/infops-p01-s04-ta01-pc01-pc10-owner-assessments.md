@@ -1,15 +1,15 @@
 ---
 title: P01-S04 Track A — PC-01 to PC-10 Owner-Approved Assessments
 sidebar_label: S04 Track A Owner Assessments
-description: Owner-approved Track A assessments and owner-attested effective conditional research-stage closure, 8 November 2026.
+description: Owner-approved Track A assessments and owner-attested effective conditional research-stage closure, 8 November 2020.
 ---
 
 # INFOPS P01-S04 — Track A assessment and closure record
 
 **Record type:** Editorial projection of owner dispositions, not verbatim transcripts or independent repository audit.  
-**Updated as of:** 8 November 2026.  
+**Updated as of:** 8 November 2020.  
 **Governing instrument:** `INFOPS-P01-S04-PCI-0.1`; mandate: `INFOPS-GOV-MANDATE-0.1`.  
-**Effective S04:** `CLOSED_CONDITIONAL_RESEARCH (ONTOLOGY_AND_NORMATIVE_READINESS_UNRESOLVED)` **at owner-attested assurance**, recognized 8 November 2026.
+**Effective S04:** `CLOSED_CONDITIONAL_RESEARCH (ONTOLOGY_AND_NORMATIVE_READINESS_UNRESOLVED)` **at owner-attested assurance**, recognized 8 November 2020.
 
 ## Distinct PC assessment sub-ledger
 
@@ -24,9 +24,9 @@ description: Owner-approved Track A assessments and owner-attested effective con
 | PC-07 | TA01-EVAL-07-F01 | APPROVE | SATISFIED — OWNER_APPROVED_BOUNDED_ONTOLOGY_UNCERTAINTY_PRESERVATION |
 | PC-08 | TA01-EVAL-08-F01 | APPROVE | SATISFIED — OWNER_APPROVED_E0_E1_E2_EVIDENCE_BOUNDARY_PRESERVATION |
 | PC-09 | TA01-EVAL-09-F01 | APPROVE | SATISFIED — OWNER_APPROVED_RESIDUAL_OBLIGATION_PRESERVATION |
-| **PC-10** | **TA01-EVAL-10-F01** | **APPROVE** | **CLOSURE_EFFECTIVE_OWNER_ATTESTED_2026-11-08** |
+| **PC-10** | **TA01-EVAL-10-F01** | **APPROVE** | **CLOSURE_EFFECTIVE_OWNER_ATTESTED_2020-11-08** |
 
-PC-10 owner approval date **6 November 2026** (corrected from 7 November), approved clauses F01.1–F01.18 unchanged. Owner confirms approval preceded Git commit `7ddea588a1c6d7088878fc0bc294bf37012dce1e` on `develop` (`2026-11-06T18:13:12+01:00`), whose content included the approved PC-10 decision. Final known-mandatory-prerequisite/material-contradiction reconciliation was attested **8 November 2026**, which is the prospective closure-effect recognition date. Git contents and timestamps have not been independently verified.
+PC-10 owner approval date **6 November 2020** (corrected from 7 November), approved clauses F01.1–F01.18 unchanged. Owner confirms approval preceded Git commit `7ddea588a1c6d7088878fc0bc294bf37012dce1e` on `develop` (`2020-11-06T18:13:12+01:00`), whose content included the approved PC-10 decision. Final known-mandatory-prerequisite/material-contradiction reconciliation was attested **8 November 2020**, which is the prospective closure-effect recognition date. Git contents and timestamps have not been independently verified.
 
 ## Four independent historical approval ledgers
 

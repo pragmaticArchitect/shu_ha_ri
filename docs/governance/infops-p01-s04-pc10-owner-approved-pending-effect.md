@@ -1,7 +1,7 @@
 ---
 title: P01-S04 PC-10 — Prospective Conditional Research Closure Effective
 sidebar_label: S04 PC-10 Closure Authorization
-description: Owner-attested prospective conditional research-stage closure effective as recognized on 8 November 2026; not normative release.
+description: Owner-attested prospective conditional research-stage closure effective as recognized on 8 November 2020; not normative release.
 ---
 
 # INFOPS P01-S04 — PC-10 prospective conditional closure effectiveness
@@ -9,21 +9,21 @@ description: Owner-attested prospective conditional research-stage closure effec
 **Record type:** Editorial projection of an accountable owner's effective-closure reconciliation, not independent Git verification or normative specification.  
 **Governing basis:** `INFOPS-P01-S04-PCI-0.1`, under `INFOPS-GOV-MANDATE-0.1`.  
 **Decision:** `TA01-EVAL-10-F01`, owner `APPROVE`, F01.1–F01.18 unchanged.  
-**Corrected owner approval date:** **6 November 2026** (earlier 7 November date was corrected by the owner).  
+**Corrected owner approval date:** **6 November 2020** (earlier 7 November date was corrected by the owner).  
 **Qualifying commit:** `7ddea588a1c6d7088878fc0bc294bf37012dce1e`, owner-attested on governing branch `develop` and `origin/develop`.  
-**Reported commit timestamp:** `2026-11-06T18:13:12+01:00` (17:13:12 UTC).  
+**Reported commit timestamp:** `2020-11-06T18:13:12+01:00` (17:13:12 UTC).  
 **Approval before commit:** `CONFIRMED_OWNER_ATTESTED`.  
 **Approved decision content in commit:** `CONFIRMED_OWNER_ATTESTED`.  
-**Final material-applicability reconciliation:** Owner-attested completed 8 November 2026, under F01.4/F01.15; no known applicable independently mandatory conflicting requirement identified in the reconciled scope.  
-**Closure-effect recognition date:** **8 November 2026** (no retrospective closure effect claimed on 6 November).  
+**Final material-applicability reconciliation:** Owner-attested completed 8 November 2020, under F01.4/F01.15; no known applicable independently mandatory conflicting requirement identified in the reconciled scope.  
+**Closure-effect recognition date:** **8 November 2020** (no retrospective closure effect claimed on 6 November).  
 **Effective S04 classification:** **`CLOSED_CONDITIONAL_RESEARCH (ONTOLOGY_AND_NORMATIVE_READINESS_UNRESOLVED)`**.  
 **Assurance:** `OWNER_ATTESTED` (independent live Git audit and original S04 charter recovery not established).
 
 ## Authority and temporal basis
 
-The owner approved PC-01–PC-09 at their respective bounded assurance levels, and separately approved PC-10 F01.1–F01.18 on 6 November 2026. The owner subsequently confirmed that the approved PC-10 record was committed to designated governing branch `develop` under the SHA above, after owner approval, and provided the commit timestamp. On 8 November 2026 the owner attested the final known-mandatory-prerequisite and material-contradiction reconciliation under F01.4/F01.15. The owner-attested closure-effect reconciliation therefore establishes **prospective conditional research-stage closure**, recognized on 8 November 2026.
+The owner approved PC-01–PC-09 at their respective bounded assurance levels, and separately approved PC-10 F01.1–F01.18 on 6 November 2020. The owner subsequently confirmed that the approved PC-10 record was committed to designated governing branch `develop` under the SHA above, after owner approval, and provided the commit timestamp. On 8 November 2020 the owner attested the final known-mandatory-prerequisite and material-contradiction reconciliation under F01.4/F01.15. The owner-attested closure-effect reconciliation therefore establishes **prospective conditional research-stage closure**, recognized on 8 November 2020.
 
-The owner-declared PCI-0.1 effective date was 6 November 2026; qualifying instrument adoption sequence and final committed text remain not independently audited. Owner attestation is the stated assurance level; it is not an independently trusted temporal proof. New authenticated, applicable contrary mandatory requirements remain actionable. This record does **not** retroactively make historical S04-C06 effective.
+The owner-declared PCI-0.1 effective date was 6 November 2020; qualifying instrument adoption sequence and final committed text remain not independently audited. Owner attestation is the stated assurance level; it is not an independently trusted temporal proof. New authenticated, applicable contrary mandatory requirements remain actionable. This record does **not** retroactively make historical S04-C06 effective.
 
 ## Research-only meaning and non-effects
 

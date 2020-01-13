@@ -1,0 +1,177 @@
+{
+  "programme": "INFOPS-0.1",
+  "track": "B",
+  "workPackage": "B01",
+  "findingId": "INFOPS-P01-TB-B01-F01",
+  "ownerDisposition": "APPROVE",
+  "decisionDate": "2026-11-08",
+  "approvedClauseRange": "F01.1-F01.20",
+  "clauses": [
+    {
+      "id": "F01.1",
+      "title": "Purpose",
+      "meaning": "Investigate intrinsic Information Product-family discrimination; prioritize discovery and falsification over confirmation."
+    },
+    {
+      "id": "F01.2",
+      "title": "Prior research",
+      "meaning": "Inherit prospective conditional S04 closure; retain historical C06 approved-not-effective and four 65/6/7/7 ledgers plus separate PC decisions."
+    },
+    {
+      "id": "F01.3",
+      "title": "Principal question",
+      "meaning": "Determine whether Information Product has a defensible intrinsic constitution distinct from other Product families, independent of implementation and consumption."
+    },
+    {
+      "id": "F01.4",
+      "title": "Competing hypotheses",
+      "meaning": "H1 intrinsic family, H2 derived/composite classification, H3 relational/contextual classification, H4 alternative ontology; no presumed truth or exhaustiveness."
+    },
+    {
+      "id": "F01.5",
+      "title": "Candidate Q0-Q5",
+      "meaning": "Q0 independent BPS/PIN Productness; Q1-Q4 universal necessity unestablished; Q0-Q4 joint sufficiency unestablished, not formally disproven; Q5 separate procedural adjudication."
+    },
+    {
+      "id": "F01.6",
+      "title": "Falsifiability",
+      "meaning": "Define subject/Version, claim, counterexample, admissible evidence, oracle, outcome, uncertainty; distinguish conceptual from empirical methods."
+    },
+    {
+      "id": "F01.7",
+      "title": "Original falsifications",
+      "meaning": "Preserve F06/F14/F16 unresolved with original evidence and assumptions; no retrospective execution or closure."
+    },
+    {
+      "id": "F01.8",
+      "title": "Family boundaries",
+      "meaning": "Investigate C02/C21 enriched Data vs Information, C12/C18/C31 multi-Promise and Compound, AI dependency, context, semantics and realization."
+    },
+    {
+      "id": "F01.9",
+      "title": "Identity invariants",
+      "meaning": "Separate Product Kind/instance/Version, Information Proposition, semantic-definition/Version, realization revision, provider/contract Version, plan/binding/compilation, occurrence, evidence, determination, applicability/currentness."
+    },
+    {
+      "id": "F01.10",
+      "title": "Independent authority",
+      "meaning": "Preserve BPS/PIN, GEARM/GEARA, independent Data/AI/Service/Creative/Compound, BPS DPP Core, UPOS/PFI/HDIP, policy/legal and A1-A9 authorities."
+    },
+    {
+      "id": "F01.11",
+      "title": "Evidence discipline",
+      "meaning": "E0 conceptual design distinct from E1 actual reference and E2 actual integrated-PFI execution. G06 E0=62 approved unexecuted; E1=0; E2=0."
+    },
+    {
+      "id": "F01.12",
+      "title": "Experiment authorization",
+      "meaning": "No requirement to execute all 62 designs; separately authorize any E1/E2 scope, oracles, provenance, resources and assessment."
+    },
+    {
+      "id": "F01.13",
+      "title": "Adversarial classification",
+      "meaning": "Distinguish supporting, contradictory, inconclusive, invalid and out-of-scope evidence; no generalization beyond claim."
+    },
+    {
+      "id": "F01.14",
+      "title": "Negative findings",
+      "meaning": "Record alternative explanations, negative results and problem reframing; no mandated conclusion that an intrinsic Information family exists."
+    },
+    {
+      "id": "F01.15",
+      "title": "Reproducibility",
+      "meaning": "Maintain hypothesis/version, subject, provenance, observed or conceptual findings, alternatives, method, evaluator, human disposition, currentness."
+    },
+    {
+      "id": "F01.16",
+      "title": "Residual obligations",
+      "meaning": "Keep G06-RO01-RO12 and G03-R01-R12 all OPEN; mapping is not waiver, transfer, discharge or execution."
+    },
+    {
+      "id": "F01.17",
+      "title": "Planning work packages",
+      "meaning": "B01 charter; B02 ontology; B03 competing-family; B04 falsification; B05 reference evidence; B06 synthesis. No automatic authorization of B02-B06."
+    },
+    {
+      "id": "F01.18",
+      "title": "Possible research outcomes",
+      "meaning": "O1 bounded support of distinct family; O2 alternative classification; O3 revised/rejected candidate; O4 inconclusive; O5 reframing. None automatically normative."
+    },
+    {
+      "id": "F01.19",
+      "title": "B01 completion",
+      "meaning": "Owner must separately accept question, hypotheses, falsifiability, authority, evidence inventory, E0/E1/E2 boundary, adverse findings, non-normative status; B01 not declared complete."
+    },
+    {
+      "id": "F01.20",
+      "title": "Authorization and non-effect",
+      "meaning": "Approve only B01 charter and bounded preparatory work subject to adoption; no B02-B06, E1/E2, repository changes without separate request, normative release, V01 resumption, obligation discharge, S04 reopening."
+    }
+  ],
+  "charterStatus": "OWNER_APPROVED",
+  "preparatoryAuthorization": "APPROVED_SUBJECT_TO_ADOPTION",
+  "repositoryAdoption": "NOT_ESTABLISHED",
+  "b01Completion": "NOT_ESTABLISHED",
+  "hypotheses": {
+    "H1": "INTRINSIC_DISTINCT_FAMILY_RESEARCH_ONLY",
+    "H2": "DERIVED_COMPOSITE_RESEARCH_ONLY",
+    "H3": "RELATIONAL_CONTEXTUAL_RESEARCH_ONLY",
+    "H4": "ALTERNATIVE_ONTOLOGY_RESEARCH_ONLY"
+  },
+  "futureWorkPackages": {
+    "B02": "NOT_AUTHORIZED",
+    "B03": "NOT_AUTHORIZED",
+    "B04": "NOT_AUTHORIZED",
+    "B05": "NOT_AUTHORIZED",
+    "B06": "NOT_AUTHORIZED"
+  },
+  "E1Execution": "NOT_AUTHORIZED",
+  "E2Execution": "NOT_AUTHORIZED",
+  "normativeRelease": "NOT_AUTHORIZED",
+  "s04": {
+    "effectiveProspectiveStatus": "CLOSED_CONDITIONAL_RESEARCH (ONTOLOGY_AND_NORMATIVE_READINESS_UNRESOLVED)",
+    "historicalC06": "APPROVED_NOT_EFFECTIVE",
+    "c06Safeguards": [
+      "F01.6",
+      "F01.29"
+    ],
+    "originalCharter": "NOT_VERIFIED",
+    "originalBindingCriteria": "NOT_ESTABLISHED",
+    "independentC02Audit": "NOT_ESTABLISHED",
+    "generalV01": "VERIFICATION_ACTIVITY_SUSPENDED_CONDITIONAL"
+  },
+  "historicalLedgers": {
+    "research": 65,
+    "consolidation": 6,
+    "verification": 7,
+    "trackAGovernance": 7
+  },
+  "pcAssessmentLedger": "SEPARATE_UNCHANGED",
+  "q0_q5": "NON_NORMATIVE_RESEARCH",
+  "unresolvedFalsifications": [
+    "F06",
+    "F14",
+    "F16"
+  ],
+  "g06E0": {
+    "approvedUnexecuted": 62,
+    "FX": 16,
+    "PE": 12,
+    "NE": 22,
+    "TR": 12
+  },
+  "E1ObservedExecutions": 0,
+  "E2ObservedExecutions": 0,
+  "G06_RO01_RO12": "ALL_OPEN",
+  "G03_R01_R12": "ALL_OPEN",
+  "originalEvidence": [
+    "C01-C36",
+    "F01-F16",
+    "S03-T01-T20",
+    "PFI-F1-F10_ORIGINALLY_UNEXECUTED",
+    "G05-D07-X01-X16_UNEXECUTED"
+  ],
+  "authorityBoundary": "INDEPENDENT_UNCHANGED",
+  "identityVersionOccurrenceCurrentnessBoundary": "PRESERVED",
+  "sourceAssurance": "OWNER_DECISION_TRANSCRIPTION_NOT_INDEPENDENT_GIT_AUDIT"
+}

@@ -66,4 +66,4 @@ A mandatory DPP at Product release/distribution time, if established by applicab
 
 ## Future specification work
 
-INFOPROD, INFOPDS and the Information DPP Profile are **proposed specifications only** as of 19 October 2026. Their fields, JSON-LD vocabularies, SHACL Shapes, JSON Schemas, examples, Profiles, validation and publication need independent adoption. Information Product Characteristics (INFOPCH), PMDD maturity, independent conformance and consequential-action authorization must remain separate from intrinsic family assessment.
+INFOPROD, INFOPDS and the Information DPP Profile are **proposed specifications only** as of 19 October 2020. Their fields, JSON-LD vocabularies, SHACL Shapes, JSON Schemas, examples, Profiles, validation and publication need independent adoption. Information Product Characteristics (INFOPCH), PMDD maturity, independent conformance and consequential-action authorization must remain separate from intrinsic family assessment.

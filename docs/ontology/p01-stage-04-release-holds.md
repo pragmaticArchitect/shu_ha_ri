@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - Release Holds
 
 # G03 conditional closure: normative release blockers
 
-> **CURRENT RESEARCH STATUS — 3 NOVEMBER 2026.** G03–G07 conditionally closed at research level. G06 `E0_DESIGN_ONLY`; G07 `NORMATIVE_READINESS_NOT_ESTABLISHED`. All G03-R01–R12 remain OPEN; E1/E2 are zero, S04 NOT_CLOSED and normative release NOT_AUTHORIZED.
+> **CURRENT RESEARCH STATUS — 3 NOVEMBER 2020.** G03–G07 conditionally closed at research level. G06 `E0_DESIGN_ONLY`; G07 `NORMATIVE_READINESS_NOT_ESTABLISHED`. All G03-R01–R12 remain OPEN; E1/E2 are zero, S04 NOT_CLOSED and normative release NOT_AUTHORIZED.
 
 ## Tracked release holds
 
@@ -49,15 +49,15 @@ sidebar_label: P01-S04 - Release Holds
 The structured owner-reviewed hold record is `research/p01-s04/normative-release-holds.json`; it is a research-management artifact, not a machine-readable INFOPS qualification standard.
 
 
-## G07 normative-readiness reconciliation — 3 November 2026
+## G07 normative-readiness reconciliation — 3 November 2020
 
 `G07-D07-F01` and `G07-D08-F01` were owner-approved. The G07 research gate is `CLOSED_CONDITIONAL_RESEARCH (NORMATIVE_READINESS_NOT_ESTABLISHED)`; **every hold R01–R12 above remains OPEN**, without waiver or risk acceptance. Source pins and INFOPROD, INFOPDS, Information DPP Profile and INFOPCH/PMDD normative governance remain unadopted. G06 residual obligations RO01–RO12 remain OPEN; 62 G06 E0 designs, E1=0 and E2=0. See [G07 closure](./p01-stage-04-g07-closure-record.md). S04 is NOT_CLOSED and normative publication is NOT_AUTHORIZED.
 
 
-## S04 C01–C06 owner decision effect — 3 November 2026
+## S04 C01–C06 owner decision effect — 3 November 2020
 
 All six S04 consolidation decisions have been owner-approved. **Every G03-R01–R12 normative-release hold remains OPEN**, and **every G06-RO01–RO12 residual obligation remains OPEN**. S04 C06 authorizes a target conditional research closure only; **effective S04 remains `NOT_CLOSED`** pending verification of original stage prerequisites. No source adoption, waiver, E1/E2 test result, normative readiness or publication permission follows. See [S04 closure-effect record](./p01-stage-04-s04-conditional-closure-effect.md).
 
-## V01 activity suspension — no waiver (4 November 2026)
+## V01 activity suspension — no waiver (4 November 2020)
 
 Owner-approved `S04-V01-F07` places only **further V01 stage-prerequisite verification activity** in `VERIFICATION_ACTIVITY_SUSPENDED_CONDITIONAL`. V01 and S04 remain `NOT_CLOSED`; all twelve `G03-R01–R12` normative-release holds and twelve `G06-RO01–RO12` residual obligations remain **OPEN**. The original S04 charter and amendments are `NOT_VERIFIED`, complete criteria `NOT_ESTABLISHED`, and C02 exhaustive independent repository audit `NOT_ESTABLISHED`. No obligation or normative source is satisfied, waived, amended, adopted or authorized by the suspension. See [V01 verification activity](./p01-stage-04-v01-verification-activity.md).

@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - G04 Gate Closure
 
 # G04 final gate-closure record
 
-> **CLOSED - CONDITIONAL RESEARCH (20 October 2026). NON-NORMATIVE.** G04-D09-F01 was explicitly owner-approved, following eight previous individual approvals. G05-G07 remain pending. No normative INFOPS qualification, certification or publication has been authorized.
+> **CLOSED - CONDITIONAL RESEARCH (20 October 2020). NON-NORMATIVE.** G04-D09-F01 was explicitly owner-approved, following eight previous individual approvals. G05-G07 remain pending. No normative INFOPS qualification, certification or publication has been authorized.
 
 ## Owner approval and scope
 
@@ -15,7 +15,7 @@ sidebar_label: P01-S04 - G04 Gate Closure
 | Gate | G04 - Competing-family adjudication, Product boundaries, semantic invariance and falsification |
 | Closure decision | `G04-D09-F01` |
 | Owner disposition | `APPROVE` |
-| Approval date | 2026-10-20 |
+| Approval date | 2020-10-20 |
 | Closed state | `CLOSED_CONDITIONAL_RESEARCH` |
 | Decisions complete | 9 / 9 owner-approved research findings |
 | S04 overall | NOT CLOSED |

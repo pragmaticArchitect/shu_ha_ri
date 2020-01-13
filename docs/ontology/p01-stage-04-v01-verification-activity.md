@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - V01 Activity
 
 # V01 verification activity — conditionally suspended; stage remains open
 
-> **Owner decision:** `S04-V01-F07 = APPROVE`, 4 November 2026. **Further V01 verification activity is `VERIFICATION_ACTIVITY_SUSPENDED_CONDITIONAL`.** **V01 is NOT_CLOSED; effective S04 is NOT_CLOSED.** These are bounded non-normative governance and evidence-research records, not automatic stage-status changes.
+> **Owner decision:** `S04-V01-F07 = APPROVE`, 4 November 2020. **Further V01 verification activity is `VERIFICATION_ACTIVITY_SUSPENDED_CONDITIONAL`.** **V01 is NOT_CLOSED; effective S04 is NOT_CLOSED.** These are bounded non-normative governance and evidence-research records, not automatic stage-status changes.
 
 ## Approvals and scope
 

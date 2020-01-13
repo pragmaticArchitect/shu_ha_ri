@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - G07 Approved Decisions
 
 # G07 — Eight owner-approved decisions
 
-> **CONDITIONAL RESEARCH, NOT NORMATIVE INFOPS.** G07 approved 8/8 on 3 November 2026; status `CLOSED_CONDITIONAL_RESEARCH (NORMATIVE_READINESS_NOT_ESTABLISHED)`. Total programme substantive approvals **65**. S04 NOT_CLOSED, no normative release.
+> **CONDITIONAL RESEARCH, NOT NORMATIVE INFOPS.** G07 approved 8/8 on 3 November 2020; status `CLOSED_CONDITIONAL_RESEARCH (NORMATIVE_READINESS_NOT_ESTABLISHED)`. Total programme substantive approvals **65**. S04 NOT_CLOSED, no normative release.
 
 > **Clause provenance:** Each `F01.n` below is an editorial summary of the corresponding owner-approved research clause as supplied in the conversation, **not verbatim source text**. No clause is intended to expand authority or silently alter prior decisions. See the conversation for full wording.
 
@@ -26,7 +26,7 @@ sidebar_label: P01-S04 - G07 Approved Decisions
 
 ### G07-D01-F01 — Research Charter, Normative Readiness and Authority Boundaries {#g07-d01-f01}
 
-**Owner disposition:** `APPROVE` (3 November 2026). **Classification:** `APPROVED_CONDITIONAL_RESEARCH` — non-normative.
+**Owner disposition:** `APPROVE` (3 November 2020). **Classification:** `APPROVED_CONDITIONAL_RESEARCH` — non-normative.
 
 - **F01.1.** G07 is non-normative research into qualification boundaries and normative readiness, not normative adoption.
 - **F01.2.** Preserve G01-G06 owner-approved findings and exact historical status.
@@ -48,7 +48,7 @@ sidebar_label: P01-S04 - G07 Approved Decisions
 
 ### G07-D02-F01 — Consolidated Ontology and Qualification Evidence {#g07-d02-f01}
 
-**Owner disposition:** `APPROVE` (3 November 2026). **Classification:** `APPROVED_CONDITIONAL_RESEARCH` — non-normative.
+**Owner disposition:** `APPROVE` (3 November 2020). **Classification:** `APPROVED_CONDITIONAL_RESEARCH` — non-normative.
 
 - **F01.1.** Consolidate prior ontology casework without treating hypotheses as adopted qualification rules.
 - **F01.2.** Preserve exact assessed Product subject and generic Productness jurisdiction of BPS/PIN.
@@ -71,7 +71,7 @@ sidebar_label: P01-S04 - G07 Approved Decisions
 
 ### G07-D03-F01 — Authoritative Source Adoption and Cross-Specification Dependencies {#g07-d03-f01}
 
-**Owner disposition:** `APPROVE` (3 November 2026). **Classification:** `APPROVED_CONDITIONAL_RESEARCH` — non-normative.
+**Owner disposition:** `APPROVE` (3 November 2020). **Classification:** `APPROVED_CONDITIONAL_RESEARCH` — non-normative.
 
 - **F01.1.** Source adoption framework is research-only and does not install normative bindings.
 - **F01.2.** Differentiate upstream competent source authority from an INFOPS adoption decision.
@@ -94,7 +94,7 @@ sidebar_label: P01-S04 - G07 Approved Decisions
 
 ### G07-D04-F01 — Information Product Artifact and Semantic Contract Readiness {#g07-d04-f01}
 
-**Owner disposition:** `APPROVE` (3 November 2026). **Classification:** `APPROVED_CONDITIONAL_RESEARCH` — non-normative.
+**Owner disposition:** `APPROVE` (3 November 2020). **Classification:** `APPROVED_CONDITIONAL_RESEARCH` — non-normative.
 
 - **F01.1.** Research candidate artifact responsibilities and semantic-contract readiness; no mandatory schema.
 - **F01.2.** BPS/PIN Product identity, constitution, Version and Promise remain upstream.
@@ -119,7 +119,7 @@ sidebar_label: P01-S04 - G07 Approved Decisions
 
 ### G07-D05-F01 — Cross-Determination Independence and Evidence Sufficiency {#g07-d05-f01}
 
-**Owner disposition:** `APPROVE` (3 November 2026). **Classification:** `APPROVED_CONDITIONAL_RESEARCH` — non-normative.
+**Owner disposition:** `APPROVE` (3 November 2020). **Classification:** `APPROVED_CONDITIONAL_RESEARCH` — non-normative.
 
 - **F01.1.** Consolidate G05 A1-A9 conceptual independent determination categories.
 - **F01.2.** Maintain distinct claims and competent authorities; no automatic cross-determination success or failure.
@@ -144,7 +144,7 @@ sidebar_label: P01-S04 - G07 Approved Decisions
 
 ### G07-D06-F01 — Empirical Obligations, Falsification and Residual Risk {#g07-d06-f01}
 
-**Owner disposition:** `APPROVE` (3 November 2026). **Classification:** `APPROVED_CONDITIONAL_RESEARCH` — non-normative.
+**Owner disposition:** `APPROVE` (3 November 2020). **Classification:** `APPROVED_CONDITIONAL_RESEARCH` — non-normative.
 
 - **F01.1.** Consolidate ontological, empirical, authority and residual-risk obligations separately.
 - **F01.2.** G06 contains 62 approved E0 designs, zero E1 observations and zero E2 integrated PFI observations.
@@ -169,7 +169,7 @@ sidebar_label: P01-S04 - G07 Approved Decisions
 
 ### G07-D07-F01 — Normative Readiness Criteria and Release-Hold Reconciliation {#g07-d07-f01}
 
-**Owner disposition:** `APPROVE` (3 November 2026). **Classification:** `APPROVED_CONDITIONAL_RESEARCH` — non-normative.
+**Owner disposition:** `APPROVE` (3 November 2020). **Classification:** `APPROVED_CONDITIONAL_RESEARCH` — non-normative.
 
 - **F01.1.** Reconcile readiness and release holds as research, not normative adoption.
 - **F01.2.** Research completion differs from normative readiness and publication eligibility.
@@ -194,7 +194,7 @@ sidebar_label: P01-S04 - G07 Approved Decisions
 
 ### G07-D08-F01 — Consolidated Readiness Finding and Conditional G07 Closure {#g07-d08-f01}
 
-**Owner disposition:** `APPROVE` (3 November 2026). **Classification:** `APPROVED_CONDITIONAL_RESEARCH` — non-normative.
+**Owner disposition:** `APPROVE` (3 November 2020). **Classification:** `APPROVED_CONDITIONAL_RESEARCH` — non-normative.
 
 - **F01.1.** Consolidate all approved G07-D01-D07 without changing their scope or authority.
 - **F01.2.** Eight decisions provide sufficient conditional research-gate closure basis, not substantive proof of everything.
