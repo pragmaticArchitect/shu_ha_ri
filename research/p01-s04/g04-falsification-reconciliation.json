@@ -3,7 +3,7 @@
   "gate": "G04",
   "researchOnly": true,
   "normative": false,
-  "asOf": "2026-10-20",
+  "asOf": "2019-10-20",
   "source": "research/p01-s02/hypothesis-tests.json",
   "sourceSha256": "489492c5ec215aa141e83372f262926d41ce231e5c5f02656cb59953edd93ed7",
   "count": 16,

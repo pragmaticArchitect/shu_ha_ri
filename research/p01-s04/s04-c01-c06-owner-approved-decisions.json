@@ -1,7 +1,7 @@
 {
   "project": "INFOPS",
   "stage": "P01-S04",
-  "asOf": "2026-11-03",
+  "asOf": "2019-11-03",
   "normative": false,
   "recordType": "CONVERSATION_APPROVED_OWNER_DECISIONS_PROJECTED_TO_REPOSITORY",
   "sourceRepresentation": "EDITORIAL_CLAUSE_SUMMARIES_OF_APPROVED_FINDINGS_NOT_VERBATIM",
@@ -14,7 +14,7 @@
       "title": "Research Consolidation and Stage Closure Charter",
       "ownerDisposition": "APPROVE",
       "status": "APPROVED_RESEARCH_CHARTER",
-      "date": "2026-11-03",
+      "date": "2019-11-03",
       "clauseCount": 22,
       "clauses": [
         {
@@ -112,7 +112,7 @@
       "title": "Consolidated G01-G07 Decision and Evidence Integrity",
       "ownerDisposition": "APPROVE",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "date": "2026-11-03",
+      "date": "2019-11-03",
       "clauseCount": 24,
       "clauses": [
         {
@@ -218,7 +218,7 @@
       "title": "Ontology, Artifact and Authority Boundary Consolidation",
       "ownerDisposition": "APPROVE",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "date": "2026-11-03",
+      "date": "2019-11-03",
       "clauseCount": 24,
       "clauses": [
         {
@@ -324,7 +324,7 @@
       "title": "Residual Obligations and Forward Research Disposition",
       "ownerDisposition": "APPROVE",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "date": "2026-11-03",
+      "date": "2019-11-03",
       "clauseCount": 26,
       "clauses": [
         {
@@ -438,7 +438,7 @@
       "title": "Stage Completion Assessment and Forward Programme Recommendation",
       "ownerDisposition": "APPROVE",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "date": "2026-11-03",
+      "date": "2019-11-03",
       "clauseCount": 28,
       "clauses": [
         {
@@ -560,7 +560,7 @@
       "title": "Owner Decision on Conditional S04 Research-Stage Closure",
       "ownerDisposition": "APPROVE",
       "status": "APPROVED_CONDITIONAL_CLOSURE_DECISION_EFFECT_PENDING",
-      "date": "2026-11-03",
+      "date": "2019-11-03",
       "clauseCount": 30,
       "clauses": [
         {

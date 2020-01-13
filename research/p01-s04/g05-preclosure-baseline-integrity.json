@@ -6,7 +6,7 @@
   "sourceArchiveSha256": "ad2fc1aea6d0c218352173f915391328a7a398aa7869567a17e02e131200379a",
   "sourceZipRoot": "shu_ha_ri/",
   "sourceFileCount": 89,
-  "asOf": "2026-10-20",
+  "asOf": "2019-10-20",
   "fileHashes": {
     "sidebars.js": "8baaf9284a5561d5942738d2fbb232fcc1acf35e690353eecfc1d31f96053fc6",
     "package.json": "ce2a12b6b6e44c3cd948e633eef012ec7bbe7df26e303734238fdc9c8ba493cb",

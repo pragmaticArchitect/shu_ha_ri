@@ -3,7 +3,7 @@
   "stage": "P01-S04",
   "series": "S04-V01",
   "recordType": "CONVERSATIONAL_OWNER_APPROVAL_EDITORIAL_PROJECTION",
-  "asOf": "2026-11-04",
+  "asOf": "2019-11-04",
   "normative": false,
   "originalClausesVerbatim": false,
   "provenanceNotice": "Clause-level summaries are faithful editorial projections of owner-approved conversation findings, not verbatim owner finding text or an independent source-of-authority audit.",
@@ -17,7 +17,7 @@
       "title": "Original Stage-Closure Prerequisite Verification Charter",
       "ownerDisposition": "APPROVE",
       "status": "APPROVED_VERIFICATION_CHARTER",
-      "decisionDate": "2026-11-03",
+      "decisionDate": "2019-11-03",
       "clauseCount": 12,
       "clauses": [
         {
@@ -75,7 +75,7 @@
       "title": "Original Stage Authority, Closure-Criteria Discovery and Evidence Admissibility",
       "ownerDisposition": "APPROVE",
       "status": "APPROVED_AUTHORITY_DISCOVERY_RESEARCH",
-      "decisionDate": "2026-11-03",
+      "decisionDate": "2019-11-03",
       "clauseCount": 18,
       "clauses": [
         {
@@ -157,7 +157,7 @@
       "title": "Original Stage-Authority Evidence Inventory and Closure-Prerequisite Verification Gap",
       "ownerDisposition": "APPROVE",
       "status": "APPROVED_SOURCE_DISCOVERY_RESEARCH",
-      "decisionDate": "2026-11-03",
+      "decisionDate": "2019-11-03",
       "clauseCount": 18,
       "clauses": [
         {
@@ -239,7 +239,7 @@
       "title": "Authoritative Source Recovery, Evidence Dependency and Verification Blocker Disposition",
       "ownerDisposition": "APPROVE",
       "status": "APPROVED_EVIDENCE_DEPENDENCY_RESEARCH",
-      "decisionDate": "2026-11-03",
+      "decisionDate": "2019-11-03",
       "clauseCount": 16,
       "clauses": [
         {
@@ -313,7 +313,7 @@
       "title": "Bounded Original-Authority Recovery Execution and Evidence Acquisition",
       "ownerDisposition": "APPROVE",
       "status": "APPROVED_READ_ONLY_SOURCE_RECOVERY_AUTHORIZATION",
-      "decisionDate": "2026-11-03",
+      "decisionDate": "2019-11-03",
       "clauseCount": 16,
       "clauses": [
         {
@@ -387,7 +387,7 @@
       "title": "Read-Only Source Recovery Results and Original Closure-Authority Evidence Assessment",
       "ownerDisposition": "APPROVE",
       "status": "APPROVED_SOURCE_RECOVERY_FINDINGS",
-      "decisionDate": "2026-11-04",
+      "decisionDate": "2019-11-04",
       "clauseCount": 14,
       "clauses": [
         {
@@ -453,7 +453,7 @@
       "title": "Closure-Prerequisite Verification Blocker, Evidence Sufficiency and Conditional Suspension Assessment",
       "ownerDisposition": "APPROVE",
       "status": "APPROVED_CONDITIONAL_VERIFICATION_SUSPENSION",
-      "decisionDate": "2026-11-04",
+      "decisionDate": "2019-11-04",
       "clauseCount": 18,
       "clauses": [
         {

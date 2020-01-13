@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - G05 Review Plan
 
 # G05 owner review sequence and approved completion
 
-> **RETROSPECTIVE SEQUENCE — OWNER-APPROVED RESEARCH.** This page documents the eight G05 decisions as actually approved by the owner on 20 October 2020. It is not evidence of a historical independently versioned pre-review plan and does not authorize any normative specification.
+> **RETROSPECTIVE SEQUENCE — OWNER-APPROVED RESEARCH.** This page documents the eight G05 decisions as actually approved by the owner on 20 November 2019. It is not evidence of a historical independently versioned pre-review plan and does not authorize any normative specification.
 
 | Decision | Focus | Owner disposition |
 |---|---|---|

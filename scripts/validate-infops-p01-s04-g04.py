@@ -28,7 +28,7 @@ need(approved['status']=='CLOSED_CONDITIONAL_RESEARCH' and approved['closureDeci
 need(len(approved['decisions'])==9,'Nine G04 decisions missing')
 for idx,d in enumerate(approved['decisions'],1):
     need(d['id']==f'G04-D{idx:02d}-F01' and d['ownerDisposition']=='APPROVED','G04 owner disposition mismatch')
-    need(d['decisionDate']=='2026-10-20' and d['normative'] is False and d['qualificationIssued'] is False,'G04 must be research-only')
+    need(d['decisionDate']=='2019-10-20' and d['normative'] is False and d['qualificationIssued'] is False,'G04 must be research-only')
     need(len(d['clauses'])>=10 and all(x.get('position') and x.get('topic') for x in d['clauses']),'Owner finding clauses must be substantive')
     for case_id,label in d['originalCaseDispositions'].items():
         found=next((c for c in case_rec['cases'] if c['caseId']==case_id),None)

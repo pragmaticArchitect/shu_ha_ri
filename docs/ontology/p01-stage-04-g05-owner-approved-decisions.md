@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - G05 Decisions
 
 # G05 - Independent Determinations, Trust, Maturity and Authorization
 
-> **OWNER APPROVED — NON-NORMATIVE (20 October 2020).** `G05-D01-F01` through `G05-D08-F01` are all individually APPROVED, and D08 closes G05 as `CLOSED_CONDITIONAL_RESEARCH`. These decisions are recorded here after a later explicit owner request to create a repository-relative overlay. They do not certify Products, normatively adopt source authorities or discharge any G03 release hold.
+> **OWNER APPROVED — NON-NORMATIVE (20 November 2019).** `G05-D01-F01` through `G05-D08-F01` are all individually APPROVED, and D08 closes G05 as `CLOSED_CONDITIONAL_RESEARCH`. These decisions are recorded here after a later explicit owner request to create a repository-relative overlay. They do not certify Products, normatively adopt source authorities or discharge any G03 release hold.
 
 The complete clauses below are reproduced verbatim within this overlay from the machine-readable decision entries; D01-D03 are faithful consolidated research wording based on the prior owner-approved handoff, not a claim that complete original deliberation transcripts were embedded in the repository. No underlying decision has been re-adjudicated.
 
@@ -26,7 +26,7 @@ The complete clauses below are reproduced verbatim within this overlay from the 
 
 ### G05-D01-F01 - Independent Qualification, Evidence, Conformance, Maturity and Authorization Boundaries {#g05-d01-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 November 2019). **Status:** conditional research / non-normative.
 
 **Research summary:** Nine independent conceptual determination categories A1-A9; legitimate shared evidence but no cross-authority substitution.
 
@@ -44,7 +44,7 @@ The complete clauses below are reproduced verbatim within this overlay from the 
 
 ### G05-D02-F01 - Assessment Subjects, Evidence Provenance, Evaluation Decisions and Currentness {#g05-d02-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 November 2019). **Status:** conditional research / non-normative.
 
 **Research summary:** Exact subject/Version/context discipline and claim/evidence/provenance/verification/evaluation/decision/attestation/issuance/currentness separation.
 
@@ -63,7 +63,7 @@ The complete clauses below are reproduced verbatim within this overlay from the 
 
 ### G05-D03-F01 - Generic Productness, Information Product-family Qualification and Semantic Conformance Boundaries {#g05-d03-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 November 2019). **Status:** conditional research / non-normative.
 
 **Research summary:** Generic Productness, Information-family candidature, governed semantic conformance, realization and other families do not substitute for one another.
 
@@ -80,7 +80,7 @@ The complete clauses below are reproduced verbatim within this overlay from the 
 
 ### G05-D04-F01 - INFOPDS Realization, Semantic Fidelity, Operational Conformance and HPD Projection Boundaries {#g05-d04-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 November 2019). **Status:** conditional research / non-normative.
 
 **Research summary:** Realization accountability without Product/semantic authority transfer; semantic fidelity, deployment conformance and HPD projection distinct.
 
@@ -98,7 +98,7 @@ The complete clauses below are reproduced verbatim within this overlay from the 
 
 ### G05-D05-F01 - BPS DPP Core, Information Product DPP Profile, Claim Verification, Issuance and Trust Boundaries {#g05-d05-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 November 2019). **Status:** conditional research / non-normative.
 
 **Research summary:** Cross-family BPS DPP Core source, possible Information-specific profile, claims, verification, evaluation, issuance and trust separated.
 
@@ -117,7 +117,7 @@ The complete clauses below are reproduced verbatim within this overlay from the 
 
 ### G05-D06-F01 - INFOPCH/PMDD Maturity, Assurance, Fitness, Consumption Authorization and Consequential Action Boundaries {#g05-d06-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 November 2019). **Status:** conditional research / non-normative.
 
 **Research summary:** Maturity after independent qualification; assurance, fitness, Product access, decision/action authorization and value distinct.
 
@@ -136,7 +136,7 @@ The complete clauses below are reproduced verbatim within this overlay from the 
 
 ### G05-D07-F01 - Cross-Case Falsification, Determination Independence and Dependency Tests {#g05-d07-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 November 2019). **Status:** conditional research / non-normative.
 
 **Research summary:** Six prior G05 findings challenged with controlled adverse cases while preserving legitimate dependencies, original case/test dispositions and epistemic limits.
 
@@ -156,7 +156,7 @@ The complete clauses below are reproduced verbatim within this overlay from the 
 
 ### G05-D08-F01 - Consolidated G05 Conditional Research Findings, Residual Obligations and Gate Closure Assessment {#g05-d08-f01}
 
-**Owner disposition:** `APPROVE` (20 October 2020). **Status:** conditional research / non-normative.
+**Owner disposition:** `APPROVE` (20 November 2019). **Status:** conditional research / non-normative.
 
 **Research summary:** Reconcile G05-D01-D07 and close G05 as CLOSED_CONDITIONAL_RESEARCH with every qualification/source/release hold intact.
 

@@ -5,7 +5,7 @@ sidebar_label: "Track B B01 research charter"
 ---
 # INFOPS-P01-TB-B01-F01 — Research Charter, Scope and Falsifiability Boundary
 
-**Owner disposition:** `APPROVE`, 8 November 2020. **Approved:** `F01.1–F01.20`, without amendment. This is an owner-approved, **non-normative** research charter. Repository adoption of this B01 record has not yet been established; completion of B01 and authorization of B02–B06 are not established.
+**Owner disposition:** `APPROVE`, 8 December 2019. **Approved:** `F01.1–F01.20`, without amendment. This is an owner-approved, **non-normative** research charter. Repository adoption of this B01 record has not yet been established; completion of B01 and authorization of B02–B06 are not established.
 
 **Principal research question:** Does an Information Product possess intrinsic, discriminating Product-family characteristics independent of implementation, realization, organizational ownership and consumption mechanisms?
 

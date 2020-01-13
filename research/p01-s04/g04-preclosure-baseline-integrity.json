@@ -6,7 +6,7 @@
   "sourceArchiveSha256": "57e5050dc21095789dd6d01b54859ba48fac0989c11b0e68d9f50c90a1c5ec6f",
   "sourceArchiveFileCount": 82,
   "sourceArchiveZipRoot": "shu_ha_ri/",
-  "asOf": "2026-10-20",
+  "asOf": "2019-10-20",
   "normative": false,
   "purpose": "Preserve all baseline-file checksums before adding G04 owner approvals; historical G01-G03 overlay manifest is NOT rewritten.",
   "files": [

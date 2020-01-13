@@ -8,9 +8,9 @@ INFOPS will define Information Product family qualification consistent with **BP
 
 The original P01 Stage 1 baseline and review remain preserved. Stage 2 (`docs/ontology/p01-stage-02-pin-differentiation-falsification.md`) contains 36 conditional case dispositions, ten PFI thought experiments and 16 falsification tests. Stage 3 adds `docs/ontology/p01-stage-03-candidate-qualification-rules.md`, a review procedure, 20 additional boundary cases, a PFI invariance protocol and explicit owner review decisions. The original and refined KivaNura crude-oil-to-driver analogy is retained at `docs/foundations/crude-oil-to-driver-teaching-analogy.md` as **informative only**. The `research/p01-s02/` and `research/p01-s03/` files are non-normative evidence/traceability records and scripts do **not** certify any Product or PFI. **Joint sufficiency of candidate qualification conditions is unproven**; no INFOPCH maturity assessment, descriptor contract or conformance claim has been issued.
 
-## Owner-reviewed Stage 4 consolidation (20 October 2026)
+## Owner-reviewed Stage 4 consolidation (20 October 2019)
 
-**G01 (15/15), G02 (7/7), G03 (10/10), G04 (9/9) and G05 (8/8) have completed owner-reviewed research.** G05-D08-F01 approved `CLOSED_CONDITIONAL_RESEARCH` closure on 20 October 2026. This gives **49 distinct approved research decisions**, counting the fifteen S02/S03 antecedents once as the G01 closure basis. **G06/G07 are PENDING and NOT STARTED.** INFOPS 0.1 is NOT a normative qualification standard and all G03-R01-R12 release holds remain open.
+**G01 (15/15), G02 (7/7), G03 (10/10), G04 (9/9) and G05 (8/8) have completed owner-reviewed research.** G05-D08-F01 approved `CLOSED_CONDITIONAL_RESEARCH` closure on 20 October 2019. This gives **49 distinct approved research decisions**, counting the fifteen S02/S03 antecedents once as the G01 closure basis. **G06/G07 are PENDING and NOT STARTED.** INFOPS 0.1 is NOT a normative qualification standard and all G03-R01-R12 release holds remain open.
 
 Primary source and decision pages:
 

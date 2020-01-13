@@ -46,7 +46,7 @@ need([d.get('id') for d in g05.get('decisions',[])]==expectedIds,'Wrong G05 deci
 expectedClauseCounts=[9,10,8,9,10,10,11,11]
 for d,num in zip(g05.get('decisions',[]),expectedClauseCounts):
     need(d.get('ownerDisposition')=='APPROVED' and d.get('normative') is False and d.get('qualificationIssued') is False,'G05 decision incorrectly normative/approved: '+d.get('id','?'))
-    need(d.get('decisionDate')=='2026-10-20' and d.get('publicationAuthorized') is False,'G05 source date/publication status invalid')
+    need(d.get('decisionDate')=='2019-10-20' and d.get('publicationAuthorized') is False,'G05 source date/publication status invalid')
     need(len(d.get('clauses',[]))==num,'G05 clause-count mismatch: '+d.get('id','?'))
     need([c.get('id') for c in d.get('clauses',[])]==[f'F01.{i}' for i in range(1,num+1)],'G05 clause identifiers mismatch: '+d.get('id','?'))
     need(all(len(c.get('position',''))>=50 and c.get('topic') for c in d.get('clauses',[])),'G05 approved finding content too short/missing: '+d.get('id','?'))

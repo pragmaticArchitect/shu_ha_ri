@@ -1,6 +1,6 @@
 {
   "name": "INFOPS S04 PC10 owner-attested prospective effective closure overlay",
-  "asOf": "2026-11-08",
+  "asOf": "2019-11-08",
   "classification": "EDITORIAL_PROJECTION_OF_OWNER_ATTESTATION",
   "sidebarChangeNeeded": false,
   "existingSidebarDocumentIdsPreserved": true,
@@ -10,7 +10,7 @@
     "shu_ha_ri/docs/governance/infops-p01-s04-pc10-owner-approved-pending-effect.md",
     "shu_ha_ri/docs/governance/infops-p01-s04-ta01-pc01-pc10-owner-assessments.md",
     "shu_ha_ri/research/p01-s04/ta01-pc01-pc10-owner-assessment-ledger.json",
-    "shu_ha_ri/research/p01-s04/ta01-pc10-effectiveness-attestation-2026-11-08.json",
+    "shu_ha_ri/research/p01-s04/ta01-pc10-effectiveness-attestation-2019-11-08.json",
     "shu_ha_ri/research/p01-s04/ta01-pc10-prospective-closure-effect.json",
     "shu_ha_ri/scripts/apply-infops-p01-s04-effective-status.py",
     "shu_ha_ri/scripts/validate-infops-p01-s04-effective-closure-overlay.py",

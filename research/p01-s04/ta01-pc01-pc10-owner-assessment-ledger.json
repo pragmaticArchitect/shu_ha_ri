@@ -4,13 +4,13 @@
   "programme": "INFOPS-0.1",
   "stage": "P01-S04",
   "track": "A",
-  "asOf": "2026-11-08",
+  "asOf": "2019-11-08",
   "source": "Owner dispositions in the conversation; editorial summary, not verbatim original transcript or independent Git audit.",
   "governingMandate": "INFOPS-GOV-MANDATE-0.1",
   "prospectiveInstrument": "INFOPS-P01-S04-PCI-0.1",
   "instrumentGitProvenance": {
     "ownerReportedSha": "5604d3e017e618c554079c73f3abbb29b897e00a",
-    "effectiveDateOwnerDeclared": "2026-11-06",
+    "effectiveDateOwnerDeclared": "2019-11-06",
     "effectiveDateRevisionGitUpdate": "OWNER_REPORTED_COMMITTED",
     "branch": "NOT_INDEPENDENTLY_VERIFIED",
     "exactCommitContentVerification": "NOT_PERFORMED",
@@ -127,22 +127,22 @@
       "decisionId": "TA01-EVAL-10-F01",
       "criterion": "PC-10",
       "ownerDisposition": "APPROVE",
-      "criterionAssessment": "OWNER_DECISION_APPROVED_CLOSURE_EFFECTIVE_2026_11_08",
+      "criterionAssessment": "OWNER_DECISION_APPROVED_CLOSURE_EFFECTIVE_2019_11_08",
       "assurance": "OWNER_ATTESTED_QUALIFYING_GIT_AND_FINAL_APPLICABILITY",
       "summary": "Prospective conditional research-stage closure authorization",
       "approvedClauses": "F01.1-F01.18",
       "authority": "OWNER_CONVERSATION_DISPOSITION",
       "independentRepositoryAudit": false,
-      "approvalDateCorrected": "2026-11-06",
-      "effectRecognizedOn": "2026-11-08"
+      "approvalDateCorrected": "2019-11-06",
+      "effectRecognizedOn": "2019-11-08"
     }
   ],
   "assessmentCount": 10,
   "finalAssessment": {
     "pc01ThroughPc09": "SATISFIED_AT_RECORDED_BOUNDED_ASSURANCE",
     "pc10OwnerDisposition": "APPROVE",
-    "pc10ClosureEffect": "EFFECTIVE_OWNER_ATTESTED_2026-11-08",
-    "closureEffectRecognitionDate": "2026-11-08",
+    "pc10ClosureEffect": "EFFECTIVE_OWNER_ATTESTED_2019-11-08",
+    "closureEffectRecognitionDate": "2019-11-08",
     "originalHistoricalC06Effect": "APPROVED_NOT_EFFECTIVE",
     "qualifyingCommit": "7ddea588a1c6d7088878fc0bc294bf37012dce1e",
     "assurance": "OWNER_ATTESTED_NOT_INDEPENDENT_GIT_AUDIT"

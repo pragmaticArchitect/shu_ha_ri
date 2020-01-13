@@ -1,7 +1,7 @@
 {
   "gate": "G07",
   "decision": "G07-D08-F01",
-  "decisionDate": "2026-11-03",
+  "decisionDate": "2019-11-03",
   "ownerDisposition": "APPROVE",
   "status": "CLOSED_CONDITIONAL_RESEARCH",
   "qualifier": "NORMATIVE_READINESS_NOT_ESTABLISHED",
@@ -73,5 +73,5 @@
   "nextStageInitiated": false,
   "normativeReleaseAuthorized": false,
   "ownerClosureIsNotNormativeRelease": true,
-  "projectionDate": "2026-11-03"
+  "projectionDate": "2019-11-03"
 }

@@ -2,13 +2,13 @@
   "project": "INFOPS",
   "programme": "INFOPS-P01-S04",
   "gate": "G07",
-  "asOf": "2026-11-03",
+  "asOf": "2019-11-03",
   "status": "CLOSED_CONDITIONAL_RESEARCH",
   "closureQualifier": "NORMATIVE_READINESS_NOT_ESTABLISHED",
   "normative": false,
   "ownerApprovedDecisions": 8,
   "programmeResearchApprovals": 65,
-  "approvalSource": "Owner-reviewed conversation through G07-D08-F01 on 2026-11-03",
+  "approvalSource": "Owner-reviewed conversation through G07-D08-F01 on 2019-11-03",
   "sourceRepresentation": "EDITORIAL_CLAUSE_SUMMARIES_OF_OWNER_APPROVED_FINDINGS_NOT_VERBATIM",
   "decisionSequencePlanningApprovalCountedSeparately": true,
   "decisions": [
@@ -17,7 +17,7 @@
       "title": "Research Charter, Normative Readiness and Authority Boundaries",
       "ownerDisposition": "APPROVED",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "decisionDate": "2026-11-03",
+      "decisionDate": "2019-11-03",
       "normative": false,
       "clauseCount": 17,
       "clauses": [
@@ -96,7 +96,7 @@
       "title": "Consolidated Ontology and Qualification Evidence",
       "ownerDisposition": "APPROVED",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "decisionDate": "2026-11-03",
+      "decisionDate": "2019-11-03",
       "normative": false,
       "clauseCount": 18,
       "clauses": [
@@ -179,7 +179,7 @@
       "title": "Authoritative Source Adoption and Cross-Specification Dependencies",
       "ownerDisposition": "APPROVED",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "decisionDate": "2026-11-03",
+      "decisionDate": "2019-11-03",
       "normative": false,
       "clauseCount": 18,
       "clauses": [
@@ -262,7 +262,7 @@
       "title": "Information Product Artifact and Semantic Contract Readiness",
       "ownerDisposition": "APPROVED",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "decisionDate": "2026-11-03",
+      "decisionDate": "2019-11-03",
       "normative": false,
       "clauseCount": 20,
       "clauses": [
@@ -353,7 +353,7 @@
       "title": "Cross-Determination Independence and Evidence Sufficiency",
       "ownerDisposition": "APPROVED",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "decisionDate": "2026-11-03",
+      "decisionDate": "2019-11-03",
       "normative": false,
       "clauseCount": 20,
       "clauses": [
@@ -444,7 +444,7 @@
       "title": "Empirical Obligations, Falsification and Residual Risk",
       "ownerDisposition": "APPROVED",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "decisionDate": "2026-11-03",
+      "decisionDate": "2019-11-03",
       "normative": false,
       "clauseCount": 20,
       "clauses": [
@@ -535,7 +535,7 @@
       "title": "Normative Readiness Criteria and Release-Hold Reconciliation",
       "ownerDisposition": "APPROVED",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "decisionDate": "2026-11-03",
+      "decisionDate": "2019-11-03",
       "normative": false,
       "clauseCount": 20,
       "clauses": [
@@ -626,7 +626,7 @@
       "title": "Consolidated Readiness Finding and Conditional G07 Closure",
       "ownerDisposition": "APPROVED",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "decisionDate": "2026-11-03",
+      "decisionDate": "2019-11-03",
       "normative": false,
       "clauseCount": 22,
       "clauses": [

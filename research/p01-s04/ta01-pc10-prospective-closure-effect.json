@@ -1,7 +1,7 @@
 {
   "recordId": "INFOPS-P01-S04-TA01-EVAL-10-F01-CLOSURE-EFFECT-0.1",
   "classification": "OWNER_ATTESTED_PROSPECTIVE_CONDITIONAL_RESEARCH_CLOSURE_EFFECTIVE",
-  "asOf": "2026-11-08",
+  "asOf": "2019-11-08",
   "sourceDecision": "TA01-EVAL-10-F01",
   "ownerDisposition": "APPROVE",
   "approvedClauses": "F01.1-F01.18",
@@ -13,18 +13,18 @@
   "effectuation": {
     "qualifyingCommit": "7ddea588a1c6d7088878fc0bc294bf37012dce1e",
     "qualifyingGitBranch": "develop",
-    "actualAdoptionDate": "2026-11-06",
-    "actualClosureEffectiveDate": "2026-11-08",
-    "rule": "Owner-approved PC-10 before owner-attested qualifying Git commit; owner-attested final applicability reconciliation 2026-11-08; date of closure-effect recognition 2026-11-08, not backdated.",
+    "actualAdoptionDate": "2019-11-06",
+    "actualClosureEffectiveDate": "2019-11-08",
+    "rule": "Owner-approved PC-10 before owner-attested qualifying Git commit; owner-attested final applicability reconciliation 2019-11-08; date of closure-effect recognition 2019-11-08, not backdated.",
     "commitOfThisPreparedOverlayIsNotAutomaticallyVerified": "TRUE",
-    "knownApplicableMandatoryPrerequisiteCheck": "SATISFIED_OWNER_ATTESTED_2026-11-08_NO_KNOWN_CONFLICT_IN_RECONCILED_SCOPE",
-    "qualifyingCommitTimestampReported": "2026-11-06T18:13:12+01:00",
+    "knownApplicableMandatoryPrerequisiteCheck": "SATISFIED_OWNER_ATTESTED_2019-11-08_NO_KNOWN_CONFLICT_IN_RECONCILED_SCOPE",
+    "qualifyingCommitTimestampReported": "2019-11-06T18:13:12+01:00",
     "approvalBeforeCommit": "CONFIRMED_OWNER_ATTESTED",
     "commitContainsApprovedDecision": "CONFIRMED_OWNER_ATTESTED",
     "gitIndependentVerification": "NOT_PERFORMED",
     "instrumentOperationalEffectiveness": "OWNER_ATTESTED_WITH_PRIOR_PROVENANCE_QUALIFICATIONS",
-    "effectivenessDetermination": "ESTABLISHED_OWNER_ATTESTED_2026-11-08",
-    "reconciliationDate": "2026-11-08",
+    "effectivenessDetermination": "ESTABLISHED_OWNER_ATTESTED_2019-11-08",
+    "reconciliationDate": "2019-11-08",
     "newOverlayDoesNotConstituteOriginalAdoptionCommit": true
   },
   "historicalC06": {
@@ -43,7 +43,7 @@
     "c02IndependentRepositoryAudit": "NOT_ESTABLISHED",
     "ra01": "ACCEPTED_BOUNDED_UNRESOLVED",
     "ra02": "ACCEPTED_BOUNDED_UNRESOLVED",
-    "materialContradictionGate": "RECONCILED_OWNER_ATTESTED_NO_KNOWN_APPLICABLE_UNRESOLVED_CONFLICT_2026-11-08; FUTURE_AUTHENTIC_CONTRADICTIONS_REMAIN_ACTIONABLE"
+    "materialContradictionGate": "RECONCILED_OWNER_ATTESTED_NO_KNOWN_APPLICABLE_UNRESOLVED_CONFLICT_2019-11-08; FUTURE_AUTHENTIC_CONTRADICTIONS_REMAIN_ACTIONABLE"
   },
   "v01": {
     "generalActivity": "VERIFICATION_ACTIVITY_SUSPENDED_CONDITIONAL",

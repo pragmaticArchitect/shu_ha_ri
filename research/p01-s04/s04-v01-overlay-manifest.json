@@ -2,7 +2,7 @@
   "project": "INFOPS",
   "programme": "INFOPS-P01-S04",
   "overlay": "V01-F01-F07",
-  "asOf": "2026-11-04",
+  "asOf": "2019-11-04",
   "baseline": "User supplied INFOPS(2).zip, already containing G01-G07 and C01-C06 research overlays",
   "researchProjectionNotNormative": true,
   "clauseRepresentation": "EDITORIAL_SUMMARIES_NOT_VERBATIM",

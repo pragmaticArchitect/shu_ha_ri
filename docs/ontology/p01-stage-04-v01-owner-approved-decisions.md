@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - V01 Owner Decisions
 
 # S04-V01-F01–F07 — owner-approved verification research
 
-> **Owner approval record as of 4 November 2020; non-normative.** Seven V01 decisions, **112** owner-approved clauses, separate from the **65** historical G01–G07 substantive research approvals and **six** C01–C06 consolidation decisions. **These are editorial summaries of the approved substantive clauses, not verbatim transcripts.** Their full discussion and owner dispositions remain the controlling conversation history.
+> **Owner approval record as of 4 December 2019; non-normative.** Seven V01 decisions, **112** owner-approved clauses, separate from the **65** historical G01–G07 substantive research approvals and **six** C01–C06 consolidation decisions. **These are editorial summaries of the approved substantive clauses, not verbatim transcripts.** Their full discussion and owner dispositions remain the controlling conversation history.
 
 > **CRITICAL EFFECT:** `VERIFICATION_ACTIVITY_SUSPENDED_CONDITIONAL` under V01-F07 applies to *further V01 verification activity only*. The V01 series is **NOT_CLOSED**. C06 approves a conditional closure *target*, but effective S04 remains **`NOT_CLOSED`** due to the original-stage-prerequisite safeguards F01.6/F01.29. The original S04 charter and amendments are `NOT_VERIFIED`; complete binding criteria `NOT_ESTABLISHED`; criterion satisfaction `NOT_PERFORMED`; C02 exhaustive independent repository audit `NOT_ESTABLISHED`.
 
@@ -198,7 +198,7 @@ The current verification blocker is lack of authenticated original stage authori
 - Preserve exact Product Kind, Product instance/Version, Information Proposition, semantic definition/Version, realization revision, provider/contract Version, Realization Plan, Blueprint Binding, Compilation Record, execution occurrence, Information occurrence, assessed claim/evidence, evaluation/accountable determination, historical applicability, latest Version and present currentness.
 - INFOPROD/INFOPDS, Information DPP Profile and INFOPCH/PMDD remain unadopted candidates; no normative source pins/schemas, real execution, stage transition, successor work or publication authorized.
 
-## Programme planning distinction — 4 November 2020
+## Programme planning distinction — 4 December 2019
 
 - **Track A (priority):** original S04 governance/closure authority and C06 safeguard; V01 evidence recovery conditionally suspended, resumption separately authorized only.
 - **Track B (agreed research direction, not authorized):** intrinsic Information Product discrimination from Data, AI, Service, Creative and Compound families; Q1–Q4 necessity, Q0–Q4 sufficiency and F06/F14/F16 remain research challenges.

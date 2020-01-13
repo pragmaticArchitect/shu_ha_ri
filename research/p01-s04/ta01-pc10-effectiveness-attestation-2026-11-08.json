@@ -1,27 +1,27 @@
 {
-  "recordId": "INFOPS-P01-S04-TA01-PC10-EFFECTIVENESS-ATTESTATION-2026-11-08",
+  "recordId": "INFOPS-P01-S04-TA01-PC10-EFFECTIVENESS-ATTESTATION-2019-11-08",
   "recordType": "OWNER_ATTESTED_EFFECTIVENESS_RECONCILIATION",
   "sourceDecision": "TA01-EVAL-10-F01",
   "approvedClauses": "F01.1-F01.18",
-  "ownerApprovalDateCorrected": "2026-11-06",
+  "ownerApprovalDateCorrected": "2019-11-06",
   "ownerApprovalBeforeCommit": "OWNER_CONFIRMED",
   "instrument": "INFOPS-P01-S04-PCI-0.1",
   "qualifyingCommit": {
     "sha": "7ddea588a1c6d7088878fc0bc294bf37012dce1e",
     "governingBranch": "develop",
     "remoteBranch": "origin/develop",
-    "reportedTimestamp": "2026-11-06T18:13:12+01:00",
+    "reportedTimestamp": "2019-11-06T18:13:12+01:00",
     "approvedDecisionContentPresent": "OWNER_CONFIRMED",
     "independentVerification": "NOT_PERFORMED"
   },
   "ownerFinalReconciliation": {
-    "date": "2026-11-08",
+    "date": "2019-11-08",
     "f01_4AndF01_15": "OWNER_ATTESTED_COMPLETE",
     "knownApplicableConflictingMandatoryRequirements": "NONE_IDENTIFIED_IN_RECONCILED_SCOPE",
     "unknownHistoricalRequirements": "NOT_ASSUMED_INAPPLICABLE"
   },
   "closureEffectiveStatus": "CLOSED_CONDITIONAL_RESEARCH (ONTOLOGY_AND_NORMATIVE_READINESS_UNRESOLVED)",
-  "closureEffectRecognitionDate": "2026-11-08",
+  "closureEffectRecognitionDate": "2019-11-08",
   "retroactiveEffect": "NONE",
   "historicalC06": "APPROVED_NOT_EFFECTIVE",
   "c06Safeguards": [

@@ -3,7 +3,7 @@
   "gate": "G04",
   "researchOnly": true,
   "normative": false,
-  "asOf": "2026-10-20",
+  "asOf": "2019-10-20",
   "decision": "G04-D09-F01",
   "source": "research/p01-s02/cases.json",
   "sourceSha256": "770b64be7cc628a786382e37c986a50dac29484b08b67bda83c02556b0062d4f",

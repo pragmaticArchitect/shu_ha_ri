@@ -44,6 +44,16 @@ module.exports = {
       'ontology/p01-stage-04-s04-owner-approved-decisions',
       'ontology/p01-stage-04-s04-conditional-closure-effect',
     ]},
+    {type: 'category', label: 'INFOPS 0.1 MVP — experimental research', items: [
+      'mvp-01/overview',
+      'mvp-01/experimental-profile',
+      'mvp-01/qualification-checks',
+      'mvp-01/decision-model',
+      'mvp-01/evidence-contract',
+      'mvp-01/adversarial-cases',
+      'mvp-01/decision-traceability',
+      'mvp-01/readiness-and-holds',
+    ]},
     {type: 'category', label: 'Information Product characteristics', items: [
       'infopch/overview',
     ]},
@@ -57,11 +67,7 @@ module.exports = {
       'integration/hdip-upos','reference-implementation/overview',
     ]},
     {type: 'category', label: 'Governance & reference', items: [
-      'governance/change-control','governance/contributing',
-      'governance/infops-p01-s04-ta01-pc01-pc10-owner-assessments',
-      'governance/infops-p01-s04-pc10-owner-approved-pending-effect',
-      'governance/infops-p01-tb-b01-owner-approved-research-charter',
-      'reference/glossary',
+      'governance/change-control','governance/contributing','reference/glossary',
     ]},
   ],
 };

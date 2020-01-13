@@ -16,17 +16,17 @@ for k,v in expected.items():
 if a.get('s04CurrentStatus') not in ['NOT_CLOSED','CLOSED_CONDITIONAL_RESEARCH (ONTOLOGY_AND_NORMATIVE_READINESS_UNRESOLVED)']:
  raise SystemExit('Unexpected current status; no changes made')
 if a.get('s04ClosureEffectiveness') not in ['PENDING_ORIGINAL_STAGE_PREREQUISITE_VERIFICATION',
- 'OWNER_ATTESTED_PROSPECTIVE_EFFECTIVE_2026-11-08']:
+ 'OWNER_ATTESTED_PROSPECTIVE_EFFECTIVE_2019-11-08']:
  raise SystemExit('Unexpected closure effectiveness value; no changes made')
-a['asOf']='2026-11-08'
+a['asOf']='2019-11-08'
 a['stageS04Closed']=True
 a['s04CurrentStatus']='CLOSED_CONDITIONAL_RESEARCH (ONTOLOGY_AND_NORMATIVE_READINESS_UNRESOLVED)'
-a['s04ClosureEffectiveness']='OWNER_ATTESTED_PROSPECTIVE_EFFECTIVE_2026-11-08'
+a['s04ClosureEffectiveness']='OWNER_ATTESTED_PROSPECTIVE_EFFECTIVE_2019-11-08'
 a['s04ProspectiveClosureAuthority']='INFOPS-P01-S04-PCI-0.1'
 a['s04ProspectiveClosureDecision']='TA01-EVAL-10-F01'
 a['s04ProspectiveClosureCommit']='7ddea588a1c6d7088878fc0bc294bf37012dce1e'
-a['s04ProspectiveClosureEffectRecognitionDate']='2026-11-08'
-a['s04ProspectiveClosureAttestationRecord']='research/p01-s04/ta01-pc10-effectiveness-attestation-2026-11-08.json'
+a['s04ProspectiveClosureEffectRecognitionDate']='2019-11-08'
+a['s04ProspectiveClosureAttestationRecord']='research/p01-s04/ta01-pc10-effectiveness-attestation-2019-11-08.json'
 a['nextDecision']='S04_CONDITIONALLY_CLOSED_TRACK_B_AND_NORMATIVE_RELEASE_NOT_AUTHORIZED'
 # historical C06 reference intentionally untouched
 p.write_text(json.dumps(a,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')

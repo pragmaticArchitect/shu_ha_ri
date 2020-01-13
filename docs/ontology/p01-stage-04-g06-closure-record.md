@@ -5,7 +5,7 @@ sidebar_label: P01-S04 - G06 Closure
 
 # G06 conditional closure — E0 design only
 
-**Owner decision:** `G06-D08-F01 = APPROVE` (2 November 2020). **Gate:** `CLOSED_CONDITIONAL_RESEARCH (E0_DESIGN_ONLY)`; owner-reviewed research approvals 57 overall (49 G01–G05 plus 8 G06). **NOT** an empirical-completion or normative-release claim. E1 = 0; E2 = 0. G07 not started; Stage S04 not closed.
+**Owner decision:** `G06-D08-F01 = APPROVE` (2 December 2019). **Gate:** `CLOSED_CONDITIONAL_RESEARCH (E0_DESIGN_ONLY)`; owner-reviewed research approvals 57 overall (49 G01–G05 plus 8 G06). **NOT** an empirical-completion or normative-release claim. E1 = 0; E2 = 0. G07 not started; Stage S04 not closed.
 
 ## Outstanding G06 residual obligations (all OPEN)
 

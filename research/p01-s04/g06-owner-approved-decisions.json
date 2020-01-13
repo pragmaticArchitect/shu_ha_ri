@@ -2,7 +2,7 @@
   "project": "INFOPS",
   "programme": "INFOPS-P01-S04",
   "gate": "G06",
-  "asOf": "2026-11-02",
+  "asOf": "2019-11-02",
   "status": "CLOSED_CONDITIONAL_RESEARCH",
   "closureQualifier": "E0_DESIGN_ONLY",
   "normative": false,
@@ -14,7 +14,7 @@
       "title": "Empirical Realization Equivalence, Semantic Fidelity and Negative Conformance Evidence - Scope and Research Charter",
       "ownerDisposition": "APPROVED",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "decisionDate": "2026-10-20",
+      "decisionDate": "2019-10-20",
       "normative": false,
       "evidenceLevel": "E0_DESIGN_ONLY",
       "clauses": [
@@ -70,7 +70,7 @@
       "title": "Governing Semantic Baseline, Independent Test Oracle, Contract and Evidence Fixtures",
       "ownerDisposition": "APPROVED",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "decisionDate": "2026-10-20",
+      "decisionDate": "2019-10-20",
       "normative": false,
       "evidenceLevel": "E0_DESIGN_ONLY",
       "clauses": [
@@ -130,7 +130,7 @@
       "title": "Three Controlled Realization Patterns - Materialized, External Mathematics and AI-Assisted Information Formation",
       "ownerDisposition": "APPROVED",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "decisionDate": "2026-10-20",
+      "decisionDate": "2019-10-20",
       "normative": false,
       "evidenceLevel": "E0_DESIGN_ONLY",
       "clauses": [
@@ -198,7 +198,7 @@
       "title": "Positive Cross-Realization Semantic Equivalence and Metamorphic Evidence",
       "ownerDisposition": "APPROVED",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "decisionDate": "2026-10-20",
+      "decisionDate": "2019-10-20",
       "normative": false,
       "evidenceLevel": "E0_DESIGN_ONLY",
       "clauses": [
@@ -266,7 +266,7 @@
       "title": "Negative Semantic, Operational, Provider and AI-Conformance Falsification Tests",
       "ownerDisposition": "APPROVED",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "decisionDate": "2026-10-21",
+      "decisionDate": "2019-10-21",
       "normative": false,
       "evidenceLevel": "E0_DESIGN_ONLY",
       "clauses": [
@@ -342,7 +342,7 @@
       "title": "Product Identity, Semantic Version, Realization, Provenance, Currentness and Compilation Traceability",
       "ownerDisposition": "APPROVED",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "decisionDate": "2026-11-02",
+      "decisionDate": "2019-11-02",
       "normative": false,
       "evidenceLevel": "E0_DESIGN_ONLY",
       "clauses": [
@@ -418,7 +418,7 @@
       "title": "Cross-Case Adversarial Replay, Detection Coverage and Evidence Sufficiency",
       "ownerDisposition": "APPROVED",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "decisionDate": "2026-11-02",
+      "decisionDate": "2019-11-02",
       "normative": false,
       "evidenceLevel": "E0_DESIGN_ONLY",
       "clauses": [
@@ -494,7 +494,7 @@
       "title": "Consolidated Evidence Research, Residual Obligations and Conditional Gate Closure Assessment",
       "ownerDisposition": "APPROVED",
       "status": "APPROVED_CONDITIONAL_RESEARCH",
-      "decisionDate": "2026-11-02",
+      "decisionDate": "2019-11-02",
       "normative": false,
       "evidenceLevel": "E0_DESIGN_ONLY",
       "clauses": [

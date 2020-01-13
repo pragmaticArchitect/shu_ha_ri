@@ -1,0 +1,56 @@
+{
+  "overlay_id": "INFOPS-0.1-MVP-P01-D08-E0-OVERLAY-2019-11-09",
+  "status": "EXPERIMENTAL_SPECIFICATION_DRAFT_PREPARED_NOT_VERIFIED",
+  "classification": "EXPERIMENTAL_E0_NON_NORMATIVE",
+  "reference_baseline": "user-provided INFOPS(2).zip, shu_ha_ri/ (historical snapshot)",
+  "source_authority": "conversation-level owner-approved MVP P01 D01-D08 only",
+  "decisions": {
+    "D01-F01": "APPROVED",
+    "D02-F01": "APPROVED",
+    "D03-F01": "APPROVED",
+    "D04-F01": "APPROVED",
+    "D05-F01": "APPROVED",
+    "D06-F01": "APPROVED",
+    "D07-F01": "APPROVED",
+    "D08-F01": "APPROVED"
+  },
+  "sequence": "STOPPED_AFTER_D08",
+  "qualification": "C1_AND_C2_AND_C3_SUBJECT_TO_EVIDENCE_AND_INDEPENDENT_B0",
+  "profile_outcomes": 6,
+  "evidence_checks": 16,
+  "gaps": {
+    "D08-GAP-01": "OPEN",
+    "D08-GAP-02": "OPEN",
+    "D08-GAP-03": "OPEN"
+  },
+  "readiness": {
+    "RCG-01": "DESIGN_BASIS_SUPPORTED",
+    "RCG-02": "DESIGN_BASIS_APPROVED",
+    "RCG-03": "DRAFT_PREPARED_NOT_VERIFIED",
+    "RCG-04": "NOT_ESTABLISHED",
+    "RCG-05": "NOT_ESTABLISHED",
+    "RCG-06": "NOT_ESTABLISHED"
+  },
+  "inherited_research": {
+    "s04_effective": "CLOSED_CONDITIONAL_RESEARCH_ONTOLOGY_AND_NORMATIVE_READINESS_UNRESOLVED",
+    "historical_c06": "APPROVED_NOT_EFFECTIVE",
+    "parent_b01_completion": "NOT_ESTABLISHED",
+    "g06_e0_approved_unexecuted": 62,
+    "e1_executions": 0,
+    "e2_executions": 0,
+    "outstanding_obligations": 24,
+    "normative_release": "NOT_AUTHORIZED"
+  },
+  "no_repository_modification_claim": true,
+  "new_docs": [
+    "overview.md",
+    "experimental-profile.md",
+    "qualification-checks.md",
+    "decision-model.md",
+    "evidence-contract.md",
+    "adversarial-cases.md",
+    "decision-traceability.md",
+    "readiness-and-holds.md"
+  ],
+  "caution": "Merge sidebar manually with active repo; supplied baseline may be stale."
+}

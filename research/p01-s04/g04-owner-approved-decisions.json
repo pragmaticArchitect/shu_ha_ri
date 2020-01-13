@@ -3,7 +3,7 @@
   "programme": "INFOPS-P01-S04",
   "gate": "G04",
   "recordType": "CONVERSATION_LEVEL_OWNER_APPROVED_CONDITIONAL_RESEARCH",
-  "asOf": "2026-10-20",
+  "asOf": "2019-10-20",
   "status": "CLOSED_CONDITIONAL_RESEARCH",
   "normative": false,
   "normativeReleaseAuthorized": false,
@@ -21,7 +21,7 @@
       "title": "Competing-Family Adjudication Protocol, Exact Product Subject and Evidence Discipline",
       "ownerDisposition": "APPROVED",
       "ownerReviewedResearch": true,
-      "decisionDate": "2026-10-20",
+      "decisionDate": "2019-10-20",
       "normative": false,
       "researchOnly": true,
       "qualificationIssued": false,
@@ -112,7 +112,7 @@
       "title": "Enriched Data versus Information Product-family Boundary",
       "ownerDisposition": "APPROVED",
       "ownerReviewedResearch": true,
-      "decisionDate": "2026-10-20",
+      "decisionDate": "2019-10-20",
       "normative": false,
       "researchOnly": true,
       "qualificationIssued": false,
@@ -199,7 +199,7 @@
       "title": "Generic Analytics Service versus Information Product-family Boundary",
       "ownerDisposition": "APPROVED",
       "ownerReviewedResearch": true,
-      "decisionDate": "2026-10-20",
+      "decisionDate": "2019-10-20",
       "normative": false,
       "researchOnly": true,
       "qualificationIssued": false,
@@ -288,7 +288,7 @@
       "title": "AI Product versus Information Product-family Boundary",
       "ownerDisposition": "APPROVED",
       "ownerReviewedResearch": true,
-      "decisionDate": "2026-10-20",
+      "decisionDate": "2019-10-20",
       "normative": false,
       "researchOnly": true,
       "qualificationIssued": false,
@@ -397,7 +397,7 @@
       "title": "Creative, Editorial, Static and Human-Curated Information Product Boundaries",
       "ownerDisposition": "APPROVED",
       "ownerReviewedResearch": true,
-      "decisionDate": "2026-10-20",
+      "decisionDate": "2019-10-20",
       "normative": false,
       "researchOnly": true,
       "qualificationIssued": false,
@@ -510,7 +510,7 @@
       "title": "Multi-Promise, Product Constitution and Compound Product Boundaries",
       "ownerDisposition": "APPROVED",
       "ownerReviewedResearch": true,
-      "decisionDate": "2026-10-20",
+      "decisionDate": "2019-10-20",
       "normative": false,
       "researchOnly": true,
       "qualificationIssued": false,
@@ -615,7 +615,7 @@
       "title": "Product Identity, Semantic Change and Realization Invariance",
       "ownerDisposition": "APPROVED",
       "ownerReviewedResearch": true,
-      "decisionDate": "2026-10-20",
+      "decisionDate": "2019-10-20",
       "normative": false,
       "researchOnly": true,
       "qualificationIssued": false,
@@ -764,7 +764,7 @@
       "title": "Cross-Case Necessity, Joint Sufficiency and False-Positive/False-Negative Assessment",
       "ownerDisposition": "APPROVED",
       "ownerReviewedResearch": true,
-      "decisionDate": "2026-10-20",
+      "decisionDate": "2019-10-20",
       "normative": false,
       "researchOnly": true,
       "qualificationIssued": false,
@@ -871,7 +871,7 @@
       "title": "Consolidated Conditional Research Findings and Gate Closure Assessment",
       "ownerDisposition": "APPROVED",
       "ownerReviewedResearch": true,
-      "decisionDate": "2026-10-20",
+      "decisionDate": "2019-10-20",
       "normative": false,
       "researchOnly": true,
       "qualificationIssued": false,
@@ -953,7 +953,7 @@
         },
         {
           "topic": "Gate closure",
-          "position": "S04-G04 is CLOSED_CONDITIONAL_RESEARCH effective 2026-10-20 by explicit D09 owner approval."
+          "position": "S04-G04 is CLOSED_CONDITIONAL_RESEARCH effective 2019-10-20 by explicit D09 owner approval."
         },
         {
           "topic": "Other gates",
@@ -965,7 +965,7 @@
         },
         {
           "topic": "Conversation provenance",
-          "position": "Owner decisions originate from the 2026-10-20 conversation; this overlay materializes their reviewed positions and does not assert a live GitHub merge or external authority consent."
+          "position": "Owner decisions originate from the 2019-10-20 conversation; this overlay materializes their reviewed positions and does not assert a live GitHub merge or external authority consent."
         }
       ],
       "originalCaseDispositions": {}
