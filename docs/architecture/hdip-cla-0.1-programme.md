@@ -38,8 +38,9 @@ The programme is responsibility-first and deliberately avoids freezing logical p
 | Stage | Status |
 |---|---|
 | **M01 — Programme Charter, Scope & Authority Boundary** | **Complete** |
-| **M02 — Upstream Architecture Responsibility Intake** | **Draft baseline produced** |
-| **M03 — Existing HDIP Construct Inventory & Disposition** | Next |
+| **M02 — Upstream Architecture Responsibility Intake** | **Complete** |
+| **M03 — Existing HDIP Construct Inventory & Disposition** | **Complete** |
+| **M04 — Canonical Architecture Principles & Design Invariants** | Next |
 
 ## Foundational proposition
 

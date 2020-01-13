@@ -10,6 +10,7 @@ const sidebars: SidebarsConfig = {
         'architecture/hdip-cla-0.1-programme',
         'architecture/cla/hdip-cla-0.1-m01-charter',
         'architecture/cla/hdip-cla-0.1-m02-upstream-responsibility-intake',
+        'architecture/cla/hdip-cla-0.1-m03-existing-hdip-construct-inventory',
       ],
     },
     {
