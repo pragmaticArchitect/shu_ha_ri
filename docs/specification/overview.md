@@ -1,15 +1,23 @@
 ---
-title: INFOPS 0.1 — Programme Overview
+title: INFOPS 0.1 - Programme Overview
 ---
 
 # INFOPS 0.1 programme overview
 
-**Planning status:** P01 Stage 3 conditional qualification research draft (**non-normative**). `0.1` identifies the intended specification line, not an approved qualification/release.
+**Current status: INFOPS-P01 Stage 4 owner-reviewed conditional research (NON-NORMATIVE).** `0.1` identifies the intended specification line, not a published qualification or conformance standard.
 
-S01 established authority and Product ontology questions. S02 tested ten hypotheses and 36 hypothetical cases. S03 offers [candidate qualification conditions](../ontology/p01-stage-03-candidate-qualification-rules.md), a [research decision procedure](../ontology/p01-stage-03-decision-procedure.md), [20 additional case studies](../ontology/p01-stage-03-boundary-casework.md), the [PFI invariance protocol](../ontology/p01-stage-03-pfi-semantic-invariance.md), and [unapproved decision gates](../ontology/p01-stage-03-review-decisions.md). The refined [KivaNura teaching analogy](../foundations/crude-oil-to-driver-teaching-analogy.md) is documented as informative source material, **not** a normative semantic foundation.
+S01 established the ontology/authority hypotheses and early Product-family cases. S02 challenged shortcuts with 36 hypothetical cases, 16 falsification rules and ten PFI experiments. S03 prepared Q0-Q5 research criteria and 20 additional boundary cases. These original documents remain intact.
 
-The candidate conjunction is **not yet demonstrated necessary and sufficient** and cannot certify any Product. Any future adoption requires review, authoritative references and versioned release governance.
+**S04 status:** G01 is closed at owner-reviewed research level (15/15), G02 is closed with seven approved conditional findings, and G03 is closed **conditional research** with ten approved owner decisions through G03-D10-F01. G03 normative source-adoption status remains **NOT READY**; G04 adversarial family adjudication is prepared but not yet approved or begun.
 
-Future proposed workstreams: Product ontology/qualification; INFOPCH characteristics; human and AI Agent assessment guidance; PMDD scoring and evidence; Product-family descriptors; formalization/testing; release readiness.
+Read [S04 owner research overview](../ontology/p01-stage-04-overview.md), [decision ledger](../ontology/p01-stage-04-owner-decisions.md), [upstream authority and versions](../ontology/p01-stage-04-source-authorities.md), [release holds](../ontology/p01-stage-04-release-holds.md) and [G04 plan](../ontology/p01-stage-04-g04-plan.md).
 
-**Architectural constraint:** INFOPS must not silently redefine Productness (BPS/PIN), Information semantics (GEARM), analytics architecture (GEARA), qualified Data/AI family boundaries, or HDIP-CLA frozen logical responsibilities. Productness, Information family, runtime conformance/authorization and maturity are separate decisions.
+### Approved architectural direction, not published artifact schemas
+
+INFOPS will remain the prospective Information Product-family qualification authority only after separate normative adoption. **INFOPROD** is the proposed Information-specific semantic descriptor. **INFOPDS** is the proposed eligible realization/deployment specification. The **BPS Digital Product Passport Core** remains cross-family, with a future Information-specific trust/evidence Profile; **HDIP HPD** remains an operational projection. None of these is interchangeable or already a normative INFOPS schema.
+
+### Release barrier
+
+Productness (BPS/PIN), Information semantics (GEARM), relevant competing family authorities, adopted source Versions, rigorous falsification of necessary/sufficient conditions, qualification evidence and final owner publication approval remain open. The candidate conjunction cannot certify any real Product.
+
+The [S03 rules](../ontology/p01-stage-03-candidate-qualification-rules.md), [casework](../ontology/p01-stage-03-boundary-casework.md) and [teaching analogy](../foundations/crude-oil-to-driver-teaching-analogy.md) remain available as research documents. The analogy is informative, not a mandatory Data-Information-Intelligence pipeline.

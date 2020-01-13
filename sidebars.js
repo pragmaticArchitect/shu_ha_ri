@@ -21,6 +21,12 @@ module.exports = {
       'ontology/p01-stage-03-boundary-casework',
       'ontology/p01-stage-03-pfi-semantic-invariance',
       'ontology/p01-stage-03-review-decisions',
+      'ontology/p01-stage-04-overview',
+      'ontology/p01-stage-04-owner-decisions',
+      'ontology/p01-stage-04-source-authorities',
+      'ontology/p01-stage-04-artifact-boundaries',
+      'ontology/p01-stage-04-release-holds',
+      'ontology/p01-stage-04-g04-plan',
     ]},
     {type: 'category', label: 'Information Product characteristics', items: [
       'infopch/overview',

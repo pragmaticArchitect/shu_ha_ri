@@ -8,7 +8,7 @@
     "build": "docusaurus build",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
-    "validate": "python3 scripts/validate-infops-scaffold.py",
+    "validate": "python3 scripts/validate-infops-scaffold.py && python3 scripts/validate-infops-p01-s04.py",
     "check": "npm run validate && npm run build"
   },
   "dependencies": {

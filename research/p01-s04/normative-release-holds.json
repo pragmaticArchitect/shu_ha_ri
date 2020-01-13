@@ -1,0 +1,117 @@
+{
+  "project": "INFOPS",
+  "stage": "P01-S04",
+  "asOf": "2026-10-19",
+  "normativeAdoptionReady": false,
+  "canContinueConditionalResearch": true,
+  "gate": "G03",
+  "gateState": "CLOSED_CONDITIONAL_RESEARCH",
+  "holds": [
+    {
+      "id": "G03-R01",
+      "obligation": "BPS/PIN authoritative Productness Version and immutable source",
+      "priority": "CRITICAL",
+      "blocksClaim": "NORMATIVE_INFO_PRODUCT_QUALIFICATION",
+      "nextReview": "G04_G07",
+      "resolved": false
+    },
+    {
+      "id": "G03-R02",
+      "obligation": "GEARM source Version, semantic mapping and adoption",
+      "priority": "CRITICAL",
+      "blocksClaim": "NORMATIVE_INFO_PRODUCT_QUALIFICATION",
+      "nextReview": "G04_G07",
+      "resolved": false
+    },
+    {
+      "id": "G03-R03",
+      "obligation": "BPS DPP Core URI, canonical namespace, release and exact pin",
+      "priority": "CRITICAL_FOR_DPP",
+      "blocksClaim": "NORMATIVE_DPP_COMPLIANCE",
+      "nextReview": "G06_G07",
+      "resolved": false
+    },
+    {
+      "id": "G03-R04",
+      "obligation": "Necessary/sufficient Information-family qualification rules",
+      "priority": "CRITICAL",
+      "blocksClaim": "NORMATIVE_INFO_PRODUCT_QUALIFICATION",
+      "nextReview": "G04",
+      "resolved": false
+    },
+    {
+      "id": "G03-R05",
+      "obligation": "Competing-family scope and independent authorities, especially Compound",
+      "priority": "HIGH",
+      "blocksClaim": "AFFECTED_DEFINITIVE_CLASSIFICATIONS",
+      "nextReview": "G04",
+      "resolved": false
+    },
+    {
+      "id": "G03-R06",
+      "obligation": "INFOPROD semantic specification and GEARM/BPS compatibility",
+      "priority": "HIGH",
+      "blocksClaim": "INFOPROD_CONFORMANCE",
+      "nextReview": "FUTURE_SPEC_DESIGN",
+      "resolved": false
+    },
+    {
+      "id": "G03-R07",
+      "obligation": "INFOPDS realization specification and applicable Profiles",
+      "priority": "HIGH",
+      "blocksClaim": "INFOPDS_CONFORMANCE",
+      "nextReview": "FUTURE_SPEC_DESIGN",
+      "resolved": false
+    },
+    {
+      "id": "G03-R08",
+      "obligation": "Information Product DPP Profile and evidence validation",
+      "priority": "HIGH",
+      "blocksClaim": "INFO_DPP_PROFILE_CONFORMANCE",
+      "nextReview": "G06_FUTURE_SPEC_DESIGN",
+      "resolved": false
+    },
+    {
+      "id": "G03-R09",
+      "obligation": "Independent qualification, conformance, evidence, readiness and authorization",
+      "priority": "HIGH",
+      "blocksClaim": "CERTIFICATION_PUBLICATION_CLAIMS",
+      "nextReview": "G05_G06",
+      "resolved": false
+    },
+    {
+      "id": "G03-R10",
+      "obligation": "Cross-source version compatibility and immutable adoption records",
+      "priority": "CRITICAL",
+      "blocksClaim": "NORMATIVE_CROSS_SPEC_ADOPTION",
+      "nextReview": "G07",
+      "resolved": false
+    },
+    {
+      "id": "G03-R11",
+      "obligation": "Maturity and operational authorization assessment separation",
+      "priority": "SCOPE_DEPENDENT",
+      "blocksClaim": "RELEVANT_LIFECYCLE_AUTHORIZATION_CLAIMS",
+      "nextReview": "G05",
+      "resolved": false
+    },
+    {
+      "id": "G03-R12",
+      "obligation": "Governed INFOPS normative release authorization",
+      "priority": "CRITICAL",
+      "blocksClaim": "ANY_NORMATIVE_INFOPS_RELEASE",
+      "nextReview": "G07",
+      "resolved": false
+    }
+  ],
+  "sourceLimitations": [
+    "GEDRA 0.1 A14 closure report full SHACL/Profile regression blocked in available environment; no later passed closure established in review.",
+    "AIPS 0.1 Stage 14 repository-conformant RC-ready; Docusaurus production and independent SHACL validation require connected environment.",
+    "GEAIRM 0.1 A15 closed executable candidate but Working Draft governed publication pending.",
+    "GEAIRA 0.1 M17 frozen human-readable Working Draft; executable programme closure not established.",
+    "HDIP-CLA M17 frozen, A15 bounded package closed; no architecture conformance or external endorsement.",
+    "BPS/PIN canonical Productness Version unpinned; BPS DPP Core canonical namespace/release ambiguous.",
+    "UPOS normative version not established.",
+    "Data Product external DPDS means Descriptor in Open Data Mesh, not a Data Product Deployment Specification; do not equivocate."
+  ]
+}

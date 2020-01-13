@@ -1,0 +1,198 @@
+{
+  "project": "INFOPS",
+  "stage": "P01-S04-G03",
+  "asOf": "2026-10-19",
+  "normative": false,
+  "sourcePinsAdopted": false,
+  "description": "Candidate source inventory; identified references are not interchangeable with adopted exact revisions.",
+  "sources": [
+    {
+      "id": "S01",
+      "source": "BPS Product Ontology and PIN",
+      "candidateVersion": "BPS/PIN conceptual draft",
+      "jurisdiction": "Generic Productness, Product Promise, identity, PIN, Product Family and Kind",
+      "bindingClass": "FOUNDATIONAL",
+      "researchStatus": "CANONICAL_NORMATIVE_PIN_UNRESOLVED",
+      "ownerReview": "G03-D02-F01",
+      "canonicalRevisionVerified": false,
+      "adoptedByINFOPS": false
+    },
+    {
+      "id": "S02",
+      "source": "GEARM",
+      "candidateVersion": "0.1 / GEARM-0.1-RC1",
+      "jurisdiction": "Information and analytical semantics",
+      "bindingClass": "FOUNDATIONAL",
+      "researchStatus": "EXECUTABLE_RC1_CLOSED_NOT_ADOPTED",
+      "ownerReview": "G03-D03-F01",
+      "canonicalRevisionVerified": false,
+      "adoptedByINFOPS": false
+    },
+    {
+      "id": "S03",
+      "source": "GEARA",
+      "candidateVersion": "0.1 / GEARA-0.1-RC1",
+      "jurisdiction": "Generic enterprise Analytics architecture",
+      "bindingClass": "SUPPORTING_ARCHITECTURE",
+      "researchStatus": "EXECUTABLE_RC1_CLOSED_NOT_ADOPTED",
+      "ownerReview": "G03-D04-F01",
+      "canonicalRevisionVerified": false,
+      "adoptedByINFOPS": false
+    },
+    {
+      "id": "S04",
+      "source": "GEDRM",
+      "candidateVersion": "0.1 Normative Draft Baseline",
+      "jurisdiction": "Generic enterprise Data semantics",
+      "bindingClass": "COMPETING_FAMILY_CONTEXT",
+      "researchStatus": "DRAFT_UNPINNED",
+      "ownerReview": "G03-D05-F01",
+      "canonicalRevisionVerified": false,
+      "adoptedByINFOPS": false
+    },
+    {
+      "id": "S05",
+      "source": "GEDRA",
+      "candidateVersion": "0.1 release candidate",
+      "jurisdiction": "Generic enterprise Data architecture",
+      "bindingClass": "SUPPORTING_ARCHITECTURE",
+      "researchStatus": "A14_BLOCKED_IN_AVAILABLE_REPORT",
+      "ownerReview": "G03-D05-F01",
+      "canonicalRevisionVerified": false,
+      "adoptedByINFOPS": false
+    },
+    {
+      "id": "S06",
+      "source": "OMG DPROD",
+      "candidateVersion": "1.0 beta 2 candidate",
+      "jurisdiction": "External Data Product ontology and competing-family reference",
+      "bindingClass": "EXTERNAL_COMPETING_FAMILY",
+      "researchStatus": "NORMATIVE_SCOPE_UNPINNED",
+      "ownerReview": "G03-D05-F01",
+      "canonicalRevisionVerified": false,
+      "adoptedByINFOPS": false
+    },
+    {
+      "id": "S07",
+      "source": "Open Data Mesh DPDS",
+      "candidateVersion": "1.0.0 candidate",
+      "jurisdiction": "External Data Product Descriptor Specification (NOT INFOPDS or deployment DPDS)",
+      "bindingClass": "EXTERNAL_COMPETING_FAMILY",
+      "researchStatus": "ADOPTION_SCOPE_UNPINNED",
+      "ownerReview": "G03-D05-F01",
+      "canonicalRevisionVerified": false,
+      "adoptedByINFOPS": false
+    },
+    {
+      "id": "S08",
+      "source": "AIPS",
+      "candidateVersion": "0.1 Stage 14",
+      "jurisdiction": "AI Product qualification and AI-specific semantics",
+      "bindingClass": "EXTERNAL_COMPETING_FAMILY",
+      "researchStatus": "REPOSITORY_CONFORMANT_RC_READY_PUBLISH_CHECKS_OPEN",
+      "ownerReview": "G03-D06-F01",
+      "canonicalRevisionVerified": false,
+      "adoptedByINFOPS": false
+    },
+    {
+      "id": "S09",
+      "source": "GEAIRM",
+      "candidateVersion": "0.1 A15",
+      "jurisdiction": "Generic enterprise AI semantics",
+      "bindingClass": "ADJACENT_SEMANTICS",
+      "researchStatus": "WORKING_DRAFT_EXECUTABLE_RC_CLOSED",
+      "ownerReview": "G03-D06-F01",
+      "canonicalRevisionVerified": false,
+      "adoptedByINFOPS": false
+    },
+    {
+      "id": "S10",
+      "source": "GEAIRA",
+      "candidateVersion": "0.1 M17",
+      "jurisdiction": "Generic enterprise AI architecture",
+      "bindingClass": "SUPPORTING_ARCHITECTURE",
+      "researchStatus": "WORKING_DRAFT_M17_HUMAN_BASELINE_FROZEN",
+      "ownerReview": "G03-D07-F01",
+      "canonicalRevisionVerified": false,
+      "adoptedByINFOPS": false
+    },
+    {
+      "id": "S11",
+      "source": "UPOS",
+      "candidateVersion": "Conceptual; version unverified",
+      "jurisdiction": "Product-kind agnostic Productization meta-architecture",
+      "bindingClass": "INFORMATIVE_RESEARCH",
+      "researchStatus": "NORMATIVE_VERSION_UNVERIFIED",
+      "ownerReview": "G03-D08-F01",
+      "canonicalRevisionVerified": false,
+      "adoptedByINFOPS": false
+    },
+    {
+      "id": "S12",
+      "source": "HDIP-CLA",
+      "candidateVersion": "0.1 M17 / A15",
+      "jurisdiction": "Holistic Data, Information and Intelligence platform logical architecture",
+      "bindingClass": "SUPPORTING_ARCHITECTURE",
+      "researchStatus": "M17_FROZEN_A15_BOUNDED_NOT_CONFORMANCE",
+      "ownerReview": "G03-D08-F01",
+      "canonicalRevisionVerified": false,
+      "adoptedByINFOPS": false
+    },
+    {
+      "id": "S13",
+      "source": "INFOPCH / PMDD",
+      "candidateVersion": "Future",
+      "jurisdiction": "Characteristics, maturity and operational assessment separate from Family",
+      "bindingClass": "FUTURE_ADJACENT",
+      "researchStatus": "NOT_SPECIFIED",
+      "ownerReview": "G03-D10-F01",
+      "canonicalRevisionVerified": false,
+      "adoptedByINFOPS": false
+    },
+    {
+      "id": "S14",
+      "source": "INFOPROD",
+      "candidateVersion": "Proposed Information Product semantic descriptor",
+      "jurisdiction": "Versioned Information-specific Product semantic commitments",
+      "bindingClass": "PROPOSED_INFOPS_NATIVE",
+      "researchStatus": "NOT_NORMATIVELY_SPECIFIED",
+      "ownerReview": "G03-D01",
+      "canonicalRevisionVerified": false,
+      "adoptedByINFOPS": false
+    },
+    {
+      "id": "S15",
+      "source": "INFOPDS",
+      "candidateVersion": "Proposed Information Product deployment specification",
+      "jurisdiction": "Applicable Product realization and deployment contract",
+      "bindingClass": "PROPOSED_INFOPS_NATIVE",
+      "researchStatus": "NOT_NORMATIVELY_SPECIFIED",
+      "ownerReview": "G03-D01",
+      "canonicalRevisionVerified": false,
+      "adoptedByINFOPS": false
+    },
+    {
+      "id": "S16",
+      "source": "BPS DPP Core",
+      "candidateVersion": "candidate 0.1",
+      "jurisdiction": "Generic cross-family Product Digital Product Passport",
+      "bindingClass": "PRODUCT_TRUST_AUTHORITY",
+      "researchStatus": "CORE_RELEASE_URI_HASH_UNVERIFIED",
+      "ownerReview": "G03-D09-F01",
+      "canonicalRevisionVerified": false,
+      "adoptedByINFOPS": false
+    },
+    {
+      "id": "S17",
+      "source": "Information Product DPP Profile",
+      "candidateVersion": "Proposed",
+      "jurisdiction": "Information-specific BPS DPP trust/evidence specialization",
+      "bindingClass": "PROPOSED_INFOPS_NATIVE",
+      "researchStatus": "NOT_NORMATIVELY_SPECIFIED",
+      "ownerReview": "G03-D09-F01",
+      "canonicalRevisionVerified": false,
+      "adoptedByINFOPS": false
+    }
+  ],
+  "specialNote": "Do not treat OMG DPROD, Open Data Mesh Data Product Descriptor Specification (DPDS), or other Data-family specs as authoritative foundations for INFOPROD/INFOPDS."
+}

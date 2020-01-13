@@ -4,20 +4,33 @@ title: INFOPS Development Roadmap
 
 # Planned INFOPS 0.1 development
 
+**Status: P01-S04 owner-reviewed conditional research, not normative publication.** The stages and subsequent technical artifacts remain proposals until independently governed and authorized.
+
 | Proposed stage | Planned deliverable | Exit condition (proposed, not frozen) |
 |---|---|---|
-| P01 | Product ontology & qualification boundary | Family classification distinguishes Productness, Information and maturity |
-| P02 | INFOPCH catalogue | Characteristics and applicability defined without unnecessary duplication |
-| P03 | Human / AI Agent guidance | Positive/negative criteria, edge cases, evidence and decision rules |
-| P04 | PMDD assessment | Version-bound evidence, N/A rationale, maturity and independent obligations |
-| P05 | Descriptor strategy | Semantic/deployment/trust artifact relationships and HDIP HPD alignment |
-| P06 | Machine-readable validation | Schemas, examples, boundary cases and automated tests |
-| P07 | Release preparation | Cross-artifact reconciliation, approvals and publication decision |
+| P01 | Information Product ontology & qualification boundary | Authority-aligned family classification and negative/compound tests, with documented unresolved cases |
+| P02 | INFOPCH catalogue | Applicability-based characteristics that do not redefine generic Productness or Information meaning |
+| P03 | Human / AI Agent qualification guidance | Evidence-aware positive, negative, near-miss and independent authority review rules |
+| P04 | PMDD maturity assessment | Maturity independently separated from Productness, family and operational authorization |
+| P05 | Information-native descriptors | INFOPROD semantic descriptor; INFOPDS realization specification; BPS DPP Information Profile alignment; HPD projection mapping |
+| P06 | Machine-readable formalization | Adopted versioned schemas/ontologies, examples, tests and reproducible conformance evidence |
+| P07 | Governed release preparation | Cross-artifact reconciliation, source pins, authorized normative release decision |
 
-**P01 internal stages (proposed):** S01 authority and ontology baseline (preserved research draft); S02 PIN differentiation and falsification tests (preserved owner-review draft); S03 conditional draft family qualification rules and independent review (current research draft); S04 boundary-case reconciliation and P01 hand-off (pending). These internal stages are planning labels, not independently frozen specifications.
+## P01 internal research progression
 
-Stage 2 results: [PIN falsification](../ontology/p01-stage-02-pin-differentiation-falsification.md), [case ledger](../ontology/p01-stage-02-case-disposition-ledger.md), [PFI experiments](../ontology/p01-stage-02-cross-enterprise-realization-tests.md), and [S03 gates](../ontology/p01-stage-02-hypothesis-dispositions.md). None constitutes a normative qualification framework.
+| Research stage | Current position |
+|---|---|
+| S01 | Preserved working ontology baseline and classification hypotheses |
+| S02 | Preserved 36-case falsification corpus and source tests |
+| S03 | Preserved non-normative Q0-Q5 and 20 additional cases; historical S03 decisions remain proposed in their own original register |
+| **S04-G01** | Owner-reviewed research closed; 15/15 findings |
+| **S04-G02** | Owner-reviewed conditional research closed; seven findings (Q0-Q5 and X01) |
+| **S04-G03** | **Closed - conditional research** through G03-D10; normative source adoption not ready |
+| S04-G04 | Proposed competing-family, Service, Creative and Compound Product adversarial review sequence; not started |
+| S04-G05-G07 | Pending qualification/realization separation, evidence, release governance and handoff |
 
-Stage 3 now offers [conditional candidate rules](../ontology/p01-stage-03-candidate-qualification-rules.md), [boundary casework](../ontology/p01-stage-03-boundary-casework.md), [proposed independent review gates](../ontology/p01-stage-03-review-decisions.md) and an [informative educational analogy](../foundations/crude-oil-to-driver-teaching-analogy.md). The conjunction is **not adopted or proven sufficient**.
+See [S04 overview](../ontology/p01-stage-04-overview.md), [owner decisions](../ontology/p01-stage-04-owner-decisions.md), [upstream authority](../ontology/p01-stage-04-source-authorities.md), [normative holds](../ontology/p01-stage-04-release-holds.md), and [G04 proposed sequence](../ontology/p01-stage-04-g04-plan.md).
 
-These are planning identifiers rather than normative specification identifiers. The roadmap may be revised through project governance.
+The previous [S03 rules](../ontology/p01-stage-03-candidate-qualification-rules.md), [boundary casework](../ontology/p01-stage-03-boundary-casework.md), [S02 dispositions](../ontology/p01-stage-02-case-disposition-ledger.md) and [informative analogy](../foundations/crude-oil-to-driver-teaching-analogy.md) are retained as original research sources.
+
+No current G04 proposal or previous owner-reviewed gate authorizes Product certification, a mandatory execution engine, a global funding/approval arrangement, or an INFOPS 0.1 normative release.

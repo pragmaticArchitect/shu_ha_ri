@@ -1,0 +1,32 @@
+{
+  "project": "INFOPS",
+  "stage": "P01-S04",
+  "asOf": "2026-10-19",
+  "kind": "OWNER_REVIEW_RESEARCH_STATUS_NOT_RELEASE",
+  "normative": false,
+  "actualProductsQualified": 0,
+  "gates": {
+    "G01": "CLOSED_OWNER_REVIEWED_RESEARCH",
+    "G02": "CLOSED_CONDITIONAL_RESEARCH",
+    "G03": "CLOSED_CONDITIONAL_RESEARCH",
+    "G04": "PREPARED_NOT_STARTED",
+    "G05": "PENDING",
+    "G06": "PENDING",
+    "G07": "PENDING"
+  },
+  "g03OwnerDecisions": 10,
+  "upstreamSourcePinsAdopted": false,
+  "informationFamilyNecessaryAndSufficientProven": false,
+  "infoprodNormative": false,
+  "infopdsNormative": false,
+  "dppCoreAdopted": false,
+  "informationDppProfileNormative": false,
+  "hdipArchitectureConformanceCertified": false,
+  "productMaturityOrPMDDGranted": false,
+  "publicationAuthorized": false,
+  "historicalS03ScaffoldStatePreserved": true,
+  "ownerApprovalIsNotNormativeRelease": true,
+  "nextDecision": "G04-D01-F01_NOT_YET_PRESENTED_OR_ADOPTED",
+  "ownerReviewedResearchDecisionsTotal": 32,
+  "explicitApprovalsWithResearchSummaryAvailable": 17
+}

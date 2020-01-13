@@ -12,7 +12,7 @@ const areas = [
 
 export default function Home() {
   return (
-    <Layout title="INFOPS" description="Information Product Specification - P01 Stage 3 conditional qualification draft">
+    <Layout title="INFOPS" description="Information Product Specification - P01 Stage 4 conditional owner-reviewed research">
       <main>
         <header className={styles.hero}>
           <div className="container">
@@ -25,9 +25,9 @@ export default function Home() {
             </p>
             <div className={styles.actions}>
               <Link className="button button--primary button--lg" to="/docs/intro">Explore the project</Link>
-              <Link className="button button--secondary button--lg" to="/docs/specification/roadmap">Development roadmap</Link>
+              <Link className="button button--secondary button--lg" to="/docs/ontology/p01-stage-04-overview">S04 review status</Link>
             </div>
-            <div className={styles.status}>P01 Stage 3 conditional rules (research) · No normative qualification published</div>
+            <div className={styles.status}>P01 Stage 4: G01-G03 research closed, G04 prepared · No normative qualification published</div>
           </div>
         </header>
         <section className={styles.section}>

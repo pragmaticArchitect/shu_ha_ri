@@ -1,0 +1,125 @@
+{
+  "project": "INFOPS",
+  "stage": "P01-S04-G04",
+  "status": "PROPOSED_NOT_APPROVED",
+  "normative": false,
+  "decisionIdsReservedForResearchOnly": true,
+  "dispositions": [
+    {
+      "id": "G04-D01",
+      "title": "Adjudication protocol, exact subject and evidence discipline",
+      "sampleS02CaseIds": [
+        "C03",
+        "C14",
+        "C17",
+        "C29"
+      ],
+      "ownerDisposition": "NOT_REQUESTED",
+      "approved": false
+    },
+    {
+      "id": "G04-D02",
+      "title": "Data Product versus Information Product",
+      "sampleS02CaseIds": [
+        "C01",
+        "C02",
+        "C21",
+        "C27"
+      ],
+      "ownerDisposition": "NOT_REQUESTED",
+      "approved": false
+    },
+    {
+      "id": "G04-D03",
+      "title": "Generic Service/tool versus Information Product",
+      "sampleS02CaseIds": [
+        "C04",
+        "C07",
+        "C20"
+      ],
+      "ownerDisposition": "NOT_REQUESTED",
+      "approved": false
+    },
+    {
+      "id": "G04-D04",
+      "title": "AI Product versus Information Product",
+      "sampleS02CaseIds": [
+        "C08",
+        "C09",
+        "C13",
+        "C24",
+        "C33"
+      ],
+      "ownerDisposition": "NOT_REQUESTED",
+      "approved": false
+    },
+    {
+      "id": "G04-D05",
+      "title": "Creative/editorial/static/human-curated Products",
+      "sampleS02CaseIds": [
+        "C05",
+        "C06",
+        "C19",
+        "C23",
+        "C30"
+      ],
+      "ownerDisposition": "NOT_REQUESTED",
+      "approved": false
+    },
+    {
+      "id": "G04-D06",
+      "title": "Multiple primary Promises and Compound Product",
+      "sampleS02CaseIds": [
+        "C12",
+        "C18",
+        "C31"
+      ],
+      "ownerDisposition": "NOT_REQUESTED",
+      "approved": false
+    },
+    {
+      "id": "G04-D07",
+      "title": "Identity, semantic change and realization invariance",
+      "sampleS02CaseIds": [
+        "C15",
+        "C16",
+        "C22",
+        "C25",
+        "C26",
+        "C27",
+        "C28",
+        "C32",
+        "C34",
+        "C35",
+        "C36"
+      ],
+      "ownerDisposition": "NOT_REQUESTED",
+      "approved": false
+    },
+    {
+      "id": "G04-D08",
+      "title": "Joint necessity/sufficiency and false-positive/negative controls",
+      "sampleS02CaseIds": [
+        "C02",
+        "C07",
+        "C09",
+        "C12",
+        "C18",
+        "C20",
+        "C21",
+        "C31"
+      ],
+      "ownerDisposition": "NOT_REQUESTED",
+      "approved": false
+    },
+    {
+      "id": "G04-D09",
+      "title": "G04 cross-case closure and carry-forward obligations",
+      "sampleS02CaseIds": [],
+      "ownerDisposition": "NOT_REQUESTED",
+      "approved": false
+    }
+  ],
+  "noCertification": true,
+  "sourceCaveat": "S02 cases are hypothetical; real BPS Productness and governing promises remain independently evidencable."
+}

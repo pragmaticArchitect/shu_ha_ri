@@ -1,0 +1,152 @@
+{
+  "sourceArchiveName": "INFOPS.zip (owner-uploaded 2026-10-19; root shu_ha_ri/)",
+  "sourceArchiveSha256": "7e52ec20288b73924d46bf7bcedaef7dd74ae73a348761d895edf53a154a6ca2",
+  "sourceArchiveFileCount": 60,
+  "protectedFileCount": 27,
+  "retentionPolicy": "User-uploaded S01-S03 research text, code and data preserved byte-for-byte; only S03 historical checksum-attestation metadata rebased to actual user baseline (see baseline-reconciliation.json).",
+  "files": [
+    {
+      "path": "docs/foundations/crude-oil-to-driver-teaching-analogy.md",
+      "sha256": "1f7d71a93cffaf0360979efbee2d990bb9f95ff9b7419f35b5b2232da397170a",
+      "sizeBytes": 9474
+    },
+    {
+      "path": "docs/ontology/p01-stage-01-authority-and-ontology-baseline.md",
+      "sha256": "859bb9f2b7dc5ee2e15c7f2bf0cda26a96ce8635585b4ddfba9246705ce9b25c",
+      "sizeBytes": 13760
+    },
+    {
+      "path": "docs/ontology/p01-stage-01-classification-cases.md",
+      "sha256": "21f3d693021edaaa913553e3e188211c37ede07fc40acc742f1e89fd5f21b052",
+      "sizeBytes": 6333
+    },
+    {
+      "path": "docs/ontology/p01-stage-01-ontology-review.md",
+      "sha256": "46e526ad5739a21f1811224b50ef4adb9d84b7b6d9e492c76bcd61d6dad9cbea",
+      "sizeBytes": 16845
+    },
+    {
+      "path": "docs/ontology/p01-stage-01-realization-stress-tests.md",
+      "sha256": "649fad02ae46558d789a15452a38eb83a094792460bc0331a1ad39b889fe61c6",
+      "sizeBytes": 9726
+    },
+    {
+      "path": "docs/ontology/p01-stage-02-case-disposition-ledger.md",
+      "sha256": "181133aca1461096495a811a863acf888964372c683996483db47ca5fd5c33f7",
+      "sizeBytes": 12738
+    },
+    {
+      "path": "docs/ontology/p01-stage-02-cross-enterprise-realization-tests.md",
+      "sha256": "c15fc34f3cd78b74d4affc2d8b7bf7710f120877f42518699cd9b2f25e6f5779",
+      "sizeBytes": 11589
+    },
+    {
+      "path": "docs/ontology/p01-stage-02-hypothesis-dispositions.md",
+      "sha256": "fca9d2c169d1058f031c3ed762dca3e93f2b1c7d9863b96c778f7b4a4cc6d20c",
+      "sizeBytes": 13219
+    },
+    {
+      "path": "docs/ontology/p01-stage-02-pin-differentiation-falsification.md",
+      "sha256": "aa29ab64eb57767aaa314ffdd9f411e0ee03936145bc9dc6f7ce6154869e0a16",
+      "sizeBytes": 16531
+    },
+    {
+      "path": "docs/ontology/p01-stage-03-boundary-casework.md",
+      "sha256": "81ded9b19910771bd9232102007f0f48edaeb356a83b484469b07f5784c8f65a",
+      "sizeBytes": 9746
+    },
+    {
+      "path": "docs/ontology/p01-stage-03-candidate-qualification-rules.md",
+      "sha256": "34ed70c4d57fd87f6af1b87effa784297d7371cbefe71ab639545332e9e9c258",
+      "sizeBytes": 13136
+    },
+    {
+      "path": "docs/ontology/p01-stage-03-decision-procedure.md",
+      "sha256": "53fed6b6279db23c481e8f829fdcabcd28efacf91683a6960234441d343e29e3",
+      "sizeBytes": 8724
+    },
+    {
+      "path": "docs/ontology/p01-stage-03-pfi-semantic-invariance.md",
+      "sha256": "736c1433f3cd559a34d503655d3ce481de0120e97ab18d848c10ceb2b6421114",
+      "sizeBytes": 8510
+    },
+    {
+      "path": "docs/ontology/p01-stage-03-review-decisions.md",
+      "sha256": "f0deded80275fd1b48b9eb3f8c7a30f8e07dc4b16b359b1005010888d976de6d",
+      "sizeBytes": 6018
+    },
+    {
+      "path": "research/p01-s02/cases.json",
+      "sha256": "770b64be7cc628a786382e37c986a50dac29484b08b67bda83c02556b0062d4f",
+      "sizeBytes": 15655
+    },
+    {
+      "path": "research/p01-s02/hypothesis-tests.json",
+      "sha256": "489492c5ec215aa141e83372f262926d41ce231e5c5f02656cb59953edd93ed7",
+      "sizeBytes": 6602
+    },
+    {
+      "path": "research/p01-s02/realization-experiments.json",
+      "sha256": "ec0126dccba5e71c3861e0b32ab032dd5639aa57e07368ce1483ad720992497d",
+      "sizeBytes": 4266
+    },
+    {
+      "path": "research/p01-s02/research-decisions.json",
+      "sha256": "e38f2edf5172d3a938f15af1b9afe4fabbb6c440debb78ce5f710370ca0c8a8b",
+      "sizeBytes": 1802
+    },
+    {
+      "path": "research/p01-s03/baseline-integrity.json",
+      "sha256": "2991c5a3de5c8beec9d5c379b57772f4ca069a8876c7cdbbb2e849ca11cb256b",
+      "sizeBytes": 1727
+    },
+    {
+      "path": "research/p01-s03/candidate-rules.json",
+      "sha256": "125f78e8d7d4288035a3fbf5829308c5576a46869d8d9b9b8ffc141ea48924ee",
+      "sizeBytes": 3397
+    },
+    {
+      "path": "research/p01-s03/case-evaluations.json",
+      "sha256": "317bcbde834608d73ebff68b7ee8b8e5c8773a0529c02211c7e521bcdacf44f6",
+      "sizeBytes": 9249
+    },
+    {
+      "path": "research/p01-s03/review-decisions.json",
+      "sha256": "fc6552e17fd3a8027c0f25918f25460461eff16c485effb97691f3bebb5e5754",
+      "sizeBytes": 2779
+    },
+    {
+      "path": "research/p01-s03/teaching-analogy.json",
+      "sha256": "93cb5d50ff78665b80e79f0457cecd332cb661c4c4b6834ad5a3103251bc1d66",
+      "sizeBytes": 2764
+    },
+    {
+      "path": "scripts/run-p01-s02-synthetic-probes.py",
+      "sha256": "811031902d48ebcfdad5a0f49041ae2b15042982ee2e5f022d4805ec8517eb79",
+      "sizeBytes": 2729
+    },
+    {
+      "path": "scripts/validate-infops-p01-s02.py",
+      "sha256": "9675e5d0c2d18324065c78a8b30015e05ccea96b6d959bf2d162a2e0e23e1045",
+      "sizeBytes": 4839
+    },
+    {
+      "path": "scripts/validate-infops-p01-s03.py",
+      "sha256": "79c4a399ce2ba2264d1dfbc0e210f331d6267a6aee7ba865ca5079a6c3127d02",
+      "sizeBytes": 8016
+    },
+    {
+      "path": "static/spec/infops/0.1/scaffold-state.json",
+      "sha256": "b40da5e02e00f64571bc31ba48df827c1ad2299dee9c884ff817c716c2c6cda5",
+      "sizeBytes": 637
+    }
+  ],
+  "originalS03Comparison": {
+    "archiveName": "infops-0.1-p01-s03-qualification-draft-and-analogy-cumulative.zip",
+    "archiveSha256": "af19e10c80d52f66363f2e2e37955f6c8db8555a6cfc5ede508fcd0516da488d",
+    "originalFileCount": 68,
+    "differences": [
+      "docs/ontology/p01-stage-02-cross-enterprise-realization-tests.md"
+    ]
+  }
+}

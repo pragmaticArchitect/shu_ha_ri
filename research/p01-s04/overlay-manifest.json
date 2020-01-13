@@ -1,0 +1,186 @@
+{
+  "overlayId": "INFOPS-P01-S04-G01-G03-OWNER-BASELINE-RECONCILED-2026-10-19",
+  "appliesTo": "Exact owner-supplied INFOPS.zip, root shu_ha_ri/",
+  "baselineArchive": "INFOPS.zip",
+  "sourceZipTopDirectory": "shu_ha_ri/",
+  "baselineArchiveSha256": "7e52ec20288b73924d46bf7bcedaef7dd74ae73a348761d895edf53a154a6ca2",
+  "baselineFileCount": 60,
+  "referenceS03Archive": "infops-0.1-p01-s03-qualification-draft-and-analogy-cumulative.zip",
+  "referenceS03ArchiveSha256": "af19e10c80d52f66363f2e2e37955f6c8db8555a6cfc5ede508fcd0516da488d",
+  "ownerReview": {
+    "G01": "15/15 reviewed; granular dispositions not embedded",
+    "G02": "7/7 approved",
+    "G03": "10/10 approved or approved as amended; conditional research gate closure",
+    "G04": "prepared, not approved"
+  },
+  "researchOnly": true,
+  "normativeReleaseAuthorized": false,
+  "sourcePinsAdopted": false,
+  "qualifiedProductsIssued": 0,
+  "newFiles": 16,
+  "addedFiles": 16,
+  "modifiedFiles": 10,
+  "baselinePreservation": "One S03 integrity metadata file explicitly rebased to the uploaded S02 text; all existing S01/S02/S03 research source content unchanged.",
+  "payloadFilesExcludingThisManifest": [
+    {
+      "path": "INFOPS-P01-S04-MERGE-NOTES.md",
+      "kind": "ADDED",
+      "sha256": "88b0a47f35cc9e8c7369f5ee5c4446a8648e7d790a5db90fed735501f462aba8",
+      "sizeBytes": 3806
+    },
+    {
+      "path": "README.md",
+      "kind": "MODIFIED",
+      "sha256": "5a562fc53b945d9595ba2a8fbc94d39f3d5b0dbb2b716aa54d5f7a5f149259c5",
+      "sizeBytes": 9136,
+      "priorSha256": "4bcd0fa52fafc5c3078ac671ff139bfd1a3951f4a70a7412032d14a0bd842cef"
+    },
+    {
+      "path": "docs/intro.md",
+      "kind": "MODIFIED",
+      "sha256": "03892f214da4efbe17ccdf1dd5a01a3f796af2dd7052b723ff7e21aa77df1b70",
+      "sizeBytes": 2225,
+      "priorSha256": "575412ffb7bdc2252de5f8a5adf86abd069d4a78f9f62dd26e8da2fa765d0331"
+    },
+    {
+      "path": "docs/ontology/overview.md",
+      "kind": "MODIFIED",
+      "sha256": "075a50200266c82ff28b7f3cf3ff2225829c02d8b94cacd52718048825405c1a",
+      "sizeBytes": 3483,
+      "priorSha256": "3a772c40b4aa000a459d20204fce61ab0a9d3fe80fdd26cc629251e3cc996d01"
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-artifact-boundaries.md",
+      "kind": "ADDED",
+      "sha256": "db1e76f074d73a87db0d65e10d23caaadc0102a97dbaffcd33ca563d8ceb336e",
+      "sizeBytes": 5741
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-g04-plan.md",
+      "kind": "ADDED",
+      "sha256": "33746ef6608aee5b172a1edd9dc55fbec287c96dc4fb6ac8cddfc3e0b71ac740",
+      "sizeBytes": 4915
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-overview.md",
+      "kind": "ADDED",
+      "sha256": "f67e4b5941ea3be246f4464a17fe42290604b6366e95b65438289fb1f64e5ad0",
+      "sizeBytes": 4473
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-owner-decisions.md",
+      "kind": "ADDED",
+      "sha256": "352ceeb600a6c5b9b39b0be19c77f9d81d2fc17ed7d8885ec1642bd3ab805f75",
+      "sizeBytes": 6762
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-release-holds.md",
+      "kind": "ADDED",
+      "sha256": "975abe93c60c0126fd125c6d8177dfb6728309a10e45b1ad32ca04079fa4d18a",
+      "sizeBytes": 3681
+    },
+    {
+      "path": "docs/ontology/p01-stage-04-source-authorities.md",
+      "kind": "ADDED",
+      "sha256": "954af50bac0050a948e537bbe13d253666f7b581550f337504febf34aa9329dc",
+      "sizeBytes": 7751
+    },
+    {
+      "path": "docs/specification/overview.md",
+      "kind": "MODIFIED",
+      "sha256": "06be6001f29e3b274d32134b38f334ac1b8cc7935c119bd52b802b86fde7691a",
+      "sizeBytes": 2528,
+      "priorSha256": "8dad8f778559d0b60f79894302f6f3bbf2c7f733e83b644b347e5cbdaa8729a1"
+    },
+    {
+      "path": "docs/specification/roadmap.md",
+      "kind": "MODIFIED",
+      "sha256": "5cdea8be29228ac25424bdc26b2d25e43e59f1933b526053c4e148e65eb99196",
+      "sizeBytes": 3076,
+      "priorSha256": "e02b56271ddbfeace2726717a167615a64afdd850bb793bc2702651c1186a89c"
+    },
+    {
+      "path": "docs/specification/status.md",
+      "kind": "MODIFIED",
+      "sha256": "6f0018d707094cb97fcc73a4b0284610679b5b2b09791d5e0cbc57e738a0844d",
+      "sizeBytes": 2495,
+      "priorSha256": "32663192a2b9ddef75402f94c4c6ca1a80ce58ec4b3e616f77df7a1ae43da891"
+    },
+    {
+      "path": "package.json",
+      "kind": "MODIFIED",
+      "sha256": "f4b77381ea28e0e3ba99f314ec18c3b3470f949aec1e7cbedccff485ed8d7395",
+      "sizeBytes": 821,
+      "priorSha256": "d51da89170412256c528ae5baae41e6725be5d0c9ab7587022f1fd5313cfcea5"
+    },
+    {
+      "path": "research/p01-s03/baseline-integrity.json",
+      "kind": "MODIFIED",
+      "sha256": "2991c5a3de5c8beec9d5c379b57772f4ca069a8876c7cdbbb2e849ca11cb256b",
+      "sizeBytes": 1727,
+      "priorSha256": "da369761d1bc30908a75f40f3abf05329e873af57ffede2430c0adcf399a6c0c"
+    },
+    {
+      "path": "research/p01-s04/baseline-reconciliation.json",
+      "kind": "ADDED",
+      "sha256": "e8cf7526df0783f5fe47f58e07d184343bb9d1aa22af8b0b170897bbedf6b630",
+      "sizeBytes": 2475
+    },
+    {
+      "path": "research/p01-s04/g04-proposed-owner-review-sequence.json",
+      "kind": "ADDED",
+      "sha256": "d79d80fc8353e8c6957b17405a0426cf47635bf20d4d8788d47a87bc178ec46d",
+      "sizeBytes": 2841
+    },
+    {
+      "path": "research/p01-s04/normative-release-holds.json",
+      "kind": "ADDED",
+      "sha256": "8aae6f7e9fe353f0f1b3f902ce9de2cef56a094e4ce5d15a6528e9668d08d97b",
+      "sizeBytes": 4285
+    },
+    {
+      "path": "research/p01-s04/owner-decision-register.json",
+      "kind": "ADDED",
+      "sha256": "af68cce45aebf34bb91b907ff5ddb18f19b6919e692ebb00dd324f3563dce1c8",
+      "sizeBytes": 8495
+    },
+    {
+      "path": "research/p01-s04/research-state.json",
+      "kind": "ADDED",
+      "sha256": "871c65a3d70dcf548d456a7ce75c68116faf9d647bcbc5aea6c8eb4ed831f075",
+      "sizeBytes": 1058
+    },
+    {
+      "path": "research/p01-s04/s03-protected-file-hashes.json",
+      "kind": "ADDED",
+      "sha256": "714b42408d6ca4d6e4a25aa51c6e9140556c881c9cb07a3dc049a45b0538927c",
+      "sizeBytes": 5815
+    },
+    {
+      "path": "research/p01-s04/source-authority-register.json",
+      "kind": "ADDED",
+      "sha256": "5e44b70a48f41131b875a6c4a9a8397f53fd0259370aefbbff441e439ad9d40b",
+      "sizeBytes": 7331
+    },
+    {
+      "path": "scripts/validate-infops-p01-s04.py",
+      "kind": "ADDED",
+      "sha256": "f338939c92cde1f945d4fb382ea894c2d13fd330cb8a84af36cde0b25857f6a4",
+      "sizeBytes": 9238
+    },
+    {
+      "path": "sidebars.js",
+      "kind": "MODIFIED",
+      "sha256": "235f19b4ba687b6437fd968919604f9380fcbb69ef36d32f28eada14f9cafccc",
+      "sizeBytes": 2145,
+      "priorSha256": "c283f31c2a94b592ac762c433c96f9d24b3916f4c68d842bf318ff1a59e43697"
+    },
+    {
+      "path": "src/pages/index.js",
+      "kind": "MODIFIED",
+      "sha256": "05630f2905f73d17a1c8aa854cfcbc22ffa74a05699967f16c4d58f034afa1b3",
+      "sizeBytes": 2994,
+      "priorSha256": "8fff7fecb1bb806fbbc4076a64e197f5b1e18243227e686ecd2d7a4fc7f009a6"
+    }
+  ]
+}

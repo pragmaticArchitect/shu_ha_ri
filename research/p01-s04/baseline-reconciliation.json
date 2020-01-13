@@ -1,0 +1,58 @@
+{
+  "project": "INFOPS",
+  "stage": "P01-S04",
+  "normative": false,
+  "sourceArchive": "INFOPS.zip",
+  "sourceArchiveSha256": "7e52ec20288b73924d46bf7bcedaef7dd74ae73a348761d895edf53a154a6ca2",
+  "sourceZipTopDirectory": "shu_ha_ri/",
+  "sourceFileCount": 60,
+  "sourceDirectoryMemberCount": 33,
+  "comparedReference": "infops-0.1-p01-s03-qualification-draft-and-analogy-cumulative.zip",
+  "comparedReferenceSha256": "af19e10c80d52f66363f2e2e37955f6c8db8555a6cfc5ede508fcd0516da488d",
+  "priorS03ReferenceFileCount": 68,
+  "ownerFilesPreservedExceptListedAttestations": true,
+  "s02s03ResearchFilesModified": false,
+  "userBaselineVsPriorS03": {
+    "contentDifferences": [
+      {
+        "path": "docs/ontology/p01-stage-02-cross-enterprise-realization-tests.md",
+        "priorS03Sha256": "a884c6ddcb02cc338c9ac0614b7f36c7cfcc5bb5154444b5fe0a2b175d17aacb",
+        "ownerUploadedSha256": "c15fc34f3cd78b74d4affc2d8b7bf7710f120877f42518699cd9b2f25e6f5779",
+        "priorS03SizeBytes": 11586,
+        "ownerUploadedSizeBytes": 11589,
+        "difference": "One comparison spelling in PFI-F3 freshness condition: \"<=1\" in prior archive, \" < = 1\" in owner upload.",
+        "treatment": "Owner-uploaded bytes retained unchanged."
+      }
+    ],
+    "priorReferenceOnlyPaths": [
+      ".editorconfig",
+      ".github/workflows/docs-ci.yml",
+      ".gitignore",
+      "static/spec/infops/0.1/contexts/.gitkeep",
+      "static/spec/infops/0.1/descriptors/.gitkeep",
+      "static/spec/infops/0.1/examples/.gitkeep",
+      "static/spec/infops/0.1/schemas/.gitkeep",
+      "static/spec/infops/0.1/shapes/.gitkeep",
+      "static/spec/infops/0.1/testcases/.gitkeep"
+    ],
+    "ownerOnlyPaths": [
+      "LICENSE"
+    ]
+  },
+  "attestationChanges": [
+    {
+      "path": "research/p01-s03/baseline-integrity.json",
+      "reason": "S03 validator pins S02 content. Rebased one expected SHA-256 to match the owner-provided S02 file without changing research text.",
+      "priorAttestationSha256": "da369761d1bc30908a75f40f3abf05329e873af57ffede2430c0adcf399a6c0c",
+      "newAttestationSha256": "2991c5a3de5c8beec9d5c379b57772f4ca069a8876c7cdbbb2e849ca11cb256b"
+    },
+    {
+      "path": "research/p01-s04/s03-protected-file-hashes.json",
+      "reason": "S04 guard now binds owner-provided S01-S03 research file hashes and user ZIP provenance."
+    }
+  ],
+  "researchOnly": true,
+  "normativeSourcePinsAdopted": false,
+  "qualifiedProducts": 0,
+  "g04OwnerAdjudications": 0
+}

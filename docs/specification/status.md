@@ -2,22 +2,26 @@
 title: Status & Release Posture
 ---
 
-# Status & release posture
+# Status and release posture
+
+> **CURRENT OWNER-REVIEWED RESEARCH POSITION (19 October 2026) - NOT NORMATIVE.** S04-G01, G02 and G03 are closed at their owner-reviewed research level. G03 closure is **conditional**, subject to source-version and adoption holds. G04 has been prepared but has not received owner disposition.
 
 | Area | State |
 |---|---|
-| Site / repository | Initialized; prior working Netlify/Webpack compatibility override preserved |
-| INFOPS-P01 Stage 1 | Preserved **non-normative** authority baseline, H01–H10 and initial C01–C28 challenge cases |
-| INFOPS-P01 Stage 2 | Preserved **non-normative owner-review draft**: 36 hypothetical case dispositions, 16 falsification tests, ten PFI experiments |
-| **INFOPS-P01 Stage 3** | **Owner-review research draft**: candidate Q0–Q5 predicates, decision procedure, 20 new boundary casework records, PFI invariance protocol and informative teaching analogy |
-| INFOPS Product-family qualification | **Not adopted**: joint sufficiency unproven; no certification allowed |
-| S01/S02/S03 owner acceptance | **Not automatically granted** by adding these research pages |
-| INFOPCH characteristic catalogue | Not defined (planned P02) |
-| PMDD characteristic maturity and weights | Not defined (planned P03/P04) |
-| Information Product descriptors | Not defined (planned P05) |
-| Machine-readable conformance | Not defined (planned P06) |
-| Normative INFOPS 0.1 publication | **Not released** |
+| Site / repository | Docusaurus baseline; existing Netlify/Webpack compatibility preserved |
+| P01-S01, S02, S03 source history | Preserved non-normative source files and historical S03 draft decision ledger |
+| **P01-S04-G01** | **CLOSED** - 15/15 owner-reviewed research findings; original G01 per-finding texts not reproduced in this overlay |
+| **P01-S04-G02** | **CLOSED** - seven owner-reviewed Q0-Q5/X01 research findings, with no sufficiency proof |
+| **P01-S04-G03** | **CLOSED - CONDITIONAL RESEARCH** - ten owner-reviewed decisions through D10; normative source adoption NOT READY |
+| **P01-S04-G04** | Prepared proposed nine-decision review sequence; **NOT YET OWNER ADJUDICATED** |
+| G05/G06/G07 | Pending; qualification/realization/maturity separation, evidence, and normative release governance |
+| BPS/PIN, GEARM and BPS DPP normative pins | Incomplete; release/adoption blockers carried forward |
+| INFOPROD, INFOPDS, Information DPP Profile | Architectural direction approved; formal semantic/deployment/trust specifications not yet adopted |
+| HDIP HPD | Operational projection only; not a family qualification or passport authority |
+| Actual Products qualified | **Zero** |
+| INFOPS family necessary-and-sufficient predicate | **Not established** |
+| INFOPS 0.1 normative publication | **NOT RELEASED / NOT AUTHORIZED** |
 
-Review the [Stage 3 candidate rules](../ontology/p01-stage-03-candidate-qualification-rules.md), [decision procedure](../ontology/p01-stage-03-decision-procedure.md), [20 boundary casework records](../ontology/p01-stage-03-boundary-casework.md) and [owner decision register](../ontology/p01-stage-03-review-decisions.md). The KivaNura [crude-oil-to-driver analogy](../foundations/crude-oil-to-driver-teaching-analogy.md) is **informative only**, not a qualification rule or mandatory DII pipeline.
+See the [S04 overview](../ontology/p01-stage-04-overview.md), [owner decision register](../ontology/p01-stage-04-owner-decisions.md), [source authority inventory](../ontology/p01-stage-04-source-authorities.md), [artifact boundaries](../ontology/p01-stage-04-artifact-boundaries.md), [release holds](../ontology/p01-stage-04-release-holds.md) and [G04 proposed review plan](../ontology/p01-stage-04-g04-plan.md).
 
-All previous S01/S02 research findings remain preserved and subject to the applicable owner review.
+`research/p01-s04/research-state.json` records the current conversational owner-review projection. The earlier `static/spec/infops/0.1/scaffold-state.json` remains at its original S03 draft state on purpose, preserving historical traceability and the original S03 validator. Neither file constitutes a normative released INFOPS specification.
