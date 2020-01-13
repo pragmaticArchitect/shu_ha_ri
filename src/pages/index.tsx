@@ -56,6 +56,25 @@ export default function Home(): React.JSX.Element {
       </header>
 
       <main>
+        <section className={styles.wormholeSection} aria-labelledby="dii-wormhole-heading">
+          <div className="container">
+            <div className={styles.wormholeHeading}>
+              <h2 id="dii-wormhole-heading">The DII Wormhole Concept</h2>
+              <p>
+                HDIP is conceived as a trusted shortcut between Product Owner Symbiants and consumers across Data, Information and Intelligence — reducing interaction distance while preserving the governed path.
+              </p>
+            </div>
+            <figure className={styles.wormholeFigure}>
+              <img
+                src="/img/hdip/dii-wormhole-concept.png"
+                alt="DII Wormhole Concept showing HDIP as a shortcut across a U-folded interaction space between Product Owner Symbiants and consumers"
+                className={styles.wormholeImage}
+                loading="eager"
+              />
+            </figure>
+          </div>
+        </section>
+
         <section className={styles.section}>
           <div className="container">
             <h2>One platform, preserved authorities</h2>

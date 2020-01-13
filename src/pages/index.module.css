@@ -26,6 +26,33 @@
   margin-top: 1.5rem;
 }
 
+.wormholeSection {
+  padding: 3rem 0 1rem;
+}
+
+.wormholeHeading {
+  max-width: 900px;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+}
+
+.wormholeHeading p {
+  margin-bottom: 0;
+  font-size: 1.06rem;
+}
+
+.wormholeFigure {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.wormholeImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
 .section {
   padding: 3rem 0;
 }
