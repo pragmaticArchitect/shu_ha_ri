@@ -62,6 +62,16 @@ The **Data Product Stage 0–10** sequence is a family-specific canonical specia
 
 The semantic corpus **remains outside HDIP's source authority**; Registry entries, projections and compilation results do not create Product qualification or assurance. PROD, PDS and DPP are only applicable where their family/trust specifications require or define them.
 
+### Runtime, Information formation and Intelligence execution (M15-V05)
+
+**M15-V05 — Runtime, Formation & Execution** depicts one canonical **P3** with three peer typed runtime ABBs. It places runtime execution in its surrounding governed **P1** context, **P2** realization/binding intelligence, **P4** provision and consumer-facing discovery/consumption experience, and **P5** outcome/value/evolution loop.
+
+[![HDIP M15-V05 one integrated Runtime, Formation and Execution Plane and interactions with other HDIP Planes](/img/hdip/cla/hdip-cla-0.1-m15-v05-runtime-formation-execution-preview.png)](/img/hdip/cla/hdip-cla-0.1-m15-v05-runtime-formation-execution.svg)
+
+[Read the M15-V05 companion page](/docs/architecture/cla/views/hdip-cla-0.1-m15-v05-runtime-formation-execution) · [Open full-size SVG](/img/hdip/cla/hdip-cla-0.1-m15-v05-runtime-formation-execution.svg) · [Editable draw.io source](/diagrams/hdip-cla/0.1/hdip-cla-0.1-m15-v05-runtime-formation-execution.drawio.xml)
+
+Governed discovery can support either **pure consumption** or **intentional Product creation/evolution**. Metadata search, semantic search, Concierge and agent-mediated discovery can serve **both** purposes; discovery does not automatically establish a new Product.
+
 ### Earlier HDIP and supporting illustrations
 
 The following illustrations are retained to explain earlier HDIP concepts and related Product/Platform ideas. In particular, the **2017–2019 HDIP architecture illustration** uses historical PDEP/CEP/COVP and governance terminology; it is **not** the canonical five-Plane model established by HDIP-CLA 0.1.

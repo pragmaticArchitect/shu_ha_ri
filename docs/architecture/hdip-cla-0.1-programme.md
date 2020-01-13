@@ -22,6 +22,8 @@ The [M15-V03 Product Development & Evolution (PDEP) View](/docs/architecture/cla
 
 The [M15-V04 Registry, Resolution, Projection & Compilation View](/docs/architecture/cla/views/hdip-cla-0.1-m15-v04-registry-resolution-projection-compilation) shows how an **externally governed Enterprise Semantic Corpus**, canonical logical Registries and P1/P2 responsibilities ground Product intent, resolve reference context and produce the distinct M09 operational projections and compilation artifacts. HPD remains the HDIP Product projection; applicable PROD/PDS/DPP family or trust artifacts retain their separate authorities.
 
+The [M15-V05 Runtime, Formation & Execution View](/docs/architecture/cla/views/hdip-cla-0.1-m15-v05-runtime-formation-execution) presents the **three peer P3 ABB responsibilities** for Data processing, Information formation and Intelligence execution. It links P3 to P1 governing context, P2 binding/rebinding, P4 governed discovery/consumption and P5 outcome/value/evolution, preserving the choice between **pure consumption** and optional, intentionally qualified Product creation.
+
 ## Programme stages
 
 | Stage | Purpose |
