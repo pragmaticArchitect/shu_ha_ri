@@ -19,6 +19,10 @@ const sidebars: SidebarsConfig = {
         'architecture/cla/hdip-cla-0.1-m09-registry-descriptor-projection-compilation-architecture',
         'architecture/cla/hdip-cla-0.1-m10-pdep-architecture',
         'architecture/cla/hdip-cla-0.1-m11-sscf-cep-architecture',
+        'architecture/cla/hdip-cla-0.1-m12-canonical-inter-plane-interaction-model',
+        'architecture/cla/hdip-cla-0.1-m13-external-adjacent-system-boundary-model',
+        'architecture/cla/hdip-cla-0.1-m14-realization-profile-patterns',
+        'architecture/cla/hdip-cla-0.1-m15-canonical-reference-views',
       ],
     },
     {

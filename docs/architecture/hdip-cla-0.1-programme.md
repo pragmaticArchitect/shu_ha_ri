@@ -48,7 +48,11 @@ The programme is responsibility-first and deliberately avoids freezing logical p
 | **M09 — Registry, Descriptor, Projection & Compilation Architecture** | **Complete** |
 | **M10 — Product Development & Evolution Architecture — PDEP** | **Complete** |
 | **M11 — Product Consumption & Runtime Architecture — SSCF / CEP** | **Complete** |
-| **M12 — Canonical Inter-Plane Interaction Model** | Next |
+| **M12 — Canonical Inter-Plane Interaction Model** | **Complete** |
+| **M13 — External & Adjacent-System Boundary Model** | **Complete** |
+| **M14 — HDIP Realization / Profile Patterns** | **Complete** |
+| **M15 — Canonical Reference Views** | **Complete** |
+| **M16 — Architecture Invariants & Conformance Model** | Next |
 
 ## Foundational proposition
 
