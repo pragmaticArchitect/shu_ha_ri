@@ -732,3 +732,12 @@ All eight `G07-D01-F01` through `G07-D08-F01` decisions were expressly owner-app
 | G07-D08-F01 | Consolidated Readiness Finding and Conditional G07 Closure | 22 |
 
 Full clause-level research summaries: [G07 owner-approved decisions](./p01-stage-04-g07-owner-approved-decisions.md). Closure: [G07 research closure](./p01-stage-04-g07-closure-record.md). All `G06-RO01–RO12` and `G03-R01–R12` remain **OPEN**; G06 E0 62 designs, E1 0, E2 0. Q0–Q5 and F06/F14/F16 are unchanged. S04 is NOT_CLOSED. No normative source pins/schemas, tests or publication are authorized. Earlier dated records above remain historical snapshots and must not be interpreted as the current gate status.
+
+
+## S04 stage consolidation — owner approvals, 3 November 2026
+
+C01–C06 are **six approved S04 consolidation decisions**, separate from the **65** original substantive G01–G07 research decisions. C01 charter (22 clauses), C02 evidence integrity (24), C03 ontology/artifact authority (24), C04 residual obligations (26), C05 closure recommendation (28), and C06 closure decision (30) were expressly approved.
+
+**C06 approves only the target** `CLOSED_CONDITIONAL_RESEARCH (ONTOLOGY_AND_NORMATIVE_READINESS_UNRESOLVED)`. Under approved F01.6/F01.29, **effective S04 remains `NOT_CLOSED`** because original S04 stage criteria and absence of conflicting mandatory prerequisites are not independently verified; C02's exhaustive repository audit remains NOT_ESTABLISHED. The six approvals do not change original findings, discharge obligations, authorize tests, adopt normative sources/schemas or publish a specification.
+
+See [S04 C01–C06 approved findings](./p01-stage-04-s04-owner-approved-decisions.md) and [conditional closure effect](./p01-stage-04-s04-conditional-closure-effect.md).

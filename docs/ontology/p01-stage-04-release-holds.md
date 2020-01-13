@@ -52,3 +52,8 @@ The structured owner-reviewed hold record is `research/p01-s04/normative-release
 ## G07 normative-readiness reconciliation — 3 November 2026
 
 `G07-D07-F01` and `G07-D08-F01` were owner-approved. The G07 research gate is `CLOSED_CONDITIONAL_RESEARCH (NORMATIVE_READINESS_NOT_ESTABLISHED)`; **every hold R01–R12 above remains OPEN**, without waiver or risk acceptance. Source pins and INFOPROD, INFOPDS, Information DPP Profile and INFOPCH/PMDD normative governance remain unadopted. G06 residual obligations RO01–RO12 remain OPEN; 62 G06 E0 designs, E1=0 and E2=0. See [G07 closure](./p01-stage-04-g07-closure-record.md). S04 is NOT_CLOSED and normative publication is NOT_AUTHORIZED.
+
+
+## S04 C01–C06 owner decision effect — 3 November 2026
+
+All six S04 consolidation decisions have been owner-approved. **Every G03-R01–R12 normative-release hold remains OPEN**, and **every G06-RO01–RO12 residual obligation remains OPEN**. S04 C06 authorizes a target conditional research closure only; **effective S04 remains `NOT_CLOSED`** pending verification of original stage prerequisites. No source adoption, waiver, E1/E2 test result, normative readiness or publication permission follows. See [S04 closure-effect record](./p01-stage-04-s04-conditional-closure-effect.md).

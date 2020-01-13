@@ -26,7 +26,7 @@
   "publicationAuthorized": false,
   "historicalS03ScaffoldStatePreserved": true,
   "ownerApprovalIsNotNormativeRelease": true,
-  "nextDecision": "S04_STAGE_CLOSURE_NOT_INITIATED_REQUIRES_SEPARATE_OWNER_INSTRUCTION",
+  "nextDecision": "S04_CLOSURE_EFFECTIVENESS_PENDING_ORIGINAL_STAGE_CRITERIA_VERIFICATION_NO_NEXT_STAGE_AUTHORIZED",
   "ownerReviewedResearchDecisionsTotal": 65,
   "explicitApprovalsWithResearchSummaryAvailable": 65,
   "s02OwnerApprovedResearchDecisions": 6,
@@ -66,5 +66,15 @@
   "g07ResearchComplete": true,
   "g07NormativeReadinessEstablished": false,
   "g07ResidualAndReleaseHoldsPreserved": true,
-  "g03NormativeReleaseHoldsOpen": 12
+  "g03NormativeReleaseHoldsOpen": 12,
+  "s04CurrentStatus": "NOT_CLOSED",
+  "s04ConsolidationOwnerApprovedDecisions": 6,
+  "s04ConsolidationApprovalRegister": "research/p01-s04/s04-c01-c06-owner-approved-decisions.json",
+  "s04ConditionalClosureEffectRecord": "research/p01-s04/s04-conditional-closure-effect-record.json",
+  "s04C06OwnerDisposition": "APPROVE",
+  "s04OwnerApprovedTargetStatus": "CLOSED_CONDITIONAL_RESEARCH (ONTOLOGY_AND_NORMATIVE_READINESS_UNRESOLVED)",
+  "s04ClosureEffectiveness": "PENDING_ORIGINAL_STAGE_PREREQUISITE_VERIFICATION",
+  "s04OriginalStageCriteriaIndependentlyVerified": false,
+  "s04IndependentRepositoryAuditEstablished": false,
+  "s04ClosureDecisionSeriesCompleted": true
 }

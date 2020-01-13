@@ -5,7 +5,7 @@
   "normative": false,
   "publicationAuthorized": false,
   "recordType": "CONVERSATIONAL_OWNER_REVIEW_PROJECTION",
-  "basis": "57 distinct owner-reviewed non-normative research decisions: G01 15, G02 7, G03 10, G04 9, G05 8, G06 8. G06 closure E0_DESIGN_ONLY; all release holds OPEN.",
+  "basis": "65 distinct approved G01-G07 substantive research decisions (G01 15, G02 7, G03 10, G04 9, G05 8, G06 8, G07 8). Six additional S04-C01-C06 consolidation approvals separately recorded. S04 C06 target closure APPROVED but not effective pending original stage prerequisite verification; S04 remains NOT_CLOSED.",
   "provenanceWarning": "Original S02/S03 proposal snapshots remain intact. Their 15 subsequent research approvals, forming the S04-G01 closure basis, are now independently recorded in s02-s03-owner-approvals.json; full deliberations and individual amendment diffs were not supplied.",
   "gates": [
     {
@@ -1030,5 +1030,13 @@
   "g06ConversationApprovalProjectedToRepositoryOnSeparateOwnerInstruction": true,
   "g07Closure": "CLOSED_CONDITIONAL_RESEARCH (NORMATIVE_READINESS_NOT_ESTABLISHED)",
   "g07ConversationApprovalProjectedToRepositoryOnSeparateOwnerInstruction": true,
-  "stageS04Closed": false
+  "stageS04Closed": false,
+  "s04ConsolidationOwnerApprovalCount": 6,
+  "s04ConsolidationApprovalRegister": "research/p01-s04/s04-c01-c06-owner-approved-decisions.json",
+  "s04OwnerApprovedC06": "APPROVE",
+  "s04OwnerApprovedClosureTarget": "CLOSED_CONDITIONAL_RESEARCH (ONTOLOGY_AND_NORMATIVE_READINESS_UNRESOLVED)",
+  "s04CurrentEffectiveStatus": "NOT_CLOSED",
+  "s04ClosureEffectiveness": "PENDING_ORIGINAL_STAGE_PREREQUISITE_VERIFICATION",
+  "s04OriginalCompletionCriteriaVerified": false,
+  "s04ExhaustiveIndependentRepositoryAuditEstablished": false
 }
