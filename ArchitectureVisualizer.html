@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Query and Visualization</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.0/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gojs/2.1.48/go.js"></script>
+</head>
+<body>
+    <h1>Data Query and Visualization Interface</h1>
+    <form id="queryForm">
+        <label for="businessFlow">Business Flow:</label>
+        <select id="businessFlow" name="businessFlow" style="width: 100%;"></select><br><br>
+
+        <label for="layoutSelector">Select Layout:</label>
+        <select id="layoutSelector" name="layoutSelector" style="width: 100%;">
+            <option value="LayeredDigraphLayout">Layered Digraph</option>
+            <option value="ForceDirectedLayout">Force Directed</option>
+            <option value="TreeLayout">Tree</option>
+            <option value="CircularLayout">Circular</option>
+            <option value="GridLayout">Grid</option>
+        </select><br><br>
+
+        <button type="button" onclick="loadAndFilterData()">Query Data</button>
+    </form>
+    <div id="myDiagramDiv" style="width:1920px; height:800px; background-color: #DAE4E4;"></div>
+
+    <script>
+        var allData = []; // Global data storage
+        var myDiagram; // Global diagram reference
+
+        function loadData(callback) {
+            Papa.parse("./Transaction_Filtering_Mock_Data-1.csv", {
+                download: true,
+                header: true,
+                dynamicTyping: true,
+                complete: function(results) {
+                    allData = results.data;
+                    callback(); // Initialize diagram and dropdown after data is loaded
+                }
+            });
+        }
+
+        function populateDropdown() {
+            var businessFlows = new Set();
+            allData.forEach(item => businessFlows.add(item['Business Flow']));
+            var select = document.getElementById('businessFlow');
+            businessFlows.forEach(flow => {
+                var option = new Option(flow, flow);
+                select.add(option);
+            });
+            $('#businessFlow').select2({
+                placeholder: "Select a Business Flow",
+                allowClear: true
+            });
+
+            // Initialize the layout dropdown listener here to ensure it applies as soon as the diagram is initialized
+            document.getElementById('layoutSelector').addEventListener('change', function() {
+                applySelectedLayout();
+            });
+        }
+
+        function loadAndFilterData() {
+            const businessFlow = $('#businessFlow').val();
+            const filteredData = allData.filter(item => item['Business Flow'] === businessFlow);
+            updateDiagram(filteredData);
+        }
+
+
+
+        function initDiagram() {
+            var $ = go.GraphObject.make;
+            myDiagram = $(go.Diagram, "myDiagramDiv", {
+                initialContentAlignment: go.Spot.Center,
+                "undoManager.isEnabled": true
+            });
+
+           // Calculate the number of links for each node
+			function updateNodeSizes() {
+				var nodeDataArray = myDiagram.model.nodeDataArray;
+				var linkDataArray = myDiagram.model.linkDataArray;
+				console.log(nodeDataArray);
+				// Initialize a map to keep track of connection counts
+				var linkCountMap = {};
+				nodeDataArray.forEach(function(node) {
+					linkCountMap[node.key] = 0; // Initialize count for each node
+				});
+
+				// Count all links associated with each node
+				linkDataArray.forEach(function(link) {
+					console.log(link);
+					if (link.from !== undefined && link.to !== undefined) {
+						linkCountMap[link.from]++; // Increment link count for the source node
+						linkCountMap[link.to]++; // Increment link count for the destination node
+					}
+				});
+
+				// Update node sizes based on their link counts
+				nodeDataArray.forEach(function(node) {
+				console.log(node);
+					var count = linkCountMap[node.key];
+					var newSize = Math.max(50, 20 + count * 10); // Calculate size based on number of links
+					myDiagram.model.setDataProperty(node, "size", newSize);
+				});
+
+				// Refresh the diagram to apply changes
+				myDiagram.requestUpdate();
+			}
+
+            myDiagram.nodeTemplate =
+                $(go.Node, "Auto",   { toSpot: go.Spot.AllSides, fromSpot: go.Spot.AllSides }, { locationSpot: go.Spot.Center },
+                 new go.Binding("desiredSize", "size", go.Size.parse).makeTwoWay(go.Size.stringify),
+                    $(go.Shape, "RoundedRectangle", { fill: "white", strokeWidth: 0 }),
+					$(go.Panel, "Vertical",
+							$(go.TextBlock, { margin: 4 }, new go.Binding("text", "name")),
+							$(go.TextBlock, { margin: 4, font: "bold 10pt sans-serif" },
+							new go.Binding("text", "", function(data) {
+								return data.countryInfo.label + ": " + data.countryInfo.country;
+							}),
+							new go.Binding("stroke", "", function(data) {
+								return data.countryInfo.latencyRisk ? "red" : "black";
+							}))
+				    )
+                );
+
+
+
+
+
+            myDiagram.linkTemplate =
+                $(go.Link, { routing: go.Link.AvoidsNodes, corner: 5, curve: go.Link.JumpOver },
+                    $(go.Shape, { strokeWidth: 2 }),
+                    $(go.Shape, { toArrow: "Standard" }),
+                            $(go.Panel, "Auto",
+					            $(go.Shape, { fill: null, stroke: null }),
+					            $(go.TextBlock,
+					                {
+					                    textAlign: "center",
+					                    font: "bold 12pt sans-serif",
+					                    segmentIndex: -1,
+					                    segmentOffset: new go.Point(0, -10),
+					                    segmentOrientation: go.Link.OrientUpright
+					                },
+					                new go.Binding("text", "sequence"))
+                 )
+                );
+            updateNodeSizes();
+            applySelectedLayout();
+        }
+
+        function applySelectedLayout() {
+            var layoutType = document.getElementById('layoutSelector').value;
+            switch (layoutType) {
+                case 'LayeredDigraphLayout':
+                    myDiagram.layout = new go.LayeredDigraphLayout();
+                    break;
+                case 'ForceDirectedLayout':
+                    myDiagram.layout = new go.ForceDirectedLayout();
+                    break;
+                case 'TreeLayout':
+                    myDiagram.layout = new go.TreeLayout();
+                    break;
+                case 'CircularLayout':
+                    myDiagram.layout = new go.CircularLayout();
+                    break;
+                case 'GridLayout':
+                    myDiagram.layout = new go.GridLayout();
+                    break;
+                default:
+                    myDiagram.layout = new go.LayeredDigraphLayout();
+            }
+            myDiagram.layout.invalidateLayout(); // Force a re-layout
+        }
+
+        function updateDiagram(filteredData) {
+            var nodeDataArray = [];
+            var linkDataArray = [];
+            var nodeMapping = {};
+            var sequenceCount = 1;
+
+            filteredData.forEach(function (item) {
+                var nodes = item['Partner System Flow'].split('->').map(function (name) { return name.trim(); });
+                var previousNode = null;
+
+                nodes.forEach(function (node, index) {
+                    if (!nodeMapping[node]) {
+                        nodeMapping[node] = { key: node, name: node };
+                        nodeDataArray.push(nodeMapping[node]);
+                    }
+
+                    if (previousNode) {
+                        linkDataArray.push({
+                            from: previousNode.key,
+                            to: nodeMapping[node].key,
+                            sequence: sequenceCount++
+                        });
+                    }
+                    previousNode = nodeMapping[node];
+                });
+            });
+            console.log( nodeDataArray )
+            myDiagram.model = new go.GraphLinksModel(nodeDataArray, linkDataArray);
+            console.log( myDiagram.model.nodeDataArray )
+        }
+
+        window.addEventListener('DOMContentLoaded', (event) => {
+            loadData(() => {
+                initDiagram();
+                populateDropdown();
+            });
+        });
+    </script>
+</body>
+</html>
